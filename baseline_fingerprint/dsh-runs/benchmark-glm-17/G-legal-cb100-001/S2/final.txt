@@ -1,0 +1,26 @@
+**Position for the 2026-09-04 partner call — delivered.** Full memo with record-level citations: `CB-MA-2401_Project_Daybreak_signing_position_memo.md` (workspace root).
+
+## Can signing proceed?
+
+**Yes — with the gaps papered as closing conditions, not resolved first.** Every hard blocker in the record population is stated as a bar to **completion**, not to signing: "blocks completion" language governs the permit transfer (CBP-001-03, R164), revenue recognition (CBP-001-04, R532), copyleft exposure (CBP-001-09, R971), and both consent requirements. One caveat to confirm from the executed customer contract: if that contract treats *signing* (not closing) as the indirect-change-of-control trigger, the automaker consent moves into the signing path. The executed terms control; the records don't answer this.
+
+## The tooling and customer-consent gaps that must become closing conditions
+
+| Gap | Entity | Operative authority | Why it can't be assumed away |
+|---|---|---|---|
+| **Automaker change-of-control consent** (CBP-001-11, impact 93 — highest in population) | ENT-001-1010 | Talia Brooks under R473 (CB-DOC-001-023, REV-2025.4) | Roster names Dominic Alvarez — **capacity 0, "pending approval and inactive"** — the only zero-capacity entry in the population (CB-DOC-001-047). Operations cite Caleb Hassan/E439 (non-operative). No record resolves which path can deliver it. |
+| **Cathode-tooling anti-assignment consent** (CBP-001-08, impact 81) | ENT-001-1007 | Owen Delgado under R293 (CB-DOC-001-020, REV-2025.1) | Operations cite Nadine Flores/E111 on **REV-2024.0 — superseded**; the operative record itself states REV-2025.1 is later-effective and the matter-level control displaces seller summaries. Roster owner is a third name (Talia Brooks). |
+
+Draft both as **conditions requiring the consent itself, issued by the authority confirmed in the latest consent schedule** — not efforts covenants, and not keyed to any named individual, since the chains conflict on the face of the records.
+
+## What goes where
+
+- **Signing path:** resolve the CBP-001-01 crosswalk collision (ENT-001-1000 vs ENT-001-2000, no approved revision — the *only* subject that can't be bound to the exact acquired entity; roster control date 2026-09-03), then the R983 charter approval from Maya Ellison. No due-authorization rep can be given for that subject until identity is fixed.
+- **Closing conditions (also):** permits (CBP-001-03), revenue recognition (CBP-001-04), copyleft (CBP-001-09), and the security-incident approval (CBP-001-06, R990 — low friction, roster active).
+- **Priced exceptions, not gates:** MFC breach 18% vs 13% (CBP-001-05), covenant breach 13% vs 7% (CBP-001-02), the **already past-due** claims-made tail (CBP-001-07, due 2025-08-05), the Delaware activity outside the Washoe-County-only tax authority (CBP-001-10), and the invention-assignment defect (CBP-001-12 — confirmatory assignments + indemnity).
+
+## Timing
+
+Every roster control date lands by 2026-09-03. The two that matter most run **immediately before the call**: CBP-001-11's roster at **09-02** and CBP-001-01's crosswalk at **09-03**. Get both outcomes before the call — they're the factual inputs the position conditions on, and we did not guess through them.
+
+**Method note:** R-references (operative authority) controlled over E-references (operating assertions) throughout, per the matter-level rule repeated in every operative record; latest revision won the one revision conflict. Impact scores ranked but did not decide. All 96 records plus the impact workbook were read; conclusions are ours, as each record's reliance limits require — the files supply evidence, not dispositions.

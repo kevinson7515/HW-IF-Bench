@@ -1,0 +1,29 @@
+已完成分析并交付两份文件至 `output/` 目录。
+
+## 推荐结论：Gold Rewards Card（金卡奖励卡）
+
+**核心依据**（全部来自所附银行资料）：
+
+| 卡片 | 日常全场返现 | 年费 |
+| --- | --- | --- |
+| **Gold Rewards Card** | **2.5%** | **$0.00** ✅ |
+| Silver Rewards Card | 1.0%（旅行/软件 4%） | $0.00 |
+| Bronze Rewards Card | 1.0% | $0.00 |
+| Platinum Rewards Card | 10.0% | $200.00 |
+| Diamond Elite Card | 5.0% | $495.00（仅受邀） |
+| Crypto-Cash Back | 2.0%（加密货币） | $75.00 |
+
+**理由：**
+1. 日常消费（餐饮、超市、购物、娱乐、水电、交通）基本属于"全场/非类别"消费，而 Gold 的 **2.5% 全场返现**是 Rho-Bank **所有免年费个人卡中最高的**。
+2. 年费 **$0.00**，满足"尽量没有年费"。
+3. Sarah 的工作差旅走公司卡，所以 Silver 的 4% 旅行加成、以及 Platinum/Diamond 的旅行权益对她价值不大；软件类 4% 也只是窄类别。
+4. 返现更高的 Platinum（10%）和 Diamond（5%）都带高年费，且 Diamond 仅限受邀、Platinum 的 $150 返费需连续 12 个月每月消费 $7,500，不符合"尽量免年费"。
+
+**需注意的附加条件：**
+- Gold 卡**必须持有有效的 Rho-Bank+ 付费订阅**（银行资料未列出订阅价格，建议向银行确认后再评估净收益）。
+- 信用分需 **≥ $720**。
+- 若不愿开通订阅，次选为 Silver（软件/订阅多时 4%）或 Bronze（纯 1%）。
+
+交付文件：
+- `output/credit_card_recommendation.md`（完整中文推荐报告）
+- `output/credit_card_recommendation.json`（结构化对比与结论）

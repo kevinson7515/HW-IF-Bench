@@ -1,0 +1,53 @@
+{
+  "line": 27,
+  "id": 44,
+  "user_query": "根据附件比较端侧小语言模型部署的四类优化，分别分析量化、结构剪枝、知识蒸馏和注意力算子优化。注明实验模型、硬件、质量或性能指标的口径，区分论文实测与对端侧适用性的推断。",
+  "effective_query": "根据附件比较端侧小语言模型部署的四类优化，分别分析量化、结构剪枝、知识蒸馏和注意力算子优化。注明实验模型、硬件、质量或性能指标的口径，区分论文实测与对端侧适用性的推断。\n\nAttached files are available at the following paths. Read them as needed:\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_44/edge_model_corpus.md\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_44/AWQ.pdf\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_44/LLMPruner.pdf\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_44/MiniLLM.pdf\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_44/FlashAttention.pdf",
+  "attached_files": [
+    "attached_files/task_44/edge_model_corpus.md",
+    "attached_files/task_44/AWQ.pdf",
+    "attached_files/task_44/LLMPruner.pdf",
+    "attached_files/task_44/MiniLLM.pdf",
+    "attached_files/task_44/FlashAttention.pdf"
+  ],
+  "resolved_attached_files": [
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_44/edge_model_corpus.md",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_44/AWQ.pdf",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_44/LLMPruner.pdf",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_44/MiniLLM.pdf",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_44/FlashAttention.pdf"
+  ],
+  "archived_attachments": [
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_44/edge_model_corpus.md",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000027-44/inputs/attached_files/task_44/edge_model_corpus.md",
+      "size": 915,
+      "sha256": "f757c64b929fc1d4972ad824c390576082b5aa151886832d794e39dccbdb800e"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_44/AWQ.pdf",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000027-44/inputs/attached_files/task_44/AWQ.pdf",
+      "size": 3740132,
+      "sha256": "48bdf59ea52fccf40346ae129ef49d233ec9dcfe6b9b35e06002204c8123edfb"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_44/LLMPruner.pdf",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000027-44/inputs/attached_files/task_44/LLMPruner.pdf",
+      "size": 1598878,
+      "sha256": "8b2292dddcaa88f3801acf4d91f7aa276f2affc141215f5990a1af02984ce514"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_44/MiniLLM.pdf",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000027-44/inputs/attached_files/task_44/MiniLLM.pdf",
+      "size": 807024,
+      "sha256": "a96fbfb8fcb935aead8dd04d8e375bc12e149a48d5dd26c06e6f9e561c579fc6"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_44/FlashAttention.pdf",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000027-44/inputs/attached_files/task_44/FlashAttention.pdf",
+      "size": 2004922,
+      "sha256": "be21f20c749ba8443988b479bece93617dd37b214ea9099413f951f756d4104f"
+    }
+  ],
+  "started_at": "2026-11-06T10:06:19.255945+00:00"
+}

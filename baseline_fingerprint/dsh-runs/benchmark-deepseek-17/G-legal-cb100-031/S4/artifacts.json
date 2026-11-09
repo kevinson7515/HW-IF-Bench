@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "output",
+    "output/aurora_mdl_review_disposition_register.csv",
+    "output/aurora_mdl_review_note.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "output/aurora_mdl_review_disposition_register.csv",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1872575/G-legal-cb100-031/S4/artifacts/output/aurora_mdl_review_disposition_register.csv",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792707028000000000,
+      "type": "file",
+      "size": 2483,
+      "sha256": "7142e8b21f065a3b9e7b716c07352720a2903030b95b09158d20d92ad22b1b7e"
+    },
+    {
+      "path": "output/aurora_mdl_review_note.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1872575/G-legal-cb100-031/S4/artifacts/output/aurora_mdl_review_note.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792707028000000000,
+      "type": "file",
+      "size": 5069,
+      "sha256": "b0b70dd7d2a7b873401902840c5aa6174ae56b4430e064b998b64fdfa910db10"
+    }
+  ],
+  "entries": {
+    "output": {
+      "mode": 448,
+      "mtime_ns": 1792707028000000000,
+      "type": "directory"
+    },
+    "output/aurora_mdl_review_disposition_register.csv": {
+      "mode": 384,
+      "mtime_ns": 1792707028000000000,
+      "type": "file",
+      "size": 2483,
+      "sha256": "7142e8b21f065a3b9e7b716c07352720a2903030b95b09158d20d92ad22b1b7e"
+    },
+    "output/aurora_mdl_review_note.md": {
+      "mode": 384,
+      "mtime_ns": 1792707028000000000,
+      "type": "file",
+      "size": 5069,
+      "sha256": "b0b70dd7d2a7b873401902840c5aa6174ae56b4430e064b998b64fdfa910db10"
+    }
+  },
+  "deleted_entries": {}
+}

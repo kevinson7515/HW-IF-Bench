@@ -1,0 +1,80 @@
+I have gathered sufficient evidence from multiple sources. Here is my assessment.
+
+---
+
+# Can a 500,000-passenger airport generate significant, measurable socioeconomic impact?
+
+**Bottom line: The hypothesis is largely SUPPORTED — but with important caveats about measurement and context.** Multiple airports operating at roughly the 500,000 annual-passenger scale publish quantified economic-impact studies showing tens to hundreds of millions of dollars in output and hundreds of jobs. However, the peer-reviewed literature is more skeptical about *causality* and about whether small airports are genuine "engines" of growth versus a symptom of existing regional prosperity.
+
+---
+
+## 1. Direct case studies at the ~500,000-passenger scale
+
+These are the strongest evidence because the airports sit right at the hypothesized threshold.
+
+**Durango–La Plata County Airport (DRO), Colorado**
+- 2025 traffic: ~**560,000 total passengers** (563,009 travelers, a record, +13% over 2024).
+- Economic impact: **over $342 million annually** in the region (the airport's own 2025 data; the Durango Herald reports "$340 million in annual economic impact").
+- Sources: [flydurango.com announcement](https://www.flydurango.com/CivicAlerts.aspx?AID=4495), [Durango Herald](https://www.durangoherald.com/articles/news/durango-la-plata-county-airport-breaks-summer-records-on-track-for-record-breaking-year/).
+
+**Eagle County Regional Airport (EGE), Colorado**
+- 2024: **289,867 enplanements** (~580,000 total passengers when both directions are counted).
+- Economic impact (CDOT 2025 study): **$783.4 million** in total business revenue, **4,404 jobs** supported, **$269.3 million** annual payroll.
+- Source: [FlyEGE news release](https://flyege.com/eagle-county-regional-airport-reports-record-year-for-passenger-enplanements-and-highlights-strong-economic-impact/).
+
+**San Luis Obispo County Regional Airport (SBP), California**
+- 2019: **544,575 passengers** (a record at the time).
+- Economic impact (Volaire Aviation Consulting study): **$85.24 million/year**, **562 direct full-time jobs** on airport, **871 total FTE jobs** supported region-wide, **$14.3 million in taxes**, and a fly-in visitor impact of **$41.5 million** supporting **418 jobs**.
+- Notable marginal finding: the study estimated each *new flight* adds ~$6.2 million in annual economic impact.
+- Source: [SLO Chamber of Commerce](https://slochamber.org/airplane-engines-are-economic-engines/).
+
+**Santa Barbara Municipal Airport (SBA)** — slightly larger (~1.48 million passengers in 2025) but useful corroboration: total economic impact reported at **over $205 million**, with ~750 additional indirect/induced jobs.
+- Source: [UCSB/EDHAT report](https://www.edhat.com/news/ucsb-reports-on-sb-airports-economic-impact/).
+
+**Aggregate evidence for small-community airports**
+- The Regional Airline Association's study of **570 small-community airports** found they collectively generate **$134 billion** in economic activity, **1 million jobs**, and **$36 billion in wages** (and noted this *understates* the impact because it excludes economic-development effects).
+- Source: [RAA](https://raa.org/valuable-service-air-service-to-small-communities-generates-significant-economic-activity/).
+
+---
+
+## 2. Why these impacts occur at this scale
+
+The mechanisms are well documented in the airport-economic-impact literature (e.g., [ACRP's "Resources for Managing Small Airports"](https://crp.trb.org/acrpwebresource6/home/chapter-resources/chapter-6-communication-promoting-the-airport-and-connecting-with-the-community/6-5-economic-impact/)):
+
+1. **Direct employment** — airlines, FBOs, concessions, TSA, customs, ground handling, airport authority staff.
+2. **Visitor/spending multiplier** — fly-in tourists spend on lodging, car rentals, food, and retail (SLO's $41.5M visitor figure is a clean example).
+3. **Business connectivity** — access to hubs enables local firms to reach national/global markets and clients, which is the hardest-to-quantify but often-cited benefit.
+4. **"Leakage reduction"** — keeping local travelers from driving to a distant hub keeps spending in-region (Durango's director explicitly framed this as "the airport equivalent of buying local").
+
+---
+
+## 3. Evidence that REFUTES or qualifies the hypothesis
+
+The academic literature is notably more cautious than the airport-commissioned studies.
+
+**Button, Doh & Yuan (2010)** — *The role of small airports in economic development* (Journal of Airport Management), studying 66 small Virginia airports, found that prior research provides "**little clear evidence to support a strong positive correlation** between local air transportation and economic development" except for high-income tourist destinations, and that the **direction of causation is unclear** (airports may follow growth rather than cause it).
+- Source: [IDEAS/RePEc abstract](https://ideas.repec.org/a/aza/jam000/y2010v4i2p125-136.html).
+
+**Pot & Koster (2022)** — *Small airports: Runways to regional economic growth?* (Journal of Transport Geography), a panel of 274 European NUTS-2 regions (2000–2018), found that "**for most regions, the contribution of smaller airports in providing accessibility is found to be limited**." The long-run elasticity between air accessibility and GDP per capita was **0.022 for small airports** versus **0.179 for large airports**, and causality "mainly runs from economic growth to air accessibility."
+- Source: [IDEAS/RePEc abstract](https://ideas.repec.org/a/eee/jotrge/v98y2022ics096669232100315x.html).
+
+**Pauwels et al. (2025)** — *Reconsidering airport economic impact assessments* (Journal of Air Transport Management), a bottom-up input–output analysis of Belgium's five airports including two small regional airports (Antwerp, Ostend-Bruges), explicitly questions standard impact-assessment methodology and emphasizes the need for company-level data and sensitivity analysis.
+- Source: [IDEAS/RePEc abstract](https://ideas.repec.org/a/eee/jaitra/v128y2025ics0969699725001176.html).
+
+**Methodological caveats** (from the National Academies' review of [Airport Economic Impact Methods and Models](https://nap.nationalacademies.org/catalog/23267/airport-economic-impact-methods-and-models)):
+- Most headline figures are **direct + indirect + induced** totals produced via input-output multipliers, which can **double-count** and overstate net new economic activity.
+- Studies are typically **commissioned by the airports themselves**, creating an incentive to report large numbers.
+- "Total output" (e.g., $783M for EGE) is not the same as "net new income" or "net jobs created" — it includes supply-chain and consumer-spending re-spending effects that would occur elsewhere in the economy anyway.
+
+---
+
+## 4. Synthesis
+
+| Dimension | Verdict |
+|---|---|
+| **Measurable impact exists** | ✅ Strong — multiple ~500k-pax airports report $85M–$783M in output and 400–4,400 jobs. |
+| **Impact is "significant" for the region** | ✅ Context-dependent — for a small rural county, $340M and hundreds of jobs is material; for a metro region it is marginal. |
+| **The airport *causes* the impact** | ⚠️ Contested — evidence supports correlation and accessibility value, but peer-reviewed work finds small airports' *causal* growth effect is weak and often reverse (growth → air service). |
+| **Robustness of the numbers** | ⚠️ Methodologically soft — multipliers, self-commissioning, and double-counting inflate headline figures. |
+
+**Conclusion:** The evidence supports the weaker, defensible version of the hypothesis — that a ~500,000-passenger airport can generate **significant and *measurable*** economic activity (jobs, payroll, output, tourism spending, tax revenue) in its surrounding region, with Durango, Eagle County, and SLO providing concrete quantified examples. It does **not** robustly support the stronger claim that such an airport is a primary *cause* of regional economic growth; the peer-reviewed literature attributes more causal weight to large airports and finds small airports' accessibility contribution is often limited, with causality frequently running from economic growth to air service rather than the reverse. Any credible assessment should therefore separate *measured attributable activity* from *causal impact*, and should apply sensitivity analysis to the multiplier-based figures.

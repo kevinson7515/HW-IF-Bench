@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "session_id": "session-fb21e972-59ad-4126-b90a-77a809d491e6",
+  "source": "/online1/ycsc_chenkh/hitici_07/.dsh/sessions/--online1-ycsc_chenkh-hitici_07-deepseek-harness--/session-fb21e972-59ad-4126-b90a-77a809d491e6",
+  "copied": [
+    {
+      "path": "session.lock",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-customer-airline-000/S5/session-records/session.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "session.v4.jsonl.zstd",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-customer-airline-000/S5/session-records/session.v4.jsonl.zstd",
+      "size": 47952,
+      "sha256": "1781d9ffad0bf04364926f4e7b564338623b48261cd9d36a6dcb51e24f20165b"
+    }
+  ]
+}

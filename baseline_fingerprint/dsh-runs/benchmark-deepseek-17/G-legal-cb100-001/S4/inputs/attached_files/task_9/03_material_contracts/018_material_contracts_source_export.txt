@@ -1,0 +1,59 @@
+ATTORNEY WORK PRODUCT
+
+UNREPORTED SECURITY INCIDENT
+RECORD: CB-DOC-001-018
+MATTER: CB-MA-2401
+PORTFOLIO KEY: CBP-001-06
+SOURCE SYSTEM: Workday HRIS
+EVIDENCE ROLE: operative_authority
+ENTITY KEY: ENT-001-1005
+REFERENCED REVISION: REV-2025.6
+CURRENT REVISION: REV-2025.6
+CUSTODIAN: Nora Chen
+REVIEWER: Nora Chen
+
+NATIVE RECORD
+unreported security incident approval must come from Theo Laurent under CB-MA-2401-R990. The referenced and current revision are both REV-2025.6. The matter-level control is: The executed purchase terms and the latest consent schedule control; seller summaries do not.
+
+SOURCE LINEAGE
+Workday HRIS produced native record CB-DOC-001-018 for CB-MA-2401. Nora Chen owns the source population and Nora Chen recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns unreported security incident within Project Daybreak battery acquisition. A carve-out manufacturer owns cathode tooling in Nevada while its largest automaker customer can terminate upon an indirect change of control. The record addresses one part of the broader question: Match the cathode-tooling records and automaker consent history to the exact acquired entity.
+
+NATIVE RECORD
+unreported security incident approval must come from Theo Laurent under CB-MA-2401-R990. The referenced and current revision are both REV-2025.6. The matter-level control is: The executed purchase terms and the latest consent schedule control; seller summaries do not.
+
+RELIANCE LIMITS
+This file supplies operative authority evidence for CBP-001-06. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SCHEDULE 1 — NATIVE ROWS
+CBP-001-06-OPE-01 | 2025-04-16 | ENT-001-1005 | REV-2025.6 | Henry Cho | superseded | $513,523.00 | Operative Authority support row 1 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.
+CBP-001-06-OPE-02 | 2025-04-19 | ENT-001-1005 | REV-2025.6 | Farah Ibrahim | recorded | 17% | Operative Authority support row 2 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.
+CBP-001-06-OPE-03 | 2025-04-22 | ENT-001-1005 | REV-2025.6 | Samuel Kim | recorded | 23% | Operative Authority support row 3 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.
+CBP-001-06-OPE-04 | 2025-04-25 | ENT-001-1005 | REV-2025.6 | Nora Chen | superseded | $544,763.00 | Operative Authority support row 4 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.
+CBP-001-06-OPE-05 | 2025-04-28 | ENT-001-1005 | REV-2025.6 | Elliot Mercer | pending | 14% | Operative Authority support row 5 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.
+CBP-001-06-OPE-06 | 2025-05-01 | ENT-001-1005 | REV-2025.6 | Mei Whitaker | superseded | 12% | Operative Authority support row 6 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.
+CBP-001-06-OPE-07 | 2025-05-04 | ENT-001-1005 | REV-2025.6 | Isaac Romero | recorded | $143,568.00 | Operative Authority support row 7 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.
+CBP-001-06-OPE-08 | 2025-05-07 | ENT-001-2005 | REV-2025.6 | Willa Novak | pending | 10% | Operative Authority support row 8 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.
+CBP-001-06-OPE-09 | 2025-05-10 | ENT-001-1005 | REV-2025.6 | Henry Cho | superseded | 10% | Operative Authority support row 9 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.
+CBP-001-06-OPE-10 | 2025-05-13 | ENT-001-1005 | REV-2025.6 | Farah Ibrahim | recorded | $500,148.00 | Operative Authority support row 10 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.
+CBP-001-06-OPE-11 | 2025-05-16 | ENT-001-1005 | REV-2025.6 | Samuel Kim | recorded | 19% | Operative Authority support row 11 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.
+CBP-001-06-OPE-12 | 2025-05-19 | ENT-001-1005 | REV-2025.6 | Nora Chen | confirmed | 22% | Operative Authority support row 12 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.
+CBP-001-06-OPE-13 | 2025-05-22 | ENT-001-1005 | REV-2025.6 | Elliot Mercer | pending | $481,994.00 | Operative Authority support row 13 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.
+CBP-001-06-OPE-14 | 2025-05-25 | ENT-001-1005 | REV-2025.6 | Mei Whitaker | pending | 24% | Operative Authority support row 14 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.
+CBP-001-06-OPE-15 | 2025-05-28 | ENT-001-1005 | REV-2025.6 | Isaac Romero | superseded | 22% | Operative Authority support row 15 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.
+CBP-001-06-OPE-16 | 2025-05-31 | ENT-001-1005 | REV-2025.6 | Willa Novak | confirmed | $736,789.00 | Operative Authority support row 16 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.
+CBP-001-06-OPE-17 | 2025-06-03 | ENT-001-1005 | REV-2025.6 | Henry Cho | pending | 10% | Operative Authority support row 17 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.
+CBP-001-06-OPE-18 | 2025-06-06 | ENT-001-1005 | REV-2025.6 | Farah Ibrahim | superseded | 11% | Operative Authority support row 18 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.
+
+SCHEDULE 2 — CHRONOLOGY
+2024-08-22 | native population opened | Henry Cho | CB-DOC-001-018
+2024-08-28 | custodian boundary confirmed | Owen Delgado | CBP-001-06
+2024-09-03 | export created | Rafael Okafor | CB-DOC-001-018
+2024-09-09 | cross-system identifier checked | Elliot Mercer | CBP-001-06
+2024-09-15 | revision retained | Caleb Hassan | CB-DOC-001-018
+2024-09-21 | matter copy collected | Adrian Mensah | CBP-001-06
+
+PROVENANCE
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

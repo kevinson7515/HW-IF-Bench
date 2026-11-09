@@ -1,0 +1,20 @@
+全部验证通过，任务完成。总结如下：
+
+## 修改内容
+
+### `attached_files/task_3/django/core/mail/message.py`
+按现代标准库 `email.headerregistry` 语义重写了 `sanitize_address`（修改后与 Django 3.1 官方实现逐字节一致）：
+
+1. **导入**：`email.utils` 增加 `formataddr`。
+2. **换行注入检查**：在编码前拼接 `nm + localpart + domain` 检查 `\n`/`\r`，命中即抛 `ValueError('Invalid address; address parts cannot contain newlines.')`——四类注入输入（字符串/元组 × 显示名/地址部分）均以精确消息被拒绝。
+3. **显示名 ASCII 快路径**：`nm` 可编码为 ASCII 时用 `Header(nm)`（不再强制 MIME 编码词），否则按 `encoding` 编码——修复了旧代码在 `utf-8` 下把纯 ASCII 名字也编码成 `=?utf-8?q?A_name?=` 的问题。
+4. **改用 `formataddr` 组装**：`Address(username=localpart, domain=domain)` 只承载地址部分，输出经 `formataddr((nm, parsed_address.addr_spec))`。这修掉了旧代码 `Address(nm, ...)` 的两个缺陷：长非 ASCII 显示名经折叠后含 `\n` 导致 `ValueError` 崩溃（ticket #31784）；以及由 `str(Address)` 自行处理显示名导致的过度引号/编码。
+5. 解析部分保持不变：字符串形式仍用 `parser.get_mailbox`（要求 `rest` 为空，无法完整解析即抛 `ValueError`），国际化域名仍经 `punycode`，需编码的本地部分仍用 MIME 编码词。
+
+### `attached_files/task_3/tests/mail/tests.py`
+同步更新期望（6 处旧期望改为新输出，如 `'A name <to@example.com>'`、`'To Example <to@xn--xample-9ua.com>'`、`'"to@other.com" <to@example.com>'`），新增 3 组长显示名/国际化域名向量（含精确折叠位置），并新增 `test_sanitize_address_header_injection`（4 个换行注入输入断言精确错误消息）。
+
+## 验证（E2B，Python 3.13.16）
+- 两个文件编译通过，均以单一换行结尾；`message.py` 全文与 Django 3.1 sdiff 逐行 diff 为空，测试的 sanitize 区域同样逐行一致。
+- 以 `django.core.mail.message` 模块名独立加载编辑后文件，逐字执行编辑后测试文件中的三个测试方法：**21 向量 + 5 非法 + 4 注入全部通过，0 失败**。
+- 与已安装 Django 6.1.2 的现代实现交叉对比 9 组代表性输入（长显示名、IDN、特殊字符、双 `@`）：输出完全一致。

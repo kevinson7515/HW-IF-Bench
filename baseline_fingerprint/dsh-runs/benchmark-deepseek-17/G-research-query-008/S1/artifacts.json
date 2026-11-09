@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "materials-data-infrastructure-report.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "materials-data-infrastructure-report.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1890615/G-research-query-008/S1/artifacts/materials-data-infrastructure-report.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792823349000000000,
+      "type": "file",
+      "size": 23832,
+      "sha256": "3639f496bbb22b79f537027c0c7fb8a44612f93df4530cd09a52846f354e83aa"
+    }
+  ],
+  "entries": {
+    "materials-data-infrastructure-report.md": {
+      "mode": 384,
+      "mtime_ns": 1792823349000000000,
+      "type": "file",
+      "size": 23832,
+      "sha256": "3639f496bbb22b79f537027c0c7fb8a44612f93df4530cd09a52846f354e83aa"
+    }
+  },
+  "deleted_entries": {}
+}

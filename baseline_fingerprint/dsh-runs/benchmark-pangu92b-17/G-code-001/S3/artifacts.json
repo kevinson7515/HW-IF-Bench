@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [],
+  "modified": [
+    "attached_files/task_23/src/core/parser.py"
+  ],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "attached_files/task_23/src/core/parser.py",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-coding-parser-000/S3/artifacts/attached_files/task_23/src/core/parser.py",
+      "change": "modified",
+      "mode": 420,
+      "mtime_ns": 1792972590000000000,
+      "type": "file",
+      "size": 572,
+      "sha256": "d1ea98781517c5883cf69ce93d0f4c21f26ebfec0015c2c74ddac957c0c662a7"
+    }
+  ],
+  "entries": {
+    "attached_files/task_23/src/core/parser.py": {
+      "mode": 420,
+      "mtime_ns": 1792972590000000000,
+      "type": "file",
+      "size": 572,
+      "sha256": "d1ea98781517c5883cf69ce93d0f4c21f26ebfec0015c2c74ddac957c0c662a7"
+    }
+  },
+  "deleted_entries": {}
+}

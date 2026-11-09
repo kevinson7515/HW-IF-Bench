@@ -1,0 +1,37 @@
+{
+  "line": 8,
+  "id": 8,
+  "user_query": "我是 John Smith，号码 555-123-2002，目前在法国，手机显示无服务且移动数据不可用。我没有 Wi-Fi，希望恢复到测速为 excellent；可以补充 2GB 流量，但不更换套餐。",
+  "effective_query": "我是 John Smith，号码 555-123-2002，目前在法国，手机显示无服务且移动数据不可用。我没有 Wi-Fi，希望恢复到测速为 excellent；可以补充 2GB 流量，但不更换套餐。\n\nAttached files are available at the following paths. Read them as needed:\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_8/main_policy.md\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_8/tech_support_manual.md\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_8/tech_support_workflow.md",
+  "attached_files": [
+    "attached_files/task_8/main_policy.md",
+    "attached_files/task_8/tech_support_manual.md",
+    "attached_files/task_8/tech_support_workflow.md"
+  ],
+  "resolved_attached_files": [
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_8/main_policy.md",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_8/tech_support_manual.md",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_8/tech_support_workflow.md"
+  ],
+  "archived_attachments": [
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_8/main_policy.md",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1853564/000008-8/inputs/attached_files/task_8/main_policy.md",
+      "size": 5699,
+      "sha256": "95943844a0cf11fdf0e2842b483b81d9f9338aa53235712ed131db075d086ed7"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_8/tech_support_manual.md",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1853564/000008-8/inputs/attached_files/task_8/tech_support_manual.md",
+      "size": 17589,
+      "sha256": "015a3ee49ec8c199c5e1a059c922081937b92cf3a5ea74fedbc4357816f389ba"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_8/tech_support_workflow.md",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1853564/000008-8/inputs/attached_files/task_8/tech_support_workflow.md",
+      "size": 16390,
+      "sha256": "64f3ccd13875d14f358b21b9af221dab09e0e7bf5690d0e4322fb91855a43a4d"
+    }
+  ],
+  "started_at": "2026-10-18T10:35:20.140932+00:00"
+}

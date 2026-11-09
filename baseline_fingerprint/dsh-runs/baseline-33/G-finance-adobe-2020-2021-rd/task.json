@@ -1,0 +1,29 @@
+{
+  "line": 32,
+  "id": 49,
+  "user_query": "依据 Adobe 2020 与 2021 财年 Form 10-K 中的研发费用披露，提取两年研发费用并计算 2021 年相对 2020 年的同比增幅，说明计算公式、计量单位和证据来源。",
+  "effective_query": "依据 Adobe 2020 与 2021 财年 Form 10-K 中的研发费用披露，提取两年研发费用并计算 2021 年相对 2020 年的同比增幅，说明计算公式、计量单位和证据来源。\n\nAttached files are available at the following paths. Read them as needed:\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_49/ADOBE_2020_10K.pdf\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_49/ADOBE_2021_10K.pdf",
+  "attached_files": [
+    "attached_files/task_49/ADOBE_2020_10K.pdf",
+    "attached_files/task_49/ADOBE_2021_10K.pdf"
+  ],
+  "resolved_attached_files": [
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_49/ADOBE_2020_10K.pdf",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_49/ADOBE_2021_10K.pdf"
+  ],
+  "archived_attachments": [
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_49/ADOBE_2020_10K.pdf",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000032-49/inputs/attached_files/task_49/ADOBE_2020_10K.pdf",
+      "size": 706905,
+      "sha256": "60bca947de880e85c2c78290dc44dc517a91d28261840902a610284e062fe73c"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_49/ADOBE_2021_10K.pdf",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000032-49/inputs/attached_files/task_49/ADOBE_2021_10K.pdf",
+      "size": 633302,
+      "sha256": "c8b1340273afaceab32d238860651bd1b3c1716639a7abf7fb6eecc47b423b16"
+    }
+  ],
+  "started_at": "2026-11-06T10:48:16.987452+00:00"
+}

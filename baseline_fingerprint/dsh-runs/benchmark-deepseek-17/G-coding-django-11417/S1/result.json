@@ -1,0 +1,28 @@
+{
+  "group_id": "G-coding-django-11417",
+  "variant_id": "S1",
+  "task_id": 3,
+  "provider": "company-deepseek",
+  "status": "succeeded",
+  "exit_code": 0,
+  "started_at": "2026-10-22T15:14:09.740557+00:00",
+  "finished_at": "2026-10-22T15:36:02.470091+00:00",
+  "duration_seconds": 1312.728,
+  "execution_duration_seconds": 874.855,
+  "recording_duration_seconds": 283.943,
+  "system_prompt_sha256": "f2402b741938fdf562120e9eb7b01b4bf9968e10a3585e1bdf9aaaca670c59b7",
+  "task_dir": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1872575/G-coding-django-11417/S1",
+  "recording_status": "complete",
+  "workspace_restore_status": "complete",
+  "signal": null,
+  "session_id": "session-af1e8334-e015-488c-b7ed-4170dbb4c223",
+  "final_event_seen": true,
+  "parse_errors": [],
+  "tool_calls": 42,
+  "tool_errors": 1,
+  "steps": 32,
+  "turn_end_reason": {
+    "kind": "completed"
+  },
+  "restore_duration_seconds": 153.917
+}

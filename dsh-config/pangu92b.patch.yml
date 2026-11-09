@@ -1,0 +1,30 @@
+# Deployment capacities are configurable, not verified limits for this private model alias.
+- id: llm-deepseek
+  disabled: true
+
+- id: llm-pi-ai
+  config:
+    providers:
+      pangu92b:
+        api: openai-completions
+        baseURL: !!js process.env.PANGU92B_BASE_URL ?? 'https://apigw-dgg-b0.huawei.com/api/pangu/v1'
+        apiKeyEnv: PANGU92B_API_KEY
+        headers:
+          X-HW-ID: !!js process.env.PANGU92B_HW_ID
+          X-HW-AppKey: !!js process.env.PANGU92B_APP_KEY
+        compat:
+          maxTokensField: max_tokens
+        models:
+          - id: pangu92b_wandr
+            contextWindow: !!js Number(process.env.PANGU92B_CONTEXT_WINDOW ?? 262144)
+            maxTokens: !!js Number(process.env.PANGU92B_MAX_TOKENS ?? 32768)
+
+- id: compaction-basic
+  config:
+    headroomTokens: !!js Number(process.env.PANGU92B_COMPACTION_HEADROOM_TOKENS ?? 4096)
+    maxTokens: !!js Number(process.env.PANGU92B_COMPACTION_MAX_TOKENS ?? 2048)
+
+- id: agent-default-model
+  config:
+    provider: pangu92b
+    model: pangu92b_wandr

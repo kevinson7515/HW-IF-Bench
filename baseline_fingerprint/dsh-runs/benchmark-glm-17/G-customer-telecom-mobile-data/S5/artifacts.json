@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "output",
+    "output/task_8_support_session.md",
+    "output/task_8_troubleshooting_checklist.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "output/task_8_support_session.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-customer-telecom-mobile-data/S5/artifacts/output/task_8_support_session.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793037332000000000,
+      "type": "file",
+      "size": 8033,
+      "sha256": "9f92d85feb742fc66be3c7ee9ebfec519f05ecce1d1809e29032bc628448e520"
+    },
+    {
+      "path": "output/task_8_troubleshooting_checklist.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-customer-telecom-mobile-data/S5/artifacts/output/task_8_troubleshooting_checklist.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793037332000000000,
+      "type": "file",
+      "size": 2057,
+      "sha256": "7b170a26d00b8329c4fbbfd427a8064192bf1f02156259219e29f29ce9ea62e6"
+    }
+  ],
+  "entries": {
+    "output": {
+      "mode": 448,
+      "mtime_ns": 1793037332000000000,
+      "type": "directory"
+    },
+    "output/task_8_support_session.md": {
+      "mode": 384,
+      "mtime_ns": 1793037332000000000,
+      "type": "file",
+      "size": 8033,
+      "sha256": "9f92d85feb742fc66be3c7ee9ebfec519f05ecce1d1809e29032bc628448e520"
+    },
+    "output/task_8_troubleshooting_checklist.md": {
+      "mode": 384,
+      "mtime_ns": 1793037332000000000,
+      "type": "file",
+      "size": 2057,
+      "sha256": "7b170a26d00b8329c4fbbfd427a8064192bf1f02156259219e29f29ce9ea62e6"
+    }
+  },
+  "deleted_entries": {}
+}

@@ -1,0 +1,13 @@
+**Verdict: plausible but conditional — measurable, "significant" depends on context.**
+
+| For | Against |
+|---|---|
+| RAA: 570 US small-community airports → $134B activity, 1M jobs | EU auditors: €666m wasted; 7/20 EU-funded airports unprofitable |
+| ACRP 218: non-hub = 0.0114 jobs/departing seat | Causality unclear; multipliers overstate; small airports ≪ hubs |
+| Blonigen–Cristea: +50% passengers → +3.2% income, +5.5% jobs | Forecasts wrong (3M predicted vs 1.1M actual) |
+
+500k pax ≈ 250k enplanements × 0.0114 ≈ ~2,850 associated jobs (+ direct jobs, visitor spend).
+
+Bottom line: measurable yes; "significant" only for a small region; hinges on connectivity, catchment demand, sustained service.
+
+Sources: [raa.org](https://raa.org/valuable-service-air-service-to-small-communities-generates-significant-economic-activity/) · [trb.org](https://crp.trb.org/acrpwebresource12/understanding-air-service-and-regional-economic-activity/the-role-of-aviation-in-supporting-local-economic-activity/) · [worldfinance](https://www.worldfinance.com/inward-investment/europes-dead-airports-a-big-waste-of-taxpayers-money) · Pauwels et al. 2025

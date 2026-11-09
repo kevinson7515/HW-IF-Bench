@@ -1,0 +1,31 @@
+Position is settled and the loop is closed. Here's the operating position for the team.
+
+## Bottom line
+
+**Signing can proceed — but only after one signing-path item is cleared.** The two gaps you flagged are **closing conditions, not signing blockers**. They go in the closing-conditions schedule, not the signing path and not a priced exception.
+
+## The two flagged gaps → closing conditions
+
+**1. Customer-consent gap (automaker's indirect change-of-control termination right)**
+- Portfolio key **CBP-001-11 "Change-of-Control Consent"** (entity ENT-001-1010, crosswalk clean).
+- Operative authority: *"approval must come from **Talia Brooks** under CB-MA-2401-R473"* (CB-DOC-001-023). Operations instead cites Caleb Hassan under E439, but per the matter-level control — *"the executed purchase terms and the latest consent schedule control; seller summaries do not"* — **R473 controls**.
+- Live status: "pending approval and **inactive**; remaining capacity **0**; next control **2026-09-02**" (CB-DOC-001-047). This is the critical-path condition — the consent is **not** obtained and the termination right is the highest-consequence exposure. → **Closing condition.**
+
+**2. Tooling gap (Nevada cathode tooling)**
+- Portfolio key **CBP-001-03 "Permit Transfer Restriction"** (entity ENT-001-1002, crosswalk clean).
+- Operative authority: *"open permit transfer restriction **blocks completion** under CB-MA-2401-R164"* (CB-DOC-001-015). "Blocks completion" is definitionally a closing condition, not a signing item. → **Closing condition.**
+- Note for accuracy: the records evidence a **permit-transfer** gap in Nevada, *not* an automaker-owned-tooling claim. A tooling-*ownership* position would need a separate diligence request — the set doesn't support it, so I'm not guessing it.
+
+## The signing-path item
+
+**Charter authorization mismatch (CBP-001-01)** is the one gate to execution: the entity identity is unresolved (ENT-001-1000 **vs** ENT-001-2000, "no approved crosswalk revision resolves the collision"), and signatory authority is disputed (R983 → Maya Ellison vs E257 → Jonas Feld). R983 (Maya Ellison) controls, but **the entity collision is genuine missing authority** and must be reconciled before execution — not assumed.
+
+## Full classification (for the schedule)
+
+- **Signing path (1):** charter authorization mismatch (01).
+- **Closing conditions (7):** permit transfer (03), revenue recognition (04), unreported security incident (06), anti-assignment (08 — REV-2025.1 controls over REV-2024.0), open-source copyleft (09), **change-of-control consent (11)**, invention assignment (12).
+- **Priced exceptions (4):** financial covenant (02, 7% threshold), MFC exposure (05, 13%), claims-made insurance tail (07, lapsed 2025-08-05), sales-tax nexus (10, Washoe County only).
+
+**Timing flag:** both headline conditions' next internal control dates (2026-09-01 permit, 2026-09-02 consent) land inside your 2026-09-04 window, and the consent item is at zero capacity — treat it as critical path.
+
+Full memo (with record citations and reliance limits): `attached_files/task_9/daybreak_signing_position_memo.md`. One caveat to carry forward: the impact-population spreadsheet (`097_…xlsx`) is compressed binary and its "impact-control scores" are flagged by the records themselves as "an input, not a disposition," so it does not move the classification.

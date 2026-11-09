@@ -1,0 +1,15 @@
+已修复 `src/core/parser.py` 的空输入 `IndexError`。
+
+问题根因：`text.split()` 对空字符串或纯空白字符串返回 `[]`，随后 `tokens[0]` 和 `tokens[1]` 直接越界访问。
+
+修复内容（仅改动 `parse_text` 函数体）：
+- 在访问索引前检查 `tokens` 是否为空，为空时返回 `{"command": None, "argument": None}`。
+- 同时用 `tokens[1] if len(tokens) > 1 else None` 处理单 token 输入，避免 `tokens[1]` 再次越界。
+
+验证结果：
+- `parse_text("")` → `{'command': None, 'argument': None}`
+- `parse_text("   ")` → `{'command': None, 'argument': None}`
+- `parse_text("hello")` → `{'command': 'hello', 'argument': None}`
+- `parse_text("hello world extra")` → `{'command': 'hello', 'argument': 'world'}`
+
+不再抛出 `IndexError`。

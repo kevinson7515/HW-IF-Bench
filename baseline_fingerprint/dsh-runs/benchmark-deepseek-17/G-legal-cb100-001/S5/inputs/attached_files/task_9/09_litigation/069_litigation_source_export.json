@@ -1,0 +1,266 @@
+{
+  "body": "The supporting population for CBP-001-09 was exported under CB-MA-2401-E945. The population uses immutable entity ENT-001-1008 and records impact-control score 89; this score is an input, not a disposition.",
+  "chronology": [
+    {
+      "actor": "Farah Ibrahim",
+      "date": "2024-03-27",
+      "event": "native population opened",
+      "reference": "CB-DOC-001-069"
+    },
+    {
+      "actor": "Maya Ellison",
+      "date": "2024-04-02",
+      "event": "custodian boundary confirmed",
+      "reference": "CBP-001-09"
+    },
+    {
+      "actor": "Priya Raman",
+      "date": "2024-04-08",
+      "event": "export created",
+      "reference": "CB-DOC-001-069"
+    },
+    {
+      "actor": "Mei Whitaker",
+      "date": "2024-04-14",
+      "event": "cross-system identifier checked",
+      "reference": "CBP-001-09"
+    },
+    {
+      "actor": "Sofia Bennett",
+      "date": "2024-04-20",
+      "event": "revision retained",
+      "reference": "CB-DOC-001-069"
+    },
+    {
+      "actor": "Amara Patel",
+      "date": "2024-04-26",
+      "event": "matter copy collected",
+      "reference": "CBP-001-09"
+    }
+  ],
+  "client": "Helios Forge, Inc.",
+  "confidentiality": "Attorney work product",
+  "counterparty": "BluePeak Battery Systems LLC",
+  "current_revision": "REV-2025.2",
+  "custodian": "Elliot Mercer",
+  "evidence_role": "financial_or_population_support",
+  "immutable_entity_key": "ENT-001-1008",
+  "matter_number": "CB-MA-2401",
+  "matter_title": "Project Daybreak battery acquisition",
+  "native_version": "1.0",
+  "portfolio_key": "CBP-001-09",
+  "provenance": "Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.",
+  "record_date": "2024-05-01",
+  "record_id": "CB-DOC-001-069",
+  "referenced_revision": "REV-2025.2",
+  "related_records": [
+    "CB-DOC-001-080",
+    "CB-DOC-001-002",
+    "CB-DOC-001-020",
+    "CB-DOC-001-044"
+  ],
+  "reviewer": "Samuel Kim",
+  "rows": [
+    {
+      "actor": "Farah Ibrahim",
+      "effective_date": "2025-04-12",
+      "entity_key": "ENT-001-1008",
+      "line_id": "CBP-001-09-FIN-01",
+      "metric": "$967,639.00",
+      "note": "Financial Or Population Support support row 1 for open-source copyleft exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "superseded"
+    },
+    {
+      "actor": "Samuel Kim",
+      "effective_date": "2025-04-15",
+      "entity_key": "ENT-001-1008",
+      "line_id": "CBP-001-09-FIN-02",
+      "metric": "21%",
+      "note": "Financial Or Population Support support row 2 for open-source copyleft exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "recorded"
+    },
+    {
+      "actor": "Nora Chen",
+      "effective_date": "2025-04-18",
+      "entity_key": "ENT-001-1008",
+      "line_id": "CBP-001-09-FIN-03",
+      "metric": "26%",
+      "note": "Financial Or Population Support support row 3 for open-source copyleft exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "recorded"
+    },
+    {
+      "actor": "Elliot Mercer",
+      "effective_date": "2025-04-21",
+      "entity_key": "ENT-001-1008",
+      "line_id": "CBP-001-09-FIN-04",
+      "metric": "$532,638.00",
+      "note": "Financial Or Population Support support row 4 for open-source copyleft exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "pending"
+    },
+    {
+      "actor": "Mei Whitaker",
+      "effective_date": "2025-04-24",
+      "entity_key": "ENT-001-1008",
+      "line_id": "CBP-001-09-FIN-05",
+      "metric": "11%",
+      "note": "Financial Or Population Support support row 5 for open-source copyleft exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Isaac Romero",
+      "effective_date": "2025-04-27",
+      "entity_key": "ENT-001-1008",
+      "line_id": "CBP-001-09-FIN-06",
+      "metric": "19%",
+      "note": "Financial Or Population Support support row 6 for open-source copyleft exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "pending"
+    },
+    {
+      "actor": "Willa Novak",
+      "effective_date": "2025-04-30",
+      "entity_key": "ENT-001-1008",
+      "line_id": "CBP-001-09-FIN-07",
+      "metric": "$553,012.00",
+      "note": "Financial Or Population Support support row 7 for open-source copyleft exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "recorded"
+    },
+    {
+      "actor": "Henry Cho",
+      "effective_date": "2025-05-03",
+      "entity_key": "ENT-001-2008",
+      "line_id": "CBP-001-09-FIN-08",
+      "metric": "22%",
+      "note": "Financial Or Population Support support row 8 for open-source copyleft exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "superseded"
+    },
+    {
+      "actor": "Farah Ibrahim",
+      "effective_date": "2025-05-06",
+      "entity_key": "ENT-001-1008",
+      "line_id": "CBP-001-09-FIN-09",
+      "metric": "8%",
+      "note": "Financial Or Population Support support row 9 for open-source copyleft exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "pending"
+    },
+    {
+      "actor": "Samuel Kim",
+      "effective_date": "2025-05-09",
+      "entity_key": "ENT-001-1008",
+      "line_id": "CBP-001-09-FIN-10",
+      "metric": "$535,930.00",
+      "note": "Financial Or Population Support support row 10 for open-source copyleft exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "pending"
+    },
+    {
+      "actor": "Nora Chen",
+      "effective_date": "2025-05-12",
+      "entity_key": "ENT-001-1008",
+      "line_id": "CBP-001-09-FIN-11",
+      "metric": "26%",
+      "note": "Financial Or Population Support support row 11 for open-source copyleft exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "superseded"
+    },
+    {
+      "actor": "Elliot Mercer",
+      "effective_date": "2025-05-15",
+      "entity_key": "ENT-001-1008",
+      "line_id": "CBP-001-09-FIN-12",
+      "metric": "21%",
+      "note": "Financial Or Population Support support row 12 for open-source copyleft exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "pending"
+    },
+    {
+      "actor": "Mei Whitaker",
+      "effective_date": "2025-05-18",
+      "entity_key": "ENT-001-1008",
+      "line_id": "CBP-001-09-FIN-13",
+      "metric": "$999,397.00",
+      "note": "Financial Or Population Support support row 13 for open-source copyleft exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Isaac Romero",
+      "effective_date": "2025-05-21",
+      "entity_key": "ENT-001-1008",
+      "line_id": "CBP-001-09-FIN-14",
+      "metric": "19%",
+      "note": "Financial Or Population Support support row 14 for open-source copyleft exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "recorded"
+    },
+    {
+      "actor": "Willa Novak",
+      "effective_date": "2025-05-24",
+      "entity_key": "ENT-001-1008",
+      "line_id": "CBP-001-09-FIN-15",
+      "metric": "24%",
+      "note": "Financial Or Population Support support row 15 for open-source copyleft exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "superseded"
+    },
+    {
+      "actor": "Henry Cho",
+      "effective_date": "2025-05-27",
+      "entity_key": "ENT-001-1008",
+      "line_id": "CBP-001-09-FIN-16",
+      "metric": "$994,382.00",
+      "note": "Financial Or Population Support support row 16 for open-source copyleft exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "pending"
+    },
+    {
+      "actor": "Farah Ibrahim",
+      "effective_date": "2025-05-30",
+      "entity_key": "ENT-001-1008",
+      "line_id": "CBP-001-09-FIN-17",
+      "metric": "6%",
+      "note": "Financial Or Population Support support row 17 for open-source copyleft exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Samuel Kim",
+      "effective_date": "2025-06-02",
+      "entity_key": "ENT-001-1008",
+      "line_id": "CBP-001-09-FIN-18",
+      "metric": "24%",
+      "note": "Financial Or Population Support support row 18 for open-source copyleft exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "confirmed"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Source lineage",
+      "text": "Ironclad CLM produced native record CB-DOC-001-069 for CB-MA-2401. Elliot Mercer owns the source population and Samuel Kim recorded the collection review. The export remains separate from later legal analysis."
+    },
+    {
+      "heading": "Business context",
+      "text": "This record concerns open-source copyleft exposure within Project Daybreak battery acquisition. A carve-out manufacturer owns cathode tooling in Nevada while its largest automaker customer can terminate upon an indirect change of control. The record addresses one part of the broader question: Match the cathode-tooling records and automaker consent history to the exact acquired entity."
+    },
+    {
+      "heading": "Native record",
+      "text": "The supporting population for CBP-001-09 was exported under CB-MA-2401-E945. The population uses immutable entity ENT-001-1008 and records impact-control score 89; this score is an input, not a disposition."
+    },
+    {
+      "heading": "Reliance limits",
+      "text": "This file supplies financial or population support evidence for CBP-001-09. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling."
+    }
+  ],
+  "source_path": "/workspace/documents/09_litigation/069_litigation_source_export.json",
+  "source_system": "Ironclad CLM",
+  "subject": "open-source copyleft exposure"
+}

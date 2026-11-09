@@ -1,0 +1,32 @@
+{
+  "group_id": "G-research-query-097",
+  "variant_id": "S3",
+  "task_id": 20,
+  "provider": "company-glm",
+  "status": "failed",
+  "exit_code": 1,
+  "started_at": "2026-11-03T02:49:47.957114+00:00",
+  "finished_at": "2026-11-03T02:54:12.761358+00:00",
+  "duration_seconds": 264.804,
+  "execution_duration_seconds": 50.44,
+  "recording_duration_seconds": 114.849,
+  "system_prompt_sha256": "5f3937cf4015c19a463abc977df4bf4c3864d6c7468dcd353c6742143edfddaf",
+  "task_dir": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1936454/G-research-query-097/S3",
+  "recording_status": "complete",
+  "workspace_restore_status": "complete",
+  "signal": null,
+  "session_id": "session-7bc48900-08f2-4628-a626-8632614c8b4a",
+  "final_event_seen": true,
+  "parse_errors": [],
+  "tool_calls": 0,
+  "tool_errors": 0,
+  "steps": 1,
+  "turn_end_reason": {
+    "kind": "error",
+    "error": {
+      "message": "400: {\"message\":\"Access denied, please make sure your account is in good standing. For details, see: https://***.com/***/***/***\",\"type\":\"Arrearage\",\"param\":\"\",\"code\":\"Arrearage\"}",
+      "code": "INVALID_REQUEST"
+    }
+  },
+  "restore_duration_seconds": 99.516
+}

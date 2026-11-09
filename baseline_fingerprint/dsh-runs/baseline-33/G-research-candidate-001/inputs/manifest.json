@@ -1,0 +1,26 @@
+[
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_40/citation_corpus.md",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000023-40/inputs/attached_files/task_40/citation_corpus.md",
+    "size": 482,
+    "sha256": "a538537fd8855adfb5a789958a2e9219879447fa77d70a5c978829b6c84e875a"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_40/ALCE.pdf",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000023-40/inputs/attached_files/task_40/ALCE.pdf",
+    "size": 481920,
+    "sha256": "ae9868f07f0f7ffaae5346778f79b7827d9ec6b13b1e6aae4dff6b2ffc37a2e1"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_40/CiteEval.pdf",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000023-40/inputs/attached_files/task_40/CiteEval.pdf",
+    "size": 1369441,
+    "sha256": "91ef3a5ca1c5eb3d87753f35a79a87de38393d6e4e81a03cffe2d09c3968b328"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_40/CitedButNotVerified.pdf",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000023-40/inputs/attached_files/task_40/CitedButNotVerified.pdf",
+    "size": 1424589,
+    "sha256": "db5b7b7e3d9ce9fc6d6713b60f65f0d81b07090ded2a28be7f541d1c290230b5"
+  }
+]

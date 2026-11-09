@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "regular-file size and nanosecond mtime before and after the task",
+  "created": [
+    "attached_files/task_24/fix.patch"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "attached_files/task_24/fix.patch",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000007-24/artifacts/attached_files/task_24/fix.patch",
+      "change": "created",
+      "size": 3952,
+      "sha256": "72d7bf8624f97b23e7deb80824b775c9c56b6b28811792042243a595fe9a0b18"
+    }
+  ],
+  "skipped": [],
+  "errors": [],
+  "limits": {
+    "max_file_bytes": 104857600,
+    "max_total_bytes": 1073741824
+  }
+}

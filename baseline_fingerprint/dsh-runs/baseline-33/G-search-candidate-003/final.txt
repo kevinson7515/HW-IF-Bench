@@ -1,0 +1,242 @@
+已读取两份附件。`migration_source.md` 说明对照基准是 **Pydantic v2.10.6** 标签下的官方 `docs/migration.md`；`PydanticMigration.md` 是该迁移指南正文。以下是按「数据模型 / 校验 / 序列化 / 设置」四类整理的主要破坏性 API 变化、对应写法与短期兼容方法。
+
+> 版本说明：全部内容对应 **Pydantic v2.10.6** 的官方迁移指南，下文"章节"均指 `docs/migration.md` 的英文小节标题。
+
+---
+
+## 一、数据模型（Data Models）
+
+### 1. `pydantic.BaseModel` 方法重命名
+**章节：** `Changes to pydantic.BaseModel`
+
+| V1 写法 | V2 写法 |
+| --- | --- |
+| `__fields__` | `model_fields` |
+| `__private_attributes__` | `__pydantic_private__` |
+| `__validators__` | `__pydantic_validator__` |
+| `construct()` | `model_construct()` |
+| `copy()` | `model_copy()` |
+| `dict()` | `model_dump()` |
+| `json_schema()` | `model_json_schema()` |
+| `json()` | `model_dump_json()` |
+| `parse_obj()` | `model_validate()` |
+| `update_forward_refs()` | `model_rebuild()` |
+
+**短期兼容方法：** 旧方法名在 V2 中大多保留，调用会发出 `DeprecationWarning`；可用 `bump-pydantic` 工具自动改写（章节 `Code transformation tool`）。
+
+其他模型层破坏性变化（同章节）：
+- `parse_raw` / `parse_file` 已弃用 → 改用 `model_validate_json`，或先自行加载数据再 `model_validate`。
+- `from_orm` 已弃用 → 用 `model_validate` 并在 `model_config` 中设置 `from_attributes=True`。
+- `__eq__` 语义变化：模型只能与同为 `BaseModel` 的实例比较；私有属性值不同则不再相等；模型不再等于其 dict 数据。
+- 自定义根模型 `__root__` → 改为新类型 `RootModel`（`RootModel` 不再支持 `arbitrary_types_allowed` 配置）。
+- `GetterDict` 已移除（它是 `orm_mode` 的实现细节）。
+
+### 2. 泛型模型
+**章节：** `Changes to pydantic.generics.GenericModel`
+
+| V1 | V2 |
+| --- | --- |
+| `class MyGenericModel(GenericModel, Generic[T])` | `class MyGenericModel(BaseModel, Generic[T])` |
+
+- `GenericModel` 已移除；V1 与 V2 模型不能混用（V2 泛型 `BaseModel` 的类型参数不能是 V1 模型）。
+- 不建议对参数化泛型做 `isinstance`（如 `isinstance(m, MyGenericModel[int])`）；需要时可对参数化泛型再子类化后判断。
+
+### 3. `pydantic.Field`
+**章节：** `Changes to pydantic.Field`
+
+- `Field` 不再接受任意关键字参数写入 JSON schema → 额外数据改用 `json_schema_extra={"..."} ` 字典传入。
+- `alias` 未设置时由返回字段名 → 改为返回 `None`。
+- 移除/改名的 Field 属性：`const`（移除）、`min_items`/`max_items`→`min_length`/`max_length`、`unique_items`（移除）、`allow_mutation`→`frozen`、`regex`→`pattern`、`final`→改用 `typing.Final`。
+- Field 约束不再自动下推到泛型参数：`my_list: list[str] = Field(pattern=...)` 无效，应改为 `my_list: list[Annotated[str, Field(pattern=...)]]`。
+
+### 4. dataclasses
+**章节：** `Changes to dataclasses`
+
+- 作为字段时，dataclass（含普通 dataclass）不再接受元组作为校验输入，应传 dict。
+- Pydantic dataclass 的 `__post_init__` 改为在**校验之后**调用；`__post_init_post_parse__` 因此移除。
+- Pydantic dataclass 不再支持 `extra='allow'`（`extra='ignore'` 仍可用）。
+- 移除 `__pydantic_model__` 属性 → 校验/JSON schema 等改用 `TypeAdapter` 包裹 dataclass。
+- 普通 dataclass 作为字段时不再继承父类型配置 → 改用 `@dataclass(config=...)` 指定。
+
+### 5. 自定义类型定义
+**章节：** `Defining custom types`
+
+| V1 | V2 |
+| --- | --- |
+| `__get_validators__` | `__get_pydantic_core_schema__` |
+| `__modify_schema__` | `__get_pydantic_json_schema__` |
+
+- 可用 `typing.Annotated` 为第三方类型注入上述钩子，而无需修改类型本身。
+
+---
+
+## 二、校验（Validation）
+
+### 1. 校验器装饰器
+**章节：** `Changes to validators`
+
+| V1 | V2 |
+| --- | --- |
+| `@validator` | `@field_validator` |
+| `@root_validator` | `@model_validator` |
+| `@validate_arguments` | `@validate_call` |
+
+- `@field_validator` 不再有 `each_item` 参数；针对容器内元素的校验改为在类型参数上加 `Annotated`（如 `List[Annotated[int, Field(ge=0)]]`）。
+- 弃用的 `@validator` 不再支持给函数签名加 `field`/`config` 参数；`@root_validator` 不再支持 `skip_on_failure=False`。
+- `@model_validator` 在 `validate_assignment=True` 等情况下可能收到模型实例而非 dict，需注意处理。
+- `always=True` 现在也会对默认值套用标准类型校验，可能引发 `ValidationError`；可用 `Field(validate_default=True)` 模拟旧行为。
+- `allow_reuse` 关键字不再需要，可直接删除。
+- `@validate_call` 不再提供 `raw_function`、`validate` 等属性。
+
+### 2. 校验器允许的签名
+**章节：** `Changes to @validator's allowed signatures`
+
+- 移除 `config` 参数（V2 的 config 是 dict 而非类）→ 迁移到 `@field_validator` 后用 `info.config` 获取。
+- 移除 `field` 参数（`ModelField` 已不存在）→ 用 `info.field_name` 索引 `cls.model_fields` 获取。
+
+### 3. `TypeError` 不再转换为 `ValidationError`
+**章节：** `TypeError is no longer converted to ValidationError in validators`
+
+- 校验器内抛出的 `TypeError` 现在原样抛出，不再包装为 `ValidationError`（对所有校验装饰器生效）。
+
+### 4. 类型强制转换（coercion）变化
+**章节：** `Validator behavior changes`
+
+- `int`/`float`/`Decimal` → 字符串的强转改为可选且默认关闭（见 `coerce_numbers_to_str`）。
+- 成对的可迭代对象（iterable of pairs）不再被强转为 dict。
+
+### 5. 输入类型不再保留
+**章节：** `Input types are not preserved`
+
+- V1 会尽量保留集合字段的输入子类型（如传入 `Counter` 返回 `Counter`）；V2 只保证输出类型与注解一致（`Mapping[str,int]` 实际输出为 `dict`）。
+- 例外：`BaseModel` 子类与 dataclass 仍保留子类型。
+
+### 6. 标准类型处理变化
+**章节：** `Changes to Handling of Standard Types`
+
+- **Dict：** 成对的可迭代对象（含空可迭代对象）不再通过 `dict` 校验。
+- **Unions：** 仍从左到右尝试，但会尽可能保留输入类型；`Union[int, str]` 传入 `'1'` 现在返回 `'1'`（V1 返回 `1`）。要恢复 V1 左到右行为用 `Field(union_mode='left_to_right')`。
+- **Required/Optional/Nullable：** `Optional[T]` 表示"必填但可为 `None`"，不等于有默认值 `None`（**与 V1 的破坏性变化**）；`Any` 字段不再默认 `None`。
+- **字符串 pattern/regex：** V1 用 Python `regex` 库，V2 用 Rust `regex` crate（线性时间，但不支持 lookaround 与反向引用）；如需旧行为可用 `regex_engine` 配置项。
+
+### 7. `TypeAdapter` 引入
+**章节：** `Introduction of TypeAdapter`
+
+- 用于对非 `BaseModel` 类型做校验/序列化/生成 JSON schema。
+- 替代已弃用的 `parse_obj_as` 与 `schema_of`，并覆盖部分"根模型"用途。
+
+### 8. 受限类型（Constrained types）
+**章节：** `Constrained types`
+
+- 所有 `Constrained*` 类已移除 → 改为 `Annotated[<type>, Field(...)]`；`ConstrainedStr` 可用 `StringConstraints`。
+  ```python
+  # V1
+  class MyInt(ConstrainedInt):
+      ge = 0
+  # V2
+  MyInt = Annotated[int, Field(ge=0)]
+  ```
+
+### 9. URL/Dsn 类型
+**章节：** `Url and Dsn types in pydantic.networks no longer inherit from str`
+
+- `AnyUrl` 及所有 `Url`/`Dsn` 类型不再继承 `str`，需要 `str` 时用 `str(url)` 转换。
+- URL 校验改用 Rust `url` crate；无路径时会自动追加 `/`（如 `AnyUrl('https://google.com')` → `'https://google.com/'`）。
+
+---
+
+## 三、序列化（Serialization）
+
+### 1. 序列化方法重命名
+**章节：** `Changes to pydantic.BaseModel`
+
+| V1 | V2 |
+| --- | --- |
+| `dict()` | `model_dump()` |
+| `json()` | `model_dump_json()` |
+| `json_schema()` | `model_json_schema()` |
+
+### 2. 自定义序列化
+**章节：** `Changes to pydantic.BaseModel`
+
+- 新增 `@field_serializer`、`@model_serializer`、`@computed_field` 装饰器（见 `Custom serializers` 文档）。
+- 配置中的 `json_encoders` 已弃用（因性能与复杂度），建议改用上述序列化装饰器。
+
+### 3. 序列化行为变化
+**章节：** `Changes to pydantic.BaseModel`
+
+- **嵌套子类字段：** V1 序列化嵌套子类时包含其全部字段；V2 只包含该字段注解类型上定义的字段（避免意外泄漏，可 opt-out）。
+- **非字符串键的 JSON 序列化：** 现用 `str(key)`，`None` 键由 `"null"`（V1）变为 `"None"`（V2）。
+- **`model_dump_json()` 输出紧凑化**（去空格），不完全等同 `json.dumps()`；可用 `json.dumps(..., separators=(',', ':'))` 对齐。
+
+### 4. JSON Schema 生成变化
+**章节：** `Changes to JSON schema generation`
+
+- `Optional` 字段的 schema 现在明确表示允许 `null`。
+- `Decimal` 在 JSON schema（及序列化）中以字符串暴露。
+- 不再保留 namedtuple 为 namedtuple。
+- 默认目标 draft 为 **2020-12**（带部分 OpenAPI 扩展）。
+- 可区分"校验输入"与"序列化输出"的 schema。
+- 新增 `GenerateJsonSchema` 类，可子类化自定义全局 schema 生成；`model_json_schema`/`TypeAdapter.json_schema` 接受 `schema_generator` 参数。
+
+---
+
+## 四、设置（Settings / Config）
+
+### 1. 模型配置写法
+**章节：** `Changes to config`
+
+| V1 | V2 |
+| --- | --- |
+| 内部类 `class Config:` | 类属性 `model_config: ConfigDict = {...}`（V1 写法已弃用） |
+
+- `model_config` 会继承；多继承时非默认项合并，冲突项由后一个（`Model2`）覆盖 `Model1`。
+
+**已移除的配置项：** `allow_mutation`、`error_msg_templates`、`fields`、`getter_dict`、`smart_union`、`underscore_attrs_are_private`、`json_loads`、`json_dumps`、`copy_on_model_validation`、`post_init_call`。
+
+**已改名的配置项：**
+
+| V1 | V2 |
+| --- | --- |
+| `allow_population_by_field_name` | `populate_by_name` |
+| `anystr_lower` / `anystr_strip_whitespace` / `anystr_upper` | `str_to_lower` / `str_strip_whitespace` / `str_to_upper` |
+| `keep_untouched` | `ignored_types` |
+| `max_anystr_length` / `min_anystr_length` | `str_max_length` / `str_min_length` |
+| `orm_mode` | `from_attributes` |
+| `schema_extra` | `json_schema_extra` |
+| `validate_all` | `validate_default` |
+
+### 2. `BaseSettings` 迁移
+**章节：** `BaseSettings has moved to pydantic-settings`
+
+| V1 | V2 |
+| --- | --- |
+| `pydantic.BaseSettings` | `pydantic_settings.BaseSettings`（独立包，需单独安装） |
+
+- `parse_env_var` 类方法已移除 → 需通过自定义 settings sources 实现自己的解析函数。
+
+### 3. 特殊类型迁移
+**章节：** `Color and Payment Card Numbers moved to pydantic-extra-types`
+
+- `pydantic.color` / `pydantic.types.PaymentCardBrand` / `PaymentCardNumber` → 移到 `pydantic_extra_types` 包。
+
+---
+
+## 五、短期兼容方法汇总（贯穿整篇指南）
+
+1. **`pydantic.v1` 命名空间**（章节 `Continue using Pydantic V1 features`）：V2 包内通过 `from pydantic.v1 import BaseModel` 等继续使用 V1 API；被移除的工具函数如 `lenient_isinstance` 用 `from pydantic.v1.utils import ...`。
+2. **继续用 V1**：`pip install "pydantic==1.*"`；`pydantic>=1.10.17` 起 V1 也支持 `.v1` 命名空间，可先改 `pydantic<2` → `pydantic>=1.10.17`，把所有 `from pydantic.<module> import <object>` 替换为 `from pydantic.v1.<module> import <object>`，实现 v1/v2 环境通用。
+3. **自动迁移工具**（章节 `Code transformation tool`）：`pip install bump-pydantic`，对包目录运行 `bump-pydantic my_package`。
+4. **弃用保留**：多数旧方法名（如 `dict()`、`copy()`、`parse_obj()`）在 V2 仍保留但发 `DeprecationWarning`。
+5. **`pydantic.deprecated.*` 命名空间**（章节 `Deprecated and moved in Pydantic V2`）：`schema_of`、`parse_obj_as`、`validate_arguments`、`pydantic_encoder` 等被移动但仍可从该命名空间导入。
+6. **`pydantic.v1.utils.*`**（章节 `Deprecated and moved in Pydantic V2`）：`deep_update`、`GetterDict`、`lenient_isinstance`、`smart_deepcopy`、`sequence_like` 等工具函数移至此命名空间。
+
+---
+
+### 补充：常见模块移动/删除速查（章节 `Moved` / `Deprecated and moved` / `Removed`）
+
+- 移动：`pydantic.error_wrappers.ValidationError` → `pydantic.ValidationError`；`pydantic.PyObject` → `pydantic.ImportString`；`pydantic.utils.to_lower_camel` → `pydantic.alias_generators.to_camel`。
+- 已删除的别名类型：`NoneStr`、`NoneBytes`、`NoneStrBytes`、`StrBytes`（分别为 `None|str` 等的别名）等。
+- 大量 `pydantic.errors.*` 错误类与 `pydantic.typing.*` 辅助函数已移除（见 `Removed in Pydantic V2` 清单）。
+
+需要我以表格化 Markdown 或 CSV 形式导出成文件，或补充某一类（如校验器或序列化）的逐条迁移代码示例吗？

@@ -1,0 +1,1 @@
+I now understand the structure. Let me systematically extract the key control fields from all records to build the disposition map.

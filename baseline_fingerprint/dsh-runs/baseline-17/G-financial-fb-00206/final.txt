@@ -1,0 +1,45 @@
+I've extracted and reviewed JPMorgan's 2022 Form 10-K income statement directly from SEC EDGAR. Here's my answer.
+
+## Short answer
+
+**Gross margin is not a relevant (or reported) metric for JPMorgan Chase — and that is the correct answer to your question, not a dodge.** There is no "gross margin" to assess for historical consistency, because the metric doesn't exist on a bank's financial statements.
+
+## Why gross margin doesn't apply here
+
+Gross margin is defined as **(revenue − cost of goods sold) ÷ revenue**. It only carries meaning when a company has a *direct cost of revenue* — the incremental cost of producing each unit of a physical product (raw materials, direct labor, manufacturing). That structure simply doesn't exist for a bank:
+
+- JPMorgan doesn't manufacture or sell goods; it earns revenue from **net interest income** (the spread between interest earned on loans/securities and interest paid on deposits/borrowings) and **noninterest revenue** (fees, trading/principal transactions, investment banking, asset-management fees, commissions).
+- A bank's main operating costs — **compensation, occupancy, technology, professional services** — are *operating* expenses, not a "cost of goods sold." You can't meaningfully map a per-unit product cost onto a loan or a deposit.
+
+I confirmed this in the filing itself: the 2022 10-K contains **zero** occurrences of "gross margin," "gross profit," "cost of goods," "cost of revenue," or "cost of sales."
+
+## What JPMorgan's income statement actually shows
+
+From the 2022 10-K, *Consolidated Statements of Income* (p. 159), the three-year structure is (in millions):
+
+| Line item | 2022 | 2021 | 2020 |
+|---|---|---|---|
+| Noninterest revenue | $61,985 | $69,338 | $65,388 |
+| Net interest income | 66,710 | 52,311 | 54,563 |
+| **Total net revenue** | **128,695** | **121,649** | **119,951** |
+| Provision for credit losses | 6,389 | (9,256) | 17,480 |
+| Total noninterest expense | 76,140 | 71,343 | 66,656 |
+| Income before income tax expense | 46,166 | 59,562 | 35,815 |
+| Income tax expense | 8,490 | 11,228 | 6,684 |
+| **Net income** | **37,676** | **48,334** | **29,131** |
+
+There is no "gross profit" subtotal anywhere between "Total net revenue" and the expense lines — revenue flows straight into the provision for credit losses and noninterest expense.
+
+## The metrics that *are* the bank equivalents of "gross margin"
+
+If you're looking for the bank analog of a top-line profitability/consistency measure, the standard ones are:
+
+1. **Net interest margin (NIM)** — net interest income ÷ average interest-earning assets (the "cost of funding" analog).
+2. **Overhead / efficiency ratio** — total noninterest expense ÷ total net revenue. JPMorgan reports this directly, and it's been notably stable: **59% / 59% / 56%** for 2022 / 2021 / 2020.
+3. **Pre-provision profit (PPNR)** and **pre-tax margin** — but note these *do* swing year-to-year for a bank because of the **provision for credit losses** (a reserve-building/credit-cost line with no product-company equivalent), not because of any "gross margin" volatility.
+
+## One caveat
+
+If you've seen a "gross margin" figure for JPM on a third-party stock-data website, treat it with skepticism: it's a **non-standard synthetic calculation** that a data vendor derived (for example, treating interest expense as a proxy for "cost of revenue"), not a number JPMorgan reports or manages to. It's not GAAP and isn't a meaningful way to evaluate a bank.
+
+**Bottom line:** The question "are JPM's gross margins historically consistent within ~2%/year?" has no direct answer, because gross margin is not a relevant metric for a deposit-taking financial institution. The closest meaningful proxy — the overhead/efficiency ratio — has been stable (56–59% over 2020–2022).

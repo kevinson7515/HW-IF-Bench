@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "session_id": "session-782a8490-0005-4eb4-b6a1-b98982752cc0",
+  "source": "/online1/ycsc_chenkh/hitici_07/.dsh/sessions/--online1-ycsc_chenkh-hitici_07-deepseek-harness--/session-782a8490-0005-4eb4-b6a1-b98982752cc0",
+  "copied": [
+    {
+      "path": "session.lock",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-coding-parser-000/S1/session-records/session.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "session.v4.jsonl.zstd",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-coding-parser-000/S1/session-records/session.v4.jsonl.zstd",
+      "size": 32555,
+      "sha256": "881954bd7419f787f4e71bc1648e5c1801e909a08fa432ed1805582053cea490"
+    }
+  ]
+}

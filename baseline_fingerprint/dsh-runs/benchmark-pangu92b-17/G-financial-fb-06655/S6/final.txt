@@ -1,0 +1,18 @@
+**Amazon FY2017 DPO = 93.86 days**
+
+Using the line items from the 10-K:
+
+| Item | FY2016 | FY2017 |
+|---|---|---|
+| Accounts payable (balance sheet) | $25,309M | $34,616M |
+| Inventories (balance sheet) | $11,461M | $16,047M |
+| Cost of sales (P&L) | — | $111,934M |
+
+Calculation:
+
+- Average accounts payable = (25,309 + 34,616) / 2 = **29,962.5**
+- Change in inventory = 16,047 − 11,461 = **4,586**
+- Denominator = 111,934 + 4,586 = **116,520**
+- DPO = 365 × 29,962.5 / 116,520 = 93.8578…
+
+**Rounded to two decimal places: 93.86 days**

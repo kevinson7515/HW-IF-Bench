@@ -1,0 +1,12 @@
+{
+  "benchmark": "SWE-bench Verified",
+  "instance_id": "psf__requests-5414",
+  "repo": "psf/requests",
+  "base_commit": "39d0fdd9096f7dceccbc8f82e1eda7dd64717a8e",
+  "environment_setup_commit": "a1a6a549a0143d9b32717dbe3d75cd543ae5a4f6",
+  "version": "2.26",
+  "upstream_container_image": "swebench/sweb.eval.x86_64.psf_1776_requests-5414:latest",
+  "repository_files": 97,
+  "snapshot_format": "tar.gz",
+  "environment_docs": "https://www.swebench.com/SWE-bench/guides/evaluation/"
+}

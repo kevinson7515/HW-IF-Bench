@@ -1,0 +1,28 @@
+{
+  "group_id": "G-legal-cb100-001",
+  "variant_id": "S5",
+  "task_id": 9,
+  "provider": "pangu92b",
+  "status": "succeeded",
+  "exit_code": 0,
+  "started_at": "2026-10-25T01:32:31.620203+00:00",
+  "finished_at": "2026-10-25T01:47:16.864036+00:00",
+  "duration_seconds": 885.244,
+  "execution_duration_seconds": 614.415,
+  "recording_duration_seconds": 143.196,
+  "system_prompt_sha256": "2fe0a211a05aba882aaf9d060f13029644f655adcf62d33f72706a86dc6f4735",
+  "task_dir": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-legal-cb100-001/S5",
+  "recording_status": "complete",
+  "workspace_restore_status": "complete",
+  "signal": null,
+  "session_id": "session-7f1cfaad-00e0-4dfc-869d-97609ea37e74",
+  "final_event_seen": true,
+  "parse_errors": [],
+  "tool_calls": 30,
+  "tool_errors": 0,
+  "steps": 10,
+  "turn_end_reason": {
+    "kind": "completed"
+  },
+  "restore_duration_seconds": 127.632
+}

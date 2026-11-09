@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "matter_work_product",
+    "matter_work_product/review_disposition_register.md",
+    "matter_work_product/review_note.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "matter_work_product/review_disposition_register.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-001/S3/artifacts/matter_work_product/review_disposition_register.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793047699000000000,
+      "type": "file",
+      "size": 8563,
+      "sha256": "0ad57d74f3703c31718fab48bfb50b941e38a697c842fb2a47028e348b0b3ca8"
+    },
+    {
+      "path": "matter_work_product/review_note.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-001/S3/artifacts/matter_work_product/review_note.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793047759000000000,
+      "type": "file",
+      "size": 14991,
+      "sha256": "d57286c08c6f840cb2ced69c3777a5a6a3b55a92568f969feda3e2751c20f2c0"
+    }
+  ],
+  "entries": {
+    "matter_work_product": {
+      "mode": 448,
+      "mtime_ns": 1793047759000000000,
+      "type": "directory"
+    },
+    "matter_work_product/review_disposition_register.md": {
+      "mode": 384,
+      "mtime_ns": 1793047699000000000,
+      "type": "file",
+      "size": 8563,
+      "sha256": "0ad57d74f3703c31718fab48bfb50b941e38a697c842fb2a47028e348b0b3ca8"
+    },
+    "matter_work_product/review_note.md": {
+      "mode": 384,
+      "mtime_ns": 1793047759000000000,
+      "type": "file",
+      "size": 14991,
+      "sha256": "d57286c08c6f840cb2ced69c3777a5a6a3b55a92568f969feda3e2751c20f2c0"
+    }
+  },
+  "deleted_entries": {}
+}

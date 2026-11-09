@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [],
+  "modified": [
+    "attached_files/task_3/django/core/mail/message.py"
+  ],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "attached_files/task_3/django/core/mail/message.py",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-coding-django-11417/S4/artifacts/attached_files/task_3/django/core/mail/message.py",
+      "change": "modified",
+      "mode": 420,
+      "mtime_ns": 1793017221000000000,
+      "type": "file",
+      "size": 17026,
+      "sha256": "93b7f23d893a79c4131c389aea07ce4a0bfb2caae647b2f784b92ee5e8152fc6"
+    }
+  ],
+  "entries": {
+    "attached_files/task_3/django/core/mail/message.py": {
+      "mode": 420,
+      "mtime_ns": 1793017221000000000,
+      "type": "file",
+      "size": 17026,
+      "sha256": "93b7f23d893a79c4131c389aea07ce4a0bfb2caae647b2f784b92ee5e8152fc6"
+    }
+  },
+  "deleted_entries": {}
+}

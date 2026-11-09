@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<counsel-source-record schema-version="3.1">
+  <record-id>CB-DOC-031-030</record-id>
+  <matter-number>CB-LD-2701</matter-number>
+  <portfolio-key>CBP-031-06</portfolio-key>
+  <source-system>Everlaw production log</source-system>
+  <evidence-role>current_operations</evidence-role>
+  <immutable-entity-key>ENT-031-1005</immutable-entity-key>
+  <referenced-revision>REV-2025.6</referenced-revision>
+  <current-revision>REV-2025.6</current-revision>
+  <native-record>For immutable entity ENT-031-1005.
+the protective-order designation error certification covers 125 records under CB-LD-2701-E214. The operating extract cites revision REV-2025.6 and portfolio key CBP-031-06; it does not state a legal disposition.</native-record>
+  <analysis>
+    <section heading="Source lineage">Everlaw production log produced native record CB-DOC-031-030 for CB-LD-2701. Farah Ibrahim owns the source population and Farah Ibrahim recorded the collection review. The export remains separate from later legal analysis.</section>
+    <section heading="Business context">This record concerns protective-order designation error within Aurora pricing MDL discovery audit. A multidistrict antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian scope, mobile collections, Bates families, and privilege challenges against court requirements.</section>
+    <section heading="Native record">For immutable entity ENT-031-1005.
+the protective-order designation error certification covers 125 records under CB-LD-2701-E214. The operating extract cites revision REV-2025.6 and portfolio key CBP-031-06; it does not state a legal disposition.</section>
+    <section heading="Reliance limits">This file supplies current operations evidence for CBP-031-06. It does not decide legal effect, select among candidate responses, resolve another system&#x27;s entity identity, or establish that its cited revision is controlling.</section>
+  </analysis>
+  <supporting-rows>
+    <row id="CBP-031-06-CUR-01" date="2025-05-04" entity="ENT-031-1005" revision="REV-2025.6" actor="Isaac Romero" status="confirmed" metric="$621,801.00">Current Operations support row 1 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-CUR-02" date="2025-05-07" entity="ENT-031-1005" revision="REV-2025.6" actor="Willa Novak" status="recorded" metric="13%">Current Operations support row 2 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-CUR-03" date="2025-05-10" entity="ENT-031-1005" revision="REV-2025.6" actor="Henry Cho" status="superseded" metric="8%">Current Operations support row 3 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-CUR-04" date="2025-05-13" entity="ENT-031-1005" revision="REV-2025.6" actor="Farah Ibrahim" status="recorded" metric="$448,388.00">Current Operations support row 4 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-CUR-05" date="2025-05-16" entity="ENT-031-1005" revision="REV-2025.6" actor="Samuel Kim" status="recorded" metric="26%">Current Operations support row 5 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-CUR-06" date="2025-05-19" entity="ENT-031-1005" revision="REV-2025.6" actor="Nora Chen" status="recorded" metric="4%">Current Operations support row 6 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-CUR-07" date="2025-05-22" entity="ENT-031-1005" revision="REV-2025.6" actor="Elliot Mercer" status="superseded" metric="$80,575.00">Current Operations support row 7 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-CUR-08" date="2025-05-25" entity="ENT-031-2005" revision="REV-2025.6" actor="Mei Whitaker" status="superseded" metric="15%">Current Operations support row 8 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-CUR-09" date="2025-05-28" entity="ENT-031-1005" revision="REV-2025.6" actor="Isaac Romero" status="pending" metric="6%">Current Operations support row 9 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-CUR-10" date="2025-05-31" entity="ENT-031-1005" revision="REV-2025.6" actor="Willa Novak" status="confirmed" metric="$334,577.00">Current Operations support row 10 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-CUR-11" date="2025-06-03" entity="ENT-031-1005" revision="REV-2025.6" actor="Henry Cho" status="pending" metric="18%">Current Operations support row 11 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-CUR-12" date="2025-06-06" entity="ENT-031-1005" revision="REV-2025.6" actor="Farah Ibrahim" status="recorded" metric="25%">Current Operations support row 12 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-CUR-13" date="2025-06-09" entity="ENT-031-1005" revision="REV-2025.6" actor="Samuel Kim" status="pending" metric="$169,082.00">Current Operations support row 13 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-CUR-14" date="2025-06-12" entity="ENT-031-1005" revision="REV-2025.6" actor="Nora Chen" status="recorded" metric="1%">Current Operations support row 14 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-CUR-15" date="2025-06-15" entity="ENT-031-1005" revision="REV-2025.6" actor="Elliot Mercer" status="recorded" metric="27%">Current Operations support row 15 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-CUR-16" date="2025-06-18" entity="ENT-031-1005" revision="REV-2025.6" actor="Mei Whitaker" status="confirmed" metric="$197,481.00">Current Operations support row 16 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-CUR-17" date="2025-06-21" entity="ENT-031-1005" revision="REV-2025.6" actor="Isaac Romero" status="recorded" metric="23%">Current Operations support row 17 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-CUR-18" date="2025-06-24" entity="ENT-031-1005" revision="REV-2025.6" actor="Willa Novak" status="recorded" metric="14%">Current Operations support row 18 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+  </supporting-rows>
+  <chronology>
+    <event date="2024-08-05" actor="Isaac Romero" reference="CB-DOC-031-030">native population opened</event>
+    <event date="2024-08-11" actor="Theo Laurent" reference="CBP-031-06">custodian boundary confirmed</event>
+    <event date="2024-08-17" actor="Micah Sullivan" reference="CB-DOC-031-030">export created</event>
+    <event date="2024-08-23" actor="Samuel Kim" reference="CBP-031-06">cross-system identifier checked</event>
+    <event date="2024-08-29" actor="Dominic Alvarez" reference="CB-DOC-031-030">revision retained</event>
+    <event date="2024-09-04" actor="Jonas Feld" reference="CBP-031-06">matter copy collected</event>
+  </chronology>
+  <provenance>Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.</provenance>
+</counsel-source-record>

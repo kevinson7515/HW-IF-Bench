@@ -1,0 +1,21 @@
+{
+  "line": 21,
+  "id": 38,
+  "user_query": "对一份采购合同进行交叉核验：检查交付、验收、付款和违约责任条款之间是否存在时间安排不一致，并提供条款引用。",
+  "effective_query": "对一份采购合同进行交叉核验：检查交付、验收、付款和违约责任条款之间是否存在时间安排不一致，并提供条款引用。\n\nAttached files are available at the following paths. Read them as needed:\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_38/CUAD_Purchase_Agreement.txt",
+  "attached_files": [
+    "attached_files/task_38/CUAD_Purchase_Agreement.txt"
+  ],
+  "resolved_attached_files": [
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_38/CUAD_Purchase_Agreement.txt"
+  ],
+  "archived_attachments": [
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_38/CUAD_Purchase_Agreement.txt",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000021-38/inputs/attached_files/task_38/CUAD_Purchase_Agreement.txt",
+      "size": 49925,
+      "sha256": "f4aa702f1099605458b396fcb0faf9a85924bb550e59de31b8b1341a255439f7"
+    }
+  ],
+  "started_at": "2026-11-06T09:43:28.104046+00:00"
+}

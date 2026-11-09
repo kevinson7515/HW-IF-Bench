@@ -1,0 +1,17 @@
+All three matter records are committed and confirmed. Final position:
+
+**CB-LD-2701 (2026-09-05): Aurora cannot certify the full production now.** Approach: `aurora-antitrust:scoped-evidence` (AUTHORIZED).
+
+**Certify now (6, gaps disclosed):** 02 email-family 14%>11%; 04 metadata (done 11-25, due 11-27); 06 designation 125/148; 07 production 40/78; 08 wrong hold address; 09 late clawback. Latest finish 2026-09-03.
+
+**Hold (6), missing control:**
+- 01 approval (owner pending)
+- 03 identity collision 1002/2002
+- 05 approval + open R821
+- 10 stale REV-2024.2
+- 11 identity collision 1010/2010
+- 12 open privilege gap R908
+
+**Cures:** approved crosswalks (03, 11); REV-2025.3 ops (10); activated owners (01, 05); closure under R821/R908.
+
+**Records:** matter_records/CB-LD-2701/ — register, review note, completion message (Slack reply recorded; no Slack tool).

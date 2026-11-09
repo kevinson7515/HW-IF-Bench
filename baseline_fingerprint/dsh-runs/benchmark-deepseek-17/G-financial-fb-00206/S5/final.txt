@@ -1,0 +1,14 @@
+Gross margin is **not a relevant metric for JPMorgan Chase**, so the "consistent within ~2%/year" question does not apply.
+
+**Why:** JPMorgan Chase is a diversified bank and financial-services holding company, not a manufacturer or retailer. It has no cost of goods sold / cost of sales against which to compute a gross margin, because its "product" is interest, fees, trading, and advisory services rather than physical inventory.
+
+Its 2022 10-K income statement is structured entirely around bank-specific lines, not gross profit:
+- **Net interest income** (interest income − interest expense)
+- **Noninterest revenue** (fees, trading, asset management, etc.)
+- **Total net revenue** = the two above
+- **Total noninterest expense** (compensation, technology, etc.)
+- **Pre-provision profit** → provision for credit losses → net income
+
+A full-text search of the attached 10-K finds **zero** occurrences of "gross margin" or "gross profit" — the company neither reports nor defines it.
+
+For JPMorgan, the meaningful profitability/consistency metrics are instead **net interest margin (NIM)**, **return on equity (ROE)**, **return on assets**, and the **efficiency ratio** (noninterest expense / total net revenue).

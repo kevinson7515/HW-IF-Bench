@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "moutai-analysis",
+    "moutai-analysis/600519_kline.png"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "moutai-analysis/600519_kline.png",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1890615/G-marketing-kline-000/S5/artifacts/moutai-analysis/600519_kline.png",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792833297000000000,
+      "type": "file",
+      "size": 229180,
+      "sha256": "26dfeeaec234cc8670a7a480460171d9a836cedf12543e6bcad7bfe2d331f97a"
+    }
+  ],
+  "entries": {
+    "moutai-analysis": {
+      "mode": 448,
+      "mtime_ns": 1792833297000000000,
+      "type": "directory"
+    },
+    "moutai-analysis/600519_kline.png": {
+      "mode": 384,
+      "mtime_ns": 1792833297000000000,
+      "type": "file",
+      "size": 229180,
+      "sha256": "26dfeeaec234cc8670a7a480460171d9a836cedf12543e6bcad7bfe2d331f97a"
+    }
+  },
+  "deleted_entries": {}
+}

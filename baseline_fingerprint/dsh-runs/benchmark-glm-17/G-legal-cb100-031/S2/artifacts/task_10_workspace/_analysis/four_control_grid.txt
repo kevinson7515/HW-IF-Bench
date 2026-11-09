@@ -1,0 +1,155 @@
+====================================================================================================
+CBP-031-01
+  IDENTITY  [001_pleadings_source_export.md] ref=REV-2025.1 cur=REV-2025.1 ent=ENT-031-1000
+      Crosswalk revision REV-2025.1 maps portfolio key CBP-031-01 and legal name Aurora Home Supply Co. — Bates-Range Overlap record 1 to immutable entity ENT-031-1000. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+  AUTHORITY [013_orders_source_export.json] ref=REV-2025.1 cur=REV-2025.1 ent=ENT-031-1000
+      the Bates-range overlap population is 215 records under CB-LD-2701-R753. The referenced and current revision are both REV-2025.1. The matter-level control is: The operative discovery order and certification population govern completeness and privilege treatment.
+  CURRENT   [025_custodian_files_source_export.md] ref=REV-2025.1 cur=REV-2025.1 ent=ENT-031-1000
+      For immutable entity ENT-031-1000.
+the Bates-range overlap certification covers 180 records under CB-LD-2701-E138. The operating extract cites revision REV-2025.1 and portfolio key CBP-031-01; it does not state a legal disposition.
+  APPROVAL  [037_email_families_source_export.json] ref=REV-2025.1 cur=REV-2025.1 ent=ENT-031-1000
+      The current responsibility roster names Samuel Kim for CBP-031-01. Status is pending approval and inactive; remaining matter capacity is 0. The next internal control date is 2026-09-04.
+  CORRESP   [049_privilege_material_source_export.md]
+      The business owner asks whether the Bates-range overlap certification covers 180 records under CB-LD-2701-E138. The counterparty points to the Bates-range overlap population is 215 records under CB-LD-2701-R753. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+====================================================================================================
+CBP-031-02
+  IDENTITY  [002_pleadings_source_export.txt] ref=REV-2025.2 cur=REV-2025.2 ent=ENT-031-1001
+      Crosswalk revision REV-2025.2 maps portfolio key CBP-031-02 and legal name Aurora Home Supply Co. — Email-Family Separation record 2 to immutable entity ENT-031-1001. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+  AUTHORITY [014_orders_source_export.xml] ref=REV-2025.2 cur=REV-2025.2 ent=ENT-031-1001
+      the email-family separation threshold is 11% under CB-LD-2701-R682. The referenced and current revision are both REV-2025.2. The matter-level control is: The operative discovery order and certification population govern completeness and privilege treatment.
+  CURRENT   [026_custodian_files_source_export.txt] ref=REV-2025.2 cur=REV-2025.2 ent=ENT-031-1001
+      For immutable entity ENT-031-1001.
+the email-family separation result is 14% under CB-LD-2701-E716. The operating extract cites revision REV-2025.2 and portfolio key CBP-031-02; it does not state a legal disposition.
+  APPROVAL  [038_email_families_source_export.xml] ref=REV-2025.2 cur=REV-2025.2 ent=ENT-031-1001
+      The current responsibility roster names Talia Brooks for CBP-031-02. Status is active; remaining matter capacity is 1. The next internal control date is 2026-09-03.
+  CORRESP   [050_privilege_material_source_export.txt]
+      The business owner asks whether the email-family separation result is 14% under CB-LD-2701-E716. The counterparty points to the email-family separation threshold is 11% under CB-LD-2701-R682. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+====================================================================================================
+CBP-031-03
+  IDENTITY  [003_pleadings_source_export.eml] ref=None cur=None ent=None
+      Portfolio key CBP-031-03 is associated with both ENT-031-1002 and ENT-031-2002. The display name is shared, while the domain and legal-entity fields disagree. No approved crosswalk revision resolves the collision.
+  AUTHORITY [015_orders_source_export.html] ref=REV-2025.3 cur=None ent=ENT-031-1002
+      open request-response mismatch blocks completion under CB-LD-2701-R694. The referenced and current revision are both REV-2025.3. The matter-level control is: The operative discovery order and certification population govern completeness and privilege treatment.
+  CURRENT   [027_custodian_files_source_export.eml] ref=None cur=None ent=None
+      For immutable entity ENT-031-1002.
+the request-response mismatch status is open and unresolved under CB-LD-2701-E452. The operating extract cites revision REV-2025.3 and portfolio key CBP-031-03; it does not state a legal disposition.
+  APPROVAL  [039_email_families_source_export.html] ref=REV-2025.3 cur=None ent=ENT-031-1002
+      The current responsibility roster names Adrian Mensah for CBP-031-03. Status is active; remaining matter capacity is 4. The next internal control date is 2026-09-02.
+  CORRESP   [051_privilege_material_source_export.eml]
+      The business owner asks whether the request-response mismatch status is open and unresolved under CB-LD-2701-E452. The counterparty points to open request-response mismatch blocks completion under CB-LD-2701-R694. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+====================================================================================================
+CBP-031-04
+  IDENTITY  [004_pleadings_source_export.csv] ref=REV-2025.4 cur=REV-2025.4 ent=ENT-031-1003
+      Crosswalk revision REV-2025.4 maps portfolio key CBP-031-04 and legal name Aurora Home Supply Co. — Metadata Field Loss record 4 to immutable entity ENT-031-1003. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+  AUTHORITY [016_orders_source_export.pdf] ref=REV-2025.4 cur=REV-2025.4 ent=ENT-031-1003
+      metadata field loss is due by 2025-11-27 under CB-LD-2701-R665. The referenced and current revision are both REV-2025.4. The matter-level control is: The operative discovery order and certification population govern completeness and privilege treatment.
+  CURRENT   [028_custodian_files_source_export.csv] ref=REV-2025.4 cur=REV-2025.4 ent=ENT-031-1003
+      For immutable entity ENT-031-1003.
+the metadata field loss event completed on 2025-11-25 under CB-LD-2701-E980. The operating extract cites revision REV-2025.4 and portfolio key CBP-031-04; it does not state a legal disposition.
+  APPROVAL  [040_email_families_source_export.pdf] ref=REV-2025.4 cur=REV-2025.4 ent=ENT-031-1003
+      The current responsibility roster names Farah Ibrahim for CBP-031-04. Status is active; remaining matter capacity is 4. The next internal control date is 2026-09-01.
+  CORRESP   [052_privilege_material_source_export.csv]
+      The business owner asks whether the metadata field loss event completed on 2025-11-25 under CB-LD-2701-E980. The counterparty points to metadata field loss is due by 2025-11-27 under CB-LD-2701-R665. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+====================================================================================================
+CBP-031-05
+  IDENTITY  [005_pleadings_source_export.json] ref=REV-2025.5 cur=REV-2025.5 ent=ENT-031-1004
+      Crosswalk revision REV-2025.5 maps portfolio key CBP-031-05 and legal name Aurora Home Supply Co. — Collection-Date Inconsistency record 5 to immutable entity ENT-031-1004. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+  AUTHORITY [017_requests_responses_source_export.md] ref=REV-2025.5 cur=REV-2025.5 ent=ENT-031-1004
+      open collection-date inconsistency blocks completion under CB-LD-2701-R821. The referenced and current revision are both REV-2025.5. The matter-level control is: The operative discovery order and certification population govern completeness and privilege treatment.
+  CURRENT   [029_custodian_files_source_export.json] ref=REV-2025.5 cur=REV-2025.5 ent=ENT-031-1004
+      For immutable entity ENT-031-1004.
+the collection-date inconsistency status is open and unresolved under CB-LD-2701-E407. The operating extract cites revision REV-2025.5 and portfolio key CBP-031-05; it does not state a legal disposition.
+  APPROVAL  [041_chat_exports_source_export.md] ref=REV-2025.5 cur=REV-2025.5 ent=ENT-031-1004
+      The current responsibility roster names Dominic Alvarez for CBP-031-05. Status is pending approval and inactive; remaining matter capacity is 0. The next internal control date is 2026-08-31.
+  CORRESP   [053_privilege_material_source_export.json]
+      The business owner asks whether the collection-date inconsistency status is open and unresolved under CB-LD-2701-E407. The counterparty points to open collection-date inconsistency blocks completion under CB-LD-2701-R821. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+====================================================================================================
+CBP-031-06
+  IDENTITY  [006_pleadings_source_export.xml] ref=REV-2025.6 cur=REV-2025.6 ent=ENT-031-1005
+      Crosswalk revision REV-2025.6 maps portfolio key CBP-031-06 and legal name Aurora Home Supply Co. — Protective-Order Designation Error record 6 to immutable entity ENT-031-1005. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+  AUTHORITY [018_requests_responses_source_export.txt] ref=REV-2025.6 cur=REV-2025.6 ent=ENT-031-1005
+      the protective-order designation error population is 148 records under CB-LD-2701-R246. The referenced and current revision are both REV-2025.6. The matter-level control is: The operative discovery order and certification population govern completeness and privilege treatment.
+  CURRENT   [030_custodian_files_source_export.xml] ref=REV-2025.6 cur=REV-2025.6 ent=ENT-031-1005
+      For immutable entity ENT-031-1005.
+the protective-order designation error certification covers 125 records under CB-LD-2701-E214. The operating extract cites revision REV-2025.6 and portfolio key CBP-031-06; it does not state a legal disposition.
+  APPROVAL  [042_chat_exports_source_export.txt] ref=REV-2025.6 cur=REV-2025.6 ent=ENT-031-1005
+      The current responsibility roster names Leona Park for CBP-031-06. Status is active; remaining matter capacity is 6. The next internal control date is 2026-08-30.
+  CORRESP   [054_privilege_material_source_export.xml]
+      The business owner asks whether the protective-order designation error certification covers 125 records under CB-LD-2701-E214. The counterparty points to the protective-order designation error population is 148 records under CB-LD-2701-R246. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+====================================================================================================
+CBP-031-07
+  IDENTITY  [007_pleadings_source_export.html] ref=REV-2025.7 cur=None ent=ENT-031-1006
+      Crosswalk revision REV-2025.7 maps portfolio key CBP-031-07 and legal name Aurora Home Supply Co. — Production Gap record 7 to immutable entity ENT-031-1006. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+  AUTHORITY [019_requests_responses_source_export.eml] ref=None cur=None ent=None
+      the production gap population is 78 records under CB-LD-2701-R626. The referenced and current revision are both REV-2025.7. The matter-level control is: The operative discovery order and certification population govern completeness and privilege treatment.
+  CURRENT   [031_custodian_files_source_export.html] ref=REV-2025.7 cur=None ent=ENT-031-1006
+      For immutable entity ENT-031-1006.
+the production gap certification covers 40 records under CB-LD-2701-E660. The operating extract cites revision REV-2025.7 and portfolio key CBP-031-07; it does not state a legal disposition.
+  APPROVAL  [043_chat_exports_source_export.eml] ref=None cur=None ent=None
+      The current responsibility roster names Henry Cho for CBP-031-07. Status is active; remaining matter capacity is 6. The next internal control date is 2026-08-29.
+  CORRESP   [055_privilege_material_source_export.html]
+      The business owner asks whether the production gap certification covers 40 records under CB-LD-2701-E660. The counterparty points to the production gap population is 78 records under CB-LD-2701-R626. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+====================================================================================================
+CBP-031-08
+  IDENTITY  [008_pleadings_source_export.pdf] ref=REV-2025.1 cur=REV-2025.1 ent=ENT-031-1007
+      Crosswalk revision REV-2025.1 maps portfolio key CBP-031-08 and legal name Aurora Home Supply Co. ? Legal-Hold Delivery Gap record 8 to immutable entity ENT-031-1007. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+  AUTHORITY [020_requests_responses_source_export.csv] ref=REV-2025.1 cur=REV-2025.1 ent=ENT-031-1007
+      legal-hold delivery gap notices must use notices-aurora_home_supply_co@example.test under CB-LD-2701-R397. The referenced and current revision are both REV-2025.1. The matter-level control is: The operative discovery order and certification population govern completeness and privilege treatment.
+  CURRENT   [032_custodian_files_source_export.pdf] ref=REV-2025.1 cur=REV-2025.1 ent=ENT-031-1007
+      For immutable entity ENT-031-1007. the legal-hold delivery gap receipt used archive-in_re_residential_fixture_pricing@example.test under CB-LD-2701-E382. The operating extract cites revision REV-2025.1 and portfolio key CBP-031-08; it does not state a legal disposition.
+  APPROVAL  [044_chat_exports_source_export.csv] ref=REV-2025.1 cur=REV-2025.1 ent=ENT-031-1007
+      The current responsibility roster names Maya Ellison for CBP-031-08. Status is active; remaining matter capacity is 1. The next internal control date is 2026-08-28.
+  CORRESP   [056_privilege_material_source_export.pdf]
+      The business owner asks whether the legal-hold delivery gap receipt used archive-in_re_residential_fixture_pricing@example.test under CB-LD-2701-E382. The counterparty points to legal-hold delivery gap notices must use notices-aurora_home_supply_co@example.test under CB-LD-2701-R397. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+====================================================================================================
+CBP-031-09
+  IDENTITY  [009_orders_source_export.md] ref=REV-2025.2 cur=REV-2025.2 ent=ENT-031-1008
+      Crosswalk revision REV-2025.2 maps portfolio key CBP-031-09 and legal name Aurora Home Supply Co. — Clawback Deadline record 9 to immutable entity ENT-031-1008. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+  AUTHORITY [021_requests_responses_source_export.json] ref=REV-2025.2 cur=REV-2025.2 ent=ENT-031-1008
+      clawback deadline is due by 2025-03-31 under CB-LD-2701-R664. The referenced and current revision are both REV-2025.2. The matter-level control is: The operative discovery order and certification population govern completeness and privilege treatment.
+  CURRENT   [033_email_families_source_export.md] ref=REV-2025.2 cur=REV-2025.2 ent=ENT-031-1008
+      For immutable entity ENT-031-1008.
+the clawback deadline event completed on 2025-05-12 under CB-LD-2701-E503. The operating extract cites revision REV-2025.2 and portfolio key CBP-031-09; it does not state a legal disposition.
+  APPROVAL  [045_chat_exports_source_export.json] ref=REV-2025.2 cur=REV-2025.2 ent=ENT-031-1008
+      The current responsibility roster names Jonas Feld for CBP-031-09. Status is active; remaining matter capacity is 1. The next internal control date is 2026-08-27.
+  CORRESP   [057_production_logs_source_export.md]
+      The business owner asks whether the clawback deadline event completed on 2025-05-12 under CB-LD-2701-E503. The counterparty points to clawback deadline is due by 2025-03-31 under CB-LD-2701-R664. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+====================================================================================================
+CBP-031-10
+  IDENTITY  [010_orders_source_export.txt] ref=REV-2024.2 cur=REV-2025.3 ent=ENT-031-1009
+      Crosswalk revision REV-2025.3 maps portfolio key CBP-031-10 and legal name Aurora Home Supply Co. — Third-Party Subpoena Deadline record 10 to immutable entity ENT-031-1009. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+  AUTHORITY [022_requests_responses_source_export.xml] ref=REV-2024.2 cur=REV-2025.3 ent=ENT-031-1009
+      third-party subpoena deadline notices must use notices-aurora_home_supply_co@example.test under CB-LD-2701-R537. Operations cites REV-2024.2, but REV-2025.3 is the later effective revision. The matter-level control is: The operative discovery order and certification population govern completeness and privilege treatment.
+  CURRENT   [034_email_families_source_export.txt] ref=REV-2024.2 cur=REV-2025.3 ent=ENT-031-1009
+      For immutable entity ENT-031-1009.
+the third-party subpoena deadline receipt used archive-in_re_residential_fixture_pricing@example.test under CB-LD-2701-E178. The operating extract cites revision REV-2024.2 and portfolio key CBP-031-10; it does not state a legal disposition.
+  APPROVAL  [046_chat_exports_source_export.xml] ref=REV-2024.2 cur=REV-2025.3 ent=ENT-031-1009
+      The current responsibility roster names Willa Novak for CBP-031-10. Status is active; remaining matter capacity is 4. The next internal control date is 2026-09-04.
+  CORRESP   [058_production_logs_source_export.txt]
+      The business owner asks whether the third-party subpoena deadline receipt used archive-in_re_residential_fixture_pricing@example.test under CB-LD-2701-E178. The counterparty points to third-party subpoena deadline notices must use notices-aurora_home_supply_co@example.test under CB-LD-2701-R537. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+====================================================================================================
+CBP-031-11
+  IDENTITY  [011_orders_source_export.eml] ref=None cur=None ent=None
+      Portfolio key CBP-031-11 is associated with both ENT-031-1010 and ENT-031-2010. The display name is shared, while the domain and legal-entity fields disagree. No approved crosswalk revision resolves the collision.
+  AUTHORITY [023_requests_responses_source_export.html] ref=REV-2025.4 cur=None ent=ENT-031-1010
+      the custodian omission population is 98 records under CB-LD-2701-R976. The referenced and current revision are both REV-2025.4. The matter-level control is: The operative discovery order and certification population govern completeness and privilege treatment.
+  CURRENT   [035_email_families_source_export.eml] ref=None cur=None ent=None
+      For immutable entity ENT-031-1010.
+the custodian omission certification covers 61 records under CB-LD-2701-E151. The operating extract cites revision REV-2025.4 and portfolio key CBP-031-11; it does not state a legal disposition.
+  APPROVAL  [047_chat_exports_source_export.html] ref=REV-2025.4 cur=None ent=ENT-031-1010
+      The current responsibility roster names Owen Delgado for CBP-031-11. Status is active; remaining matter capacity is 3. The next internal control date is 2026-09-03.
+  CORRESP   [059_production_logs_source_export.eml]
+      The business owner asks whether the custodian omission certification covers 61 records under CB-LD-2701-E151. The counterparty points to the custodian omission population is 98 records under CB-LD-2701-R976. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+====================================================================================================
+CBP-031-12
+  IDENTITY  [012_orders_source_export.csv] ref=REV-2025.5 cur=REV-2025.5 ent=ENT-031-1011
+      Crosswalk revision REV-2025.5 maps portfolio key CBP-031-12 and legal name Aurora Home Supply Co. — Common-Interest Support Gap record 12 to immutable entity ENT-031-1011. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+  AUTHORITY [024_requests_responses_source_export.pdf] ref=REV-2025.5 cur=REV-2025.5 ent=ENT-031-1011
+      open common-interest support gap blocks completion under CB-LD-2701-R908. The referenced and current revision are both REV-2025.5. The matter-level control is: The operative discovery order and certification population govern completeness and privilege treatment.
+  CURRENT   [036_email_families_source_export.csv] ref=REV-2025.5 cur=REV-2025.5 ent=ENT-031-1011
+      For immutable entity ENT-031-1011.
+the common-interest support gap status is open and unresolved under CB-LD-2701-E253. The operating extract cites revision REV-2025.5 and portfolio key CBP-031-12; it does not state a legal disposition.
+  APPROVAL  [048_chat_exports_source_export.pdf] ref=REV-2025.5 cur=REV-2025.5 ent=ENT-031-1011
+      The current responsibility roster names Priya Raman for CBP-031-12. Status is active; remaining matter capacity is 1. The next internal control date is 2026-09-02.
+  CORRESP   [060_production_logs_source_export.csv]
+      The business owner asks whether the common-interest support gap status is open and unresolved under CB-LD-2701-E253. The counterparty points to open common-interest support gap blocks completion under CB-LD-2701-R908. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.

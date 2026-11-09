@@ -1,0 +1,49 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "regular-file size and nanosecond mtime before and after the task",
+  "created": [],
+  "modified": [
+    "attached_files/task_2/astropy/units/quantity.py",
+    "attached_files/task_2/astropy/units/tests/test_quantity_array_methods.py",
+    "attached_files/task_2/astropy/utils/masked/core.py",
+    "attached_files/task_2/astropy/utils/masked/tests/test_masked.py"
+  ],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "attached_files/task_2/astropy/units/quantity.py",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1853564/000002-2/artifacts/attached_files/task_2/astropy/units/quantity.py",
+      "change": "modified",
+      "size": 81796,
+      "sha256": "f33a58da9c04bdc0b8246d346c827c60debbcd1bcfd55de2efeab1d99ae8829d"
+    },
+    {
+      "path": "attached_files/task_2/astropy/units/tests/test_quantity_array_methods.py",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1853564/000002-2/artifacts/attached_files/task_2/astropy/units/tests/test_quantity_array_methods.py",
+      "change": "modified",
+      "size": 21018,
+      "sha256": "6126c800a1332941ffdc0060bebeb5342aad24fa9fa04da8231d562b6c4bdef9"
+    },
+    {
+      "path": "attached_files/task_2/astropy/utils/masked/core.py",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1853564/000002-2/artifacts/attached_files/task_2/astropy/utils/masked/core.py",
+      "change": "modified",
+      "size": 46034,
+      "sha256": "ff0a37f58dcf1ef448612ce96108e839b782de90f572a1426977e207157e0824"
+    },
+    {
+      "path": "attached_files/task_2/astropy/utils/masked/tests/test_masked.py",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1853564/000002-2/artifacts/attached_files/task_2/astropy/utils/masked/tests/test_masked.py",
+      "change": "modified",
+      "size": 51269,
+      "sha256": "5c282b5f773da980a6d876f9886aea055c2a99bf08cf61885dafcf1f7380ea79"
+    }
+  ],
+  "skipped": [],
+  "errors": [],
+  "limits": {
+    "max_file_bytes": 104857600,
+    "max_total_bytes": 1073741824
+  }
+}

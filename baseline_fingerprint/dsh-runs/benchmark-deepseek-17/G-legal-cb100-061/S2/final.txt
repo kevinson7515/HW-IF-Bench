@@ -1,0 +1,9 @@
+审计已完成并结案。
+
+**方法**：`arcadia-genomics:scoped-evidence`（已授权）。对 12 个组合键逐一核对身份、权限、当前运营和修订四项控制。
+
+**结果**：8 项支持 + 4 项证据保留。
+- 保留（4）：CBP-061-04 与 CBP-061-12（同名冲突，共享 R173/E104）；CBP-061-07（待定所有权，批准未决且 inactive，容量 0）；CBP-061-08（旧版修订，REV-2024.0 ≠ REV-2025.1）。
+- 支持（8）：CBP-061-01、02、03、05、06、09、10、11。
+
+已拒绝 `shortcut`（无证据支持）与 `blanket-hold`（需额外批准）。结案记录与审查说明已提交至 `arcadia_genomics_response_audit_closeout.md`。

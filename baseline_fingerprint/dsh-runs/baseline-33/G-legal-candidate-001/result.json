@@ -1,0 +1,19 @@
+{
+  "line": 20,
+  "id": 37,
+  "status": "succeeded",
+  "exit_code": 0,
+  "session_id": "session-5f757cc2-4b6e-4a0f-a401-fb9ec3cd54c5",
+  "final_event_seen": true,
+  "started_at": "2026-11-06T09:41:47.765641+00:00",
+  "finished_at": "2026-11-06T09:43:28.081816+00:00",
+  "duration_seconds": 100.316,
+  "task_dir": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000020-37",
+  "trace_events": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000020-37/trace.jsonl",
+  "trace": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000020-37/trace.json",
+  "diagnostics": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000020-37/diagnostics.log",
+  "final": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000020-37/final.txt",
+  "artifacts": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000020-37/artifacts.json",
+  "session_records": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000020-37/session-records.json",
+  "recording_status": "complete"
+}

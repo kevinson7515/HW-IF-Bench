@@ -1,0 +1,48 @@
+修复完成。根因、改动与验证结果如下。
+
+## 根因
+
+`requests/models.py` 的 `PreparedRequest.prepare_url()` 中，只有 **非 ASCII** 主机名才会走 IDNA 编码校验；ASCII 主机名只做了通配符 `*` 前缀检查：
+
+```python
+if not unicode_is_ascii(host):
+    try:
+        host = self._get_idna_encoded_host(host)
+    except UnicodeError:
+        raise InvalidURL('URL has an invalid label.')
+elif host.startswith(u'*'):          # 只拦 *
+    raise InvalidURL('URL has an invalid label.')
+```
+
+`http://.example.com` 的主机名 `.example.com` 是纯 ASCII，因此绕过了校验，`prepare_url` 正常返回。空标签（前导点）的错误直到真正建立连接、底层 socket 做 IDNA 编码时才触发，冒出来的是 `UnicodeError: encoding with 'idna' codec failed (UnicodeError: label empty or too long)`，而不是 Requests 的 `InvalidURL`。
+
+## 改动
+
+`requests/models.py` — 让 ASCII 主机名同样拒绝前导 `.`（空首标签）：
+
+```diff
+-        elif host.startswith(u'*'):
++        elif host.startswith((u'*', u'.')):
+             raise InvalidURL('URL has an invalid label.')
+```
+
+`tests/test_requests.py` — 在 `test_preparing_bad_url` 参数集中补一条回归用例：
+
+```diff
+-            u"http://☃.net/"
++            u"http://☃.net/",
++            u"http://.example.com",
+```
+
+## 验证
+
+- 复现确认：`requests.Request("GET", "http://.example.com").prepare()` 现在抛出 `InvalidURL: URL has an invalid label.`（原先是静默通过，连接时才抛 `UnicodeError`）。
+- `pytest tests/test_requests.py::TestPreparingURLs::test_preparing_bad_url` → **6 passed**（含新增用例）。
+- `TestPreparingURLs` 其余合法 URL 用例全部通过（唯一失败的是 `test_redirecting_to_bad_url`，由沙箱里 werkzeug 版本不兼容导致 httpbin 重定向端点 500，与本改动无关）。
+
+产物已落盘：
+- `attached_files/task_22/patch.diff`（可直接应用的补丁）
+- `attached_files/task_22/fixed/requests/models.py`
+- `attached_files/task_22/fixed/tests/test_requests.py`
+
+该修复与上游 requests 的最终实现一致（`host.startswith((u'*', u'.'))`）。

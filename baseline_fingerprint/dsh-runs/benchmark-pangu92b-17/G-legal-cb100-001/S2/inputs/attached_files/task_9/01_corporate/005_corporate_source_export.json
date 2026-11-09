@@ -1,0 +1,266 @@
+{
+  "body": "Crosswalk revision REV-2025.5 maps portfolio key CBP-001-05 and legal name Helios Forge, Inc. — Most-Favored-Customer Exposure record 5 to immutable entity ENT-001-1004. The domain, legal entity, and native system key agree; the nearby alias is excluded.",
+  "chronology": [
+    {
+      "actor": "Priya Raman",
+      "date": "2025-05-23",
+      "event": "native population opened",
+      "reference": "CB-DOC-001-005"
+    },
+    {
+      "actor": "Mei Whitaker",
+      "date": "2025-05-29",
+      "event": "custodian boundary confirmed",
+      "reference": "CBP-001-05"
+    },
+    {
+      "actor": "Sofia Bennett",
+      "date": "2025-06-04",
+      "event": "export created",
+      "reference": "CB-DOC-001-005"
+    },
+    {
+      "actor": "Amara Patel",
+      "date": "2025-06-10",
+      "event": "cross-system identifier checked",
+      "reference": "CBP-001-05"
+    },
+    {
+      "actor": "Farah Ibrahim",
+      "date": "2025-06-16",
+      "event": "revision retained",
+      "reference": "CB-DOC-001-005"
+    },
+    {
+      "actor": "Maya Ellison",
+      "date": "2025-06-22",
+      "event": "matter copy collected",
+      "reference": "CBP-001-05"
+    }
+  ],
+  "client": "Helios Forge, Inc.",
+  "confidentiality": "Restricted matter team",
+  "counterparty": "BluePeak Battery Systems LLC",
+  "current_revision": "REV-2025.5",
+  "custodian": "Adrian Mensah",
+  "evidence_role": "identity_crosswalk",
+  "immutable_entity_key": "ENT-001-1004",
+  "matter_number": "CB-MA-2401",
+  "matter_title": "Project Daybreak battery acquisition",
+  "native_version": "3.4",
+  "portfolio_key": "CBP-001-05",
+  "provenance": "Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.",
+  "record_date": "2025-06-27",
+  "record_id": "CB-DOC-001-005",
+  "referenced_revision": "REV-2025.5",
+  "related_records": [
+    "CB-DOC-001-016",
+    "CB-DOC-001-034",
+    "CB-DOC-001-052",
+    "CB-DOC-001-076"
+  ],
+  "reviewer": "Jonas Feld",
+  "rows": [
+    {
+      "actor": "Priya Raman",
+      "effective_date": "2024-08-05",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-IDE-01",
+      "metric": "$827,157.00",
+      "note": "Identity Crosswalk support row 1 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Jonas Feld",
+      "effective_date": "2024-08-08",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-IDE-02",
+      "metric": "1%",
+      "note": "Identity Crosswalk support row 2 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "pending"
+    },
+    {
+      "actor": "Leona Park",
+      "effective_date": "2024-08-11",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-IDE-03",
+      "metric": "12%",
+      "note": "Identity Crosswalk support row 3 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "pending"
+    },
+    {
+      "actor": "Adrian Mensah",
+      "effective_date": "2024-08-14",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-IDE-04",
+      "metric": "$660,877.00",
+      "note": "Identity Crosswalk support row 4 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Amara Patel",
+      "effective_date": "2024-08-17",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-IDE-05",
+      "metric": "27%",
+      "note": "Identity Crosswalk support row 5 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Micah Sullivan",
+      "effective_date": "2024-08-20",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-IDE-06",
+      "metric": "7%",
+      "note": "Identity Crosswalk support row 6 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Lena Varga",
+      "effective_date": "2024-08-23",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-IDE-07",
+      "metric": "$341,038.00",
+      "note": "Identity Crosswalk support row 7 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "pending"
+    },
+    {
+      "actor": "Rafael Okafor",
+      "effective_date": "2024-08-26",
+      "entity_key": "ENT-001-2004",
+      "line_id": "CBP-001-05-IDE-08",
+      "metric": "1%",
+      "note": "Identity Crosswalk support row 8 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Priya Raman",
+      "effective_date": "2024-08-29",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-IDE-09",
+      "metric": "3%",
+      "note": "Identity Crosswalk support row 9 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "recorded"
+    },
+    {
+      "actor": "Jonas Feld",
+      "effective_date": "2024-09-01",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-IDE-10",
+      "metric": "$603,566.00",
+      "note": "Identity Crosswalk support row 10 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "pending"
+    },
+    {
+      "actor": "Leona Park",
+      "effective_date": "2024-09-04",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-IDE-11",
+      "metric": "18%",
+      "note": "Identity Crosswalk support row 11 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Adrian Mensah",
+      "effective_date": "2024-09-07",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-IDE-12",
+      "metric": "15%",
+      "note": "Identity Crosswalk support row 12 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "recorded"
+    },
+    {
+      "actor": "Amara Patel",
+      "effective_date": "2024-09-10",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-IDE-13",
+      "metric": "$74,613.00",
+      "note": "Identity Crosswalk support row 13 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Micah Sullivan",
+      "effective_date": "2024-09-13",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-IDE-14",
+      "metric": "21%",
+      "note": "Identity Crosswalk support row 14 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "recorded"
+    },
+    {
+      "actor": "Lena Varga",
+      "effective_date": "2024-09-16",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-IDE-15",
+      "metric": "20%",
+      "note": "Identity Crosswalk support row 15 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Rafael Okafor",
+      "effective_date": "2024-09-19",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-IDE-16",
+      "metric": "$943,756.00",
+      "note": "Identity Crosswalk support row 16 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "recorded"
+    },
+    {
+      "actor": "Priya Raman",
+      "effective_date": "2024-09-22",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-IDE-17",
+      "metric": "27%",
+      "note": "Identity Crosswalk support row 17 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Jonas Feld",
+      "effective_date": "2024-09-25",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-IDE-18",
+      "metric": "25%",
+      "note": "Identity Crosswalk support row 18 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Source lineage",
+      "text": "Jira integration tracker produced native record CB-DOC-001-005 for CB-MA-2401. Adrian Mensah owns the source population and Jonas Feld recorded the collection review. The export remains separate from later legal analysis."
+    },
+    {
+      "heading": "Business context",
+      "text": "This record concerns most-favored-customer exposure within Project Daybreak battery acquisition. A carve-out manufacturer owns cathode tooling in Nevada while its largest automaker customer can terminate upon an indirect change of control. The record addresses one part of the broader question: Match the cathode-tooling records and automaker consent history to the exact acquired entity."
+    },
+    {
+      "heading": "Native record",
+      "text": "Crosswalk revision REV-2025.5 maps portfolio key CBP-001-05 and legal name Helios Forge, Inc. — Most-Favored-Customer Exposure record 5 to immutable entity ENT-001-1004. The domain, legal entity, and native system key agree; the nearby alias is excluded."
+    },
+    {
+      "heading": "Reliance limits",
+      "text": "This file supplies identity crosswalk evidence for CBP-001-05. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling."
+    }
+  ],
+  "source_path": "/workspace/documents/01_corporate/005_corporate_source_export.json",
+  "source_system": "Jira integration tracker",
+  "subject": "most-favored-customer exposure"
+}

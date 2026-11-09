@@ -1,0 +1,28 @@
+{
+  "group_id": "G-research-query-000",
+  "variant_id": "S5",
+  "task_id": 22,
+  "provider": "company-glm",
+  "status": "succeeded",
+  "exit_code": 0,
+  "started_at": "2026-11-03T09:27:06.713653+00:00",
+  "finished_at": "2026-11-03T09:47:26.689776+00:00",
+  "duration_seconds": 1219.976,
+  "execution_duration_seconds": 802.972,
+  "recording_duration_seconds": 293.521,
+  "system_prompt_sha256": "60f217c278711b9a05eaa01db2c3ddd1d2cd67361f7712994863fea0786887d8",
+  "task_dir": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1937700/G-research-query-000/S5",
+  "recording_status": "complete",
+  "workspace_restore_status": "complete",
+  "signal": null,
+  "session_id": "session-88423baa-010c-40bf-b3e9-7e25c8972c31",
+  "final_event_seen": true,
+  "parse_errors": [],
+  "tool_calls": 36,
+  "tool_errors": 5,
+  "steps": 21,
+  "turn_end_reason": {
+    "kind": "completed"
+  },
+  "restore_duration_seconds": 123.483
+}

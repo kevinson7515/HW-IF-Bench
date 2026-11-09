@@ -1,0 +1,32 @@
+All verification loops are now closed. The read of `__array_ufunc__` (L569–621) confirms the final piece: `where`/`initial` kwargs pass through verbatim to numpy's reduce (`super().__array_ufunc__(function, method, *arrays, **kwargs)`), so `np.sum`/`np.min`/`np.max`/`np.mean(q, where=...)` need no changes there — and since this codebase does **not** convert `initial` centrally in `__array_ufunc__` (unlike astropy ≥5.3, which does `self._to_own_unit(kwargs["initial"], ...)` there, per the [astropy quantity.py source](https://docs.astropy.org/en/stable/_modules/astropy/units/quantity.html)), the inline `self._to_own_unit(initial)` in `nansum` is the correct and only place for the unit conversion in this baseline.
+
+Both subagent verifications returned clean, and behavior was validated earlier via monkey-patch onto a live astropy/numpy. The task is complete.
+
+---
+
+## 任务完成报告
+
+**原始需求**：为 `astropy.units.Quantity` 及 `astropy.utils.masked.MaskedNDArray` 的统计方法增加 NumPy `where` 参数支持，并在 NumPy ≥ 1.22 时支持 `nansum` 的 `initial`/`where`；保持单位、掩码和旧版 NumPy 兼容性。
+
+### 1. `astropy/units/quantity.py`
+- 新增 import：`from astropy.utils.compat import NUMPY_LT_1_20, NUMPY_LT_1_22`。
+- `var`/`std`/`mean`（L1786–1816）：双分支版本门控（`NUMPY_LT_1_20`），新版签名增加 `*, where=True`，经 `_wrap_function` 透传给 `np.var`/`np.std`/`np.mean`；`var` 保持 `unit=self.unit**2`。
+- `nansum`（L1843–1854）：`NUMPY_LT_1_22` 门控；新版签名 `*, initial=None, where=True`，先 `initial = self._to_own_unit(initial)`（保持单位语义，不兼容单位抛 `UnitsError`），再透传给 `np.nansum`。
+- `__array_ufunc__`/`_wrap_function` 无需改动（已确认 `where` 原样透传给 numpy reduce）。
+
+### 2. `astropy/utils/masked/core.py`
+- `mean`（L1046–1067）：`where = ~self.mask & where`，对未掩码且选中的元素求均值，`n = np.add.reduce(where, ...)` 做分母。
+- `var`（L1069–1091）：`where_final = ~self.mask & where`，两遍计算并做 `ddof`/`n<=0` 防护，`result._mask |= (n == 0)`。
+- `std`（L1093–1097）透传 `where` 给 `var` 后开方。
+- `any`/`all`（L1104–1112）：`np.logical_or.reduce`/`np.logical_and.reduce(..., where=~self.mask & where)`。
+- 掩码传播统一为：`expected_mask = np.logical_or.reduce(mask, axis, where=where_final) | (~where_final).all(axis)`。
+- `min`/`max`/`sum` 走既有路径（`_reduce_defaults` / `__array_ufunc__` reduce 分支），无需改动。
+
+### 3. 两个测试文件
+- `test_quantity_array_methods.py`：新增 `test_mean_where`/`test_std_where`/`test_var_where`（xfail `NUMPY_LT_1_20`）、`test_min_where`/`test_max_where`/`test_sum_where`、`test_nansum_where`（xfail `NUMPY_LT_1_22`），共 7 个，各自唯一。
+- `test_masked.py`：新增 `test_sum_where`/`test_mean_where`/`test_var_where`/`test_std_where`/`test_min_where`/`test_max_where`/`test_all_and_any_where` 共 7 个，均断言 `unmasked` 数值与 `mask` 传播两个维度。
+
+### 验证
+- 两个复核子代理确认：源码两文件与预期改动逐项一致、无附带改动；测试文件语法/缩进/导入使用/方法唯一性均无误。
+- 行为验证（monkey-patch 到 astropy 8 / numpy 2.3 环境）：`initial=1*u.km` 正确换算（结果 1007 m）、`initial=1*u.s` 抛 `UnitsError`、dimensionless 可用纯数字、`out=`/`keepdims`/`axis` 正常；masked 各方法在 axis=0/1 下数值与掩码均正确，`MaskedQuantity` 单位保持（mean→m，var→m²）。
+- E2B 沙箱后期因平台 TLS 连接故障不可用，最终核对由本地逐行阅读 + 子代理完成。

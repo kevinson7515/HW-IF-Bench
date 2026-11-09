@@ -1,0 +1,99 @@
+From: Isaac Romero <isaac_romero@example.test>
+To: Henry Cho <henry_cho@example.test>
+Date: 2025-08-23 08:30:00 -0700
+Message-ID: <cb-doc-001-075@example.test>
+Subject: CB-MA-2401 — permit transfer restriction source export
+X-Matter-Number: CB-MA-2401
+X-Portfolio-Key: CBP-001-03
+X-Source-System: Ironclad CLM
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Custody history shows collection from /workspace/documents/04_debt_security/027_debt_security_source_export.eml after the operative record was fixed at /workspace/documents/02_capitalization/015_capitalization_source_export.html. Reviewer handoff preserved both versions and the identity record for CBP-001-03.
+
+SOURCE LINEAGE
+Ironclad CLM produced native record CB-DOC-001-075 for CB-MA-2401. Isaac Romero owns the source population and Henry Cho recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns permit transfer restriction within Project Daybreak battery acquisition. A carve-out manufacturer owns cathode tooling in Nevada while its largest automaker customer can terminate upon an indirect change of control. The record addresses one part of the broader question: Match the cathode-tooling records and automaker consent history to the exact acquired entity.
+
+NATIVE RECORD
+Custody history shows collection from /workspace/documents/04_debt_security/027_debt_security_source_export.eml after the operative record was fixed at /workspace/documents/02_capitalization/015_capitalization_source_export.html. Reviewer handoff preserved both versions and the identity record for CBP-001-03.
+
+RELIANCE LIMITS
+This file supplies chronology and custody evidence for CBP-001-03. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SOURCE THREAD
+-----Original Message-----
+From: Nora Chen <nora_chen@example.test>
+Sent: 2024-06-01 09:00:00 -0700
+To: Henry Cho <henry_cho@example.test>
+Subject: CBP-001-03 source row CBP-001-03-CHR-01
+
+Chronology And Custody support row 1 for permit transfer restriction; retained from the native system so the reviewer can distinguish the exact CBP-001-03 population from similarly named records. The native status is pending and the recorded metric is $843,338.00.
+
+-----Original Message-----
+From: Elliot Mercer <elliot_mercer@example.test>
+Sent: 2024-06-04 09:00:00 -0700
+To: Henry Cho <henry_cho@example.test>
+Subject: CBP-001-03 source row CBP-001-03-CHR-02
+
+Chronology And Custody support row 2 for permit transfer restriction; retained from the native system so the reviewer can distinguish the exact CBP-001-03 population from similarly named records. The native status is pending and the recorded metric is 17%.
+
+-----Original Message-----
+From: Mei Whitaker <mei_whitaker@example.test>
+Sent: 2024-06-07 09:00:00 -0700
+To: Henry Cho <henry_cho@example.test>
+Subject: CBP-001-03 source row CBP-001-03-CHR-03
+
+Chronology And Custody support row 3 for permit transfer restriction; retained from the native system so the reviewer can distinguish the exact CBP-001-03 population from similarly named records. The native status is superseded and the recorded metric is 27%.
+
+-----Original Message-----
+From: Isaac Romero <isaac_romero@example.test>
+Sent: 2024-06-10 09:00:00 -0700
+To: Henry Cho <henry_cho@example.test>
+Subject: CBP-001-03 source row CBP-001-03-CHR-04
+
+Chronology And Custody support row 4 for permit transfer restriction; retained from the native system so the reviewer can distinguish the exact CBP-001-03 population from similarly named records. The native status is superseded and the recorded metric is $860,519.00.
+
+-----Original Message-----
+From: Willa Novak <willa_novak@example.test>
+Sent: 2024-06-13 09:00:00 -0700
+To: Henry Cho <henry_cho@example.test>
+Subject: CBP-001-03 source row CBP-001-03-CHR-05
+
+Chronology And Custody support row 5 for permit transfer restriction; retained from the native system so the reviewer can distinguish the exact CBP-001-03 population from similarly named records. The native status is superseded and the recorded metric is 16%.
+
+-----Original Message-----
+From: Henry Cho <henry_cho@example.test>
+Sent: 2024-06-16 09:00:00 -0700
+To: Henry Cho <henry_cho@example.test>
+Subject: CBP-001-03 source row CBP-001-03-CHR-06
+
+Chronology And Custody support row 6 for permit transfer restriction; retained from the native system so the reviewer can distinguish the exact CBP-001-03 population from similarly named records. The native status is recorded and the recorded metric is 8%.
+
+-----Original Message-----
+From: Farah Ibrahim <farah_ibrahim@example.test>
+Sent: 2024-06-19 09:00:00 -0700
+To: Henry Cho <henry_cho@example.test>
+Subject: CBP-001-03 source row CBP-001-03-CHR-07
+
+Chronology And Custody support row 7 for permit transfer restriction; retained from the native system so the reviewer can distinguish the exact CBP-001-03 population from similarly named records. The native status is pending and the recorded metric is $928,306.00.
+
+-----Original Message-----
+From: Samuel Kim <samuel_kim@example.test>
+Sent: 2024-06-22 09:00:00 -0700
+To: Henry Cho <henry_cho@example.test>
+Subject: CBP-001-03 source row CBP-001-03-CHR-08
+
+Chronology And Custody support row 8 for permit transfer restriction; retained from the native system so the reviewer can distinguish the exact CBP-001-03 population from similarly named records. The native status is pending and the recorded metric is 1%.
+
+CHRONOLOGY
+2025-07-19 | native population opened | Nora Chen | CB-DOC-001-075
+2025-07-25 | custodian boundary confirmed | Talia Brooks | CBP-001-03
+2025-07-31 | export created | Leona Park | CB-DOC-001-075
+2025-08-06 | cross-system identifier checked | Willa Novak | CBP-001-03
+2025-08-12 | revision retained | Nadine Flores | CB-DOC-001-075
+2025-08-18 | matter copy collected | Lena Varga | CBP-001-03
+
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

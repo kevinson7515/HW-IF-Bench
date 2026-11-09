@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "regular-file size and nanosecond mtime before and after the task",
+  "created": [
+    "aurora-mdl-certification/2026-09-05-certification-position.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "aurora-mdl-certification/2026-09-05-certification-position.md",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1853564/000010-10/artifacts/aurora-mdl-certification/2026-09-05-certification-position.md",
+      "change": "created",
+      "size": 10511,
+      "sha256": "56d43b066992f140ed0ad3a1eb44c2d7f384a667843b1426aa5e2d7b000fa864"
+    }
+  ],
+  "skipped": [],
+  "errors": [],
+  "limits": {
+    "max_file_bytes": 104857600,
+    "max_total_bytes": 1073741824
+  }
+}

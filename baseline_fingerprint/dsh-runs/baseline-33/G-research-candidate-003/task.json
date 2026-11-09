@@ -1,0 +1,29 @@
+{
+  "line": 25,
+  "id": 42,
+  "user_query": "依据附件对比钠离子电池的层状氧化物、聚阴离子与普鲁士蓝类似物正极。列出原研究报告的代表性循环或能量指标，注明电极、半电池或全电池口径、倍率和温度等可得条件；对缺数据的指标标注未报告。",
+  "effective_query": "依据附件对比钠离子电池的层状氧化物、聚阴离子与普鲁士蓝类似物正极。列出原研究报告的代表性循环或能量指标，注明电极、半电池或全电池口径、倍率和温度等可得条件；对缺数据的指标标注未报告。\n\nAttached files are available at the following paths. Read them as needed:\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_42/sodium_cathode_sources.md\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_42/PrussianBlue.pdf",
+  "attached_files": [
+    "attached_files/task_42/sodium_cathode_sources.md",
+    "attached_files/task_42/PrussianBlue.pdf"
+  ],
+  "resolved_attached_files": [
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_42/sodium_cathode_sources.md",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_42/PrussianBlue.pdf"
+  ],
+  "archived_attachments": [
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_42/sodium_cathode_sources.md",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000025-42/inputs/attached_files/task_42/sodium_cathode_sources.md",
+      "size": 1359,
+      "sha256": "fb32e0b16a6573289f1616a97acb41cf688fe05428defa4da774f985eb772a54"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_42/PrussianBlue.pdf",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000025-42/inputs/attached_files/task_42/PrussianBlue.pdf",
+      "size": 5750699,
+      "sha256": "0bb4b35ade36f3aab6432867df62ea05b2efccd83a1c437461aaa9ee3a6fc381"
+    }
+  ],
+  "started_at": "2026-11-06T09:58:43.536514+00:00"
+}

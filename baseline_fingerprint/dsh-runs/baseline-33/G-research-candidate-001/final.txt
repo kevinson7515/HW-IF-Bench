@@ -1,0 +1,99 @@
+我已完整读取三篇论文与文献集说明。下面给出系统比较。
+
+---
+
+# RAG 与深度研究输出的引用验证方法比较
+
+三篇论文分别代表两种范式下的"引用验证"：
+
+- **RAG / 检索语料范式**：`ALCE`（Gao et al., EMNLP 2023）与 `CiteEval`（Xu et al., ACL 2025）——系统在一个**预先检索好的固定语料**上生成带引文的回答，再评估引用质量。
+- **深度研究 / Web Agent 范式**：`Cited but Not Verified`（Onweller et al., arXiv 2026 预印本）——Agent 联网检索并产出带 URL 引用的 Markdown 报告，然后**重新抓取被引页面**做验证。
+
+核心方法论分歧一句话概括：ALCE/CiteEval 用**"被引片段 ⟺ 主张"的语义蕴涵（NLI）**判断支持度，且只比对"已检索片段"；Cited-but-Not-Verified 用**"重新获取真实来源内容"的闭环**，从**可访问性→相关性→事实支持**三层递进，针对**开放 Web 的真实 URL**。下面按四个维度展开。
+
+---
+
+## 一、四个评价维度的划分方式
+
+### 1. 来源可访问性（accessibility）
+
+| 工作 | 是否显式划分 | 具体做法 |
+|---|---|---|
+| ALCE | ❌ 不评估 | 语料（Wikipedia/Sphere）是预先检索并入库的固定片段，可访问性由基准构造**天然保证**，未单设维度 |
+| CiteEval | ❌ 不评估 URL，但引入"来源质量"替代概念 | 用 `delete-substandard`（换成更权威来源）、`add-refinement`、`add-credibility` 等编辑动作刻画"来源是否够好/够权威"，是**质量**维度而非"能否访问" |
+| Cited but Not Verified | ✅ **显式第一维 `Link Works`** | 对每条被引 URL 重新抓取，二值判定：HTTP 200 可得内容 =1，404/403/超时/付费墙/被封 =0。识别死链、付费墙、已下线内容 |
+
+**差异本质**：RAG 范式的"来源"是闭集检索片段，可访问性在构造时已被排除；深度研究范式的"来源"是开放 Web URL，可访问性是第一道、也是唯一一道**无需模型推理**的确定性关卡。这解释了为什么 ALCE/CiteEval 完全没有这一维度，而 Cited-but-Not-Verified 把它作为最底层。
+
+### 2. 相关性（relevance）
+
+- **ALCE**：`citation precision`（引文精确率）检测"无关引文"。定义为：某引文 `c` 单独不能支持主张（`ϕ(c,s)=0`），且删掉它不影响其余引文联合支持（`ϕ(concat(C\{c}),s)=1`）→ 判为"irrelevant"。上游另有 retrieval recall 度量检索本身的相关性。
+- **CiteEval**：把相关性细化进编辑动作——`delete-misleading`（不相关、误导性引文）、`delete-redundancy`（冗余引文）、`delete-substandard`（相关但存在更优来源）。相关性不再是"支持/不支持"，而是"是否多余/误导/次优"。
+- **Cited but Not Verified**：显式第二维 `Relevant Content`，LLM-as-a-judge 判断**主张与被引页面内容的主题对齐**（来源截断到 5000 字符），二值 + 自然语言理由。它把"链接有效但内容跑题"单独拆出来。
+
+### 3. 引用支持度（support）
+
+这是三家的核心差异所在：
+
+- **ALCE**：用 NLI 模型 `TRUE`（T5-11B）做**二值蕴涵**——`citation recall` 判 `concat(Ci)` 是否蕴涵主张 `si`；`citation precision` 判单条引文是否相关。完全沿袭 AIS（Rashkin et al. 2023）框架。
+- **CiteEval**：**明确批判 NLI 二值/三元支持度的粗糙**。改用 **1–5 Likert** 细粒度评级，并把"支持"拆成 edit 动作（加证据/精炼/加可信度）。核心主张：仅看"被引片段是否蕴涵句子"会**高估**（当检索上下文里有更该被引的更好来源时）或**低估**（当不存在能完全支持、但现有引文部分有用时）。
+- **Cited but Not Verified**：显式第三维 `Fact Check`，LLM-as-a-judge 逐条核对事实、数字、日期、断言，输出四分类（supported / contradicted / absent / uncertain）折叠为二值。这是"来源存在且相关，但具体主张是否真被支持"的最严关卡。
+
+### 4. 完整性（completeness，即"是否该引的都引了/是否漏引"）
+
+- **ALCE**：通过 `correctness` 维度间接刻画——ASQA 用 EM recall（gold 短答案子串覆盖）、ELI5 用 claim recall（生成 sub-claim 后 NLI 判 recall）、QAMPARI 用 precision/recall-5。`citation recall=1` 还要求 `Ci≠∅`（至少有一条引文）。
+- **CiteEval**：最系统。① `add-evidence` 编辑动作专门捕捉"缺失必要证据"；② 区分 **Full 场景**（惩罚"应引未引"的可引语句）与 **Cited 场景**（无引文语句视为 N/A）；③ 显式统计 missing-citation ratio `M`。上下文归因（retrieval/user/response/parametric 四类）直接决定"哪些语句根本不需要引文"，从而精确界定"漏引"。
+- **Cited but Not Verified**：从**任务成功率**（Success Rate，是否产出合法引文报告）和**引文数量 vs 事实准确率**的权衡间接刻画——开源模型 17–40% 成功率意味着大量报告连"完整引文"都产不出来。
+
+---
+
+## 二、实验、数据集与公开评测方式对比
+
+### 数据集与任务规模
+
+| | ALCE | CiteEval | Cited but Not Verified |
+|---|---|---|---|
+| 数据来源 | ASQA、QAMPARI、ELI5 | CiteBench：ASQA、ELI5、MS MARCO、LFRQA | 130 条查询（DeepResearch Bench + BrowseComp） |
+| 语料 | Wikipedia 21M、Sphere 899M（闭集检索） | Wikipedia / Sphere / Bing / LoTTE，每查询固定 10 片段 | 开放 Web，无固定语料 |
+| 规模 | 每集 1000 例 | 3948 查询，1200 例人工标注（200 dev / 1000 test） | 130 查询 × 14 模型 |
+| 标注 | 无引用监督标注 | 三轮盲标，IAA：归因 0.980、评级 0.774（Krippendorff α） | LLM 判官经 50–100 条人工复核校准，无完整人工金标 |
+
+### 实验设计
+
+- **ALCE**：端到端系统消融——VANILLA / SUMM / SNIPPET / INTERACT / INLINE SEARCH / CLOSED BOOK(+POST CITE) / RERANK / ORACLE；检索 recall@k 分析；比较 ChatGPT/GPT-4/LLaMA 系等。发现 ELI5 上约 50% 生成未被引文完全支持。
+- **CiteEval**：对 12+ 模型（GPT-4o 系、Llama-3、Mixtral、Qwen2.5、LongCite）打分；检索质量消融（重排上下文提升引用质量）；**迭代引用编辑**展示 CiteEval 可作为引用改进器（小模型可逼近大模型）。
+- **Cited but Not Verified**：14 模型基准 + **搜索深度消融**（2→150 次 tool call，GPT-5.4 与 Claude Opus 4.6）。核心发现：Link Works/Relevance 全程 >92%，但 Fact Check 随深度下降约 42%（GPT-5.4 从 79% 跌到 17%），即"检索越多，事实归因越差"。
+
+### 公开评测方式（如何让评测可复现/可比较）
+
+- **ALCE**：开源代码与数据（github princeton-nlp/ALCE），自动指标 + 人工评测双重验证；人工相关性：citation recall κ=0.698、precision κ=0.525，自动指标以人工为金标的准确率 85.1% / 77.6%。强调"可复现"（相对此前依赖商业搜索引擎/闭源模型）。
+- **CiteEval**：开源 CiteBench + CiteEval-Auto（github amazon-science/CiteEval），用**元评测**（Pearson/Spearman/Kendall-Tau 与人工相关性）证明自动指标优于 AutoAIS/LQAC/AttriScore。CiteEval-Auto 语句级 Pearson 0.731、响应级 0.668。
+- **Cited but Not Verified**：LLM-as-a-judge + rubric 评分，经人工复核校准；并发 10 agent / 15 评测者 + 5 次重试。**未见开源代码/数据链接，且为预印本**；引用了 2026 年日期、当前尚不可验证的模型名（GPT-5.2/5.4、Claude Opus 4.6、Gemini 3.1 Pro 等）与 2026 年文献，可复现性存疑。
+
+---
+
+## 三、附件未解决的问题
+
+1. **两个范式未打通**。ALCE/CiteEval 只验证"已检索片段是否支持主张"，从不检验"引文是否真实存在/是否伪造"；Cited-but-Not-Verified 只测开放 Web，不测企业 RAG 内部语料。**没有一套方法同时覆盖"闭集语料 + 开放 Web"并交叉验证引文真实性**。
+
+2. **"支持"缺乏统一定义与映射**。二值蕴涵（ALCE）→ 三元（LQAC）→ 1–5 Likert（CiteEval）→ supported/contradicted/absent/uncertain（CBNV）彼此不兼容，三篇各自证明自家指标"更准"，但**无人给出跨框架的折算/统一本体**。
+
+3. **判官模型的自强化偏置未解决**。CiteEval-Auto（GPT-4o 判官评 GPT-4o）与 CBNV（LLM-as-a-judge 评同族模型）都承认 position/verbosity/self-enhancement 偏置，但只靠"小规模人工校准 + rubric"缓解，**未给出无偏、可规模化的判官方案**。
+
+4. **Web 引文的时序稳定性缺失**。CBNV 自己承认 URL 会随时间失效、内容会变，但三篇均**未做纵向研究**追踪引用随时间的持续性与漂移，评测是一次性快照。
+
+5. **部分参数化主张（partially-parametric claims）无解**。CiteEval 明确指出"参数知识 + 检索知识融合"的句子即使给出最佳引文也永远达不到最高分，且"引用会误导用户相信整句"——**这类句子的验证上界与标注规则仍未解决**。
+
+6. **"信息过载"结论是描述性的，无处方**。CBNV 发现搜索越深 Fact Check 越差（注意力稀释假设），但**未验证任何缓解方案**（如选择性引用、去重、分阶段综合）。
+
+7. **成本与可扩展性**。CBNV 需对每条被引 URL 重新抓取 + 判官推理，CiteEval 也依赖昂贵 LLM 判官；**三篇均未量化验证的算力/时间成本**，也未给出小模型蒸馏之外的降本路径。
+
+8. **负向/驳斥性引用、多轮与跨语言缺失**。三篇都假设"引用=支持"，未处理"引用某来源是为了反驳/对比"的情况；也未覆盖多轮会话归因（CiteEval 仅提 MTRAG 未纳入）与跨语言引用验证。
+
+9. **端到端因果链未闭合**。CBNV 把三阶段（解析→抓取→三维评分）做成 pipeline，但没有回答"为什么高可访问+高相关却低事实支持"的**机制性因果**，也缺少把评测结果回流到检索策略/生成策略的闭环优化验证。
+
+10. **评测本身的真实性风险**。CBNV 作为 2026 预印本，其基准对象（GPT-5.x 等）与大量 2026 年参考文献当前无法独立核验，**评测基础设施与评测对象同时处于不可验证状态**——这恰好是它自己批判的"表面可信、深层不可验"问题在元层面的重演。
+
+---
+
+需要我把这份比较整理成一份 Markdown 文档落盘（例如 `attached_files/task_40/comparison.md`），或就某一维度（如"支持度"的四种定义）再做更细的公式级对照吗？

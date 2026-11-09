@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "arcadia_genomics_audit",
+    "arcadia_genomics_audit/review_disposition_register.md",
+    "arcadia_genomics_audit/review_note.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "arcadia_genomics_audit/review_disposition_register.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1890615/G-legal-cb100-061/S1/artifacts/arcadia_genomics_audit/review_disposition_register.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792809359000000000,
+      "type": "file",
+      "size": 3924,
+      "sha256": "884fd9267261964f052eda88d007e9bcc23f446c2fe41bb6b4cae81a271d2b20"
+    },
+    {
+      "path": "arcadia_genomics_audit/review_note.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1890615/G-legal-cb100-061/S1/artifacts/arcadia_genomics_audit/review_note.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792809451000000000,
+      "type": "file",
+      "size": 5201,
+      "sha256": "dbb080a9fb526d8886781998bdd9c2f62186a83ef1f549f547a7641167531b61"
+    }
+  ],
+  "entries": {
+    "arcadia_genomics_audit": {
+      "mode": 448,
+      "mtime_ns": 1792809451000000000,
+      "type": "directory"
+    },
+    "arcadia_genomics_audit/review_disposition_register.md": {
+      "mode": 384,
+      "mtime_ns": 1792809359000000000,
+      "type": "file",
+      "size": 3924,
+      "sha256": "884fd9267261964f052eda88d007e9bcc23f446c2fe41bb6b4cae81a271d2b20"
+    },
+    "arcadia_genomics_audit/review_note.md": {
+      "mode": 384,
+      "mtime_ns": 1792809451000000000,
+      "type": "file",
+      "size": 5201,
+      "sha256": "dbb080a9fb526d8886781998bdd9c2f62186a83ef1f549f547a7641167531b61"
+    }
+  },
+  "deleted_entries": {}
+}

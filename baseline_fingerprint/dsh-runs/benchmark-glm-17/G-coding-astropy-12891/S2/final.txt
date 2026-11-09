@@ -1,0 +1,13 @@
+完成。4 个文件已按上游 astropy PR #12891(v5.1)实现修改：
+
+**`astropy/units/quantity.py`**
+- `var`/`std`/`mean`:numpy≥1.20 分支新增 `*, where=True`,经 `_wrap_function` 透传;`var` 保持 `unit=self.unit**2`
+- `nansum`:numpy≥1.22 分支新增 `*, initial=None, where=True`
+- 旧 numpy 分支保留原签名，兼容不变；导入 `NUMPY_LT_1_20/NUMPY_LT_1_22`
+
+**`astropy/utils/masked/core.py`**
+- `mean`/`var`/`std`/`any`/`all` 增加 `*, where=True`,内部用 `~self.mask & where` 合并，掩码元素仍被跳过;`var` 用 `where_final` 计算 `n`,空切片时结果掩码置位
+
+**测试**：两文件新增 `test_mean/std/var/min/max/sum/nansum_where`、`test_sum/mean/var/std/min/max_where`、`test_all_and_any_where`,旧 numpy 用 `xfail` 标注。
+
+验证：4 文件编译通过；`core.py` 与上游 v5.1 逐字节一致，测试文件一致(仅基线 import 顺序差异)；在 astropy 8.0.2/numpy 2.3.5 沙箱中 monkeypatch 后，Quantity 与 Masked(含 MaskedQuantity)的 where/initial、单位保持(km、km²)、掩码传播、ddof/out 组合及无 where 的旧行为全部通过。

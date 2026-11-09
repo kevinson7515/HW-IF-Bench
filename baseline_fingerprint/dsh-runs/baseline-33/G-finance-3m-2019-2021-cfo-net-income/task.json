@@ -1,0 +1,37 @@
+{
+  "line": 31,
+  "id": 48,
+  "user_query": "根据 3M 公司 2019、2020、2021 年的 Form 10-K，分别提取经营活动现金净流量和净利润，计算各年经营现金流与净利润的比率并比较变化。每个数值注明年份、单位和财报出处；遇到不同口径时明确说明。",
+  "effective_query": "根据 3M 公司 2019、2020、2021 年的 Form 10-K，分别提取经营活动现金净流量和净利润，计算各年经营现金流与净利润的比率并比较变化。每个数值注明年份、单位和财报出处；遇到不同口径时明确说明。\n\nAttached files are available at the following paths. Read them as needed:\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_48/3M_2019_10K.pdf\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_48/3M_2020_10K.pdf\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_48/3M_2021_10K.pdf",
+  "attached_files": [
+    "attached_files/task_48/3M_2019_10K.pdf",
+    "attached_files/task_48/3M_2020_10K.pdf",
+    "attached_files/task_48/3M_2021_10K.pdf"
+  ],
+  "resolved_attached_files": [
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_48/3M_2019_10K.pdf",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_48/3M_2020_10K.pdf",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_48/3M_2021_10K.pdf"
+  ],
+  "archived_attachments": [
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_48/3M_2019_10K.pdf",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000031-48/inputs/attached_files/task_48/3M_2019_10K.pdf",
+      "size": 1231580,
+      "sha256": "87eb86895ff32ea2b6d8af9c38181071940c0a5830105d37f93ee809cbde954d"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_48/3M_2020_10K.pdf",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000031-48/inputs/attached_files/task_48/3M_2020_10K.pdf",
+      "size": 1114965,
+      "sha256": "3f08a9350074d19b85c4c3476962a2b6d55614f50e58ea41d0defad56ae7d146"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_48/3M_2021_10K.pdf",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000031-48/inputs/attached_files/task_48/3M_2021_10K.pdf",
+      "size": 1144721,
+      "sha256": "ba87f86df45ba4c6117c3e8fdc17298022d01a3306e5821f9b2b2c3d4d10ca6f"
+    }
+  ],
+  "started_at": "2026-11-06T10:19:48.485152+00:00"
+}

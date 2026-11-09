@@ -1,0 +1,14 @@
+[
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_47/migration_source.md",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000030-47/inputs/attached_files/task_47/migration_source.md",
+    "size": 369,
+    "sha256": "72d716833b551f38529a662534789acfae5f3fcc1118850820e29a255cb13a85"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_47/PydanticMigration.md",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000030-47/inputs/attached_files/task_47/PydanticMigration.md",
+    "size": 49362,
+    "sha256": "9e51980256231ceb88bf3d4a87a6e7b1513e636b165744f7a566c88734e9c9a0"
+  }
+]

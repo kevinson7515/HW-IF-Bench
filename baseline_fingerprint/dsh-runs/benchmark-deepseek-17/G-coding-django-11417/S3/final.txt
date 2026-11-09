@@ -1,0 +1,10 @@
+已核查 `attached_files/task_3/django/core/mail/message.py`，`sanitize_address` 已按要求实现，无需改动。
+
+现状确认：
+- 已用 `email.headerregistry.parser.get_mailbox()` 解析地址（导入 `Address, parser` 与 `HeaderParseError`；旧的 `parseaddr`/`split_addr` 已移除）。
+- 显示名：`token.display_name` → `Header(nm, encoding).encode()`。
+- 国际化域名：`punycode(domain)` 做 IDNA 编码。
+- 需编码的本地部分：非 ASCII 时 `Header(localpart, encoding).encode()`。
+- 非法地址：解析抛 `HeaderParseError/ValueError/IndexError` 或 `rest` 非空时抛 `ValueError`。
+
+验证：在 E2B 中按 `tests/mail/tests.py` 的 `test_sanitize_address`（18 个合法用例）与 `test_sanitize_address_invalid`（5 个非法用例）逐项运行，全部通过。文件已满足任务要求。

@@ -1,0 +1,6 @@
+{"type":"session","sessionId":"session-3ebfeb13-0ce8-4b02-acdd-a715b5ab47c9","cwd":"/online1/ycsc_chenkh/hitici_07/deepseek-harness"}
+{"type":"status","phase":"turn_start","turn":1}
+{"type":"status","phase":"step_start","turn":1,"step":1}
+{"type":"status","phase":"step_end","turn":1,"step":1,"usage":{"inputTokens":0,"outputTokens":0,"totalTokens":0}}
+{"type":"status","phase":"turn_end","turn":1,"reason":{"kind":"error","error":{"message":"503: {\"message\":\"分组 huaruan_agent专用 下模型 glm-5.3 无可用渠道（distributor）\",\"type\":\"new_api_error\",\"param\":\"\",\"code\":\"model_not_found\"}","code":"SERVER"}}}
+{"type":"final","text":""}

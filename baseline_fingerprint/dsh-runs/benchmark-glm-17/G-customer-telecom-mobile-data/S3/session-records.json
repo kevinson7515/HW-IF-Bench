@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "session_id": "session-bda30896-79db-4cc3-ace2-b78cea14601e",
+  "source": "/online1/ycsc_chenkh/hitici_07/.dsh/sessions/--online1-ycsc_chenkh-hitici_07-deepseek-harness--/session-bda30896-79db-4cc3-ace2-b78cea14601e",
+  "copied": [
+    {
+      "path": "session.lock",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-customer-telecom-mobile-data/S3/session-records/session.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "session.v4.jsonl.zstd",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-customer-telecom-mobile-data/S3/session-records/session.v4.jsonl.zstd",
+      "size": 59512,
+      "sha256": "ee494b01495b3bdc0454c4a02b2bf2fa7b90d42bdc404e4828f196b78d17d76d"
+    }
+  ]
+}

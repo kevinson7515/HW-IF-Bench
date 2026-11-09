@@ -1,0 +1,23 @@
+修复完成并已验证。
+
+## 缺陷原因
+
+`text.split()` 对空字符串或纯空白字符返回空列表 `[]`，原代码未做检查直接访问 `tokens[0]`，抛出 `IndexError: list index out of range`。此外 `tokens[1]` 在只有一个词的输入（如 `"run"`）上同样会越界，属同类缺陷，一并修复。
+
+## 修改内容（`attached_files/task_23/src/core/parser.py`）
+
+1. **空输入保护**：`tokens` 为空（空字符串或纯空白）时直接返回 `{"command": None, "argument": None}`，不再抛 IndexError；
+2. **参数越界保护**：`argument = tokens[1] if len(tokens) > 1 else None`，单词输入不再崩溃；
+3. 更新了误导性的“存在缺陷”docstring 与错误点注释，`__main__` 块改为打印解析结果以验证修复。
+
+## 验证结果（E2B 沙箱，Python 3.13）
+
+| 步骤 | 结果 |
+|---|---|
+| 复现原始代码 `parse_text("")` | `IndexError: list index out of range` ✅ 缺陷确认 |
+| 修复后 `parse_text("")` / `parse_text("\t\n  \t ")` | `{'command': None, 'argument': None}` |
+| 修复后 `parse_text("run")` | `{'command': 'run', 'argument': None}` |
+| 修复后 `parse_text("run file.txt")` | `{'command': 'run', 'argument': 'file.txt'}` |
+| 加载沙箱镜像的实际文件（sha256 一致）跑全部断言 | 全部通过 |
+
+多词输入 `run a b c` 保持原有取第二个词的语义不变（`argument: 'a'`），行为兼容。

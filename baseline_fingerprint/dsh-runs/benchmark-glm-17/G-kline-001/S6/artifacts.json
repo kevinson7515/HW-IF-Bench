@@ -1,0 +1,62 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "stock-analysis",
+    "stock-analysis/moutai-600519",
+    "stock-analysis/moutai-600519/kline-1y-data.csv",
+    "stock-analysis/moutai-600519/kline-1y.png"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "stock-analysis/moutai-600519/kline-1y-data.csv",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1937700/G-marketing-kline-000/S6/artifacts/stock-analysis/moutai-600519/kline-1y-data.csv",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793691974000000000,
+      "type": "file",
+      "size": 28871,
+      "sha256": "ba4c01b19a7769e9190bd936176a7c47727f1381a3d5f6a2eff1ead76f0662cc"
+    },
+    {
+      "path": "stock-analysis/moutai-600519/kline-1y.png",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1937700/G-marketing-kline-000/S6/artifacts/stock-analysis/moutai-600519/kline-1y.png",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793691926000000000,
+      "type": "file",
+      "size": 278775,
+      "sha256": "eb966d1d46bd3aded42367a91208f9b004e4bd5555b75a9e655546ea615c5fa5"
+    }
+  ],
+  "entries": {
+    "stock-analysis": {
+      "mode": 448,
+      "mtime_ns": 1793691924000000000,
+      "type": "directory"
+    },
+    "stock-analysis/moutai-600519": {
+      "mode": 448,
+      "mtime_ns": 1793691974000000000,
+      "type": "directory"
+    },
+    "stock-analysis/moutai-600519/kline-1y-data.csv": {
+      "mode": 384,
+      "mtime_ns": 1793691974000000000,
+      "type": "file",
+      "size": 28871,
+      "sha256": "ba4c01b19a7769e9190bd936176a7c47727f1381a3d5f6a2eff1ead76f0662cc"
+    },
+    "stock-analysis/moutai-600519/kline-1y.png": {
+      "mode": 384,
+      "mtime_ns": 1793691926000000000,
+      "type": "file",
+      "size": 278775,
+      "sha256": "eb966d1d46bd3aded42367a91208f9b004e4bd5555b75a9e655546ea615c5fa5"
+    }
+  },
+  "deleted_entries": {}
+}

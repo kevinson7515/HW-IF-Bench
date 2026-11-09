@@ -1,0 +1,101 @@
+From: Jonas Feld <jonas_feld@example.test>
+To: Adrian Mensah <adrian_mensah@example.test>
+Date: 2026-03-05 08:30:00 -0700
+Message-ID: <cb-doc-061-035@example.test>
+Subject: CB-PR-3001 — training completion gap source export
+X-Matter-Number: CB-PR-3001
+X-Portfolio-Key: CBP-061-11
+X-Source-System: vendor risk portal
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+For immutable entity ENT-061-1010.
+the training completion gap certification covers 190 records under CB-PR-3001-E378. The operating extract cites revision REV-2025.4 and portfolio key CBP-061-11; it does not state a legal disposition.
+
+SOURCE LINEAGE
+vendor risk portal produced native record CB-DOC-061-035 for CB-PR-3001. Jonas Feld owns the source population and Adrian Mensah recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns training completion gap within Arcadia genomic data response audit. A consumer access request exposes inconsistencies among genomic-data notices, deletion jobs, vendors, and overseas research transfers. The record addresses one part of the broader question: Join requester identity, genomic data inventory, vendor copies, deletion jobs, and research transfers.
+
+NATIVE RECORD
+For immutable entity ENT-061-1010.
+the training completion gap certification covers 190 records under CB-PR-3001-E378. The operating extract cites revision REV-2025.4 and portfolio key CBP-061-11; it does not state a legal disposition.
+
+RELIANCE LIMITS
+This file supplies current operations evidence for CBP-061-11. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SOURCE THREAD
+-----Original Message-----
+From: Lena Varga <lena_varga@example.test>
+Sent: 2024-10-11 09:00:00 -0700
+To: Adrian Mensah <adrian_mensah@example.test>
+Subject: CBP-061-11 source row CBP-061-11-CUR-01
+
+Current Operations support row 1 for training completion gap; retained from the native system so the reviewer can distinguish the exact CBP-061-11 population from similarly named records. The native status is pending and the recorded metric is $274,662.00.
+
+-----Original Message-----
+From: Rafael Okafor <rafael_okafor@example.test>
+Sent: 2024-10-14 09:00:00 -0700
+To: Adrian Mensah <adrian_mensah@example.test>
+Subject: CBP-061-11 source row CBP-061-11-CUR-02
+
+Current Operations support row 2 for training completion gap; retained from the native system so the reviewer can distinguish the exact CBP-061-11 population from similarly named records. The native status is superseded and the recorded metric is 5%.
+
+-----Original Message-----
+From: Priya Raman <priya_raman@example.test>
+Sent: 2024-10-17 09:00:00 -0700
+To: Adrian Mensah <adrian_mensah@example.test>
+Subject: CBP-061-11 source row CBP-061-11-CUR-03
+
+Current Operations support row 3 for training completion gap; retained from the native system so the reviewer can distinguish the exact CBP-061-11 population from similarly named records. The native status is recorded and the recorded metric is 3%.
+
+-----Original Message-----
+From: Jonas Feld <jonas_feld@example.test>
+Sent: 2024-10-20 09:00:00 -0700
+To: Adrian Mensah <adrian_mensah@example.test>
+Subject: CBP-061-11 source row CBP-061-11-CUR-04
+
+Current Operations support row 4 for training completion gap; retained from the native system so the reviewer can distinguish the exact CBP-061-11 population from similarly named records. The native status is confirmed and the recorded metric is $524,845.00.
+
+-----Original Message-----
+From: Leona Park <leona_park@example.test>
+Sent: 2024-10-23 09:00:00 -0700
+To: Adrian Mensah <adrian_mensah@example.test>
+Subject: CBP-061-11 source row CBP-061-11-CUR-05
+
+Current Operations support row 5 for training completion gap; retained from the native system so the reviewer can distinguish the exact CBP-061-11 population from similarly named records. The native status is recorded and the recorded metric is 24%.
+
+-----Original Message-----
+From: Adrian Mensah <adrian_mensah@example.test>
+Sent: 2024-10-26 09:00:00 -0700
+To: Adrian Mensah <adrian_mensah@example.test>
+Subject: CBP-061-11 source row CBP-061-11-CUR-06
+
+Current Operations support row 6 for training completion gap; retained from the native system so the reviewer can distinguish the exact CBP-061-11 population from similarly named records. The native status is recorded and the recorded metric is 16%.
+
+-----Original Message-----
+From: Amara Patel <amara_patel@example.test>
+Sent: 2024-10-29 09:00:00 -0700
+To: Adrian Mensah <adrian_mensah@example.test>
+Subject: CBP-061-11 source row CBP-061-11-CUR-07
+
+Current Operations support row 7 for training completion gap; retained from the native system so the reviewer can distinguish the exact CBP-061-11 population from similarly named records. The native status is recorded and the recorded metric is $468,728.00.
+
+-----Original Message-----
+From: Micah Sullivan <micah_sullivan@example.test>
+Sent: 2024-11-01 09:00:00 -0700
+To: Adrian Mensah <adrian_mensah@example.test>
+Subject: CBP-061-11 source row CBP-061-11-CUR-08
+
+Current Operations support row 8 for training completion gap; retained from the native system so the reviewer can distinguish the exact CBP-061-11 population from similarly named records. The native status is pending and the recorded metric is 25%.
+
+CHRONOLOGY
+2026-01-29 | native population opened | Lena Varga | CB-DOC-061-035
+2026-02-04 | custodian boundary confirmed | Nora Chen | CBP-061-11
+2026-02-10 | export created | Talia Brooks | CB-DOC-061-035
+2026-02-16 | cross-system identifier checked | Leona Park | CBP-061-11
+2026-02-22 | revision retained | Willa Novak | CB-DOC-061-035
+2026-02-28 | matter copy collected | Nadine Flores | CBP-061-11
+
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

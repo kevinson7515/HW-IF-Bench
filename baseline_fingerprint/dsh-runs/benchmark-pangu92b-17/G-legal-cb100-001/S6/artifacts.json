@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "task_9",
+    "task_9/keys.txt",
+    "task_9/summary.txt"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "task_9/keys.txt",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-legal-cb100-001/S6/artifacts/task_9/keys.txt",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792894583000000000,
+      "type": "file",
+      "size": 27482,
+      "sha256": "9cb23e931d095d580cdbbc3421cdd27891bf2d1162062d278b30d027b2fc5916"
+    },
+    {
+      "path": "task_9/summary.txt",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-legal-cb100-001/S6/artifacts/task_9/summary.txt",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792894315000000000,
+      "type": "file",
+      "size": 24292,
+      "sha256": "d67616f9d7c8e611de930bbda8f481d6d5fe7545d28ee922371bf20858cc6f05"
+    }
+  ],
+  "entries": {
+    "task_9": {
+      "mode": 448,
+      "mtime_ns": 1792894583000000000,
+      "type": "directory"
+    },
+    "task_9/keys.txt": {
+      "mode": 384,
+      "mtime_ns": 1792894583000000000,
+      "type": "file",
+      "size": 27482,
+      "sha256": "9cb23e931d095d580cdbbc3421cdd27891bf2d1162062d278b30d027b2fc5916"
+    },
+    "task_9/summary.txt": {
+      "mode": 384,
+      "mtime_ns": 1792894315000000000,
+      "type": "file",
+      "size": 24292,
+      "sha256": "d67616f9d7c8e611de930bbda8f481d6d5fe7545d28ee922371bf20858cc6f05"
+    }
+  },
+  "deleted_entries": {}
+}

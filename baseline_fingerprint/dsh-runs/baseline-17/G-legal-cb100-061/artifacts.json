@@ -1,0 +1,33 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "regular-file size and nanosecond mtime before and after the task",
+  "created": [
+    "arcadia_genomics_audit/review_disposition_register.md",
+    "arcadia_genomics_audit/review_note.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "arcadia_genomics_audit/review_disposition_register.md",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1853564/000011-11/artifacts/arcadia_genomics_audit/review_disposition_register.md",
+      "change": "created",
+      "size": 2304,
+      "sha256": "3363ceb8632d6896096bdec6f1bed509f000fc41d44d1baafda75005356727c5"
+    },
+    {
+      "path": "arcadia_genomics_audit/review_note.md",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1853564/000011-11/artifacts/arcadia_genomics_audit/review_note.md",
+      "change": "created",
+      "size": 4246,
+      "sha256": "eb1c2f9bc160d7328bc952fb5e284b2aed1bd2ad80f3caf883954e3e71b73820"
+    }
+  ],
+  "skipped": [],
+  "errors": [],
+  "limits": {
+    "max_file_bytes": 104857600,
+    "max_total_bytes": 1073741824
+  }
+}

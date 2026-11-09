@@ -1,0 +1,19 @@
+修复完成。已解决 `src/core/parser.py` 在空输入时抛出的 `IndexError`。
+
+**改动内容：**
+
+1. **空输入防护**：在 `tokens = text.split()` 之后增加 `if not tokens:` 判断，空字符串、纯空白字符（`" "`、`"\n\t"` 等）都会使 `split()` 返回 `[]`，此时直接返回 `{"command": None, "argument": None}`，不再访问索引。
+
+2. **健壮性修正**：`argument` 从 `tokens[1]` 改为 `tokens[1] if len(tokens) > 1 else None`，原来单 token 输入（如 `"run"`）也会抛 `IndexError`，一并修复。
+
+**验证结果：**
+
+| 输入 | 输出 |
+|------|------|
+| `""` | `{'command': None, 'argument': None}` |
+| `"   "` | `{'command': None, 'argument': None}` |
+| `"\n\t"` | `{'command': None, 'argument': None}` |
+| `"run"` | `{'command': 'run', 'argument': None}` |
+| `"run fast"` | `{'command': 'run', 'argument': 'fast'}` |
+
+所有边界情况均不再抛出异常。

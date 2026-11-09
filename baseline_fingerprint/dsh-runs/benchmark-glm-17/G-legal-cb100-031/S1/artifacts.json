@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "output",
+    "output/aurora_mdl_reconciliation.json",
+    "output/aurora_mdl_working_position.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "output/aurora_mdl_reconciliation.json",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-031/S1/artifacts/output/aurora_mdl_reconciliation.json",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793071484000000000,
+      "type": "file",
+      "size": 20917,
+      "sha256": "9c23ee4f5bb9fb834966e8c123d25da6a657f6cb29eba8852efde1f2a98e256c"
+    },
+    {
+      "path": "output/aurora_mdl_working_position.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-031/S1/artifacts/output/aurora_mdl_working_position.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793071766000000000,
+      "type": "file",
+      "size": 15183,
+      "sha256": "bed9348646a959d8539a0e1a83e24d762c46d9f131a4557fc380045982d93251"
+    }
+  ],
+  "entries": {
+    "output": {
+      "mode": 448,
+      "mtime_ns": 1793071766000000000,
+      "type": "directory"
+    },
+    "output/aurora_mdl_reconciliation.json": {
+      "mode": 384,
+      "mtime_ns": 1793071484000000000,
+      "type": "file",
+      "size": 20917,
+      "sha256": "9c23ee4f5bb9fb834966e8c123d25da6a657f6cb29eba8852efde1f2a98e256c"
+    },
+    "output/aurora_mdl_working_position.md": {
+      "mode": 384,
+      "mtime_ns": 1793071766000000000,
+      "type": "file",
+      "size": 15183,
+      "sha256": "bed9348646a959d8539a0e1a83e24d762c46d9f131a4557fc380045982d93251"
+    }
+  },
+  "deleted_entries": {}
+}

@@ -1,0 +1,59 @@
+RESTRICTED MATTER TEAM
+
+NOTICE-PRACTICE MISMATCH
+RECORD: CB-DOC-061-002
+MATTER: CB-PR-3001
+PORTFOLIO KEY: CBP-061-02
+SOURCE SYSTEM: ServiceNow privacy queue
+EVIDENCE ROLE: identity_crosswalk
+ENTITY KEY: ENT-061-1001
+REFERENCED REVISION: REV-2025.2
+CURRENT REVISION: REV-2025.2
+CUSTODIAN: Lena Varga
+REVIEWER: Lena Varga
+
+NATIVE RECORD
+Crosswalk revision REV-2025.2 maps portfolio key CBP-061-02 and legal name Arcadia Genomics, Inc. — Notice-Practice Mismatch record 2 to immutable entity ENT-061-1001. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+
+SOURCE LINEAGE
+ServiceNow privacy queue produced native record CB-DOC-061-002 for CB-PR-3001. Lena Varga owns the source population and Lena Varga recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns notice-practice mismatch within Arcadia genomic data response audit. A consumer access request exposes inconsistencies among genomic-data notices, deletion jobs, vendors, and overseas research transfers. The record addresses one part of the broader question: Join requester identity, genomic data inventory, vendor copies, deletion jobs, and research transfers.
+
+NATIVE RECORD
+Crosswalk revision REV-2025.2 maps portfolio key CBP-061-02 and legal name Arcadia Genomics, Inc. — Notice-Practice Mismatch record 2 to immutable entity ENT-061-1001. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+
+RELIANCE LIMITS
+This file supplies identity crosswalk evidence for CBP-061-02. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SCHEDULE 1 — NATIVE ROWS
+CBP-061-02-IDE-01 | 2025-06-28 | ENT-061-1001 | REV-2025.2 | Adrian Mensah | superseded | $372,203.00 | Identity Crosswalk support row 1 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-IDE-02 | 2025-07-01 | ENT-061-1001 | REV-2025.2 | Amara Patel | superseded | 9% | Identity Crosswalk support row 2 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-IDE-03 | 2025-07-04 | ENT-061-1001 | REV-2025.2 | Micah Sullivan | recorded | 17% | Identity Crosswalk support row 3 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-IDE-04 | 2025-07-07 | ENT-061-1001 | REV-2025.2 | Lena Varga | confirmed | $862,445.00 | Identity Crosswalk support row 4 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-IDE-05 | 2025-07-10 | ENT-061-1001 | REV-2025.2 | Rafael Okafor | superseded | 2% | Identity Crosswalk support row 5 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-IDE-06 | 2025-07-13 | ENT-061-1001 | REV-2025.2 | Priya Raman | recorded | 6% | Identity Crosswalk support row 6 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-IDE-07 | 2025-07-16 | ENT-061-1001 | REV-2025.2 | Jonas Feld | confirmed | $493,685.00 | Identity Crosswalk support row 7 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-IDE-08 | 2025-07-19 | ENT-061-2001 | REV-2025.2 | Leona Park | recorded | 13% | Identity Crosswalk support row 8 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-IDE-09 | 2025-07-22 | ENT-061-1001 | REV-2025.2 | Adrian Mensah | superseded | 10% | Identity Crosswalk support row 9 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-IDE-10 | 2025-07-25 | ENT-061-1001 | REV-2025.2 | Amara Patel | pending | $349,502.00 | Identity Crosswalk support row 10 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-IDE-11 | 2025-07-28 | ENT-061-1001 | REV-2025.2 | Micah Sullivan | recorded | 6% | Identity Crosswalk support row 11 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-IDE-12 | 2025-07-31 | ENT-061-1001 | REV-2025.2 | Lena Varga | confirmed | 23% | Identity Crosswalk support row 12 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-IDE-13 | 2025-08-03 | ENT-061-1001 | REV-2025.2 | Rafael Okafor | superseded | $697,203.00 | Identity Crosswalk support row 13 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-IDE-14 | 2025-08-06 | ENT-061-1001 | REV-2025.2 | Priya Raman | recorded | 13% | Identity Crosswalk support row 14 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-IDE-15 | 2025-08-09 | ENT-061-1001 | REV-2025.2 | Jonas Feld | confirmed | 14% | Identity Crosswalk support row 15 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-IDE-16 | 2025-08-12 | ENT-061-1001 | REV-2025.2 | Leona Park | confirmed | $638,789.00 | Identity Crosswalk support row 16 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-IDE-17 | 2025-08-15 | ENT-061-1001 | REV-2025.2 | Adrian Mensah | recorded | 3% | Identity Crosswalk support row 17 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-IDE-18 | 2025-08-18 | ENT-061-1001 | REV-2025.2 | Amara Patel | confirmed | 20% | Identity Crosswalk support row 18 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+
+SCHEDULE 2 — CHRONOLOGY
+2025-02-08 | native population opened | Adrian Mensah | CB-DOC-061-002
+2025-02-14 | custodian boundary confirmed | Henry Cho | CBP-061-02
+2025-02-20 | export created | Owen Delgado | CB-DOC-061-002
+2025-02-26 | cross-system identifier checked | Rafael Okafor | CBP-061-02
+2025-03-04 | revision retained | Elliot Mercer | CB-DOC-061-002
+2025-03-10 | matter copy collected | Caleb Hassan | CBP-061-02
+
+PROVENANCE
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

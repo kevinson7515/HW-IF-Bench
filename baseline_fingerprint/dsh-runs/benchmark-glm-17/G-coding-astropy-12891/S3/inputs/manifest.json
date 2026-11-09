@@ -1,0 +1,38 @@
+[
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_2/astropy/units/quantity.py",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-coding-astropy-12891/S3/inputs/attached_files/task_2/astropy/units/quantity.py",
+    "mode": 420,
+    "mtime_ns": 1792659525000000000,
+    "type": "file",
+    "size": 80530,
+    "sha256": "5538c71dc43926cfd96507025b7e399519cdaff9d82bcc31c119b191143119e0"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_2/astropy/units/tests/test_quantity_array_methods.py",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-coding-astropy-12891/S3/inputs/attached_files/task_2/astropy/units/tests/test_quantity_array_methods.py",
+    "mode": 420,
+    "mtime_ns": 1792659526000000000,
+    "type": "file",
+    "size": 19227,
+    "sha256": "769fc78f6db0839c42a91be0cfee03cde01d49b6c434e42d4c154ce9cf4f4520"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_2/astropy/utils/masked/core.py",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-coding-astropy-12891/S3/inputs/attached_files/task_2/astropy/utils/masked/core.py",
+    "mode": 420,
+    "mtime_ns": 1792659527000000000,
+    "type": "file",
+    "size": 45844,
+    "sha256": "657aa82dd82768dc61b0076f88168026aa285cf340c49eec13d12fb8bd30f9da"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_2/astropy/utils/masked/tests/test_masked.py",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-coding-astropy-12891/S3/inputs/attached_files/task_2/astropy/utils/masked/tests/test_masked.py",
+    "mode": 420,
+    "mtime_ns": 1792659528000000000,
+    "type": "file",
+    "size": 46057,
+    "sha256": "f1f81bca223387ea5c55c64831bb4ad2ef25445e75cd24dfbc958a779882cbf1"
+  }
+]

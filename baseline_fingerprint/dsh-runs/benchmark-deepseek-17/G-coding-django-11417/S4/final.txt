@@ -1,0 +1,15 @@
+已完成 `sanitize_address` 改造（对应 Django #31784 / 96a3ea39ef）。
+
+**message.py**
+- 导入 `email.utils.formataddr`
+- tuple 分支对无 `@` 地址抛 `ValueError`
+- 合并 name/local/domain 检测 `\n`/`\r` 防头注入
+- 仅对非 ASCII 显示名编码，ASCII 用 `Header(nm).encode()`
+- 输出改用 `formataddr((nm, Address(username=localpart, domain=domain).addr_spec))`
+
+**tests.py**
+- 更新 6 处预期值（ASCII 显示名不再被 QP 编码）
+- 新增 3 例长 Unicode 显示名（含折行）、`('','')` 非法例
+- 非法例改用 `assertRaisesMessage(ValueError, 'Invalid address')`
+
+**验证**（E2B 加载实际修改后的 message.py）：21/21 有效地址通过；6/6 非法地址、3/3 换行注入均按预期抛 `ValueError`；两文件语法校验通过。

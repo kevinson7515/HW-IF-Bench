@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "output",
+    "output/机器学习材料配比优化研究报告.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "output/机器学习材料配比优化研究报告.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-research-query-008/S4/artifacts/output/机器学习材料配比优化研究报告.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792954425000000000,
+      "type": "file",
+      "size": 6718,
+      "sha256": "a89d18655a84a26318430e3c5a95939767ce426b0a0b2b19478712bd60e414ff"
+    }
+  ],
+  "entries": {
+    "output": {
+      "mode": 448,
+      "mtime_ns": 1792954425000000000,
+      "type": "directory"
+    },
+    "output/机器学习材料配比优化研究报告.md": {
+      "mode": 384,
+      "mtime_ns": 1792954425000000000,
+      "type": "file",
+      "size": 6718,
+      "sha256": "a89d18655a84a26318430e3c5a95939767ce426b0a0b2b19478712bd60e414ff"
+    }
+  },
+  "deleted_entries": {}
+}

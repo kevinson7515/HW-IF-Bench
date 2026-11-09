@@ -1,0 +1,17 @@
+已修复 `src/core/parser.py` 中空输入抛 `IndexError` 的问题。
+
+**改动内容**：在索引 `tokens` 前先判断长度，空输入/纯空白输入返回空字符串，同时兼顾了单 token 输入的情况（原代码 `tokens[1]` 也会在单 token 时越界）。
+
+```python
+command = tokens[0] if tokens else ""
+argument = tokens[1] if len(tokens) > 1 else ""
+```
+
+**验证**：直接通过 `importlib` 加载并执行修改后的解析器文件，确认：
+
+- `""`、`"   "`、`"\t\n"`、`"  \n  "` → `{"command": "", "argument": ""}`（不再抛异常）
+- `"hello world"` → `{"command": "hello", "argument": "world"}`
+- `"hello"` → `{"command": "hello", "argument": ""}`
+- `"a b c"` → `{"command": "a", "argument": "b"}`
+
+全部断言通过（`ALL CHECKS PASSED`）。

@@ -1,0 +1,37 @@
+{
+  "line": 7,
+  "id": 24,
+  "user_query": "修复 Sphinx 的 reStructuredText 标题解析。配置 rst_prolog 时，含有域角色（例如 :mod:）的首个章节标题应正常渲染并出现在目录树中。",
+  "effective_query": "修复 Sphinx 的 reStructuredText 标题解析。配置 rst_prolog 时，含有域角色（例如 :mod:）的首个章节标题应正常渲染并出现在目录树中。\n\nAttached files are available at the following paths. Read them as needed:\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_24/repository.tar.gz\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_24/problem_statement.md\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_24/environment.json",
+  "attached_files": [
+    "attached_files/task_24/repository.tar.gz",
+    "attached_files/task_24/problem_statement.md",
+    "attached_files/task_24/environment.json"
+  ],
+  "resolved_attached_files": [
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_24/repository.tar.gz",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_24/problem_statement.md",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_24/environment.json"
+  ],
+  "archived_attachments": [
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_24/repository.tar.gz",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000007-24/inputs/attached_files/task_24/repository.tar.gz",
+      "size": 6730644,
+      "sha256": "d1075bd7e25bcc607d20696ba41408c7ebb12748190e07f8234cfd3982e4ad1d"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_24/problem_statement.md",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000007-24/inputs/attached_files/task_24/problem_statement.md",
+      "size": 1791,
+      "sha256": "08000b81dab279b65ecdf12560d94509e19e03f5f6d7151da5f6eefea9d5b31c"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_24/environment.json",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000007-24/inputs/attached_files/task_24/environment.json",
+      "size": 504,
+      "sha256": "536541ce2e50c02dc8964c343584912685429782c6ee46e9d629be42cd9cb638"
+    }
+  ],
+  "started_at": "2026-11-06T07:51:41.488454+00:00"
+}

@@ -1,0 +1,37 @@
+{
+  "line": 29,
+  "id": 46,
+  "user_query": "根据附件比较 pandas 2.2.3 和 Polars 1.31.0 的 CSV 读取接口。对比模式推断、分块或惰性处理、内存相关参数和适用限制，区分官方文档描述与缺乏实测的内存结论。",
+  "effective_query": "根据附件比较 pandas 2.2.3 和 Polars 1.31.0 的 CSV 读取接口。对比模式推断、分块或惰性处理、内存相关参数和适用限制，区分官方文档描述与缺乏实测的内存结论。\n\nAttached files are available at the following paths. Read them as needed:\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_46/csv_reader_sources.md\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_46/PolarsCSV.py\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_46/pandas_2.2.3_IO.rst",
+  "attached_files": [
+    "attached_files/task_46/csv_reader_sources.md",
+    "attached_files/task_46/PolarsCSV.py",
+    "attached_files/task_46/pandas_2.2.3_IO.rst"
+  ],
+  "resolved_attached_files": [
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_46/csv_reader_sources.md",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_46/PolarsCSV.py",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_46/pandas_2.2.3_IO.rst"
+  ],
+  "archived_attachments": [
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_46/csv_reader_sources.md",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000029-46/inputs/attached_files/task_46/csv_reader_sources.md",
+      "size": 610,
+      "sha256": "146fa2ca2db3f1efcc82d4790a20f46b384e4c96f9fec1c151cf56f981fb308f"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_46/PolarsCSV.py",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000029-46/inputs/attached_files/task_46/PolarsCSV.py",
+      "size": 60591,
+      "sha256": "9bbd6181dbe77d59932722b783b36373e051aa2023c900add3c7babf288aac4f"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_46/pandas_2.2.3_IO.rst",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000029-46/inputs/attached_files/task_46/pandas_2.2.3_IO.rst",
+      "size": 219424,
+      "sha256": "a7dcc915ea5383a0379f1aaa0cca8cf756de1cbc2075039b67891c8fbcbe06d9"
+    }
+  ],
+  "started_at": "2026-11-06T10:15:16.017651+00:00"
+}

@@ -1,0 +1,272 @@
+%PDF-1.4
+% CounselBench deterministic native source
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 2 /Kids [3 0 R 5 0 R] >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 4546 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(COUNSELBENCH SOURCE RECORD) Tj
+T*
+(Record: CB-DOC-001-024) Tj
+T*
+(Matter: CB-MA-2401 - Project Daybreak battery acquisition) Tj
+T*
+(Portfolio key: CBP-001-12) Tj
+T*
+(Source system: Workday HRIS) Tj
+T*
+(Evidence role: operative_authority) Tj
+T*
+(Immutable entity: ENT-001-1011) Tj
+T*
+(Referenced revision: REV-2025.5) Tj
+T*
+(Current revision: REV-2025.5) Tj
+T*
+(Custodian: Mei Whitaker) Tj
+T*
+(Reviewer: Farah Ibrahim) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(invention assignment defect approval must come from Caleb Hassan under CB-MA-2401-R433. The referenced) Tj
+T*
+(and current revision are both REV-2025.5. The matter-level control is: The executed purchase terms and) Tj
+T*
+(the latest consent schedule control; seller summaries do not.) Tj
+T*
+() Tj
+T*
+(SOURCE LINEAGE) Tj
+T*
+(Workday HRIS produced native record CB-DOC-001-024 for CB-MA-2401. Mei Whitaker owns the source) Tj
+T*
+(population and Farah Ibrahim recorded the collection review. The export remains separate from later legal) Tj
+T*
+(analysis.) Tj
+T*
+() Tj
+T*
+(BUSINESS CONTEXT) Tj
+T*
+(This record concerns invention assignment defect within Project Daybreak battery acquisition. A carve-out) Tj
+T*
+(manufacturer owns cathode tooling in Nevada while its largest automaker customer can terminate upon an) Tj
+T*
+(indirect change of control. The record addresses one part of the broader question: Match the) Tj
+T*
+(cathode-tooling records and automaker consent history to the exact acquired entity.) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(invention assignment defect approval must come from Caleb Hassan under CB-MA-2401-R433. The referenced) Tj
+T*
+(and current revision are both REV-2025.5. The matter-level control is: The executed purchase terms and) Tj
+T*
+(the latest consent schedule control; seller summaries do not.) Tj
+T*
+() Tj
+T*
+(RELIANCE LIMITS) Tj
+T*
+(This file supplies operative authority evidence for CBP-001-12. It does not decide legal effect, select) Tj
+T*
+(among candidate responses, resolve another system's entity identity, or establish that its cited revision) Tj
+T*
+(is controlling.) Tj
+T*
+() Tj
+T*
+(NATIVE ROWS) Tj
+T*
+(CBP-001-12-OPE-01 | 2024-09-22 | ENT-001-1011 | REV-2025.5 | Samuel Kim | pending | $246,234.00 |) Tj
+T*
+(Operative Authority support row 1 for invention assignment defect; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-001-12 population from similarly named records.) Tj
+T*
+(CBP-001-12-OPE-02 | 2024-09-25 | ENT-001-1011 | REV-2025.5 | Nora Chen | confirmed | 4% | Operative) Tj
+T*
+(Authority support row 2 for invention assignment defect; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-001-12 population from similarly named records.) Tj
+T*
+(CBP-001-12-OPE-03 | 2024-09-28 | ENT-001-1011 | REV-2025.5 | Elliot Mercer | superseded | 26% | Operative) Tj
+T*
+(Authority support row 3 for invention assignment defect; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-001-12 population from similarly named records.) Tj
+T*
+(CBP-001-12-OPE-04 | 2024-10-01 | ENT-001-1011 | REV-2025.5 | Mei Whitaker | recorded | $407,256.00 |) Tj
+T*
+(Operative Authority support row 4 for invention assignment defect; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-001-12 population from similarly named records.) Tj
+T*
+(CBP-001-12-OPE-05 | 2024-10-04 | ENT-001-1011 | REV-2025.5 | Isaac Romero | confirmed | 4% | Operative) Tj
+T*
+(Authority support row 5 for invention assignment defect; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-001-12 population from similarly named records.) Tj
+T*
+(CBP-001-12-OPE-06 | 2024-10-07 | ENT-001-1011 | REV-2025.5 | Willa Novak | confirmed | 18% | Operative) Tj
+T*
+(Authority support row 6 for invention assignment defect; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-001-12 population from similarly named records.) Tj
+T*
+(CBP-001-12-OPE-07 | 2024-10-10 | ENT-001-1011 | REV-2025.5 | Henry Cho | pending | $622,038.00 |) Tj
+T*
+(Operative Authority support row 7 for invention assignment defect; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-001-12 population from similarly named records.) Tj
+T*
+(CBP-001-12-OPE-08 | 2024-10-13 | ENT-001-2011 | REV-2025.5 | Farah Ibrahim | superseded | 6% | Operative) Tj
+T*
+(Authority support row 8 for invention assignment defect; retained from the native system so the reviewer) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4011 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(can distinguish the exact CBP-001-12 population from similarly named records.) Tj
+T*
+(CBP-001-12-OPE-09 | 2024-10-16 | ENT-001-1011 | REV-2025.5 | Samuel Kim | pending | 26% | Operative) Tj
+T*
+(Authority support row 9 for invention assignment defect; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-001-12 population from similarly named records.) Tj
+T*
+(CBP-001-12-OPE-10 | 2024-10-19 | ENT-001-1011 | REV-2025.5 | Nora Chen | pending | $744,274.00 |) Tj
+T*
+(Operative Authority support row 10 for invention assignment defect; retained from the native system so) Tj
+T*
+(the reviewer can distinguish the exact CBP-001-12 population from similarly named records.) Tj
+T*
+(CBP-001-12-OPE-11 | 2024-10-22 | ENT-001-1011 | REV-2025.5 | Elliot Mercer | confirmed | 27% | Operative) Tj
+T*
+(Authority support row 11 for invention assignment defect; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-001-12 population from similarly named records.) Tj
+T*
+(CBP-001-12-OPE-12 | 2024-10-25 | ENT-001-1011 | REV-2025.5 | Mei Whitaker | recorded | 23% | Operative) Tj
+T*
+(Authority support row 12 for invention assignment defect; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-001-12 population from similarly named records.) Tj
+T*
+(CBP-001-12-OPE-13 | 2024-10-28 | ENT-001-1011 | REV-2025.5 | Isaac Romero | superseded | $973,563.00 |) Tj
+T*
+(Operative Authority support row 13 for invention assignment defect; retained from the native system so) Tj
+T*
+(the reviewer can distinguish the exact CBP-001-12 population from similarly named records.) Tj
+T*
+(CBP-001-12-OPE-14 | 2024-10-31 | ENT-001-1011 | REV-2025.5 | Willa Novak | pending | 1% | Operative) Tj
+T*
+(Authority support row 14 for invention assignment defect; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-001-12 population from similarly named records.) Tj
+T*
+(CBP-001-12-OPE-15 | 2024-11-03 | ENT-001-1011 | REV-2025.5 | Henry Cho | pending | 9% | Operative) Tj
+T*
+(Authority support row 15 for invention assignment defect; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-001-12 population from similarly named records.) Tj
+T*
+(CBP-001-12-OPE-16 | 2024-11-06 | ENT-001-1011 | REV-2025.5 | Farah Ibrahim | pending | $886,598.00 |) Tj
+T*
+(Operative Authority support row 16 for invention assignment defect; retained from the native system so) Tj
+T*
+(the reviewer can distinguish the exact CBP-001-12 population from similarly named records.) Tj
+T*
+(CBP-001-12-OPE-17 | 2024-11-09 | ENT-001-1011 | REV-2025.5 | Samuel Kim | confirmed | 17% | Operative) Tj
+T*
+(Authority support row 17 for invention assignment defect; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-001-12 population from similarly named records.) Tj
+T*
+(CBP-001-12-OPE-18 | 2024-11-12 | ENT-001-1011 | REV-2025.5 | Nora Chen | confirmed | 14% | Operative) Tj
+T*
+(Authority support row 18 for invention assignment defect; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-001-12 population from similarly named records.) Tj
+T*
+() Tj
+T*
+(CHRONOLOGY) Tj
+T*
+(2024-12-01 | native population opened | Samuel Kim | CB-DOC-001-024) Tj
+T*
+(2024-12-07 | custodian boundary confirmed | Dominic Alvarez | CBP-001-12) Tj
+T*
+(2024-12-13 | export created | Jonas Feld | CB-DOC-001-024) Tj
+T*
+(2024-12-19 | cross-system identifier checked | Isaac Romero | CBP-001-12) Tj
+T*
+(2024-12-25 | revision retained | Theo Laurent | CB-DOC-001-024) Tj
+T*
+(2024-12-31 | matter copy collected | Micah Sullivan | CBP-001-12) Tj
+T*
+() Tj
+T*
+(RELATED NATIVE RECORDS) Tj
+T*
+(CB-DOC-001-035) Tj
+T*
+(CB-DOC-001-053) Tj
+T*
+(CB-DOC-001-071) Tj
+T*
+(CB-DOC-001-095) Tj
+T*
+() Tj
+T*
+(Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are) Tj
+T*
+(fictitious; the record is not legal advice.) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000052 00000 n 
+0000000101 00000 n 
+0000000164 00000 n 
+0000000290 00000 n 
+0000004887 00000 n 
+0000005013 00000 n 
+0000009075 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+9143
+%%EOF

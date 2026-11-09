@@ -1,0 +1,22 @@
+I have settled the operating position from the operative-authority records and written it to the closeout file. Here is the position for the team.
+
+## Operating position — Project Daybreak (CB-MA-2401)
+
+**Signing may proceed.** The governing rule stated in every operative-authority record is: *"The executed purchase terms and the latest consent schedule control; seller summaries do not."* Operative-authority references ("R-…") control over evidence/seller-summary references ("E-…"), and the later effective revision controls.
+
+**The two flagged gaps resolve as follows:**
+
+| Gap | Record | Operative authority | Disposition |
+|---|---|---|---|
+| Customer consent (automaker) | CBP-001-11 | Talia Brooks, R473, REV-2025.4 | **Closing condition** |
+| Tooling (Nevada cathode) | CBP-001-10 | Washoe County, NV, R710, REV-2025.3 | **Priced exception** |
+
+- **Customer-consent gap → closing condition.** The automaker can terminate on an indirect change of control; a termination right can't be priced away, so it must be eliminated or waived before the transfer completes. The operative authority (CB-DOC-001-023) fixes consent from **Talia Brooks**, overriding the Caleb Hassan (E439) seller summary.
+- **Tooling gap → priced exception.** The Nevada cathode-tooling exposure is the sales-tax nexus gap, and operative authority (CB-DOC-001-022) limits it to **Washoe County, Nevada** — a geographically bounded exposure that can be indemnified/escrowed. It does not "block completion," so it is not a closing condition.
+
+**Sign now**, with one signing-path deliverable: document the charter-authorization sign-off (Maya Ellison, R983) at execution.
+
+**Closing conditions:** CBP-001-03, -04, -06, -07, -08, -09, -11, -12.
+**Priced exceptions:** CBP-001-10 (Nevada nexus), plus the financial-covenant (7%) and MFC (13%) thresholds.
+
+The full closeout memo is saved at `matter_closeout_CB-MA-2401_Daybreak.md`.

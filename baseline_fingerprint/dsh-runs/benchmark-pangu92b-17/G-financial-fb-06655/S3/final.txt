@@ -1,0 +1,20 @@
+## Answer
+
+**Amazon's FY2017 DPO = 93.86**
+
+### Line items used (from the attached FY2017 10-K)
+
+| Item | FY2016 | FY2017 | Source |
+|---|---|---|---|
+| Accounts payable | $25,309M | $34,616M | Consolidated Balance Sheets (page 40) |
+| Inventories | $11,461M | $16,047M | Consolidated Balance Sheets (page 40) |
+| Cost of sales | — | $111,934M | Consolidated Statements of Operations (page 38) |
+
+### Calculation
+
+1. Average accounts payable (FY2016, FY2017) = (25,309 + 34,616) / 2 = **29,962.5**
+2. Change in inventory (FY2016 → FY2017) = 16,047 − 11,461 = **4,586**
+3. Denominator = FY2017 COGS + change in inventory = 111,934 + 4,586 = **116,520**
+4. DPO = 365 × 29,962.5 / 116,520 = 93.8578…
+
+**Rounded to two decimal places: 93.86**

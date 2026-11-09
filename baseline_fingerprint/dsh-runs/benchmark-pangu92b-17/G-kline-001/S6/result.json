@@ -1,0 +1,28 @@
+{
+  "group_id": "G-marketing-kline-000",
+  "variant_id": "S6",
+  "task_id": 21,
+  "provider": "pangu92b",
+  "status": "succeeded",
+  "exit_code": 0,
+  "started_at": "2026-10-25T22:52:07.757109+00:00",
+  "finished_at": "2026-10-25T23:00:22.164336+00:00",
+  "duration_seconds": 494.407,
+  "execution_duration_seconds": 263.413,
+  "recording_duration_seconds": 111.372,
+  "system_prompt_sha256": "6cadac36d873c55a8e85471c2cbf39242eb35d139d8a1bfea3c8e5490e2a3c6a",
+  "task_dir": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-marketing-kline-000/S6",
+  "recording_status": "complete",
+  "workspace_restore_status": "complete",
+  "signal": null,
+  "session_id": "session-17356860-4359-47ea-a70c-3b3787f5a712",
+  "final_event_seen": true,
+  "parse_errors": [],
+  "tool_calls": 22,
+  "tool_errors": 3,
+  "steps": 22,
+  "turn_end_reason": {
+    "kind": "completed"
+  },
+  "restore_duration_seconds": 119.623
+}

@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "output",
+    "output/信用卡推荐报告.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "output/信用卡推荐报告.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-customer-banking-001/S1/artifacts/output/信用卡推荐报告.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792880212000000000,
+      "type": "file",
+      "size": 3449,
+      "sha256": "41881f8dec814aaa50c5f884aebd0a12fb42fcf818215cf264baeb3f2d1cfe88"
+    }
+  ],
+  "entries": {
+    "output": {
+      "mode": 448,
+      "mtime_ns": 1792880212000000000,
+      "type": "directory"
+    },
+    "output/信用卡推荐报告.md": {
+      "mode": 384,
+      "mtime_ns": 1792880212000000000,
+      "type": "file",
+      "size": 3449,
+      "sha256": "41881f8dec814aaa50c5f884aebd0a12fb42fcf818215cf264baeb3f2d1cfe88"
+    }
+  },
+  "deleted_entries": {}
+}

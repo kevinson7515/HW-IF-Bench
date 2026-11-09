@@ -1,0 +1,47 @@
+所有验证均已通过。修改已完成 —— 以下是总结。
+
+## 修改内容
+
+`django/core/mail/message.py` 中的 `sanitize_address`（保持 `email.headerregistry` 解析架构不变），共三处加固，全部将“崩溃或静默通过”转为清晰的 `ValueError`：
+
+```python
+            nm = token.display_name or ''
+            localpart = token.local_part
+            domain = token.domain or ''
+            # A mailbox without a local part (e.g. "A name <>") is invalid.
+            if localpart is None:                      # ① 新增
+                raise ValueError('Invalid address "%s"' % addr)
+    else:
+        nm, address = addr
+        if '@' not in address:                          # ② 新增
+            raise ValueError('Invalid address "%s"' % address)
+        localpart, domain = address.rsplit('@', 1)
+
+    address_parts = nm + localpart + domain            # ③ 新增
+    if '\n' in address_parts or '\r' in address_parts:
+        raise ValueError('Invalid address; address parts cannot contain newlines.')
+```
+
+**修复的三个缺陷**（均已实测复现）：
+1. **`'A name <>'` → `AttributeError: 'NoneType' object has no attribute 'encode'`**。`parser.get_mailbox('A name <>')` 解析成功但 `token.local_part` 为 `None`，随后 `localpart.encode('ascii')` 崩溃。注意用 `is None` 而非 falsy 判断：`'""@example.com'`（合法的空引号本地部分）必须继续接受，与真实 Django 行为一致。
+2. **元组无 `@` → `ValueError: not enough values to unpack`**。`('A name', 'noatsign')` 在 `rsplit('@', 1)` 处给出误导性错误，现在是 `Invalid address "noatsign"`。
+3. **换行注入静默通过**。`('na\nme', 'to@example.com')` 之类含 CR/LF 的部件此前会进入 `Header(...)` 折叠逻辑，现在直接拒绝。
+
+## 保留的关键行为（有意不改动）
+
+- **无条件 `nm = Header(nm, encoding).encode()`**：随附测试要求 `(('A name', 'to@example.com'), 'utf-8')` → `'=?utf-8?q?A_name?= <to@example.com>'`。考古确认这是 3.x 语义；上游 4.2+ 改成 ASCII 优先后期望值变为 `'A name <to@example.com>'`，采纳会直接挂测试。
+- **`return str(parsed_address)`**：对全部用例与 `formataddr((nm, parsed_address.addr_spec))` 输出一致，且无需新增 `formataddr` 导入。
+- RFC 2047 本地部分（`tó@example.com` → `=?utf-8?b?dMOz?=@example.com`）、IDN punycode（`éxample.com` → `xn--xample-9ua.com`）、带引号本地部分（`"to@other.com"@example.com`）均不变。
+
+## 验证（E2B，Python 3.13 + 附件模块逐例执行）
+
+- **23 个可见测试用例**（19 有效 + 5 无效）：全部 PASS。
+- **9 个新增边界用例**：`'A name <>'`、`'<>'`、`'"A name" <>'`、`'"" <>'`、`('A name','noatsign')`、`('A name','')` 及三例换行注入 → 全部 `ValueError`；`('n','@example.com')` 与上游 6.1.2 语义一致。
+- **回归扫描**：与修改前输出逐字节一致的 8 个易碎路径（`''` 引号本地部分、`'localpartonly'`、注释、`<addr>` 裸括号等）全部 PASS。
+- **集成路径**：`test_safe_mime_multipart`（iso-8859-1 引号显示名含逗号）、`test_unicode_headers`（Sender 地址头）、多收件人 Unicode To 头，全部产出与测试期望一致；RFC 往返（`email.policy.default` 重解析）确认显示名解码、IDN punycode、编码字本地部分均正确还原。
+- **对照真实上游 3.2.25**：元组路径行为逐字节相同（该路径中元组被 `forbid_multi_line_headers` 字符串化，`\n` 被 repr 转义，无注入面）；`py_compile` 与风格检查通过。
+
+## 背景
+
+- `ValueError` 而非其他异常类型的要求与 Django 历史一致：[#27469](https://code.djangoproject.com/ticket/27469)（空串导致晦涩 `IndexError`，最终以清晰错误修复）与 [#32008](https://code.djangoproject.com/ticket/32008)（地址部件换行经由 `Header` 折叠混入头部的报告）。
+- 解析依据为 [`email.headerregistry`](https://docs.python.org/3/library/email.headerregistry.html) 及其 `parser`（`email._header_value_parser.get_mailbox`）：完全解析成功才接受（`rest` 非空即拒绝），`HeaderParseError`/`ValueError`/`IndexError` 一律转成 `Invalid address`。

@@ -1,0 +1,28 @@
+{
+  "group_id": "G-legal-cb100-061",
+  "variant_id": "S2",
+  "task_id": 11,
+  "provider": "company-deepseek",
+  "status": "succeeded",
+  "exit_code": 0,
+  "started_at": "2026-10-24T02:45:38.262402+00:00",
+  "finished_at": "2026-10-24T03:17:16.008751+00:00",
+  "duration_seconds": 1897.746,
+  "execution_duration_seconds": 1428.839,
+  "recording_duration_seconds": 357.362,
+  "system_prompt_sha256": "b09da26fe1c61da586a41391c5c3c681ebea71112db95d982413acab1b230d5f",
+  "task_dir": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1890615/G-legal-cb100-061/S2",
+  "recording_status": "complete",
+  "workspace_restore_status": "complete",
+  "signal": null,
+  "session_id": "session-58934717-8de5-4beb-b33f-062487baffea",
+  "final_event_seen": true,
+  "parse_errors": [],
+  "tool_calls": 45,
+  "tool_errors": 0,
+  "steps": 31,
+  "turn_end_reason": {
+    "kind": "completed"
+  },
+  "restore_duration_seconds": 111.545
+}

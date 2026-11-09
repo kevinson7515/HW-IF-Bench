@@ -1,0 +1,875 @@
+[
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/01_data_inventory/001_data_inventory_source_export.md",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/01_data_inventory/001_data_inventory_source_export.md",
+    "mode": 420,
+    "mtime_ns": 1792659497000000000,
+    "type": "file",
+    "size": 8079,
+    "sha256": "e5a387af566eaa1526cd79eb9513cbdfe220a40c3a680b19dd23a220f855ca30"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/01_data_inventory/002_data_inventory_source_export.txt",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/01_data_inventory/002_data_inventory_source_export.txt",
+    "mode": 420,
+    "mtime_ns": 1792659497000000000,
+    "type": "file",
+    "size": 7482,
+    "sha256": "2c61e0d7f2b39598c049e70b276b12b550e33fa32ee7ea888b9a9b9ec3714344"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/01_data_inventory/003_data_inventory_source_export.eml",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/01_data_inventory/003_data_inventory_source_export.eml",
+    "mode": 420,
+    "mtime_ns": 1792659498000000000,
+    "type": "file",
+    "size": 6031,
+    "sha256": "00b7ebe023a70f43117fbcfba52fc1ae7b18eb7fe1587dfd876ebb89df4eb073"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/01_data_inventory/004_data_inventory_source_export.csv",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/01_data_inventory/004_data_inventory_source_export.csv",
+    "mode": 420,
+    "mtime_ns": 1792659498000000000,
+    "type": "file",
+    "size": 9012,
+    "sha256": "375fb3c3628f8d2eb2b4925be15b1769acad85c610695e2f8bcea081781ddd8d"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/01_data_inventory/005_data_inventory_source_export.json",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/01_data_inventory/005_data_inventory_source_export.json",
+    "mode": 420,
+    "mtime_ns": 1792659498000000000,
+    "type": "file",
+    "size": 11590,
+    "sha256": "21c3e990e23f48d147060c9e0d2240344a0dbed1a5027a740405cad02fed2237"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/01_data_inventory/006_data_inventory_source_export.xml",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/01_data_inventory/006_data_inventory_source_export.xml",
+    "mode": 420,
+    "mtime_ns": 1792659498000000000,
+    "type": "file",
+    "size": 9186,
+    "sha256": "c9d999ab0b78f62cdc9f8c2bcd77eea67c00d8629a6a90493352a81eedb61660"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/01_data_inventory/007_data_inventory_source_export.html",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/01_data_inventory/007_data_inventory_source_export.html",
+    "mode": 420,
+    "mtime_ns": 1792659499000000000,
+    "type": "file",
+    "size": 8592,
+    "sha256": "025add6c1c0ef3d33027c51221dad2be73c35c0e99f55263fd39dfc89aa29aa0"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/01_data_inventory/008_data_inventory_source_export.pdf",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/01_data_inventory/008_data_inventory_source_export.pdf",
+    "mode": 420,
+    "mtime_ns": 1792659499000000000,
+    "type": "file",
+    "size": 9380,
+    "sha256": "356d92215f015b9c18ed5b183eeb2eca1549a43a07b25e9620651cf30f336cf6"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/02_processing_records/009_processing_records_source_export.md",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/02_processing_records/009_processing_records_source_export.md",
+    "mode": 420,
+    "mtime_ns": 1792659499000000000,
+    "type": "file",
+    "size": 8002,
+    "sha256": "ed652495af99ae5bfb17ca6c0c8c581697780d145b20f9e6a92df8513ba1cc98"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/02_processing_records/010_processing_records_source_export.txt",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/02_processing_records/010_processing_records_source_export.txt",
+    "mode": 420,
+    "mtime_ns": 1792659499000000000,
+    "type": "file",
+    "size": 7746,
+    "sha256": "86d38dd896059395eb6d025a12f1364b9533feba01a13f8939718cdc2b073d39"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/02_processing_records/011_processing_records_source_export.eml",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/02_processing_records/011_processing_records_source_export.eml",
+    "mode": 420,
+    "mtime_ns": 1792659500000000000,
+    "type": "file",
+    "size": 5986,
+    "sha256": "512050084e12f7418a0cdcb32af5d37567d54100e28aff676b64d486c761f7b4"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/02_processing_records/012_processing_records_source_export.csv",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/02_processing_records/012_processing_records_source_export.csv",
+    "mode": 420,
+    "mtime_ns": 1792659500000000000,
+    "type": "file",
+    "size": 9043,
+    "sha256": "d6a190c456df44a49863b58d8c7d9e4ffafbdbb1e87ded1986cc4cf3a3dd68b4"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/02_processing_records/013_processing_records_source_export.json",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/02_processing_records/013_processing_records_source_export.json",
+    "mode": 420,
+    "mtime_ns": 1792659501000000000,
+    "type": "file",
+    "size": 11817,
+    "sha256": "397b318218dc195c1081a19626ee82551c80d2c7e55c208cba9a7ba2151dd332"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/02_processing_records/014_processing_records_source_export.xml",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/02_processing_records/014_processing_records_source_export.xml",
+    "mode": 420,
+    "mtime_ns": 1792659501000000000,
+    "type": "file",
+    "size": 9315,
+    "sha256": "ab81879faa7d0e40ad0326bae1518316771ddc7b2e48ccf483f2b5e07c104838"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/02_processing_records/015_processing_records_source_export.html",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/02_processing_records/015_processing_records_source_export.html",
+    "mode": 420,
+    "mtime_ns": 1792659501000000000,
+    "type": "file",
+    "size": 8622,
+    "sha256": "e81546d2236f64d19fdfc8b816a5abbddf81b2a66116d76b90244f9b6a606f0d"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/02_processing_records/016_processing_records_source_export.pdf",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/02_processing_records/016_processing_records_source_export.pdf",
+    "mode": 420,
+    "mtime_ns": 1792659502000000000,
+    "type": "file",
+    "size": 9377,
+    "sha256": "e48b931058c61dba6f33999eed02f43478ad3987aa86b2fe7e99e79c0f6189ad"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/03_vendor_reviews/017_vendor_reviews_source_export.md",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/03_vendor_reviews/017_vendor_reviews_source_export.md",
+    "mode": 420,
+    "mtime_ns": 1792659503000000000,
+    "type": "file",
+    "size": 7950,
+    "sha256": "74bc841dc551e0a6ff3b4c03826b50369be5aaf21408d780239fee534ef5530b"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/03_vendor_reviews/018_vendor_reviews_source_export.txt",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/03_vendor_reviews/018_vendor_reviews_source_export.txt",
+    "mode": 420,
+    "mtime_ns": 1792659503000000000,
+    "type": "file",
+    "size": 7626,
+    "sha256": "52f92affcb9dda3a1d2081e48d85d50ba6ca54fbed7e9fa87d81d5ed2740751f"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/03_vendor_reviews/019_vendor_reviews_source_export.eml",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/03_vendor_reviews/019_vendor_reviews_source_export.eml",
+    "mode": 420,
+    "mtime_ns": 1792659503000000000,
+    "type": "file",
+    "size": 6077,
+    "sha256": "14787157e05e8f30348dba7ba4c561f90bb9d1c0b33d0e0f1f1403bbc0b3fae4"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/03_vendor_reviews/020_vendor_reviews_source_export.csv",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/03_vendor_reviews/020_vendor_reviews_source_export.csv",
+    "mode": 420,
+    "mtime_ns": 1792659503000000000,
+    "type": "file",
+    "size": 9106,
+    "sha256": "b568730c42250817c4b2fbaae1adf6f9ec220c54523f233392b6d72a260dd0f0"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/03_vendor_reviews/021_vendor_reviews_source_export.json",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/03_vendor_reviews/021_vendor_reviews_source_export.json",
+    "mode": 420,
+    "mtime_ns": 1792659504000000000,
+    "type": "file",
+    "size": 11827,
+    "sha256": "49ab6eb9a2586798e77e7339ae2e8e182d0689ebefd21e5f08e9412d58ecc522"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/03_vendor_reviews/022_vendor_reviews_source_export.xml",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/03_vendor_reviews/022_vendor_reviews_source_export.xml",
+    "mode": 420,
+    "mtime_ns": 1792659504000000000,
+    "type": "file",
+    "size": 9490,
+    "sha256": "0d33a8296e76207ea8596a990d0ed8620bf9e60e55076079e1106dbd28f8fd1b"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/03_vendor_reviews/023_vendor_reviews_source_export.html",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/03_vendor_reviews/023_vendor_reviews_source_export.html",
+    "mode": 420,
+    "mtime_ns": 1792659504000000000,
+    "type": "file",
+    "size": 8562,
+    "sha256": "6677df51003ffc440bd0669145a0f8071999bcc9c50ecdfc2c4057316d96fe1a"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/03_vendor_reviews/024_vendor_reviews_source_export.pdf",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/03_vendor_reviews/024_vendor_reviews_source_export.pdf",
+    "mode": 420,
+    "mtime_ns": 1792659504000000000,
+    "type": "file",
+    "size": 9418,
+    "sha256": "d5d3ad9ef1876eef94638c05cbb59549c9bc979d3cf3a43495611cd486994a9e"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/04_security_incidents/025_security_incidents_source_export.md",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/04_security_incidents/025_security_incidents_source_export.md",
+    "mode": 420,
+    "mtime_ns": 1792659505000000000,
+    "type": "file",
+    "size": 8032,
+    "sha256": "9e1a43ea7b5488bc0db5b89a910d293a8c0b5ace85c5fb15f5fcd4a72a30f963"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/04_security_incidents/026_security_incidents_source_export.txt",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/04_security_incidents/026_security_incidents_source_export.txt",
+    "mode": 420,
+    "mtime_ns": 1792659505000000000,
+    "type": "file",
+    "size": 7488,
+    "sha256": "f638ada0ee15999a5bb2188f29d37925f9439bb50ff2e7c72ff3b8c8dc6a35b6"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/04_security_incidents/027_security_incidents_source_export.eml",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/04_security_incidents/027_security_incidents_source_export.eml",
+    "mode": 420,
+    "mtime_ns": 1792659505000000000,
+    "type": "file",
+    "size": 5994,
+    "sha256": "6219b8fc1c89a94925a5b6012fac61f6dc8ae67e636685bddce4051c0d8b884a"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/04_security_incidents/028_security_incidents_source_export.csv",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/04_security_incidents/028_security_incidents_source_export.csv",
+    "mode": 420,
+    "mtime_ns": 1792659505000000000,
+    "type": "file",
+    "size": 8983,
+    "sha256": "934fc0639c9ee9744aeffe4ebb5f08c6aa68123837f1354052f0a86bb6674c0f"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/04_security_incidents/029_security_incidents_source_export.json",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/04_security_incidents/029_security_incidents_source_export.json",
+    "mode": 420,
+    "mtime_ns": 1792659506000000000,
+    "type": "file",
+    "size": 11554,
+    "sha256": "1bfaad001eab8aaeccfa55a01735c339c6abc7ed32e568492bdf5c2455207d06"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/04_security_incidents/030_security_incidents_source_export.xml",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/04_security_incidents/030_security_incidents_source_export.xml",
+    "mode": 420,
+    "mtime_ns": 1792659506000000000,
+    "type": "file",
+    "size": 9152,
+    "sha256": "d3b4e28b4651bd18c69d2dcc39add6626adea4db4417cd0f89b60c46574dca15"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/04_security_incidents/031_security_incidents_source_export.html",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/04_security_incidents/031_security_incidents_source_export.html",
+    "mode": 420,
+    "mtime_ns": 1792659506000000000,
+    "type": "file",
+    "size": 8559,
+    "sha256": "75b6299f38e89da9b88bd8f8df0046895f16fa22b1275e15de3ccc60f0b15f93"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/04_security_incidents/032_security_incidents_source_export.pdf",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/04_security_incidents/032_security_incidents_source_export.pdf",
+    "mode": 420,
+    "mtime_ns": 1792659506000000000,
+    "type": "file",
+    "size": 9332,
+    "sha256": "adda68ac0162360bb3b43bcf837451128be68f502167f5b1a7c942bc0b51165e"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/05_consumer_requests/033_consumer_requests_source_export.md",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/05_consumer_requests/033_consumer_requests_source_export.md",
+    "mode": 420,
+    "mtime_ns": 1792659507000000000,
+    "type": "file",
+    "size": 8052,
+    "sha256": "46c175ebfebae7d72cd95230816e46b53f41b24f774ca376364b7ff36ec427a9"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/05_consumer_requests/034_consumer_requests_source_export.txt",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/05_consumer_requests/034_consumer_requests_source_export.txt",
+    "mode": 420,
+    "mtime_ns": 1792659507000000000,
+    "type": "file",
+    "size": 7699,
+    "sha256": "e69c50ff55999235a8e4e637685482f15f97acc6ca5bc81162fa80b9b2128a64"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/05_consumer_requests/035_consumer_requests_source_export.eml",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/05_consumer_requests/035_consumer_requests_source_export.eml",
+    "mode": 420,
+    "mtime_ns": 1792659507000000000,
+    "type": "file",
+    "size": 5947,
+    "sha256": "5f733ec1251404a68b9331b291acb17eb7beb7476a3c007ee42193695b9f8988"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/05_consumer_requests/036_consumer_requests_source_export.csv",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/05_consumer_requests/036_consumer_requests_source_export.csv",
+    "mode": 420,
+    "mtime_ns": 1792659507000000000,
+    "type": "file",
+    "size": 9024,
+    "sha256": "70076635caab76394c8f560b78d4a4cd8a12e137ae7eba708ee5ac4a12a14d0f"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/05_consumer_requests/037_consumer_requests_source_export.json",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/05_consumer_requests/037_consumer_requests_source_export.json",
+    "mode": 420,
+    "mtime_ns": 1792659508000000000,
+    "type": "file",
+    "size": 11639,
+    "sha256": "0bde4212a6c45452ae24c23b8effe5ed21ecaa48fd0a766e125697fa2ee8b754"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/05_consumer_requests/038_consumer_requests_source_export.xml",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/05_consumer_requests/038_consumer_requests_source_export.xml",
+    "mode": 420,
+    "mtime_ns": 1792659508000000000,
+    "type": "file",
+    "size": 9063,
+    "sha256": "d1fda76ec5c88a35326762703416e60d78a8b6a68b4ea7a874f0a27a9fefdd4d"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/05_consumer_requests/039_consumer_requests_source_export.html",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/05_consumer_requests/039_consumer_requests_source_export.html",
+    "mode": 420,
+    "mtime_ns": 1792659508000000000,
+    "type": "file",
+    "size": 8437,
+    "sha256": "a034617ad9ab20d187311ac54b03dae759864ca5d64bd34e442b85c7de48b36a"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/05_consumer_requests/040_consumer_requests_source_export.pdf",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/05_consumer_requests/040_consumer_requests_source_export.pdf",
+    "mode": 420,
+    "mtime_ns": 1792659509000000000,
+    "type": "file",
+    "size": 9184,
+    "sha256": "26808b720822189d8ddcccd353946584ac4e5d58335508bfc33e8169652354b5"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/06_notices_consents/041_notices_consents_source_export.md",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/06_notices_consents/041_notices_consents_source_export.md",
+    "mode": 420,
+    "mtime_ns": 1792659509000000000,
+    "type": "file",
+    "size": 7781,
+    "sha256": "34264e17411a4605f48c2b524b20952653f95b64a2fb0c8c2cb53a6eaf3e0d6e"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/06_notices_consents/042_notices_consents_source_export.txt",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/06_notices_consents/042_notices_consents_source_export.txt",
+    "mode": 420,
+    "mtime_ns": 1792659509000000000,
+    "type": "file",
+    "size": 7378,
+    "sha256": "1c9d4e55a3ce871a6d7a29d0f3adaddf07ec97ff6a370624842246b613cf37bf"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/06_notices_consents/043_notices_consents_source_export.eml",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/06_notices_consents/043_notices_consents_source_export.eml",
+    "mode": 420,
+    "mtime_ns": 1792659509000000000,
+    "type": "file",
+    "size": 5927,
+    "sha256": "c46a4bd641f165d8556f8dcaf851362b2d3788170bc64add075dea3b1fe1ad0f"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/06_notices_consents/044_notices_consents_source_export.csv",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/06_notices_consents/044_notices_consents_source_export.csv",
+    "mode": 420,
+    "mtime_ns": 1792659509000000000,
+    "type": "file",
+    "size": 8995,
+    "sha256": "48395c876eaf35a165054ce0cbe90f963c287183af397623ca6ea002dbd00f72"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/06_notices_consents/045_notices_consents_source_export.json",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/06_notices_consents/045_notices_consents_source_export.json",
+    "mode": 420,
+    "mtime_ns": 1792659509000000000,
+    "type": "file",
+    "size": 11629,
+    "sha256": "4789e3442b45ce6285553048432e562e7bb78316d20e227b970301ee16bb8fef"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/06_notices_consents/046_notices_consents_source_export.xml",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/06_notices_consents/046_notices_consents_source_export.xml",
+    "mode": 420,
+    "mtime_ns": 1792659510000000000,
+    "type": "file",
+    "size": 9290,
+    "sha256": "dcec2e4059c9d5ae04f68abb452bad63abf79e585a88b7228266f6d5296a08aa"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/06_notices_consents/047_notices_consents_source_export.html",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/06_notices_consents/047_notices_consents_source_export.html",
+    "mode": 420,
+    "mtime_ns": 1792659510000000000,
+    "type": "file",
+    "size": 8372,
+    "sha256": "9c2632d416e2aabb684a99c5826825fa0bf99cf84a17afd79b1d5667e895dfd5"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/06_notices_consents/048_notices_consents_source_export.pdf",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/06_notices_consents/048_notices_consents_source_export.pdf",
+    "mode": 420,
+    "mtime_ns": 1792659510000000000,
+    "type": "file",
+    "size": 9204,
+    "sha256": "f8e20c033c4b878568400cc1cfd62140272e34f09b60f58ebf9614bde1fa6c52"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/07_transfer_mechanisms/049_transfer_mechanisms_source_export.md",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/07_transfer_mechanisms/049_transfer_mechanisms_source_export.md",
+    "mode": 420,
+    "mtime_ns": 1792659511000000000,
+    "type": "file",
+    "size": 8157,
+    "sha256": "3344ee7719d44a7d8452c39a7e809415fe4c62adbba73a5e71ce33c93a795074"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/07_transfer_mechanisms/050_transfer_mechanisms_source_export.txt",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/07_transfer_mechanisms/050_transfer_mechanisms_source_export.txt",
+    "mode": 420,
+    "mtime_ns": 1792659511000000000,
+    "type": "file",
+    "size": 7681,
+    "sha256": "c31b7499c6a34197bd2e8cb4dc24d9296700b42745da5f436a2755e349554311"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/07_transfer_mechanisms/051_transfer_mechanisms_source_export.eml",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/07_transfer_mechanisms/051_transfer_mechanisms_source_export.eml",
+    "mode": 420,
+    "mtime_ns": 1792659511000000000,
+    "type": "file",
+    "size": 6150,
+    "sha256": "e640cc629b0d36ddf700e9fbd33e39e22cb092be2e4dfcf67ee7276415f37fc0"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/07_transfer_mechanisms/052_transfer_mechanisms_source_export.csv",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/07_transfer_mechanisms/052_transfer_mechanisms_source_export.csv",
+    "mode": 420,
+    "mtime_ns": 1792659512000000000,
+    "type": "file",
+    "size": 9015,
+    "sha256": "13d993ed230d6adb6043df0f1a5ec3c72f77d6e06338c9dd07d812fe59f9f22f"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/07_transfer_mechanisms/053_transfer_mechanisms_source_export.json",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/07_transfer_mechanisms/053_transfer_mechanisms_source_export.json",
+    "mode": 420,
+    "mtime_ns": 1792659512000000000,
+    "type": "file",
+    "size": 11681,
+    "sha256": "17bd1172905ec61bb3197415234075831033b4d053d8e068f7d97bce2a4dcc7d"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/07_transfer_mechanisms/054_transfer_mechanisms_source_export.xml",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/07_transfer_mechanisms/054_transfer_mechanisms_source_export.xml",
+    "mode": 420,
+    "mtime_ns": 1792659512000000000,
+    "type": "file",
+    "size": 9361,
+    "sha256": "5d0a52021de78ebdd1797e5a4d34a441423417e85bfb2d707208248d778ec7fd"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/07_transfer_mechanisms/055_transfer_mechanisms_source_export.html",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/07_transfer_mechanisms/055_transfer_mechanisms_source_export.html",
+    "mode": 420,
+    "mtime_ns": 1792659512000000000,
+    "type": "file",
+    "size": 8685,
+    "sha256": "39b13b2b24d6c96bd130da0bc416d0c0caa517245b052035d4f0255c1121eafe"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/07_transfer_mechanisms/056_transfer_mechanisms_source_export.pdf",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/07_transfer_mechanisms/056_transfer_mechanisms_source_export.pdf",
+    "mode": 420,
+    "mtime_ns": 1792659513000000000,
+    "type": "file",
+    "size": 9500,
+    "sha256": "fada605c831d273f2504bb0f40fc854bc1c7976cf0ca0487acf8a34c641a7e64"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/08_retention_deletion/057_retention_deletion_source_export.md",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/08_retention_deletion/057_retention_deletion_source_export.md",
+    "mode": 420,
+    "mtime_ns": 1792659513000000000,
+    "type": "file",
+    "size": 8192,
+    "sha256": "bf505d262df7de2326c21fc9db40626ad8aa863a2e8ebba3596a26e98172d634"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/08_retention_deletion/058_retention_deletion_source_export.txt",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/08_retention_deletion/058_retention_deletion_source_export.txt",
+    "mode": 420,
+    "mtime_ns": 1792659513000000000,
+    "type": "file",
+    "size": 7844,
+    "sha256": "22e63516ba678c6426eb0aeaa1b6fcce75caa976ee07985ae0f7621b46f63b48"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/08_retention_deletion/059_retention_deletion_source_export.eml",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/08_retention_deletion/059_retention_deletion_source_export.eml",
+    "mode": 420,
+    "mtime_ns": 1792659513000000000,
+    "type": "file",
+    "size": 6123,
+    "sha256": "e8bf4d27f86546c8c5e239e2ef3a52481a0130da3b8c24e081d9b54d5958f91a"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/08_retention_deletion/060_retention_deletion_source_export.csv",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/08_retention_deletion/060_retention_deletion_source_export.csv",
+    "mode": 420,
+    "mtime_ns": 1792659514000000000,
+    "type": "file",
+    "size": 9055,
+    "sha256": "5f34f870c20e8c931a42aaf3c1ec7d9d3f7c24d146a1c6c486b7d8b260df2258"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/08_retention_deletion/061_retention_deletion_source_export.json",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/08_retention_deletion/061_retention_deletion_source_export.json",
+    "mode": 420,
+    "mtime_ns": 1792659514000000000,
+    "type": "file",
+    "size": 11921,
+    "sha256": "49f426f59b63ee7d9ae6a5b446518a2c07a1c117a2b49721f6d781d2bdc1f252"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/08_retention_deletion/062_retention_deletion_source_export.xml",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/08_retention_deletion/062_retention_deletion_source_export.xml",
+    "mode": 420,
+    "mtime_ns": 1792659514000000000,
+    "type": "file",
+    "size": 9344,
+    "sha256": "d0ed2bef09aeb96517ff280b60ae981ecce42ceb23a47dfbf4d428b7c0f1e48d"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/08_retention_deletion/063_retention_deletion_source_export.html",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/08_retention_deletion/063_retention_deletion_source_export.html",
+    "mode": 420,
+    "mtime_ns": 1792659514000000000,
+    "type": "file",
+    "size": 8719,
+    "sha256": "19a91c98efb2e4c8d2ddbeae7e6b75d1a3b9818525d03fb6d0ea8fe6f4aad2cf"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/08_retention_deletion/064_retention_deletion_source_export.pdf",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/08_retention_deletion/064_retention_deletion_source_export.pdf",
+    "mode": 420,
+    "mtime_ns": 1792659515000000000,
+    "type": "file",
+    "size": 9484,
+    "sha256": "dbe229db7a5c098ccc1001fff093fa25083f866f997e3de2e84cdb0861a97952"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/09_training/065_training_source_export.md",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/09_training/065_training_source_export.md",
+    "mode": 420,
+    "mtime_ns": 1792659516000000000,
+    "type": "file",
+    "size": 8065,
+    "sha256": "19b28ae456628c550ab7340630f8089b388ffa564115f5a9bc757668b7bc07d2"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/09_training/066_training_source_export.txt",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/09_training/066_training_source_export.txt",
+    "mode": 420,
+    "mtime_ns": 1792659516000000000,
+    "type": "file",
+    "size": 7656,
+    "sha256": "e25859fe739cdb3cb07583c7de1efdfe6dcbb813cf861b3b445a351627e85afe"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/09_training/067_training_source_export.eml",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/09_training/067_training_source_export.eml",
+    "mode": 420,
+    "mtime_ns": 1792659516000000000,
+    "type": "file",
+    "size": 6055,
+    "sha256": "23033878b701c08f30b76dab14ff018017e3f1fc2bab689e72dbebead79ecc4d"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/09_training/068_training_source_export.csv",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/09_training/068_training_source_export.csv",
+    "mode": 420,
+    "mtime_ns": 1792659516000000000,
+    "type": "file",
+    "size": 9237,
+    "sha256": "7cac0c3b05166a654c6a63b24fa0508bd02565bdf870e89cb7e9b45275e4dc2d"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/09_training/069_training_source_export.json",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/09_training/069_training_source_export.json",
+    "mode": 420,
+    "mtime_ns": 1792659516000000000,
+    "type": "file",
+    "size": 11904,
+    "sha256": "e39e2fa79c1369107c07b83bc6d93663fb422d1ea5995738b4c1f13a9e7a41e7"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/09_training/070_training_source_export.xml",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/09_training/070_training_source_export.xml",
+    "mode": 420,
+    "mtime_ns": 1792659517000000000,
+    "type": "file",
+    "size": 9578,
+    "sha256": "fb0215d3eefff3fb5f0763528573f7b87239e2ae9fae36b8220b19ea1b418a0f"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/09_training/071_training_source_export.html",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/09_training/071_training_source_export.html",
+    "mode": 420,
+    "mtime_ns": 1792659517000000000,
+    "type": "file",
+    "size": 8655,
+    "sha256": "12fa7a98a5f9dddea3da7bddd13b474b34a8b2ed7d3df0a7b23282bd3df89db8"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/09_training/072_training_source_export.pdf",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/09_training/072_training_source_export.pdf",
+    "mode": 420,
+    "mtime_ns": 1792659517000000000,
+    "type": "file",
+    "size": 9517,
+    "sha256": "0148989d4df241bb3572b829107e1cd9e3d97ddf3c843dd895bf3f710182027f"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/10_regulator_correspondence/073_regulator_correspondence_source_export.md",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/10_regulator_correspondence/073_regulator_correspondence_source_export.md",
+    "mode": 420,
+    "mtime_ns": 1792659517000000000,
+    "type": "file",
+    "size": 8299,
+    "sha256": "5ad927c97e6b4c0f09d5f45feec674c876472b8eac0a8dd1f14dccdeaae4a1c1"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/10_regulator_correspondence/074_regulator_correspondence_source_export.txt",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/10_regulator_correspondence/074_regulator_correspondence_source_export.txt",
+    "mode": 420,
+    "mtime_ns": 1792659517000000000,
+    "type": "file",
+    "size": 7700,
+    "sha256": "c1ee84d205240c5216c35b1f7e9376cfe2be1d30a6fe3db7fad2c83d41a421af"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/10_regulator_correspondence/075_regulator_correspondence_source_export.eml",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/10_regulator_correspondence/075_regulator_correspondence_source_export.eml",
+    "mode": 420,
+    "mtime_ns": 1792659517000000000,
+    "type": "file",
+    "size": 6205,
+    "sha256": "e14a2830a60f1a4115001e00a753b465ca76f8269775340b87e42d06fa0b1087"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/10_regulator_correspondence/076_regulator_correspondence_source_export.csv",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/10_regulator_correspondence/076_regulator_correspondence_source_export.csv",
+    "mode": 420,
+    "mtime_ns": 1792659517000000000,
+    "type": "file",
+    "size": 9157,
+    "sha256": "bb39c92a4b776879c076c64e9d8e828ee81e709d68399a7f9246f86a17190f2e"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/10_regulator_correspondence/077_regulator_correspondence_source_export.json",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/10_regulator_correspondence/077_regulator_correspondence_source_export.json",
+    "mode": 420,
+    "mtime_ns": 1792659518000000000,
+    "type": "file",
+    "size": 11826,
+    "sha256": "518aa63516bee1924f64fcc39806b09c7c2fc33865959d2da87576c8a0090af6"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/10_regulator_correspondence/078_regulator_correspondence_source_export.xml",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/10_regulator_correspondence/078_regulator_correspondence_source_export.xml",
+    "mode": 420,
+    "mtime_ns": 1792659518000000000,
+    "type": "file",
+    "size": 9408,
+    "sha256": "2b9ee6b0a962855d892ee9a5d6e98ebac9d37b92b8ac10b4db6981e5d0834fa2"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/10_regulator_correspondence/079_regulator_correspondence_source_export.html",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/10_regulator_correspondence/079_regulator_correspondence_source_export.html",
+    "mode": 420,
+    "mtime_ns": 1792659518000000000,
+    "type": "file",
+    "size": 8798,
+    "sha256": "384bda5cf1279a22a05591ba1daa1fcae4f850232d3fa3a0875cd10eb889b679"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/10_regulator_correspondence/080_regulator_correspondence_source_export.pdf",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/10_regulator_correspondence/080_regulator_correspondence_source_export.pdf",
+    "mode": 420,
+    "mtime_ns": 1792659518000000000,
+    "type": "file",
+    "size": 9599,
+    "sha256": "0e1f9c563e445abb1c3a2d8081522d078f5498d0a2af7af6cfc0fcae62cd03e0"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/11_risk_assessments/081_risk_assessments_source_export.md",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/11_risk_assessments/081_risk_assessments_source_export.md",
+    "mode": 420,
+    "mtime_ns": 1792659519000000000,
+    "type": "file",
+    "size": 8281,
+    "sha256": "837269ffb0d3f1e3518d221a0e06b939de57bed8ab4b39125624e2927ebe84c9"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/11_risk_assessments/082_risk_assessments_source_export.txt",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/11_risk_assessments/082_risk_assessments_source_export.txt",
+    "mode": 420,
+    "mtime_ns": 1792659519000000000,
+    "type": "file",
+    "size": 7926,
+    "sha256": "6637652b5bf95cdfb16a64113abd5c9da315f3442757ec1121277b240b80575f"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/11_risk_assessments/083_risk_assessments_source_export.eml",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/11_risk_assessments/083_risk_assessments_source_export.eml",
+    "mode": 420,
+    "mtime_ns": 1792659519000000000,
+    "type": "file",
+    "size": 6151,
+    "sha256": "6eb21b1082f381a84837a69cb4e8239051622a8dd90150f334ce09bee8e51066"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/11_risk_assessments/084_risk_assessments_source_export.csv",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/11_risk_assessments/084_risk_assessments_source_export.csv",
+    "mode": 420,
+    "mtime_ns": 1792659519000000000,
+    "type": "file",
+    "size": 9181,
+    "sha256": "f505fec5f1270984a9501f362929ae674f180a3be0809215a1e99f53c248071e"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/11_risk_assessments/085_risk_assessments_source_export.json",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/11_risk_assessments/085_risk_assessments_source_export.json",
+    "mode": 420,
+    "mtime_ns": 1792659519000000000,
+    "type": "file",
+    "size": 11834,
+    "sha256": "b598389e52ae7a30b8277b38998ec002f59be9288a9e1614600cc8c296057391"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/11_risk_assessments/086_risk_assessments_source_export.xml",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/11_risk_assessments/086_risk_assessments_source_export.xml",
+    "mode": 420,
+    "mtime_ns": 1792659519000000000,
+    "type": "file",
+    "size": 9260,
+    "sha256": "c5c9a9317819c319aaa043a41e52c4f133041be64cc229915a1ee21aaba55232"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/11_risk_assessments/087_risk_assessments_source_export.html",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/11_risk_assessments/087_risk_assessments_source_export.html",
+    "mode": 420,
+    "mtime_ns": 1792659520000000000,
+    "type": "file",
+    "size": 8647,
+    "sha256": "37cda3a8a7806a236080a74e6c2c01b1f61ea9399db1208ba2adbe89186417ae"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/11_risk_assessments/088_risk_assessments_source_export.pdf",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/11_risk_assessments/088_risk_assessments_source_export.pdf",
+    "mode": 420,
+    "mtime_ns": 1792659520000000000,
+    "type": "file",
+    "size": 9398,
+    "sha256": "e631ed2cff3675b1134e23f247f284792c9dab624f9fa6dd0dce440bc46405f4"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/12_remediation/089_remediation_source_export.md",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/12_remediation/089_remediation_source_export.md",
+    "mode": 420,
+    "mtime_ns": 1792659520000000000,
+    "type": "file",
+    "size": 10551,
+    "sha256": "347ea26709130a11f768c4625dac13200a31925168046ba0a23b680d3c83667e"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/12_remediation/090_remediation_source_export.txt",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/12_remediation/090_remediation_source_export.txt",
+    "mode": 420,
+    "mtime_ns": 1792659520000000000,
+    "type": "file",
+    "size": 7587,
+    "sha256": "58a5ff9bb925a32982e6383d0cc097aab1fdc244ec940d089c1bcf8813326ac1"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/12_remediation/091_remediation_source_export.eml",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/12_remediation/091_remediation_source_export.eml",
+    "mode": 420,
+    "mtime_ns": 1792659520000000000,
+    "type": "file",
+    "size": 6039,
+    "sha256": "d070d0fb976a69d713f7ad0e57ee896ac91f674f72ed2c682c369f942abe8c46"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/12_remediation/092_remediation_source_export.csv",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/12_remediation/092_remediation_source_export.csv",
+    "mode": 420,
+    "mtime_ns": 1792659520000000000,
+    "type": "file",
+    "size": 9138,
+    "sha256": "cf1048df4880d1fd395cd9fa2d9e4d258c1a54aa60beacd1e67751d08491fe9c"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/12_remediation/093_remediation_source_export.json",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/12_remediation/093_remediation_source_export.json",
+    "mode": 420,
+    "mtime_ns": 1792659520000000000,
+    "type": "file",
+    "size": 11836,
+    "sha256": "4fc5d923320d37b0a5f059335e9f95119344ecde3409eb1cab462145057be97b"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/12_remediation/094_remediation_source_export.xml",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/12_remediation/094_remediation_source_export.xml",
+    "mode": 420,
+    "mtime_ns": 1792659521000000000,
+    "type": "file",
+    "size": 9489,
+    "sha256": "c646875d34538db0f73c91ba4ac9949347a22eec5fbcc26c7f54d644cadec96c"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/12_remediation/095_remediation_source_export.html",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/12_remediation/095_remediation_source_export.html",
+    "mode": 420,
+    "mtime_ns": 1792659521000000000,
+    "type": "file",
+    "size": 8571,
+    "sha256": "81572e56f764fe9be8ec79c5cafc0ccafb05bb21154a5e0fab35fd74ebeb283c"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/12_remediation/096_remediation_source_export.pdf",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/12_remediation/096_remediation_source_export.pdf",
+    "mode": 420,
+    "mtime_ns": 1792659521000000000,
+    "type": "file",
+    "size": 9433,
+    "sha256": "4e4644b07639085bd569d5740381ed3bf57824a632f9d1249990aa10d1b35942"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_11/12_remediation/097_arcadia_genomics_impact_population.xlsx",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/inputs/attached_files/task_11/12_remediation/097_arcadia_genomics_impact_population.xlsx",
+    "mode": 420,
+    "mtime_ns": 1792659522000000000,
+    "type": "file",
+    "size": 9924,
+    "sha256": "d7d4bd894ccf11328161d6075591440b18e68d35947c7040d80766caeb6baea9"
+  }
+]

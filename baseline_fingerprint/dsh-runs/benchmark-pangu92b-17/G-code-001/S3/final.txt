@@ -1,0 +1,24 @@
+修复完成，并在 E2B 沙箱中验证了多个边界输入。
+
+## 修改内容
+
+`attached_files/task_23/src/core/parser.py` 中的 `parse_text` 原代码直接访问 `tokens[0]` 和 `tokens[1]`，当 `text` 为空字符串或纯空白时 `text.split()` 返回空列表 `[]`，从而抛出 `IndexError`。
+
+修复方式是在访问索引前判断长度，缺省时返回空字符串：
+
+```python
+command = tokens[0] if len(tokens) > 0 else ""
+argument = tokens[1] if len(tokens) > 1 else ""
+```
+
+## 验证结果
+
+| 输入 | 输出 |
+|------|------|
+| `""` | `{'command': '', 'argument': ''}` |
+| `"   "` | `{'command': '', 'argument': ''}` |
+| `"\t\n"` | `{'command': '', 'argument': ''}` |
+| `"cmd"` | `{'command': 'cmd', 'argument': ''}` |
+| `"cmd arg"` | `{'command': 'cmd', 'argument': 'arg'}` |
+
+空输入、纯空白输入不再抛异常，正常命令解析行为保持不变。

@@ -1,0 +1,61 @@
+CONFIDENTIAL LEGAL REVIEW
+
+THIRD-PARTY SUBPOENA DEADLINE
+RECORD: CB-DOC-031-034
+MATTER: CB-LD-2701
+PORTFOLIO KEY: CBP-031-10
+SOURCE SYSTEM: iManage matter file
+EVIDENCE ROLE: current_operations
+ENTITY KEY: ENT-031-1009
+REFERENCED REVISION: REV-2024.2
+CURRENT REVISION: REV-2025.3
+CUSTODIAN: Maya Ellison
+REVIEWER: Maya Ellison
+
+NATIVE RECORD
+For immutable entity ENT-031-1009.
+the third-party subpoena deadline receipt used archive-in_re_residential_fixture_pricing@example.test under CB-LD-2701-E178. The operating extract cites revision REV-2024.2 and portfolio key CBP-031-10; it does not state a legal disposition.
+
+SOURCE LINEAGE
+iManage matter file produced native record CB-DOC-031-034 for CB-LD-2701. Maya Ellison owns the source population and Maya Ellison recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns third-party subpoena deadline within Aurora pricing MDL discovery audit. A multidistrict antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian scope, mobile collections, Bates families, and privilege challenges against court requirements.
+
+NATIVE RECORD
+For immutable entity ENT-031-1009.
+the third-party subpoena deadline receipt used archive-in_re_residential_fixture_pricing@example.test under CB-LD-2701-E178. The operating extract cites revision REV-2024.2 and portfolio key CBP-031-10; it does not state a legal disposition.
+
+RELIANCE LIMITS
+This file supplies current operations evidence for CBP-031-10. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SCHEDULE 1 — NATIVE ROWS
+CBP-031-10-CUR-01 | 2024-10-04 | ENT-031-1009 | REV-2024.2 | Theo Laurent | recorded | $196,484.00 | Current Operations support row 1 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-CUR-02 | 2024-10-07 | ENT-031-1009 | REV-2025.3 | Nadine Flores | recorded | 22% | Current Operations support row 2 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-CUR-03 | 2024-10-10 | ENT-031-1009 | REV-2025.3 | Owen Delgado | recorded | 12% | Current Operations support row 3 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-CUR-04 | 2024-10-13 | ENT-031-1009 | REV-2025.3 | Maya Ellison | recorded | $216,984.00 | Current Operations support row 4 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-CUR-05 | 2024-10-16 | ENT-031-1009 | REV-2025.3 | Dominic Alvarez | recorded | 22% | Current Operations support row 5 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-CUR-06 | 2024-10-19 | ENT-031-1009 | REV-2024.2 | Talia Brooks | superseded | 8% | Current Operations support row 6 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-CUR-07 | 2024-10-22 | ENT-031-1009 | REV-2025.3 | Caleb Hassan | pending | $768,310.00 | Current Operations support row 7 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-CUR-08 | 2024-10-25 | ENT-031-2009 | REV-2025.3 | Sofia Bennett | superseded | 1% | Current Operations support row 8 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-CUR-09 | 2024-10-28 | ENT-031-1009 | REV-2025.3 | Theo Laurent | recorded | 18% | Current Operations support row 9 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-CUR-10 | 2024-10-31 | ENT-031-1009 | REV-2025.3 | Nadine Flores | recorded | $319,844.00 | Current Operations support row 10 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-CUR-11 | 2024-11-03 | ENT-031-1009 | REV-2024.2 | Owen Delgado | recorded | 3% | Current Operations support row 11 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-CUR-12 | 2024-11-06 | ENT-031-1009 | REV-2025.3 | Maya Ellison | confirmed | 2% | Current Operations support row 12 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-CUR-13 | 2024-11-09 | ENT-031-1009 | REV-2025.3 | Dominic Alvarez | superseded | $414,439.00 | Current Operations support row 13 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-CUR-14 | 2024-11-12 | ENT-031-1009 | REV-2025.3 | Talia Brooks | superseded | 11% | Current Operations support row 14 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-CUR-15 | 2024-11-15 | ENT-031-1009 | REV-2025.3 | Caleb Hassan | recorded | 18% | Current Operations support row 15 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-CUR-16 | 2024-11-18 | ENT-031-1009 | REV-2024.2 | Sofia Bennett | recorded | $164,740.00 | Current Operations support row 16 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-CUR-17 | 2024-11-21 | ENT-031-1009 | REV-2025.3 | Theo Laurent | confirmed | 2% | Current Operations support row 17 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-CUR-18 | 2024-11-24 | ENT-031-1009 | REV-2025.3 | Nadine Flores | pending | 27% | Current Operations support row 18 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+
+SCHEDULE 2 — CHRONOLOGY
+2025-09-07 | native population opened | Theo Laurent | CB-DOC-031-034
+2025-09-13 | custodian boundary confirmed | Micah Sullivan | CBP-031-10
+2025-09-19 | export created | Samuel Kim | CB-DOC-031-034
+2025-09-25 | cross-system identifier checked | Dominic Alvarez | CBP-031-10
+2025-10-01 | revision retained | Jonas Feld | CB-DOC-031-034
+2025-10-07 | matter copy collected | Isaac Romero | CBP-031-10
+
+PROVENANCE
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

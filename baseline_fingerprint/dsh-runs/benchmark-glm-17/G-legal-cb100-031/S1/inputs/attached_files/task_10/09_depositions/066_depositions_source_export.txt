@@ -1,0 +1,59 @@
+ATTORNEY WORK PRODUCT
+
+PROTECTIVE-ORDER DESIGNATION ERROR
+RECORD: CB-DOC-031-066
+MATTER: CB-LD-2701
+PORTFOLIO KEY: CBP-031-06
+SOURCE SYSTEM: Everlaw production log
+EVIDENCE ROLE: financial_or_population_support
+ENTITY KEY: ENT-031-1005
+REFERENCED REVISION: REV-2025.6
+CURRENT REVISION: REV-2025.6
+CUSTODIAN: Mei Whitaker
+REVIEWER: Mei Whitaker
+
+NATIVE RECORD
+The supporting population for CBP-031-06 was exported under CB-LD-2701-E214. The population uses immutable entity ENT-031-1005 and records impact-control score 82; this score is an input, not a disposition.
+
+SOURCE LINEAGE
+Everlaw production log produced native record CB-DOC-031-066 for CB-LD-2701. Mei Whitaker owns the source population and Mei Whitaker recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns protective-order designation error within Aurora pricing MDL discovery audit. A multidistrict antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian scope, mobile collections, Bates families, and privilege challenges against court requirements.
+
+NATIVE RECORD
+The supporting population for CBP-031-06 was exported under CB-LD-2701-E214. The population uses immutable entity ENT-031-1005 and records impact-control score 82; this score is an input, not a disposition.
+
+RELIANCE LIMITS
+This file supplies financial or population support evidence for CBP-031-06. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SCHEDULE 1 — NATIVE ROWS
+CBP-031-06-FIN-01 | 2025-03-01 | ENT-031-1005 | REV-2025.6 | Samuel Kim | recorded | $207,264.00 | Financial Or Population Support support row 1 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-FIN-02 | 2025-03-04 | ENT-031-1005 | REV-2025.6 | Nora Chen | confirmed | 3% | Financial Or Population Support support row 2 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-FIN-03 | 2025-03-07 | ENT-031-1005 | REV-2025.6 | Elliot Mercer | superseded | 9% | Financial Or Population Support support row 3 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-FIN-04 | 2025-03-10 | ENT-031-1005 | REV-2025.6 | Mei Whitaker | pending | $565,462.00 | Financial Or Population Support support row 4 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-FIN-05 | 2025-03-13 | ENT-031-1005 | REV-2025.6 | Isaac Romero | pending | 9% | Financial Or Population Support support row 5 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-FIN-06 | 2025-03-16 | ENT-031-1005 | REV-2025.6 | Willa Novak | recorded | 4% | Financial Or Population Support support row 6 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-FIN-07 | 2025-03-19 | ENT-031-1005 | REV-2025.6 | Henry Cho | recorded | $803,612.00 | Financial Or Population Support support row 7 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-FIN-08 | 2025-03-22 | ENT-031-2005 | REV-2025.6 | Farah Ibrahim | superseded | 4% | Financial Or Population Support support row 8 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-FIN-09 | 2025-03-25 | ENT-031-1005 | REV-2025.6 | Samuel Kim | superseded | 11% | Financial Or Population Support support row 9 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-FIN-10 | 2025-03-28 | ENT-031-1005 | REV-2025.6 | Nora Chen | pending | $891,310.00 | Financial Or Population Support support row 10 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-FIN-11 | 2025-03-31 | ENT-031-1005 | REV-2025.6 | Elliot Mercer | confirmed | 23% | Financial Or Population Support support row 11 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-FIN-12 | 2025-04-03 | ENT-031-1005 | REV-2025.6 | Mei Whitaker | superseded | 15% | Financial Or Population Support support row 12 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-FIN-13 | 2025-04-06 | ENT-031-1005 | REV-2025.6 | Isaac Romero | confirmed | $542,193.00 | Financial Or Population Support support row 13 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-FIN-14 | 2025-04-09 | ENT-031-1005 | REV-2025.6 | Willa Novak | pending | 2% | Financial Or Population Support support row 14 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-FIN-15 | 2025-04-12 | ENT-031-1005 | REV-2025.6 | Henry Cho | confirmed | 21% | Financial Or Population Support support row 15 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-FIN-16 | 2025-04-15 | ENT-031-1005 | REV-2025.6 | Farah Ibrahim | confirmed | $571,521.00 | Financial Or Population Support support row 16 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-FIN-17 | 2025-04-18 | ENT-031-1005 | REV-2025.6 | Samuel Kim | superseded | 12% | Financial Or Population Support support row 17 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-FIN-18 | 2025-04-21 | ENT-031-1005 | REV-2025.6 | Nora Chen | pending | 22% | Financial Or Population Support support row 18 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+
+SCHEDULE 2 — CHRONOLOGY
+2024-12-24 | native population opened | Samuel Kim | CB-DOC-031-066
+2024-12-30 | custodian boundary confirmed | Dominic Alvarez | CBP-031-06
+2025-01-05 | export created | Jonas Feld | CB-DOC-031-066
+2025-01-11 | cross-system identifier checked | Isaac Romero | CBP-031-06
+2025-01-17 | revision retained | Theo Laurent | CB-DOC-031-066
+2025-01-23 | matter copy collected | Micah Sullivan | CBP-031-06
+
+PROVENANCE
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

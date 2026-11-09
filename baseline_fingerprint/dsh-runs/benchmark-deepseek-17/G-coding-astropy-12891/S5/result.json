@@ -1,0 +1,28 @@
+{
+  "group_id": "G-coding-astropy-12891",
+  "variant_id": "S5",
+  "task_id": 2,
+  "provider": "company-deepseek",
+  "status": "succeeded",
+  "exit_code": 0,
+  "started_at": "2026-10-22T14:02:24.872716+00:00",
+  "finished_at": "2026-10-22T14:41:47.391931+00:00",
+  "duration_seconds": 2362.519,
+  "execution_duration_seconds": 1885.175,
+  "recording_duration_seconds": 376.92,
+  "system_prompt_sha256": "cc272f70fa3cafae7267da9357f345dbd4b31d44938832131b38b589cb1d9cdf",
+  "task_dir": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1872575/G-coding-astropy-12891/S5",
+  "recording_status": "complete",
+  "workspace_restore_status": "complete",
+  "signal": null,
+  "session_id": "session-d2fe4ba1-be5f-4ad4-92cf-b1080c818a9c",
+  "final_event_seen": true,
+  "parse_errors": [],
+  "tool_calls": 100,
+  "tool_errors": 0,
+  "steps": 92,
+  "turn_end_reason": {
+    "kind": "completed"
+  },
+  "restore_duration_seconds": 100.423
+}

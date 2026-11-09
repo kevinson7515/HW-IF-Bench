@@ -1,0 +1,99 @@
+From: Samuel Kim <samuel_kim@example.test>
+To: Elliot Mercer <elliot_mercer@example.test>
+Date: 2025-08-15 08:30:00 -0700
+Message-ID: <cb-doc-061-051@example.test>
+Subject: CB-PR-3001 — retention schedule conflict source export
+X-Matter-Number: CB-PR-3001
+X-Portfolio-Key: CBP-061-03
+X-Source-System: BigID deletion log
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+The business owner asks whether the retention schedule conflict status is open and unresolved under CB-PR-3001-E567. The counterparty points to open retention schedule conflict blocks completion under CB-PR-3001-R844. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+
+SOURCE LINEAGE
+BigID deletion log produced native record CB-DOC-061-051 for CB-PR-3001. Samuel Kim owns the source population and Elliot Mercer recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns retention schedule conflict within Arcadia genomic data response audit. A consumer access request exposes inconsistencies among genomic-data notices, deletion jobs, vendors, and overseas research transfers. The record addresses one part of the broader question: Join requester identity, genomic data inventory, vendor copies, deletion jobs, and research transfers.
+
+NATIVE RECORD
+The business owner asks whether the retention schedule conflict status is open and unresolved under CB-PR-3001-E567. The counterparty points to open retention schedule conflict blocks completion under CB-PR-3001-R844. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+
+RELIANCE LIMITS
+This file supplies correspondence evidence for CBP-061-03. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SOURCE THREAD
+-----Original Message-----
+From: Willa Novak <willa_novak@example.test>
+Sent: 2024-09-05 09:00:00 -0700
+To: Elliot Mercer <elliot_mercer@example.test>
+Subject: CBP-061-03 source row CBP-061-03-COR-01
+
+Correspondence support row 1 for retention schedule conflict; retained from the native system so the reviewer can distinguish the exact CBP-061-03 population from similarly named records. The native status is pending and the recorded metric is $343,846.00.
+
+-----Original Message-----
+From: Henry Cho <henry_cho@example.test>
+Sent: 2024-09-08 09:00:00 -0700
+To: Elliot Mercer <elliot_mercer@example.test>
+Subject: CBP-061-03 source row CBP-061-03-COR-02
+
+Correspondence support row 2 for retention schedule conflict; retained from the native system so the reviewer can distinguish the exact CBP-061-03 population from similarly named records. The native status is confirmed and the recorded metric is 19%.
+
+-----Original Message-----
+From: Farah Ibrahim <farah_ibrahim@example.test>
+Sent: 2024-09-11 09:00:00 -0700
+To: Elliot Mercer <elliot_mercer@example.test>
+Subject: CBP-061-03 source row CBP-061-03-COR-03
+
+Correspondence support row 3 for retention schedule conflict; retained from the native system so the reviewer can distinguish the exact CBP-061-03 population from similarly named records. The native status is pending and the recorded metric is 5%.
+
+-----Original Message-----
+From: Samuel Kim <samuel_kim@example.test>
+Sent: 2024-09-14 09:00:00 -0700
+To: Elliot Mercer <elliot_mercer@example.test>
+Subject: CBP-061-03 source row CBP-061-03-COR-04
+
+Correspondence support row 4 for retention schedule conflict; retained from the native system so the reviewer can distinguish the exact CBP-061-03 population from similarly named records. The native status is pending and the recorded metric is $222,830.00.
+
+-----Original Message-----
+From: Nora Chen <nora_chen@example.test>
+Sent: 2024-09-17 09:00:00 -0700
+To: Elliot Mercer <elliot_mercer@example.test>
+Subject: CBP-061-03 source row CBP-061-03-COR-05
+
+Correspondence support row 5 for retention schedule conflict; retained from the native system so the reviewer can distinguish the exact CBP-061-03 population from similarly named records. The native status is recorded and the recorded metric is 8%.
+
+-----Original Message-----
+From: Elliot Mercer <elliot_mercer@example.test>
+Sent: 2024-09-20 09:00:00 -0700
+To: Elliot Mercer <elliot_mercer@example.test>
+Subject: CBP-061-03 source row CBP-061-03-COR-06
+
+Correspondence support row 6 for retention schedule conflict; retained from the native system so the reviewer can distinguish the exact CBP-061-03 population from similarly named records. The native status is confirmed and the recorded metric is 11%.
+
+-----Original Message-----
+From: Mei Whitaker <mei_whitaker@example.test>
+Sent: 2024-09-23 09:00:00 -0700
+To: Elliot Mercer <elliot_mercer@example.test>
+Subject: CBP-061-03 source row CBP-061-03-COR-07
+
+Correspondence support row 7 for retention schedule conflict; retained from the native system so the reviewer can distinguish the exact CBP-061-03 population from similarly named records. The native status is pending and the recorded metric is $964,102.00.
+
+-----Original Message-----
+From: Isaac Romero <isaac_romero@example.test>
+Sent: 2024-09-26 09:00:00 -0700
+To: Elliot Mercer <elliot_mercer@example.test>
+Subject: CBP-061-03 source row CBP-061-03-COR-08
+
+Correspondence support row 8 for retention schedule conflict; retained from the native system so the reviewer can distinguish the exact CBP-061-03 population from similarly named records. The native status is pending and the recorded metric is 3%.
+
+CHRONOLOGY
+2025-07-11 | native population opened | Willa Novak | CB-DOC-061-051
+2025-07-17 | custodian boundary confirmed | Nadine Flores | CBP-061-03
+2025-07-23 | export created | Lena Varga | CB-DOC-061-051
+2025-07-29 | cross-system identifier checked | Nora Chen | CBP-061-03
+2025-08-04 | revision retained | Talia Brooks | CB-DOC-061-051
+2025-08-10 | matter copy collected | Leona Park | CBP-061-03
+
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

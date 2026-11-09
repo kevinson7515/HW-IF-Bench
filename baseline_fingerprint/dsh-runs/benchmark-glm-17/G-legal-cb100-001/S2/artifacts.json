@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "CB-MA-2401_Project_Daybreak_signing_position_memo.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "CB-MA-2401_Project_Daybreak_signing_position_memo.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-001/S2/artifacts/CB-MA-2401_Project_Daybreak_signing_position_memo.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793044127000000000,
+      "type": "file",
+      "size": 16251,
+      "sha256": "c3f9b2bf904a3578599ceb369697a46d5da91c4387d810a41609600544347ade"
+    }
+  ],
+  "entries": {
+    "CB-MA-2401_Project_Daybreak_signing_position_memo.md": {
+      "mode": 384,
+      "mtime_ns": 1793044127000000000,
+      "type": "file",
+      "size": 16251,
+      "sha256": "c3f9b2bf904a3578599ceb369697a46d5da91c4387d810a41609600544347ade"
+    }
+  },
+  "deleted_entries": {}
+}

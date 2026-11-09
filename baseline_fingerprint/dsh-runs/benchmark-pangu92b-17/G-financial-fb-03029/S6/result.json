@@ -1,0 +1,28 @@
+{
+  "group_id": "G-financial-fb-03029",
+  "variant_id": "S6",
+  "task_id": 15,
+  "provider": "pangu92b",
+  "status": "succeeded",
+  "exit_code": 0,
+  "started_at": "2026-10-25T16:16:44.361319+00:00",
+  "finished_at": "2026-10-25T16:23:14.644818+00:00",
+  "duration_seconds": 390.283,
+  "execution_duration_seconds": 157.15,
+  "recording_duration_seconds": 115.716,
+  "system_prompt_sha256": "da7cd96a0983bd2fe6d2c999e0901615add11cac86ec2879119efd4fe362de39",
+  "task_dir": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-financial-fb-03029/S6",
+  "recording_status": "complete",
+  "workspace_restore_status": "complete",
+  "signal": null,
+  "session_id": "session-08e42ee5-74e1-4346-95f5-46a2234d3d3e",
+  "final_event_seen": true,
+  "parse_errors": [],
+  "tool_calls": 8,
+  "tool_errors": 1,
+  "steps": 7,
+  "turn_end_reason": {
+    "kind": "completed"
+  },
+  "restore_duration_seconds": 117.418
+}

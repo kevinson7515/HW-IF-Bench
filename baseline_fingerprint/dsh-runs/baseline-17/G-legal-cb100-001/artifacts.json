@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "regular-file size and nanosecond mtime before and after the task",
+  "created": [
+    "attached_files/task_9/daybreak_signing_position_memo.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "attached_files/task_9/daybreak_signing_position_memo.md",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1853564/000009-9/artifacts/attached_files/task_9/daybreak_signing_position_memo.md",
+      "change": "created",
+      "size": 9380,
+      "sha256": "d4a2dd68c207194c28c5eed467acbac72b0b2a865fb093aa4ae80eb06fcc1069"
+    }
+  ],
+  "skipped": [],
+  "errors": [],
+  "limits": {
+    "max_file_bytes": 104857600,
+    "max_total_bytes": 1073741824
+  }
+}

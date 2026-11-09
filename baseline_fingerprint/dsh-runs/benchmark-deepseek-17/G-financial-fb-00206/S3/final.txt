@@ -1,0 +1,43 @@
+## Answer
+
+Gross margin is **not a relevant metric for JPMorgan Chase**, and the company does not report it. You should not evaluate JPM on gross margin — the metric does not apply to its business model.
+
+**Why gross margin doesn't apply**
+
+Gross margin is defined as `(Revenue − Cost of Goods Sold) / Revenue`. It is meaningful only for companies that sell tangible goods or deliver services with a directly matched, per-unit "cost of goods sold" (manufacturers, retailers, etc.). JPMorgan Chase is a bank and financial-services firm, not a goods producer, so it has **no cost of goods sold** and therefore no gross margin line.
+
+That absence is confirmed in the filing itself: a full-text search of the 382-page 2022 Form 10-K finds **zero occurrences** of "gross margin," "gross profit," "cost of goods sold," or "cost of revenue." The concept simply isn't part of a bank's financial reporting.
+
+**How a bank's income statement is structured instead**
+
+JPMorgan's top line is built from two components, neither of which has an associated "COGS":
+
+- **Net interest income** — interest earned on loans and securities *minus* interest paid on deposits and borrowings (the interest expense is already netted out, not shown as "cost of goods").
+- **Noninterest revenue** — fees, commissions, investment banking, trading, asset management, card income, etc.
+
+Total net revenue = Net interest income + Noninterest revenue. Below that, the main cost lines are **noninterest expense** (compensation, occupancy, technology, marketing) and **provision for credit losses** — none of which are a "cost of goods sold."
+
+**The metrics banks use instead**
+
+If you want the banking analog of "profitability before operating costs," the relevant measures are:
+
+- **Net interest margin / net yield on interest-earning assets** — the banking equivalent of a spread on the balance sheet. JPMorgan reported a net yield of **2.00%** (FTE basis) in 2022, up 36 bps.
+- **Overhead ratio** (noninterest expense ÷ total net revenue) — reported at **59% (2022), 59% (2021), 56% (2020)**.
+- **Pre-provision profit margin** and **return on equity/ROTCE** — the standard profitability gauges for a bank.
+
+So the premise of the question — checking whether JPM's gross margins fluctuate more than ~2% year over year — can't be tested, because the metric doesn't exist for a bank. That is not a data limitation; it reflects the fundamental structure of a bank's business.
+
+## Data basis
+
+The figures below are taken directly from JPMorgan Chase & Co.'s 2022 Form 10-K (the attached `JPMORGAN_2022_10K.pdf`), primarily the "Three-Year Summary of Consolidated Financial Highlights" and the "Executive Overview" of the MD&A.
+
+| Metric (in millions) | 2022 | 2021 | 2020 |
+|---|---|---|---|
+| Total net revenue | $128,695 | $121,649 | $119,951 |
+| Net interest income | $66,710 | $52,311 | — |
+| Noninterest revenue | $61,985 | $69,338 | — |
+| Total noninterest expense | $76,140 | $71,343 | $66,656 |
+| Net income | $37,676 | $48,334 | $29,131 |
+| Overhead ratio | 59% | 59% | 56% |
+
+The filing reports net yield on interest-earning assets of **2.00%** (FTE) for 2022, up 36 basis points. A full-text search across all 382 pages of the 10-K returned no matches for "gross margin," "gross profit," "cost of goods sold," or "cost of revenue," which is the primary evidence that gross margin is not a metric JPMorgan Chase uses or reports.

@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "daybreak-battery-acquisition",
+    "daybreak-battery-acquisition/2026-09-04-review-disposition-register.md",
+    "daybreak-battery-acquisition/2026-09-04-review-note.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "daybreak-battery-acquisition/2026-09-04-review-disposition-register.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-001/S4/artifacts/daybreak-battery-acquisition/2026-09-04-review-disposition-register.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793056582000000000,
+      "type": "file",
+      "size": 5950,
+      "sha256": "93bca0f16bfc1cd083525f31563649230d85753bbfa4932d479fe1960e9236ae"
+    },
+    {
+      "path": "daybreak-battery-acquisition/2026-09-04-review-note.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-001/S4/artifacts/daybreak-battery-acquisition/2026-09-04-review-note.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793056502000000000,
+      "type": "file",
+      "size": 10657,
+      "sha256": "e1a1e5c9d22f2aba3ec3a31fb6f0f8e134b393483b3330dfb4b2f011ecc19135"
+    }
+  ],
+  "entries": {
+    "daybreak-battery-acquisition": {
+      "mode": 448,
+      "mtime_ns": 1793056582000000000,
+      "type": "directory"
+    },
+    "daybreak-battery-acquisition/2026-09-04-review-disposition-register.md": {
+      "mode": 384,
+      "mtime_ns": 1793056582000000000,
+      "type": "file",
+      "size": 5950,
+      "sha256": "93bca0f16bfc1cd083525f31563649230d85753bbfa4932d479fe1960e9236ae"
+    },
+    "daybreak-battery-acquisition/2026-09-04-review-note.md": {
+      "mode": 384,
+      "mtime_ns": 1793056502000000000,
+      "type": "file",
+      "size": 10657,
+      "sha256": "e1a1e5c9d22f2aba3ec3a31fb6f0f8e134b393483b3330dfb4b2f011ecc19135"
+    }
+  },
+  "deleted_entries": {}
+}

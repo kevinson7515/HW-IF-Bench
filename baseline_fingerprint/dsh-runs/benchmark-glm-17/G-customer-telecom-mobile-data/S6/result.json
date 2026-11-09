@@ -1,0 +1,28 @@
+{
+  "group_id": "G-customer-telecom-mobile-data",
+  "variant_id": "S6",
+  "task_id": 8,
+  "provider": "company-glm",
+  "status": "succeeded",
+  "exit_code": 0,
+  "started_at": "2026-10-26T18:03:39.905960+00:00",
+  "finished_at": "2026-10-26T18:14:28.965556+00:00",
+  "duration_seconds": 649.06,
+  "execution_duration_seconds": 399.4,
+  "recording_duration_seconds": 145.559,
+  "system_prompt_sha256": "da7cd96a0983bd2fe6d2c999e0901615add11cac86ec2879119efd4fe362de39",
+  "task_dir": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-customer-telecom-mobile-data/S6",
+  "recording_status": "complete",
+  "workspace_restore_status": "complete",
+  "signal": null,
+  "session_id": "session-596669b4-f6f4-4cc5-81f9-9dc5e339ff20",
+  "final_event_seen": true,
+  "parse_errors": [],
+  "tool_calls": 11,
+  "tool_errors": 0,
+  "steps": 8,
+  "turn_end_reason": {
+    "kind": "completed"
+  },
+  "restore_duration_seconds": 104.1
+}

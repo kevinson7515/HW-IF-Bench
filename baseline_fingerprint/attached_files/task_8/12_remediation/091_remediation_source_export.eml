@@ -1,0 +1,99 @@
+From: Theo Laurent <theo_laurent@example.test>
+To: Owen Delgado <owen_delgado@example.test>
+Date: 2024-06-07 08:30:00 -0700
+Message-ID: <cb-doc-061-091@example.test>
+Subject: CB-PR-3001 — incident-notification clock source export
+X-Matter-Number: CB-PR-3001
+X-Portfolio-Key: CBP-061-07
+X-Source-System: OneTrust data map
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+An independent source repeats portfolio key CBP-061-07 and immutable entity ENT-061-1006 but uses reference CB-PR-3001-E157. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.
+
+SOURCE LINEAGE
+OneTrust data map produced native record CB-DOC-061-091 for CB-PR-3001. Theo Laurent owns the source population and Owen Delgado recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns incident-notification clock within Arcadia genomic data response audit. A consumer access request exposes inconsistencies among genomic-data notices, deletion jobs, vendors, and overseas research transfers. The record addresses one part of the broader question: Join requester identity, genomic data inventory, vendor copies, deletion jobs, and research transfers.
+
+NATIVE RECORD
+An independent source repeats portfolio key CBP-061-07 and immutable entity ENT-061-1006 but uses reference CB-PR-3001-E157. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.
+
+RELIANCE LIMITS
+This file supplies independent counterrecord evidence for CBP-061-07. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SOURCE THREAD
+-----Original Message-----
+From: Talia Brooks <talia_brooks@example.test>
+Sent: 2025-05-17 09:00:00 -0700
+To: Owen Delgado <owen_delgado@example.test>
+Subject: CBP-061-07 source row CBP-061-07-IND-01
+
+Independent Counterrecord support row 1 for incident-notification clock; retained from the native system so the reviewer can distinguish the exact CBP-061-07 population from similarly named records. The native status is recorded and the recorded metric is $509,584.00.
+
+-----Original Message-----
+From: Caleb Hassan <caleb_hassan@example.test>
+Sent: 2025-05-20 09:00:00 -0700
+To: Owen Delgado <owen_delgado@example.test>
+Subject: CBP-061-07 source row CBP-061-07-IND-02
+
+Independent Counterrecord support row 2 for incident-notification clock; retained from the native system so the reviewer can distinguish the exact CBP-061-07 population from similarly named records. The native status is confirmed and the recorded metric is 9%.
+
+-----Original Message-----
+From: Sofia Bennett <sofia_bennett@example.test>
+Sent: 2025-05-23 09:00:00 -0700
+To: Owen Delgado <owen_delgado@example.test>
+Subject: CBP-061-07 source row CBP-061-07-IND-03
+
+Independent Counterrecord support row 3 for incident-notification clock; retained from the native system so the reviewer can distinguish the exact CBP-061-07 population from similarly named records. The native status is recorded and the recorded metric is 4%.
+
+-----Original Message-----
+From: Theo Laurent <theo_laurent@example.test>
+Sent: 2025-05-26 09:00:00 -0700
+To: Owen Delgado <owen_delgado@example.test>
+Subject: CBP-061-07 source row CBP-061-07-IND-04
+
+Independent Counterrecord support row 4 for incident-notification clock; retained from the native system so the reviewer can distinguish the exact CBP-061-07 population from similarly named records. The native status is confirmed and the recorded metric is $195,697.00.
+
+-----Original Message-----
+From: Nadine Flores <nadine_flores@example.test>
+Sent: 2025-05-29 09:00:00 -0700
+To: Owen Delgado <owen_delgado@example.test>
+Subject: CBP-061-07 source row CBP-061-07-IND-05
+
+Independent Counterrecord support row 5 for incident-notification clock; retained from the native system so the reviewer can distinguish the exact CBP-061-07 population from similarly named records. The native status is confirmed and the recorded metric is 14%.
+
+-----Original Message-----
+From: Owen Delgado <owen_delgado@example.test>
+Sent: 2025-06-01 09:00:00 -0700
+To: Owen Delgado <owen_delgado@example.test>
+Subject: CBP-061-07 source row CBP-061-07-IND-06
+
+Independent Counterrecord support row 6 for incident-notification clock; retained from the native system so the reviewer can distinguish the exact CBP-061-07 population from similarly named records. The native status is recorded and the recorded metric is 22%.
+
+-----Original Message-----
+From: Maya Ellison <maya_ellison@example.test>
+Sent: 2025-06-04 09:00:00 -0700
+To: Owen Delgado <owen_delgado@example.test>
+Subject: CBP-061-07 source row CBP-061-07-IND-07
+
+Independent Counterrecord support row 7 for incident-notification clock; retained from the native system so the reviewer can distinguish the exact CBP-061-07 population from similarly named records. The native status is superseded and the recorded metric is $765,647.00.
+
+-----Original Message-----
+From: Dominic Alvarez <dominic_alvarez@example.test>
+Sent: 2025-06-07 09:00:00 -0700
+To: Owen Delgado <owen_delgado@example.test>
+Subject: CBP-061-07 source row CBP-061-07-IND-08
+
+Independent Counterrecord support row 8 for incident-notification clock; retained from the native system so the reviewer can distinguish the exact CBP-061-07 population from similarly named records. The native status is superseded and the recorded metric is 16%.
+
+CHRONOLOGY
+2024-05-03 | native population opened | Talia Brooks | CB-DOC-061-091
+2024-05-09 | custodian boundary confirmed | Leona Park | CBP-061-07
+2024-05-15 | export created | Willa Novak | CB-DOC-061-091
+2024-05-21 | cross-system identifier checked | Nadine Flores | CBP-061-07
+2024-05-27 | revision retained | Lena Varga | CB-DOC-061-091
+2024-06-02 | matter copy collected | Nora Chen | CBP-061-07
+
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<counsel-source-record schema-version="3.1">
+  <record-id>CB-DOC-001-086</record-id>
+  <matter-number>CB-MA-2401</matter-number>
+  <portfolio-key>CBP-001-02</portfolio-key>
+  <source-system>Carta capitalization ledger</source-system>
+  <evidence-role>independent_counterrecord</evidence-role>
+  <immutable-entity-key>ENT-001-1001</immutable-entity-key>
+  <referenced-revision>REV-2025.2</referenced-revision>
+  <current-revision>REV-2025.2</current-revision>
+  <native-record>An independent source repeats portfolio key CBP-001-02 and immutable entity ENT-001-1001 but uses reference CB-MA-2401-E738. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.</native-record>
+  <analysis>
+    <section heading="Source lineage">Carta capitalization ledger produced native record CB-DOC-001-086 for CB-MA-2401. Lena Varga owns the source population and Lena Varga recorded the collection review. The export remains separate from later legal analysis.</section>
+    <section heading="Business context">This record concerns financial covenant breach within Project Daybreak battery acquisition. A carve-out manufacturer owns cathode tooling in Nevada while its largest automaker customer can terminate upon an indirect change of control. The record addresses one part of the broader question: Match the cathode-tooling records and automaker consent history to the exact acquired entity.</section>
+    <section heading="Native record">An independent source repeats portfolio key CBP-001-02 and immutable entity ENT-001-1001 but uses reference CB-MA-2401-E738. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.</section>
+    <section heading="Reliance limits">This file supplies independent counterrecord evidence for CBP-001-02. It does not decide legal effect, select among candidate responses, resolve another system&#x27;s entity identity, or establish that its cited revision is controlling.</section>
+  </analysis>
+  <supporting-rows>
+    <row id="CBP-001-02-IND-01" date="2024-07-10" entity="ENT-001-1001" revision="REV-2025.2" actor="Adrian Mensah" status="confirmed" metric="$511,113.00">Independent Counterrecord support row 1 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-IND-02" date="2024-07-13" entity="ENT-001-1001" revision="REV-2025.2" actor="Amara Patel" status="confirmed" metric="2%">Independent Counterrecord support row 2 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-IND-03" date="2024-07-16" entity="ENT-001-1001" revision="REV-2025.2" actor="Micah Sullivan" status="recorded" metric="24%">Independent Counterrecord support row 3 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-IND-04" date="2024-07-19" entity="ENT-001-1001" revision="REV-2025.2" actor="Lena Varga" status="confirmed" metric="$349,233.00">Independent Counterrecord support row 4 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-IND-05" date="2024-07-22" entity="ENT-001-1001" revision="REV-2025.2" actor="Rafael Okafor" status="pending" metric="5%">Independent Counterrecord support row 5 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-IND-06" date="2024-07-25" entity="ENT-001-1001" revision="REV-2025.2" actor="Priya Raman" status="recorded" metric="23%">Independent Counterrecord support row 6 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-IND-07" date="2024-07-28" entity="ENT-001-1001" revision="REV-2025.2" actor="Jonas Feld" status="pending" metric="$543,666.00">Independent Counterrecord support row 7 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-IND-08" date="2024-07-31" entity="ENT-001-2001" revision="REV-2025.2" actor="Leona Park" status="confirmed" metric="27%">Independent Counterrecord support row 8 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-IND-09" date="2024-08-03" entity="ENT-001-1001" revision="REV-2025.2" actor="Adrian Mensah" status="confirmed" metric="7%">Independent Counterrecord support row 9 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-IND-10" date="2024-08-06" entity="ENT-001-1001" revision="REV-2025.2" actor="Amara Patel" status="pending" metric="$304,414.00">Independent Counterrecord support row 10 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-IND-11" date="2024-08-09" entity="ENT-001-1001" revision="REV-2025.2" actor="Micah Sullivan" status="confirmed" metric="27%">Independent Counterrecord support row 11 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-IND-12" date="2024-08-12" entity="ENT-001-1001" revision="REV-2025.2" actor="Lena Varga" status="pending" metric="6%">Independent Counterrecord support row 12 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-IND-13" date="2024-08-15" entity="ENT-001-1001" revision="REV-2025.2" actor="Rafael Okafor" status="recorded" metric="$266,368.00">Independent Counterrecord support row 13 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-IND-14" date="2024-08-18" entity="ENT-001-1001" revision="REV-2025.2" actor="Priya Raman" status="recorded" metric="23%">Independent Counterrecord support row 14 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-IND-15" date="2024-08-21" entity="ENT-001-1001" revision="REV-2025.2" actor="Jonas Feld" status="pending" metric="21%">Independent Counterrecord support row 15 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-IND-16" date="2024-08-24" entity="ENT-001-1001" revision="REV-2025.2" actor="Leona Park" status="superseded" metric="$96,063.00">Independent Counterrecord support row 16 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-IND-17" date="2024-08-27" entity="ENT-001-1001" revision="REV-2025.2" actor="Adrian Mensah" status="confirmed" metric="1%">Independent Counterrecord support row 17 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-IND-18" date="2024-08-30" entity="ENT-001-1001" revision="REV-2025.2" actor="Amara Patel" status="superseded" metric="14%">Independent Counterrecord support row 18 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+  </supporting-rows>
+  <chronology>
+    <event date="2024-11-30" actor="Adrian Mensah" reference="CB-DOC-001-086">native population opened</event>
+    <event date="2024-12-06" actor="Henry Cho" reference="CBP-001-02">custodian boundary confirmed</event>
+    <event date="2024-12-12" actor="Owen Delgado" reference="CB-DOC-001-086">export created</event>
+    <event date="2024-12-18" actor="Rafael Okafor" reference="CBP-001-02">cross-system identifier checked</event>
+    <event date="2024-12-24" actor="Elliot Mercer" reference="CB-DOC-001-086">revision retained</event>
+    <event date="2024-12-30" actor="Caleb Hassan" reference="CBP-001-02">matter copy collected</event>
+  </chronology>
+  <provenance>Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.</provenance>
+</counsel-source-record>

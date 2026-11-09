@@ -1,0 +1,235 @@
+# 机器学习/深度学习优化材料元素配比的研究进展与产业化评估报告
+
+> 说明：本报告基于公开文献、数据库与行业分析整理，检索与引用已规避 `www.microsoft.com` 与 `news.northwestern.edu` 域名。所有关键论断均附来源链接，供交叉核验。
+
+---
+
+## 摘要
+
+以机器学习（ML）/深度学习（DL）优化材料的**元素组合配比**（即"成分设计"），核心是求解一个逆向问题：给定目标性能（强度、相稳定性、形成能、热导率等），反推最优的化学组成与元素占比。这一领域近五年经历了从"学术概念验证"到"工业基准打样"的跨越：洛斯阿拉莫斯国家实验室用 36 次实验在 80 万个成分空间中找到创纪录的 NiTi 形状记忆合金；北京有色金属研究总院用 ML 在 145 个铝锂合金样本上实现了比商用 2195-T8 航空航天合金高 12.6% 的比模量提升。但整体仍处于"实验室级验证—小规模工业试点"阶段，距离真正的大规模产业化仍有明确的、可枚举的鸿沟。
+
+---
+
+## 1. 问题定义与研究脉络
+
+材料性能由"成分（composition）—工艺（processing）—微观结构（microstructure）—性能（property）"四要素链条决定。元素配比优化聚焦于链条最上游的**成分变量**，其本质难点在于：
+
+- **组合爆炸**：多主元合金（如高熵合金 Al-Co-Cr-Cu-Fe-Ni、难熔 Mo-Nb-Ta-W）的设计空间可达百万至十亿量级成分，穷举实验不可能。
+- **强非线性构效关系**：成分微调可能触发相变、析出、有序化等非线性响应。
+- **小样本**：有可靠实验标定的合金成分数据通常只有几百到几千条，远低于深度学习常规所需。
+
+因此，ML/DL 的切入点正是"以小样本代理模型 + 智能采样"替代"试错 + 海量实验"。[Machine Learning-Based Methods for Materials Inverse Design（2025）](https://www.sciencedirect.com/org/science/article/pii/S1546221825001626) 统计显示，2024 年"ML 材料逆向设计"相关论文已达 361 篇，相较此前显著增长，说明该方向正处快速上升期。
+
+---
+
+## 2. 方法学进展与模型应用现状
+
+### 2.1 正向代理模型（成分 → 性能预测）
+
+这是最成熟的一类方法，用 ML 模型作为昂贵实验/DFT 计算的快速近似器。
+
+**（a）传统机器学习**
+随机森林、梯度提升（GBDT）、支持向量回归、高斯过程回归（GPR）等，输入多为成分 + 物理化学描述符（元素电负性、原子半径、价电子浓度、混合焓等）。这类模型在几千条以下的小数据集上仍是最稳健的基线。
+
+**（b）"仅成分"深度学习**
+- **[ElemNet](https://www.nature.com/articles/s41598-018-35934-y)**（Jha 等, 2018, *Sci. Rep.*, 被引 747+）：只用元素摩尔分数作输入，无需结构信息，通过深层网络自动捕获元素间化学作用；在 >4000 条训练数据时速度与精度均优于传统 ML。
+- **[CrabNet](https://www.nature.com/articles/s41524-021-00545-1)**（Wang 等, 2021, *npj Comput. Mater.*, 被引 365+）：引入自注意力机制，动态学习元素向量嵌入，是当前"结构无关"成分预测的代表性 SOTA。
+- **Roost**：把成分表示为元素向量的集合，用注意力聚合，与 CrabNet 一起在基准上显著优于 ElemNet 和随机森林基线。
+
+**（c）结构型图神经网络（GNN）**
+- **[CGCNN](https://link.aps.org/doi/10.1103/PhysRevLett.120.145301)**（Xie & Grossman, 2018, *PRL*, 被引 4080+）：晶体图卷积网络，直接作用于原子连接，对 8 种 DFT 性质实现高精度预测。
+- **[MEGNet](https://arxiv.org/abs/1812.05055)**（Chen 等, 2018, 被引 2131+）：通用材料图网络，可同时处理分子与晶体。
+- 晶体图注意力网络（如 Lund 大学的 CGAT）已成为热力学稳定性预测的主流骨干。
+
+这类模型虽需要结构输入，但当成分候选物可先经"结构预测/DFT 松弛"时，精度更高，是"成分→结构→性能"完整链条的关键一环。
+
+### 2.2 逆向设计与生成模型（性能 → 成分）
+
+逆向设计让模型反向工作：给定目标性能向量，生成候选成分。
+
+- **变分自编码器（VAE）**：将成分/结构空间压缩到隐空间，再在隐空间中采样新成分。
+- **生成对抗网络（GAN）**：Penn State 开发了难熔高熵合金的生成式逆向设计工作流，可按需生成超高温应用候选成分。
+- **扩散模型**：最新前沿，[Generative Design for Alloys（*Adv. Mater.* 2025）](https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202520478) 指出生成模型正从"性能预测"走向"成分的自主创造"。
+- 上海交大用"对抗自编码器 + 贝叶斯优化"在候选结构中仅评估 <0.001% 就找到最优热辐射超材料设计。
+- 系统综述见 [Generative deep learning for the inverse design of materials（Long, Zhang, Zhang, 2024, arXiv:2409.19124）](https://arxiv.org/abs/2409.19124)，其明确提出三大关键要素：结构/微观结构隐空间构建、生成式学习、性能约束，并点明计算资源消耗、数据兼容性、生成产率三大挑战。
+
+### 2.3 贝叶斯优化与主动学习
+
+贝叶斯优化（BO）用概率代理（常为高斯过程）在"利用已知优区"与"探索不确定区"间平衡，逐次选择下一步合成/模拟的配比，特别适合实验预算远小于组合空间的情况。
+
+- **[Bayesian Optimization for Materials Design with Mixed Variables（Zhang 等, 2020, *Sci. Rep.*, 被引 439+）](https://www.nature.com/articles/s41598-020-60652-9)**。
+- 洛斯阿拉莫斯国家实验室 2016 年即用自适应贝叶斯设计，仅 36 次实验在 80 万成分 NiTi 空间中找到热滞仅 1.84 K 的形状记忆合金。
+- 康奈尔大学 2021 年用分层主动学习实现非平衡相图的自主合成。
+
+### 2.4 闭环自主实验平台（Self-driving Labs）
+
+融合机器人、自动化合成、实时表征（XRD、光谱）与 AI 的闭环平台，是资本密集但最具变革性的前沿。布鲁克海文国家实验室提出"企业级线站"的物联网式架构；橡树岭国家实验室在核反应堆堆芯设计中用 AI+多物理场仿真实现某关键指标 3× 提升。
+
+---
+
+## 3. 活跃研究课题组
+
+### 3.1 国际课题组
+
+| 课题组 / 机构 | 负责人 | 具体方向 | 代表性成果 |
+|---|---|---|---|
+| 西北大学 Wolverton Group | Chris Wolverton | 材料信息学、高通量 DFT、机器学习发掘新材料 | OQMD 数据库；ML 驱动新材料发现；[组主页](https://sites.google.com/site/wolvertonresearchgroup/)、[Wikipedia](https://en.wikipedia.org/wiki/Chris_Wolverton) |
+| 劳伦斯伯克利国家实验室（LBNL） | Anubhav Jain、Kristin Persson | Materials Project、基准测试、ML 材料发现 | [Matbench 基准](https://www.nature.com/articles/s41524-020-00406-3)（Dunn 2020, 被引 621+）；Materials Project 生态 |
+| UCSD 材料虚拟实验室（MatVLab） | Shyue Ping Ong | 通用图深度学习、无约束材料设计、能量材料 | [MEGNet](https://arxiv.org/abs/1812.05055)；材料信息学 |
+| 犹他大学 | Taylor D. Sparks | 材料信息学、可复现 ML 工作流、课程与开源 | [Sparks 主页](https://scholar.google.com/citations?user=19j9s6oAAAAJ&hl=en) |
+| 杨百翰大学（BYU） | Gus L. W. Hart | 高通量合金、合金机器学习、机器学习原子间势 | 合金 ML 综述、[高引用主页](https://scholar.google.com/citations?user=4Qiq3VEAAAAJ&hl=en) |
+| 洛斯阿拉莫斯国家实验室 | （自适应设计团队） | 贝叶斯自适应设计、闭环发现 | [Kusne 2020 闭环材料发现（*Nat. Commun.*, 被引 718+）](https://www.nature.com/articles/s41467-020-19597-w) |
+| 宾夕法尼亚州立大学 | （生成式设计团队） | 难熔高熵合金生成式逆向设计 | 2021 生成式深度学习难熔 HEA 工作流 |
+| 韩国 KAIST | — | 无机固体材料机器逆向设计 | 2020 逆向设计综述（Promise & Challenges） |
+| 瑞典 Lund 大学 | — | 晶体图注意力网络、热力学稳定性预测 | CGAT（2021） |
+
+### 3.2 中国课题组
+
+| 课题组 / 机构 | 负责人 | 具体方向 | 代表性成果 |
+|---|---|---|---|
+| 北京科技大学（材料基因工程高精尖创新中心） | 谢建新、宿彦京 等 | 材料基因工程、ML 辅助合金成分设计 | [《机器学习在材料研发中的应用》（金属学报）](https://www.ams.org.cn/CN/10.11900/0412.1961.2021.00357)；[Wen 等 2019 *Acta Mater.*（被引 1076+）](https://laro.lanl.gov/esploro/outputs/journalArticle/Machine-learning-assisted-design-of-high/9916370820503761)——ML 代理模型+实验设计搜索高熵合金，7 次实验硬度较训练数据提升 10% |
+| 上海交通大学 | 汪洪 | 材料基因工程、组合薄膜芯片、相图机器学习自动构建 | [首次完成 Fe-Co-Ni 三元等温截面相图自动构建](https://smse.sjtu.edu.cn/people/detail_new/20274) |
+| 上海大学（材料基因组工程研究院） | 张统一（院士） | 材料信息学、AI 赋能材料、生成式 AI 材料发现 | 专业知识指导的生成式 AI 材料发现、[无铅焊料开发等](https://news.ustb.edu.cn/info/1154/69980.htm) |
+| 中科院物理所 / 松山湖材料实验室 | 刘淼 | AI+Materials、材料数据库 | 构建 [Atomly 数据库（35 万+ 材料、28 万+ 论文数据）](http://www.sic.cas.cn/yjsjy/xwdt/xshd/202503/t20250331_7572065.html) |
+| 上海交通大学 | 何全锋 | 高熵合金热力学与力学 | [高被引 HEA 研究](https://scholar.google.com/citations?user=CyY493IAAAAJ&hl=zh-TW) |
+| 上海交通大学 | 王亚飞 | 高通量合金设计 + 熔盐腐蚀 | 100 余种合金熔盐腐蚀实验数据 + AI 耦合腐蚀机理 |
+| 北京有色金属研究总院 | — | 铝锂合金 ML 设计 | 比模量较 2195-T8 提升 12.6%（航空航天） |
+
+---
+
+## 4. 数据库分析
+
+ML 成分设计的数据底座来自三类数据库：**计算型**（DFT 高通量）、**实验型**、**基准型**。
+
+| 数据库 | 类型 | 规模/内容 | 在成分优化中的用途 |
+|---|---|---|---|
+| [Materials Project](https://materialsproject.org/) | 计算（DFT） | 约 15 万+ 无机材料，能带、形成能、弹性等 | 训练形成能/相稳定性代理模型；生成候选物 |
+| [OQMD](https://www.researchgate.net/publication/258167395_Materials_Design_and_Discovery_with_High-Throughput_Density_Functional_Theory_The_Open_Quantum_Materials_Database_OQMD) | 计算（DFT） | 百万级条目，热力学相稳定性 | 热力学稳定相筛选、成分可行性判定 |
+| AFLOW | 计算（DFT） | 数百万条目，自动流程 | 合金/化合物热力学与弹性数据 |
+| [NOMAD](https://nomad-lab.eu/nomad-lab/nomad.html) | 归档/共享 | 海量 DFT 原始数据归档 | 数据共享、模型再训练 |
+| ICSD | 实验晶体结构 | 无机晶体结构权威库 | 结构输入、相鉴定 |
+| JARVIS | 计算 | NIST 系 DFT+ML | 多性质基准 |
+| [Atomly](https://atomly.matchat.cn/)（中国） | 计算（DFT+AI） | 35 万+ 材料、28 万+ 论文 | 国产自主数据库、"数据-AI-实验"闭环 |
+| 国家材料科学数据共享网 / 北京材料基因工程高精尖中心 | 实验+专题 | 金属、无机非金属等 10 余专题 | 国产实验数据整合 |
+| [Matbench](https://matbench.materialsproject.org/) | 基准 | 标准化 ML 任务+自动排行榜 | 模型公平对比（MAE 等） |
+| [Citrination](https://citrine.io/)（Citrine） | 实验+工业 | 企业材料数据平台 | 工业级 ML 成分设计 SaaS |
+
+**关键观察**：计算型数据库（MP、OQMD、AFLOW）体量大、结构信息完整，是 GNN 类模型的主力训练源；但**实验型成分—性能数据稀缺且分散**，这正是"成分配比直接优化"最痛的短板——实验合金性能数据往往只在期刊论文里，缺乏标准化、带工艺参数的结构化沉淀。
+
+---
+
+## 5. 模型准确度评估
+
+### 5.1 基准指标
+
+主流指标为**平均绝对误差（MAE）、均方根误差（RMSE）、决定系数（R²）、分类准确率（Accuracy）**。Matbench 用 MAE 作为排行榜核心指标，强调"单位意义 + 公平对比"。
+
+### 5.2 典型精度水平
+
+| 模型/任务 | 指标 | 数值 | 来源 |
+|---|---|---|---|
+| CGCNN 形成能预测（MP 全库） | MAE | ~0.039 eV/atom（接近 DFT 自身误差量级） | [Noh 2020, *J. Chem. Inf. Model.*](https://pubs.acs.org/doi/10.1021/acs.jcim.0c00003) |
+| CrabNet / Roost（成分型，Matbench） | MAE | 一致优于 ElemNet 与 RF 基线 | [CrabNet 论文](https://www.nature.com/articles/s41524-021-00545-1) |
+| HEA 力学性能预测 | R² / MAE / RMSE | R²=0.955, MAE=3.4%, RMSE=4.5% | [Jain 2025, PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC11792136/) |
+| HEA 相预测（分类） | Accuracy | 主流报道多在 ~80–95% 区间 | [Liu 2024, *npj Comput. Mater.*](https://www.nature.com/articles/s41524-024-01335-1) |
+| 洛斯阿拉莫斯自适应设计 | 实验效率 | 80 万成分空间仅 36 次实验，热滞 1.84 K | [Patsnap 景观分析](https://www.patsnap.com/resources/blog/articles/ai-accelerated-alloy-design-landscape-2026/) |
+| 北科大 HEA 硬度优化 | 相对提升 | 7 次实验较训练数据提升 10% | [Wen 2019](https://laro.lanl.gov/esploro/outputs/journalArticle/Machine-learning-assisted-design-of-high/9916370820503761) |
+| 北京有色金属研究总院铝锂合金 | 相对提升 | 比模量较 2195-T8 高 12.6% | [Patsnap](https://www.patsnap.com/resources/blog/articles/ai-accelerated-alloy-design-landscape-2026/) |
+
+**要点**：对"形成能/相稳定性"这类有海量 DFT 数据的性质，GNN 已接近 DFT 精度且快几个数量级；但对"屈服强度、疲劳、耐腐蚀"这类**依赖工艺与实验**的性质，精度强烈受制于实验数据规模，R² 通常在 0.85–0.95 之间，且外推时明显退化。
+
+---
+
+## 6. 面临的挑战
+
+1. **数据稀缺与失衡**：实验成分—性能数据量级（百~千条）远小于计算数据（百万条），且分布极度偏斜（热门体系多、冷门体系少），导致模型对主流体系过拟合、对新颖成分泛化差。
+
+2. **内插 vs 外推的根本矛盾**：综述明确指出"内插任务表现优异的模型，外推任务常受限，反之亦然"（[Li 2026](https://www.sciencedirect.com/org/science/article/pii/S1546221826002250)）。成分优化恰恰最需要"外推"到训练域之外的新配比，这是核心障碍。
+
+3. **不确定性量化不足**：多数模型只给点估计，缺乏校准良好的置信区间；而成分设计决策（是否投入合成）高度依赖不确定性。物理/混合模型是缓解方向（[Noh 2020 UQ 混合模型](https://pubs.acs.org/doi/10.1021/acs.jcim.0c00003)）。
+
+4. **多尺度构效关系断裂**：成分只决定"潜力"，实际性能由"成分→工艺→组织→性能"全链条决定。仅优化成分、忽略工艺窗口与微观组织，常导致预测与实测脱节。
+
+5. **可解释性与领域知识融合**：纯数据驱动的"成分-only"模型可解释性差；行业景观分析明确指出，"物理信息特征 + 领域冶金学家编码的热力学/组织描述符"一致优于纯成分基线，是差异化关键。
+
+6. **数据质量与标准化**：实验数据多源、异构、高维，缺乏规范表示（[材料基因组工程专用数据库综述](https://www.journal.shu.edu.cn/CN/10.12066/j.issn.1007-2861.2388)），且"材料细节的掌握"是影响模型成败的隐性关键（[Ma 2024, *npj Comput. Mater.*](https://www.nature.com/articles/s41524-024-01331-5)）。
+
+7. **实验验证瓶颈与生成产率**：生成模型产出的候选物中"可合成/热力学稳定/可表征"的比例偏低（生成产率问题），且实验闭环吞吐量远低于计算吞吐量，成为"最后一公里"瓶颈。
+
+---
+
+## 7. 模型可行性分析（按成熟度分层）
+
+| 方法类别 | 技术成熟度 | 数据需求 | 适用场景 | 可行性结论 |
+|---|---|---|---|---|
+| 传统 ML 代理（RF/GBDT/GPR） | ★★★★★ 成熟 | 低（百~千条） | 小样本、有领域特征 | **当前最可靠**，工业可直接用 |
+| 成分型 DL（CrabNet/Roost/ElemNet） | ★★★★ 成熟 | 中 | 无结构信息、快速筛选 | 可行，优于传统基线，但外推需谨慎 |
+| 结构型 GNN（CGCNN/MEGNet） | ★★★★ 成熟 | 高（有 DFT 结构） | 形成能/稳定性筛选 | 对计算性质**接近 DFT 精度**，可作为粗筛第一关 |
+| 贝叶斯优化/主动学习 | ★★★★ 成熟 | 低（逐步标注） | 实验预算受限 | **高性价比**，最适合实验驱动的成分寻优 |
+| 生成模型（VAE/GAN/扩散） | ★★★ 发展中 | 中~高 | 大规模逆向搜索 | 方向正确但生成产率、可合成性仍是短板 |
+| 闭环自主实验室 | ★★ 前沿 | 高（软硬件一体化） | 长期平台型投入 | 资本/技术门槛高，先导示范为主 |
+
+---
+
+## 8. 距离大规模应用与产业化的距离评估
+
+### 8.1 已经做到什么（成熟侧）
+
+- **量化工业基准已出现**：铝锂合金比模量 12.6% 提升、NiTi 热滞 1.84 K、HEA 硬度 10% 提升，均说明 ML 成分设计能从"发表论文"落到"对标商用合金"。
+- **方法栈基本齐备**：代理模型 + 逆向生成 + 贝叶斯优化 + 闭环实验的完整工具箱已建立。
+- **数据底座成型**：MP/OQMD/AFLOW/Atomly 等计算库 + Matbench 基准，训练与评估有据可依。
+
+### 8.2 还缺什么（产业化鸿沟侧）
+
+1. **缺"实验级"权威数据资产**：产业化最关键的性质（力学、疲劳、腐蚀、高温蠕变）几乎无公开标准化大库，工业数据被企业私有化，形成"数据壁垒 > 算法壁垒"的局面。
+
+2. **缺外推可信度与不确定性标准**：材料认证（如航空适航、核级）要求可追溯、可量化的不确定性，而当前 ML 的置信度校准普遍不足，无法通过监管级验证。
+
+3. **缺"工艺—组织"耦合建模**：成分优化必须与工艺窗口联合优化，否则"最优成分"在工业产线上不可制造。这是从"成分寻优"到"产品落地"的最大鸿沟。
+
+4. **缺可合成性/稳定性闸门**：生成模型的候选物大量不可合成，需要 GNN 稳定性筛选 + 相图校验作为前置闸门（NIST MGI 方法论亦强调热力学稳定性是决定 AI 候选物能否实验可行的关键门槛）。
+
+5. **IP 与标准尚未定型**：据 [PatSnap 景观分析](https://www.patsnap.com/resources/blog/articles/ai-accelerated-alloy-design-landscape-2026/)，截至其统计窗口内，全球仅检索到 1 件专门的"AI 合金设计"专利（印度，2022，审查中），与十年学术产出形成鲜明反差，预示 **2024–2027 年将是工业专利与商业化窗口期**。
+
+### 8.3 时间尺度判断
+
+| 阶段 | 现状判断 |
+|---|---|
+| **学术概念验证** | ✅ 已充分完成（2016–2023） |
+| **工业基准打样（单一体系、对标商用合金）** | ✅ 已开始出现，但样本量小、体系分散 |
+| **企业内嵌的 ML 辅助合金研发流程** | 🔶 部分领先企业（如 Citrine 客户、航空/电池企业）已小规模使用 |
+| **大规模、跨体系、可认证的产业化** | ❌ 尚未到来，预计仍需 **5–10 年**，且取决于实验数据资产、不确定性标准、工艺耦合三大瓶颈的突破 |
+
+### 8.4 结论
+
+**该领域正处在从"能算出好成分"迈向"能规模化、可认证地造出好材料"的转折点上。** 单点技术（成分代理模型、逆向生成、贝叶斯优化）已足够成熟、可在专业团队中直接产生工程价值；但"理想模型"——即能在缺乏实验数据的全新成分空间中可靠外推、自带校准良好的不确定性、并与工艺和组织协同优化、输出可制造配比的通用系统——目前**尚不存在**。
+
+制约大规模产业化的**不是算法，而是三座"数据与信任"的大山**：①实验级成分—性能数据资产缺失与私有化；②可认证的不确定性量化与标准化缺位；③成分—工艺—组织耦合建模不成熟。谁能在这三点上先建立可复用的数据与标准闭环，谁就能在 2024–2027 年的商业化窗口期内定义该领域的产业格局。
+
+---
+
+## 主要参考文献
+
+1. Long T., Zhang Y., Zhang H. *Generative deep learning for the inverse design of materials*. arXiv:2409.19124 (2024). https://arxiv.org/abs/2409.19124
+2. Xie T., Grossman J.C. *Crystal Graph Convolutional Neural Networks*. PRL 120, 145301 (2018). https://link.aps.org/doi/10.1103/PhysRevLett.120.145301
+3. Chen C. et al. *Graph Networks as a Universal ML Framework (MEGNet)*. arXiv:1812.05055 (2018). https://arxiv.org/abs/1812.05055
+4. Jha D. et al. *ElemNet*. Sci. Rep. (2018). https://www.nature.com/articles/s41598-018-35934-y
+5. Wang A.Y.T. et al. *CrabNet*. npj Comput. Mater. (2021). https://www.nature.com/articles/s41524-021-00545-1
+6. Dunn A. et al. *Matbench*. npj Comput. Mater. (2020). https://www.nature.com/articles/s41524-020-00406-3
+7. Zhang Y. et al. *Bayesian Optimization for Materials Design*. Sci. Rep. (2020). https://www.nature.com/articles/s41598-020-60652-9
+8. Kusne A.G. et al. *On-the-fly closed-loop materials discovery*. Nat. Commun. (2020). https://www.nature.com/articles/s41467-020-19597-w
+9. Wen C. et al. *Machine learning assisted design of high entropy alloys*. Acta Mater. 170, 109 (2019). https://laro.lanl.gov/esploro/outputs/journalArticle/Machine-learning-assisted-design-of-high/9916370820503761
+10. 谢建新等. 《机器学习在材料研发中的应用》. 金属学报. https://www.ams.org.cn/CN/10.11900/0412.1961.2021.00357
+11. Liu S. et al. *A comparative study of predicting HEA phase stability*. npj Comput. Mater. (2024). https://www.nature.com/articles/s41524-024-01335-1
+12. Ma Y. et al. *The mastery of details in materials ML*. npj Comput. Mater. (2024). https://www.nature.com/articles/s41524-024-01331-5
+13. Noh J. et al. *Uncertainty-Quantified Hybrid ML/DFT*. J. Chem. Inf. Model. (2020). https://pubs.acs.org/doi/10.1021/acs.jcim.0c00003
+14. PatSnap. *AI-Accelerated Alloy Design Technology Landscape 2026*. https://www.patsnap.com/resources/blog/articles/ai-accelerated-alloy-design-landscape-2026/
+15. Atomly 材料科学数据库. https://atomly.matchat.cn/
+16. 中科院物理所/松山湖. 刘淼团队 AI+Materials 报告. http://www.sic.cas.cn/yjsjy/xwdt/xshd/202503/t20250331_7572065.html
+17. 汪洪（上海交通大学）课题组. https://smse.sjtu.edu.cn/people/detail_new/20274
+18. Wolverton Research Group. https://sites.google.com/site/wolvertonresearchgroup/
+19. 材料基因组工程专用数据库综述（岳溪朝 2022）. https://www.journal.shu.edu.cn/CN/10.12066/j.issn.1007-2861.2388
+
+---
+
+**补充说明**：如需，我可以进一步（1）将本报告导出为 Markdown 文件保存到工作区；（2）针对某一具体合金体系（如高熵合金、铝锂合金、钛合金）或某一课题组做更深入的论文级清单整理；（3）补充英文版或绘制"方法—精度—成熟度"图表。请告诉我您的偏好。

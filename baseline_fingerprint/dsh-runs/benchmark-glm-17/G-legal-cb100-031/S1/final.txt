@@ -1,0 +1,35 @@
+All work is complete and verified. Here is the position for the team.
+
+---
+
+## Working position — Aurora MDL production (CB-LD-2701), due 2026-09-05
+
+### Can Aurora certify the MDL production?
+
+**No.** Eleven of twelve defect populations fail their operative requirement; only CBP-031-04 (metadata field loss, completed 2025-11-25 against a 2025-11-27 deadline) is compliant on its face. The team can defensibly represent that certification is **withheld pending cure of quantified, record-supported gaps** — with gaps, operative measures, and owners all identified. Representing completion is not defensible.
+
+### The numbers
+
+- **133 records** sit inside operative populations but outside certified ones: CBP-031-01 (35 of 215), CBP-031-06 (23 of 148), CBP-031-07 (38 of 78), CBP-031-11 (37 of 98).
+- **Three populations carry operative "blocks completion" language**: request-response mismatch (R694), collection-date inconsistency on mobile chats (R821), common-interest support gap (R908).
+- **Two entity-identity collisions** have no approved crosswalk resolution: ENT-031-1002/2002 and ENT-031-1010/2010.
+- **Two notices went to the wrong channel** (counterparty archive address instead of the required client notices address), one of them also relying on a superseded revision (REV-2024.2 vs controlling REV-2025.3).
+- **One completion was 42 days late** (clawback, 2025-05-12 vs 2025-03-31) — historically uncurable, only disclosable or excusable.
+- **Both owners of record at the center of the question — Samuel Kim and Dominic Alvarez — are pending approval, inactive, capacity 0.** No one functional is driving those lines.
+
+### Now vs. wait
+
+**Now:** record the position (done); escalate the two dead ownership lines (candidates with capacity exist: Leona Park 6, Henry Cho 6, Adrian Mensah/Farah Ibrahim/Willa Novak 4); reissue the wrong-channel notices with proof of delivery; restate CBP-031-10 under REV-2025.3; certify CBP-031-04 with cited support; start the 133-record cure under active owners; open the crosswalk-revision process; prepare the lateness disclosure.
+
+**Wait:** approved crosswalk revisions; closure of the three "open and unresolved" statuses; production of the 133-record delta; owner approvals; any court ruling on the clawback lateness or CBP-031-12 privilege treatment (the common-interest gap is the basis for privilege there).
+
+### Evidence that would change the answer
+
+An approved crosswalk revision for both collisions; updated operations records showing closed status under R694/R821/R908; production logs covering the full 215/148/78/98 populations plus a manifest reconciling the 180-vs-215 overlap; reissued-notice proof of delivery to `notices-aurora_home_supply_co@example.test`; approved or reassigned ownership for CBP-031-01/-05; a court order excusing the clawback lateness; or a corrected/revised 11% separation threshold result for CBP-031-02.
+
+### Deliverables (in `output/`)
+
+1. **`output/aurora_mdl_working_position.md`** — the memo: bottom line, now/wait matrix, 12-population gap register with owners and seven hard holds (H1–H7), change-the-answer evidence list, method and reliance limits.
+2. **`output/aurora_mdl_reconciliation.json`** — the machine-readable reconciliation: all 96 records mapped to 12 populations × 8 evidence roles, every R/E reference, owner roster with capacity and next control dates, entity collisions, and impact scores.
+
+Both record the outcome, holds, and owners in the workspace, as instructed. All supporting record IDs were verified against the source files, and the counterparty-awareness pattern was confirmed in the correspondence records. Note the corpus is synthetic CounselBench-100 data — the position is a working analysis, not legal advice, and covers the twelve evidenced populations rather than a full production audit.

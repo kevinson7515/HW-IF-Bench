@@ -1,0 +1,59 @@
+RESTRICTED MATTER TEAM
+
+FINANCIAL COVENANT BREACH
+RECORD: CB-DOC-001-002
+MATTER: CB-MA-2401
+PORTFOLIO KEY: CBP-001-02
+SOURCE SYSTEM: Carta capitalization ledger
+EVIDENCE ROLE: identity_crosswalk
+ENTITY KEY: ENT-001-1001
+REFERENCED REVISION: REV-2025.2
+CURRENT REVISION: REV-2025.2
+CUSTODIAN: Leona Park
+REVIEWER: Leona Park
+
+NATIVE RECORD
+Crosswalk revision REV-2025.2 maps portfolio key CBP-001-02 and legal name Helios Forge, Inc. — Financial Covenant Breach record 2 to immutable entity ENT-001-1001. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+
+SOURCE LINEAGE
+Carta capitalization ledger produced native record CB-DOC-001-002 for CB-MA-2401. Leona Park owns the source population and Leona Park recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns financial covenant breach within Project Daybreak battery acquisition. A carve-out manufacturer owns cathode tooling in Nevada while its largest automaker customer can terminate upon an indirect change of control. The record addresses one part of the broader question: Match the cathode-tooling records and automaker consent history to the exact acquired entity.
+
+NATIVE RECORD
+Crosswalk revision REV-2025.2 maps portfolio key CBP-001-02 and legal name Helios Forge, Inc. — Financial Covenant Breach record 2 to immutable entity ENT-001-1001. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+
+RELIANCE LIMITS
+This file supplies identity crosswalk evidence for CBP-001-02. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SCHEDULE 1 — NATIVE ROWS
+CBP-001-02-IDE-01 | 2025-06-11 | ENT-001-1001 | REV-2025.2 | Rafael Okafor | confirmed | $323,233.00 | Identity Crosswalk support row 1 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-IDE-02 | 2025-06-14 | ENT-001-1001 | REV-2025.2 | Priya Raman | recorded | 21% | Identity Crosswalk support row 2 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-IDE-03 | 2025-06-17 | ENT-001-1001 | REV-2025.2 | Jonas Feld | superseded | 21% | Identity Crosswalk support row 3 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-IDE-04 | 2025-06-20 | ENT-001-1001 | REV-2025.2 | Leona Park | confirmed | $213,733.00 | Identity Crosswalk support row 4 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-IDE-05 | 2025-06-23 | ENT-001-1001 | REV-2025.2 | Adrian Mensah | confirmed | 19% | Identity Crosswalk support row 5 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-IDE-06 | 2025-06-26 | ENT-001-1001 | REV-2025.2 | Amara Patel | pending | 11% | Identity Crosswalk support row 6 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-IDE-07 | 2025-06-29 | ENT-001-1001 | REV-2025.2 | Micah Sullivan | pending | $432,022.00 | Identity Crosswalk support row 7 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-IDE-08 | 2025-07-02 | ENT-001-2001 | REV-2025.2 | Lena Varga | superseded | 26% | Identity Crosswalk support row 8 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-IDE-09 | 2025-07-05 | ENT-001-1001 | REV-2025.2 | Rafael Okafor | confirmed | 18% | Identity Crosswalk support row 9 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-IDE-10 | 2025-07-08 | ENT-001-1001 | REV-2025.2 | Priya Raman | pending | $68,038.00 | Identity Crosswalk support row 10 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-IDE-11 | 2025-07-11 | ENT-001-1001 | REV-2025.2 | Jonas Feld | superseded | 25% | Identity Crosswalk support row 11 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-IDE-12 | 2025-07-14 | ENT-001-1001 | REV-2025.2 | Leona Park | recorded | 16% | Identity Crosswalk support row 12 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-IDE-13 | 2025-07-17 | ENT-001-1001 | REV-2025.2 | Adrian Mensah | pending | $123,786.00 | Identity Crosswalk support row 13 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-IDE-14 | 2025-07-20 | ENT-001-1001 | REV-2025.2 | Amara Patel | pending | 14% | Identity Crosswalk support row 14 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-IDE-15 | 2025-07-23 | ENT-001-1001 | REV-2025.2 | Micah Sullivan | pending | 20% | Identity Crosswalk support row 15 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-IDE-16 | 2025-07-26 | ENT-001-1001 | REV-2025.2 | Lena Varga | recorded | $575,864.00 | Identity Crosswalk support row 16 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-IDE-17 | 2025-07-29 | ENT-001-1001 | REV-2025.2 | Rafael Okafor | superseded | 17% | Identity Crosswalk support row 17 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-IDE-18 | 2025-08-01 | ENT-001-1001 | REV-2025.2 | Priya Raman | pending | 1% | Identity Crosswalk support row 18 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+
+SCHEDULE 2 — CHRONOLOGY
+2024-04-02 | native population opened | Rafael Okafor | CB-DOC-001-002
+2024-04-08 | custodian boundary confirmed | Elliot Mercer | CBP-001-02
+2024-04-14 | export created | Caleb Hassan | CB-DOC-001-002
+2024-04-20 | cross-system identifier checked | Adrian Mensah | CBP-001-02
+2024-04-26 | revision retained | Henry Cho | CB-DOC-001-002
+2024-05-02 | matter copy collected | Owen Delgado | CBP-001-02
+
+PROVENANCE
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

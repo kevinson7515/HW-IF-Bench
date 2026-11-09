@@ -1,0 +1,276 @@
+%PDF-1.4
+% CounselBench deterministic native source
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 2 /Kids [3 0 R 5 0 R] >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 4333 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(COUNSELBENCH SOURCE RECORD) Tj
+T*
+(Record: CB-DOC-031-032) Tj
+T*
+(Matter: CB-LD-2701 - Aurora pricing MDL discovery audit) Tj
+T*
+(Portfolio key: CBP-031-08) Tj
+T*
+(Source system: Microsoft Purview) Tj
+T*
+(Evidence role: current_operations) Tj
+T*
+(Immutable entity: ENT-031-1007) Tj
+T*
+(Referenced revision: REV-2025.1) Tj
+T*
+(Current revision: REV-2025.1) Tj
+T*
+(Custodian: Lena Varga) Tj
+T*
+(Reviewer: Leona Park) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(For immutable entity ENT-031-1007.) Tj
+T*
+(the legal-hold delivery gap receipt used archive-in_re_residential_fixture_pricing@example.test under) Tj
+T*
+(CB-LD-2701-E382. The operating extract cites revision REV-2025.1 and portfolio key CBP-031-08; it does) Tj
+T*
+(not state a legal disposition.) Tj
+T*
+() Tj
+T*
+(SOURCE LINEAGE) Tj
+T*
+(Microsoft Purview produced native record CB-DOC-031-032 for CB-LD-2701. Lena Varga owns the source) Tj
+T*
+(population and Leona Park recorded the collection review. The export remains separate from later legal) Tj
+T*
+(analysis.) Tj
+T*
+() Tj
+T*
+(BUSINESS CONTEXT) Tj
+T*
+(This record concerns legal-hold delivery gap within Aurora pricing MDL discovery audit. A multidistrict) Tj
+T*
+(antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a) Tj
+T*
+(pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian) Tj
+T*
+(scope, mobile collections, Bates families, and privilege challenges against court requirements.) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(For immutable entity ENT-031-1007.) Tj
+T*
+(the legal-hold delivery gap receipt used archive-in_re_residential_fixture_pricing@example.test under) Tj
+T*
+(CB-LD-2701-E382. The operating extract cites revision REV-2025.1 and portfolio key CBP-031-08; it does) Tj
+T*
+(not state a legal disposition.) Tj
+T*
+() Tj
+T*
+(RELIANCE LIMITS) Tj
+T*
+(This file supplies current operations evidence for CBP-031-08. It does not decide legal effect, select) Tj
+T*
+(among candidate responses, resolve another system's entity identity, or establish that its cited revision) Tj
+T*
+(is controlling.) Tj
+T*
+() Tj
+T*
+(NATIVE ROWS) Tj
+T*
+(CBP-031-08-CUR-01 | 2024-12-29 | ENT-031-1007 | REV-2025.1 | Adrian Mensah | confirmed | $633,881.00 |) Tj
+T*
+(Current Operations support row 1 for legal-hold delivery gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CUR-02 | 2025-01-01 | ENT-031-1007 | REV-2025.1 | Amara Patel | pending | 26% | Current) Tj
+T*
+(Operations support row 2 for legal-hold delivery gap; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CUR-03 | 2025-01-04 | ENT-031-1007 | REV-2025.1 | Micah Sullivan | superseded | 11% | Current) Tj
+T*
+(Operations support row 3 for legal-hold delivery gap; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CUR-04 | 2025-01-07 | ENT-031-1007 | REV-2025.1 | Lena Varga | pending | $986,394.00 | Current) Tj
+T*
+(Operations support row 4 for legal-hold delivery gap; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CUR-05 | 2025-01-10 | ENT-031-1007 | REV-2025.1 | Rafael Okafor | confirmed | 15% | Current) Tj
+T*
+(Operations support row 5 for legal-hold delivery gap; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CUR-06 | 2025-01-13 | ENT-031-1007 | REV-2025.1 | Priya Raman | confirmed | 18% | Current) Tj
+T*
+(Operations support row 6 for legal-hold delivery gap; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CUR-07 | 2025-01-16 | ENT-031-1007 | REV-2025.1 | Jonas Feld | confirmed | $772,893.00 |) Tj
+T*
+(Current Operations support row 7 for legal-hold delivery gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4193 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(CBP-031-08-CUR-08 | 2025-01-19 | ENT-031-2007 | REV-2025.1 | Leona Park | recorded | 14% | Current) Tj
+T*
+(Operations support row 8 for legal-hold delivery gap; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CUR-09 | 2025-01-22 | ENT-031-1007 | REV-2025.1 | Adrian Mensah | confirmed | 13% | Current) Tj
+T*
+(Operations support row 9 for legal-hold delivery gap; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CUR-10 | 2025-01-25 | ENT-031-1007 | REV-2025.1 | Amara Patel | superseded | $118,363.00 |) Tj
+T*
+(Current Operations support row 10 for legal-hold delivery gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CUR-11 | 2025-01-28 | ENT-031-1007 | REV-2025.1 | Micah Sullivan | confirmed | 9% | Current) Tj
+T*
+(Operations support row 11 for legal-hold delivery gap; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CUR-12 | 2025-01-31 | ENT-031-1007 | REV-2025.1 | Lena Varga | pending | 17% | Current) Tj
+T*
+(Operations support row 12 for legal-hold delivery gap; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CUR-13 | 2025-02-03 | ENT-031-1007 | REV-2025.1 | Rafael Okafor | pending | $287,946.00 |) Tj
+T*
+(Current Operations support row 13 for legal-hold delivery gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CUR-14 | 2025-02-06 | ENT-031-1007 | REV-2025.1 | Priya Raman | confirmed | 12% | Current) Tj
+T*
+(Operations support row 14 for legal-hold delivery gap; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CUR-15 | 2025-02-09 | ENT-031-1007 | REV-2025.1 | Jonas Feld | pending | 19% | Current) Tj
+T*
+(Operations support row 15 for legal-hold delivery gap; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CUR-16 | 2025-02-12 | ENT-031-1007 | REV-2025.1 | Leona Park | superseded | $729,967.00 |) Tj
+T*
+(Current Operations support row 16 for legal-hold delivery gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CUR-17 | 2025-02-15 | ENT-031-1007 | REV-2025.1 | Adrian Mensah | superseded | 21% | Current) Tj
+T*
+(Operations support row 17 for legal-hold delivery gap; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CUR-18 | 2025-02-18 | ENT-031-1007 | REV-2025.1 | Amara Patel | confirmed | 27% | Current) Tj
+T*
+(Operations support row 18 for legal-hold delivery gap; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+() Tj
+T*
+(CHRONOLOGY) Tj
+T*
+(2026-02-03 | native population opened | Adrian Mensah | CB-DOC-031-032) Tj
+T*
+(2026-02-09 | custodian boundary confirmed | Henry Cho | CBP-031-08) Tj
+T*
+(2026-02-15 | export created | Owen Delgado | CB-DOC-031-032) Tj
+T*
+(2026-02-21 | cross-system identifier checked | Rafael Okafor | CBP-031-08) Tj
+T*
+(2026-02-27 | revision retained | Elliot Mercer | CB-DOC-031-032) Tj
+T*
+(2026-03-05 | matter copy collected | Caleb Hassan | CBP-031-08) Tj
+T*
+() Tj
+T*
+(RELATED NATIVE RECORDS) Tj
+T*
+(CB-DOC-031-043) Tj
+T*
+(CB-DOC-031-061) Tj
+T*
+(CB-DOC-031-079) Tj
+T*
+(CB-DOC-031-007) Tj
+T*
+() Tj
+T*
+(Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are) Tj
+T*
+(fictitious; the record is not legal advice.) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000052 00000 n 
+0000000101 00000 n 
+0000000164 00000 n 
+0000000290 00000 n 
+0000004674 00000 n 
+0000004800 00000 n 
+0000009044 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+9112
+%%EOF

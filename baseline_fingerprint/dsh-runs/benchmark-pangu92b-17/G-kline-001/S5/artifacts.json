@@ -1,0 +1,68 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "kline_600519.png",
+    "mt_candle.png",
+    "mt_candle_v2.png"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "kline_600519.png",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-marketing-kline-000/S5/artifacts/kline_600519.png",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792968350000000000,
+      "type": "file",
+      "size": 279739,
+      "sha256": "94cf4f96fe7e49c36c9526d3d2fff7f59a8f08e15de48b26c4e0b881d77cb18b"
+    },
+    {
+      "path": "mt_candle.png",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-marketing-kline-000/S5/artifacts/mt_candle.png",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792968234000000000,
+      "type": "file",
+      "size": 247126,
+      "sha256": "ec43dc616bf7239e9aa51b2fe2b5037ce28c25674dda85c9c171f71e8ab851f8"
+    },
+    {
+      "path": "mt_candle_v2.png",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-marketing-kline-000/S5/artifacts/mt_candle_v2.png",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792968387000000000,
+      "type": "file",
+      "size": 279739,
+      "sha256": "94cf4f96fe7e49c36c9526d3d2fff7f59a8f08e15de48b26c4e0b881d77cb18b"
+    }
+  ],
+  "entries": {
+    "kline_600519.png": {
+      "mode": 384,
+      "mtime_ns": 1792968350000000000,
+      "type": "file",
+      "size": 279739,
+      "sha256": "94cf4f96fe7e49c36c9526d3d2fff7f59a8f08e15de48b26c4e0b881d77cb18b"
+    },
+    "mt_candle.png": {
+      "mode": 384,
+      "mtime_ns": 1792968234000000000,
+      "type": "file",
+      "size": 247126,
+      "sha256": "ec43dc616bf7239e9aa51b2fe2b5037ce28c25674dda85c9c171f71e8ab851f8"
+    },
+    "mt_candle_v2.png": {
+      "mode": 384,
+      "mtime_ns": 1792968387000000000,
+      "type": "file",
+      "size": 279739,
+      "sha256": "94cf4f96fe7e49c36c9526d3d2fff7f59a8f08e15de48b26c4e0b881d77cb18b"
+    }
+  },
+  "deleted_entries": {}
+}

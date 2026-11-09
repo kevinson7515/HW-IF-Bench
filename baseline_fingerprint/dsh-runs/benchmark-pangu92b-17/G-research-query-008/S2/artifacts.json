@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "output",
+    "output/机器学习深度学习优化材料成分配比研究报告.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "output/机器学习深度学习优化材料成分配比研究报告.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-research-query-008/S2/artifacts/output/机器学习深度学习优化材料成分配比研究报告.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792953539000000000,
+      "type": "file",
+      "size": 22313,
+      "sha256": "2ca7bac9d89c5fb66908874382af3f182f2b69e7b3d1d53934d4c61288e6ad48"
+    }
+  ],
+  "entries": {
+    "output": {
+      "mode": 448,
+      "mtime_ns": 1792953539000000000,
+      "type": "directory"
+    },
+    "output/机器学习深度学习优化材料成分配比研究报告.md": {
+      "mode": 384,
+      "mtime_ns": 1792953539000000000,
+      "type": "file",
+      "size": 22313,
+      "sha256": "2ca7bac9d89c5fb66908874382af3f182f2b69e7b3d1d53934d4c61288e6ad48"
+    }
+  },
+  "deleted_entries": {}
+}

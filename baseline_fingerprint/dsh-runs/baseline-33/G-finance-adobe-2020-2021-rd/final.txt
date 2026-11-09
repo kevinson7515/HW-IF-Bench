@@ -1,0 +1,40 @@
+# Adobe 研发费用（R&D）两年提取与同比增幅
+
+## 一、两年研发费用（计量单位：百万美元，$ in millions）
+
+| 财年 | 研发费用（Research and development） | 数据来源 |
+|------|--------------------------------------|----------|
+| 2020 财年（截至 2020-11-27） | **$2,188 百万** | 2020 年 10-K，合并利润表（Consolidated Statements of Income），Operating expenses 项下 Research and development，第 63 页 |
+| 2021 财年（截至 2021-12-03） | **$2,540 百万** | 2021 年 10-K，合并利润表（Consolidated Statements of Income），Operating expenses 项下 Research and development，第 56 页 |
+
+两处均为利润表「营业费用（Operating expenses）」中的「研究及开发（Research and development）」行项目，计量单位为**百万美元**，未经四舍五入到个位（表中 $2,188、$2,540 即 $2,188 百万、$2,540 百万）。
+
+## 二、同比增幅计算
+
+**计算公式：**
+
+\[
+\text{同比增幅} = \frac{\text{2021年研发费用} - \text{2020年研发费用}}{\text{2020年研发费用}} \times 100\%
+\]
+
+**代入数值：**
+
+\[
+\frac{2{,}540 - 2{,}188}{2{,}188} \times 100\% = \frac{352}{2{,}188} \times 100\% = 16.09\% \approx 16.1\%
+\]
+
+**结论：** 2021 财年研发费用相对 2020 财年同比增长 **约 16.1%**（精确值 16.09%，四舍五入至一位小数为 16.1%）。
+
+**交叉验证：** 2021 年 10-K 管理层讨论与分析（MD&A，Operating Expenses 一节，第 46 页）中，Adobe 自行披露的研发费用「2021-2020 变动百分比（% Change 2021-2020）」即为 **16%**，与上述计算一致（差异仅为四舍五入口径）。
+
+## 三、证据来源
+
+1. **ADOBE_2020_10K.pdf**
+   - 第 63 页《ADOBE INC. CONSOLIDATED STATEMENTS OF INCOME》：`Research and development 2,188`（2020 列），表中载明单位为 "(In millions, except per share data)"。
+   - 第 51 页 MD&A《Operating Expenses》：表中 `Research and development $ 2,188`（2020 列）。
+
+2. **ADOBE_2021_10K.pdf**
+   - 第 56 页《ADOBE INC. CONSOLIDATED STATEMENTS OF INCOME》：`Research and development 2,540`（2021 列），单位为 "(In millions, except per share data)"。
+   - 第 46 页 MD&A《Operating Expenses》：表中 `Research and development $ 2,540 $ 2,188 $ 1,930`，且「% Change 2021-2020」一栏标注 **16 %**，并同时列示 2020 年对比数 $2,188，与 2020 年报披露口径一致。
+
+**说明：** 两份年报采用不同财年截止日（FY2020 截至 2020-11-27，FY2021 截至 2021-12-03），但均以「百万美元」为计量单位、以利润表「营业费用—研究与开发」为统一口径，因此两年数据可直接进行同比计算。

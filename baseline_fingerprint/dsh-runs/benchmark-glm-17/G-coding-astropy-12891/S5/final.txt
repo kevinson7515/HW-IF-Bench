@@ -1,0 +1,30 @@
+任务完成。四个交付文件已按 astropy PR #12891（发布于 astropy 5.1）完成修改并通过多版本验证。
+
+## 修改内容
+
+**`astropy/units/quantity.py`**
+- 新增导入 `from astropy.utils.compat import NUMPY_LT_1_20, NUMPY_LT_1_22`
+- `var`/`std`/`mean`：用 `if NUMPY_LT_1_20: ... else: ...` 成对定义 —— 旧版 NumPy 保持原签名，新版增加 `*, where=True` 并透传给 `_wrap_function`
+- `nansum`：用 `NUMPY_LT_1_22` 守卫 —— 仅在 NumPy ≥ 1.22 时增加 `*, initial=None, where=True`（[NumPy 1.22 发行说明](https://numpy.org/doc/2.2/release/1.22.0-notes.html) 中 `np.nansum` 才接受这两个参数）
+
+**`astropy/utils/masked/core.py`**（与 5.1 逐字节一致）
+- `mean`/`var`/`std`/`any`/`all` 增加 `*, where=True`；掩码语义为 `where_final = ~self.mask & where`，元素个数用 `np.add.reduce(where, axis=axis, keepdims=keepdims)` 计算
+
+**两个测试文件**：新增 14 个 `*_where` 测试（Quantity 7 个、Masked 7 个，后者按 axis 参数化），旧版 NumPy 用 `@pytest.mark.xfail(NUMPY_LT_1_20/1_22, ...)` 标注，均与上游 5.1 逐字一致。
+
+## 验证（E2B：Python 3.10/3.9 + astropy 5.0.1 基线覆盖）
+
+| 环境 | test_quantity_array_methods | test_masked |
+|---|---|---|
+| numpy 1.23.5 | 67 passed（原 60） | 560 passed（原 488） |
+| numpy 1.21.6 | 66 passed, 1 xfailed（nansum） | 560 passed |
+| numpy 1.19.5 | 63 passed, 4 xfailed | 515 passed, 45 xfailed |
+
+- numpy 1.19 下签名正确回退到旧形式（`mean()` 无 `where`）；numpy 1.21 下 `nansum(initial=..., where=...)` 按设计拒绝（`TypeError`）
+- 单位保持验证：`mean→m`、`var→m²`、`std→m`、`nansum→m`；`out=` 语义不变
+- 掩码传播验证：data 与 mask 均与 `~mask & where` 语义下的期望值一致；`min/max` 的 `initial` 仍受支持
+- `utils/masked/tests/` 全目录 920 passed；`units/tests/` 除 3 个与本次无关的既有环境性失败（`test_pvstar`、`test_thread_safety` 在原生 5.0.1 上同样失败；`test_multiplication_division` 因附件基线本身不含 `__rdiv__`）外全部通过
+- 保留的与 5.1 差异仅为附件原有、不属于本 PR 的部分（import 分组风格、`latex_inline`、numpy/pytest 导入顺序）；两文件与 5.1 逐字节一致
+- 四个文件均通过语法检查且恰以单个换行符结尾
+
+实现与上游 astropy 5.1 changelog 所述条目一致（[docs.astropy.org](https://docs.astropy.org/en/stable/changelog.html)）；参考来源为 [PyPI sdists](https://files.pythonhosted.org/) 与 docs.astropy.org / numpy.org，未使用 github.com。

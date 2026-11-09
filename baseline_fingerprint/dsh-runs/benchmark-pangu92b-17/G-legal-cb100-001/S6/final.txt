@@ -1,0 +1,1 @@
+I now have the master population (12 portfolio keys) and the full evidence for keys 01, 05, 09. The remaining records (in txt/eml/csv/xml/html/pdf formats) must cover keys 02–12. Let me read them.

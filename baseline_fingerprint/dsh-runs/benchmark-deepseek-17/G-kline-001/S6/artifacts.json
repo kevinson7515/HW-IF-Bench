@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "stock-analysis",
+    "stock-analysis/moutai_1y.csv",
+    "stock-analysis/moutai_kline.png"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "stock-analysis/moutai_1y.csv",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1890615/G-marketing-kline-000/S6/artifacts/stock-analysis/moutai_1y.csv",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792833694000000000,
+      "type": "file",
+      "size": 30359,
+      "sha256": "000eff7ff748c091cedd4f50728a26ed7e53587f4a35f30dade8cb3bf14d8842"
+    },
+    {
+      "path": "stock-analysis/moutai_kline.png",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1890615/G-marketing-kline-000/S6/artifacts/stock-analysis/moutai_kline.png",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792833694000000000,
+      "type": "file",
+      "size": 201706,
+      "sha256": "8f588529f23c965123e66a5ff94bd5d0f8a6d92692a600123f2a34e6ab4fd084"
+    }
+  ],
+  "entries": {
+    "stock-analysis": {
+      "mode": 448,
+      "mtime_ns": 1792833694000000000,
+      "type": "directory"
+    },
+    "stock-analysis/moutai_1y.csv": {
+      "mode": 384,
+      "mtime_ns": 1792833694000000000,
+      "type": "file",
+      "size": 30359,
+      "sha256": "000eff7ff748c091cedd4f50728a26ed7e53587f4a35f30dade8cb3bf14d8842"
+    },
+    "stock-analysis/moutai_kline.png": {
+      "mode": 384,
+      "mtime_ns": 1792833694000000000,
+      "type": "file",
+      "size": 201706,
+      "sha256": "8f588529f23c965123e66a5ff94bd5d0f8a6d92692a600123f2a34e6ab4fd084"
+    }
+  },
+  "deleted_entries": {}
+}

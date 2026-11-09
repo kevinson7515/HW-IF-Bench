@@ -1,0 +1,21 @@
+修复完成。
+
+**问题**：`parse_text` 对 `text.split()` 的结果直接访问 `tokens[0]` 和 `tokens[1]`，空输入（或纯空白输入）时 `tokens` 为空列表，导致 `IndexError: list index out of range`。
+
+**修复**：在取索引前做长度判断，缺少对应 token 时回退为空字符串：
+
+```python
+command = tokens[0] if tokens else ""
+argument = tokens[1] if len(tokens) > 1 else ""
+```
+
+**验证结果**（在 E2B 沙箱中实际运行）：
+
+| 输入 | 输出 |
+|------|------|
+| `""`（空） | `{'command': '', 'argument': ''}` |
+| `"   "`（纯空白） | `{'command': '', 'argument': ''}` |
+| `"hello"`（单 token） | `{'command': 'hello', 'argument': ''}` |
+| `"cmd arg extra"` | `{'command': 'cmd', 'argument': 'arg'}` |
+
+空输入不再抛出异常，同时顺带修复了单 token 输入（`tokens[1]` 越界）的同类隐患。

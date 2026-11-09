@@ -1,0 +1,59 @@
+CONFIDENTIAL SOURCE RECORD
+
+SALES-TAX NEXUS GAP
+RECORD: CB-DOC-001-010
+MATTER: CB-MA-2401
+PORTFOLIO KEY: CBP-001-10
+SOURCE SYSTEM: NetSuite close workbook
+EVIDENCE ROLE: identity_crosswalk
+ENTITY KEY: ENT-001-1009
+REFERENCED REVISION: REV-2025.3
+CURRENT REVISION: REV-2025.3
+CUSTODIAN: Nadine Flores
+REVIEWER: Nadine Flores
+
+NATIVE RECORD
+Crosswalk revision REV-2025.3 maps portfolio key CBP-001-10 and legal name Helios Forge, Inc. — Sales-Tax Nexus Gap record 10 to immutable entity ENT-001-1009. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+
+SOURCE LINEAGE
+NetSuite close workbook produced native record CB-DOC-001-010 for CB-MA-2401. Nadine Flores owns the source population and Nadine Flores recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns sales-tax nexus gap within Project Daybreak battery acquisition. A carve-out manufacturer owns cathode tooling in Nevada while its largest automaker customer can terminate upon an indirect change of control. The record addresses one part of the broader question: Match the cathode-tooling records and automaker consent history to the exact acquired entity.
+
+NATIVE RECORD
+Crosswalk revision REV-2025.3 maps portfolio key CBP-001-10 and legal name Helios Forge, Inc. — Sales-Tax Nexus Gap record 10 to immutable entity ENT-001-1009. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+
+RELIANCE LIMITS
+This file supplies identity crosswalk evidence for CBP-001-10. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SCHEDULE 1 — NATIVE ROWS
+CBP-001-10-IDE-01 | 2025-05-11 | ENT-001-1009 | REV-2025.3 | Caleb Hassan | pending | $421,742.00 | Identity Crosswalk support row 1 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-IDE-02 | 2025-05-14 | ENT-001-1009 | REV-2025.3 | Sofia Bennett | pending | 9% | Identity Crosswalk support row 2 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-IDE-03 | 2025-05-17 | ENT-001-1009 | REV-2025.3 | Theo Laurent | superseded | 18% | Identity Crosswalk support row 3 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-IDE-04 | 2025-05-20 | ENT-001-1009 | REV-2025.3 | Nadine Flores | confirmed | $986,297.00 | Identity Crosswalk support row 4 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-IDE-05 | 2025-05-23 | ENT-001-1009 | REV-2025.3 | Owen Delgado | confirmed | 23% | Identity Crosswalk support row 5 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-IDE-06 | 2025-05-26 | ENT-001-1009 | REV-2025.3 | Maya Ellison | recorded | 27% | Identity Crosswalk support row 6 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-IDE-07 | 2025-05-29 | ENT-001-1009 | REV-2025.3 | Dominic Alvarez | pending | $450,906.00 | Identity Crosswalk support row 7 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-IDE-08 | 2025-06-01 | ENT-001-2009 | REV-2025.3 | Talia Brooks | recorded | 19% | Identity Crosswalk support row 8 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-IDE-09 | 2025-06-04 | ENT-001-1009 | REV-2025.3 | Caleb Hassan | confirmed | 19% | Identity Crosswalk support row 9 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-IDE-10 | 2025-06-07 | ENT-001-1009 | REV-2025.3 | Sofia Bennett | superseded | $985,419.00 | Identity Crosswalk support row 10 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-IDE-11 | 2025-06-10 | ENT-001-1009 | REV-2025.3 | Theo Laurent | recorded | 8% | Identity Crosswalk support row 11 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-IDE-12 | 2025-06-13 | ENT-001-1009 | REV-2025.3 | Nadine Flores | superseded | 11% | Identity Crosswalk support row 12 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-IDE-13 | 2025-06-16 | ENT-001-1009 | REV-2025.3 | Owen Delgado | recorded | $939,240.00 | Identity Crosswalk support row 13 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-IDE-14 | 2025-06-19 | ENT-001-1009 | REV-2025.3 | Maya Ellison | recorded | 23% | Identity Crosswalk support row 14 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-IDE-15 | 2025-06-22 | ENT-001-1009 | REV-2025.3 | Dominic Alvarez | confirmed | 4% | Identity Crosswalk support row 15 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-IDE-16 | 2025-06-25 | ENT-001-1009 | REV-2025.3 | Talia Brooks | confirmed | $279,237.00 | Identity Crosswalk support row 16 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-IDE-17 | 2025-06-28 | ENT-001-1009 | REV-2025.3 | Caleb Hassan | recorded | 5% | Identity Crosswalk support row 17 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-IDE-18 | 2025-07-01 | ENT-001-1009 | REV-2025.3 | Sofia Bennett | confirmed | 12% | Identity Crosswalk support row 18 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+
+SCHEDULE 2 — CHRONOLOGY
+2025-07-03 | native population opened | Caleb Hassan | CB-DOC-001-010
+2025-07-09 | custodian boundary confirmed | Adrian Mensah | CBP-001-10
+2025-07-15 | export created | Henry Cho | CB-DOC-001-010
+2025-07-21 | cross-system identifier checked | Owen Delgado | CBP-001-10
+2025-07-27 | revision retained | Rafael Okafor | CB-DOC-001-010
+2025-08-02 | matter copy collected | Elliot Mercer | CBP-001-10
+
+PROVENANCE
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

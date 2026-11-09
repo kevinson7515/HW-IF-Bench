@@ -1,0 +1,21 @@
+{
+  "line": 15,
+  "id": 15,
+  "user_query": "What is the FY2018 capital expenditure amount (in USD millions) for 3M? Give a response to the question by relying on the details shown in the cash flow statement.",
+  "effective_query": "What is the FY2018 capital expenditure amount (in USD millions) for 3M? Give a response to the question by relying on the details shown in the cash flow statement.\n\nAttached files are available at the following paths. Read them as needed:\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_15/3M_2018_10K.pdf",
+  "attached_files": [
+    "attached_files/task_15/3M_2018_10K.pdf"
+  ],
+  "resolved_attached_files": [
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_15/3M_2018_10K.pdf"
+  ],
+  "archived_attachments": [
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_15/3M_2018_10K.pdf",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1853564/000015-15/inputs/attached_files/task_15/3M_2018_10K.pdf",
+      "size": 1252586,
+      "sha256": "faf10c53fc6f1a8aa346ec3db79145e3ae6fbb3753c8064924e174d0a973934d"
+    }
+  ],
+  "started_at": "2026-10-18T11:25:14.006896+00:00"
+}

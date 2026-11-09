@@ -1,0 +1,11 @@
+**Gross margin is not a relevant metric for JPMorgan Chase, so the question doesn't have a meaningful answer.**
+
+Why:
+
+- **JPMorgan is a financial holding company (bank), not a producer of goods.** Its 2022 10-K income statement has no "cost of goods sold" or "cost of revenue" line at all. Gross margin is defined as (revenue − COGS) / revenue, so without COGS the metric cannot be computed.
+- **Its income statement is structured differently.** Revenue is split into *Noninterest revenue* ($61,985M in 2022) and *Net interest income* ($66,710M), totaling *Total net revenue* ($128,695M). Below that are *Provision for credit losses* ($6,389M) and *Noninterest expense* ($76,140M — compensation, occupancy, technology, professional services, marketing, etc.).
+- **Its costs are operating expenses and credit provisions, not production costs.** The Firm's expense base is headcount, technology, and occupancy, plus loan-loss reserves — fundamentally different from the input-cost structure gross margin is meant to measure.
+
+The metrics that actually matter for a bank like JPMorgan are: **net interest margin**, **efficiency/overhead ratio**, **return on equity (14% in 2022)**, **CET1 ratio (13.2%)**, and **provision for credit losses**.
+
+So rather than "historically consistent gross margins," the right framing is that JPMorgan doesn't report gross margin at all — it's a non-sequitur for a bank.

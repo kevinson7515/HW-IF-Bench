@@ -1,0 +1,50 @@
+我已完成对 Kwame Asante 先生 Rho-Bank Gold Rewards 信用卡的核对与争议处理。以下是完整处理结果。
+
+## 一、身份核实
+
+已按政策完成身份验证（姓名 + 用户 ID 与系统中能够匹配的 4 项身份字段中的 ≥2 项比对通过，并登记验证记录）：
+
+| 字段 | 值 |
+|---|---|
+| 姓名 | Kwame Asante |
+| 用户 ID | `01f21c9970` |
+| 卡账号 | `cc_01f21c9970_gold`（Gold Rewards Card） |
+| 电话 | 215-555-0267 |
+| 邮箱 | midnight_runner_42@gmail.com |
+| 地址 | 4532 Magnolia Lane, Philadelphia, PA 19103 |
+| 出生日期 | 11/22/1983 |
+| 卡末四位 | 1652 |
+
+## 二、交易核对（仅处理个人 Gold 卡）
+
+该卡名下共有 **8 笔 Costco** 与 **10 笔 Amazon** 交易。按您的说明，仅对您指认的 **4 笔 Costco + 4 笔 Amazon** 提出争议，其余正常交易（Costco $156.78 / $89.43 / $178.92 / $145.67，Amazon $47.99 / $78.32 / $34.89 / $89.99 / $267.45 / $183.24）**一律保持不变**。您名下的 **Business Gold Rewards Card（`cc_01f21c9970_bgold`）** 上的 Costco $342.78、Amazon $287.34 等属于另一张卡，未做任何改动。
+
+## 三、8 笔争议（已按临时信用最大化顺序提交）
+
+临时信用政策要点：仅「欺诈 / 重复扣款」两类理由具备资格，且过去 12 个月内累计不超过 3 笔可得临时信用。故将 **金额最大的 3 笔** 优先提交以取得临时信用，其余不可获得。
+
+| # | 交易 ID | 商户/金额/日期 | 争议理由 (dispute_reason) | 已联系商户 | 解决请求 | 临时信用 |
+|---|---|---|---|---|---|---|
+| 1 | `txn_f7ce44574766` | Costco $312.87 · 10/23 | `duplicate_charge` 重复扣款 | 是 | full_refund | ✅ 是 |
+| 2 | `txn_a450807f1148` | Costco $234.56 · 10/09 | `unauthorized_fraudulent_charge` 欺诈 | 否 | full_refund | ✅ 是 |
+| 3 | `txn_182e896e1c97` | Amazon $215.67 · 10/26 | `duplicate_charge` 重复扣款 | 是 | full_refund | ✅ 是 |
+| 4 | `txn_2f16599b9075` | Amazon $129.45 · 10/11 | `unauthorized_fraudulent_charge` 欺诈 | 否 | full_refund | ❌（第4笔，超出3笔上限） |
+| 5 | `txn_39469d5db822` | Costco $267.34 · 11/04 | `goods_services_not_as_described` 货不对板 | 是 | full_refund | ❌（理由不符） |
+| 6 | `txn_02bf2e9dcfa7` | Costco $198.23 · 11/11 | `incorrect_amount` 金额错误 | 是 | partial_refund **$50.00** | ❌（理由不符） |
+| 7 | `txn_b94ce7d77e7f` | Amazon $162.54 · 11/06 | `canceled_subscription_still_charging` 已取消订阅仍扣费 | 是 | full_refund | ❌（理由不符） |
+| 8 | `txn_d8e6e3386b89` | Amazon $56.78 · 11/13 | `refund_never_processed` 退款未到账 | 是 | full_refund | ❌（理由不符） |
+
+说明：
+- 全部争议 `card_action = cancel_and_reissue`（因涉欺诈，整卡注销换发）。
+- 第 6 笔（Costco $198.23，正确应为 $148.23）按多收的 $50 做部分退款退款申请，`partial_refund_amount = 50.00`。
+- `purchase_date` 取各笔交易日期，`issue_noticed_date = 11/14/2025`（今天）。
+- 生成争议编号：`dsp_79b3afb59a1c`、`dsp_2750795ffe7e`、`dsp_724e3fc6e879`、`dsp_6d3fd7ab85a6`、`dsp_3c5949045042`、`dsp_edef92593e79`、`dsp_be27e065e12d`、`dsp_e2af0fee3326`。
+
+## 四、卡片注销与补发（涉欺诈，按政策处理）
+
+- 调用 `order_replacement_credit_card_7291`，理由 `fraud_suspected`，旧卡已**自动注销**（新购无法使用）。
+- 收货地址：4532 Magnolia Lane, Philadelphia, PA 19103。
+- 采用**加急寄送**（Gold 卡属于 Premium 及以上层级，加急 0 费用，2–3 个工作日，缩短风险窗口）。
+- 新卡保留同一账号号码，但**卡号与 CVV 更新**；订单编号 `ccord_971bf29f448e`。
+
+全部流程已完成：8 笔争议已按正确理由与顺序提交，正常交易未受影响，旧卡已按欺诈政策注销并受理补发。收到新卡后请在各商家更新卡信息，并在 App/网页确认新的争议受理状态。

@@ -1,0 +1,14 @@
+Audit complete. Selected the only authorized approach, `arcadia-genomics:scoped-evidence` (8 supported actions, 4 evidence holds, $15,600).
+
+**8 supported** (all four controls pass): CBP-061-01–06, -10, -12.
+**4 evidence holds** (missing control):
+- **07** approval — owner Isaac Romero pending/inactive, capacity 0 (CB-DOC-061-043)
+- **08** revision — all records cite superseded REV-2024.0 vs current REV-2025.1 (008/020/032/044)
+- **09** identity — key maps to both ENT-061-1008 and ENT-061-2008, collision unresolved (009)
+- **11** current operations — certification 190 records (035) vs operative population 216 (023)
+
+**Committed:** `attached_files/task_11/matter_closeout/review_disposition_register.md` (system of record, one row per key) and `review_note.md` (approach, holds, anchors, alternatives, limits).
+
+**Verified:** both files re-read from disk; all 96 exports re-parsed and every register row re-checked against the re-opened records — all match.
+
+Slack reply to C00000061 thread 1760000061.000005 remains, as no Slack tool exists here.

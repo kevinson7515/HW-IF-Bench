@@ -1,0 +1,24 @@
+## Short answer
+
+**Gross margin is not a relevant metric for JPMorgan Chase, and the company does not report one.** The metric can't be computed meaningfully because the bank has no "cost of goods sold" to subtract from revenue.
+
+## Why gross margin doesn't apply
+
+Gross margin is defined as **(Revenue − Cost of Goods Sold) ÷ Revenue**. It is meaningful only for companies that produce or buy goods/services for resale (manufacturers, retailers, restaurants, etc.). JPMorgan Chase is a bank and financial-services firm — it doesn't manufacture or sell goods, so its income statement has no "cost of goods sold" or "cost of sales" line at all.
+
+I confirmed this directly in the attached 2022 Form 10-K: searching the full text returned **zero** occurrences of "gross margin," "gross profit," "cost of goods sold," or "cost of sales."
+
+## What JPMorgan's income statement actually looks like
+
+The consolidated statements of income (10-K p. 161) show JPMorgan's revenue as **"Total net revenue,"** which is the sum of:
+
+- **Net interest income** ($66.7B in 2022) — the spread between interest earned on loans/securities and interest paid on deposits/borrowings, and
+- **Noninterest revenue** ($62.0B in 2022) — investment banking fees, principal transactions, asset-management/administration/commission fees, card income, lending- and deposit-related fees, etc.
+
+There is no "gross profit" step. Below total net revenue, the statement moves directly to provision for credit losses and **total noninterest expense** (compensation, occupancy, technology, etc.), then to pre-tax income.
+
+## The bank's actual "margin" analogs
+
+If you want the margin-like measure of profitability that *does* apply to JPMorgan, it's the **net interest margin** (a.k.a. "net yield on interest-earning assets") — reported at **2.00%** for 2022, alongside an **interest-rate spread of 1.76%** (10-K p. 294). These are the figures analysts track for consistency year over year, not gross margin.
+
+**Bottom line:** gross margin is inapplicable here, so the question of whether it "fluctuates more than ~2% each year" is moot — the metric is undefined for a bank's business model.

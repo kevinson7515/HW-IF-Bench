@@ -1,0 +1,14 @@
+## Verdict: The hypothesis is **supported, with important caveats**.
+
+**Evidence supporting it:**
+- **Roanoke–Blacksburg (ROA):** ~827,000 passengers (2025) → **$613M total output, 3,200+ jobs, $193M wages** ([flyroa.com](https://flyroa.com/social-toolkit)).
+- **Erie-Ottawa International (ERI):** **$97.27M impact, 751 jobs, $27.9M payroll** ([ODOT via Facebook](https://www.facebook.com/ottawacountyimprovementcorporation/posts/9727-million-in-annual-economic-impact-751-jobs-2787-million-in-payrollnew-data-/1450825650416139/)).
+- **McKinney National (TKI):** **1,560 jobs, $110M wages, $165M GDP, $299M to region** ([flytki.com](https://flytki.com/), [mckinneytexas.org](https://www.mckinneytexas.org/3444/Economic-Impact)).
+- **Aggregate:** U.S. commercial airports → **$1.8T output, 12.8M jobs** ([ACI-NA](https://airportscouncil.org/intelligence/economic-impact-study/)).
+
+**Evidence cautioning/refining:**
+- **Pauwels et al. (2025):** small regional airports (Antwerp, Ostend-Bruges) contribute **"considerably less" added value** and lower impact per subsidy ([ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0969699725001176)).
+- **Button, Doh & Yuan (2010):** prior studies show **"little clear evidence"** of a strong positive correlation; **causation is ambiguous** (airports may follow growth, not drive it) ([IDEAS](https://ideas.repec.org/a/aza/jam000/y2010v4i2p125-136.html)).
+- **Pot & Koster (2022):** the small-airport → regional-growth link is **mixed** ([ScienceDirect](https://www.sciencedirect.com/science/article/pii/S096669232100315X)).
+
+**Conclusion:** An airport at ~500k passengers typically generates **hundreds of millions in output and hundreds to low thousands of jobs**, so the impact is *measurable and often significant* — but it is **highly context-dependent** (connectivity, cargo, tourism, catchment size) and **not automatically causal**. The 500k threshold itself is meaningful: ACI EUROPE treats sub-500k airports as a distinct, structurally weaker category ([ACI EUROPE 2025](https://www.aci-europe.org/downloads/resources/ACI%20EUROPE%20Policy%20Briefing%202025.pdf)).

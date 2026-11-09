@@ -1,0 +1,59 @@
+CONFIDENTIAL SOURCE RECORD
+
+NOTICE-PRACTICE MISMATCH
+RECORD: CB-DOC-061-050
+MATTER: CB-PR-3001
+PORTFOLIO KEY: CBP-061-02
+SOURCE SYSTEM: ServiceNow privacy queue
+EVIDENCE ROLE: correspondence
+ENTITY KEY: ENT-061-1001
+REFERENCED REVISION: REV-2025.2
+CURRENT REVISION: REV-2025.2
+CUSTODIAN: Lena Varga
+REVIEWER: Lena Varga
+
+NATIVE RECORD
+The business owner asks whether the notice-practice mismatch receipt used notices-arcadia_genomics_inc@example.test under CB-PR-3001-E728. The counterparty points to notice-practice mismatch notices must use notices-arcadia_genomics_inc@example.test under CB-PR-3001-R888. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+
+SOURCE LINEAGE
+ServiceNow privacy queue produced native record CB-DOC-061-050 for CB-PR-3001. Lena Varga owns the source population and Lena Varga recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns notice-practice mismatch within Arcadia genomic data response audit. A consumer access request exposes inconsistencies among genomic-data notices, deletion jobs, vendors, and overseas research transfers. The record addresses one part of the broader question: Join requester identity, genomic data inventory, vendor copies, deletion jobs, and research transfers.
+
+NATIVE RECORD
+The business owner asks whether the notice-practice mismatch receipt used notices-arcadia_genomics_inc@example.test under CB-PR-3001-E728. The counterparty points to notice-practice mismatch notices must use notices-arcadia_genomics_inc@example.test under CB-PR-3001-R888. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+
+RELIANCE LIMITS
+This file supplies correspondence evidence for CBP-061-02. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SCHEDULE 1 — NATIVE ROWS
+CBP-061-02-COR-01 | 2025-01-27 | ENT-061-1001 | REV-2025.2 | Adrian Mensah | confirmed | $128,469.00 | Correspondence support row 1 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-COR-02 | 2025-01-30 | ENT-061-1001 | REV-2025.2 | Amara Patel | pending | 20% | Correspondence support row 2 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-COR-03 | 2025-02-02 | ENT-061-1001 | REV-2025.2 | Micah Sullivan | pending | 15% | Correspondence support row 3 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-COR-04 | 2025-02-05 | ENT-061-1001 | REV-2025.2 | Lena Varga | pending | $941,134.00 | Correspondence support row 4 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-COR-05 | 2025-02-08 | ENT-061-1001 | REV-2025.2 | Rafael Okafor | recorded | 13% | Correspondence support row 5 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-COR-06 | 2025-02-11 | ENT-061-1001 | REV-2025.2 | Priya Raman | superseded | 14% | Correspondence support row 6 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-COR-07 | 2025-02-14 | ENT-061-1001 | REV-2025.2 | Jonas Feld | recorded | $575,348.00 | Correspondence support row 7 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-COR-08 | 2025-02-17 | ENT-061-2001 | REV-2025.2 | Leona Park | recorded | 26% | Correspondence support row 8 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-COR-09 | 2025-02-20 | ENT-061-1001 | REV-2025.2 | Adrian Mensah | superseded | 8% | Correspondence support row 9 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-COR-10 | 2025-02-23 | ENT-061-1001 | REV-2025.2 | Amara Patel | superseded | $798,875.00 | Correspondence support row 10 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-COR-11 | 2025-02-26 | ENT-061-1001 | REV-2025.2 | Micah Sullivan | confirmed | 9% | Correspondence support row 11 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-COR-12 | 2025-03-01 | ENT-061-1001 | REV-2025.2 | Lena Varga | confirmed | 22% | Correspondence support row 12 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-COR-13 | 2025-03-04 | ENT-061-1001 | REV-2025.2 | Rafael Okafor | pending | $985,634.00 | Correspondence support row 13 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-COR-14 | 2025-03-07 | ENT-061-1001 | REV-2025.2 | Priya Raman | pending | 22% | Correspondence support row 14 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-COR-15 | 2025-03-10 | ENT-061-1001 | REV-2025.2 | Jonas Feld | superseded | 5% | Correspondence support row 15 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-COR-16 | 2025-03-13 | ENT-061-1001 | REV-2025.2 | Leona Park | superseded | $778,555.00 | Correspondence support row 16 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-COR-17 | 2025-03-16 | ENT-061-1001 | REV-2025.2 | Adrian Mensah | recorded | 21% | Correspondence support row 17 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+CBP-061-02-COR-18 | 2025-03-19 | ENT-061-1001 | REV-2025.2 | Amara Patel | pending | 2% | Correspondence support row 18 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.
+
+SCHEDULE 2 — CHRONOLOGY
+2024-04-27 | native population opened | Adrian Mensah | CB-DOC-061-050
+2024-05-03 | custodian boundary confirmed | Henry Cho | CBP-061-02
+2024-05-09 | export created | Owen Delgado | CB-DOC-061-050
+2024-05-15 | cross-system identifier checked | Rafael Okafor | CBP-061-02
+2024-05-21 | revision retained | Elliot Mercer | CB-DOC-061-050
+2024-05-27 | matter copy collected | Caleb Hassan | CBP-061-02
+
+PROVENANCE
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

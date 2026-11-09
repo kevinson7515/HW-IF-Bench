@@ -1,0 +1,20 @@
+The E2B sandbox was unavailable throughout this session, so I verified the figure through the identical SEC EDGAR filing of the same 10-K document and cross-checked it against the FY2019 10-K comparatives — both match, and the statement is internally consistent (e.g., operating cash flow of $6,439M matches 3M's reported "$6.4 billion, up $199 million vs. 2017").
+
+## Answer
+
+**3M's FY2018 capital expenditure was $1,577 million (USD).**
+
+Per the **Consolidated Statement of Cash Flows** in 3M's 2018 Form 10-K (the attached `3M_2018_10K.pdf`), under **Cash Flows from Investing Activities**:
+
+| Line item (years ended December 31, millions) | 2018 | 2017 | 2016 |
+| --- | ---: | ---: | ---: |
+| **Purchases of property, plant and equipment (PP&E)** | **(1,577)** | (1,373) | (1,420) |
+
+The capital expenditure amount is the "Purchases of property, plant and equipment (PP&E)" line — a $1,577 million cash outflow in FY2018 (shown in parentheses as a use of cash). For context, the same statement reports net cash provided by operating activities of $6,439 million and net cash provided by investing activities of $222 million in 2018.
+
+**Verification sources** (identical EDGAR filing of the same 10-K, plus the FY2019 10-K comparative column which also shows FY2018 PP&E purchases of $(1,577)M):
+- [3M 2018 Form 10-K — Consolidated Statement of Cash Flows (EDGAR rendering, accession 0001558370-19-000470)](https://investors.3m.com/financials/sec-filings/content/0001558370-19-000470/R9.htm)
+- [3M 2018 Form 10-K (full document)](https://investors.3m.com/financials/sec-filings/content/0001558370-19-000470/mmm-20181231x10k.htm)
+- [3M 2019 Form 10-K — Consolidated Statement of Cash Flows (FY2018 comparative)](https://investors.3m.com/financials/sec-filings/content/0001558370-20-000581/R9.htm)
+
+**Deliverable:** the answer with the supporting cash-flow-statement excerpt has been saved to `output/task_15_3M_FY2018_capex.md` in the workspace.

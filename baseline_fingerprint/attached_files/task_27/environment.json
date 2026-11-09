@@ -1,0 +1,13 @@
+{
+  "benchmark": "tau2-bench",
+  "repo": "https://github.com/sierra-research/tau2-bench",
+  "commit": "033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f",
+  "domain": "retail",
+  "task_id": "22",
+  "language": "en",
+  "source_task_file": "tasks.json",
+  "domain_bundle": "domain_bundle.zip",
+  "scenario_file": "scenario.json",
+  "runner_install": "git clone https://github.com/sierra-research/tau2-bench.git && cd tau2-bench && git checkout 033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f && uv sync --locked",
+  "runner_docs": "https://github.com/sierra-research/tau2-bench/blob/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/docs/running-the-benchmark.md"
+}

@@ -1,0 +1,12 @@
+**Verdict: supported, but the magnitude is context-dependent.**
+
+**Evidence for measurable impact**
+- A study of 570 U.S. small-community airports found they generate $134B in economic activity, ~1M jobs, and $36B in wages — averaging ≈$235M output and ≈1,750 jobs per airport ([RAA](https://raa.org/valuable-service-air-service-to-small-communities-generates-significant-economic-activity/)).
+- Regional connectivity drives growth: a 10% rise in local air traffic was associated with +1,660 regional jobs ([Kotowska 2026](https://www.tandfonline.com/doi/full/10.1080/17421772.2025.2536845)).
+- At 500k passengers, an airport sits well above the ≈200k viability floor below which airports cannot cover operating costs ([ResearchGate](https://www.researchgate.net/publication/322914274_Small_regional_airports_operation_unnecessary_burdens_or_key_to_regional_development)); its direct, indirect, induced, and catalytic effects (jobs, wages, tourism, connectivity) are typically measurable.
+
+**Caveats**
+- Impact scales with regional economy size, isolation, and tourism dependence; input–output studies can overstate (static, peak-year bias).
+- "Significant" is relative: material for a small region, modest in national terms.
+
+*Excluded the two prohibited domains as instructed.*

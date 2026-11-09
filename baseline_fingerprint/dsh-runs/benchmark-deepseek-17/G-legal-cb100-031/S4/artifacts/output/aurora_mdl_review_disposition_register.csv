@@ -1,0 +1,13 @@
+portfolio_key,subject,immutable_entity,disposition,missing_control,gap,owner,identity_anchor,authority_anchor,operations_anchor,approval_anchor
+CBP-031-01,Bates-range overlap,ENT-031-1000,HOLD,approval_and_capacity,pending approval inactive capacity 0; Bates 215 (R753) vs 180 (E138),Samuel Kim,CB-DOC-031-001,CB-DOC-031-013,CB-DOC-031-025,CB-DOC-031-037
+CBP-031-02,Email-family separation,ENT-031-1001,SUPPORTED,,threshold 11% vs result 14% (disclosed),Talia Brooks,CB-DOC-031-002,CB-DOC-031-014,CB-DOC-031-026,CB-DOC-031-038
+CBP-031-03,Request-response mismatch,ENT-031-1002,HOLD,identity+authority+operations,identity collision ENT-031-1002/2002; open blocks completion; open unresolved,Adrian Mensah / Henry Cho,CB-DOC-031-003,CB-DOC-031-015,CB-DOC-031-027,CB-DOC-031-039
+CBP-031-04,Metadata field loss,ENT-031-1003,SUPPORTED,,due 2025-11-27 vs completed 2025-11-25 (met),Farah Ibrahim,CB-DOC-031-004,CB-DOC-031-016,CB-DOC-031-028,CB-DOC-031-040
+CBP-031-05,Collection-date inconsistency,ENT-031-1004,HOLD,authority+operations+approval,open blocks completion; open unresolved; pending owner capacity 0,Dominic Alvarez / Jonas Feld,CB-DOC-031-005,CB-DOC-031-017,CB-DOC-031-029,CB-DOC-031-041
+CBP-031-06,Protective-order designation error,ENT-031-1005,SUPPORTED,,population 148 vs certification 125 (disclosed),Leona Park,CB-DOC-031-006,CB-DOC-031-018,CB-DOC-031-030,CB-DOC-031-042
+CBP-031-07,Production gap,ENT-031-1006,SUPPORTED,,population 78 vs certification 40 (disclosed),Henry Cho,CB-DOC-031-007,CB-DOC-031-019,CB-DOC-031-031,CB-DOC-031-043
+CBP-031-08,Legal-hold delivery gap,ENT-031-1007,SUPPORTED,,receipt archive vs notices (disclosed),Maya Ellison,CB-DOC-031-008,CB-DOC-031-020,CB-DOC-031-032,CB-DOC-031-044
+CBP-031-09,Clawback deadline,ENT-031-1008,SUPPORTED,,completed 2025-05-12 vs due 2025-03-31 (disclosed),Jonas Feld,CB-DOC-031-009,CB-DOC-031-021,CB-DOC-031-033,CB-DOC-031-045
+CBP-031-10,Third-party subpoena deadline,ENT-031-1009,HOLD,operative_authority,cites REV-2024.2 vs later REV-2025.3 (superseded revision),Willa Novak,CB-DOC-031-010,CB-DOC-031-022,CB-DOC-031-034,CB-DOC-031-046
+CBP-031-11,Custodian omission,ENT-031-1010,HOLD,identity,identity collision ENT-031-1010/2010 (departed custodian),Owen Delgado,CB-DOC-031-011,CB-DOC-031-023,CB-DOC-031-035,CB-DOC-031-047
+CBP-031-12,Common-interest support gap,ENT-031-1011,HOLD,authority+operations,open blocks completion; open unresolved,Priya Raman,CB-DOC-031-012,CB-DOC-031-024,CB-DOC-031-036,CB-DOC-031-048

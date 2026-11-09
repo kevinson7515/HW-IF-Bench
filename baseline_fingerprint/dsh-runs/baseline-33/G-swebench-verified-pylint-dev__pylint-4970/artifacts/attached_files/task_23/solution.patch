@@ -1,0 +1,49 @@
+--- a/pylint/checkers/similar.py
++++ b/pylint/checkers/similar.py
+@@ -390,6 +390,8 @@
+ 
+     def run(self) -> None:
+         """start looking for similarities and display results on stdout"""
++        if self.min_lines == 0:
++            return
+         self._display_sims(self._compute_sims())
+ 
+     def _compute_sims(self) -> List[Tuple[int, Set[LinesChunkLimits_T]]]:
+--- a/tests/checkers/unittest_similar.py
++++ b/tests/checkers/unittest_similar.py
+@@ -502,3 +502,11 @@
+         # There doesn't seem to be a faster way of doing this, yet.
+         lines = (linespec.text for linespec in lineset_obj.stripped_lines)
+         assert tuple(expected_lines) == tuple(lines)
++
++
++def test_set_duplicate_lines_to_zero() -> None:
++    output = StringIO()
++    with redirect_stdout(output), pytest.raises(SystemExit) as ex:
++        similar.Run(["--duplicates=0", SIMILAR1, SIMILAR2])
++    assert ex.value.code == 0
++    assert output.getvalue() == ""
+--- a/ChangeLog
++++ b/ChangeLog
+@@ -62,6 +62,10 @@
+ * Fix false positive ``superfluous-parens`` for tuples created with inner tuples
+ 
+   Closes #4907
+ 
++* Setting ``min-similarity-lines`` to 0 now makes the similarty checker stop checking for duplicate code
++
++  Closes #4901
+ 
+ * Extended ``consider-using-in`` check to work for attribute access.
+ 
+--- a/doc/whatsnew/2.11.rst
++++ b/doc/whatsnew/2.11.rst
+@@ -70,4 +70,8 @@
+ 
+   Closes #4907
+ 
++* Setting ``min-similarity-lines`` to 0 now makes the similarty checker stop checking for duplicate code
++
++  Closes #4901
++
+ * Extended ``consider-using-in`` check to work for attribute access.

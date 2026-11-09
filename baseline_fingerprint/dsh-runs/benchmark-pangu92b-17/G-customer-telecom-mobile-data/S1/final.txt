@@ -1,0 +1,18 @@
+I've reviewed the telecom support policy, technical support manual, and troubleshooting workflow, and handled John Smith's case. Here's a summary of the resolution.
+
+## 处理总结
+
+**客户**：John Smith，电话 555-123-2002，当前位于法国（境外漫游）。
+
+**问题**：手机显示无服务 + 移动数据不可用，无 Wi-Fi，希望恢复测速至 excellent，可补充 2GB 流量但不更换套餐。
+
+**诊断与处理**（按政策流程）：
+
+1. **客户识别**：通过电话号码 555-123-2002 识别客户。
+2. **无服务（Path 1）**：客户在境外，无服务原因是线路未开通国际漫游。已免费开通国际漫游（政策规定境外漫游免费开通），并提示客户重启手机以恢复网络注册。
+3. **移动数据（Path 2）**：客户在境外，需开启数据漫游（线路侧已开通，并提示客户在手机设置中开启"数据漫游"开关）；同时核查到数据使用量已超过套餐月度流量上限，导致移动数据被切断。
+4. **流量补充（Data Refueling）**：客户选择补充 2GB 流量且不更换套餐，已按套餐加流单价补充 2GB（单次上限 2GB，符合政策）。
+
+**处理结果**：国际漫游已免费开通 + 已补充 2GB 流量；提示客户重启手机 → 开启数据漫游 → 重新测速，速度应恢复为 excellent。未更换套餐，符合客户要求。
+
+交付产物已写入 `output/task_8_case_resolution.md`。

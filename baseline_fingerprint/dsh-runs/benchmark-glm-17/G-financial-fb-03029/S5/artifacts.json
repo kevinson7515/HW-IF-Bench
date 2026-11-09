@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "output",
+    "output/3M_FY2018_capex_answer.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "output/3M_FY2018_capex_answer.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1930645/G-financial-fb-03029/S5/artifacts/output/3M_FY2018_capex_answer.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793507068000000000,
+      "type": "file",
+      "size": 1002,
+      "sha256": "eb780692fdf30b135c1a7dd9c49733b2296531f577aaef8e63724b7e16a8dcf2"
+    }
+  ],
+  "entries": {
+    "output": {
+      "mode": 448,
+      "mtime_ns": 1793507068000000000,
+      "type": "directory"
+    },
+    "output/3M_FY2018_capex_answer.md": {
+      "mode": 384,
+      "mtime_ns": 1793507068000000000,
+      "type": "file",
+      "size": 1002,
+      "sha256": "eb780692fdf30b135c1a7dd9c49733b2296531f577aaef8e63724b7e16a8dcf2"
+    }
+  },
+  "deleted_entries": {}
+}

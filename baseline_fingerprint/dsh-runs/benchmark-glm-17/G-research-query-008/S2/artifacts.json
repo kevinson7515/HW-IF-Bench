@@ -1,0 +1,110 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "output",
+    "output/ai-materials-ml-composition-optimization-report.md",
+    "output/materials-ml-db-benchmarks.md",
+    "output/ml-composition-design-china-groups-2019-2025.md",
+    "output/ml_composition_design_groups_2019_2025.md",
+    "output/机器学习与深度学习驱动的材料成分优化研究报告.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "output/ai-materials-ml-composition-optimization-report.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1930645/G-research-query-008/S2/artifacts/output/ai-materials-ml-composition-optimization-report.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793523156000000000,
+      "type": "file",
+      "size": 59343,
+      "sha256": "1009025955ba509e6cb74dd487e871218fc56e89da056a83c81267d3d43d7acd"
+    },
+    {
+      "path": "output/materials-ml-db-benchmarks.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1930645/G-research-query-008/S2/artifacts/output/materials-ml-db-benchmarks.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793525454000000000,
+      "type": "file",
+      "size": 31629,
+      "sha256": "1cd41b17cfeda8327e57d8a54fc739b44f77a6e3a85bf8422faf927aa5d21fb7"
+    },
+    {
+      "path": "output/ml-composition-design-china-groups-2019-2025.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1930645/G-research-query-008/S2/artifacts/output/ml-composition-design-china-groups-2019-2025.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793524006000000000,
+      "type": "file",
+      "size": 49371,
+      "sha256": "c1f6e761d4995a24525a78edaa26975b7967fc8fd504eca7fcac59e4a68b2f31"
+    },
+    {
+      "path": "output/ml_composition_design_groups_2019_2025.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1930645/G-research-query-008/S2/artifacts/output/ml_composition_design_groups_2019_2025.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793526528000000000,
+      "type": "file",
+      "size": 74252,
+      "sha256": "069e8b5dfd67818ad15a18d0bff97e00ad34c45f7847337f49d65a9cfdae50f7"
+    },
+    {
+      "path": "output/机器学习与深度学习驱动的材料成分优化研究报告.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1930645/G-research-query-008/S2/artifacts/output/机器学习与深度学习驱动的材料成分优化研究报告.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793527516000000000,
+      "type": "file",
+      "size": 108605,
+      "sha256": "1d88a5215c2790f5de7bb2babeb6058f814013800e38434077488326463a8491"
+    }
+  ],
+  "entries": {
+    "output": {
+      "mode": 448,
+      "mtime_ns": 1793527516000000000,
+      "type": "directory"
+    },
+    "output/ai-materials-ml-composition-optimization-report.md": {
+      "mode": 384,
+      "mtime_ns": 1793523156000000000,
+      "type": "file",
+      "size": 59343,
+      "sha256": "1009025955ba509e6cb74dd487e871218fc56e89da056a83c81267d3d43d7acd"
+    },
+    "output/materials-ml-db-benchmarks.md": {
+      "mode": 384,
+      "mtime_ns": 1793525454000000000,
+      "type": "file",
+      "size": 31629,
+      "sha256": "1cd41b17cfeda8327e57d8a54fc739b44f77a6e3a85bf8422faf927aa5d21fb7"
+    },
+    "output/ml-composition-design-china-groups-2019-2025.md": {
+      "mode": 384,
+      "mtime_ns": 1793524006000000000,
+      "type": "file",
+      "size": 49371,
+      "sha256": "c1f6e761d4995a24525a78edaa26975b7967fc8fd504eca7fcac59e4a68b2f31"
+    },
+    "output/ml_composition_design_groups_2019_2025.md": {
+      "mode": 384,
+      "mtime_ns": 1793526528000000000,
+      "type": "file",
+      "size": 74252,
+      "sha256": "069e8b5dfd67818ad15a18d0bff97e00ad34c45f7847337f49d65a9cfdae50f7"
+    },
+    "output/机器学习与深度学习驱动的材料成分优化研究报告.md": {
+      "mode": 384,
+      "mtime_ns": 1793527516000000000,
+      "type": "file",
+      "size": 108605,
+      "sha256": "1d88a5215c2790f5de7bb2babeb6058f814013800e38434077488326463a8491"
+    }
+  },
+  "deleted_entries": {}
+}

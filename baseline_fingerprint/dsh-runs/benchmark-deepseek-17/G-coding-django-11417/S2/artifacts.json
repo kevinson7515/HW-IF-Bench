@@ -1,0 +1,50 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [],
+  "modified": [
+    "attached_files/task_3/django/core/mail/message.py",
+    "attached_files/task_3/tests/mail/tests.py"
+  ],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "attached_files/task_3/django/core/mail/message.py",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1872575/G-coding-django-11417/S2/artifacts/attached_files/task_3/django/core/mail/message.py",
+      "change": "modified",
+      "mode": 420,
+      "mtime_ns": 1792683974000000000,
+      "type": "file",
+      "size": 17026,
+      "sha256": "93b7f23d893a79c4131c389aea07ce4a0bfb2caae647b2f784b92ee5e8152fc6"
+    },
+    {
+      "path": "attached_files/task_3/tests/mail/tests.py",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1872575/G-coding-django-11417/S2/artifacts/attached_files/task_3/tests/mail/tests.py",
+      "change": "modified",
+      "mode": 420,
+      "mtime_ns": 1792683990000000000,
+      "type": "file",
+      "size": 69952,
+      "sha256": "ab9257c24ff180cf82fdcf6199db6b44d4addaf6a0b366064e3e7d07ffbc3b04"
+    }
+  ],
+  "entries": {
+    "attached_files/task_3/django/core/mail/message.py": {
+      "mode": 420,
+      "mtime_ns": 1792683974000000000,
+      "type": "file",
+      "size": 17026,
+      "sha256": "93b7f23d893a79c4131c389aea07ce4a0bfb2caae647b2f784b92ee5e8152fc6"
+    },
+    "attached_files/task_3/tests/mail/tests.py": {
+      "mode": 420,
+      "mtime_ns": 1792683990000000000,
+      "type": "file",
+      "size": 69952,
+      "sha256": "ab9257c24ff180cf82fdcf6199db6b44d4addaf6a0b366064e3e7d07ffbc3b04"
+    }
+  },
+  "deleted_entries": {}
+}

@@ -1,0 +1,62 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "matter_work_product",
+    "matter_work_product/cb100-061-arcadia-genomics",
+    "matter_work_product/cb100-061-arcadia-genomics/review_disposition_register.md",
+    "matter_work_product/cb100-061-arcadia-genomics/review_note.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "matter_work_product/cb100-061-arcadia-genomics/review_disposition_register.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S3/artifacts/matter_work_product/cb100-061-arcadia-genomics/review_disposition_register.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793110002000000000,
+      "type": "file",
+      "size": 7168,
+      "sha256": "0c56576cd89463ef9c1dde0b6d0d17733a96babe25271d2fcb8b2d5b50ac5705"
+    },
+    {
+      "path": "matter_work_product/cb100-061-arcadia-genomics/review_note.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S3/artifacts/matter_work_product/cb100-061-arcadia-genomics/review_note.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793110317000000000,
+      "type": "file",
+      "size": 5981,
+      "sha256": "8ae5cf2752449510aa287af83506db689139b0b624f93fad73b7b73d082c0bca"
+    }
+  ],
+  "entries": {
+    "matter_work_product": {
+      "mode": 448,
+      "mtime_ns": 1793110002000000000,
+      "type": "directory"
+    },
+    "matter_work_product/cb100-061-arcadia-genomics": {
+      "mode": 448,
+      "mtime_ns": 1793110317000000000,
+      "type": "directory"
+    },
+    "matter_work_product/cb100-061-arcadia-genomics/review_disposition_register.md": {
+      "mode": 384,
+      "mtime_ns": 1793110002000000000,
+      "type": "file",
+      "size": 7168,
+      "sha256": "0c56576cd89463ef9c1dde0b6d0d17733a96babe25271d2fcb8b2d5b50ac5705"
+    },
+    "matter_work_product/cb100-061-arcadia-genomics/review_note.md": {
+      "mode": 384,
+      "mtime_ns": 1793110317000000000,
+      "type": "file",
+      "size": 5981,
+      "sha256": "8ae5cf2752449510aa287af83506db689139b0b624f93fad73b7b73d082c0bca"
+    }
+  },
+  "deleted_entries": {}
+}

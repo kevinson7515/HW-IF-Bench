@@ -1,0 +1,174 @@
+# 机器学习/深度学习优化材料元素组合配比（成分设计）研究报告
+
+**调研方法说明**：本报告由 5 个并行调研方向（国际课题组、中国及东亚课题组、数据库与精度基准、方法学与生成式模型、产业化与挑战）汇总而成，共执行 100+ 次检索与 50+ 次原文核对；关键数字均附可核查链接，无法核实的项目明确标注 **[未核实]**。调研中还纠正常见误传：ULTERA 数据库实为宾州州立大学 Zi-Kui Liu 组（非威斯康星 Morgan 组）维护；Alloyed 公司 ABD-900AM 为**镍基**高温合金（非铝合金）；所谓“爱丁堡大学 Rickard Armitage”未检索到，疑似与林雪平大学 Rickard Armiento 混淆。全文未使用 www.microsoft.com 与 news.northwestern.edu 作为来源（MatterGen/MatterSim 均引 Nature/arXiv/PMC）。
+
+---
+
+## 1. 问题界定与技术路线
+
+“优化元素组合配比”即**成分设计（composition design）**：在元素周期表构成的巨大组合空间中寻找使目标性能（强度、硬度、催化活性、容量、迁移率等）最优的成分配比。其形式化为正问题（成分→性能的代理模型）与逆问题（性能→成分的优化或生成），目前有三条主线：
+
+1. **成分-only 代理模型 + 优化算法**：仅用化学计量比（元素与比例）训练模型（Magpie 特征+随机森林 → Roost → CrabNet），配合贝叶斯优化（BO）、主动学习、遗传/多目标进化算法搜索成分空间。这是与“配比优化”最直接相关的路线。
+2. **结构感知模型与通用机器学习势（UIP）**：图神经网络（CGCNN→MEGNet→ALIGNN）与通用势（M3GNet、CHGNet、MACE、MatterSim、DPA）把精度推向 DFT 量级，服务于成分-结构联合筛选。
+3. **生成式模型 + 闭环自主实验**：按性能条件直接生成成分/结构（MatterGen、GNoME 发现流程），再由自驱实验室（A-Lab、机器人化学家）快速合成验证。
+
+## 2. 活跃研究课题组
+
+### 2.1 合金与高熵合金（HEA）
+
+| 课题组/机构 | 方向 | 代表成果与论文 |
+|---|---|---|
+| C. Wolverton（西北大学） | OQMD 数据库、成分-only ML | OQMD（140.7 万化合物，[oqmd.org](https://www.oqmd.org/)）；Magpie 特征框架 [Ward 2016, npj Comput. Mater.](https://www.nature.com/articles/npjcompumats201628)；无约束成分空间组合筛选 [Meredig 2014, PRB](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.89.094104) |
+| 饶梓元（上海交大，原马普钢铁所） | 主动学习设计高熵因瓦合金 | [Rao 2022, Science](https://www.science.org/doi/10.1126/science.abo4940)（被引 870+）：主动学习在“近乎无限”成分空间发现高熵因瓦合金 |
+| 宿彦京、谢建新（北京科技大学） | ML+遗传搜索迭代设计难熔 HEA | [Wen 2025, Engineering 46:214](https://doi.org/10.1016/j.eng.2023.11.026)：6 轮迭代、约 20 亿成分空间中确定 Zr₀.₁₃Nb₀.₂₇Mo₀.₂₆Hf₀.₁₃Ta₀.₂₁（1200 ℃ 屈服≈940 MPa，断裂应变 17.2%）；综述见[谢建新 2021 金属学报](https://www.ams.org.cn/article/2021/0412-1961/0412-1961-2021-57-11-1343.shtml) |
+| Zi-Kui Liu（宾州州立大学，Phases Research Lab） | ULTERA 难熔高熵合金数据库 | [ULTERA](https://phaseslab.com/ultera)：ARPA-E ULTIMATE 项目，2025 年 4 月含 4,300 种 HEA、12,500+ 性能点（810 篇文献）；生成式逆向设计论文 [J. Mater. Inf. 2021](https://doi.org/10.20517/jmi.2021.05) |
+| I. Takeuchi（马里兰大学） | 组合薄膜+闭环 ML | CAMEO 闭环系统 [Kusne 2020, Nat. Commun.](https://www.nature.com/articles/s41467-020-19597-w)：实验量减少约 10 倍，发现 Ge₄Sb₆Te₇；超导 Tc ML [Stanev 2018](https://www.nature.com/articles/s41524-018-0085-8) |
+| D. Morgan（威斯康星麦迪逊） | ML+不确定度量化、MAST-ML | 经典综述 [Morgan & Jacobs 2020, Annu. Rev. Mater. Res.](https://www.annualreviews.org/doi/10.1146/annurev-matsci-070218-010015)（被引 686） |
+| S. Babu（现马里兰大学） | 合金 ICME、增材制造 | [UMD 主页](https://mse.umd.edu/clark/faculty/1959/Sudarsanam-Suresh-Babu)（成分配比 ML 专题论文 [未核实]） |
+| 杨涛 & P.K. Liaw（香港城市大学） | HEA ML 计算设计 | [综述 2025, High Entropy Alloys & Materials](https://doi.org/10.1007/s44210-025-00055-5) |
+| 叶均蔚体系（台湾清华/国网中心） | ML 设计 Al-Co-Cr-Fe-Mn-Ni | [2025 报道](https://www.nchc.org.tw/Active/ActiveView/750?mid=172&page=1)：三组成分硬度>600 HV、最佳 650 HV（较纪录 539 HV 高约 20%） |
+| G. Conduit（剑桥） | 超合金微结构 ML | [Taylor & Conduit 2022](https://garethconduit.org/papers/TaylorConduit21.pdf) |
+
+### 2.2 电池材料
+
+| 课题组 | 方向 | 代表成果 |
+|---|---|---|
+| G. Ceder（UC Berkeley/LBNL） | 电池高通量+ML | DRXNet：无序岩盐相正极的发现与优化 [Zhong 2024, Cell Rep. Phys. Sci.](https://www.sciencedirect.com/science/article/pii/S2542435124001450)（[arXiv](https://arxiv.org/pdf/2304.04986)） |
+| P. Attia（斯坦福） | 闭环 BO 快充优化 | [Attia 2020, Nature](https://pubmed.ncbi.nlm.nih.gov/32076218/)：16 天从 224 候选选出高循环寿命协议（穷举需>500 天） |
+| Yousung Jung（首尔大学） | 生成式无机材料 | ChargeDIFF（[Nat. Commun. 2026](https://www.nature.com/articles/s41467-026-73985-2)）；Chem. Rev. 综述（[2026](https://pubs.acs.org/chreay/article/126/15/8644/5238567/AI-for-Accelerated-Materials-Discovery-From)） |
+| 深势科技（北京） | 工业电池平台 | Piloteye（2023 发布，[新华网](http://www.news.cn/tech/20230811/902e634641df42fe8a5355c202b661a4/c.html)）；正极掺杂推荐使客户 50 周容量保持率 +5%（[官网](https://www.dp.tech/services/battery)、[中国日报](https://caijing.chinadaily.com.cn/a/202404/13/WS661a3e75a3109f7860dd949a.html)） |
+
+### 2.3 催化
+
+| 课题组 | 方向 | 代表成果 |
+|---|---|---|
+| J. Nørskov（KAUST） | d 带描述符→ML 多目标优化 | [KAUST 催化平台](https://www.kaust.edu.sa/research/research-platforms/kaust-catalysis-platform)；高熵电催化剂多目标贝叶斯优化 [Xu 2024, JACS](https://pubs.acs.org/jacsat/article/146/11/7698/158941/Discovering-High-Entropy-Alloy-Electrocatalysts-in) |
+| J. Pérez-Ramírez（ETH 苏黎世） | 闭环主动学习催化 | [Suvarna 2024, Nat. Commun.](https://www.nature.com/articles/s41467-024-50215-1)：86 次实验同时优化成分+反应条件，实验量减少 >90% |
+| 丹麦技术大学团队 | BO 优化五元 HEA-ORR 成分 | [Pedersen 2022, Angew](https://onlinelibrary.wiley.com/doi/full/10.1002/anie.202108116) |
+| 2020 Nature（多机构） | ML 加速 CO₂ 电催化剂发现 | [Zhong 2020, Nature](https://pubmed.ncbi.nlm.nih.gov/32405017/)：Cu-Al 催化剂乙烯法拉第效率 >80%（纯铜约 66%），400 mA/cm² |
+| USTC 江俊组 | 机器人 AI 化学家 | [Zhu 2024, Nature Synthesis](https://en.ustc.edu.cn/info/1007/4733.htm)：火星陨石制 OER 催化剂，2 个月完成号称约 2000 年人工优化量（[C&EN 报道](https://cen.acs.org/physical-chemistry/astrochemistry/Robotic-AI-chemist-could-make-oxygen-on-Mars/101/web/2023/11)） |
+
+### 2.4 聚合物
+
+- **R. Ramprasad（佐治亚理工）**：Polymer Genome 平台（[Kim 2018, J. Phys. Chem. C](https://pubs.acs.org/jpccck/article/122/31/17575/1470511/Polymer-Genome-A-Data-Powered-Polymer-Informatics)）；polyBERT 化学语言模型（[Nat. Commun. 2023](https://www.nature.com/articles/s41467-023-39868-6)：29 种性能、可检索 1 亿假想聚合物）。
+- **R. Yoshida（日本 NIMS）**：ML 发现高导热聚合物（[npj Comput. Mater. 2019](https://www.nature.com/articles/s41524-019-0203-2)，被引 560）。
+- **R. Gómez-Bombarelli（MIT）**：连续表示生成式设计（[ACS Cent. Sci. 2018](https://pubs.acs.org/acscii/article/4/2/268/733300/Automatic-Chemical-Design-Using-a-Data-Driven)，被引 5,271）；聚合物电解质 ML 发现（[2023](https://gomezbombarelli.mit.edu/biblio/chemistry-informed-machine-learning-polymer-electrolyte-discovery/)）。
+
+### 2.5 功能材料
+
+- **T. Buonassisi（MIT）**：卤化物钙钛矿成分稳定性数据融合优化（[Sun 2021, Matter](https://www.sciencedirect.com/science/article/pii/S2590238521000084)，被引 188）；自动化+ML 加速宣言 [Correa-Baena 2018, Joule](https://www.cell.com/joule/fulltext/S2542-4351(18)30228-9)。
+- **K. Hippalgaonkar（南洋理工/A*STAR）**：AI 驱动输运材料逆向设计；新加坡 S$25M 加速材料开发计划（[NTU 主页](https://dr.ntu.edu.sg/entities/person/Kedar-Hippalgaonkar)）；知识集成 ML 综述（[Nat. Rev. Mater. 2023](https://www.nature.com/articles/s41578-022-00513-1)）。
+- **J. Brgoch（休斯顿大学）**：ML 发现高效耐热荧光粉（[Nat. Commun. 2018](https://www.nature.com/articles/s41467-018-06625-z)，被引 406）。
+- **L. Ghiringhelli（KIT/FZ Jülich）**：SISSO 符号回归描述符筛选（[PRM 2018](https://link.aps.org/doi/10.1103/PhysRevMaterials.2.083802)，被引 1,310）。
+- **钙钛矿成形性**：ML 模型预测 625 个未知化合物中 235 个钙钛矿（[Tao 2021, npj Comput. Mater.](https://www.nature.com/articles/s41524-021-00495-8)）。
+
+### 2.6 通用基础模型与数据库
+
+- **S. P. Ong（UCSD）**：MEGNet（[2019](https://pubs.acs.org/cmatex/article/31/9/3564/1288793/Graph-Networks-as-a-Universal-Machine-Learning)）、M3GNet 通用势（[Nat. Comput. Sci. 2022](https://pubmed.ncbi.nlm.nih.gov/38177366/)）、Matbench 基准（[Dunn 2020](https://www.nature.com/articles/s41524-020-00406-3)）。
+- **K. Persson（LBNL）**：Materials Project 生态；CHGNet 电荷感知通用势（[Nat. Mach. Intell. 2023](https://www.nature.com/articles/s42256-023-00716-3)）。
+- **Google DeepMind**：GNoME 发现 220 万新晶体、38.1 万落在凸包（[Merchant 2023, Nature](https://www.nature.com/articles/s41586-023-06735-9)；[官方博客](https://deepmind.google/blog/millions-of-new-materials-discovered-with-deep-learning/)称相当于"近 800 年知识量"）。
+- **微软研究院 MatterGen 团队**：性能条件化扩散生成（[Zeni 2025, Nature](https://www.nature.com/articles/s41586-025-08628-5)，[PMC 全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC11922738/)）；MatterSim 原子级基础模型（[arXiv:2405.04967](https://arxiv.org/abs/2405.04967)）。
+- **DeepModeling（鄂维南/王涵/张林峰）**：DeePMD（[PRL 2018](https://doi.org/10.1103/PhysRevLett.120.143001)）、[2020 ACM 戈登·贝尔奖](https://www.acm.org/media-center/2020/november/gordon-bell-prize-2020)、Uni-Mol（[ICLR 2023](https://openreview.net/forum?id=6K2RM6wVqKu)）、DPA-2 原子大模型（[npj Comput. Mater. 2024](https://www.nature.com/articles/s41524-024-01493-2)）。
+
+### 2.7 自驱实验室
+
+- **A-Lab（伯克利 Ceder/Persson 组）**：17 天连续运行合成 41/58 个目标新化合物（[Szymanski 2023, Nature](https://www.nature.com/articles/s41586-023-06734-w)）；2026 年作者更正确认其中 36 个（40 个中 4 个证据不足，[PubMed](https://pubmed.ncbi.nlm.nih.gov/41554984/)）。
+- **A. Aspuru-Guzik（多伦多 Acceleration Consortium）**：获 [2 亿美元 CFREF 资助](https://www.utoronto.ca/news/u-t-receives-200-million-grant-support-acceleration-consortium-s-self-driving-labs-research)；SDL 综述（[Tom 2024, Chem. Rev.](https://pubs.acs.org/chreay/article/124/16/9633/154652/Self-Driving-Laboratories-for-Chemistry-and)，被引 1,127）。
+- **利物浦大学 A. Cooper 组**：移动机器人化学家 8 天完成 688 个实验（[Burger 2020, Nature](https://pubmed.ncbi.nlm.nih.gov/32641813/)）。
+- **CMU（Coscientist）/EPFL（ChemCrow）**：LLM 智能体自主实验（[Boiko 2023, Nature](https://www.nature.com/articles/s41586-023-06792-0)；[Bran 2024, Nat. Mach. Intell.](https://www.nature.com/articles/s42256-024-00832-8)）。
+
+### 2.8 国内其他平台
+
+松山湖材料实验室（MatChat 材料智能体，整合 80 万+ 论文，[matchat.cn](https://matchat.cn/)）；中科院物理所柳延辉组（非晶合金数智研发平台 GlassChat+自动熔炼闭环，[2025 报道](https://www.iop.cas.cn/xwzx/kydt/202511/t20251107_8008239.html)）；北航孙志梅组（ALKEMIE 高通量+ML 平台，[金属学报 2022](https://www.ams.org.cn/article/2022/0412-1961/0412-1961-2022-58-1-75.shtml)）；上海大学张统一（材料基因组工程研究院，[Scholar](https://scholar.google.com/citations?user=73CwaSUAAAAJ)）；中南大学杜勇（[相图相变及材料智能设计中心](https://pmri.csu.edu.cn/info/1283/4740.htm)，CALPHAD+ML 成分论文 [未核实]）；福耀科大刘兴军（ML+相图耦合设计高熵高温合金，[项目页](https://mse.fyust.edu.cn/info/1281/2831.htm)）。华为云、腾讯 AI4S、字节跳动 AI for Materials 均已布局但公开成果有限 **[未核实]**。
+
+## 3. 代表性论文精编
+
+| 年份 | 论文 | 贡献 |
+|---|---|---|
+| 2014 | [Meredig 2014, PRB](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.89.094104) | 无约束成分空间 ML 组合筛选开山之作 |
+| 2016 | [Ward 2016, npj Comput. Mater.](https://www.nature.com/articles/npjcompumats201628) | Magpie 成分特征 + 随机森林通用框架 |
+| 2016 | [Raccuglia 2016, Nature](https://pubmed.ncbi.nlm.nih.gov/27147027/) | 用 4,000 次失败水热实验数据训练预测模型 |
+| 2017 | [Sendek 2017, EES](https://www.semanticscholar.org/paper/a136cf6130cca5990097acc178e8cc908abf1043) | 筛选 12,000+ 候选固体电解质 |
+| 2018 | [Xie & Grossman 2018, PRL](https://link.aps.org/doi/10.1103/PhysRevLett.120.145301) | CGCNN 晶体图网络（被引 4,000+） |
+| 2019 | [Huang 2019, Acta Mater.](https://asu.elsevierpure.com/en/publications/machine-learning-phase-prediction-of-high-entropy-alloys/) | HEA 相形成 ML 预测（被引 667） |
+| 2020 | [Goodall & Lee 2020, Nat. Commun.](https://www.nature.com/articles/s41467-020-19964-7) | Roost：无需晶体结构的成分深度学习 |
+| 2020 | [Attia 2020, Nature](https://pubmed.ncbi.nlm.nih.gov/32076218/) | 闭环 BO 电池快充 |
+| 2020 | [Burger 2020, Nature](https://pubmed.ncbi.nlm.nih.gov/32641813/) | 移动机器人化学家 |
+| 2021 | [Wang 2021, npj Comput. Mater.](https://www.nature.com/articles/s41524-021-00545-1) | CrabNet 成分注意力网络 |
+| 2021 | [Choudhary 2021, npj Comput. Mater.](https://www.nature.com/articles/s41524-021-00650-1) | ALIGNN 原子线图网络 |
+| 2022 | [Rao 2022, Science](https://www.science.org/doi/10.1126/science.abo4940) | 主动学习设计高熵因瓦合金 |
+| 2023 | [Merchant 2023, Nature](https://www.nature.com/articles/s41586-023-06735-9) | GNoME：220 万新晶体 |
+| 2023 | [Szymanski 2023, Nature](https://www.nature.com/articles/s41586-023-06734-w) | A-Lab 自驱合成 |
+| 2024 | [Riebesell 2023/24, arXiv](https://arxiv.org/html/2308.14920v3) | Matbench Discovery 稳定性基准 |
+| 2025 | [Zeni 2025, Nature](https://www.nature.com/articles/s41586-025-08628-5) | MatterGen 性能条件化生成 |
+| 2025 | [Wen 2025, Engineering](https://doi.org/10.1016/j.eng.2023.11.026) | 迭代式 ML 设计难熔 HEA |
+
+## 4. 数据库分析
+
+**DFT 计算库**：[Materials Project](https://next-gen.materialsproject.org/)（官网"by the numbers"列 271,325 项材料；论文常用口径 15–16 万晶体）；[OQMD](https://www.oqmd.org/) 1,407,395 化合物；[AFLOW](https://www.aflowlib.org/) 3,929,948 化合物/8.17 亿条性质；[JARVIS-DFT](https://jarvis.nist.gov/) 80,000+ 材料；[NOMAD](https://nomad-lab.eu/nomad-lab/index.html) 19,425,275 条上传。
+
+**实验库**：[ICSD](https://icsd.products.fiz-karlsruhe.de/en) 347,985 晶体结构（2026-10，年增约 1.2 万）；[SpringerMaterials](https://www.springernature.com/gp/librarians/products/databases-solutions/springermaterials)（29 万级物质、百万级文档）；[Pauling File/MPDS](https://tutorial.mpds.io)（约 200 万条目口径）；[MatWeb](https://www.matweb.com/search/search.aspx)（20 万+ 数据表）。
+
+**领域库**：[ULTERA](https://phaseslab.com/ultera)（4,300 HEA/12,500 性能点，[Zenodo 记录](https://zenodo.org/records/15716150)）；Citrine 公开 [MPEA 数据集](https://github.com/CitrineInformatics/MPEA_dataset)（630 条）；Monash MPEA 库（约 1,014 合金，[Mendeley](https://data.mendeley.com/datasets/4d4kpfwpf6)）；[Open Catalyst OC20/OC22](https://opencatalystproject.org/)（130 万弛豫/2.6 亿次 DFT 计算）；[Polymer Genome](https://www.polymergenome.org/)与 [PoLyInfo](https://polymer.nims.go.jp/en)（16,064 种均聚物）；电池文献库 292,313 条记录（[Huang 2020, Sci. Data](https://www.nature.com/articles/s41597-020-00602-2)）与 [Battery Data Genome](https://www.sciencedirect.com/science/article/pii/S2542435122004093)。
+
+**基准**：[Matbench](https://matbench.materialsproject.org/) 13 任务（312–132,752 样本/任务）；[Matbench Discovery](https://matbench-discovery.materialsproject.org/) 热力学稳定性（WBM 测试集 215,488 原型结构，其中约 15% 稳定）。
+
+**数据质量四大约束**：① 失败实验几乎不发表（负数据缺失，[Sci. Adv. 2025](https://www.science.org/doi/10.1126/sciadv.adt5578)）；② DFT 本身与实验存在系统偏差（Ward 2016 测得形成能 DFT-实验 MAE≈0.096 eV/atom）；③ 大库存在元素/结构分布偏斜；④ HEA/电池等应用数据多为数百条量级的“小数据”。
+
+## 5. 模型准确度评估
+
+**成分-only 模型（Matbench mp_e_form，13.3 万样本）**：coGN 0.0170 → ALIGNN 0.0215 → MEGNet 0.0252 → CGCNN 0.0337 eV/atom（结构感知）；成分-only 中 MODNet 0.0448、CrabNet 0.0862、Magpie+RF 0.1165 eV/atom（[官方榜单](https://matbench.materialsproject.org/)，CrabNet 数值经本人抓取核验）。钢材屈服强度（成分-only）CrabNet MAE≈107 MPa；实验带隙 MAE≈0.346 eV。
+
+**高熵合金（数百样本级小数据）**：硬度 R² 0.94–0.97（[Ren 2023](https://lanlexperts.elsevierpure.com/en/publications/prediction-and-design-of-high-hardness-high-entropy-alloy-through/)、[物理学报](https://wulixb.iphy.ac.cn/article/doi/10.7498/aps.72.20230646)）；屈服强度 R²=0.942、断裂应变 R²=0.892（[He 2024](https://www.sciencedirect.com/science/article/pii/S0264127524007019)）；相分类 86.7–97%（[Huang 2019](https://asu.elsevierpure.com/en/publications/machine-learning-phase-prediction-of-high-entropy-alloys/)、[Pei 2020](https://www.nature.com/articles/s41524-020-0308-7)、[Shen 2023](https://www.sciencedirect.com/science/article/abs/pii/S0966979523002108)、[Elkatatny 2024 综述](https://www.sciencedirect.com/science/article/pii/S2238785424023044)）。
+
+**通用势（Matbench Discovery）**：论文口径 F1 0.57–0.82、发现加速因子（DAF）最高 6.3×、排序 eqV2+DeNS > Orb > SevenNet > MACE > CHGNet > M3GNet（[arXiv 2308.14920](https://arxiv.org/html/2308.14920v3)）；2026 年 2 月榜单快照：DPA-4.1-Max F1=0.935 居首，ORB v2 0.88、MatterSim 0.862、MACE 0.669、CHGNet 0.613、M3GNet 0.569（[官方榜单](https://matbench-discovery.materialsproject.org/)）。
+
+**生成式**：MatterGen 78% 生成结构低于 MP 凸包 0.1 eV/atom（13% 直接落在凸包内）；95% 结构 RMSD<0.076 Å；稳定+新颖+独特（SUN）比例较此前 SOTA 翻倍；五元体系仅需 10,240 个样本即超越替代法（约 70,000）与随机搜索（约 600,000）；实验验证 TaCr₂O₆ 体模量与目标偏差 <20%（[Nature 2025](https://www.nature.com/articles/s41586-025-08628-5)）。GNoME 220 万新晶体/38.1 万稳定（[Nature 2023](https://www.nature.com/articles/s41586-023-06735-9)）。
+
+**指标解读警示**：MAE 强数据集依赖；R² 在小样本交叉验证下易高估；Matbench Discovery 明确证明“回归准≠分类有用”（负 R² 模型仍可上榜）；“DFT 稳定”≠“可合成”。
+
+## 6. 面临的挑战与模型可行性分析
+
+| 挑战 | 具体表现 | 证据 | 可行性评估 |
+|---|---|---|---|
+| 形成能准≠稳定性 | 7 种模型中成分-only 全部难以判定稳定 | [Bartel 2020, npj](https://www.nature.com/articles/s41524-020-00362-y) | **已解决**：改以稳定性为评测目标（Matbench Discovery） |
+| 外推/分布外失效 | 多数“OOD 测试”实为插值，泛化被系统性高估 | [Li 2025, Nat. Rev. Mater.](https://www.nature.com/articles/s43246-024-00731-w) | **根本性难题**：仅能靠 UQ+主动学习+闭环缓解 |
+| 可合成性 gap | “新颖+可信+有用”三重标准的化合物证据稀薄 | [Cheetham & Seshadri 2024, Chem. Mater.](https://pmc.ncbi.nlm.nih.gov/articles/PMC11044265/)；[C&EN 对 GNoME 结构的近重复质疑](https://cen.acs.org/research-integrity/Google-DeepMind-structures-near-duplicates-questionable/104/web/2026/10) | **中期可解**：需嵌入合成/晶体学领域知识 |
+| 负数据缺失 | 失败实验不发表 | [Raccuglia 2016](https://pubmed.ncbi.nlm.nih.gov/27147027/) | **制度性可解**：ELN/平台数字化（Albert 等）改善中 |
+| 自动验证可靠性 | A-Lab 原报告 41/58 经复验为 36/57，批评者曾主张撤稿 | [Leeman 2024, PRX Energy](https://link.aps.org/doi/10.1103/PRXEnergy.3.011002)；[C&EN](https://cen.acs.org/research-integrity/Nature-robot-chemist-paper-corrected/104/web/2026/01) | **可解但需标准化**：AI 物相指认与人工复核流程再造 |
+| 自驱实验室成本与放大 | 规模、成本、可及性受限，“国家实验室级中间尺度”是当前最可行载体 | [Canty 2025, Nat. Commun.](https://www.nature.com/articles/s41467-025-59231-1) | **中期可解**：机器人成本下降+云端化 |
+| 多目标与工艺耦合 | 性能-成本-工艺窗口 Pareto 权衡、工艺-组织-性能链 | [Xu 2025 多目标综述](https://www.oaepublish.com/articles/jmi.2024.108)、[Chem. Rev. 2026](https://pubs.acs.org/chreay/article/126/15/8644/5238567/AI-for-Accelerated-Materials-Discovery-From) | **部分可解**：多目标 BO/NSGA 成熟，工艺数据是短板 |
+
+**按用途的可行性**：排序筛选（可靠，已规模化）→ 插值区成分优化（可靠，正在进入工业）→ 外推区新成分发现（有限可行，必须闭环验证）→ 免实验验证的端到端“理想模型”（暂不可行）。
+
+## 7. 距离大规模应用与产业化还有多远
+
+**产业化现状（量化案例）**：
+- **Citrine Informatics**：助松下设计空穴迁移率提升 25% 的有机半导体（196 次 DFT 计算筛选 >100 万候选，[案例](https://citrine.io/panasonic-case-study/)）；助昭和电工/Resonac 5 个月评估 1 亿+ 溶剂配方（[案例](https://citrine.io/solvent-blend-discovery-accelerated-by-ai/)）；Dorfner 配方开发时间 -84%。
+- **Alloyed（牛津体系）**：ABD-900AM 镍基高温合金已由 Aubert & Duval 商品化（[产品页](https://www.aubertduval.com/en/products/stellar-abd-900am-powder-for-additive-manufacturing/)）并完成涡轮部件资格认证（[ASME 论文](https://asmedigitalcollection.asme.org/gasturbinespower/article/148/1/011026/1221815/)；设计方法 [Tang 2021, Acta Mater.](https://www.sciencedirect.com/science/article/pii/S1359645420307175)）。
+- **Matlantis（Preferred Networks+ENEOS）**：官方称最高约 2,000 万倍于常规 DFT、72 元素任意组合，2023 年日本客户 50+、单季为客户模拟 2.6 万亿原子（[发布稿](https://matlantis.com/en/news/matlantis-us-launch/)）。
+- **深势科技**：正极掺杂推荐 50 周容量保持率 +5%、电解液筛选周期缩至 1/3；2023 年融资超 7 亿元，生态含宁德时代（[新华网](http://www.news.cn/tech/20240412/8221e99c7d294c54ad6f9f3628b394de/c.html)）。
+- **市场规模**：材料信息学 2025 年约 1.6–1.7 亿美元，2030–2031 年预计 4.1–6.1 亿美元（[MarketsandMarkets](https://www.marketsandmarkets.com/PressReleases/material-informatics.asp)、[Mordor](https://www.mordorintelligence.com/industry-reports/material-informatics-market)）；"AI 材料发现"口径 2024 年 5.4 亿→2034 年 55.8 亿美元（[market.us](https://market.us/report/ai-in-materials-discovery-market/)，商业报告仅供参考）。
+- **国家级计划**：美国 [MGI](https://www.mgi.gov/about-materials-genome-initiative)；欧盟 [Battery 2030+ 材料加速平台](https://battery2030.eu/research/research-areas/accelerated-materials-discovery/)与 [EIC 2025 先进材料挑战](https://eic.ecs.europa.eu/eic-funding-opportunities/eic-accelerator/eic-accelerator-challenges-2025/acceleration-advanced-materials-development-and-upscaling-along-value-chain_en)；中国材料基因工程投入超 30 亿元、400+ 单位（[宿彦京 2020, 金属学报](https://www.ams.org.cn/article/2020/0412-1961/0412-1961-56-10-1313.shtml)）；日本 [NEDO 超高速材料设计](https://www.nedo.go.jp/english/activities/activities_ZZJP_100119.html)。
+
+**权威评估汇编**：
+- [Peplow 2025, Nature 新闻特稿](https://www.nature.com/articles/d41586-025-03147-9)《AI 正梦想出数百万新材料——它们真的有用吗？》：批评者抨击提速宣传，但炒作背后确有实质进展；瓶颈在验证与合成。
+- [Li 2025, Nat. Rev. Mater.](https://www.nature.com/articles/s43246-024-00731-w)：新成分空间（产业典型场景）的可靠性低于学界自估。
+- [Pyzer-Knapp 2025, npj Comput. Mater.](https://www.nature.com/articles/s41524-025-01538-0)：材料基础模型仍是“新兴方向”。
+- [欧盟先进材料报告](https://www.ffg.at/sites/default/files/downloads/The-Future-of-Advanced-Materials-Research-and-Innovation-in-Europe.pdf)：材料"发现→首次工业应用”历史周期 10–20 年，加速手段目标压缩至 5–10 年；2026 年基础模型综述（58 个模型中无一兼具多模态+物理约束）沿用“发现→商业化 15–20 年”口径（[AZoM 报道](https://www.azom.com/news.aspx?newsID=65822)）。
+
+**本报告分层结论（定性综合，供决策参考）**：
+
+| 层级 | 现状 | 距离 |
+|---|---|---|
+| 数据平台/配方-工艺优化 SaaS | 已商用（TRL 8–9） | **已实现**，属研发提效而非新产品 |
+| 成分级代理+BO 的研发工具链 | 头部企业试点，量化收益已有 | 2–3 年内成为头部企业标配 |
+| 生成式设计的新材料进入产品 | 个例（ABD-900AM、TaCr₂O₆ 验证） | 5–10 年从个例走向常规 |
+| 工业级自驱实验室闭环 | A-Lab 类平台+成本/可靠性争议 | 5–8 年规模化 |
+| 端到端“理想模型”（成分→性能→工艺→成本，免人工验证、可外推） | 尚无 | **10 年以上**，受外推失效、可合成性、放大生产三大硬约束 |
+
+**总体判断**：主流学界与业界判断高度一致——**模型与生成能力已跑在验证、合成与放大前面**。以“研发流程 AI 化”定义的产业化已在发生（市场规模数据与 SaaS 公司量化案例为证）；以“AI 设计的新材料大规模进入商业产品”定义的产业化，主流预估为 **5–10 年量级**；而完整意义上的“理想模型”（在全新化学空间直接给出可量产配比且误差在工程容差内）目前没有可验证的技术路径，需要在外推可靠性、可合成性预测与工艺耦合三个方向上取得根本突破。
+
+---
+
+**给您的建议**：① 报告中所有 [未核实] 标注项（如 Nørskov 在 JACS 2024 的署名、杜勇组 CALPHAD+ML 成分设计专题论文、Citrine 与 LG/Airbus 合作等）建议使用前自行二次确认；② 精度数字均为 2026 年 2 月前后的快照，Matbench Discovery 等活跃榜单会持续更新，引用时请注明访问日期；③ 若您关注某一具体子领域（如高熵合金或电池），我可以进一步展开该方向的深度调研。

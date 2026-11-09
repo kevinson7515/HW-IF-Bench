@@ -1,0 +1,74 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "output",
+    "output/review_disposition_register.md",
+    "output/review_note.md",
+    "output/slack_reply.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "output/review_disposition_register.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-legal-cb100-031/S4/artifacts/output/review_disposition_register.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792906836000000000,
+      "type": "file",
+      "size": 3764,
+      "sha256": "1b35541928508360f25e23d8eb9ae8fd877160fb621be1fd3416d2c4d28f9458"
+    },
+    {
+      "path": "output/review_note.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-legal-cb100-031/S4/artifacts/output/review_note.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792906836000000000,
+      "type": "file",
+      "size": 2824,
+      "sha256": "0b3d14d906f7ac31fdf2b2f21cbfc1125619974f92b5b0558195d186b9c0dba3"
+    },
+    {
+      "path": "output/slack_reply.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-legal-cb100-031/S4/artifacts/output/slack_reply.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792906836000000000,
+      "type": "file",
+      "size": 1148,
+      "sha256": "1773b78ab7f4b88b8176266940d0923decf3cd93ae6495a00bb908c684d1dd55"
+    }
+  ],
+  "entries": {
+    "output": {
+      "mode": 448,
+      "mtime_ns": 1792906836000000000,
+      "type": "directory"
+    },
+    "output/review_disposition_register.md": {
+      "mode": 384,
+      "mtime_ns": 1792906836000000000,
+      "type": "file",
+      "size": 3764,
+      "sha256": "1b35541928508360f25e23d8eb9ae8fd877160fb621be1fd3416d2c4d28f9458"
+    },
+    "output/review_note.md": {
+      "mode": 384,
+      "mtime_ns": 1792906836000000000,
+      "type": "file",
+      "size": 2824,
+      "sha256": "0b3d14d906f7ac31fdf2b2f21cbfc1125619974f92b5b0558195d186b9c0dba3"
+    },
+    "output/slack_reply.md": {
+      "mode": 384,
+      "mtime_ns": 1792906836000000000,
+      "type": "file",
+      "size": 1148,
+      "sha256": "1773b78ab7f4b88b8176266940d0923decf3cd93ae6495a00bb908c684d1dd55"
+    }
+  },
+  "deleted_entries": {}
+}

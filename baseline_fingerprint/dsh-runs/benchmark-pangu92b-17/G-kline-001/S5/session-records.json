@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "session_id": "session-f3577a00-11b7-4050-a5a8-fed7d5510e89",
+  "source": "/online1/ycsc_chenkh/hitici_07/.dsh/sessions/--online1-ycsc_chenkh-hitici_07-deepseek-harness--/session-f3577a00-11b7-4050-a5a8-fed7d5510e89",
+  "copied": [
+    {
+      "path": "session.lock",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-marketing-kline-000/S5/session-records/session.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "session.v4.jsonl.zstd",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-marketing-kline-000/S5/session-records/session.v4.jsonl.zstd",
+      "size": 136675,
+      "sha256": "ffb945c223a41029474939496985f286f0ad46c4c5ba98adeaeaf15c5ef28f54"
+    }
+  ]
+}

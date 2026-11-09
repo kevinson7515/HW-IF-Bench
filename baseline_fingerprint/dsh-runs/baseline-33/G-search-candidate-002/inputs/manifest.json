@@ -1,0 +1,20 @@
+[
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_46/csv_reader_sources.md",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000029-46/inputs/attached_files/task_46/csv_reader_sources.md",
+    "size": 610,
+    "sha256": "146fa2ca2db3f1efcc82d4790a20f46b384e4c96f9fec1c151cf56f981fb308f"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_46/PolarsCSV.py",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000029-46/inputs/attached_files/task_46/PolarsCSV.py",
+    "size": 60591,
+    "sha256": "9bbd6181dbe77d59932722b783b36373e051aa2023c900add3c7babf288aac4f"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_46/pandas_2.2.3_IO.rst",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000029-46/inputs/attached_files/task_46/pandas_2.2.3_IO.rst",
+    "size": 219424,
+    "sha256": "a7dcc915ea5383a0379f1aaa0cca8cf756de1cbc2075039b67891c8fbcbe06d9"
+  }
+]

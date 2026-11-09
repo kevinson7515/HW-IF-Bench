@@ -1,0 +1,5 @@
+推荐 **Platinum Rewards Card（白金返现卡）**：日常消费全类别返现 10%，为所有个人卡最高（Gold 2.5%、Diamond 5%）。年费 $200，但差额 7.5%，年消费超约 $2,667 即净胜免年费卡，对年收入 $100k 易达成；需信用分 ≥$750。
+
+若坚持零年费：**Gold Rewards Card** — 2.5% 全类别返现、年费 $0（需 Rho-Bank+ 订阅）。
+
+差旅由公司卡承担，Silver 4% 差旅/软件返现不适用。详见 output/recommendation.md。

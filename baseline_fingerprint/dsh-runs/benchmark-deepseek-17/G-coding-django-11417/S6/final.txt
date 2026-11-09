@@ -1,0 +1,43 @@
+Both files are updated and verified. Here's a summary of the change.
+
+## What changed
+
+### `django/core/mail/message.py`
+
+**Import** (line 13): added `formataddr` from `email.utils`:
+
+```python
+from email.utils import formataddr, formatdate, getaddresses, make_msgid
+```
+
+**`sanitize_address`** — reworked to match Django's modern implementation (the version present in Django 3.2+ through 6.x, which I confirmed against the published [Django module source](https://docs.djangoproject.com/en/5.0/_modules/django/core/mail/message/)):
+
+1. **Tuple branch validates the address** before splitting — `if '@' not in address: raise ValueError(...)`. Previously a tuple like `('Name', 'noatsign')` crashed with a cryptic `ValueError: not enough values to unpack`.
+2. **Newline guard** — `address_parts` is checked for `\n`/`\r` and raises `ValueError` (defense-in-depth against header injection when called directly).
+3. **Display-name encoding** — now only RFC 2047-encodes when the name is non-ASCII:
+   ```python
+   try:
+       nm.encode('ascii')
+       nm = Header(nm).encode()
+   except UnicodeEncodeError:
+       nm = Header(nm, encoding).encode()
+   ```
+   Previously `Header(nm, encoding).encode()` force-encoded even plain ASCII names when `encoding='utf-8'` (e.g. `A name` → `=?utf-8?q?A_name?=`).
+4. **Modern reconstruction** — builds the addr-spec via `email.headerregistry.Address` and formats with `formataddr`:
+   ```python
+   parsed_address = Address(username=localpart, domain=domain)
+   return formataddr((nm, parsed_address.addr_spec))
+   ```
+   This correctly re-quotes display names/local parts (e.g. `to@other.com@example.com` → `"to@other.com"@example.com`) instead of the old `Address(nm, ...)` + `str()`.
+
+The parsing itself already used `email.headerregistry`'s `parser.get_mailbox`, and now the formatting path uses `headerregistry.Address.addr_spec` + `formataddr` end-to-end, so IDN domains (punycode) and RFC 6532 non-ASCII local parts (`=?utf-8?b?...?=`) are still handled, while ASCII display names stay plain.
+
+### `tests/mail/tests.py`
+
+Updated the 6 `test_sanitize_address` expectations that asserted the old force-encoded display names to the new plain-ASCII output (e.g. `('A name', 'to@example.com')` with `utf-8` now expects `'A name <to@example.com>'`).
+
+## Verification
+
+I loaded the edited `message.py` in the sandbox and ran it against every valid case (18/18 pass) and invalid case (`@`, `to@`, `@example.com`, `''`, two-`@` forms, tuple without `@`, and newline-containing names — all raise `ValueError`). Both files also pass `ast.parse`.
+
+Note: the workspace `AGENTS.md`/skill instructions target the Node deepseek-harness repo and don't apply to this standalone Django task, so I did not invoke them.

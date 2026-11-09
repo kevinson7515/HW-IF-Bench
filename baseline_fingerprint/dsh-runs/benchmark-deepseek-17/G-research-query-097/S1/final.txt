@@ -1,0 +1,125 @@
+I now have a comprehensive, well-sourced evidence base. Here is my analysis.
+
+---
+
+# Does a 500,000-passenger airport generate significant, measurable socioeconomic impacts?
+
+**Bottom line up front:** The evidence is mixed, and the answer depends critically on *which* kind of "impact" you mean. The peer-reviewed, causally-focused literature **largely refutes the strong version of the hypothesis** — that a ~500k-passenger airport is an "engine" that *causes* measurable regional growth. However, there is **consistent evidence supporting a weaker version**: such an airport produces a real, *measurable* but *modest* accounting footprint (direct jobs, local spending) and can matter for accessibility/tourism in specific contexts. The industry-funded economic-impact figures supporting the hypothesis should be read with caution, because several independent studies show their multipliers don't survive rigorous causal testing at small-airport scale.
+
+---
+
+## 1. Context: what is a 500,000-passenger airport?
+
+500,000 annual passengers sits at the low end of "small regional airport" in every major classification system:
+
+- **EU / ICAO:** conventionally a "small regional airport" (< 1 million passengers/year).
+- **US FAA (NPIAS):** 500k passengers ≈ 250k enplanements, i.e., the bottom of "small hub" or a "non-hub" commercial airport.
+
+This matters because the research consistently finds that airport economic effects are **highly non-linear and strongly size-dependent** — findings that hold for large hubs do *not* transfer to this size class.
+
+---
+
+## 2. Two different things are called "socioeconomic impact"
+
+| Type | What it measures | Evidence strength at ~500k |
+|---|---|---|
+| **Accounting / static impact** | Direct + indirect + induced jobs, wages, value-added from airport operations and visitor spending | Exists and is *measurable*, but modest |
+| **Catalytic / growth impact** | Whether the airport *causes* regional GDP, employment, or population growth | **Weak or statistically indistinguishable from zero** in the causal literature |
+
+Most "Economic Impact Studies" published by airports and industry bodies measure only the first type, and then frame it as if it were the second. This distinction is the crux of the debate.
+
+---
+
+## 3. Evidence REFUTING the strong hypothesis (causal/growth impacts)
+
+### 3.1 Pot & Koster (2022) — the most directly relevant study
+["Small airports: Runways to regional economic growth?"](https://ideas.repec.org/a/eee/jotrge/v98y2022ics096669232100315x.html), *Journal of Transport Geography*, panel of 274 European NUTS-2 regions, 2000–2018:
+
+- Long-run elasticity of **air accessibility → GDP per capita = 0.106** overall — but **only 0.022 for small airports**, versus **0.179 for large airports** and 0.033 for medium.
+- **Causality runs from economic growth → air accessibility** for small airports, not the reverse. The authors conclude smaller airports are "rather **sustained by** a certain development level" than drivers of it.
+- Small/medium airports were the *primary* accessibility provider for only ~3–19% of the European population covered.
+
+This is the strongest single piece of evidence: **at the small-airport scale, the airport is a consequence of regional prosperity, not a cause of it.**
+
+### 3.2 Tveter (2017) — natural experiment, Norway
+["The effect of airports on regional development"](https://ideas.repec.org/a/eee/retrec/v63y2017icp50-58.html), *Research in Transportation Economics*. Uses the 1970s wave of Norwegian regional airport construction in a difference-in-differences design:
+
+> "The results demonstrate a **positive but not significant** effect on population and employment… the overall imprecision of the estimates makes it **impossible to reject the hypothesis that the airports had no regional impacts**."
+
+### 3.3 Sheard (2019) — airport size and urban growth
+["Airport Size and Urban Growth"](https://ideas.repec.org/a/bla/econom/v86y2019i342p300-335.html), *Economica*. Finds a positive effect of airport size on local employment but with an **elasticity of only 0.04** — a 10% larger airport is associated with ~0.4% more local employment, a very small effect that shrinks further for small airports.
+
+### 3.4 Methodological critiques of the "big numbers"
+- **Aviation Environment Federation, "Airport Jobs: False Hopes, Cruel Hoax"** (Sewill, 2009) [PDF](https://www.aef.org.uk/uploads/Airport_jobs___false_hopes_cruel_hoax.pdf): argues UK aviation's direct employment is under 200,000 and that headline multiplier claims systematically overstate local benefits (double-counting, displaced not additional jobs, ignoring substitution from other sectors).
+- **Pauwels et al. (2025), ["Reconsidering airport economic impact assessments"](https://ideas.repec.org/a/eee/jaitra/v128y2025ics0969699725001176.html)**, *Journal of Air Transport Management*: a bottom-up study of Belgium's airports — explicitly including the small regional airports Antwerp and Ostend-Bruges — motivated by the concern that top-down input-output airport studies overstate small-airport impacts. It replaces assumed multipliers with company-level data plus Monte Carlo sensitivity analysis.
+- **Bilotkach (2015), "Are airports engines of economic development?"** (*Urban Studies*) reaches similarly skeptical conclusions via dynamic panel methods.
+
+---
+
+## 4. Evidence SUPPORTING a real (but qualified) impact
+
+### 4.1 Measurable accounting footprint — real but modest
+The best independent bottom-up estimates of actual jobs/output at small airports come from the Belgian and similar studies. Published economic-impact studies of airports in the ~1–2 million range illustrate the scale:
+
+- Norfolk International (ORF) 2019 [economic impact study](http://www.flyorf.com/wp-content/uploads/2020/08/ORF-Economic-Impact-2019-FINAL-REPORT-22Jul2020.pdf): ~5,900 total jobs, $383M output (for a larger, ~2M-passenger airport).
+- These scale down roughly linearly. **A 500k airport typically supports on the order of a few hundred direct jobs and low-thousands of total (direct+indirect+induced) jobs** — a real but small share of even a modest regional economy.
+
+### 4.2 Industry aggregate benchmarks (context, not proof at this scale)
+- **ATAG / Oxford Economics, [Aviation: Benefits Beyond Borders 2024](https://aviationbenefits.org/media/e5ynn4x0/abbb2024_full_report.pdf):** global aviation supports ~86.5 million jobs and ~$4.1 trillion (direct+indirect+induced+tourism-catalytic). Europe: 988M passengers supporting ~15M jobs and ~$1.2 trillion.
+- **ACI North America [Economic Impact Study](https://airportscouncil.org/intelligence/economic-impact-study/):** US commercial airports support ~12.8M jobs, ~$619B payroll, ~$1.8T output.
+
+⚠️ These are **averages dominated by hubs, airline bases, aerospace manufacturing, and tourism-catalytic effects**. Naively dividing jobs by passengers yields ~2,900 "direct" jobs per million passengers in Europe, but that figure does **not** scale down to a 500k non-hub airport, where most of those components (based airlines, aerospace, mass inbound tourism) are absent. This is precisely the extrapolation error the critical literature warns against.
+
+### 4.3 Where small-airport impacts DO show up
+Several rigorous studies find real effects in *specific* channels, even if aggregate growth effects are weak:
+
+- **Tourism:** [Doerr, Dorn, Gäbler & Potrafke (2020)](https://www.tandfonline.com/doi/full/10.1080/17421772.2025.2536845) (synthetic control, Germany) find new airport infrastructure promotes regional tourism; [Kotowska et al.](https://www.tandfonline.com/doi/full/10.1080/17421772.2025.2536845) find new airports raise local firm productivity ~4.5% via accessibility.
+- **Accessibility / social inclusion / remoteness:** For peripheral regions, the *accessibility* value (medical access, business travel, emergency response) can exceed the narrow economic accounting — see [Halpern & Bråthen (2011)](https://ideas.repec.org/a/eee/jotrge/v19y2011i6p1145-1154.html) and the [PSO / remote-region literature](https://www.sciencedirect.com/science/article/abs/pii/S2213624X21001619).
+- **Cointegration/causality at regional level (Australia):** [Baker, Merkert & Kamruzzaman (2015)](https://www.sciencedirect.com/science/article/abs/pii/S0966692315000265) find regional aviation and economic growth are cointegrated with bi-directional causality — but note this is *national/regional* scale, not single-airport scale.
+- **Subsidised regional air services (NZ):** [Wu, Tsui, Ngo & Lin (2023)](https://ideas.repec.org/a/eee/trapol/v130y2023icp26-36.html) find airport subsidies raise seat capacity and "can facilitate economic growth and employment" — but the same authors' [2020 meta-review](https://ideas.repec.org/a/eee/trapol/v99y2020icp215-239.html) stresses results are highly context-dependent.
+
+---
+
+## 5. Synthesis and verdict
+
+| Claim | Verdict on the evidence |
+|---|---|
+| A 500k airport has **measurable** direct/indirect socioeconomic effects (jobs, wages, local spend) | **Supported.** Effects are real and quantifiable, but **modest** (roughly a few hundred direct jobs; low-thousands total). |
+| These effects are **significant relative to the regional economy** | **Generally refuted** outside small/peripheral or tourism-specialised regions. In a mid-size region, a few hundred jobs is typically a small fraction of a percentage point of employment. |
+| The airport **causes** regional growth ("engine of development") | **Refuted at this scale.** Causal studies (Pot & Koster, Tveter, Sheard) find elasticity ≈ 0.02–0.04, often statistically insignificant, with causality reversed (growth → airport, not airport → growth). |
+| The airport can be **significant in specific channels** (tourism, remoteness/accessibility, social inclusion) | **Supported in narrow cases** (German tourism evidence, remote-region PSO literature). |
+
+**Practical bottom line for your hypothesis:** A 500,000-passenger airport *can* generate **significant socioeconomic impacts — but only under specific conditions and in specific senses**:
+
+1. It reliably produces a **measurable but modest** local footprint (a few hundred direct jobs, some indirect/induced activity, property/tenancy revenue).
+2. It rarely acts as a **causal growth engine**; independent research suggests such airports more often **follow** regional prosperity than lead it.
+3. Its significance is **greatest where alternatives are weakest** — peripheral, remote, island, or tourism-dependent regions where accessibility itself has high value — and **weakest in dense, well-connected regions** with nearby larger airports (where the Pot & Koster study finds small airports' contribution "limited").
+
+So the honest, evidence-grounded answer is: **the strong claim is refuted; a qualified claim — "significant and measurable in a few channels, in specific regional contexts" — is supported.** Any assertion of large impacts at this size should be treated skeptically unless it is a bottom-up, company-level accounting (not a hub-scaled multiplier), and any claim of *causal* growth should be treated as unsupported by the causal literature.
+
+---
+
+### Primary sources (all accessed during this research)
+
+*Refuting / qualifying*
+- Pot & Koster (2022), [Small airports: Runways to regional economic growth?](https://ideas.repec.org/a/eee/jotrge/v98y2022ics096669232100315x.html)
+- Tveter (2017), [The effect of airports on regional development (Norway)](https://ideas.repec.org/a/eee/retrec/v63y2017icp50-58.html)
+- Sheard (2019), [Airport Size and Urban Growth](https://ideas.repec.org/a/bla/econom/v86y2019i342p300-335.html)
+- Sewill (2009), [Airport Jobs: False Hopes, Cruel Hoax](https://www.aef.org.uk/uploads/Airport_jobs___false_hopes_cruel_hoax.pdf)
+- Pauwels et al. (2025), [Reconsidering airport economic impact assessments (Belgium)](https://ideas.repec.org/a/eee/jaitra/v128y2025ics0969699725001176.html)
+- Bilotkach (2015), [Are airports engines of economic development?](https://ideas.repec.org/a/sae/urbstu/v52y2015i9p1577-1593.html)
+
+*Supporting (qualified)*
+- Oxford Economics / ATAG (2024), [Aviation: Benefits Beyond Borders](https://aviationbenefits.org/media/e5ynn4x0/abbb2024_full_report.pdf)
+- ACI North America, [Economic Impact Study](https://airportscouncil.org/intelligence/economic-impact-study/)
+- Baker, Merkert & Kamruzzaman (2015), [Regional aviation and economic growth (Australia)](https://www.sciencedirect.com/science/article/abs/pii/S0966692315000265)
+- Doerr, Dorn, Gäbler & Potrafke (2020), [How new airport infrastructure promotes tourism](https://www.tandfonline.com/doi/full/10.1080/17421772.2025.2536845)
+- Wu, Tsui, Ngo & Lin (2023), [Airport subsidies impact on wellbeing of smaller regions (NZ)](https://ideas.repec.org/a/eee/trapol/v130y2023icp26-36.html)
+- Halpern & Bråthen (2011), [Impact of airports on regional accessibility and social development](https://ideas.repec.org/a/eee/jotrge/v19y2011i6p1145-1154.html)
+
+*Illustrative single-airport data*
+- Norfolk International Airport, [2019 Economic Impact Study](http://www.flyorf.com/wp-content/uploads/2020/08/ORF-Economic-Impact-2019-FINAL-REPORT-22Jul2020.pdf)
+
+Note: per your constraint, I did not use neweconomics.org or transportenvironment.org as sources.
+
+Would you like me to (a) build a simple quantitative estimate model for a specific region, (b) dig deeper into any single study's full text, or (c) compile these into a formatted brief/citation list?

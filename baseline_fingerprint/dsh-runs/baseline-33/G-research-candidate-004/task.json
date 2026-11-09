@@ -1,0 +1,29 @@
+{
+  "line": 26,
+  "id": 43,
+  "user_query": "使用附件比较 Qdrant、Weaviate 和 Milvus 的混合检索、元数据过滤以及本地部署选项。单列厂商文档、厂商测试与独立 ANN Benchmark 的证据范围，指出哪些场景无法用所附测评做性能排名。",
+  "effective_query": "使用附件比较 Qdrant、Weaviate 和 Milvus 的混合检索、元数据过滤以及本地部署选项。单列厂商文档、厂商测试与独立 ANN Benchmark 的证据范围，指出哪些场景无法用所附测评做性能排名。\n\nAttached files are available at the following paths. Read them as needed:\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_43/vector_database_evidence.md\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_43/IndependentANN.md",
+  "attached_files": [
+    "attached_files/task_43/vector_database_evidence.md",
+    "attached_files/task_43/IndependentANN.md"
+  ],
+  "resolved_attached_files": [
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_43/vector_database_evidence.md",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_43/IndependentANN.md"
+  ],
+  "archived_attachments": [
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_43/vector_database_evidence.md",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000026-43/inputs/attached_files/task_43/vector_database_evidence.md",
+      "size": 1836,
+      "sha256": "cbbeca9e67bbd5edc4f597ed609a40512cf536c91fe3ce0b880406dc964ed341"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_43/IndependentANN.md",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000026-43/inputs/attached_files/task_43/IndependentANN.md",
+      "size": 17499,
+      "sha256": "69269dd49a719f8d51b4d9dc72d832d44ebb03a652334a35451c243cdd022a1b"
+    }
+  ],
+  "started_at": "2026-11-06T10:04:53.159431+00:00"
+}

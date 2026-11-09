@@ -1,0 +1,99 @@
+From: Rafael Okafor <rafael_okafor@example.test>
+To: Jonas Feld <jonas_feld@example.test>
+Date: 2025-09-09 08:30:00 -0700
+Message-ID: <cb-doc-031-011@example.test>
+Subject: CB-LD-2701 — custodian omission source export
+X-Matter-Number: CB-LD-2701
+X-Portfolio-Key: CBP-031-11
+X-Source-System: court docket mirror
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Portfolio key CBP-031-11 is associated with both ENT-031-1010 and ENT-031-2010. The display name is shared, while the domain and legal-entity fields disagree. No approved crosswalk revision resolves the collision.
+
+SOURCE LINEAGE
+court docket mirror produced native record CB-DOC-031-011 for CB-LD-2701. Rafael Okafor owns the source population and Jonas Feld recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns custodian omission within Aurora pricing MDL discovery audit. A multidistrict antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian scope, mobile collections, Bates families, and privilege challenges against court requirements.
+
+NATIVE RECORD
+Portfolio key CBP-031-11 is associated with both ENT-031-1010 and ENT-031-2010. The display name is shared, while the domain and legal-entity fields disagree. No approved crosswalk revision resolves the collision.
+
+RELIANCE LIMITS
+This file supplies identity crosswalk evidence for CBP-031-11. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SOURCE THREAD
+-----Original Message-----
+From: Amara Patel <amara_patel@example.test>
+Sent: 2024-12-31 09:00:00 -0700
+To: Jonas Feld <jonas_feld@example.test>
+Subject: CBP-031-11 source row CBP-031-11-IDE-01
+
+Identity Crosswalk support row 1 for custodian omission; retained from the native system so the reviewer can distinguish the exact CBP-031-11 population from similarly named records. The native status is pending and the recorded metric is $850,430.00.
+
+-----Original Message-----
+From: Micah Sullivan <micah_sullivan@example.test>
+Sent: 2025-01-03 09:00:00 -0700
+To: Jonas Feld <jonas_feld@example.test>
+Subject: CBP-031-11 source row CBP-031-11-IDE-02
+
+Identity Crosswalk support row 2 for custodian omission; retained from the native system so the reviewer can distinguish the exact CBP-031-11 population from similarly named records. The native status is pending and the recorded metric is 6%.
+
+-----Original Message-----
+From: Lena Varga <lena_varga@example.test>
+Sent: 2025-01-06 09:00:00 -0700
+To: Jonas Feld <jonas_feld@example.test>
+Subject: CBP-031-11 source row CBP-031-11-IDE-03
+
+Identity Crosswalk support row 3 for custodian omission; retained from the native system so the reviewer can distinguish the exact CBP-031-11 population from similarly named records. The native status is superseded and the recorded metric is 23%.
+
+-----Original Message-----
+From: Rafael Okafor <rafael_okafor@example.test>
+Sent: 2025-01-09 09:00:00 -0700
+To: Jonas Feld <jonas_feld@example.test>
+Subject: CBP-031-11 source row CBP-031-11-IDE-04
+
+Identity Crosswalk support row 4 for custodian omission; retained from the native system so the reviewer can distinguish the exact CBP-031-11 population from similarly named records. The native status is recorded and the recorded metric is $294,824.00.
+
+-----Original Message-----
+From: Priya Raman <priya_raman@example.test>
+Sent: 2025-01-12 09:00:00 -0700
+To: Jonas Feld <jonas_feld@example.test>
+Subject: CBP-031-11 source row CBP-031-11-IDE-05
+
+Identity Crosswalk support row 5 for custodian omission; retained from the native system so the reviewer can distinguish the exact CBP-031-11 population from similarly named records. The native status is superseded and the recorded metric is 18%.
+
+-----Original Message-----
+From: Jonas Feld <jonas_feld@example.test>
+Sent: 2025-01-15 09:00:00 -0700
+To: Jonas Feld <jonas_feld@example.test>
+Subject: CBP-031-11 source row CBP-031-11-IDE-06
+
+Identity Crosswalk support row 6 for custodian omission; retained from the native system so the reviewer can distinguish the exact CBP-031-11 population from similarly named records. The native status is recorded and the recorded metric is 14%.
+
+-----Original Message-----
+From: Leona Park <leona_park@example.test>
+Sent: 2025-01-18 09:00:00 -0700
+To: Jonas Feld <jonas_feld@example.test>
+Subject: CBP-031-11 source row CBP-031-11-IDE-07
+
+Identity Crosswalk support row 7 for custodian omission; retained from the native system so the reviewer can distinguish the exact CBP-031-11 population from similarly named records. The native status is confirmed and the recorded metric is $798,577.00.
+
+-----Original Message-----
+From: Adrian Mensah <adrian_mensah@example.test>
+Sent: 2025-01-21 09:00:00 -0700
+To: Jonas Feld <jonas_feld@example.test>
+Subject: CBP-031-11 source row CBP-031-11-IDE-08
+
+Identity Crosswalk support row 8 for custodian omission; retained from the native system so the reviewer can distinguish the exact CBP-031-11 population from similarly named records. The native status is pending and the recorded metric is 15%.
+
+CHRONOLOGY
+2025-08-05 | native population opened | Amara Patel | CB-DOC-031-011
+2025-08-11 | custodian boundary confirmed | Farah Ibrahim | CBP-031-11
+2025-08-17 | export created | Maya Ellison | CB-DOC-031-011
+2025-08-23 | cross-system identifier checked | Priya Raman | CBP-031-11
+2025-08-29 | revision retained | Mei Whitaker | CB-DOC-031-011
+2025-09-04 | matter copy collected | Sofia Bennett | CBP-031-11
+
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

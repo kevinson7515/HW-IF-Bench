@@ -1,0 +1,272 @@
+%PDF-1.4
+% CounselBench deterministic native source
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 2 /Kids [3 0 R 5 0 R] >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 4499 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(COUNSELBENCH SOURCE RECORD) Tj
+T*
+(Record: CB-DOC-031-088) Tj
+T*
+(Matter: CB-LD-2701 - Aurora pricing MDL discovery audit) Tj
+T*
+(Portfolio key: CBP-031-04) Tj
+T*
+(Source system: iManage matter file) Tj
+T*
+(Evidence role: independent_counterrecord) Tj
+T*
+(Immutable entity: ENT-031-1003) Tj
+T*
+(Referenced revision: REV-2025.4) Tj
+T*
+(Current revision: REV-2025.4) Tj
+T*
+(Custodian: Talia Brooks) Tj
+T*
+(Reviewer: Nadine Flores) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(An independent source repeats portfolio key CBP-031-04 and immutable entity ENT-031-1003 but uses) Tj
+T*
+(reference CB-LD-2701-E980. It confirms raw activity only; it neither selects a decision option nor) Tj
+T*
+(assigns a legal consequence.) Tj
+T*
+() Tj
+T*
+(SOURCE LINEAGE) Tj
+T*
+(iManage matter file produced native record CB-DOC-031-088 for CB-LD-2701. Talia Brooks owns the source) Tj
+T*
+(population and Nadine Flores recorded the collection review. The export remains separate from later legal) Tj
+T*
+(analysis.) Tj
+T*
+() Tj
+T*
+(BUSINESS CONTEXT) Tj
+T*
+(This record concerns metadata field loss within Aurora pricing MDL discovery audit. A multidistrict) Tj
+T*
+(antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a) Tj
+T*
+(pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian) Tj
+T*
+(scope, mobile collections, Bates families, and privilege challenges against court requirements.) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(An independent source repeats portfolio key CBP-031-04 and immutable entity ENT-031-1003 but uses) Tj
+T*
+(reference CB-LD-2701-E980. It confirms raw activity only; it neither selects a decision option nor) Tj
+T*
+(assigns a legal consequence.) Tj
+T*
+() Tj
+T*
+(RELIANCE LIMITS) Tj
+T*
+(This file supplies independent counterrecord evidence for CBP-031-04. It does not decide legal effect,) Tj
+T*
+(select among candidate responses, resolve another system's entity identity, or establish that its cited) Tj
+T*
+(revision is controlling.) Tj
+T*
+() Tj
+T*
+(NATIVE ROWS) Tj
+T*
+(CBP-031-04-IND-01 | 2025-06-30 | ENT-031-1003 | REV-2025.4 | Owen Delgado | pending | $611,718.00 |) Tj
+T*
+(Independent Counterrecord support row 1 for metadata field loss; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-IND-02 | 2025-07-03 | ENT-031-1003 | REV-2025.4 | Maya Ellison | pending | 11% | Independent) Tj
+T*
+(Counterrecord support row 2 for metadata field loss; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-IND-03 | 2025-07-06 | ENT-031-1003 | REV-2025.4 | Dominic Alvarez | recorded | 10% |) Tj
+T*
+(Independent Counterrecord support row 3 for metadata field loss; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-IND-04 | 2025-07-09 | ENT-031-1003 | REV-2025.4 | Talia Brooks | confirmed | $511,101.00 |) Tj
+T*
+(Independent Counterrecord support row 4 for metadata field loss; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-IND-05 | 2025-07-12 | ENT-031-1003 | REV-2025.4 | Caleb Hassan | pending | 14% | Independent) Tj
+T*
+(Counterrecord support row 5 for metadata field loss; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-IND-06 | 2025-07-15 | ENT-031-1003 | REV-2025.4 | Sofia Bennett | recorded | 23% | Independent) Tj
+T*
+(Counterrecord support row 6 for metadata field loss; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-IND-07 | 2025-07-18 | ENT-031-1003 | REV-2025.4 | Theo Laurent | recorded | $887,580.00 |) Tj
+T*
+(Independent Counterrecord support row 7 for metadata field loss; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-IND-08 | 2025-07-21 | ENT-031-2003 | REV-2025.4 | Nadine Flores | recorded | 26% | Independent) Tj
+T*
+(Counterrecord support row 8 for metadata field loss; retained from the native system so the reviewer can) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4006 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-IND-09 | 2025-07-24 | ENT-031-1003 | REV-2025.4 | Owen Delgado | pending | 3% | Independent) Tj
+T*
+(Counterrecord support row 9 for metadata field loss; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-IND-10 | 2025-07-27 | ENT-031-1003 | REV-2025.4 | Maya Ellison | pending | $473,942.00 |) Tj
+T*
+(Independent Counterrecord support row 10 for metadata field loss; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-IND-11 | 2025-07-30 | ENT-031-1003 | REV-2025.4 | Dominic Alvarez | pending | 25% |) Tj
+T*
+(Independent Counterrecord support row 11 for metadata field loss; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-IND-12 | 2025-08-02 | ENT-031-1003 | REV-2025.4 | Talia Brooks | confirmed | 10% | Independent) Tj
+T*
+(Counterrecord support row 12 for metadata field loss; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-IND-13 | 2025-08-05 | ENT-031-1003 | REV-2025.4 | Caleb Hassan | confirmed | $940,941.00 |) Tj
+T*
+(Independent Counterrecord support row 13 for metadata field loss; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-IND-14 | 2025-08-08 | ENT-031-1003 | REV-2025.4 | Sofia Bennett | confirmed | 9% | Independent) Tj
+T*
+(Counterrecord support row 14 for metadata field loss; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-IND-15 | 2025-08-11 | ENT-031-1003 | REV-2025.4 | Theo Laurent | superseded | 24% |) Tj
+T*
+(Independent Counterrecord support row 15 for metadata field loss; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-IND-16 | 2025-08-14 | ENT-031-1003 | REV-2025.4 | Nadine Flores | recorded | $699,556.00 |) Tj
+T*
+(Independent Counterrecord support row 16 for metadata field loss; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-IND-17 | 2025-08-17 | ENT-031-1003 | REV-2025.4 | Owen Delgado | confirmed | 14% | Independent) Tj
+T*
+(Counterrecord support row 17 for metadata field loss; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-IND-18 | 2025-08-20 | ENT-031-1003 | REV-2025.4 | Maya Ellison | recorded | 16% | Independent) Tj
+T*
+(Counterrecord support row 18 for metadata field loss; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+() Tj
+T*
+(CHRONOLOGY) Tj
+T*
+(2025-02-02 | native population opened | Owen Delgado | CB-DOC-031-088) Tj
+T*
+(2025-02-08 | custodian boundary confirmed | Rafael Okafor | CBP-031-04) Tj
+T*
+(2025-02-14 | export created | Elliot Mercer | CB-DOC-031-088) Tj
+T*
+(2025-02-20 | cross-system identifier checked | Caleb Hassan | CBP-031-04) Tj
+T*
+(2025-02-26 | revision retained | Adrian Mensah | CB-DOC-031-088) Tj
+T*
+(2025-03-04 | matter copy collected | Henry Cho | CBP-031-04) Tj
+T*
+() Tj
+T*
+(RELATED NATIVE RECORDS) Tj
+T*
+(CB-DOC-031-003) Tj
+T*
+(CB-DOC-031-021) Tj
+T*
+(CB-DOC-031-039) Tj
+T*
+(CB-DOC-031-063) Tj
+T*
+() Tj
+T*
+(Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are) Tj
+T*
+(fictitious; the record is not legal advice.) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000052 00000 n 
+0000000101 00000 n 
+0000000164 00000 n 
+0000000290 00000 n 
+0000004840 00000 n 
+0000004966 00000 n 
+0000009023 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+9091
+%%EOF

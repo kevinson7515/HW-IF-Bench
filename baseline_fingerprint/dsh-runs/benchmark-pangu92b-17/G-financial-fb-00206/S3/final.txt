@@ -1,0 +1,46 @@
+## Answer
+
+**Gross margin is not a relevant metric for JPMorgan Chase & Co.** It is therefore not meaningful to ask whether JPM's gross margins have been "historically consistent," because JPM does not report gross margin at all — and the concept does not apply to a bank's business model.
+
+### Why gross margin does not apply
+
+Gross margin is a metric for companies that **sell physical goods or provide goods-based services**. It is defined as:
+
+> Gross margin = (Revenue − Cost of Goods Sold) / Revenue
+
+It measures how much a manufacturer, retailer, or similar business retains after paying the direct costs of producing or acquiring the products it sells (materials, direct labor, manufacturing overhead).
+
+JPMorgan Chase is a **bank and financial holding company**, not a goods producer. Its "products" are financial intermediation services — taking deposits, making loans, underwriting, trading, and managing assets. The relevant revenue and cost structure is fundamentally different:
+
+- **Revenue** comes from two sources: *net interest income* (interest earned on loans and securities less interest paid on deposits and borrowings) and *noninterest revenue* (investment banking fees, asset management and administration fees, card income, principal transactions, mortgage fees, etc.).
+- **Costs** are *not* "cost of goods sold." They are *noninterest expense* such as compensation, occupancy, technology, and professional services — plus a *provision for credit losses*, which has no analogue in a manufacturing gross-margin calculation.
+
+### Evidence from the attached 10-K
+
+I searched the full text of the JPMorgan Chase 2022 Form 10-K (382 pages):
+
+- The term **"gross margin" appears 0 times** anywhere in the filing.
+- The term **"cost of goods" and "COGS" also appear 0 times**.
+- The word "margin" appears only in unrelated senses: **net interest margin**, **deposit margin**, **pre-tax margin**, **margin loans**, **margin requirements**, and **collateral/margin** on derivatives — none of which is gross margin.
+
+The Consolidated Statements of Income (page 160 of the filing) confirm the structure. There is no "cost of goods sold" or "gross profit" line; instead the income statement flows directly from:
+
+> Noninterest revenue + Net interest income = **Total net revenue**
+> − Provision for credit losses
+> − Noninterest expense (compensation, occupancy, technology, etc.)
+> = Income before income tax expense
+
+### What JPM actually reports instead
+
+For a bank, the analogues to "margin" are:
+
+- **Net interest margin** — net interest income as a percentage of average interest-earning assets.
+- **Overhead ratio** — noninterest expense divided by total net revenue (JPM reports this as 59%, 59%, 56% for 2022, 2021, 2020).
+- **Pre-tax margin** — income before tax divided by total net revenue (used in JPM's segment reporting).
+- **Return on equity (ROE), return on assets (ROA), return on tangible common equity (ROTCE)** — the standard profitability ratios for banks.
+
+So the correct answer to the question is: **gross margin is not a relevant metric for JPMorgan Chase, and the company does not report or use it.** The metric that would matter for assessing JPM's profitability consistency is something like net interest margin, overhead ratio, or ROE — not gross margin.
+
+## Data basis
+
+The analysis is based on the attached filing, `/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_17/JPMORGAN_2022_10K.pdf` (JPMorgan Chase & Co. 2022 Form 10-K, 382 pages). I extracted the full text with `pypdf` and searched it for the terms "gross margin," "gross," "margin," "cost of goods," "COGS," "net interest income," "net revenue," "operating margin," and "income statement." I also reviewed the Consolidated Statements of Income (page 160) and the three-year summary of financial highlights (page 45) to confirm the revenue and expense structure, and the glossary (page 302) for the definition of "pre-tax margin." The key finding is that "gross margin," "cost of goods," and "COGS" each appear zero times in the filing, while the income statement shows no cost-of-goods-sold line, confirming that gross margin is not a metric JPMorgan Chase reports or uses.

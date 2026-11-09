@@ -1,0 +1,21 @@
+{
+  "line": 20,
+  "id": 37,
+  "user_query": "审阅一份保密协议，定位保密信息定义、例外情形和保密期限；仅根据协议文本提出风险提示，不得代替当事人作法律结论。",
+  "effective_query": "审阅一份保密协议，定位保密信息定义、例外情形和保密期限；仅根据协议文本提出风险提示，不得代替当事人作法律结论。\n\nAttached files are available at the following paths. Read them as needed:\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_37/ContractNLI_NDA_50.txt",
+  "attached_files": [
+    "attached_files/task_37/ContractNLI_NDA_50.txt"
+  ],
+  "resolved_attached_files": [
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_37/ContractNLI_NDA_50.txt"
+  ],
+  "archived_attachments": [
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_37/ContractNLI_NDA_50.txt",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000020-37/inputs/attached_files/task_37/ContractNLI_NDA_50.txt",
+      "size": 4956,
+      "sha256": "50f908d0a0b79fe27a29dd6d68763e5de08fbe32abdb8812f86f9a2e2f6efb91"
+    }
+  ],
+  "started_at": "2026-11-06T09:41:47.765641+00:00"
+}

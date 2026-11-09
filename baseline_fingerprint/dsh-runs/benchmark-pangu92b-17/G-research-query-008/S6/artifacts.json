@@ -1,0 +1,50 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "materials-ml-composition-full-report.md",
+    "materials-ml-composition-optimization-report.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "materials-ml-composition-full-report.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-research-query-008/S6/artifacts/materials-ml-composition-full-report.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792956481000000000,
+      "type": "file",
+      "size": 32747,
+      "sha256": "62ecccf8259a180cc7986fc8e3290793574d26c31f7fda874c9955ae2b2f230c"
+    },
+    {
+      "path": "materials-ml-composition-optimization-report.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-research-query-008/S6/artifacts/materials-ml-composition-optimization-report.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792956176000000000,
+      "type": "file",
+      "size": 31257,
+      "sha256": "658c7db4f55f91b249e351d46008ed070d9865c535911be4c9c1d6330223856e"
+    }
+  ],
+  "entries": {
+    "materials-ml-composition-full-report.md": {
+      "mode": 384,
+      "mtime_ns": 1792956481000000000,
+      "type": "file",
+      "size": 32747,
+      "sha256": "62ecccf8259a180cc7986fc8e3290793574d26c31f7fda874c9955ae2b2f230c"
+    },
+    "materials-ml-composition-optimization-report.md": {
+      "mode": 384,
+      "mtime_ns": 1792956176000000000,
+      "type": "file",
+      "size": 31257,
+      "sha256": "658c7db4f55f91b249e351d46008ed070d9865c535911be4c9c1d6330223856e"
+    }
+  },
+  "deleted_entries": {}
+}

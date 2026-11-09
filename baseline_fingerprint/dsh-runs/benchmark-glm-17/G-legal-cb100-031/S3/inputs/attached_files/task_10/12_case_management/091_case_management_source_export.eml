@@ -1,0 +1,99 @@
+From: Caleb Hassan <caleb_hassan@example.test>
+To: Theo Laurent <theo_laurent@example.test>
+Date: 2024-05-23 08:30:00 -0700
+Message-ID: <cb-doc-031-091@example.test>
+Subject: CB-LD-2701 — production gap source export
+X-Matter-Number: CB-LD-2701
+X-Portfolio-Key: CBP-031-07
+X-Source-System: Relativity workspace
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+An independent source repeats portfolio key CBP-031-07 and immutable entity ENT-031-1006 but uses reference CB-LD-2701-E660. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.
+
+SOURCE LINEAGE
+Relativity workspace produced native record CB-DOC-031-091 for CB-LD-2701. Caleb Hassan owns the source population and Theo Laurent recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns production gap within Aurora pricing MDL discovery audit. A multidistrict antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian scope, mobile collections, Bates families, and privilege challenges against court requirements.
+
+NATIVE RECORD
+An independent source repeats portfolio key CBP-031-07 and immutable entity ENT-031-1006 but uses reference CB-LD-2701-E660. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.
+
+RELIANCE LIMITS
+This file supplies independent counterrecord evidence for CBP-031-07. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SOURCE THREAD
+-----Original Message-----
+From: Maya Ellison <maya_ellison@example.test>
+Sent: 2025-02-10 09:00:00 -0700
+To: Theo Laurent <theo_laurent@example.test>
+Subject: CBP-031-07 source row CBP-031-07-IND-01
+
+Independent Counterrecord support row 1 for production gap; retained from the native system so the reviewer can distinguish the exact CBP-031-07 population from similarly named records. The native status is superseded and the recorded metric is $331,359.00.
+
+-----Original Message-----
+From: Dominic Alvarez <dominic_alvarez@example.test>
+Sent: 2025-02-13 09:00:00 -0700
+To: Theo Laurent <theo_laurent@example.test>
+Subject: CBP-031-07 source row CBP-031-07-IND-02
+
+Independent Counterrecord support row 2 for production gap; retained from the native system so the reviewer can distinguish the exact CBP-031-07 population from similarly named records. The native status is recorded and the recorded metric is 6%.
+
+-----Original Message-----
+From: Talia Brooks <talia_brooks@example.test>
+Sent: 2025-02-16 09:00:00 -0700
+To: Theo Laurent <theo_laurent@example.test>
+Subject: CBP-031-07 source row CBP-031-07-IND-03
+
+Independent Counterrecord support row 3 for production gap; retained from the native system so the reviewer can distinguish the exact CBP-031-07 population from similarly named records. The native status is recorded and the recorded metric is 14%.
+
+-----Original Message-----
+From: Caleb Hassan <caleb_hassan@example.test>
+Sent: 2025-02-19 09:00:00 -0700
+To: Theo Laurent <theo_laurent@example.test>
+Subject: CBP-031-07 source row CBP-031-07-IND-04
+
+Independent Counterrecord support row 4 for production gap; retained from the native system so the reviewer can distinguish the exact CBP-031-07 population from similarly named records. The native status is superseded and the recorded metric is $111,779.00.
+
+-----Original Message-----
+From: Sofia Bennett <sofia_bennett@example.test>
+Sent: 2025-02-22 09:00:00 -0700
+To: Theo Laurent <theo_laurent@example.test>
+Subject: CBP-031-07 source row CBP-031-07-IND-05
+
+Independent Counterrecord support row 5 for production gap; retained from the native system so the reviewer can distinguish the exact CBP-031-07 population from similarly named records. The native status is pending and the recorded metric is 25%.
+
+-----Original Message-----
+From: Theo Laurent <theo_laurent@example.test>
+Sent: 2025-02-25 09:00:00 -0700
+To: Theo Laurent <theo_laurent@example.test>
+Subject: CBP-031-07 source row CBP-031-07-IND-06
+
+Independent Counterrecord support row 6 for production gap; retained from the native system so the reviewer can distinguish the exact CBP-031-07 population from similarly named records. The native status is pending and the recorded metric is 11%.
+
+-----Original Message-----
+From: Nadine Flores <nadine_flores@example.test>
+Sent: 2025-02-28 09:00:00 -0700
+To: Theo Laurent <theo_laurent@example.test>
+Subject: CBP-031-07 source row CBP-031-07-IND-07
+
+Independent Counterrecord support row 7 for production gap; retained from the native system so the reviewer can distinguish the exact CBP-031-07 population from similarly named records. The native status is superseded and the recorded metric is $330,327.00.
+
+-----Original Message-----
+From: Owen Delgado <owen_delgado@example.test>
+Sent: 2025-03-03 09:00:00 -0700
+To: Theo Laurent <theo_laurent@example.test>
+Subject: CBP-031-07 source row CBP-031-07-IND-08
+
+Independent Counterrecord support row 8 for production gap; retained from the native system so the reviewer can distinguish the exact CBP-031-07 population from similarly named records. The native status is confirmed and the recorded metric is 1%.
+
+CHRONOLOGY
+2024-04-18 | native population opened | Maya Ellison | CB-DOC-031-091
+2024-04-24 | custodian boundary confirmed | Priya Raman | CBP-031-07
+2024-04-30 | export created | Mei Whitaker | CB-DOC-031-091
+2024-05-06 | cross-system identifier checked | Sofia Bennett | CBP-031-07
+2024-05-12 | revision retained | Amara Patel | CB-DOC-031-091
+2024-05-18 | matter copy collected | Farah Ibrahim | CBP-031-07
+
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

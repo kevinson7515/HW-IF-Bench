@@ -1,0 +1,33 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "regular-file size and nanosecond mtime before and after the task",
+  "created": [],
+  "modified": [
+    "attached_files/task_3/django/core/mail/message.py",
+    "attached_files/task_3/tests/mail/tests.py"
+  ],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "attached_files/task_3/django/core/mail/message.py",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1853564/000003-3/artifacts/attached_files/task_3/django/core/mail/message.py",
+      "change": "modified",
+      "size": 17026,
+      "sha256": "93b7f23d893a79c4131c389aea07ce4a0bfb2caae647b2f784b92ee5e8152fc6"
+    },
+    {
+      "path": "attached_files/task_3/tests/mail/tests.py",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1853564/000003-3/artifacts/attached_files/task_3/tests/mail/tests.py",
+      "change": "modified",
+      "size": 69952,
+      "sha256": "ab9257c24ff180cf82fdcf6199db6b44d4addaf6a0b366064e3e7d07ffbc3b04"
+    }
+  ],
+  "skipped": [],
+  "errors": [],
+  "limits": {
+    "max_file_bytes": 104857600,
+    "max_total_bytes": 1073741824
+  }
+}

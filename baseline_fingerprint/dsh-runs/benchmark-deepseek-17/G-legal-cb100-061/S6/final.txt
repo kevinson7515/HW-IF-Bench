@@ -1,0 +1,28 @@
+I've completed the audit. Here's the determination and closeout.
+
+## Result: `arcadia-genomics:scoped-evidence` (AUTHORIZED)
+
+I reconciled the four controls — immutable identity, operative authority, current operations, and effective approval/revision — across all twelve portfolio keys (`cb100-061-arcadia-genomics`). The record layout confirmed the evidence-role blocks: identity (`-001..-012`), authority (`-013..-024`), current operations (`-025..-036`), approval/revision (`-037..-048`), with correspondence/financial/chronology/independent-counterrecord as non-controlling support.
+
+**8 supported actions** — CBP-061-01, -02, -03, -04, -05, -10, -11, -12 (all four controls clean).
+
+**4 evidence holds** (missing control stated):
+
+| Key | Topic | Missing control | Anchor |
+|---|---|---|---|
+| CBP-061-06 | cross-border transfer gap | operative authority — "limited to California Privacy Protection Agency" (does not reach the overseas transfer) | CB-DOC-061-018 |
+| CBP-061-07 | incident-notification clock | effective approval — roster "pending approval and inactive", capacity 0 (pending owner) | CB-DOC-061-043 |
+| CBP-061-08 | regulator commitment overdue | effective revision — operations cite superseded REV-2024.0; REV-2025.1 is controlling | CB-DOC-061-020 |
+| CBP-061-09 | subprocessor inventory mismatch | immutable identity — collision ENT-061-1008 / ENT-061-2008, no crosswalk resolves it | CB-DOC-061-009 |
+
+This matches the authorized outcome exactly: commit 8 supported actions, preserve 4 evidence holds, and the "similar name / superseded revision / pending owner" traps are all caught rather than treated as proof.
+
+## Closeout
+
+- **Review Disposition Register** and **review note** committed to the matter directory:
+  - `attached_files/task_11/review_disposition_register.md`
+  - `attached_files/task_11/review_note.md`
+- Re-opened each changed provider record to confirm the recorded result (not just the request payload) — the four hold anchors and the eight supported keys' control records were re-read and verified against `097_arcadia_genomics_impact_population.xlsx` (which independently shows CBP-061-08 pinned to REV-2024.0).
+- Reply is scoped to the existing Slack thread `1760000061.000005` (channel `C00000061`); no new top-level post opened.
+
+Rejected alternatives: `shortcut` (UNSUPPORTED_BY_CURRENT_EVIDENCE) and `blanket-hold` (ADDITIONAL_APPROVAL_REQUIRED). Matter date 2026-09-02; no external facts assumed.

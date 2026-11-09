@@ -1,0 +1,50 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "materials-ml-composition-groups.md",
+    "materials-ml-composition-report.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "materials-ml-composition-groups.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1930645/G-research-query-008/S1/artifacts/materials-ml-composition-groups.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793518665000000000,
+      "type": "file",
+      "size": 28306,
+      "sha256": "f099ea376894f748f2e680561d4f319acb7bb5bbb814676598308b01c3f3756f"
+    },
+    {
+      "path": "materials-ml-composition-report.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1930645/G-research-query-008/S1/artifacts/materials-ml-composition-report.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793520544000000000,
+      "type": "file",
+      "size": 88505,
+      "sha256": "f0e24f8e612b767c4d42ed1d99a166c96036e7bb2670e9f4f1802e00507b3cc9"
+    }
+  ],
+  "entries": {
+    "materials-ml-composition-groups.md": {
+      "mode": 384,
+      "mtime_ns": 1793518665000000000,
+      "type": "file",
+      "size": 28306,
+      "sha256": "f099ea376894f748f2e680561d4f319acb7bb5bbb814676598308b01c3f3756f"
+    },
+    "materials-ml-composition-report.md": {
+      "mode": 384,
+      "mtime_ns": 1793520544000000000,
+      "type": "file",
+      "size": 88505,
+      "sha256": "f0e24f8e612b767c4d42ed1d99a166c96036e7bb2670e9f4f1802e00507b3cc9"
+    }
+  },
+  "deleted_entries": {}
+}

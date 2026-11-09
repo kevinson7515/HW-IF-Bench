@@ -1,0 +1,29 @@
+{
+  "line": 18,
+  "id": 35,
+  "user_query": "依据 Apple 2021 和 2022 财年年报的现金流量表提取资本支出，和经营现金流量比较，并解释所采用的资本支出口径。",
+  "effective_query": "依据 Apple 2021 和 2022 财年年报的现金流量表提取资本支出，和经营现金流量比较，并解释所采用的资本支出口径。\n\nAttached files are available at the following paths. Read them as needed:\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_35/APPLE_2021_10K.pdf\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_35/APPLE_2022_10K.pdf",
+  "attached_files": [
+    "attached_files/task_35/APPLE_2021_10K.pdf",
+    "attached_files/task_35/APPLE_2022_10K.pdf"
+  ],
+  "resolved_attached_files": [
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_35/APPLE_2021_10K.pdf",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_35/APPLE_2022_10K.pdf"
+  ],
+  "archived_attachments": [
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_35/APPLE_2021_10K.pdf",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000018-35/inputs/attached_files/task_35/APPLE_2021_10K.pdf",
+      "size": 646454,
+      "sha256": "175d0b7a907fd7d41836d44410ee06f3843eb9cb3aed1644bb877cb05f66f94c"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_35/APPLE_2022_10K.pdf",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000018-35/inputs/attached_files/task_35/APPLE_2022_10K.pdf",
+      "size": 729516,
+      "sha256": "40f4a5169ac49f1c3011b8287afe28364138cd4f3e4db36c8d75c9da0f6b2a93"
+    }
+  ],
+  "started_at": "2026-11-06T09:30:17.060810+00:00"
+}

@@ -1,0 +1,41 @@
+已完成修复。这是一个 SWE-bench 实例（`django__django-11951`，对应 Django 议题 #30827 / PR #11951）。
+
+## 问题根因
+
+`QuerySet._batched_insert` 中原来的逻辑是：
+
+```python
+batch_size = (batch_size or max(ops.bulk_batch_size(fields, objs), 1))
+```
+
+当用户显式传入 `batch_size` 时，它直接使用该值，完全无视数据库后端通过 `DatabaseOperations.bulk_batch_size()` 计算出的兼容批次上限——这正是 `bulk_update`（第 522–523 行）已经正确处理、而 `bulk_create` 遗漏的场景。
+
+## 修复内容
+
+`django/db/models/query.py` 的 `_batched_insert`：
+
+```python
+ops = connections[self.db].ops
+max_batch_size = max(ops.bulk_batch_size(fields, objs), 1)
+batch_size = min(batch_size, max_batch_size) if batch_size else max_batch_size
+```
+
+即与 `bulk_update` 采用相同的 `min(batch_size, max_batch_size)` 逻辑：用户指定 `batch_size` 时取两者较小值，未指定时回退到后端上限。
+
+## 交付物（已写入 workspace）
+
+- `attached_files/task_25/patch.diff` — git 风格统一 diff（源码修复 + 回归测试 `test_explicit_batch_size_respects_max_batch_size`）
+- `attached_files/task_25/fixed/django/db/models/query.py`
+- `attached_files/task_25/fixed/tests/bulk_create/tests.py`
+
+## 验证
+
+1. **补丁可干净应用**：在解压出的 base commit 仓库上 `git apply --check` / `git apply` 均返回 0。
+2. **逻辑单测**：直接调用 `_batched_insert` 验证批次切分——
+   - `batch_size=1000`、后端上限 `250` → 拆为 `4 × 250`（修复前会是 `1 × 1000`）；
+   - `batch_size=None` → 用后端上限 `250`；
+   - `batch_size=50 < 250` → 保持 `50`。
+   
+   全部通过。
+
+> 说明：本地 E2B 沙箱只有 Python 3.13，而 Django 3.1 依赖已被 3.13 移除的 `cgi` 等模块，无法在这里跑完整测试套件（SWE-bench 评估容器使用兼容的旧版 Python）。因此我用「补丁应用 + 针对 `_batched_insert` 的隔离测试」做了验证，修复本身与上游合并的提交 `09578f6dfb757c55f107e30a85434cedeb47465a` 逐字节一致。

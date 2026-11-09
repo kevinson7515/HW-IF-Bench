@@ -1,0 +1,99 @@
+From: Henry Cho <henry_cho@example.test>
+To: Samuel Kim <samuel_kim@example.test>
+Date: 2025-11-25 08:30:00 -0700
+Message-ID: <cb-doc-031-075@example.test>
+Subject: CB-LD-2701 — request-response mismatch source export
+X-Matter-Number: CB-LD-2701
+X-Portfolio-Key: CBP-031-03
+X-Source-System: Legal hold console
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Custody history shows collection from /workspace/documents/04_custodian_files/027_custodian_files_source_export.eml after the operative record was fixed at /workspace/documents/02_orders/015_orders_source_export.html. Reviewer handoff preserved both versions and the identity record for CBP-031-03.
+
+SOURCE LINEAGE
+Legal hold console produced native record CB-DOC-031-075 for CB-LD-2701. Henry Cho owns the source population and Samuel Kim recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns request-response mismatch within Aurora pricing MDL discovery audit. A multidistrict antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian scope, mobile collections, Bates families, and privilege challenges against court requirements.
+
+NATIVE RECORD
+Custody history shows collection from /workspace/documents/04_custodian_files/027_custodian_files_source_export.eml after the operative record was fixed at /workspace/documents/02_orders/015_orders_source_export.html. Reviewer handoff preserved both versions and the identity record for CBP-031-03.
+
+RELIANCE LIMITS
+This file supplies chronology and custody evidence for CBP-031-03. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SOURCE THREAD
+-----Original Message-----
+From: Mei Whitaker <mei_whitaker@example.test>
+Sent: 2025-04-20 09:00:00 -0700
+To: Samuel Kim <samuel_kim@example.test>
+Subject: CBP-031-03 source row CBP-031-03-CHR-01
+
+Chronology And Custody support row 1 for request-response mismatch; retained from the native system so the reviewer can distinguish the exact CBP-031-03 population from similarly named records. The native status is recorded and the recorded metric is $734,140.00.
+
+-----Original Message-----
+From: Isaac Romero <isaac_romero@example.test>
+Sent: 2025-04-23 09:00:00 -0700
+To: Samuel Kim <samuel_kim@example.test>
+Subject: CBP-031-03 source row CBP-031-03-CHR-02
+
+Chronology And Custody support row 2 for request-response mismatch; retained from the native system so the reviewer can distinguish the exact CBP-031-03 population from similarly named records. The native status is pending and the recorded metric is 14%.
+
+-----Original Message-----
+From: Willa Novak <willa_novak@example.test>
+Sent: 2025-04-26 09:00:00 -0700
+To: Samuel Kim <samuel_kim@example.test>
+Subject: CBP-031-03 source row CBP-031-03-CHR-03
+
+Chronology And Custody support row 3 for request-response mismatch; retained from the native system so the reviewer can distinguish the exact CBP-031-03 population from similarly named records. The native status is superseded and the recorded metric is 9%.
+
+-----Original Message-----
+From: Henry Cho <henry_cho@example.test>
+Sent: 2025-04-29 09:00:00 -0700
+To: Samuel Kim <samuel_kim@example.test>
+Subject: CBP-031-03 source row CBP-031-03-CHR-04
+
+Chronology And Custody support row 4 for request-response mismatch; retained from the native system so the reviewer can distinguish the exact CBP-031-03 population from similarly named records. The native status is confirmed and the recorded metric is $912,057.00.
+
+-----Original Message-----
+From: Farah Ibrahim <farah_ibrahim@example.test>
+Sent: 2025-05-02 09:00:00 -0700
+To: Samuel Kim <samuel_kim@example.test>
+Subject: CBP-031-03 source row CBP-031-03-CHR-05
+
+Chronology And Custody support row 5 for request-response mismatch; retained from the native system so the reviewer can distinguish the exact CBP-031-03 population from similarly named records. The native status is superseded and the recorded metric is 24%.
+
+-----Original Message-----
+From: Samuel Kim <samuel_kim@example.test>
+Sent: 2025-05-05 09:00:00 -0700
+To: Samuel Kim <samuel_kim@example.test>
+Subject: CBP-031-03 source row CBP-031-03-CHR-06
+
+Chronology And Custody support row 6 for request-response mismatch; retained from the native system so the reviewer can distinguish the exact CBP-031-03 population from similarly named records. The native status is pending and the recorded metric is 18%.
+
+-----Original Message-----
+From: Nora Chen <nora_chen@example.test>
+Sent: 2025-05-08 09:00:00 -0700
+To: Samuel Kim <samuel_kim@example.test>
+Subject: CBP-031-03 source row CBP-031-03-CHR-07
+
+Chronology And Custody support row 7 for request-response mismatch; retained from the native system so the reviewer can distinguish the exact CBP-031-03 population from similarly named records. The native status is confirmed and the recorded metric is $191,813.00.
+
+-----Original Message-----
+From: Elliot Mercer <elliot_mercer@example.test>
+Sent: 2025-05-11 09:00:00 -0700
+To: Samuel Kim <samuel_kim@example.test>
+Subject: CBP-031-03 source row CBP-031-03-CHR-08
+
+Chronology And Custody support row 8 for request-response mismatch; retained from the native system so the reviewer can distinguish the exact CBP-031-03 population from similarly named records. The native status is recorded and the recorded metric is 6%.
+
+CHRONOLOGY
+2025-10-21 | native population opened | Mei Whitaker | CB-DOC-031-075
+2025-10-27 | custodian boundary confirmed | Sofia Bennett | CBP-031-03
+2025-11-02 | export created | Amara Patel | CB-DOC-031-075
+2025-11-08 | cross-system identifier checked | Farah Ibrahim | CBP-031-03
+2025-11-14 | revision retained | Maya Ellison | CB-DOC-031-075
+2025-11-20 | matter copy collected | Priya Raman | CBP-031-03
+
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

@@ -1,0 +1,59 @@
+ATTORNEY WORK PRODUCT
+
+CROSS-BORDER TRANSFER GAP
+RECORD: CB-DOC-061-018
+MATTER: CB-PR-3001
+PORTFOLIO KEY: CBP-061-06
+SOURCE SYSTEM: regulatory response room
+EVIDENCE ROLE: operative_authority
+ENTITY KEY: ENT-061-1005
+REFERENCED REVISION: REV-2025.6
+CURRENT REVISION: REV-2025.6
+CUSTODIAN: Willa Novak
+REVIEWER: Willa Novak
+
+NATIVE RECORD
+cross-border transfer gap authority is limited to California Privacy Protection Agency under CB-PR-3001-R637. The referenced and current revision are both REV-2025.6. The matter-level control is: Access, deletion, and transfer duties depend on verified identity, purpose, jurisdiction, and current vendor scope.
+
+SOURCE LINEAGE
+regulatory response room produced native record CB-DOC-061-018 for CB-PR-3001. Willa Novak owns the source population and Willa Novak recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns cross-border transfer gap within Arcadia genomic data response audit. A consumer access request exposes inconsistencies among genomic-data notices, deletion jobs, vendors, and overseas research transfers. The record addresses one part of the broader question: Join requester identity, genomic data inventory, vendor copies, deletion jobs, and research transfers.
+
+NATIVE RECORD
+cross-border transfer gap authority is limited to California Privacy Protection Agency under CB-PR-3001-R637. The referenced and current revision are both REV-2025.6. The matter-level control is: Access, deletion, and transfer duties depend on verified identity, purpose, jurisdiction, and current vendor scope.
+
+RELIANCE LIMITS
+This file supplies operative authority evidence for CBP-061-06. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SCHEDULE 1 — NATIVE ROWS
+CBP-061-06-OPE-01 | 2024-05-22 | ENT-061-1005 | REV-2025.6 | Elliot Mercer | confirmed | $771,017.00 | Operative Authority support row 1 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.
+CBP-061-06-OPE-02 | 2024-05-25 | ENT-061-1005 | REV-2025.6 | Mei Whitaker | superseded | 6% | Operative Authority support row 2 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.
+CBP-061-06-OPE-03 | 2024-05-28 | ENT-061-1005 | REV-2025.6 | Isaac Romero | superseded | 1% | Operative Authority support row 3 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.
+CBP-061-06-OPE-04 | 2024-05-31 | ENT-061-1005 | REV-2025.6 | Willa Novak | pending | $251,286.00 | Operative Authority support row 4 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.
+CBP-061-06-OPE-05 | 2024-06-03 | ENT-061-1005 | REV-2025.6 | Henry Cho | recorded | 12% | Operative Authority support row 5 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.
+CBP-061-06-OPE-06 | 2024-06-06 | ENT-061-1005 | REV-2025.6 | Farah Ibrahim | recorded | 15% | Operative Authority support row 6 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.
+CBP-061-06-OPE-07 | 2024-06-09 | ENT-061-1005 | REV-2025.6 | Samuel Kim | confirmed | $338,041.00 | Operative Authority support row 7 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.
+CBP-061-06-OPE-08 | 2024-06-12 | ENT-061-2005 | REV-2025.6 | Nora Chen | pending | 16% | Operative Authority support row 8 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.
+CBP-061-06-OPE-09 | 2024-06-15 | ENT-061-1005 | REV-2025.6 | Elliot Mercer | pending | 2% | Operative Authority support row 9 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.
+CBP-061-06-OPE-10 | 2024-06-18 | ENT-061-1005 | REV-2025.6 | Mei Whitaker | confirmed | $731,317.00 | Operative Authority support row 10 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.
+CBP-061-06-OPE-11 | 2024-06-21 | ENT-061-1005 | REV-2025.6 | Isaac Romero | superseded | 10% | Operative Authority support row 11 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.
+CBP-061-06-OPE-12 | 2024-06-24 | ENT-061-1005 | REV-2025.6 | Willa Novak | superseded | 26% | Operative Authority support row 12 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.
+CBP-061-06-OPE-13 | 2024-06-27 | ENT-061-1005 | REV-2025.6 | Henry Cho | pending | $763,910.00 | Operative Authority support row 13 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.
+CBP-061-06-OPE-14 | 2024-06-30 | ENT-061-1005 | REV-2025.6 | Farah Ibrahim | recorded | 8% | Operative Authority support row 14 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.
+CBP-061-06-OPE-15 | 2024-07-03 | ENT-061-1005 | REV-2025.6 | Samuel Kim | pending | 14% | Operative Authority support row 15 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.
+CBP-061-06-OPE-16 | 2024-07-06 | ENT-061-1005 | REV-2025.6 | Nora Chen | recorded | $215,324.00 | Operative Authority support row 16 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.
+CBP-061-06-OPE-17 | 2024-07-09 | ENT-061-1005 | REV-2025.6 | Elliot Mercer | pending | 24% | Operative Authority support row 17 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.
+CBP-061-06-OPE-18 | 2024-07-12 | ENT-061-1005 | REV-2025.6 | Mei Whitaker | confirmed | 26% | Operative Authority support row 18 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.
+
+SCHEDULE 2 — CHRONOLOGY
+2024-09-19 | native population opened | Elliot Mercer | CB-DOC-061-018
+2024-09-25 | custodian boundary confirmed | Caleb Hassan | CBP-061-06
+2024-10-01 | export created | Adrian Mensah | CB-DOC-061-018
+2024-10-07 | cross-system identifier checked | Henry Cho | CBP-061-06
+2024-10-13 | revision retained | Owen Delgado | CB-DOC-061-018
+2024-10-19 | matter copy collected | Rafael Okafor | CBP-061-06
+
+PROVENANCE
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

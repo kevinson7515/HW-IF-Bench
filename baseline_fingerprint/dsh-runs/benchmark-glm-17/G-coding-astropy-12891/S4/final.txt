@@ -1,0 +1,9 @@
+All verification complete. Final state of the four files:
+
+**`units/quantity.py`** — `mean`/`std`/`var` gained `*, where=True` behind `NUMPY_LT_1_20` gates; `nansum` gained `*, initial=None, where=True` behind `NUMPY_LT_1_22`; all route through `_wrap_function`, so units propagate (`var` → `m²`) and `out=`/`keepdims` still work. `sum`/`min`/`max` pass `where`/`initial` through the ndarray path.
+
+**`utils/masked/core.py`** — `mean`/`var`/`std`/`any`/`all` accept `*, where=True`; effective mask is `~self.mask & where`, counts come from `np.add.reduce(where_final)`, and the result mask is `logical_or.reduce(mask, where=where_final) | (~where_final).all(axis)`.
+
+**Tests** — added `test_{mean,std,var,sum,min,max,nansum}_where` for Quantity (xfail gates for old numpy) and parametrized `axis`-based `test_{sum,mean,var,std,min,max,all_and_any}_where` for Masked.
+
+Sandbox verification (numpy 2.3.5, patched astropy): all Quantity and Masked behavioral checks passed — data, masks, units, `keepdims`, `out`. The only failures were numpy-2.x artifacts of the 5.1-era code in the hybrid test env (upstream fixed `nansum`'s `initial` conversion in 5.2); the port itself matches the astropy 5.1 reference byte-for-byte in every `where`/`initial` hunk.

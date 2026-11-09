@@ -1,0 +1,26 @@
+[
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_2/astropy/units/quantity.py",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1853564/000002-2/inputs/attached_files/task_2/astropy/units/quantity.py",
+    "size": 80530,
+    "sha256": "5538c71dc43926cfd96507025b7e399519cdaff9d82bcc31c119b191143119e0"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_2/astropy/units/tests/test_quantity_array_methods.py",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1853564/000002-2/inputs/attached_files/task_2/astropy/units/tests/test_quantity_array_methods.py",
+    "size": 19227,
+    "sha256": "769fc78f6db0839c42a91be0cfee03cde01d49b6c434e42d4c154ce9cf4f4520"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_2/astropy/utils/masked/core.py",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1853564/000002-2/inputs/attached_files/task_2/astropy/utils/masked/core.py",
+    "size": 45844,
+    "sha256": "657aa82dd82768dc61b0076f88168026aa285cf340c49eec13d12fb8bd30f9da"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_2/astropy/utils/masked/tests/test_masked.py",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1853564/000002-2/inputs/attached_files/task_2/astropy/utils/masked/tests/test_masked.py",
+    "size": 46057,
+    "sha256": "f1f81bca223387ea5c55c64831bb4ad2ef25445e75cd24dfbc958a779882cbf1"
+  }
+]

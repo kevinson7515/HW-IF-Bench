@@ -1,0 +1,31 @@
+The audit is complete. Here is the authorized matter closeout for **Arcadia Genomics, Inc. (CB-PR-3001)**.
+
+## Determination
+
+I reconciled the 12 portfolio keys (`CBP-061-01`…`CBP-061-12`) across all 96 source-export records (8 evidence roles × 12 keys), testing the four controls: **immutable identity, operative authority, current operations, and effective approval/revision**.
+
+**Selected approach:** `arcadia-genomics:scoped-evidence` (AUTHORIZED). The shortcut (`UNSUPPORTED_BY_CURRENT_EVIDENCE`) and blanket-hold (`ADDITIONAL_APPROVAL_REQUIRED`) were rejected.
+
+### 8 supported actions
+`CBP-061-01` Sensitive-Data Classification, `-02` Notice-Practice Mismatch, `-03` Retention Schedule Conflict, `-04` Risk-Assessment Omission, `-05` Processing-Purpose Gap, `-10` Identity-Verification Inconsistency, `-11` Training Completion Gap, `-12` Processor-Contract Omission.
+
+Each reconciles all four controls. Their "open and unresolved / blocks completion" states are verifiable matter conditions, not unreconciled control failures.
+
+### 4 evidence holds (missing control stated)
+| Key | Subject | Missing control |
+|---|---|---|
+| `CBP-061-06` | Cross-Border Transfer Gap | Operative authority — limited to California Privacy Protection Agency (transfer gap → escalate) |
+| `CBP-061-07` | Incident-Notification Clock | Effective approval — roster "pending approval and inactive," capacity 0 (pending owner) |
+| `CBP-061-08` | Regulator Commitment Overdue | Effective revision — REV-2024.0 vs REV-2025.1 (superseded revision) + approver conflict |
+| `CBP-061-09` | Subprocessor Inventory Mismatch | Immutable identity — ENT-061-1008 vs ENT-061-2008 collision (similar name) |
+
+These four map exactly to the protocol's trap warnings — *similar name* (09), *superseded revision* (08), *pending owner* (07) — plus the *exact transfer gap* (06).
+
+## Persisted state (verified)
+
+- **Register** — `arcadia_genomics_audit/review_disposition_register.md` (12 rows: 8 supported, 4 holds)
+- **Review note** — `arcadia_genomics_audit/review_note.md` (selected approach, supported actions, evidence holds, source anchors, alternatives, limits)
+
+Both were re-read after commit and confirmed intact, satisfying the "re-open changed provider records" requirement before closeout.
+
+**Noted limits:** the binary impact-population workbook (`097`) was not parseable (its impact-control scores were recovered from the financial/population records 061–072); keys 04/12 share R173/E104; key 11 shows a 216-vs-190 population/certification gap; keys 01 and 07 recorded late completions — none of these rise to a control failure.

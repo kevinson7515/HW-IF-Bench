@@ -1,0 +1,35 @@
+The matter is complete. Here is the working position for CB-LD-2701.
+
+## Direct answers to the client's questions
+
+**Can Aurora certify the MDL production?** Not in full. Applying record 089's four-control test (immutable identity, operative authority, current operations, effective approval/revision) to all 97 source records: **6 of 12 portfolio keys certify now; 6 go to evidence hold** — exactly the split the authorized `aurora-antitrust:scoped-evidence` approach commits.
+
+**What can be done now** (all four controls pass; certifications carry stated disclosures):
+- **CBP-031-04** metadata field loss — completed 2025-11-25, before the due date. Clean.
+- **CBP-031-02** email-family separation — 14% result vs 11% threshold; certify with a production-control row disclosing the breach.
+- **CBP-031-06** designation error (23-record delta), **CBP-031-07** production gap (38-record delta) — certify with disclosed production-control rows.
+- **CBP-031-08** legal-hold notice — reissue to the required notices address; disclose the delivery gap.
+- **CBP-031-09** clawback — completed 2025-05-12 vs 2025-03-31 deadline; disclose the late completion.
+
+**What must wait** (one missing control each):
+| Key | Issue | Missing control | Cure |
+|---|---|---|---|
+| 01 | Bates overlap | Approval — owner inactive, cap 0 | Approve/reassign owner; reconcile 35-record delta |
+| 03 | Request-response mismatch | Identity — 1002/2002 collision | Approved crosswalk; resolve open mismatch |
+| 05 | Collection-date inconsistency | Approval — owner inactive, cap 0 | Approve/reassign owner; resolve open inconsistency |
+| 10 | Third-party subpoena | Revision — all 8 records on superseded REV-2024.2 | Re-extract under REV-2025.3; reissue notices |
+| 11 | Custodian omission | Identity — 1010/2010 collision | Approved crosswalk; reconcile 37-record delta |
+| 12 | Privilege challenge (common-interest gap) | Operative order blocks completion | **Resolve** the gap — disclosure cannot cure this one |
+
+**What evidence would change the answer:** each held key converts to supported the moment its single missing control is cured. Conversely, a supported key falls out if its revision is superseded, its owner goes pending/inactive, or an undisclosed count mismatch appears.
+
+The alternative approaches were rejected on the record's own authority labels: `shortcut` (UNSUPPORTED_BY_CURRENT_EVIDENCE) and `blanket-hold` (ADDITIONAL_APPROVAL_REQUIRED, and it defers six supported keys past the 2026-09-05 matter date at $29,600 vs $20,000).
+
+## Workspace records (all committed)
+
+- `task_10_workspace/review_disposition_register.md` — system of record, one row per key, with dispositions, missing controls, cures, owners, and per-key evidence anchors
+- `task_10_workspace/review_note.md` — full review note: approach, supported actions, holds, anchors, alternatives, limits, owners
+- `task_10_workspace/slack_reply_C00000031_thread_1760000031.000005.md` — the completion-route reply, drafted in full for the designated thread
+- `task_10_workspace/_analysis/` — supporting digests (source digest, PDF extraction, xlsx population, four-control grid)
+
+One deviation to flag: record 089 designates a Slack reply in channel `C00000031`, thread `1760000031.000005` as the completion route. No Slack integration exists in this session, so the reply is committed as ready-to-post text with its thread coordinates recorded rather than posted. I re-opened the thread anchor (005_pleadings_source_export.json) and both deliverables after writing, confirming the recorded results match the sources. Per the protocol's provenance rule: these are synthetic CounselBench-100 records — all people, entities, events, and amounts are fictitious, and this is a working position, not legal advice.

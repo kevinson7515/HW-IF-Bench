@@ -1,0 +1,11 @@
+[
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_17/JPMORGAN_2022_10K.pdf",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-financial-fb-00206/S5/inputs/attached_files/task_17/JPMORGAN_2022_10K.pdf",
+    "mode": 420,
+    "mtime_ns": 1792659526000000000,
+    "type": "file",
+    "size": 6947859,
+    "sha256": "c269899950f36edfa496e3c8447a51d86d0a206442a96dc24dcd9317d55b957c"
+  }
+]

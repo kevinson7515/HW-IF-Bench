@@ -1,0 +1,41 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "regular-file size and nanosecond mtime before and after the task",
+  "created": [
+    "attached_files/task_25/fixed/django/db/models/query.py",
+    "attached_files/task_25/fixed/tests/bulk_create/tests.py",
+    "attached_files/task_25/patch.diff"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "attached_files/task_25/fixed/django/db/models/query.py",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000008-25/artifacts/attached_files/task_25/fixed/django/db/models/query.py",
+      "change": "created",
+      "size": 81191,
+      "sha256": "cf121b5e7a9c517ec7d69d11ca0d6291c493d76eee606bf9b8c06466e2bf8960"
+    },
+    {
+      "path": "attached_files/task_25/fixed/tests/bulk_create/tests.py",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000008-25/artifacts/attached_files/task_25/fixed/tests/bulk_create/tests.py",
+      "change": "created",
+      "size": 13934,
+      "sha256": "42aae285fa02ed7287b6e351d93edb1948bc7c417d876872a3d02ff73a926e86"
+    },
+    {
+      "path": "attached_files/task_25/patch.diff",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000008-25/artifacts/attached_files/task_25/patch.diff",
+      "change": "created",
+      "size": 1929,
+      "sha256": "d8606462247f73e088f6b430451602cb3fc2797b620b4c511f34d55a63eb2ece"
+    }
+  ],
+  "skipped": [],
+  "errors": [],
+  "limits": {
+    "max_file_bytes": 104857600,
+    "max_total_bytes": 1073741824
+  }
+}

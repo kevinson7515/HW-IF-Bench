@@ -1,0 +1,74 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "task_9_closeout",
+    "task_9_closeout/daybreak_signing_position.md",
+    "task_9_closeout/deal_team_memo.md",
+    "task_9_closeout/evidence_log.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "task_9_closeout/daybreak_signing_position.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-001/S6/artifacts/task_9_closeout/daybreak_signing_position.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793066988000000000,
+      "type": "file",
+      "size": 7429,
+      "sha256": "02ec23db0ad3052fb5f6a28a05fc0fc961f9722a4577b88cb26c2c50b5249bbf"
+    },
+    {
+      "path": "task_9_closeout/deal_team_memo.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-001/S6/artifacts/task_9_closeout/deal_team_memo.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793066999000000000,
+      "type": "file",
+      "size": 3743,
+      "sha256": "a54279298dad53001161d2beb4c92bb7d7d2e965f7926e59c148be8ddfab986f"
+    },
+    {
+      "path": "task_9_closeout/evidence_log.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-001/S6/artifacts/task_9_closeout/evidence_log.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793067024000000000,
+      "type": "file",
+      "size": 8346,
+      "sha256": "fa504a782634def4f82963447a7428490aba8ba7e014df7be49083f130addae2"
+    }
+  ],
+  "entries": {
+    "task_9_closeout": {
+      "mode": 448,
+      "mtime_ns": 1793067024000000000,
+      "type": "directory"
+    },
+    "task_9_closeout/daybreak_signing_position.md": {
+      "mode": 384,
+      "mtime_ns": 1793066988000000000,
+      "type": "file",
+      "size": 7429,
+      "sha256": "02ec23db0ad3052fb5f6a28a05fc0fc961f9722a4577b88cb26c2c50b5249bbf"
+    },
+    "task_9_closeout/deal_team_memo.md": {
+      "mode": 384,
+      "mtime_ns": 1793066999000000000,
+      "type": "file",
+      "size": 3743,
+      "sha256": "a54279298dad53001161d2beb4c92bb7d7d2e965f7926e59c148be8ddfab986f"
+    },
+    "task_9_closeout/evidence_log.md": {
+      "mode": 384,
+      "mtime_ns": 1793067024000000000,
+      "type": "file",
+      "size": 8346,
+      "sha256": "fa504a782634def4f82963447a7428490aba8ba7e014df7be49083f130addae2"
+    }
+  },
+  "deleted_entries": {}
+}

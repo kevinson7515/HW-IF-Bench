@@ -1,0 +1,66 @@
+修复完成。以下是本次修复的完整说明。
+
+## 根因
+
+`rst_prolog` 的预处理逻辑在 `sphinx/util/rst.py` 的 `prepend_prolog()` 中。它用一条简易正则来识别文档开头的 docinfo（字段列表）行，从而决定 prolog 插在哪里：
+
+```python
+docinfo_re = re.compile(r':\w+:.*?')
+```
+
+问题在于，这条正则会误把「含有域角色的章节标题」当作字段行。例如标题 `:mod:\`mypackage2\`` 以 `:mod:` 开头，正好命中 `:\w+:.*?`。于是 `prepend_prolog()` 把 prolog 和空行插到标题文本与其下划线 `========` 之间，docutils 便不再把该行识别为 section 标题，最终标题渲染错误、也不会进入 toctree。
+
+## 修复
+
+改用 docutils 自身的字段标记语法 `Body.patterns['field_marker']` 来判定是否为字段行。该模式要求 `:` 之后必须是空格或行尾，因此 `:mod:\`mypackage2\``（冒号后紧跟反引号）不再被误判为字段，而真正的 `:title: ...` 字段仍能正确识别。
+
+具体改动（`sphinx/util/rst.py`）：
+
+1. 新增导入 `from docutils.parsers.rst.states import Body`
+2. `docinfo_re = re.compile(r':\w+:.*?')` → `FIELD_NAME_RE = re.compile(Body.patterns['field_marker'])`
+3. `if docinfo_re.match(line):` → `if FIELD_NAME_RE.match(line):`
+
+## 验证
+
+- 在 `tests/test_util_rst.py` 新增了 3 个回归测试（与上游修复一致）：
+  - `test_prepend_prolog_with_roles_in_sections`
+  - `test_prepend_prolog_with_roles_in_sections_with_newline`
+  - `test_prepend_prolog_with_roles_in_sections_without_newline`
+- 测试结果：`tests/test_util_rst.py` 10 项全通过；`tests/test_parser.py` 与 `tests/test_markup.py::test_rst_prolog` 也通过。
+- 端到端复现问题描述中的场景（`rst_prolog` + `:mod:\`mypackage2\`` 首标题 + toctree），构建出的 `index.html` 中标题被正确渲染为 `` <code class="xref py py-mod">mypackage2</code> `` 并出现在 toctree 列表中。
+- 补丁对干净源码 `patch --dry-run` 校验通过，应用后与修改后的文件逐字节一致。
+
+## 交付物
+
+完整补丁已保存到：
+
+- `attached_files/task_24/fix.patch`（共改动 `sphinx/util/rst.py` 与 `tests/test_util_rst.py` 两个文件）
+
+补丁内容概要：
+
+```diff
+--- a/sphinx/util/rst.py
++++ b/sphinx/util/rst.py
+@@
+ from docutils.parsers.rst import roles
+ from docutils.parsers.rst.languages import en as english
++from docutils.parsers.rst.states import Body
+ from docutils.statemachine import StringList
+ ...
+-docinfo_re = re.compile(r':\w+:.*?')
++FIELD_NAME_RE = re.compile(Body.patterns['field_marker'])
+ ...
+-            if docinfo_re.match(line):
++            if FIELD_NAME_RE.match(line):
+```
+
+```diff
+--- a/tests/test_util_rst.py
++++ b/tests/test_util_rst.py
+@@
++def test_prepend_prolog_with_roles_in_sections(app): ...
++def test_prepend_prolog_with_roles_in_sections_with_newline(app): ...
++def test_prepend_prolog_with_roles_in_sections_without_newline(app): ...
+```
+
+该修复与上游 Sphinx 对 issue #11445 的最终修复一致（`FIELD_NAME_RE = re.compile(Body.patterns['field_marker'])`），在保持最小改动的前提下正确解决了问题。

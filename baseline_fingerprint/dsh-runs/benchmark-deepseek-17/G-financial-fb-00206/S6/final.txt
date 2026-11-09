@@ -1,0 +1,17 @@
+Gross margin is **not a relevant metric** for JPMorgan Chase, and the 2022 10-K confirms this.
+
+**Why it doesn't apply:**
+- Gross margin = (Revenue − Cost of Goods Sold) ÷ Revenue. It measures the markup on selling a *product*, which presumes a direct "cost of sales."
+- JPMorgan is a bank. Its revenue isn't from selling goods — it's **net interest income** (interest earned on loans/securities minus interest paid on deposits/debt) plus **noninterest revenue** (fees, commissions, trading, card income). There is no cost of goods sold.
+- Accordingly, the 10-K never reports "gross margin" or "gross profit" anywhere (I searched the full 382-page document). The Consolidated Statements of Income instead present:
+
+| ($ in millions) | 2022 | 2021 | 2020 |
+|---|---|---|---|
+| Net interest income | 66,710 | 52,311 | 54,563 |
+| Noninterest revenue | 61,985 | 69,338 | 65,388 |
+| **Total net revenue** | **128,695** | **121,649** | **119,951** |
+| Provision for credit losses | 6,389 | (9,256) | 17,480 |
+| Total noninterest expense | 76,140 | 71,343 | 66,656 |
+| Net income | 37,676 | 48,334 | 29,131 |
+
+Because the income statement has no cost-of-sales line, a gross-margin figure can't be computed from the filings, and any "gross margin" you'd see from data providers would be a forced, non-meaningful calculation. Banks are instead analyzed with metrics like **net interest margin** (net interest income ÷ average interest-earning assets), efficiency ratio (noninterest expense ÷ total net revenue), ROE, and return on assets.

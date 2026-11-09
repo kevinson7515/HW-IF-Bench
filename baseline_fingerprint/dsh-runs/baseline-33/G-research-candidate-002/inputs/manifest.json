@@ -1,0 +1,26 @@
+[
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_41/coding_agent_sources.md",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000024-41/inputs/attached_files/task_41/coding_agent_sources.md",
+    "size": 574,
+    "sha256": "664e7b6f09885cff08a054589426ed86837b1e503d0bd4bf275e15ad3c2d5da1"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_41/SWEbench.pdf",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000024-41/inputs/attached_files/task_41/SWEbench.pdf",
+    "size": 6139359,
+    "sha256": "dffbba18e814e495b103078cdc2f833ae2392a030f6beb21b07e1fa5252501ba"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_41/SWEagent.pdf",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000024-41/inputs/attached_files/task_41/SWEagent.pdf",
+    "size": 4963538,
+    "sha256": "d171e0693060b910ceb2cddd0fd4bc7cae302005d42d0d8059bfdbe056c3adba"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_41/Agentless.pdf",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000024-41/inputs/attached_files/task_41/Agentless.pdf",
+    "size": 1384716,
+    "sha256": "1675c2dcd5ecaef47e8a4356062f60be642cee82e1bbacb044c9d047dce4c856"
+  }
+]

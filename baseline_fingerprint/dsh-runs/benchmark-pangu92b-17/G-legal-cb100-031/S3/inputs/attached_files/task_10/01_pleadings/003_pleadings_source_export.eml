@@ -1,0 +1,99 @@
+From: Henry Cho <henry_cho@example.test>
+To: Samuel Kim <samuel_kim@example.test>
+Date: 2025-06-26 08:30:00 -0700
+Message-ID: <cb-doc-031-003@example.test>
+Subject: CB-LD-2701 — request-response mismatch source export
+X-Matter-Number: CB-LD-2701
+X-Portfolio-Key: CBP-031-03
+X-Source-System: Legal hold console
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Portfolio key CBP-031-03 is associated with both ENT-031-1002 and ENT-031-2002. The display name is shared, while the domain and legal-entity fields disagree. No approved crosswalk revision resolves the collision.
+
+SOURCE LINEAGE
+Legal hold console produced native record CB-DOC-031-003 for CB-LD-2701. Henry Cho owns the source population and Samuel Kim recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns request-response mismatch within Aurora pricing MDL discovery audit. A multidistrict antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian scope, mobile collections, Bates families, and privilege challenges against court requirements.
+
+NATIVE RECORD
+Portfolio key CBP-031-03 is associated with both ENT-031-1002 and ENT-031-2002. The display name is shared, while the domain and legal-entity fields disagree. No approved crosswalk revision resolves the collision.
+
+RELIANCE LIMITS
+This file supplies identity crosswalk evidence for CBP-031-03. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SOURCE THREAD
+-----Original Message-----
+From: Mei Whitaker <mei_whitaker@example.test>
+Sent: 2025-06-11 09:00:00 -0700
+To: Samuel Kim <samuel_kim@example.test>
+Subject: CBP-031-03 source row CBP-031-03-IDE-01
+
+Identity Crosswalk support row 1 for request-response mismatch; retained from the native system so the reviewer can distinguish the exact CBP-031-03 population from similarly named records. The native status is superseded and the recorded metric is $743,007.00.
+
+-----Original Message-----
+From: Isaac Romero <isaac_romero@example.test>
+Sent: 2025-06-14 09:00:00 -0700
+To: Samuel Kim <samuel_kim@example.test>
+Subject: CBP-031-03 source row CBP-031-03-IDE-02
+
+Identity Crosswalk support row 2 for request-response mismatch; retained from the native system so the reviewer can distinguish the exact CBP-031-03 population from similarly named records. The native status is confirmed and the recorded metric is 7%.
+
+-----Original Message-----
+From: Willa Novak <willa_novak@example.test>
+Sent: 2025-06-17 09:00:00 -0700
+To: Samuel Kim <samuel_kim@example.test>
+Subject: CBP-031-03 source row CBP-031-03-IDE-03
+
+Identity Crosswalk support row 3 for request-response mismatch; retained from the native system so the reviewer can distinguish the exact CBP-031-03 population from similarly named records. The native status is superseded and the recorded metric is 15%.
+
+-----Original Message-----
+From: Henry Cho <henry_cho@example.test>
+Sent: 2025-06-20 09:00:00 -0700
+To: Samuel Kim <samuel_kim@example.test>
+Subject: CBP-031-03 source row CBP-031-03-IDE-04
+
+Identity Crosswalk support row 4 for request-response mismatch; retained from the native system so the reviewer can distinguish the exact CBP-031-03 population from similarly named records. The native status is recorded and the recorded metric is $993,508.00.
+
+-----Original Message-----
+From: Farah Ibrahim <farah_ibrahim@example.test>
+Sent: 2025-06-23 09:00:00 -0700
+To: Samuel Kim <samuel_kim@example.test>
+Subject: CBP-031-03 source row CBP-031-03-IDE-05
+
+Identity Crosswalk support row 5 for request-response mismatch; retained from the native system so the reviewer can distinguish the exact CBP-031-03 population from similarly named records. The native status is pending and the recorded metric is 7%.
+
+-----Original Message-----
+From: Samuel Kim <samuel_kim@example.test>
+Sent: 2025-06-26 09:00:00 -0700
+To: Samuel Kim <samuel_kim@example.test>
+Subject: CBP-031-03 source row CBP-031-03-IDE-06
+
+Identity Crosswalk support row 6 for request-response mismatch; retained from the native system so the reviewer can distinguish the exact CBP-031-03 population from similarly named records. The native status is confirmed and the recorded metric is 8%.
+
+-----Original Message-----
+From: Nora Chen <nora_chen@example.test>
+Sent: 2025-06-29 09:00:00 -0700
+To: Samuel Kim <samuel_kim@example.test>
+Subject: CBP-031-03 source row CBP-031-03-IDE-07
+
+Identity Crosswalk support row 7 for request-response mismatch; retained from the native system so the reviewer can distinguish the exact CBP-031-03 population from similarly named records. The native status is confirmed and the recorded metric is $417,237.00.
+
+-----Original Message-----
+From: Elliot Mercer <elliot_mercer@example.test>
+Sent: 2025-07-02 09:00:00 -0700
+To: Samuel Kim <samuel_kim@example.test>
+Subject: CBP-031-03 source row CBP-031-03-IDE-08
+
+Identity Crosswalk support row 8 for request-response mismatch; retained from the native system so the reviewer can distinguish the exact CBP-031-03 population from similarly named records. The native status is pending and the recorded metric is 12%.
+
+CHRONOLOGY
+2025-05-22 | native population opened | Mei Whitaker | CB-DOC-031-003
+2025-05-28 | custodian boundary confirmed | Sofia Bennett | CBP-031-03
+2025-06-03 | export created | Amara Patel | CB-DOC-031-003
+2025-06-09 | cross-system identifier checked | Farah Ibrahim | CBP-031-03
+2025-06-15 | revision retained | Maya Ellison | CB-DOC-031-003
+2025-06-21 | matter copy collected | Priya Raman | CBP-031-03
+
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

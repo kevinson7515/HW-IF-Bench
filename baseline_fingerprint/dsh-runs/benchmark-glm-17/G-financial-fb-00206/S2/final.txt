@@ -1,0 +1,45 @@
+I've extracted and verified everything I need from the attached 10-K. Here's the answer.
+
+## Short answer
+
+**No — gross margin is not a relevant metric for JPMorgan Chase, and it cannot be meaningfully computed from its financials.** JPM is a bank (a financial holding company), not a company that produces and sells goods. The terms "gross margin" and "cost of goods sold" do not appear anywhere in the entire 382-page 2022 Form 10-K — the filing simply has no such concept in it.
+
+## Why gross margin doesn't apply to a bank
+
+Gross margin = (Revenue − Cost of goods sold) / Revenue presupposes a business that buys or makes things and sells them. JPM earns revenue by **intermediating money** — lending, deposits, trading, investment banking, asset management — and its income statement is structured completely differently (10-K, Consolidated statements of income, p. 159):
+
+| Income statement section ($M) | 2022 | 2021 | 2020 |
+|---|---:|---:|---:|
+| Noninterest revenue (fees, IB, markets, asset mgmt) | 61,985 | 69,338 | 65,388 |
+| Interest income | 92,807 | 57,864 | 64,523 |
+| Interest expense | (26,097) | (5,553) | (9,960) |
+| **Net interest income** | 66,710 | 52,311 | 54,563 |
+| **Total net revenue** | 128,695 | 121,649 | 119,951 |
+| Provision for credit losses | 6,389 | (9,256) | 17,480 |
+| Total noninterest expense | 76,140 | 71,343 | 66,656 |
+| Pre-tax income | 46,166 | 59,562 | 35,815 |
+
+The structural reasons:
+
+1. **The COGS-like cost is already netted inside revenue.** The closest thing JPM has to a "cost of goods" is interest expense — the cost of the raw material (funding) that the bank lends out. But banks present it netted against interest income *within* the top line (net interest income). There is no "gross revenue" line from which to net costs, so a gross margin has no numerator or denominator.
+2. **Operating costs aren't production costs.** Noninterest expense is mostly compensation ($41.6B of $76.1B in 2022 — ~55%), technology, occupancy, and professional fees — semi-fixed operating overhead, not variable cost that scales with each unit of "goods" sold.
+3. **The cost of the lending business is the provision for credit losses**, which is a reserve-based (CECL), inherently cyclical estimate — not a cost of goods sold.
+
+To illustrate how meaningless a forced calculation is: if you treated interest expense as "COGS," JPM's pseudo-gross-margin would be ~92.3% (2020), ~95.6% (2021), and ~83.1% (2022) — swinging 3–13 points a year purely because interest expense rose ~4.7× (from $5.6B to $26.1B) as rates went from zero. The metric would measure the Fed, not JPM's operating economics.
+
+## The bank-analog "margin" metrics, and their actual stability
+
+What the 10-K actually tracks instead (Three-Year Summary of Consolidated Financial Highlights, p. 44; net yield data, pp. 52 and 292–295), with year-over-year moves against your "roughly 2 points per year" test:
+
+| Metric | 2020 | 2021 | 2022 | YoY moves | Within ~2 pts/yr? |
+|---|---:|---:|---:|---|---|
+| Net interest margin ("net yield on interest-earning assets," FTE) | 1.98% | 1.64% | 2.00% | −0.34 / +0.36 pts | ✅ Yes — very stable |
+| Overhead ratio (noninterest expense ÷ total net revenue) | 56% | 59% | 59% | +3.1 / +0.5 pts | ⚠️ Almost — one breach in 2021 |
+| Pre-tax margin (pre-tax income ÷ total net revenue) | 29.9% | 49.0% | 35.9% | +19.1 / −13.1 pts | ❌ No — swings 13–19 pts |
+| ROE / ROA | 12% / 0.91% | 19% / 1.30% | 14% / 0.98% | ±5–7 pts | ❌ No |
+
+## Bottom line
+
+Gross margin isn't a relevant or computable metric for JPM, so the question isn't answerable on those terms — and any forced construction of one is meaningless. If you translate the *spirit* of the question ("are its margins historically consistent within ~2 points a year?") onto the metrics banks actually use: JPM's core spread metric (NIM) is indeed quite stable (moves of ≤0.4 pts/year), its overhead ratio is roughly stable (one ~3-point move in 2021 when fee revenue spiked), and its bottom-line profitability margins (pre-tax margin, ROE/ROA) are **not** stable — they swing well beyond 2 points a year with the credit cycle (provision swings from +$17.5B in 2020 to −$9.3B in 2021 to +$6.4B in 2022) and interest rates. That volatility is normal and expected for a bank; margin stability in the industrial/goods-company sense is simply not a meaningful quality signal for JPMorgan.
+
+All figures above are from the attached JPMorgan Chase & Co. 2022 Form 10-K (fiscal year ended December 31, 2022): income statement p. 159, three-year summary p. 44, NIM discussion p. 52, average balance sheets pp. 292–295, ratio definitions pp. 58–60.

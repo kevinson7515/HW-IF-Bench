@@ -1,0 +1,26 @@
+- id: llm-deepseek
+  disabled: true
+
+- id: llm-pi-ai
+  config:
+    providers:
+      company-deepseek:
+        displayName: Company DeepSeek
+        apiKeyEnv: COMPANY_DEEPSEEK_API_KEY
+        api: openai-completions
+        baseURL: !!js process.env.COMPANY_DEEPSEEK_BASE_URL ?? 'http://115.120.87.159:8082/v1'
+        compat:
+          supportsDeveloperRole: false
+          maxTokensField: max_tokens
+        models:
+          - id: deepseek-v4-pro
+            name: DeepSeek V4 Pro
+
+- id: agent-default-model
+  config:
+    provider: company-deepseek
+    model: deepseek-v4-pro
+
+- id: session-log-deepseek
+  config:
+    enabled: false

@@ -1,0 +1,266 @@
+{
+  "body": "Custody history shows collection from /workspace/documents/04_custodian_files/029_custodian_files_source_export.json after the operative record was fixed at /workspace/documents/03_requests_responses/017_requests_responses_source_export.md. Reviewer handoff preserved both versions and the identity record for CBP-031-05.",
+  "chronology": [
+    {
+      "actor": "Leona Park",
+      "date": "2024-06-08",
+      "event": "native population opened",
+      "reference": "CB-DOC-031-077"
+    },
+    {
+      "actor": "Willa Novak",
+      "date": "2024-06-14",
+      "event": "custodian boundary confirmed",
+      "reference": "CBP-031-05"
+    },
+    {
+      "actor": "Nadine Flores",
+      "date": "2024-06-20",
+      "event": "export created",
+      "reference": "CB-DOC-031-077"
+    },
+    {
+      "actor": "Lena Varga",
+      "date": "2024-06-26",
+      "event": "cross-system identifier checked",
+      "reference": "CBP-031-05"
+    },
+    {
+      "actor": "Nora Chen",
+      "date": "2024-07-02",
+      "event": "revision retained",
+      "reference": "CB-DOC-031-077"
+    },
+    {
+      "actor": "Talia Brooks",
+      "date": "2024-07-08",
+      "event": "matter copy collected",
+      "reference": "CBP-031-05"
+    }
+  ],
+  "client": "Aurora Home Supply Co.",
+  "confidentiality": "Confidential legal review",
+  "counterparty": "In re Residential Fixture Pricing",
+  "current_revision": "REV-2025.5",
+  "custodian": "Micah Sullivan",
+  "evidence_role": "chronology_and_custody",
+  "immutable_entity_key": "ENT-031-1004",
+  "matter_number": "CB-LD-2701",
+  "matter_title": "Aurora pricing MDL discovery audit",
+  "native_version": "4.4",
+  "portfolio_key": "CBP-031-05",
+  "provenance": "Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.",
+  "record_date": "2024-07-13",
+  "record_id": "CB-DOC-031-077",
+  "referenced_revision": "REV-2025.5",
+  "related_records": [
+    "CB-DOC-031-088",
+    "CB-DOC-031-010",
+    "CB-DOC-031-028",
+    "CB-DOC-031-052"
+  ],
+  "reviewer": "Adrian Mensah",
+  "rows": [
+    {
+      "actor": "Leona Park",
+      "effective_date": "2024-05-29",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-CHR-01",
+      "metric": "$990,027.00",
+      "note": "Chronology And Custody support row 1 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Adrian Mensah",
+      "effective_date": "2024-06-01",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-CHR-02",
+      "metric": "11%",
+      "note": "Chronology And Custody support row 2 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "pending"
+    },
+    {
+      "actor": "Amara Patel",
+      "effective_date": "2024-06-04",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-CHR-03",
+      "metric": "10%",
+      "note": "Chronology And Custody support row 3 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "recorded"
+    },
+    {
+      "actor": "Micah Sullivan",
+      "effective_date": "2024-06-07",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-CHR-04",
+      "metric": "$85,146.00",
+      "note": "Chronology And Custody support row 4 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "pending"
+    },
+    {
+      "actor": "Lena Varga",
+      "effective_date": "2024-06-10",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-CHR-05",
+      "metric": "7%",
+      "note": "Chronology And Custody support row 5 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Rafael Okafor",
+      "effective_date": "2024-06-13",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-CHR-06",
+      "metric": "20%",
+      "note": "Chronology And Custody support row 6 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Priya Raman",
+      "effective_date": "2024-06-16",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-CHR-07",
+      "metric": "$432,959.00",
+      "note": "Chronology And Custody support row 7 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Jonas Feld",
+      "effective_date": "2024-06-19",
+      "entity_key": "ENT-031-2004",
+      "line_id": "CBP-031-05-CHR-08",
+      "metric": "13%",
+      "note": "Chronology And Custody support row 8 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "recorded"
+    },
+    {
+      "actor": "Leona Park",
+      "effective_date": "2024-06-22",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-CHR-09",
+      "metric": "11%",
+      "note": "Chronology And Custody support row 9 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Adrian Mensah",
+      "effective_date": "2024-06-25",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-CHR-10",
+      "metric": "$267,536.00",
+      "note": "Chronology And Custody support row 10 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "recorded"
+    },
+    {
+      "actor": "Amara Patel",
+      "effective_date": "2024-06-28",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-CHR-11",
+      "metric": "7%",
+      "note": "Chronology And Custody support row 11 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Micah Sullivan",
+      "effective_date": "2024-07-01",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-CHR-12",
+      "metric": "14%",
+      "note": "Chronology And Custody support row 12 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Lena Varga",
+      "effective_date": "2024-07-04",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-CHR-13",
+      "metric": "$122,117.00",
+      "note": "Chronology And Custody support row 13 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Rafael Okafor",
+      "effective_date": "2024-07-07",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-CHR-14",
+      "metric": "10%",
+      "note": "Chronology And Custody support row 14 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Priya Raman",
+      "effective_date": "2024-07-10",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-CHR-15",
+      "metric": "15%",
+      "note": "Chronology And Custody support row 15 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "recorded"
+    },
+    {
+      "actor": "Jonas Feld",
+      "effective_date": "2024-07-13",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-CHR-16",
+      "metric": "$801,821.00",
+      "note": "Chronology And Custody support row 16 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Leona Park",
+      "effective_date": "2024-07-16",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-CHR-17",
+      "metric": "5%",
+      "note": "Chronology And Custody support row 17 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "pending"
+    },
+    {
+      "actor": "Adrian Mensah",
+      "effective_date": "2024-07-19",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-CHR-18",
+      "metric": "13%",
+      "note": "Chronology And Custody support row 18 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "recorded"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Source lineage",
+      "text": "court docket mirror produced native record CB-DOC-031-077 for CB-LD-2701. Micah Sullivan owns the source population and Adrian Mensah recorded the collection review. The export remains separate from later legal analysis."
+    },
+    {
+      "heading": "Business context",
+      "text": "This record concerns collection-date inconsistency within Aurora pricing MDL discovery audit. A multidistrict antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian scope, mobile collections, Bates families, and privilege challenges against court requirements."
+    },
+    {
+      "heading": "Native record",
+      "text": "Custody history shows collection from /workspace/documents/04_custodian_files/029_custodian_files_source_export.json after the operative record was fixed at /workspace/documents/03_requests_responses/017_requests_responses_source_export.md. Reviewer handoff preserved both versions and the identity record for CBP-031-05."
+    },
+    {
+      "heading": "Reliance limits",
+      "text": "This file supplies chronology and custody evidence for CBP-031-05. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling."
+    }
+  ],
+  "source_path": "/workspace/documents/10_expert_material/077_expert_material_source_export.json",
+  "source_system": "court docket mirror",
+  "subject": "collection-date inconsistency"
+}

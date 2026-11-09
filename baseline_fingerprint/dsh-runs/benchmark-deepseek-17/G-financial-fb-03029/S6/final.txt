@@ -1,0 +1,5 @@
+3M's FY2018 capital expenditure was **$1,577 million**.
+
+This comes from the Consolidated Statement of Cash Flows in the FY2018 10-K, under *Cash Flows from Investing Activities*, where the line item **"Purchases of property, plant and equipment (PP&E)"** shows **(1,577)** for 2018 (amounts in millions).
+
+I've saved the answer with supporting detail to `output/task_15_answer.md`.

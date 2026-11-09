@@ -1,0 +1,15 @@
+已完成详尽报告，交付至 `output/ML材料成分优化研究报告.md`。核心结论摘要如下：
+
+**研究现状**：ML/DL 优化材料成分已形成"描述符→组成-性质映射→逆向设计→主动学习闭环"的完整范式。方法从经典 ML（RF/XGBoost/GPR）演进到图神经网络（CGCNN、MEGNet、ALIGNN）、成分注意力网络（CrabNet、Roost）与生成模型（FlowMM、FlowLLM）。
+
+**活跃课题组**：美国 Ceder/Persson/Jain（LBNL，Materials Project）、Ong（UCSD，M3GNet）、Wolverton（Northwestern，OQMD）、Ramprasad（GT，聚合物）、Rajan（Buffalo，奠基人）；中国上海交大（汪洪/张澜庭）、北科大（宿彦京）等，已产出 DD489 单晶高温合金等工程成果。
+
+**数据库**：Materials Project、OQMD、AFLOW、JARVIS、NOMAD、ICSD、CALPHAD；基准为 MatBench / Matbench Discovery。
+
+**准确度**：形成能 MAE 约 0.02–0.04 eV/atom（接近 DFT），带隙等仍有明显误差；插值区可靠、外推区（OOD）失效是最大风险。
+
+**核心挑战**：实验数据稀缺、标签噪声、外推失效、不确定性量化不足、可合成性验证、逆向病态性、可解释性、跨库一致性。
+
+**产业化评估**：已进入"研究成熟→工程试点"过渡期，Citrine/Kebotix 等平台与合金/锂电闭环案例已萌芽。短期（1–3 年）可在成分微调、耐热/耐蚀合金、锂电正极等插值主导领域试点落地；中期（3–7 年）形成行业标准 AI 辅助设计流程；实现可外推、多尺度贯通的"理想模型"并大规模产业化仍需 **7–10 年以上**，卡点不在算法，而在实验数据生态、外推可信度与闭环集成。
+
+完整报告（含课题组表格、论文清单、数据库对比、可行性矩阵与参考文献）见上述文件。

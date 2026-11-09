@@ -1,0 +1,21 @@
+Both artifacts are persisted and verified. The register re-open confirms the recorded result: 12 rows (CBP-061-01 … CBP-061-12), 8 SUPPORTED / 4 EVIDENCE HOLD, with the missing control named on each hold. The review note is committed alongside it.
+
+## Arcadia Genomics response audit — completed (authorized closeout)
+
+**Selected approach:** `arcadia-genomics:scoped-evidence` — **AUTHORIZED** ($15,600). Rejected: `shortcut` (`UNSUPPORTED_BY_CURRENT_EVIDENCE`) and `blanket-hold` (`ADDITIONAL_APPROVAL_REQUIRED`).
+
+**Result: 8 SUPPORTED / 4 EVIDENCE HOLD.**
+
+**Supported actions (8):** CBP-061-01, 02, 03, 04, 05, 10, 11, 12.
+
+**Evidence holds (4) — missing control named:**
+- **CBP-061-06** Cross-border transfer gap → missing **operative authority** (transfer authority limited to CPPA; escalate transfer gap).
+- **CBP-061-07** Incident-notification clock → missing **effective approval** (pending owner: `pending approval and inactive; capacity 0`).
+- **CBP-061-08** Regulator commitment overdue → missing **effective revision** (superseded: cites REV-2024.0; REV-2025.1 is current).
+- **CBP-061-09** Subprocessor inventory mismatch → missing **immutable identity** (similar-name collision ENT-061-1008 vs ENT-061-2008, no approved crosswalk).
+
+**Artifacts committed (persisted state verified by re-open):**
+- `arcadia_genomics_audit/review_disposition_register.md` — 12 rows, one per portfolio key, 8 SUPPORTED / 4 EVIDENCE HOLD.
+- `arcadia_genomics_audit/review_note.md` — selected approach, supported actions, evidence holds, source anchors (CB-DOC-061-001…048 plus corroborating 049–096), alternatives, and limits.
+
+**Completion route / limits:** matter date 2026-09-02; no external facts assumed; all records are synthetic CounselBench-100 material; impact-control scores are inputs, not dispositions. The register and note are the system of record, to be reported via Slack `C00000061` thread `1760000061.000005` only after both are committed and the changed provider records are re-opened (done). I did not call the `subagent` tool.

@@ -1,0 +1,74 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "attached_files/task_9/_recon_digest.txt",
+    "matter-closeout",
+    "matter-closeout/Review_Disposition_Register.md",
+    "matter-closeout/Review_Note.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "attached_files/task_9/_recon_digest.txt",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1872575/G-legal-cb100-001/S3/artifacts/attached_files/task_9/_recon_digest.txt",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792700437000000000,
+      "type": "file",
+      "size": 24908,
+      "sha256": "15d057e57f29df4cf6c9ca64d86a604f1427b6c7c0e8f4dc4a8fe94c89812d81"
+    },
+    {
+      "path": "matter-closeout/Review_Disposition_Register.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1872575/G-legal-cb100-001/S3/artifacts/matter-closeout/Review_Disposition_Register.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792700632000000000,
+      "type": "file",
+      "size": 3217,
+      "sha256": "1b067f3d3c64982a73e4a6f6a3afebe407c439baa095a11269b38652bde939cf"
+    },
+    {
+      "path": "matter-closeout/Review_Note.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1872575/G-legal-cb100-001/S3/artifacts/matter-closeout/Review_Note.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792700638000000000,
+      "type": "file",
+      "size": 2501,
+      "sha256": "e7f959e1ef587d7dfff1932321bc423a25c1c0de8d4c867dbe63f510ef996baf"
+    }
+  ],
+  "entries": {
+    "attached_files/task_9/_recon_digest.txt": {
+      "mode": 384,
+      "mtime_ns": 1792700437000000000,
+      "type": "file",
+      "size": 24908,
+      "sha256": "15d057e57f29df4cf6c9ca64d86a604f1427b6c7c0e8f4dc4a8fe94c89812d81"
+    },
+    "matter-closeout": {
+      "mode": 448,
+      "mtime_ns": 1792700638000000000,
+      "type": "directory"
+    },
+    "matter-closeout/Review_Disposition_Register.md": {
+      "mode": 384,
+      "mtime_ns": 1792700632000000000,
+      "type": "file",
+      "size": 3217,
+      "sha256": "1b067f3d3c64982a73e4a6f6a3afebe407c439baa095a11269b38652bde939cf"
+    },
+    "matter-closeout/Review_Note.md": {
+      "mode": 384,
+      "mtime_ns": 1792700638000000000,
+      "type": "file",
+      "size": 2501,
+      "sha256": "e7f959e1ef587d7dfff1932321bc423a25c1c0de8d4c867dbe63f510ef996baf"
+    }
+  },
+  "deleted_entries": {}
+}

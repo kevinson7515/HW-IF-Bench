@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "attached_files/task_10/aurora_mdl_position",
+    "attached_files/task_10/aurora_mdl_position/review_disposition_register.md",
+    "attached_files/task_10/aurora_mdl_position/working_position_note.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "attached_files/task_10/aurora_mdl_position/review_disposition_register.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1872575/G-legal-cb100-031/S2/artifacts/attached_files/task_10/aurora_mdl_position/review_disposition_register.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792704958000000000,
+      "type": "file",
+      "size": 3624,
+      "sha256": "fb5d0d10366568d4b53edff72fc4f9ca9a41acffc54027e07efb8e22724ffad1"
+    },
+    {
+      "path": "attached_files/task_10/aurora_mdl_position/working_position_note.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1872575/G-legal-cb100-031/S2/artifacts/attached_files/task_10/aurora_mdl_position/working_position_note.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792704969000000000,
+      "type": "file",
+      "size": 5258,
+      "sha256": "a7649b14583a347e04d196dae470e6551703522eeb5aa9893ac18cbfa64e4640"
+    }
+  ],
+  "entries": {
+    "attached_files/task_10/aurora_mdl_position": {
+      "mode": 448,
+      "mtime_ns": 1792704969000000000,
+      "type": "directory"
+    },
+    "attached_files/task_10/aurora_mdl_position/review_disposition_register.md": {
+      "mode": 384,
+      "mtime_ns": 1792704958000000000,
+      "type": "file",
+      "size": 3624,
+      "sha256": "fb5d0d10366568d4b53edff72fc4f9ca9a41acffc54027e07efb8e22724ffad1"
+    },
+    "attached_files/task_10/aurora_mdl_position/working_position_note.md": {
+      "mode": 384,
+      "mtime_ns": 1792704969000000000,
+      "type": "file",
+      "size": 5258,
+      "sha256": "a7649b14583a347e04d196dae470e6551703522eeb5aa9893ac18cbfa64e4640"
+    }
+  },
+  "deleted_entries": {}
+}

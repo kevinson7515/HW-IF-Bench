@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "session_id": "session-08e652ab-d5fd-4a39-b896-7f52f60804b8",
+  "source": "/online1/ycsc_chenkh/hitici_07/.dsh/sessions/--online1-ycsc_chenkh-hitici_07-deepseek-harness--/session-08e652ab-d5fd-4a39-b896-7f52f60804b8",
+  "copied": [
+    {
+      "path": "session.lock",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1930645/G-financial-fb-03029/S2/session-records/session.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "session.v4.jsonl.zstd",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1930645/G-financial-fb-03029/S2/session-records/session.v4.jsonl.zstd",
+      "size": 43892,
+      "sha256": "91aaee55709f39fde2acb375661bfeb032448a4f742f8ff926c0e50d5e470269"
+    }
+  ]
+}

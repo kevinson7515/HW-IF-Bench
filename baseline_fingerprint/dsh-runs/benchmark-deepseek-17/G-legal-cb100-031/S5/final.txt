@@ -1,0 +1,30 @@
+Both deliverables are committed to `output/`. Here is the coherent working position.
+
+## Answer to the client
+
+**Can Aurora certify the MDL production now?** No — not the whole production. The 12-key population splits cleanly into **6 supported** and **6 held** records. The defensible course is the **`scoped-evidence`** approach (already AUTHORIZED, $20k, finish by 2026-09-03), not `shortcut` (unsupported) and not `blanket-hold` (needs extra approval, over-defers).
+
+**Certify now (6):** `02, 04, 06, 07, 08, 09` — all four controls (identity, authority, operations, approval/revision) pass. Four carry a residual discrepancy to *disclose*, not assert clean: family 14% vs 11% (02), undercount 125/148 (06) and 40/78 (07), wrong hold-delivery address (08), clawback completed late (09).
+
+**Must wait (6):** `01, 03, 05, 10, 11, 12` — each missing a control:
+
+| Hold | Missing control | Owner |
+|---|---|---|
+| 01 Bates-Range Overlap | pending owner + 180 vs 215 | Samuel Kim |
+| 03 Request-Response Mismatch | identity collision + blocked/open | Adrian Mensah |
+| 05 Collection-Date (mobile chats) | blocked/open + pending owner | Dominic Alvarez |
+| 10 Subpoena Deadline | superseded revision REV-2024.2 | Willa Novak |
+| 11 Custodian Omission (departed) | identity collision + 61 vs 98 | Owen Delgado |
+| 12 Privilege / common-interest | blocked/open challenge | Priya Raman |
+
+**Gaps that must be cured before certification:** 2 identity collisions (03, 11), 3 blocked authorities (03, 05, 12), 3 open/unresolved operations (03, 05, 12), 2 pending/inactive owners (01, 05), 1 superseded revision (10). The four themes map directly: mobile chats → 05, departed custodians → 11, overlapping Bates → 01, privilege challenge → 12.
+
+**Evidence that flips each hold** (traceable, per the protocol's "similar name / superseded revision / pending owner" test) is specified per record in the memo.
+
+## What I resolved and recorded
+
+- Read all 96 native exports plus the `097_aurora_antitrust_impact_population.xlsx` impact population and reconstructed the file-number → (portfolio key, evidence role) lattice to test every key on all four controls.
+- `output/aurora_antitrust_review_disposition_register.md` — one row per key (system of record) with disposition, missing control, owner, and cure condition.
+- `output/aurora_antitrust_certification_position.md` — the close-the-loop memo answering now / wait / evidence, plus the Slack hand-off route (channel `C00000031`, thread `1760000031.000005`, no new top-level post).
+
+The next human step is the team-side action in that Slack thread once the register and note are committed — the record itself is done and defensible.

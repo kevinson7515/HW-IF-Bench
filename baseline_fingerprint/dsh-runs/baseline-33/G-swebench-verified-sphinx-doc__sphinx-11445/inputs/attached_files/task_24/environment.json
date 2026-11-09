@@ -1,0 +1,12 @@
+{
+  "benchmark": "SWE-bench Verified",
+  "instance_id": "sphinx-doc__sphinx-11445",
+  "repo": "sphinx-doc/sphinx",
+  "base_commit": "71db08c05197545944949d5aa76cd340e7143627",
+  "environment_setup_commit": "89808c6f49e1738765d18309244dca0156ee28f6",
+  "version": "7.1",
+  "upstream_container_image": "swebench/sweb.eval.x86_64.sphinx-doc_1776_sphinx-11445:latest",
+  "repository_files": 1635,
+  "snapshot_format": "tar.gz",
+  "environment_docs": "https://www.swebench.com/SWE-bench/guides/evaluation/"
+}

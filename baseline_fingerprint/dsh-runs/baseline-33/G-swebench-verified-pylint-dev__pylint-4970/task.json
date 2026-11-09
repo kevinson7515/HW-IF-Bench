@@ -1,0 +1,37 @@
+{
+  "line": 6,
+  "id": 23,
+  "user_query": "修复 Pylint 的重复代码检查，使配置 min-similarity-lines=0 时停用该检查，并保持正阈值的行为。",
+  "effective_query": "修复 Pylint 的重复代码检查，使配置 min-similarity-lines=0 时停用该检查，并保持正阈值的行为。\n\nAttached files are available at the following paths. Read them as needed:\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_23/repository.tar.gz\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_23/problem_statement.md\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_23/environment.json",
+  "attached_files": [
+    "attached_files/task_23/repository.tar.gz",
+    "attached_files/task_23/problem_statement.md",
+    "attached_files/task_23/environment.json"
+  ],
+  "resolved_attached_files": [
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_23/repository.tar.gz",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_23/problem_statement.md",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_23/environment.json"
+  ],
+  "archived_attachments": [
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_23/repository.tar.gz",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000006-23/inputs/attached_files/task_23/repository.tar.gz",
+      "size": 805372,
+      "sha256": "1b7f0146e8091589eb51d6e76a17a6d85e736ae70ecd90a483d63f92f4ba640f"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_23/problem_statement.md",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000006-23/inputs/attached_files/task_23/problem_statement.md",
+      "size": 618,
+      "sha256": "194295749557b085970e22cc0886d8d0d772e77521bf3b3af55f43f90a3d65ee"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_23/environment.json",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000006-23/inputs/attached_files/task_23/environment.json",
+      "size": 503,
+      "sha256": "95557440bff4cbc0c6ca038f4779787a72e5b987881cde0ce474650e24cedd16"
+    }
+  ],
+  "started_at": "2026-11-06T07:39:18.859992+00:00"
+}

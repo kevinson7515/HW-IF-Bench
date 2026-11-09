@@ -1,0 +1,1 @@
+I'll start by exploring the task directory structure to understand the full scope of this audit task.

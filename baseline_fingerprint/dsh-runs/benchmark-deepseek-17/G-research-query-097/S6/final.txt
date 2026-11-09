@@ -1,0 +1,91 @@
+I have gathered a comprehensive, balanced evidence base across peer-reviewed studies, industry analyses, and case studies. Here is my synthesis.
+
+---
+
+# Verdict up front
+
+The hypothesis is **largely supported, with important qualifications**:
+
+- **"Measurable" — clearly true.** Airports' socioeconomic impacts are routinely quantified using standard direct/indirect/induced/catalytic frameworks (input–output analysis), and there are well-established per-passenger multipliers. Applying them to 500,000 passengers yields concrete, published-format estimates.
+- **"Significant" — true at the *local/regional* scale, but modest in absolute terms and much weaker than for large airports.** A 500,000-passenger airport typically supports on the order of **~475–500 direct on-site jobs**, rising to roughly **1,000–3,000 jobs** once indirect, induced and visitor-spending effects are added — meaningful for a small city, but the effect is an order of magnitude smaller than a hub's, and the evidence shows the causal arrow often runs *from regional growth to air service* rather than the reverse.
+
+---
+
+## 1. There is a standard, repeatable way to measure the impact (the "measurable" part)
+
+Industry and academic studies decompose airport impact into four channels, all quantifiable via input–output tables ([Pauwels et al., 2025](https://ideas.repec.org/a/eee/jaitra/v128y2025ics0969699725001176.html); [ACI Europe](https://www.aci-europe.org/downloads/resources/The%20Impact%20of%20An%20Airport.pdf)):
+
+1. **Direct** — on-airport employment (airlines, ground handling, retail, security, ATC, airport operator).
+2. **Indirect** — jobs in the airport's supply chain.
+3. **Induced** — jobs from spending of wages by direct and indirect workers.
+4. **Catalytic** — the widest channel: business productivity/connectivity and, especially for small airports, **tourism/visitor spending**.
+
+Because this is a settled methodology, "measurability" is not in dispute — dozens of jurisdictions publish per-airport profiles (e.g., [Florida DOT's statewide aviation economic impact study](https://www.fdot.gov/aviation/economicimpact22.shtm), the [Massachusetts statewide study](https://flyewb.com/about-ewb/about/), and [ACI Europe's pan-European study](https://www.aci-europe.org/downloads/resources/The%20Impact%20of%20An%20Airport.pdf)).
+
+---
+
+## 2. The per-passenger multipliers that let you estimate a 500,000-pax airport
+
+This is the most direct evidence for the hypothesis:
+
+| Metric | Value | Source |
+|---|---|---|
+| Direct on-site jobs per million passengers | **~950** (1,000 in 1998, ~954 in 2015) | [ACI Europe / Cristureanu & Bobirca](https://rejournal.eu/sites/rejournal.versatech.ro/files/articole/2014-04-18/2239/je202520cristureanu20bobirca.pdf); [TU Wien](https://oes.tuwien.ac.at/article/290/galley/290/view/) |
+| Direct jobs per 1,000 passengers | **0.954** | ACI 2015, cited in [Dimitriou et al., 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC8783399/) and [ACI Europe](https://www.aci-europe.org/downloads/resources/The%20Impact%20of%20An%20Airport.pdf) |
+| Employment response to connectivity | **+1.6% employment per +10% direct flights** | [ACI Europe / SEO Amsterdam Economics](https://www.aci-europe.org/downloads/resources/SEO%20Amsterdam%20Economics%20Study%20-%20The%20Economic%20and%20social%20impact%20of%20European%20Airports%20and%20air%20connectivity.pdf) |
+
+**Applying the direct multiplier:** 500,000 passengers × ~950 jobs/million ≈ **475 direct on-airport jobs**. With indirect, induced and (especially) visitor-spending effects, the total is typically **2–3×** the direct figure at small airports, i.e., on the order of **1,000–1,500+ jobs** depending on how much inbound tourism the airport carries.
+
+This is measurable and non-trivial at a sub-regional scale, but it is important to note that these multipliers are **averages** and are widely criticized as being applied too mechanically (see §4).
+
+---
+
+## 3. Case-study evidence at the 500,000-passenger scale
+
+- **Lafayette Regional Airport (LFT, Louisiana)** — serves "as many as 500,000 travelers a year," with a commissioned impact study putting its regional economic contribution at **over $1 billion** (airport's own claim — treat with caution). ([LFT announcement](https://www.facebook.com/LafayetteRegionalAirport/posts/))
+- **New Bedford Regional Airport (EWB, Massachusetts)** — described as handling "half a million passengers annually"; the MassDOT statewide study quantified aggregate employment/payroll for the state's general-aviation and regional airports ([New Bedford Regional Airport facts](https://flyewb.com/about-ewb/about/)).
+- **Punta Gorda Airport (PGD, Florida)** — a useful upper bound (it has since grown to ~1.6–1.8 million passengers): FDOT's 2022 study attributes **11,319 jobs, $541 million payroll, and $1.7 billion total output** to the airport, driven heavily by the tourism/visitor component rather than on-airport jobs (~1,500). ([Punta Gorda FDOT profile](https://www.flypgd.com/economic-impact-1-7-billion/))
+
+These cases demonstrate that *measurable, locally significant* impacts are routinely claimed and documented for airports of roughly this size.
+
+---
+
+## 4. Academic evidence — supports the effect but quantifies it as *small*
+
+The strongest peer-reviewed evidence directly on point is:
+
+> **Pot & Koster (2022), "Small airports: Runways to regional economic growth?", *Journal of Transport Geography*** (full abstract [here](https://ideas.repec.org/a/eee/jotrge/v98y2022ics096669232100315x.html)):
+> - The long-run elasticity of **air accessibility → GDP per capita is 0.106** across 274 European NUTS-2 regions (2000–2018).
+> - Crucially, the elasticity is **0.179 for large airports, 0.033 for medium-sized, and 0.022 for small airports** — small airports deliver roughly **one-eighth** of a hub's growth effect.
+> - **"For most regions, the contribution of smaller airports in providing accessibility is found to be limited."**
+> - **"Causality mainly runs from economic growth to air accessibility, especially considering smaller airports."**
+
+This is the key caveat: the effect is **positive and measurable**, but (a) it is small, and (b) for small airports the direction of causality is often *growth → air service*, not the other way around — i.e., a thriving region is more likely to sustain a 500,000-pax airport than the airport is to create the region's growth.
+
+Supporting peer-reviewed findings (positive but scale-dependent):
+- **Brueckner (2003)** — airline traffic has a positive causal effect on urban economic development ([Urban Studies](https://ideas.repec.org/a/sae/urbstu/v40y2003i8p1455-1469.html)).
+- **Sheard (2014, 2019)** — airports raise sectoral employment and urban growth, with effects scaling by airport size ([Journal of Urban Economics](https://ideas.repec.org/a/eee/juecon/v80y2014icp133-152.html); [Economica](https://ideas.repec.org/a/bla/econom/v86y2019i342p300-335.html)).
+- **Blonigen & Cristea (2015)** — air service causally raises urban growth (quasi-natural experiment) ([Journal of Urban Economics](https://ideas.repec.org/a/eee/juecon/v86y2015icp128-146.html)).
+- **Pauwels et al. (2025)** — a bottom-up comparison of Belgium's five airports finds **larger airports generate larger effects and a larger share of regional GDP than smaller ones** ([Journal of Air Transport Management](https://ideas.repec.org/a/eee/jaitra/v128y2025ics0969699725001176.html)).
+
+---
+
+## 5. Counter-evidence that tempers the "significant" claim
+
+- **Financial fragility of small airports:** ACI Europe reports that **42% of European airports are loss-making, and 71% of airports with fewer than 1 million passengers/year are in the red** ([ACI Europe](https://www.aci-europe.org/about/about-us.html)). A 500,000-pax airport falls squarely in this category, meaning its *net* socioeconomic benefit often depends on ongoing public subsidy — so gross job/output figures can overstate the net welfare contribution.
+- **The multiplier itself is contested:** the widely used "~1,000 jobs per million passengers" rule of thumb has been criticized as an unreliable basis for projecting local jobs at specific airports ([Aviation Environment Federation, *Airport Jobs: False Hopes, Cruel Hoax*, 2009](https://www.aef.org.uk/uploads/Airport_jobs___false_hopes_cruel_hoax.pdf)).
+- **Causality caution:** as noted above, Pot & Koster (2022) find the relationship for small airports is driven mostly by growth → air service, so an airport's presence is partly a *consequence* of a healthy region rather than a *cause* of it.
+
+---
+
+## 6. Bottom line
+
+| Question | Assessment | Weight of evidence |
+|---|---|---|
+| Can a 500,000-pax airport generate **measurable** socioeconomic impacts? | **Yes** — standard direct/indirect/induced/catalytic accounting and per-passenger multipliers (~950 jobs/million pax) directly support this. | Strong |
+| Are those impacts **significant**? | **Yes at the local scale** (~475–500 direct jobs; ~1,000–1,500+ total with multiplier/tourism), **but modest and scale-dependent** — the academic elasticity for small airports (~0.022) is far below hubs (~0.179), and causality is often reversed. | Moderate-to-strong, with caveats |
+| Net-benefit caution | Many <1M-pax airports are loss-making (71% in Europe), so "significant impact" should be judged *net of subsidy* and against counterfactual transport options. | Strong |
+
+**Recommendation for further rigor:** the hypothesis is best tested by (1) computing direct/indirect/induced/catalytic impacts with a regional input–output model specific to the airport's catchment, and (2) pairing that with a counterfactual/causality analysis (as in Pot & Koster and Blonigen & Cristea) rather than relying on the ~1,000-jobs-per-million rule of thumb, which the literature flags as prone to overstatement at small airports.
+
+*Note on sourcing: I excluded `neweconomics.org` and `transportenvironment.org` per your constraints; the "1,000 jobs per million passengers" figure is sourced instead from ACI Europe (via peer-reviewed citations) and the Romanian Economic Journal article.*

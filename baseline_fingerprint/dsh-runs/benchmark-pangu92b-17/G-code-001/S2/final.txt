@@ -1,0 +1,22 @@
+修复完成，并已直接加载并执行修改后的 `parser.py` 验证通过。
+
+## 修复内容
+
+原代码在 `tokens` 为空时直接访问 `tokens[0]` / `tokens[1]`，导致 `IndexError`。修复方案：
+
+1. **空输入保护**：在访问索引前检查 `if not tokens`，空字符串或纯空白字符（`""`、`"   "`、`"\t\n"`）时返回 `{"command": "", "argument": ""}`。
+2. **单 token 安全**：原代码访问 `tokens[1]` 在只有一个 token 时同样会抛 `IndexError`，改为 `tokens[1] if len(tokens) > 1 else ""`。
+3. **更新自检**：`__main__` 中遍历多种空输入形式，确认不再抛出异常。
+
+## 验证结果（直接加载修改后的文件执行）
+
+| 输入 | 输出 |
+|------|------|
+| `""` | `{'command': '', 'argument': ''}` |
+| `"   "` | `{'command': '', 'argument': ''}` |
+| `"\t\n"` | `{'command': '', 'argument': ''}` |
+| `"hello"` | `{'command': 'hello', 'argument': ''}` |
+| `"hello world"` | `{'command': 'hello', 'argument': 'world'}` |
+| `"  hello  world  "` | `{'command': 'hello', 'argument': 'world'}` |
+
+空输入不再抛 `IndexError`，且正常输入行为保持不变。

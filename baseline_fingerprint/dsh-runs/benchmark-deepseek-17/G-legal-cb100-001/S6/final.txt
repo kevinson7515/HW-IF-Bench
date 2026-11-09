@@ -1,0 +1,7 @@
+**Position (2026-09-04): proceed via `helios-forge:scoped-evidence` — the only AUTHORIZED path.** Sign the 8 supported items; hold 4 as cure-to-close, never as cleared.
+
+**Customer-consent gap → closing condition.** Change-of-control consent (CBP-001-11, the automaker's indirect-COC termination right) is a hold: "pending approval, inactive, capacity 0"; ops names Caleb Hassan vs authority Talia Brooks. Obtain the automaker's consent/waiver; reactivate the owner and reconcile the approver before release.
+
+**Tooling gaps (Nevada cathode).** Anti-assignment (CBP-001-08): hold — ops cites superseded REV-2024.0 vs effective REV-2025.1; Nadine Flores vs Owen Delgado → tooling-assignment consent as closing condition. Invention assignment (CBP-001-12): hold — Willa Novak vs Caleb Hassan. Permit transfer (CBP-001-03): supported, "blocks completion" → closing condition. Charter mismatch (CBP-001-01): hold — ENT-001-1000/-2000 collision; match tooling and consent to the exact acquired entity.
+
+**Register:** 8 supported (02,03,04,05,06,07,09,10) as priced exceptions/closing conditions; 4 holds (01,08,11,12). Cost $18,200.

@@ -1,0 +1,50 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "attached_files/task_11/review_disposition_register.md",
+    "attached_files/task_11/review_note.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "attached_files/task_11/review_disposition_register.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1890615/G-legal-cb100-061/S6/artifacts/attached_files/task_11/review_disposition_register.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792816758000000000,
+      "type": "file",
+      "size": 1936,
+      "sha256": "9dbde5b43af5b14e97b1ae81348ce9c76a599a07d1835303c418dc57f7cc53cd"
+    },
+    {
+      "path": "attached_files/task_11/review_note.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1890615/G-legal-cb100-061/S6/artifacts/attached_files/task_11/review_note.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792816758000000000,
+      "type": "file",
+      "size": 2930,
+      "sha256": "dfa601d132401547e2f1b78d0a2247e077e55401c27ba0fdcc30d76bf878ce24"
+    }
+  ],
+  "entries": {
+    "attached_files/task_11/review_disposition_register.md": {
+      "mode": 384,
+      "mtime_ns": 1792816758000000000,
+      "type": "file",
+      "size": 1936,
+      "sha256": "9dbde5b43af5b14e97b1ae81348ce9c76a599a07d1835303c418dc57f7cc53cd"
+    },
+    "attached_files/task_11/review_note.md": {
+      "mode": 384,
+      "mtime_ns": 1792816758000000000,
+      "type": "file",
+      "size": 2930,
+      "sha256": "dfa601d132401547e2f1b78d0a2247e077e55401c27ba0fdcc30d76bf878ce24"
+    }
+  },
+  "deleted_entries": {}
+}

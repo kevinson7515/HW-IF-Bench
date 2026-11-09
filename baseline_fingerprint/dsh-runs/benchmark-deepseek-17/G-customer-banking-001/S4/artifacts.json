@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "output",
+    "output/recommendation.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "output/recommendation.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1872575/G-customer-banking-001/S4/artifacts/output/recommendation.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792694213000000000,
+      "type": "file",
+      "size": 1606,
+      "sha256": "9ed8ce98c7eed7ed52c1414077efd8ceb2420d3e3fd9c8b3a25e8c232bc975a3"
+    }
+  ],
+  "entries": {
+    "output": {
+      "mode": 448,
+      "mtime_ns": 1792694213000000000,
+      "type": "directory"
+    },
+    "output/recommendation.md": {
+      "mode": 384,
+      "mtime_ns": 1792694213000000000,
+      "type": "file",
+      "size": 1606,
+      "sha256": "9ed8ce98c7eed7ed52c1414077efd8ceb2420d3e3fd9c8b3a25e8c232bc975a3"
+    }
+  },
+  "deleted_entries": {}
+}

@@ -1,0 +1,5 @@
+**FY2018 capital expenditure for 3M: $1,577 million (USD).**
+
+This is from the Consolidated Statement of Cash Flow (page 60 of the 10-K), under *Cash Flows from Investing Activities*, where "Purchases of property, plant and equipment (PP&E)" for the year ended December 31, 2018 is reported as **$(1,577) million**.
+
+I've saved the answer to `output/task_15_3m_fy2018_capex.md`.

@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [],
+  "modified": [],
+  "deleted": [],
+  "copied": [],
+  "entries": {},
+  "deleted_entries": {}
+}

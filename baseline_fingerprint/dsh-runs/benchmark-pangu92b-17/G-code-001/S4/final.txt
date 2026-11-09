@@ -1,0 +1,9 @@
+修复完成。
+
+**问题根因**：`parse_text` 用 `text.split()` 得到 token 列表后，直接 `tokens[0]` / `tokens[1]` 访问索引。空字符串或纯空白输入会产生空列表，触发 `IndexError: list index out of range`。
+
+**修复内容**（`attached_files/task_23/src/core/parser.py`）：
+- 空 token 列表时返回 `{"command": None, "argument": None}`，不再访问索引。
+- 同时把 `tokens[1]` 改为带长度检查：单 token 输入时 `argument` 为 `None`，避免单参数输入也抛 `IndexError`。
+
+**验证**：直接执行修改后的解析器文件，空输入退出码为 0，正常打印"正在解析空输入: ''"；并覆盖测试了空、纯空白、单 token、两 token、多 token 五种情况，均符合预期。

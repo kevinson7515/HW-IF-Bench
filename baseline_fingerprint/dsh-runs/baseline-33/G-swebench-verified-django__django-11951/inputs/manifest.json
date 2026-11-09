@@ -1,0 +1,20 @@
+[
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_25/repository.tar.gz",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000008-25/inputs/attached_files/task_25/repository.tar.gz",
+    "size": 8996510,
+    "sha256": "4fc1a39936f5d6fcf3c489bd43472f690bd068bec42c9aa0cba5ac5b06496f28"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_25/problem_statement.md",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000008-25/inputs/attached_files/task_25/problem_statement.md",
+    "size": 613,
+    "sha256": "7c7ff1d81171a59af83ad9d0934053aa7c4e9bf6698ae2b3acde3e4d6353c169"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_25/environment.json",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000008-25/inputs/attached_files/task_25/environment.json",
+    "size": 492,
+    "sha256": "b9e70e1a7964596df29999c45b8a2fb07cc6057d42fa9fc79ce670090716268a"
+  }
+]

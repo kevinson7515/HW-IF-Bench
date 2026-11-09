@@ -1,0 +1,20 @@
+[
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_3/django/core/mail/message.py",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1872575/G-coding-django-11417/S4/inputs/attached_files/task_3/django/core/mail/message.py",
+    "mode": 420,
+    "mtime_ns": 1792659530000000000,
+    "type": "file",
+    "size": 16707,
+    "sha256": "4e7a2712d06dde59d2a345734922b5f68eab39c47dd922115e788e77f92bd79d"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_3/tests/mail/tests.py",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1872575/G-coding-django-11417/S4/inputs/attached_files/task_3/tests/mail/tests.py",
+    "mode": 420,
+    "mtime_ns": 1792659530000000000,
+    "type": "file",
+    "size": 68357,
+    "sha256": "97367d92e2936c811335e56bebd310b0c896c8311e7e77fee1301041890772b0"
+  }
+]

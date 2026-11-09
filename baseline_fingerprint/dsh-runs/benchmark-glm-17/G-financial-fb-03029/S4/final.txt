@@ -1,0 +1,1 @@
+**$1,577 million.** Per 3M's FY2018 10-K Consolidated Statement of Cash Flows (investing activities), "Purchases of property, plant and equipment (PP&E)" = $(1,577)M for 2018 (vs. $(1,373)M in 2017). Details saved to output/3M_FY2018_capex.md.

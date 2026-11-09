@@ -1,0 +1,13 @@
+portfolio_key | immutable_entity | impact_control_score | event_reference | source_revision | source_population_status | matter_number
+CBP-031-01 | ENT-031-1000 | 37 | CB-LD-2701-E138 | REV-2025.1 | retained source population; not a legal disposition | CB-LD-2701
+CBP-031-02 | ENT-031-1001 | 89 | CB-LD-2701-E716 | REV-2025.2 | retained source population; not a legal disposition | CB-LD-2701
+CBP-031-03 | ENT-031-1002 | 91 | CB-LD-2701-E452 | REV-2025.3 | retained source population; not a legal disposition | CB-LD-2701
+CBP-031-04 | ENT-031-1003 | 45 | CB-LD-2701-E980 | REV-2025.4 | retained source population; not a legal disposition | CB-LD-2701
+CBP-031-05 | ENT-031-1004 | 70 | CB-LD-2701-E407 | REV-2025.5 | retained source population; not a legal disposition | CB-LD-2701
+CBP-031-06 | ENT-031-1005 | 82 | CB-LD-2701-E214 | REV-2025.6 | retained source population; not a legal disposition | CB-LD-2701
+CBP-031-07 | ENT-031-1006 | 58 | CB-LD-2701-E660 | REV-2025.7 | retained source population; not a legal disposition | CB-LD-2701
+CBP-031-08 | ENT-031-1007 | 57 | CB-LD-2701-E382 | REV-2025.1 | retained source population; not a legal disposition | CB-LD-2701
+CBP-031-09 | ENT-031-1008 | 61 | CB-LD-2701-E503 | REV-2025.2 | retained source population; not a legal disposition | CB-LD-2701
+CBP-031-10 | ENT-031-1009 | 33 | CB-LD-2701-E178 | REV-2024.2 | retained source population; not a legal disposition | CB-LD-2701
+CBP-031-11 | ENT-031-1010 | 55 | CB-LD-2701-E151 | REV-2025.4 | retained source population; not a legal disposition | CB-LD-2701
+CBP-031-12 | ENT-031-1011 | 85 | CB-LD-2701-E253 | REV-2025.5 | retained source population; not a legal disposition | CB-LD-2701

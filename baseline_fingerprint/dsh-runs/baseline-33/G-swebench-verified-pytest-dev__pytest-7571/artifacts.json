@@ -1,0 +1,41 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "regular-file size and nanosecond mtime before and after the task",
+  "created": [
+    "caplog_fix.patch",
+    "pytest-repo/pytest-422685d0bdc110547535036c1ff398b5e1c44145/src/_pytest/logging.py",
+    "pytest-repo/pytest-422685d0bdc110547535036c1ff398b5e1c44145/testing/logging/test_fixture.py"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "caplog_fix.patch",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000004-21/artifacts/caplog_fix.patch",
+      "change": "created",
+      "size": 2223,
+      "sha256": "1b9ce05b7f9bd3253c1874f6d08148253a83807e05dba18056923e1e3c4755fc"
+    },
+    {
+      "path": "pytest-repo/pytest-422685d0bdc110547535036c1ff398b5e1c44145/src/_pytest/logging.py",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000004-21/artifacts/pytest-repo/pytest-422685d0bdc110547535036c1ff398b5e1c44145/src/_pytest/logging.py",
+      "change": "created",
+      "size": 30085,
+      "sha256": "1f93b37cecef63480b2cd6afe083549b10ee80ad8fce6f6b4badd12e47c8a35a"
+    },
+    {
+      "path": "pytest-repo/pytest-422685d0bdc110547535036c1ff398b5e1c44145/testing/logging/test_fixture.py",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000004-21/artifacts/pytest-repo/pytest-422685d0bdc110547535036c1ff398b5e1c44145/testing/logging/test_fixture.py",
+      "change": "created",
+      "size": 9375,
+      "sha256": "d304eabf1e5f5689072b9e164fec17edef7de8baa50ec7c824bf66ae2d33cd61"
+    }
+  ],
+  "skipped": [],
+  "errors": [],
+  "limits": {
+    "max_file_bytes": 104857600,
+    "max_total_bytes": 1073741824
+  }
+}

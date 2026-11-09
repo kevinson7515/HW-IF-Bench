@@ -1,0 +1,28 @@
+{
+  "group_id": "G-coding-astropy-12891",
+  "variant_id": "S6",
+  "task_id": 2,
+  "provider": "company-glm",
+  "status": "succeeded",
+  "exit_code": 0,
+  "started_at": "2026-10-26T06:31:47.542279+00:00",
+  "finished_at": "2026-10-26T07:58:51.497578+00:00",
+  "duration_seconds": 5223.955,
+  "execution_duration_seconds": 4594.427,
+  "recording_duration_seconds": 496.38,
+  "system_prompt_sha256": "f2402b741938fdf562120e9eb7b01b4bf9968e10a3585e1bdf9aaaca670c59b7",
+  "task_dir": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-coding-astropy-12891/S6",
+  "recording_status": "complete",
+  "workspace_restore_status": "complete",
+  "signal": null,
+  "session_id": "session-e93a735f-e9d3-4ee4-b22d-9d7469e67aeb",
+  "final_event_seen": true,
+  "parse_errors": [],
+  "tool_calls": 143,
+  "tool_errors": 9,
+  "steps": 135,
+  "turn_end_reason": {
+    "kind": "completed"
+  },
+  "restore_duration_seconds": 133.148
+}

@@ -1,0 +1,54 @@
+我已读完两份附件（`vector_database_evidence.md` 为来源摘记，`IndependentANN.md` 为 ann-benchmarks 的 README）。下面是按能力对比、证据范围、可/不可排名场景三部分的分析。
+
+---
+
+## 一、三个维度能力对比（仅来自厂商文档，属于「功能存在性」，非性能）
+
+| 维度 | Qdrant | Weaviate | Milvus |
+|---|---|---|---|
+| 混合检索 | Query API 组合稠密+稀疏查询，经 prefetch + fusion 合并候选 | hybrid 将 BM25 关键词与向量结果融合，`alpha` 控权重，支持属性过滤 | `hybrid_search` 多向量，支持多路 ANN 请求 + 重排（rerank） |
+| 元数据过滤 | payload 条件过滤，建议配合 payload 索引 | 属性（property）过滤 | 标准元数据**预过滤** + **迭代过滤**两种 |
+| 本地部署 | quickstart 单容器（Docker） | Docker 与 Compose | Lite / Standalone / Distributed 三种，模式与版本决定能力与运维组件 |
+
+**关键结论：文档只能证明「三家都支持」这三点，不能证明「谁更快」。** 且三家混合检索的实现机理不同（Qdrant 是稠密+稀疏融合；Weaviate 是 BM25+向量带 alpha 加权；Milvus 是多向量多路 ANN+重排），术语「hybrid」不可直接等同，更不能直接横比。
+
+---
+
+## 二、证据范围单列
+
+### 1. 厂商文档（证明「有/如何配置」，无性能数字）
+- Qdrant：hybrid-queries、filtering、quickstart 三页。
+- Weaviate：hybrid、docker-installation 两页。
+- Milvus：multi-vector-search、filtered-search、install-overview 三页。
+- 证据强度：只到「能力与配置」层，不含任何跨厂商跑分。
+
+### 2. 厂商测试（自发布，方法学不中立）
+- 附件仅点出 **Qdrant 自发布的 filtered ANN 测试**（qdrant.tech/benchmarks）为厂商测试。
+- Weaviate 与 Milvus 的元数据过滤在附件中**只有功能文档、没有对等的 filtered 性能数据**。
+- 结论：过滤维度的性能证据是单边的（仅 Qdrant），无法构成三者对比。
+
+### 3. 独立 ANN Benchmark（ann-benchmarks，中立但非维护状态）
+- 明确「**no longer actively maintained**」，官方建议改用 VIBE；现有结果标注为 2025-04、r6i.16xlarge、`--parallelism 31`、超线程关闭、**单 CPU**。
+- 参与者清单里 **Weaviate、Qdrant、Milvus 三者都在列**，因此三者作为「稠密向量 ANN 引擎」在同一套框架下可横比。
+- 但它的范围是「稠密 ANN 的 recall–吞吐(QPS) 权衡」：数据集约 100–1000 维、需放内存、默认单查询、批处理可选、GPU 仅 FAISS；稀疏只指 Jaccard 集合相似度（传排序整数数组），**不是混合检索里的稀疏向量/B关键词**。
+- 附件里 Results 一节**只有 PNG 图片链接，没有任何数字表格**，故从这两份附件本身也**提取不出具体跑分**。
+
+---
+
+## 三、哪些场景可/不可做性能排名
+
+### 仅一处方法论上可排名（但从附件拿不到数字）
+- **稠密向量 ANN 的 recall–QPS 权衡**：ann-benchmarks 同时收录 Qdrant、Weaviate、Milvus，是唯一「独立、可复现、同环境、三者同场」的框架。注意它现已停更，且仅单 CPU、内存内、≤1000 维。
+
+### 无法用所附测评做性能排名的场景（含原因）
+1. **混合检索性能**（稠密+稀疏/BM25 融合、多路 rerank）：ann-benchmarks 不含混合/sparse-vector 工作负载；厂商文档只有机理描述，无跑分。
+2. **元数据/过滤检索性能**（过滤选择率、payload/字段索引开销、预过滤 vs 迭代过滤）：附件仅 Qdrant 有自发布 filtered 测试（厂商测试、非中立）；Weaviate、Milvus 无对等数据 → 无法三者排名。
+3. **稀疏向量/稀疏 ANN 性能**：ann-benchmarks 的「sparse」是 Jaccard 集合相似度（排序整数数组表示），与混合检索中的稀疏向量检索不是一回事，不能拿来排名。
+4. **本地部署资源开销与模式可扩展性**（Lite/Standalone/Distributed、容器数量、运维组件、内存/CPU 占用）：部署维度完全无基准，只有文档。
+5. **多向量多路检索 + 重排性能**（Milvus `hybrid_search` 专属语义）：无对应基准。
+6. **十亿级 / >1000 维场景**：ann-benchmarks 明确排除（指向 big-ann-benchmarks / 建议先降维），故此类规模无法用所附测评排名。
+7. **任何具体数字排名本身**：两份附件只含「来源清单 + ann-benchmarks 方法学/参与者 + 结果图链接」，不含可提取的实测 QPS/recall 数值，因此当前附件连稠密 ANN 都无法给出具体名次。
+
+---
+
+**一句话总结**：附件能支撑的是「三家都具备混合检索、元数据过滤、本地部署能力」这一事实，以及「ann-benchmarks 理论上可横比三者稠密 ANN」的方法学依据；但混合检索、过滤、本地部署、多路重排、十亿级等任何性能排名，既无中立基准、又无对等的多厂商数据，且附件未含任何实际数字，均**无法据此做性能排名**。

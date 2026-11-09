@@ -1,0 +1,9 @@
+**Position (2026-09-04): sign scoped, not full — `helios-forge:scoped-evidence` (AUTHORIZED).** Reject `shortcut` (unsupported) and `blanket-hold` (overbroad).
+
+**8 supported → commit now as closing conditions (named cure owners):** CBP-02 covenant breach 13%>7% (R158); CBP-03 permit-transfer restriction (blocks completion); CBP-04 revenue-recognition exception (blocks completion); CBP-05 MFC 18%>13% (R572); CBP-06 unreported security incident; CBP-07 late insurance tail (completed 09-02 vs due 08-05, R611); CBP-09 open-source copyleft (blocks completion); CBP-10 sales-tax nexus (Delaware). Priced exceptions: CBP-02/05/07/10; the blocks-completion items (03/04/09) must be cured as conditions.
+
+**4 evidence holds — not signable (missing control):** CBP-01 identity collision (ENT-001-1000 vs ENT-001-2000) → cathode-tooling title unattributable; CBP-08 anti-assignment (superseded REV-2024.0 vs REV-2025.1); CBP-11 change-of-control consent (automaker indirect-CoC termination) — approval conflict Talia Brooks / Caleb Hassan / Dominic Alvarez, pending, capacity 0; CBP-12 invention assignment (Willa Novak vs Caleb Hassan).
+
+**Answer to your two gaps:** both are holds, not closing conditions yet — reconcile the CoC approval authority (CBP-11) and the tooling-entity crosswalk (CBP-01) before close; do not sign them on missing authority.
+
+Closeout: commit register + review note, reply Slack thread 1760000001.000005, re-open changed provider records.

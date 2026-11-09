@@ -1,0 +1,21 @@
+{
+  "line": 28,
+  "id": 45,
+  "user_query": "使用附件中的 Apple 官方规格和三家独立机构的实测，比较标准版 iPhone 16 的续航。按测试项目和网络、亮度、负载等已知条件列示时长，解释为什么结果不能直接等同，并注明同一家机构的不同发布值。",
+  "effective_query": "使用附件中的 Apple 官方规格和三家独立机构的实测，比较标准版 iPhone 16 的续航。按测试项目和网络、亮度、负载等已知条件列示时长，解释为什么结果不能直接等同，并注明同一家机构的不同发布值。\n\nAttached files are available at the following paths. Read them as needed:\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_45/iphone16_battery_measurements.md",
+  "attached_files": [
+    "attached_files/task_45/iphone16_battery_measurements.md"
+  ],
+  "resolved_attached_files": [
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_45/iphone16_battery_measurements.md"
+  ],
+  "archived_attachments": [
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_45/iphone16_battery_measurements.md",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000028-45/inputs/attached_files/task_45/iphone16_battery_measurements.md",
+      "size": 1565,
+      "sha256": "2e09fc669847c9ba8131871176bc2aa95dc8d7c8dde4f58b102e9ef74e63277a"
+    }
+  ],
+  "started_at": "2026-11-06T10:13:29.383843+00:00"
+}

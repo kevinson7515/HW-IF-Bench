@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<counsel-source-record schema-version="3.1">
+  <record-id>CB-DOC-061-046</record-id>
+  <matter-number>CB-PR-3001</matter-number>
+  <portfolio-key>CBP-061-10</portfolio-key>
+  <source-system>Vanta control register</source-system>
+  <evidence-role>approval_and_capacity</evidence-role>
+  <immutable-entity-key>ENT-061-1009</immutable-entity-key>
+  <referenced-revision>REV-2025.3</referenced-revision>
+  <current-revision>REV-2025.3</current-revision>
+  <native-record>The current responsibility roster names Mei Whitaker for CBP-061-10. Status is active; remaining matter capacity is 5. The next internal control date is 2026-09-01.</native-record>
+  <analysis>
+    <section heading="Source lineage">Vanta control register produced native record CB-DOC-061-046 for CB-PR-3001. Nadine Flores owns the source population and Nadine Flores recorded the collection review. The export remains separate from later legal analysis.</section>
+    <section heading="Business context">This record concerns identity-verification inconsistency within Arcadia genomic data response audit. A consumer access request exposes inconsistencies among genomic-data notices, deletion jobs, vendors, and overseas research transfers. The record addresses one part of the broader question: Join requester identity, genomic data inventory, vendor copies, deletion jobs, and research transfers.</section>
+    <section heading="Native record">The current responsibility roster names Mei Whitaker for CBP-061-10. Status is active; remaining matter capacity is 5. The next internal control date is 2026-09-01.</section>
+    <section heading="Reliance limits">This file supplies approval and capacity evidence for CBP-061-10. It does not decide legal effect, select among candidate responses, resolve another system&#x27;s entity identity, or establish that its cited revision is controlling.</section>
+  </analysis>
+  <supporting-rows>
+    <row id="CBP-061-10-APP-01" date="2025-05-29" entity="ENT-061-1009" revision="REV-2025.3" actor="Caleb Hassan" status="recorded" metric="$806,188.00">Approval And Capacity support row 1 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.</row>
+    <row id="CBP-061-10-APP-02" date="2025-06-01" entity="ENT-061-1009" revision="REV-2025.3" actor="Sofia Bennett" status="recorded" metric="15%">Approval And Capacity support row 2 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.</row>
+    <row id="CBP-061-10-APP-03" date="2025-06-04" entity="ENT-061-1009" revision="REV-2025.3" actor="Theo Laurent" status="pending" metric="4%">Approval And Capacity support row 3 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.</row>
+    <row id="CBP-061-10-APP-04" date="2025-06-07" entity="ENT-061-1009" revision="REV-2025.3" actor="Nadine Flores" status="confirmed" metric="$947,977.00">Approval And Capacity support row 4 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.</row>
+    <row id="CBP-061-10-APP-05" date="2025-06-10" entity="ENT-061-1009" revision="REV-2025.3" actor="Owen Delgado" status="confirmed" metric="24%">Approval And Capacity support row 5 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.</row>
+    <row id="CBP-061-10-APP-06" date="2025-06-13" entity="ENT-061-1009" revision="REV-2025.3" actor="Maya Ellison" status="superseded" metric="20%">Approval And Capacity support row 6 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.</row>
+    <row id="CBP-061-10-APP-07" date="2025-06-16" entity="ENT-061-1009" revision="REV-2025.3" actor="Dominic Alvarez" status="recorded" metric="$104,900.00">Approval And Capacity support row 7 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.</row>
+    <row id="CBP-061-10-APP-08" date="2025-06-19" entity="ENT-061-2009" revision="REV-2025.3" actor="Talia Brooks" status="pending" metric="8%">Approval And Capacity support row 8 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.</row>
+    <row id="CBP-061-10-APP-09" date="2025-06-22" entity="ENT-061-1009" revision="REV-2025.3" actor="Caleb Hassan" status="superseded" metric="19%">Approval And Capacity support row 9 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.</row>
+    <row id="CBP-061-10-APP-10" date="2025-06-25" entity="ENT-061-1009" revision="REV-2025.3" actor="Sofia Bennett" status="pending" metric="$609,522.00">Approval And Capacity support row 10 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.</row>
+    <row id="CBP-061-10-APP-11" date="2025-06-28" entity="ENT-061-1009" revision="REV-2025.3" actor="Theo Laurent" status="superseded" metric="15%">Approval And Capacity support row 11 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.</row>
+    <row id="CBP-061-10-APP-12" date="2025-07-01" entity="ENT-061-1009" revision="REV-2025.3" actor="Nadine Flores" status="confirmed" metric="11%">Approval And Capacity support row 12 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.</row>
+    <row id="CBP-061-10-APP-13" date="2025-07-04" entity="ENT-061-1009" revision="REV-2025.3" actor="Owen Delgado" status="pending" metric="$315,818.00">Approval And Capacity support row 13 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.</row>
+    <row id="CBP-061-10-APP-14" date="2025-07-07" entity="ENT-061-1009" revision="REV-2025.3" actor="Maya Ellison" status="pending" metric="24%">Approval And Capacity support row 14 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.</row>
+    <row id="CBP-061-10-APP-15" date="2025-07-10" entity="ENT-061-1009" revision="REV-2025.3" actor="Dominic Alvarez" status="superseded" metric="6%">Approval And Capacity support row 15 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.</row>
+    <row id="CBP-061-10-APP-16" date="2025-07-13" entity="ENT-061-1009" revision="REV-2025.3" actor="Talia Brooks" status="superseded" metric="$305,499.00">Approval And Capacity support row 16 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.</row>
+    <row id="CBP-061-10-APP-17" date="2025-07-16" entity="ENT-061-1009" revision="REV-2025.3" actor="Caleb Hassan" status="pending" metric="12%">Approval And Capacity support row 17 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.</row>
+    <row id="CBP-061-10-APP-18" date="2025-07-19" entity="ENT-061-1009" revision="REV-2025.3" actor="Sofia Bennett" status="pending" metric="15%">Approval And Capacity support row 18 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.</row>
+  </supporting-rows>
+  <chronology>
+    <event date="2025-09-27" actor="Caleb Hassan" reference="CB-DOC-061-046">native population opened</event>
+    <event date="2025-10-03" actor="Adrian Mensah" reference="CBP-061-10">custodian boundary confirmed</event>
+    <event date="2025-10-09" actor="Henry Cho" reference="CB-DOC-061-046">export created</event>
+    <event date="2025-10-15" actor="Owen Delgado" reference="CBP-061-10">cross-system identifier checked</event>
+    <event date="2025-10-21" actor="Rafael Okafor" reference="CB-DOC-061-046">revision retained</event>
+    <event date="2025-10-27" actor="Elliot Mercer" reference="CBP-061-10">matter copy collected</event>
+  </chronology>
+  <provenance>Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.</provenance>
+</counsel-source-record>

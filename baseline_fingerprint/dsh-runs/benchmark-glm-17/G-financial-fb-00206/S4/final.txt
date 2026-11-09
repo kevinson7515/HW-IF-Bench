@@ -1,0 +1,9 @@
+**Gross margin is not a relevant metric for JPMorgan Chase.** Its 2022 Form 10-K never uses "gross margin," "gross profit," or "cost of goods sold," and the income statement has no revenue-minus-COGS structure.
+
+JPM is a bank, not a manufacturer: revenue is net interest income (interest earned on loans/securities minus interest paid on deposits) plus noninterest revenue (fees, trading, asset management). Its expenses—compensation, technology, credit-loss provisions—are not costs of goods sold, so no gross-profit line exists.
+
+Closest substitutes move with rates and credit cycles: net interest income jumped 28% in 2022 ($52.3B→$66.7B), the credit-loss provision swung $17.5B→−$9.3B→$6.4B, and the expense ratio (noninterest expense÷total net revenue) ran 55.6%→58.6%→59.2%—beyond a 2-point band.
+
+## Data basis
+
+JPMorgan Chase & Co. 2022 Form 10-K (attached PDF), Consolidated income statement (p. 159), $ millions, 2022/2021/2020: total net revenue 128,695/121,649/119,951; net interest income 66,710/52,311/54,563; credit-loss provision 6,389/(9,256)/17,480; noninterest expense 76,140/71,343/66,656. Full-text search of all 382 pages: no gross-margin terms. Ratio computed from them.

@@ -1,0 +1,7 @@
+Gross margins are **not a relevant metric** for JPMorgan Chase. It is a bank holding company, so its income statement contains no "cost of goods sold" and therefore no "gross profit" — the two inputs needed to compute gross margin (Revenue − COGS ÷ Revenue). Instead, the 10-K reports Total net revenue, Net interest income (interest income minus interest expense), and Total noninterest expense. The firm's costs are funding costs plus operating expenses (compensation, technology, occupancy), not COGS. Thus there is no "gross margin" series to test for historical stability.
+
+The closest bank-specific analogue is net interest margin (net yield on interest-earning assets), which was 2.00% in 2022 — but that is not a gross margin.
+
+## Data basis
+
+JPMorgan Chase & Co. 2022 Form 10-K, *Consolidated statements of income* (p. 159): Total net revenue $128,695M (2022), $121,649M (2021), $119,951M (2020); interest expense $26,097M (2022), $5,553M (2021), $9,960M (2020); no gross-margin or COGS line item exists. Page 293 shows net yield on interest-earning assets of 2.00% (2022).

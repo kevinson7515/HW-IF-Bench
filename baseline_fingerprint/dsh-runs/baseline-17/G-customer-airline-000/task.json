@@ -1,0 +1,21 @@
+{
+  "line": 4,
+  "id": 4,
+  "user_query": "我是 Emma Kim（用户 ID：emma_kim_9957）。我想取消预订 EHGLP3；虽然可能已经超过预订后 24 小时，但那段时间我不在城里。没有退款的话我不想取消。",
+  "effective_query": "我是 Emma Kim（用户 ID：emma_kim_9957）。我想取消预订 EHGLP3；虽然可能已经超过预订后 24 小时，但那段时间我不在城里。没有退款的话我不想取消。\n\nAttached files are available at the following paths. Read them as needed:\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_4/policy.md",
+  "attached_files": [
+    "attached_files/task_4/policy.md"
+  ],
+  "resolved_attached_files": [
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_4/policy.md"
+  ],
+  "archived_attachments": [
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_4/policy.md",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1853564/000004-4/inputs/attached_files/task_4/policy.md",
+      "size": 7676,
+      "sha256": "10dc0525421521208be39cee235bba84a16e2bcba9899eb93d92cd81d2f62fc4"
+    }
+  ],
+  "started_at": "2026-10-18T10:13:19.112974+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "group_id": "G-coding-django-11417",
+  "variant_id": "S4",
+  "task_id": 3,
+  "provider": "company-glm",
+  "status": "succeeded",
+  "exit_code": 0,
+  "started_at": "2026-10-26T11:26:49.773815+00:00",
+  "finished_at": "2026-10-26T12:31:40.871488+00:00",
+  "duration_seconds": 3891.098,
+  "execution_duration_seconds": 3354.629,
+  "recording_duration_seconds": 413.012,
+  "system_prompt_sha256": "9fe1db4a2498f69ca145095532805d05b38c28163fc936219dac2a234d7a2559",
+  "task_dir": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-coding-django-11417/S4",
+  "recording_status": "complete",
+  "workspace_restore_status": "complete",
+  "signal": null,
+  "session_id": "session-07a2abce-cbdf-454c-93ed-353acd7d9bdd",
+  "final_event_seen": true,
+  "parse_errors": [],
+  "tool_calls": 48,
+  "tool_errors": 7,
+  "steps": 45,
+  "turn_end_reason": {
+    "kind": "completed"
+  },
+  "restore_duration_seconds": 123.456
+}

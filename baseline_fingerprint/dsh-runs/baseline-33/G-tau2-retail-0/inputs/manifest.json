@@ -1,0 +1,20 @@
+[
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_29/scenario.json",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000012-29/inputs/attached_files/task_29/scenario.json",
+    "size": 802,
+    "sha256": "28635578f229a96e286252b8738114ec9dc59b419be5c8b9d8609e5a46801df7"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_29/domain_bundle.zip",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000012-29/inputs/attached_files/task_29/domain_bundle.zip",
+    "size": 430295,
+    "sha256": "b75e9cb056d2f73a8060e6adca7254882a1fdd87f9e3d40280783484bd212f07"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_29/environment.json",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000012-29/inputs/attached_files/task_29/environment.json",
+    "size": 638,
+    "sha256": "b384d5ab4242ac371daac2fab85006110822bab7c483a59acfbc15e7d4966576"
+  }
+]

@@ -1,0 +1,11 @@
+**Gross margin is not a relevant metric for JPMorgan Chase, so there is no meaningful "historically consistent ~2% fluctuation" figure to report.**
+
+**Why:** JPMorgan is a bank, not a goods-producing or merchandising company. Gross margin = (Revenue − Cost of Goods Sold) / Revenue, but a bank has no "cost of goods sold" in the manufacturing sense. Its core economics flow through different lines on the income statement:
+
+- **Net interest income** (interest earned on loans/securities minus interest paid on deposits/funding) — the banking equivalent of "spread" revenue.
+- **Noninterest revenue** (fees, investment banking, trading, asset management, card income).
+- **Noninterest expense** (compensation, technology, occupancy) and **provision for credit losses**, not COGS.
+
+I confirmed this against the attached 2022 10-K: the text contains **zero** occurrences of "gross margin," "gross profit," or "cost of goods sold," while "net interest income" appears. The 10-K reports **total net revenue** and **net interest margin (NIM)** instead — those are the meaningful, reportable bank metrics.
+
+So the question's premise doesn't apply: JPMorgan doesn't disclose gross margin, and applying it would misrepresent how a bank earns and spends. For banks, consistency analysis should use **net interest margin, return on equity, efficiency ratio, and credit costs** rather than gross margin.

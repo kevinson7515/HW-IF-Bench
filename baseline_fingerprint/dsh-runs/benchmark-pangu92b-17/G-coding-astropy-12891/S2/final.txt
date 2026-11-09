@@ -1,0 +1,20 @@
+已完成。改动对应上游 PR [#12891](https://github.com/astropy/astropy/pull/12891)（Added `where` kwarg to `astropy.units.Quantity`'s reduction-like methods）。
+
+**`astropy/units/quantity.py`**
+- 新增 `from astropy.utils.compat import NUMPY_LT_1_20, NUMPY_LT_1_22`。
+- `mean`/`var`/`std`：NumPy ≥1.20 时增加 keyword-only `where=True`，并透传给 `_wrap_function`；旧版本保留原签名（`NUMPY_LT_1_20` 分支）。
+- `nansum`：NumPy ≥1.22 时增加 keyword-only `initial=None, where=True`；旧版本保留原签名（`NUMPY_LT_1_22` 分支）。
+
+**`astropy/utils/masked/core.py`**
+- `mean`/`var`/`std`/`any`/`all` 增加 keyword-only `where=True`，内部与 `~self.mask` 求交后透传给 `sum`/`reduce`。
+- 保持掩码语义：完全被掩码/被 `where` 排除的切片在结果中仍被掩码（`n == 0` 或 `~where_final.all(axis)`）。
+
+**测试**
+- `test_quantity_array_methods.py`：新增 `mean/std/var/min/max/sum/nansum` 的 `where`/`initial` 用例，并按 `NUMPY_LT_1_20`/`NUMPY_LT_1_22` 标记 xfail。
+- `test_masked.py`：新增 `sum/mean/var/std/min/max/all/any` 的 `where` 用例，同样按版本标记 xfail。
+
+**验证**：四个文件语法编译通过；在已安装的 astropy 8.0.2（numpy 2.3.5）上对 Quantity 与 Masked 的 `where`/`initial` 行为做了等价性核对，单位、掩码与旧版本兼容路径均正确。
+
+Sources:
+- [astropy PR #12891](https://github.com/astropy/astropy/pull/12891)
+- [astropy changelog](https://docs.astropy.org/en/stable/changelog.html)

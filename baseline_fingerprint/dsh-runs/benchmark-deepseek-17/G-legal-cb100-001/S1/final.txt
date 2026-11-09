@@ -1,0 +1,13 @@
+## Daybreak — operating position (from the record set; exports state no legal effect)
+
+**Signing may proceed — conditionally.** No gap is a signing blocker. Controlling authority is the *executed purchase terms + latest consent schedule*; seller summaries do not control.
+
+**Customer-consent gap → closing condition.** CBP-001-11 change-of-control consent (impact 93, highest). The automaker can terminate on an indirect CoC; consent is "pending approval / inactive, 0 capacity," and approval authority is unreconciled (Talia Brooks R473 vs Caleb Hassan E439). Put consent/waiver in the closing path, not signing.
+
+**Tooling gaps.**
+1. CBP-001-01 entity collision — ENT-001-1000 vs ENT-001-2000, no approved crosswalk; you cannot match tooling title or consent to the exact acquired entity. Cure the crosswalk at signing; do not guess ownership.
+2. CBP-001-03 Nevada permit transfer "blocks completion" → closing condition.
+
+**Priced exception.** Only if the automaker withholds consent — price the post-close termination exposure via indemnity/holdback/escrow.
+
+**Closeout.** Reconcile R473/E439 and the crosswalk before close; otherwise do not certify clean tooling title or clean consent. No signing-path representation of clean consent or ownership.

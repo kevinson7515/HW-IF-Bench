@@ -1,0 +1,187 @@
+=== XLSX SHEET1 ===
+portfolio_key | immutable_entity | impact_control_score | event_reference | source_revision | source_population_status | matter_number
+CBP-061-01 | ENT-061-1000 | 81 | CB-PR-3001-E674 | REV-2025.1 | retained source population; not a legal disposition | CB-PR-3001
+CBP-061-02 | ENT-061-1001 | 55 | CB-PR-3001-E728 | REV-2025.2 | retained source population; not a legal disposition | CB-PR-3001
+CBP-061-03 | ENT-061-1002 | 37 | CB-PR-3001-E567 | REV-2025.3 | retained source population; not a legal disposition | CB-PR-3001
+CBP-061-04 | ENT-061-1003 | 53 | CB-PR-3001-E104 | REV-2025.4 | retained source population; not a legal disposition | CB-PR-3001
+CBP-061-05 | ENT-061-1004 | 79 | CB-PR-3001-E754 | REV-2025.5 | retained source population; not a legal disposition | CB-PR-3001
+CBP-061-06 | ENT-061-1005 | 76 | CB-PR-3001-E449 | REV-2025.6 | retained source population; not a legal disposition | CB-PR-3001
+CBP-061-07 | ENT-061-1006 | 72 | CB-PR-3001-E157 | REV-2025.7 | retained source population; not a legal disposition | CB-PR-3001
+CBP-061-08 | ENT-061-1007 | 44 | CB-PR-3001-E288 | REV-2024.0 | retained source population; not a legal disposition | CB-PR-3001
+CBP-061-09 | ENT-061-1008 | 58 | CB-PR-3001-E991 | REV-2025.2 | retained source population; not a legal disposition | CB-PR-3001
+CBP-061-10 | ENT-061-1009 | 89 | CB-PR-3001-E798 | REV-2025.3 | retained source population; not a legal disposition | CB-PR-3001
+CBP-061-11 | ENT-061-1010 | 70 | CB-PR-3001-E378 | REV-2025.4 | retained source population; not a legal disposition | CB-PR-3001
+CBP-061-12 | ENT-061-1011 | 46 | CB-PR-3001-E104 | REV-2025.5 | retained source population; not a legal disposition | CB-PR-3001
+
+===== CBP-061-01 =====
+  [identity_crosswalk        ] ref=REV-2025.1 cur=REV-2025.1  (001_data_inventory_source_export.md)
+      Crosswalk revision REV-2025.1 maps portfolio key CBP-061-01 and legal name Arcadia Genomics, Inc. — Sensitive-Data Classification record 1 to immutable entity ENT-061-1000. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+  [operative_authority       ] ref=REV-2025.1 cur=REV-2025.1  (013_processing_records_source_export.json)
+      sensitive-data classification is due by 2025-08-24 under CB-PR-3001-R870. The referenced and current revision are both REV-2025.1. The matter-level control is: Access, deletion, and transfer duties depend on verified identity, purpose, jurisdiction, and current vendor scope.
+  [current_operations        ] ref=REV-2025.1 cur=REV-2025.1  (025_security_incidents_source_export.md)
+      None
+  [approval_and_capacity     ] ref=REV-2025.1 cur=REV-2025.1  (037_consumer_requests_source_export.json)
+      The current responsibility roster names Henry Cho for CBP-061-01. Status is active; remaining matter capacity is 4. The next internal control date is 2026-09-01.
+  [correspondence            ] ref=REV-2025.1 cur=REV-2025.1  (049_transfer_mechanisms_source_export.md)
+      The business owner asks whether the sensitive-data classification event completed on 2025-09-17 under CB-PR-3001-E674. The counterparty points to sensitive-data classification is due by 2025-08-24 under CB-PR-3001-R870. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+  [independent_counterrecord ] ref=REV-2025.1 cur=REV-2025.1  (085_risk_assessments_source_export.json)
+      An independent source repeats portfolio key CBP-061-01 and immutable entity ENT-061-1000 but uses reference CB-PR-3001-E674. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.
+  [financial_or_population_support] ref=REV-2025.1 cur=REV-2025.1  (061_retention_deletion_source_export.json)
+      The supporting population for CBP-061-01 was exported under CB-PR-3001-E674. The population uses immutable entity ENT-061-1000 and records impact-control score 81; this score is an input, not a disposition.
+
+===== CBP-061-02 =====
+  [identity_crosswalk        ] ref=None cur=None  (002_data_inventory_source_export.txt)
+      Crosswalk revision REV-2025.2 maps portfolio key CBP-061-02 and legal name Arcadia Genomics, Inc. — Notice-Practice Mismatch record 2 to immutable entity ENT-061-1001. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+  [operative_authority       ] ref=None cur=None  (014_processing_records_source_export.xml)
+      notice-practice mismatch notices must use notices-arcadia_genomics_inc@example.test under CB-PR-3001-R888. The referenced and current revision are both REV-2025.2. The matter-level control is: Access, deletion, and transfer duties depend on verified identity, purpose, jurisdiction, and current vendor scope.
+  [current_operations        ] ref=None cur=None  (026_security_incidents_source_export.txt)
+      For immutable entity ENT-061-1001. the notice-practice mismatch receipt used notices-arcadia_genomics_inc@example.test under CB-PR-3001-E728. The operating extract cites revision REV-2025.2 and portfolio key CBP-061-02; it does not state a legal disposition.
+  [approval_and_capacity     ] ref=None cur=None  (038_consumer_requests_source_export.xml)
+      The current responsibility roster names Maya Ellison for CBP-061-02. Status is active; remaining matter capacity is 1. The next internal control date is 2026-08-31.
+  [correspondence            ] ref=None cur=None  (050_transfer_mechanisms_source_export.txt)
+      The business owner asks whether the notice-practice mismatch receipt used notices-arcadia_genomics_inc@example.test under CB-PR-3001-E728. The counterparty points to notice-practice mismatch notices must use notices-arcadia_genomics_inc@example.test under CB-PR-3001-R888. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+  [independent_counterrecord ] ref=None cur=None  (086_risk_assessments_source_export.xml)
+      An independent source repeats portfolio key CBP-061-02 and immutable entity ENT-061-1001 but uses reference CB-PR-3001-E728. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.
+  [financial_or_population_support] ref=None cur=None  (062_retention_deletion_source_export.xml)
+      The supporting population for CBP-061-02 was exported under CB-PR-3001-E728. The population uses immutable entity ENT-061-1001 and records impact-control score 55; this score is an input, not a disposition.
+
+===== CBP-061-03 =====
+  [identity_crosswalk        ] ref=None cur=None  (003_data_inventory_source_export.eml)
+      Crosswalk revision REV-2025.3 maps portfolio key CBP-061-03 and legal name Arcadia Genomics, Inc. — Retention Schedule Conflict record 3 to immutable entity ENT-061-1002. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+  [operative_authority       ] ref=None cur=None  (015_processing_records_source_export.html)
+      open retention schedule conflict blocks completion under CB-PR-3001-R844. The referenced and current revision are both REV-2025.3. The matter-level control is: Access, deletion, and transfer duties depend on verified identity, purpose, jurisdiction, and current vendor scope.
+  [current_operations        ] ref=None cur=None  (027_security_incidents_source_export.eml)
+      For immutable entity ENT-061-1002.
+  [approval_and_capacity     ] ref=None cur=None  (039_consumer_requests_source_export.html)
+      The current responsibility roster names Jonas Feld for CBP-061-03. Status is active; remaining matter capacity is 5. The next internal control date is 2026-08-30.
+  [correspondence            ] ref=None cur=None  (051_transfer_mechanisms_source_export.eml)
+      The business owner asks whether the retention schedule conflict status is open and unresolved under CB-PR-3001-E567. The counterparty points to open retention schedule conflict blocks completion under CB-PR-3001-R844. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+  [independent_counterrecord ] ref=None cur=None  (087_risk_assessments_source_export.html)
+      An independent source repeats portfolio key CBP-061-03 and immutable entity ENT-061-1002 but uses reference CB-PR-3001-E567. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.
+  [financial_or_population_support] ref=None cur=None  (063_retention_deletion_source_export.html)
+      The supporting population for CBP-061-03 was exported under CB-PR-3001-E567. The population uses immutable entity ENT-061-1002 and records impact-control score 37; this score is an input, not a disposition.
+
+===== CBP-061-04 =====
+  [operative_authority       ] ref=REV-2025.4 cur=REV-2025.4  (016_processing_records_source_export.pdf)
+      Referenced revision: REV-2025.4
+  [approval_and_capacity     ] ref=REV-2025.4 cur=REV-2025.4  (040_consumer_requests_source_export.pdf)
+      Referenced revision: REV-2025.4
+  [independent_counterrecord ] ref=REV-2025.4 cur=REV-2025.4  (088_risk_assessments_source_export.pdf)
+      Referenced revision: REV-2025.4
+  [financial_or_population_support] ref=REV-2025.4 cur=REV-2025.4  (064_retention_deletion_source_export.pdf)
+      Referenced revision: REV-2025.4
+
+===== CBP-061-05 =====
+  [identity_crosswalk        ] ref=REV-2025.5 cur=REV-2025.5  (005_data_inventory_source_export.json)
+      Crosswalk revision REV-2025.5 maps portfolio key CBP-061-05 and legal name Arcadia Genomics, Inc. — Processing-Purpose Gap record 5 to immutable entity ENT-061-1004. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+  [operative_authority       ] ref=REV-2025.5 cur=REV-2025.5  (017_vendor_reviews_source_export.md)
+      open processing-purpose gap blocks completion under CB-PR-3001-R422. The referenced and current revision are both REV-2025.5. The matter-level control is: Access, deletion, and transfer duties depend on verified identity, purpose, jurisdiction, and current vendor scope.
+  [current_operations        ] ref=REV-2025.5 cur=REV-2025.5  (029_security_incidents_source_export.json)
+      For immutable entity ENT-061-1004. the processing-purpose gap status is open and unresolved under CB-PR-3001-E754. The operating extract cites revision REV-2025.5 and portfolio key CBP-061-05; it does not state a legal disposition.
+  [approval_and_capacity     ] ref=REV-2025.5 cur=REV-2025.5  (041_notices_consents_source_export.md)
+      The current responsibility roster names Owen Delgado for CBP-061-05. Status is active; remaining matter capacity is 4. The next internal control date is 2026-08-28.
+  [correspondence            ] ref=REV-2025.5 cur=REV-2025.5  (053_transfer_mechanisms_source_export.json)
+      The business owner asks whether the processing-purpose gap status is open and unresolved under CB-PR-3001-E754. The counterparty points to open processing-purpose gap blocks completion under CB-PR-3001-R422. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+  [independent_counterrecord ] ref=REV-2025.5 cur=REV-2025.5  (089_remediation_source_export.md)
+      An independent source repeats portfolio key CBP-061-05 and immutable entity ENT-061-1004 but uses reference CB-PR-3001-E754. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.
+  [financial_or_population_support] ref=REV-2025.5 cur=REV-2025.5  (065_training_source_export.md)
+      The supporting population for CBP-061-05 was exported under CB-PR-3001-E754. The population uses immutable entity ENT-061-1004 and records impact-control score 79; this score is an input, not a disposition.
+
+===== CBP-061-06 =====
+  [identity_crosswalk        ] ref=None cur=None  (006_data_inventory_source_export.xml)
+      Crosswalk revision REV-2025.6 maps portfolio key CBP-061-06 and legal name Arcadia Genomics, Inc. — Cross-Border Transfer Gap record 6 to immutable entity ENT-061-1005. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+  [operative_authority       ] ref=None cur=None  (018_vendor_reviews_source_export.txt)
+      cross-border transfer gap authority is limited to California Privacy Protection Agency under CB-PR-3001-R637. The referenced and current revision are both REV-2025.6. The matter-level control is: Access, deletion, and transfer duties depend on verified identity, purpose, jurisdiction, and current vendor scope.
+  [current_operations        ] ref=None cur=None  (030_security_incidents_source_export.xml)
+      For immutable entity ENT-061-1005. the cross-border transfer gap activity occurred in California under CB-PR-3001-E449. The operating extract cites revision REV-2025.6 and portfolio key CBP-061-06; it does not state a legal disposition.
+  [approval_and_capacity     ] ref=None cur=None  (042_notices_consents_source_export.txt)
+      The current responsibility roster names Priya Raman for CBP-061-06. Status is active; remaining matter capacity is 4. The next internal control date is 2026-08-27.
+  [correspondence            ] ref=None cur=None  (054_transfer_mechanisms_source_export.xml)
+      The business owner asks whether the cross-border transfer gap activity occurred in California under CB-PR-3001-E449. The counterparty points to cross-border transfer gap authority is limited to California Privacy Protection Agency under CB-PR-3001-R637. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+  [independent_counterrecord ] ref=None cur=None  (090_remediation_source_export.txt)
+      An independent source repeats portfolio key CBP-061-06 and immutable entity ENT-061-1005 but uses reference CB-PR-3001-E449. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.
+  [financial_or_population_support] ref=None cur=None  (066_training_source_export.txt)
+      The supporting population for CBP-061-06 was exported under CB-PR-3001-E449. The population uses immutable entity ENT-061-1005 and records impact-control score 76; this score is an input, not a disposition.
+
+===== CBP-061-07 =====
+  [identity_crosswalk        ] ref=None cur=None  (007_data_inventory_source_export.html)
+      Crosswalk revision REV-2025.7 maps portfolio key CBP-061-07 and legal name Arcadia Genomics, Inc. — Incident-Notification Clock record 7 to immutable entity ENT-061-1006. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+  [operative_authority       ] ref=None cur=None  (019_vendor_reviews_source_export.eml)
+      incident-notification clock is due by 2025-09-27 under CB-PR-3001-R184. The referenced and current revision are both REV-2025.7. The matter-level control is: Access, deletion, and transfer duties depend on verified identity, purpose, jurisdiction, and current vendor scope.
+  [current_operations        ] ref=None cur=None  (031_security_incidents_source_export.html)
+      For immutable entity ENT-061-1006.
+the incident-notification clock event completed on 2025-10-09 under CB-PR-3001-E157. The operating extract cites revision REV-2025.7 and portfolio key CBP-061-07; it does not state a legal disposition.
+  [approval_and_capacity     ] ref=None cur=None  (043_notices_consents_source_export.eml)
+      The current responsibility roster names Isaac Romero for CBP-061-07. Status is pending approval and inactive; remaining matter capacity is 0. The next internal control date is 2026-08-26.
+  [correspondence            ] ref=None cur=None  (055_transfer_mechanisms_source_export.html)
+      The business owner asks whether the incident-notification clock event completed on 2025-10-09 under CB-PR-3001-E157. The counterparty points to incident-notification clock is due by 2025-09-27 under CB-PR-3001-R184. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+  [independent_counterrecord ] ref=None cur=None  (091_remediation_source_export.eml)
+      An independent source repeats portfolio key CBP-061-07 and immutable entity ENT-061-1006 but uses reference CB-PR-3001-E157. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.
+  [financial_or_population_support] ref=None cur=None  (067_training_source_export.eml)
+      The supporting population for CBP-061-07 was exported under CB-PR-3001-E157. The population uses immutable entity ENT-061-1006 and records impact-control score 72; this score is an input, not a disposition.
+
+===== CBP-061-08 =====
+  [identity_crosswalk        ] ref=REV-2024.0 cur=REV-2025.1  (008_data_inventory_source_export.pdf)
+      Referenced revision: REV-2024.0
+  [current_operations        ] ref=REV-2024.0 cur=REV-2025.1  (032_security_incidents_source_export.pdf)
+      Referenced revision: REV-2024.0
+  [correspondence            ] ref=REV-2024.0 cur=REV-2025.1  (056_transfer_mechanisms_source_export.pdf)
+      Referenced revision: REV-2024.0
+
+===== CBP-061-09 =====
+  [identity_crosswalk        ] ref=REV-2025.2 cur=REV-2025.2  (009_processing_records_source_export.md)
+      Portfolio key CBP-061-09 is associated with both ENT-061-1008 and ENT-061-2008. The display name is shared, while the domain and legal-entity fields disagree. No approved crosswalk revision resolves the collision.
+  [operative_authority       ] ref=REV-2025.2 cur=REV-2025.2  (021_vendor_reviews_source_export.json)
+      open subprocessor inventory mismatch blocks completion under CB-PR-3001-R848. The referenced and current revision are both REV-2025.2. The matter-level control is: Access, deletion, and transfer duties depend on verified identity, purpose, jurisdiction, and current vendor scope.
+  [current_operations        ] ref=REV-2025.2 cur=REV-2025.2  (033_consumer_requests_source_export.md)
+      None
+  [approval_and_capacity     ] ref=REV-2025.2 cur=REV-2025.2  (045_notices_consents_source_export.json)
+      The current responsibility roster names Rafael Okafor for CBP-061-09. Status is active; remaining matter capacity is 6. The next internal control date is 2026-08-24.
+  [correspondence            ] ref=REV-2025.2 cur=REV-2025.2  (057_retention_deletion_source_export.md)
+      The business owner asks whether the subprocessor inventory mismatch status is open and unresolved under CB-PR-3001-E991. The counterparty points to open subprocessor inventory mismatch blocks completion under CB-PR-3001-R848. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+  [independent_counterrecord ] ref=REV-2025.2 cur=REV-2025.2  (093_remediation_source_export.json)
+      An independent source repeats portfolio key CBP-061-09 and immutable entity ENT-061-1008 but uses reference CB-PR-3001-E991. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.
+  [financial_or_population_support] ref=REV-2025.2 cur=REV-2025.2  (069_training_source_export.json)
+      The supporting population for CBP-061-09 was exported under CB-PR-3001-E991. The population uses immutable entity ENT-061-1008 and records impact-control score 58; this score is an input, not a disposition.
+
+===== CBP-061-10 =====
+  [identity_crosswalk        ] ref=None cur=None  (010_processing_records_source_export.txt)
+      Crosswalk revision REV-2025.3 maps portfolio key CBP-061-10 and legal name Arcadia Genomics, Inc. — Identity-Verification Inconsistency record 10 to immutable entity ENT-061-1009. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+  [operative_authority       ] ref=None cur=None  (022_vendor_reviews_source_export.xml)
+      open identity-verification inconsistency blocks completion under CB-PR-3001-R266. The referenced and current revision are both REV-2025.3. The matter-level control is: Access, deletion, and transfer duties depend on verified identity, purpose, jurisdiction, and current vendor scope.
+  [current_operations        ] ref=None cur=None  (034_consumer_requests_source_export.txt)
+      For immutable entity ENT-061-1009. the identity-verification inconsistency status is open and unresolved under CB-PR-3001-E798. The operating extract cites revision REV-2025.3 and portfolio key CBP-061-10; it does not state a legal disposition.
+  [approval_and_capacity     ] ref=None cur=None  (046_notices_consents_source_export.xml)
+      The current responsibility roster names Mei Whitaker for CBP-061-10. Status is active; remaining matter capacity is 5. The next internal control date is 2026-09-01.
+  [correspondence            ] ref=None cur=None  (058_retention_deletion_source_export.txt)
+      The business owner asks whether the identity-verification inconsistency status is open and unresolved under CB-PR-3001-E798. The counterparty points to open identity-verification inconsistency blocks completion under CB-PR-3001-R266. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+  [independent_counterrecord ] ref=None cur=None  (094_remediation_source_export.xml)
+      An independent source repeats portfolio key CBP-061-10 and immutable entity ENT-061-1009 but uses reference CB-PR-3001-E798. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.
+  [financial_or_population_support] ref=None cur=None  (070_training_source_export.xml)
+      The supporting population for CBP-061-10 was exported under CB-PR-3001-E798. The population uses immutable entity ENT-061-1009 and records impact-control score 89; this score is an input, not a disposition.
+
+===== CBP-061-11 =====
+  [identity_crosswalk        ] ref=None cur=None  (011_processing_records_source_export.eml)
+      Crosswalk revision REV-2025.4 maps portfolio key CBP-061-11 and legal name Arcadia Genomics, Inc. — Training Completion Gap record 11 to immutable entity ENT-061-1010. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+  [operative_authority       ] ref=None cur=None  (023_vendor_reviews_source_export.html)
+      the training completion gap population is 216 records under CB-PR-3001-R334. The referenced and current revision are both REV-2025.4. The matter-level control is: Access, deletion, and transfer duties depend on verified identity, purpose, jurisdiction, and current vendor scope.
+  [current_operations        ] ref=None cur=None  (035_consumer_requests_source_export.eml)
+      For immutable entity ENT-061-1010.
+  [approval_and_capacity     ] ref=None cur=None  (047_notices_consents_source_export.html)
+      The current responsibility roster names Theo Laurent for CBP-061-11. Status is active; remaining matter capacity is 1. The next internal control date is 2026-08-31.
+  [correspondence            ] ref=None cur=None  (059_retention_deletion_source_export.eml)
+      The business owner asks whether the training completion gap certification covers 190 records under CB-PR-3001-E378. The counterparty points to the training completion gap population is 216 records under CB-PR-3001-R334. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+  [independent_counterrecord ] ref=None cur=None  (095_remediation_source_export.html)
+      An independent source repeats portfolio key CBP-061-11 and immutable entity ENT-061-1010 but uses reference CB-PR-3001-E378. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.
+  [financial_or_population_support] ref=None cur=None  (071_training_source_export.html)
+      The supporting population for CBP-061-11 was exported under CB-PR-3001-E378. The population uses immutable entity ENT-061-1010 and records impact-control score 70; this score is an input, not a disposition.
+
+===== CBP-061-12 =====
+  [operative_authority       ] ref=REV-2025.5 cur=REV-2025.5  (024_vendor_reviews_source_export.pdf)
+      Referenced revision: REV-2025.5
+  [approval_and_capacity     ] ref=REV-2025.5 cur=REV-2025.5  (048_notices_consents_source_export.pdf)
+      Referenced revision: REV-2025.5
+  [independent_counterrecord ] ref=REV-2025.5 cur=REV-2025.5  (096_remediation_source_export.pdf)
+      Referenced revision: REV-2025.5
+  [financial_or_population_support] ref=REV-2025.5 cur=REV-2025.5  (072_training_source_export.pdf)
+      Referenced revision: REV-2025.5

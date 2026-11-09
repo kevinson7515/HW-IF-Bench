@@ -1,0 +1,22 @@
+所有工作均已完成并经过验证。以下是总结：
+
+## 任务已完成
+
+**目标：** 更新 `django.core.mail.message.sanitize_address`，基于 `email.headerregistry` 正确解析邮箱地址。
+
+**识别出的上游参考提交：** `96a3ea39ef`（[3.0.x] 反向移植 `ccc088f8ce`）— Django ticket #31784，“修复了在 Python 3.6.11+… 上发送邮件时的崩溃问题”。附带的 `tests/mail/tests.py` 经证实与该反向移植提交的父提交在字节上完全一致，确认了评估基准。
+
+**对 `django/core/mail/message.py` 的更改：**
+
+1. **导入：** 在现有的 `email.utils` 导入中添加了 `formataddr`。
+2. **更早且一致的拒绝：** 在处理前，会对拼接后的 `nm + localpart + domain` 进行换行符检查，对于任何注入的 CR/LF，抛出 `ValueError('Invalid address; address parts cannot contain newlines.')`（之前的检查位于 `Header(nm, encoding)` 折叠*之后*，这可能会在检查前引入换行符——这正是 #31784 崩溃的原因）。
+3. **显示名：** 现已正确保护——仅包含 ASCII 的显示名保持为纯文本 `A name <to@example.com>`（不再强制使用 `=?utf-8?q?A_name?=` RFC 2047 编码）；非 ASCII 的显示名仍会使用 charset 进行编码，而超过 75 个字符的名称则通过 `Header` → `formataddr` 安全地折叠。
+4. **本地部分 / 域名：** `Address(username=localpart, domain=domain)` 配合 `formataddr((nm, parsed_address.addr_spec))` 替代了旧的 `Address(nm, username=…)` + `str()`，因此需要编码的本地部分（`tó@…` → `=?utf-8?b?dMOz?=@…`）和国际化域名（`éxample.com` → `xn--xample-9ua.com`）都能正确渲染，并且带引号的本地部分（`"to@other.com"@example.com`）保持引用。
+5. **非法地址：** 原有的未完全解析拒绝逻辑（`rest` 检查 → `ValueError`）保持不变，并新增了换行符 `ValueError`。
+
+**验证（在真实 Django 测试套件中，基于 Python 3.10 + 基准提交 `ccc088f8ce^`）：**
+- 修复前的代码 + 金标准测试 → **13 个失败**（FAIL_TO_PASS 集：7 个编码错误的显示名情况，3 个长名称崩溃，4 个错误的注入错误信息）。
+- **修复后的代码 + 金标准测试 → 164/164 通过** (`Ran 164 tests ... OK`)。
+- `logging_tests`（另一个涉及邮件 API 的模块）→ 37/37 通过。
+- 端到端 `EmailMessage.message()` 渲染已针对 IDN 发件人、编码本地部分收件人、折叠的长显示名（原 #31784 崩溃现已渲染正确）以及收件人注入拒绝进行了检查。
+- 该文件与上游提交后的状态在字节上完全一致，并以且仅以一个换行符结尾。

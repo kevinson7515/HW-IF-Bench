@@ -1,0 +1,216 @@
+====================================================================================================
+KEY: CBP-001-01
+  [identity_crosswalk] rec=1 fmt=md entity=None rev=None
+      Portfolio key CBP-001-01 is associated with both ENT-001-1000 and ENT-001-2000. The display name is shared, while the domain and legal-entity fields disagree. No approved crosswalk revision resolves the collision. ## Reliance limits This file supplies identity crosswalk evidence for CBP-001-01. It does not decide legal effect, select among candidate responses, resolve another system's entity ident
+  [operative_authority] rec=13 fmt=json entity=ENT-001-1000 rev=REV-2025.1
+      charter authorization mismatch approval must come from Maya Ellison under CB-MA-2401-R983. The referenced and current revision are both REV-2025.1. The matter-level control is: The executed purchase terms and the latest consent schedule control; seller summaries do not.
+  [current_operations] rec=25 fmt=md entity=None rev=None
+      For immutable entity ENT-001-1000. the charter authorization mismatch approval names Jonas Feld under CB-MA-2401-E257. The operating extract cites revision REV-2025.1 and portfolio key CBP-001-01; it does not state a legal disposition. ## Reliance limits This file supplies current operations evidence for CBP-001-01. It does not decide legal effect, select among candidate responses, resolve another
+  [approval_and_capacity] rec=37 fmt=json entity=ENT-001-1000 rev=REV-2025.1
+      The current responsibility roster names Elliot Mercer for CBP-001-01. Status is active; remaining matter capacity is 1. The next internal control date is 2026-09-03.
+  [correspondence] rec=49 fmt=md entity=None rev=None
+      The business owner asks whether the charter authorization mismatch approval names Jonas Feld under CB-MA-2401-E257. The counterparty points to charter authorization mismatch approval must come from Maya Ellison under CB-MA-2401-R983. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled. ## Reliance limits This file supplies corre
+  [financial_or_population_support] rec=61 fmt=json entity=ENT-001-1000 rev=REV-2025.1
+      The supporting population for CBP-001-01 was exported under CB-MA-2401-E257. The population uses immutable entity ENT-001-1000 and records impact-control score 80; this score is an input, not a disposition.
+  [chronology_and_custody] rec=73 fmt=md entity=None rev=None
+      Custody history shows collection from /workspace/documents/04_debt_security/025_debt_security_source_export.md after the operative record was fixed at /workspace/documents/02_capitalization/013_capitalization_source_export.json. Reviewer handoff preserved both versions and the identity record for CBP-001-01. ## Reliance limits This file supplies chronology and custody evidence for CBP-001-01. It d
+  [independent_counterrecord] rec=85 fmt=json entity=ENT-001-1000 rev=REV-2025.1
+      An independent source repeats portfolio key CBP-001-01 and immutable entity ENT-001-1000 but uses reference CB-MA-2401-E257. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.
+====================================================================================================
+KEY: CBP-001-02
+  [identity_crosswalk] rec=2 fmt=txt entity=ENT-001-1001 rev=REV-2025.2
+      Crosswalk revision REV-2025.2 maps portfolio key CBP-001-02 and legal name Helios Forge, Inc. — Financial Covenant Breach record 2 to immutable entity ENT-001-1001. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+  [operative_authority] rec=14 fmt=xml entity=ENT-001-1001 rev=REV-2025.2
+      the financial covenant breach threshold is 7% under CB-MA-2401-R158. The referenced and current revision are both REV-2025.2. The matter-level control is: The executed purchase terms and the latest consent schedule control; seller summaries do not.
+  [current_operations] rec=26 fmt=txt entity=ENT-001-1001 rev=REV-2025.2
+      For immutable entity ENT-001-1001. the financial covenant breach result is 13% under CB-MA-2401-E738. The operating extract cites revision REV-2025.2 and portfolio key CBP-001-02; it does not state a legal disposition.
+  [approval_and_capacity] rec=38 fmt=xml entity=ENT-001-1001 rev=REV-2025.2
+      The current responsibility roster names Sofia Bennett for CBP-001-02. Status is active; remaining matter capacity is 1. The next internal control date is 2026-09-02.
+  [correspondence] rec=50 fmt=txt entity=ENT-001-1001 rev=REV-2025.2
+      The business owner asks whether the financial covenant breach result is 13% under CB-MA-2401-E738. The counterparty points to the financial covenant breach threshold is 7% under CB-MA-2401-R158. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+  [financial_or_population_support] rec=62 fmt=xml entity=ENT-001-1001 rev=REV-2025.2
+      The supporting population for CBP-001-02 was exported under CB-MA-2401-E738. The population uses immutable entity ENT-001-1001 and records impact-control score 77; this score is an input, not a disposition.
+  [chronology_and_custody] rec=74 fmt=txt entity=ENT-001-1001 rev=REV-2025.2
+      Custody history shows collection from /workspace/documents/04_debt_security/026_debt_security_source_export.txt after the operative record was fixed at /workspace/documents/02_capitalization/014_capitalization_source_export.xml. Reviewer handoff preserved both versions and the identity record for CBP-001-02.
+  [independent_counterrecord] rec=86 fmt=xml entity=ENT-001-1001 rev=REV-2025.2
+      An independent source repeats portfolio key CBP-001-02 and immutable entity ENT-001-1001 but uses reference CB-MA-2401-E738. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.
+====================================================================================================
+KEY: CBP-001-03
+  [identity_crosswalk] rec=3 fmt=eml entity=None rev=None
+      
+  [operative_authority] rec=15 fmt=html entity=ENT-001-1002 rev=REV-2025.3
+      
+  [current_operations] rec=27 fmt=eml entity=None rev=None
+      
+  [approval_and_capacity] rec=39 fmt=html entity=ENT-001-1002 rev=REV-2025.3
+      
+  [correspondence] rec=51 fmt=eml entity=None rev=None
+      
+  [financial_or_population_support] rec=63 fmt=html entity=ENT-001-1002 rev=REV-2025.3
+      
+  [chronology_and_custody] rec=75 fmt=eml entity=None rev=None
+      
+  [independent_counterrecord] rec=87 fmt=html entity=ENT-001-1002 rev=REV-2025.3
+      
+====================================================================================================
+KEY: CBP-001-04
+  [identity_crosswalk] rec=4 fmt=csv entity=1003 rev=REV-2025.4
+      Maya Ellison
+  [operative_authority] rec=16 fmt=pdf entity=ENT-001-1003 rev=REV-2025.4
+      COUNSELBENCH SOURCE RECORD Record: CB-DOC-001-016 Matter: CB-MA-2401 - Project Daybreak battery acquisition Portfolio key: CBP-001-04 Source system: NetSuite close workbook Evidence role: operative_authority Immutable entity: ENT-001-1003 Referenced revision: REV-2025.4 Current revision: REV-2025.4 Custodian: Maya Ellison Reviewer: Sofia Bennett NATIVE RECORD open revenue recognition exception blo
+  [current_operations] rec=28 fmt=csv entity=1003 rev=REV-2025.4
+      Maya Ellison
+  [approval_and_capacity] rec=40 fmt=pdf entity=ENT-001-1003 rev=REV-2025.4
+      COUNSELBENCH SOURCE RECORD Record: CB-DOC-001-040 Matter: CB-MA-2401 - Project Daybreak battery acquisition Portfolio key: CBP-001-04 Source system: NetSuite close workbook Evidence role: approval_and_capacity Immutable entity: ENT-001-1003 Referenced revision: REV-2025.4 Current revision: REV-2025.4 Custodian: Maya Ellison Reviewer: Sofia Bennett NATIVE RECORD The current responsibility roster na
+  [correspondence] rec=52 fmt=csv entity=1003 rev=REV-2025.4
+      Maya Ellison
+  [financial_or_population_support] rec=64 fmt=pdf entity=ENT-001-1003 rev=REV-2025.4
+      COUNSELBENCH SOURCE RECORD Record: CB-DOC-001-064 Matter: CB-MA-2401 - Project Daybreak battery acquisition Portfolio key: CBP-001-04 Source system: NetSuite close workbook Evidence role: financial_or_population_support Immutable entity: ENT-001-1003 Referenced revision: REV-2025.4 Current revision: REV-2025.4 Custodian: Maya Ellison Reviewer: Sofia Bennett NATIVE RECORD The supporting population 
+  [chronology_and_custody] rec=76 fmt=csv entity=1003 rev=REV-2025.4
+      Maya Ellison
+  [independent_counterrecord] rec=88 fmt=pdf entity=ENT-001-1003 rev=REV-2025.4
+      COUNSELBENCH SOURCE RECORD Record: CB-DOC-001-088 Matter: CB-MA-2401 - Project Daybreak battery acquisition Portfolio key: CBP-001-04 Source system: NetSuite close workbook Evidence role: independent_counterrecord Immutable entity: ENT-001-1003 Referenced revision: REV-2025.4 Current revision: REV-2025.4 Custodian: Maya Ellison Reviewer: Sofia Bennett NATIVE RECORD An independent source repeats po
+====================================================================================================
+KEY: CBP-001-05
+  [identity_crosswalk] rec=5 fmt=json entity=ENT-001-1004 rev=REV-2025.5
+      Crosswalk revision REV-2025.5 maps portfolio key CBP-001-05 and legal name Helios Forge, Inc. — Most-Favored-Customer Exposure record 5 to immutable entity ENT-001-1004. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+  [operative_authority] rec=17 fmt=md entity=None rev=None
+      the most-favored-customer exposure threshold is 13% under CB-MA-2401-R572. The referenced and current revision are both REV-2025.5. The matter-level control is: The executed purchase terms and the latest consent schedule control; seller summaries do not. ## Reliance limits This file supplies operative authority evidence for CBP-001-05. It does not decide legal effect, select among candidate respon
+  [current_operations] rec=29 fmt=json entity=ENT-001-1004 rev=REV-2025.5
+      For immutable entity ENT-001-1004. the most-favored-customer exposure result is 18% under CB-MA-2401-E921. The operating extract cites revision REV-2025.5 and portfolio key CBP-001-05; it does not state a legal disposition.
+  [approval_and_capacity] rec=41 fmt=md entity=None rev=None
+      The current responsibility roster names Caleb Hassan for CBP-001-05. Status is active; remaining matter capacity is 4. The next internal control date is 2026-08-30. ## Reliance limits This file supplies approval and capacity evidence for CBP-001-05. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is c
+  [correspondence] rec=53 fmt=json entity=ENT-001-1004 rev=REV-2025.5
+      The business owner asks whether the most-favored-customer exposure result is 18% under CB-MA-2401-E921. The counterparty points to the most-favored-customer exposure threshold is 13% under CB-MA-2401-R572. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+  [financial_or_population_support] rec=65 fmt=md entity=None rev=None
+      The supporting population for CBP-001-05 was exported under CB-MA-2401-E921. The population uses immutable entity ENT-001-1004 and records impact-control score 76; this score is an input, not a disposition. ## Reliance limits This file supplies financial or population support evidence for CBP-001-05. It does not decide legal effect, select among candidate responses, resolve another system's entity
+  [chronology_and_custody] rec=77 fmt=json entity=ENT-001-1004 rev=REV-2025.5
+      Custody history shows collection from /workspace/documents/04_debt_security/029_debt_security_source_export.json after the operative record was fixed at /workspace/documents/03_material_contracts/017_material_contracts_source_export.md. Reviewer handoff preserved both versions and the identity record for CBP-001-05.
+  [independent_counterrecord] rec=89 fmt=md entity=None rev=None
+      An independent source repeats portfolio key CBP-001-05 and immutable entity ENT-001-1004 but uses reference CB-MA-2401-E921. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence. ## Reliance limits This file supplies independent counterrecord evidence for CBP-001-05. It does not decide legal effect, select among candidate responses, resolve another sy
+====================================================================================================
+KEY: CBP-001-06
+  [identity_crosswalk] rec=6 fmt=xml entity=ENT-001-1005 rev=REV-2025.6
+      Crosswalk revision REV-2025.6 maps portfolio key CBP-001-06 and legal name Helios Forge, Inc. — Unreported Security Incident record 6 to immutable entity ENT-001-1005. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+  [operative_authority] rec=18 fmt=txt entity=ENT-001-1005 rev=REV-2025.6
+      unreported security incident approval must come from Theo Laurent under CB-MA-2401-R990. The referenced and current revision are both REV-2025.6. The matter-level control is: The executed purchase terms and the latest consent schedule control; seller summaries do not.
+  [current_operations] rec=30 fmt=xml entity=ENT-001-1005 rev=REV-2025.6
+      For immutable entity ENT-001-1005. the unreported security incident approval names Theo Laurent under CB-MA-2401-E311. The operating extract cites revision REV-2025.6 and portfolio key CBP-001-06; it does not state a legal disposition.
+  [approval_and_capacity] rec=42 fmt=txt entity=ENT-001-1005 rev=REV-2025.6
+      The current responsibility roster names Amara Patel for CBP-001-06. Status is active; remaining matter capacity is 3. The next internal control date is 2026-08-29.
+  [correspondence] rec=54 fmt=xml entity=ENT-001-1005 rev=REV-2025.6
+      The business owner asks whether the unreported security incident approval names Theo Laurent under CB-MA-2401-E311. The counterparty points to unreported security incident approval must come from Theo Laurent under CB-MA-2401-R990. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+  [financial_or_population_support] rec=66 fmt=txt entity=ENT-001-1005 rev=REV-2025.6
+      The supporting population for CBP-001-06 was exported under CB-MA-2401-E311. The population uses immutable entity ENT-001-1005 and records impact-control score 69; this score is an input, not a disposition.
+  [chronology_and_custody] rec=78 fmt=xml entity=ENT-001-1005 rev=REV-2025.6
+      Custody history shows collection from /workspace/documents/04_debt_security/030_debt_security_source_export.xml after the operative record was fixed at /workspace/documents/03_material_contracts/018_material_contracts_source_export.txt. Reviewer handoff preserved both versions and the identity record for CBP-001-06.
+  [independent_counterrecord] rec=90 fmt=txt entity=ENT-001-1005 rev=REV-2025.6
+      An independent source repeats portfolio key CBP-001-06 and immutable entity ENT-001-1005 but uses reference CB-MA-2401-E311. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.
+====================================================================================================
+KEY: CBP-001-07
+  [identity_crosswalk] rec=7 fmt=html entity=ENT-001-1006 rev=REV-2025.7
+      
+  [operative_authority] rec=19 fmt=eml entity=None rev=None
+      
+  [current_operations] rec=31 fmt=html entity=ENT-001-1006 rev=REV-2025.7
+      
+  [approval_and_capacity] rec=43 fmt=eml entity=None rev=None
+      
+  [correspondence] rec=55 fmt=html entity=ENT-001-1006 rev=REV-2025.7
+      
+  [financial_or_population_support] rec=67 fmt=eml entity=None rev=None
+      
+  [chronology_and_custody] rec=79 fmt=html entity=ENT-001-1006 rev=REV-2025.7
+      
+  [independent_counterrecord] rec=91 fmt=eml entity=None rev=None
+      
+====================================================================================================
+KEY: CBP-001-08
+  [identity_crosswalk] rec=8 fmt=pdf entity=ENT-001-1007 rev=REV-2025.1
+      COUNSELBENCH SOURCE RECORD Record: CB-DOC-001-008 Matter: CB-MA-2401 - Project Daybreak battery acquisition Portfolio key: CBP-001-08 Source system: Carta capitalization ledger Evidence role: identity_crosswalk Immutable entity: ENT-001-1007 Referenced revision: REV-2024.0 Current revision: REV-2025.1 Custodian: Amara Patel Reviewer: Priya Raman NATIVE RECORD Crosswalk revision REV-2025.1 maps por
+  [operative_authority] rec=20 fmt=csv entity=1007 rev=REV-2025.1
+      Amara Patel
+  [current_operations] rec=32 fmt=pdf entity=ENT-001-1007 rev=REV-2025.1
+      COUNSELBENCH SOURCE RECORD Record: CB-DOC-001-032 Matter: CB-MA-2401 - Project Daybreak battery acquisition Portfolio key: CBP-001-08 Source system: Carta capitalization ledger Evidence role: current_operations Immutable entity: ENT-001-1007 Referenced revision: REV-2024.0 Current revision: REV-2025.1 Custodian: Amara Patel Reviewer: Priya Raman NATIVE RECORD For immutable entity ENT-001-1007. the
+  [approval_and_capacity] rec=44 fmt=csv entity=1007 rev=REV-2025.1
+      Amara Patel
+  [correspondence] rec=56 fmt=pdf entity=ENT-001-1007 rev=REV-2025.1
+      COUNSELBENCH SOURCE RECORD Record: CB-DOC-001-056 Matter: CB-MA-2401 - Project Daybreak battery acquisition Portfolio key: CBP-001-08 Source system: Carta capitalization ledger Evidence role: correspondence Immutable entity: ENT-001-1007 Referenced revision: REV-2024.0 Current revision: REV-2025.1 Custodian: Amara Patel Reviewer: Priya Raman NATIVE RECORD The business owner asks whether the anti-a
+  [financial_or_population_support] rec=68 fmt=csv entity=1007 rev=REV-2025.1
+      Amara Patel
+  [chronology_and_custody] rec=80 fmt=pdf entity=ENT-001-1007 rev=REV-2025.1
+      COUNSELBENCH SOURCE RECORD Record: CB-DOC-001-080 Matter: CB-MA-2401 - Project Daybreak battery acquisition Portfolio key: CBP-001-08 Source system: Carta capitalization ledger Evidence role: chronology_and_custody Immutable entity: ENT-001-1007 Referenced revision: REV-2024.0 Current revision: REV-2025.1 Custodian: Amara Patel Reviewer: Priya Raman NATIVE RECORD Custody history shows collection f
+  [independent_counterrecord] rec=92 fmt=csv entity=1007 rev=REV-2025.1
+      Amara Patel
+====================================================================================================
+KEY: CBP-001-09
+  [identity_crosswalk] rec=9 fmt=md entity=None rev=None
+      Crosswalk revision REV-2025.2 maps portfolio key CBP-001-09 and legal name Helios Forge, Inc. — Open-Source Copyleft Exposure record 9 to immutable entity ENT-001-1008. The domain, legal entity, and native system key agree; the nearby alias is excluded. ## Reliance limits This file supplies identity crosswalk evidence for CBP-001-09. It does not decide legal effect, select among candidate response
+  [operative_authority] rec=21 fmt=json entity=ENT-001-1008 rev=REV-2025.2
+      open open-source copyleft exposure blocks completion under CB-MA-2401-R971. The referenced and current revision are both REV-2025.2. The matter-level control is: The executed purchase terms and the latest consent schedule control; seller summaries do not.
+  [current_operations] rec=33 fmt=md entity=None rev=None
+      For immutable entity ENT-001-1008. the open-source copyleft exposure status is open and unresolved under CB-MA-2401-E945. The operating extract cites revision REV-2025.2 and portfolio key CBP-001-09; it does not state a legal disposition. ## Reliance limits This file supplies current operations evidence for CBP-001-09. It does not decide legal effect, select among candidate responses, resolve anot
+  [approval_and_capacity] rec=45 fmt=json entity=ENT-001-1008 rev=REV-2025.2
+      The current responsibility roster names Adrian Mensah for CBP-001-09. Status is active; remaining matter capacity is 4. The next internal control date is 2026-08-26.
+  [correspondence] rec=57 fmt=md entity=None rev=None
+      The business owner asks whether the open-source copyleft exposure status is open and unresolved under CB-MA-2401-E945. The counterparty points to open open-source copyleft exposure blocks completion under CB-MA-2401-R971. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled. ## Reliance limits This file supplies correspondence ev
+  [financial_or_population_support] rec=69 fmt=json entity=ENT-001-1008 rev=REV-2025.2
+      The supporting population for CBP-001-09 was exported under CB-MA-2401-E945. The population uses immutable entity ENT-001-1008 and records impact-control score 89; this score is an input, not a disposition.
+  [chronology_and_custody] rec=81 fmt=md entity=None rev=None
+      Custody history shows collection from /workspace/documents/05_employment/033_employment_source_export.md after the operative record was fixed at /workspace/documents/03_material_contracts/021_material_contracts_source_export.json. Reviewer handoff preserved both versions and the identity record for CBP-001-09. ## Reliance limits This file supplies chronology and custody evidence for CBP-001-09. It
+  [independent_counterrecord] rec=93 fmt=json entity=ENT-001-1008 rev=REV-2025.2
+      An independent source repeats portfolio key CBP-001-09 and immutable entity ENT-001-1008 but uses reference CB-MA-2401-E945. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.
+====================================================================================================
+KEY: CBP-001-10
+  [identity_crosswalk] rec=10 fmt=txt entity=ENT-001-1009 rev=REV-2025.3
+      Crosswalk revision REV-2025.3 maps portfolio key CBP-001-10 and legal name Helios Forge, Inc. — Sales-Tax Nexus Gap record 10 to immutable entity ENT-001-1009. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+  [operative_authority] rec=22 fmt=xml entity=ENT-001-1009 rev=REV-2025.3
+      sales-tax nexus gap authority is limited to Washoe County, Nevada under CB-MA-2401-R710. The referenced and current revision are both REV-2025.3. The matter-level control is: The executed purchase terms and the latest consent schedule control; seller summaries do not.
+  [current_operations] rec=34 fmt=txt entity=ENT-001-1009 rev=REV-2025.3
+      For immutable entity ENT-001-1009. the sales-tax nexus gap activity occurred in Delaware under CB-MA-2401-E877. The operating extract cites revision REV-2025.3 and portfolio key CBP-001-10; it does not state a legal disposition.
+  [approval_and_capacity] rec=46 fmt=xml entity=ENT-001-1009 rev=REV-2025.3
+      The current responsibility roster names Farah Ibrahim for CBP-001-10. Status is active; remaining matter capacity is 1. The next internal control date is 2026-09-03.
+  [correspondence] rec=58 fmt=txt entity=ENT-001-1009 rev=REV-2025.3
+      The business owner asks whether the sales-tax nexus gap activity occurred in Delaware under CB-MA-2401-E877. The counterparty points to sales-tax nexus gap authority is limited to Washoe County, Nevada under CB-MA-2401-R710. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+  [financial_or_population_support] rec=70 fmt=xml entity=ENT-001-1009 rev=REV-2025.3
+      The supporting population for CBP-001-10 was exported under CB-MA-2401-E877. The population uses immutable entity ENT-001-1009 and records impact-control score 72; this score is an input, not a disposition.
+  [chronology_and_custody] rec=82 fmt=txt entity=ENT-001-1009 rev=REV-2025.3
+      Custody history shows collection from /workspace/documents/05_employment/034_employment_source_export.txt after the operative record was fixed at /workspace/documents/03_material_contracts/022_material_contracts_source_export.xml. Reviewer handoff preserved both versions and the identity record for CBP-001-10.
+  [independent_counterrecord] rec=94 fmt=xml entity=ENT-001-1009 rev=REV-2025.3
+      An independent source repeats portfolio key CBP-001-10 and immutable entity ENT-001-1009 but uses reference CB-MA-2401-E877. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.
+====================================================================================================
+KEY: CBP-001-11
+  [identity_crosswalk] rec=11 fmt=eml entity=None rev=None
+      
+  [operative_authority] rec=23 fmt=html entity=ENT-001-1010 rev=REV-2025.4
+      
+  [current_operations] rec=35 fmt=eml entity=None rev=None
+      
+  [approval_and_capacity] rec=47 fmt=html entity=ENT-001-1010 rev=REV-2025.4
+      
+  [correspondence] rec=59 fmt=eml entity=None rev=None
+      
+  [financial_or_population_support] rec=71 fmt=html entity=ENT-001-1010 rev=REV-2025.4
+      
+  [chronology_and_custody] rec=83 fmt=eml entity=None rev=None
+      
+  [independent_counterrecord] rec=95 fmt=html entity=ENT-001-1010 rev=REV-2025.4
+      
+====================================================================================================
+KEY: CBP-001-12
+  [identity_crosswalk] rec=12 fmt=csv entity=1011 rev=REV-2025.5
+      Mei Whitaker
+  [operative_authority] rec=24 fmt=pdf entity=ENT-001-1011 rev=REV-2025.5
+      COUNSELBENCH SOURCE RECORD Record: CB-DOC-001-024 Matter: CB-MA-2401 - Project Daybreak battery acquisition Portfolio key: CBP-001-12 Source system: Workday HRIS Evidence role: operative_authority Immutable entity: ENT-001-1011 Referenced revision: REV-2025.5 Current revision: REV-2025.5 Custodian: Mei Whitaker Reviewer: Farah Ibrahim NATIVE RECORD invention assignment defect approval must come fr
+  [current_operations] rec=36 fmt=csv entity=1011 rev=REV-2025.5
+      Mei Whitaker
+  [approval_and_capacity] rec=48 fmt=pdf entity=ENT-001-1011 rev=REV-2025.5
+      COUNSELBENCH SOURCE RECORD Record: CB-DOC-001-048 Matter: CB-MA-2401 - Project Daybreak battery acquisition Portfolio key: CBP-001-12 Source system: Workday HRIS Evidence role: approval_and_capacity Immutable entity: ENT-001-1011 Referenced revision: REV-2025.5 Current revision: REV-2025.5 Custodian: Mei Whitaker Reviewer: Farah Ibrahim NATIVE RECORD The current responsibility roster names Leona P
+  [correspondence] rec=60 fmt=csv entity=1011 rev=REV-2025.5
+      Mei Whitaker
+  [financial_or_population_support] rec=72 fmt=pdf entity=ENT-001-1011 rev=REV-2025.5
+      COUNSELBENCH SOURCE RECORD Record: CB-DOC-001-072 Matter: CB-MA-2401 - Project Daybreak battery acquisition Portfolio key: CBP-001-12 Source system: Workday HRIS Evidence role: financial_or_population_support Immutable entity: ENT-001-1011 Referenced revision: REV-2025.5 Current revision: REV-2025.5 Custodian: Mei Whitaker Reviewer: Farah Ibrahim NATIVE RECORD The supporting population for CBP-001
+  [chronology_and_custody] rec=84 fmt=csv entity=1011 rev=REV-2025.5
+      Mei Whitaker
+  [independent_counterrecord] rec=96 fmt=pdf entity=ENT-001-1011 rev=REV-2025.5
+      COUNSELBENCH SOURCE RECORD Record: CB-DOC-001-096 Matter: CB-MA-2401 - Project Daybreak battery acquisition Portfolio key: CBP-001-12 Source system: Workday HRIS Evidence role: independent_counterrecord Immutable entity: ENT-001-1011 Referenced revision: REV-2025.5 Current revision: REV-2025.5 Custodian: Mei Whitaker Reviewer: Farah Ibrahim NATIVE RECORD An independent source repeats portfolio key

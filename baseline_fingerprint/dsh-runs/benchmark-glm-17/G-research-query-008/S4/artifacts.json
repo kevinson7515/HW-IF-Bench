@@ -1,0 +1,92 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "output",
+    "output/materials-db-survey.md",
+    "output/materials_ml_composition_survey.md",
+    "output/ml-composition-groups-survey.md",
+    "output/机器学习材料成分配比优化研究报告.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "output/materials-db-survey.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1930645/G-research-query-008/S4/artifacts/output/materials-db-survey.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793531976000000000,
+      "type": "file",
+      "size": 8197,
+      "sha256": "168f43ab678cc3db97c35fe2909f64fce3d251c5627944e841699d18c6397af3"
+    },
+    {
+      "path": "output/materials_ml_composition_survey.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1930645/G-research-query-008/S4/artifacts/output/materials_ml_composition_survey.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793532987000000000,
+      "type": "file",
+      "size": 9064,
+      "sha256": "3824d3aadb6e7af8183088c8c27cdc41ba9c7bf0d05c96e68acc1dddb4df41d3"
+    },
+    {
+      "path": "output/ml-composition-groups-survey.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1930645/G-research-query-008/S4/artifacts/output/ml-composition-groups-survey.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793532469000000000,
+      "type": "file",
+      "size": 10765,
+      "sha256": "6a23293eb3ae8743eb2dff8a4c9ac88a5c52fdd885fec10bad405ea15bb85c25"
+    },
+    {
+      "path": "output/机器学习材料成分配比优化研究报告.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1930645/G-research-query-008/S4/artifacts/output/机器学习材料成分配比优化研究报告.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793533201000000000,
+      "type": "file",
+      "size": 62914,
+      "sha256": "69f8cfcdacdc8f22c9a14ff981ed81d743367f484dd3756302a33d809f015ccf"
+    }
+  ],
+  "entries": {
+    "output": {
+      "mode": 448,
+      "mtime_ns": 1793533201000000000,
+      "type": "directory"
+    },
+    "output/materials-db-survey.md": {
+      "mode": 384,
+      "mtime_ns": 1793531976000000000,
+      "type": "file",
+      "size": 8197,
+      "sha256": "168f43ab678cc3db97c35fe2909f64fce3d251c5627944e841699d18c6397af3"
+    },
+    "output/materials_ml_composition_survey.md": {
+      "mode": 384,
+      "mtime_ns": 1793532987000000000,
+      "type": "file",
+      "size": 9064,
+      "sha256": "3824d3aadb6e7af8183088c8c27cdc41ba9c7bf0d05c96e68acc1dddb4df41d3"
+    },
+    "output/ml-composition-groups-survey.md": {
+      "mode": 384,
+      "mtime_ns": 1793532469000000000,
+      "type": "file",
+      "size": 10765,
+      "sha256": "6a23293eb3ae8743eb2dff8a4c9ac88a5c52fdd885fec10bad405ea15bb85c25"
+    },
+    "output/机器学习材料成分配比优化研究报告.md": {
+      "mode": 384,
+      "mtime_ns": 1793533201000000000,
+      "type": "file",
+      "size": 62914,
+      "sha256": "69f8cfcdacdc8f22c9a14ff981ed81d743367f484dd3756302a33d809f015ccf"
+    }
+  },
+  "deleted_entries": {}
+}

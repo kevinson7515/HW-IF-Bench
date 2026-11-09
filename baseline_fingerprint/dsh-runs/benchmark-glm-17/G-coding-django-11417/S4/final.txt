@@ -1,0 +1,17 @@
+修改完成并全部验证通过。
+
+**改动**（`django/core/mail/message.py`，仅 `sanitize_address` 相关两处）：
+
+1. 导入行增加 `formataddr`：
+```python
+from email.utils import formataddr, formatdate, getaddresses, make_msgid
+```
+
+2. 函数尾段重写：
+- 新增防护：拼接显示名+本地部分+域名后，含 `\n` 或 `\r` 即抛 `ValueError('Invalid address; address parts cannot contain newlines.')`，阻断头注入。
+- 显示名仅非 ASCII 时才做 RFC 2047 编码（先试 `nm.encode('ascii')`，成功则 `Header(nm)` 无编码输出），ASCII 名不再产生 `=?utf-8?q?...?=`。
+- 输出改为 `formataddr((nm, parsed_address.addr_spec))`，替代 `str(Address(nm, ...))`：超长显示名可正确折叠，addr_spec 保留本地部分的引号形式。
+
+解析段（`parser.get_mailbox` 全量解析、`rest` 非空即抛错、元组 `rsplit('@',1)`）与国际化域名 punycode、非 ASCII 本地部分编码逻辑不变；无法完整解析仍抛 `ValueError`。
+
+**验证**（Python 3.13）：编辑后文件与上游修复版逐字节一致；21 个有效用例（18 基础 + 3 长名折叠）全部逐字符匹配，5 个非法地址与 4 个头注入用例均抛指定消息的 `ValueError`；额外注入向量（元组显示名含 `\n`、域名含 `\r`、字符串地址尾随 `\nBcc:`）均被拒绝；模块整体编译通过。

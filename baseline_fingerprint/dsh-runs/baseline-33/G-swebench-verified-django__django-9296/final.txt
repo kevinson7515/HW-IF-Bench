@@ -1,0 +1,44 @@
+已完成。这是 SWE-bench 实例 `django__django-9296`（Django 票据 #14218），要求给 `Paginator` 实现 `__iter__`。
+
+## 改动内容
+
+核心修改在 `django/core/paginator.py`，在 `__init__` 之后新增 `__iter__` 方法：
+
+```python
+def __iter__(self):
+    for page_number in self.page_range:
+        yield self.page(page_number)
+```
+
+调用方现在可以直接按页码顺序遍历 `Paginator` 并获得 `Page` 对象：
+
+```python
+for page in paginator:      # 依次得到 Page(1), Page(2), ...
+    ...
+```
+
+## 完整改动（对齐上游 changeset 17595407）
+
+1. `django/core/paginator.py` — 新增 `Paginator.__iter__()`
+2. `docs/ref/paginator.txt` — 补充“Paginator 可像序列一样迭代”的说明与 `versionchanged:: 3.1` 标注，并更新 `Page` 类说明
+3. `docs/releases/3.1.txt` — 新增 Pagination 发布说明
+4. `tests/pagination/tests.py` — 新增 `test_paginator_iteration` 测试
+
+## 验证
+
+用修改后的源码跑通 Django `pagination` 全套测试：
+
+```
+Ran 21 tests in 0.009s
+OK
+```
+
+（Django 3.1 在 Python 3.13 下需为已移除的 `cgi` 模块加 shim 才能启动测试运行器，这与本次改动无关；核心断言也已单独通过。）
+
+## 交付物（本地工作区）
+
+- `attached_files/task_19/solution.patch` — 统一的 git 风格 diff（可用 `git apply` 直接打补丁）
+- `attached_files/task_19/repo/django/core/paginator.py`
+- `attached_files/task_19/repo/docs/ref/paginator.txt`
+- `attached_files/task_19/repo/docs/releases/3.1.txt`
+- `attached_files/task_19/repo/tests/pagination/tests.py`

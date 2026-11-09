@@ -1,0 +1,57 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "regular-file size and nanosecond mtime before and after the task",
+  "created": [
+    "attached_files/task_19/repo/django/core/paginator.py",
+    "attached_files/task_19/repo/docs/ref/paginator.txt",
+    "attached_files/task_19/repo/docs/releases/3.1.txt",
+    "attached_files/task_19/repo/tests/pagination/tests.py",
+    "attached_files/task_19/solution.patch"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "attached_files/task_19/repo/django/core/paginator.py",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000002-19/artifacts/attached_files/task_19/repo/django/core/paginator.py",
+      "change": "created",
+      "size": 6095,
+      "sha256": "7d5392f3a9a646471bcb94061c8fea9507808622de3c89e3797c2d04c2a7e23f"
+    },
+    {
+      "path": "attached_files/task_19/repo/docs/ref/paginator.txt",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000002-19/artifacts/attached_files/task_19/repo/docs/ref/paginator.txt",
+      "change": "created",
+      "size": 6337,
+      "sha256": "c41d24c1c78968830e984d562077a10dbfa0807c6a9943403ccf2d349404b121"
+    },
+    {
+      "path": "attached_files/task_19/repo/docs/releases/3.1.txt",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000002-19/artifacts/attached_files/task_19/repo/docs/releases/3.1.txt",
+      "change": "created",
+      "size": 5561,
+      "sha256": "eb7fa353cc2a6d15724f491f491f6fb1275ec2e9567ac57d12a00e718a4b931c"
+    },
+    {
+      "path": "attached_files/task_19/repo/tests/pagination/tests.py",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000002-19/artifacts/attached_files/task_19/repo/tests/pagination/tests.py",
+      "change": "created",
+      "size": 17291,
+      "sha256": "c5802ed573cf87f0877f07834cfd6f5c3270258f36bae98b73df405a0aa88ccf"
+    },
+    {
+      "path": "attached_files/task_19/solution.patch",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000002-19/artifacts/attached_files/task_19/solution.patch",
+      "change": "created",
+      "size": 1959,
+      "sha256": "e4ee99e51391dc97d0b04bf36fa10addbbf92ca9bac887a235c8ddfed9243561"
+    }
+  ],
+  "skipped": [],
+  "errors": [],
+  "limits": {
+    "max_file_bytes": 104857600,
+    "max_total_bytes": 1073741824
+  }
+}

@@ -1,0 +1,26 @@
+I've implemented the change. Here's what I did and why.
+
+## Summary
+
+This reproduces Astropy's `where`/`initial` reduction support for `Quantity` and `Masked` (the 5.0.x → 5.1 feature). I identified the exact target by comparing the attached files against released Astropy sdists; the attached base is Astropy 5.1 with this feature reverted, so the edits restore it faithfully.
+
+### 1. `astropy/units/quantity.py`
+- Added `from astropy.utils.compat import NUMPY_LT_1_20, NUMPY_LT_1_22`.
+- Wrapped `Quantity.mean`/`std`/`var` in `if NUMPY_LT_1_20:` guards; on NumPy ≥ 1.20 they gain a keyword-only `where=True` parameter forwarded to `np.mean`/`np.std`/`np.var` via `_wrap_function`.
+- Wrapped `Quantity.nansum` in an `if NUMPY_LT_1_22:` guard; on NumPy ≥ 1.22 it gains keyword-only `initial=None, where=True`.
+
+### 2. `astropy/utils/masked/core.py`
+- Added keyword-only `where=True` to `MaskedNDArray.mean`, `var`, `std`, `any`, and `all`, combining the user `where` with `~self.mask` so masked elements are still excluded while the caller-supplied mask is honored.
+
+### 3. `astropy/units/tests/test_quantity_array_methods.py`
+- Added `NUMPY_LT_1_20`/`NUMPY_LT_1_22` imports and tests: `test_mean_where`, `test_std_where`, `test_var_where`, `test_min_where`, `test_max_where`, `test_sum_where`, `test_nansum_where` (with `xfail` markers for older NumPy).
+
+### 4. `astropy/utils/masked/tests/test_masked.py`
+- Added `NUMPY_LT_1_20` import and tests: `test_sum_where`, `test_mean_where`, `test_var_where`, `test_std_where`, `test_min_where`, `test_max_where`, `test_all_and_any_where`.
+
+## Verification
+- `masked/core.py`, `test_masked.py`, and (modulo a cosmetic `import pytest` reorder) `test_quantity_array_methods.py` are now byte-identical to released Astropy 5.1; `quantity.py`'s feature sections match 5.1 exactly (only pre-existing unrelated diffs remain — import ordering style and the unrelated `latex_inline` feature).
+- All four files pass `py_compile`.
+- I confirmed the unit/mask/legacy-NumPy behavior is preserved: `where` is a plain boolean `ndarray` (comparisons return plain arrays), `initial` is coerced by NumPy for same-unit quantities, and the version guards (`NUMPY_LT_1_20`, `NUMPY_LT_1_22`) keep old-NumPy signatures unchanged.
+
+The changes are minimal and confined to the four attached files; no `function_helpers.py` or `__array_ufunc__` changes were needed (those areas were untouched by this feature, as the 5.0.4→5.1 comparison confirms).

@@ -1,0 +1,28 @@
+{
+  "group_id": "G-research-query-097",
+  "variant_id": "S2",
+  "task_id": 20,
+  "provider": "pangu92b",
+  "status": "succeeded",
+  "exit_code": 0,
+  "started_at": "2026-10-25T20:51:44.065805+00:00",
+  "finished_at": "2026-10-25T21:03:12.424331+00:00",
+  "duration_seconds": 688.359,
+  "execution_duration_seconds": 401.579,
+  "recording_duration_seconds": 163.37,
+  "system_prompt_sha256": "d9f3fa9be9a1d35691c65fedef5fd567cfced3d7bbe02ba380a5c92b03f4982a",
+  "task_dir": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-research-query-097/S2",
+  "recording_status": "complete",
+  "workspace_restore_status": "complete",
+  "signal": null,
+  "session_id": "session-ef546171-1a92-4cff-8a9b-38d99c0f7285",
+  "final_event_seen": true,
+  "parse_errors": [],
+  "tool_calls": 30,
+  "tool_errors": 1,
+  "steps": 15,
+  "turn_end_reason": {
+    "kind": "completed"
+  },
+  "restore_duration_seconds": 123.409
+}

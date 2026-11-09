@@ -1,0 +1,74 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "matter-CB-MA-2401",
+    "matter-CB-MA-2401/review_disposition_register.md",
+    "matter-CB-MA-2401/review_note.md",
+    "matter-CB-MA-2401/slack-thread-reply-C00000001-1760000001.000005.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "matter-CB-MA-2401/review_disposition_register.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-001/S5/artifacts/matter-CB-MA-2401/review_disposition_register.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793061465000000000,
+      "type": "file",
+      "size": 5806,
+      "sha256": "eb27209bf62b133401d9c335eb92a91e8976005d0bb1fd8e3452467510ecb9fd"
+    },
+    {
+      "path": "matter-CB-MA-2401/review_note.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-001/S5/artifacts/matter-CB-MA-2401/review_note.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793061465000000000,
+      "type": "file",
+      "size": 6894,
+      "sha256": "ad926a31ea1f057eaaa2ab72bf6920a38aa1833e3712eb38922679c3ea3214e6"
+    },
+    {
+      "path": "matter-CB-MA-2401/slack-thread-reply-C00000001-1760000001.000005.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-001/S5/artifacts/matter-CB-MA-2401/slack-thread-reply-C00000001-1760000001.000005.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793061465000000000,
+      "type": "file",
+      "size": 2212,
+      "sha256": "14060193b2ee7a787e07a8b153c7f54f16b7cf70c42c3b385fb828cd0dc5b040"
+    }
+  ],
+  "entries": {
+    "matter-CB-MA-2401": {
+      "mode": 448,
+      "mtime_ns": 1793061465000000000,
+      "type": "directory"
+    },
+    "matter-CB-MA-2401/review_disposition_register.md": {
+      "mode": 384,
+      "mtime_ns": 1793061465000000000,
+      "type": "file",
+      "size": 5806,
+      "sha256": "eb27209bf62b133401d9c335eb92a91e8976005d0bb1fd8e3452467510ecb9fd"
+    },
+    "matter-CB-MA-2401/review_note.md": {
+      "mode": 384,
+      "mtime_ns": 1793061465000000000,
+      "type": "file",
+      "size": 6894,
+      "sha256": "ad926a31ea1f057eaaa2ab72bf6920a38aa1833e3712eb38922679c3ea3214e6"
+    },
+    "matter-CB-MA-2401/slack-thread-reply-C00000001-1760000001.000005.md": {
+      "mode": 384,
+      "mtime_ns": 1793061465000000000,
+      "type": "file",
+      "size": 2212,
+      "sha256": "14060193b2ee7a787e07a8b153c7f54f16b7cf70c42c3b385fb828cd0dc5b040"
+    }
+  },
+  "deleted_entries": {}
+}

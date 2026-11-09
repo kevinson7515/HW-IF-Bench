@@ -1,0 +1,128 @@
+我已通读三份附件（`csv_reader_sources.md` 的方法论说明、`PolarsCSV.py` 完整源码、`pandas_2.2.3_IO.rst` 中 read_csv 相关段落），下面给出对比。结论只依据附件内容，凡附件未实测的内存结论都单独标注。
+
+---
+
+# pandas 2.2.3 `read_csv` vs Polars 1.31.0 CSV 读取接口对比
+
+## 0. 接口形态总览（先摆清边界）
+
+| | pandas 2.2.3 | Polars 1.31.0 |
+|---|---|---|
+| 入口函数 | 单一 `pd.read_csv`，靠参数切换返回对象 | 三个显式入口：`read_csv`（急加载）、`scan_csv`（惰性）、`read_csv_batched`（增量） |
+| 无 chunksize/iterator 时返回 | `DataFrame` | `read_csv`→`DataFrame`；`scan_csv`→`LazyFrame`；`read_csv_batched`→`BatchedCsvReader` |
+| 依赖 | 纯 Python（C/Python 引擎），pyarrow 引擎可选 | Rust core（`PyDataFrame.read_csv` / `PyLazyFrame.new_from_csv`），pyarrow 可选分流 |
+
+Polars 把"读进内存 / 惰性扫描 / 分批读"拆成三个 API，pandas 则用 `low_memory`、`chunksize`、`iterator` 三个参数在同一函数内区分。这是理解后续四组对比的主线。
+
+---
+
+## 1. 模式推断（schema / dtype inference）
+
+### pandas
+- 默认按数据类型自动推断："If a column can be coerced to integer dtype without altering the contents, the parser will do so."（IO.rst 1322–1325）
+- **推断粒度受 `low_memory` 影响**：文档明确写"parsing engine will go and infer the dtypes for different chunks of the data, rather than the whole dataset at once"，因此可能产生混合类型、最终列 dtype 记为 `object`（IO.rst 456–473）。
+- 控制手段：
+  - `dtype`（col→type 映射，支持 `defaultdict`，1.5.0+）
+  - `dtype_backend`（`numpy_nullable` / `pyarrow`，2.0+，标注 experimental）
+  - `converters`（函数逐列转换，替代 dtype 推断）
+  - 日期：`parse_dates`、`date_format`、`dayfirst`、`infer_datetime_format`（2.0 弃用）、`date_parser`（2.0 弃用）
+  - 布尔：`true_values`/`false_values`
+  - `na_values`/`keep_default_na` 影响推断（被识别为 NA 的串不参与数值推断）
+
+### Polars（`read_csv` / `scan_csv`）`PolarsCSV.py`
+- `infer_schema=True`（默认）：只用前 `infer_schema_length` 行推断（默认取模块常量 `N_INFER_DEFAULT`，其具体数值定义在 `polars.datatypes`，不在本附件内）。
+- `infer_schema=False`：跳过推断，**全部列按 `pl.String` 读取**（除非给了 schema）——与 pandas 的 `dtype=object/str` 思路类似但语义更干脆。
+- `infer_schema_length=None`：可能全量扫描推断，文档标注 *this is slow*。
+- `schema`：提供**完整** schema（要求列顺序与 CSV 一致，且不再推断）；`schema_overrides`：**部分覆盖**推断结果（原 `dtypes`，0.20.31 改名）。
+- `try_parse_dates`：ISO8601 类格式可自动推断为日期，失败则保持 `pl.String`；`use_pyarrow=True` 时日期总是被解析。
+- 文档 Notes 建议：推断错误（如 Int64 vs Float64）时增大 `infer_schema_length` 或用 `schema_overrides`。
+- RFC 4180 严格解析；不合规数据可能产生未定义行为（docstring 首段）。
+
+**对比要点**：pandas 的推断粒度随 `low_memory` 逐 chunk 变化（会产生 `object` 混合列），Polars 的推断粒度由 `infer_schema_length` 行数上限决定且 `infer_schema=False` 有"全 String"的明确兜底。
+
+---
+
+## 2. 分块 / 惰性处理
+
+### pandas（同一入口、三种返回语义）
+- `low_memory=True`（**默认**）：**内部**分块解析，降低解析期内存，但"the entire file is read into a single DataFrame regardless"（IO.rst 225–226）——分块不可见，只影响推断与峰值内存。
+- `chunksize=N`：返回可迭代 `TextFileReader`，逐块产出 `DataFrame`（1.2 起支持上下文管理器）。
+- `iterator=True`：返回 `TextFileReader`，用 `reader.get_chunk(N)` 手动取块。
+
+### Polars（三入口各司其职）
+- `read_csv`：急加载，返回完整 `DataFrame`。docstring 明确 `read_csv().lazy()` 是反模式（强制物化整个 CSV、无法下推优化）。
+- `scan_csv`：返回 `LazyFrame`，**谓词与列投影可下推到扫描层**，官方文档称"potentially reducing memory overhead"；示例展示 `select` 只读所需列、`filter` 下推、`head` 限制返回行数。
+- `read_csv_batched`：返回 `BatchedCsvReader`。创建时只统计并确定文件块，之后调用 `next_batches(n)` 才真正解析并返回若干 `DataFrame`。
+- 底层还有一个参数 `batch_size`（`read_csv` 默认 8192、`read_csv_batched` 默认 50_000）："Number of lines to read into the buffer at once"，属于内部缓冲区大小，非对外分块。
+
+**对比要点**：pandas 靠 `chunksize` 手动推进（返回 TextFileReader），Polars 用惰性 `LazyFrame`（优化器下推）和批读对象两个方向替代；pandas 的 `low_memory` 分块对调用方透明，Polars 没有对等的"内部透明分块默认开启"（其 `low_memory` 默认 False，见下）。
+
+---
+
+## 3. 内存相关参数
+
+| 参数 | pandas 2.2.3 | Polars 1.31.0 |
+|---|---|---|
+| `low_memory` | 默认 **True**；内部按 chunk 解析降低内存，可能导致混合类型；仅 C 解析器有效 | 默认 **False**；"Reduce memory pressure at the expense of performance" |
+| `memory_map` | 默认 False；仅当传入文件路径时可用，将文件映射到内存直接访问 | 无对应参数 |
+| `chunksize` / `iterator` | 分块返回，控制单次内存占用 | 无（用 `read_csv_batched` 代替） |
+| `usecols` / `columns` | `usecols` 在 C 引擎下"much faster parsing time and lower memory usage"；Python 引擎先加载全文再裁剪 | `columns`（列名/索引选择），配合投影下推 |
+| `batch_size` | 无 | `read_csv`=8192、`read_csv_batched`=50_000，读入缓冲区的行数 |
+| `rechunk` | 无 | 默认 False；为 True 时聚合各 chunk 为连续单数组（可能更高内存、利于后续操作） |
+| `cache` | 无 | 仅 `scan_csv`（默认 True），缓存读取结果 |
+| `sample_size` | 无 | 用于估算分配；**1.10.0 起弃用、no-op** |
+| `use_pyarrow` | `engine='pyarrow'`（实验性） | 满足条件时代付 pyarrow 原生解析器 |
+
+补充：pandas 还有影响内存的间接参数——`dtype`（避免推断出 `object` 大列）、`dtype_backend`（pyarrow 后端列内存布局不同）。
+
+---
+
+## 4. 适用限制（官方文档明示的边界）
+
+### pandas
+- 引擎三分（IO.rst 1604–1648）：
+  - **C 引擎**不支持：正则/多字符 `sep`、`skipfooter`、`sep=None`+`delim_whitespace=False`（会退回 Python 并告警）。
+  - **pyarrow 引擎**不支持一批参数并直接 `ValueError`：`float_precision`、`chunksize`、`comment`、`nrows`、`thousands`、`memory_map`、`dialect`、`on_bad_lines`、`delim_whitespace`、`quoting`、`lineterminator`、`converters`、`decimal`、`iterator`、`dayfirst`、`infer_datetime_format`、`verbose`、`skipinitialspace`、`low_memory`。
+  - 多线程解析仅 pyarrow 引擎支持。
+- `low_memory` 仅 C 解析器有效；`memory_map` 仅接受路径；`skipfooter` 不兼容 C 引擎。
+- 混合类型推断可能产出 `object` 列（逐 chunk 推断的固有副作用）。
+
+### Polars（`PolarsCSV.py` docstring + 源码）
+- 严格 RFC 4180；`separator`/`quote_char`/`eol_char` 强制**单字节**（`_check_arg_is_1byte`）。
+- schema 顺序须与 CSV 列顺序一致；`schema_overrides` 传 list 仅限 `new_columns` 场景（`scan_csv` 里 list 需配 `new_columns`）。
+- `n_rows`：多线程下"upper bound cannot be guaranteed"（`read_csv`/`read_csv_batched`）。
+- 惰性路径限制（源码 463、483–487）：
+  - `scan_csv` 只支持 `utf8` / `utf8-lossy` 编码，其余编码在 lazy 分发时受限（hf:// 下直接报错）。
+  - `scan_csv` 不支持压缩文件；`storage_options` 键在 fsspec 与 object_store 间不同。
+  - `read_csv` 内部自动转向 `scan_csv`（惰性）**仅在 hf:// 路径或 `POLARS_FORCE_ASYNC` 下**，普通本地路径仍走急加载。
+- glob + 整数投影不支持（需 `columns: List[str]`）；glob + 未命名 dtype slice 不支持。
+- `read_csv_batched` 的 `source` 仅限 `str | Path`（不接受 file-like），与 `read_csv` 的 file-like 支持不同。
+- 非 utf8 编码需要先以 Python 在内存里解码（`encoding` docstring）；`use_pyarrow` 仅在 `schema_overrides=None`、`n_rows=None`、`n_threads=None`、`low_memory=False`、`null_values=None` 时才启用。
+
+---
+
+## 5. 官方文档描述 vs 缺乏实测的内存结论（必须区分）
+
+`csv_reader_sources.md` 第 3 行明确："附件没有统一数据和硬件下的峰值 RSS 实测；可根据接口行为解释内存机制。" 因此：
+
+### A. 属"官方文档定性描述"（可引用，但本质是文档措辞，非本附件测量值）
+- pandas `low_memory`："lower memory use while parsing, but possibly mixed type inference"（IO.rst 222–223）——定性，无数字。
+- pandas `usecols`（C 引擎）："much faster parsing time and lower memory usage"（IO.rst 156）——定性。
+- pandas `memory_map`：文档称其省 I/O 开销、可改善**性能**（IO.rst 229–231）；文档并未承诺"降低内存占用"这一层，引用时不要混为内存结论。
+- Polars `low_memory`："Reduce memory pressure at the expense of performance"——定性，无数字。
+- Polars `scan_csv`：谓词/投影下推"potentially reducing memory overhead"——用了"potentially"，是机制性、非承诺性描述。
+- Polars `batch_size` / `rechunk`：机制描述（缓冲区行数、是否重排为连续数组），非实测内存量。
+
+### B. 属"缺乏实测、不应在此给出量化/优劣结论"的内容
+- **没有任何一方的峰值 RSS 数字**，也没有"Polars 比 pandas 省 X% 内存"或"某 MB/GB 级别"的可信据。
+- 不能用未测量的数据断言"Polars 读同一文件比 pandas 内存更低"这类跨库优劣结论——那会超出附件证据范围。
+- 唯一可被接口行为支撑的是**方向性机制推论**（例如：`scan_csv` 列投影/谓词下推在逻辑上减少读入的数据量；pandas `low_memory=True` 降低的是解析期峰值而非最终 DataFrame 大小），但这些仍属机制分析，不是实测内存结论。
+
+---
+
+### 一句话总结
+- **模式推断**：pandas 粒度随 `low_memory` 逐 chunk 变化、易出 `object` 混合列；Polars 由 `infer_schema_length` 控制、`infer_schema=False` 全 String 兜底、`schema`/`schema_overrides` 两个层级覆盖。
+- **分块/惰性**：pandas 只有一种入口、用 `chunksize`/`iterator` 手动取块；Polars 拆成 `read_csv`（急）/`scan_csv`（惰性 + 下推）/`read_csv_batched`（增量批读）。
+- **内存参数**：pandas 有 `low_memory`(默认开)/`memory_map`/`chunksize`/`usecols`；Polars 有 `low_memory`(默认关)/`batch_size`/`rechunk`/`cache`，且 `sample_size` 已弃用为 no-op。
+- **限制**：pandas 的引擎三分带来大量参数可用性约束（尤其 pyarrow 引擎禁 ~20 个参数）；Polars 的约束集中在 RFC 4180 严格性、单字节分隔符、lazy 编码/压缩/glob 边界。
+- **内存结论**：附件内所有"省内存"表述均是官方文档的**定性措辞**；**无统一数据+硬件下的峰值 RSS 实测**，故不得给出跨库或量化的内存优劣结论，只能做接口层面的机制解释。

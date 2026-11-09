@@ -1,0 +1,61 @@
+I have gathered enough evidence from multiple independent sources. Here is my synthesis.
+
+# Evidence assessment: can a 500,000-passenger airport generate significant, measurable socioeconomic impact?
+
+**Bottom line: The hypothesis is broadly supported — but with important qualifications.** An airport at the 500,000-passenger threshold (a U.S. "small hub" under the FAA's definition, which spans 0.05–0.25% of national enplanements) demonstrably generates measurable direct and visitor-spending effects, and there is credible econometric evidence that connectivity drives regional GDP and employment. However, the *causal* claim that an airport *causes* broad regional growth is contested, and the largest headline figures in airport economic-impact studies are methodologically sensitive (input-output multipliers, double counting, industry sponsorship).
+
+---
+
+## 1. Direct case-study evidence at the ~500k passenger scale
+
+The most on-point evidence comes from real airports that handle roughly half a million passengers per year:
+
+- **San Luis Obispo County Regional Airport (SBP)** handled **660,745 passengers in 2023** and **746,764 in 2024** — squarely in the hypothesis range. Its economic impact study found it contributes **~$85.24 million annually** to the county, supports **562 direct full-time jobs** on airport and **871 total full-time jobs** in the region, with air visitors alone generating an estimated **$41.5 million** of visitor spending. ([SLO County](https://www.slocounty.ca.gov/departments/airports/department-news/slo-county-regional-airport-completes-economic-imp), [KSBY](https://www.ksby.com/news/local-news/2019/05/22/slo-county-regional-airport-boasts-soaring-economic-impact), [SLO Chamber](https://slochamber.org/airplane-engines-are-economic-engines/), [sloairport.com](https://sloairport.com/slo-county-airport-celebrates-record-breaking-passenger-total/))
+
+- **Santa Barbara Airport (SBA)** — a comparable small-hub airport — was reported by a UCSB study to have a **total economic impact of more than $205 million**. (SBA now handles ~1.48M passengers, but its earlier ~500k–600k era produced this figure.) ([edhat.com](https://www.edhat.com/news/ucsb-reports-on-sb-airports-economic-impact/), [Fly SBA](https://flysba.santabarbaraca.gov/2025review))
+
+These translate to roughly **$130–$340 of total output per passenger** and on the order of **hundreds of jobs** — i.e., "significant and measurable" at the regional scale, even before multiplier effects.
+
+**Industry-wide corroboration:** The Regional Airline Association's study of **570 small-community airports** found they collectively generate **$134 billion in economic activity, 1 million jobs, and $36 billion in wages** — an average of ~$235M and ~1,750 jobs per airport. ([RAA](https://raa.org/valuable-service-air-service-to-small-communities-generates-significant-economic-activity/)) Note this is an industry-funded study, so the figures should be read as upper-bound estimates.
+
+---
+
+## 2. The mechanism: connectivity matters more than raw volume
+
+The strongest theoretical support for the hypothesis is not passenger *count* but *connectivity* — the access a 500k-passenger airport provides to the broader network:
+
+- **ACI EUROPE / SEO (Oxford Economics)** economics study: a **10% increase in direct air connectivity raises GDP per capita by ~0.5% and employment by ~1.6%**, and a 10% connectivity increase is associated with a **~4.7% increase in foreign direct investment**. ([ACI EUROPE synopsis](https://www.aci-europe.org/downloads/content/ACI%20EUROPE%20SYNOPSIS%20-%20BENEFITS%20OF%20AIRPORTS%20%20AIR%20CONNECTIVITY%20digital.pdf), [ACI blog](https://blog.aci.aero/environment-and-sustainability/global-gateways-how-airports-drive-economic-development-and-sustainability/))
+
+- **Baker et al. (2015)** in the *Journal of Transport Geography* provided the first cointegration/causality evidence of a **two-way causal relationship between regional aviation and economic growth** — airports affect regional growth and vice versa. ([ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0966692315000265), [RePEc](https://ideas.repec.org/a/eee/jotrge/v43y2015icp140-150.html))
+
+This matters because a 500k-passenger airport typically provides one-stop/global connectivity to its region — the RAA study emphasizes that small-community value comes from hub connections enabling "one-stop service to cities around the world," which supports business location, tourism, and access to services like healthcare. ([RAA](https://raa.org/valuable-service-air-service-to-small-communities-generates-significant-economic-activity/))
+
+---
+
+## 3. Counter-evidence and qualifications (why the hypothesis is not airtight)
+
+The evidence for *measurable* impacts is strong; the evidence that an airport *causes* broad regional growth is weaker and contested:
+
+- **Airport *expansion* ≠ regional growth.** Breidenbach (2020, *Regional Studies*) found **"no empirical evidence that the expansion of regional airports translates into regional growth"** using a German identification strategy. ([T&F](https://www.tandfonline.com/doi/full/10.1080/00343404.2019.1659948), [EconStor](https://www.econstor.eu/handle/10419/124780)) This is about *expansion*, not *existence* — but it cautions against assuming more passengers automatically mean more growth.
+
+- **Correlation ≠ causation.** Transport & Environment published an analysis arguing the claim that "air passenger growth drives economic growth" is **"deeply flawed"** and that industry claims used to justify expansion are overstated. ([T&E](https://www.transportenvironment.org/articles/new-analysis-debunks-the-assumption-that-air-passenger-growth-drives-economic-growth))
+
+- **UK Parliament** Environmental Audit Committee similarly concluded airport expansion provides only limited growth to the wider economy relative to the aviation sector itself. ([Parliament UK](https://publications.parliament.uk/pa/cm5901/cmselect/cmenvaud/831/report.html))
+
+- **Methodological sensitivity of the headline numbers.** A 2026 systematic review of **96 economic-impact studies** (Kumar et al.) shows results depend heavily on method (input-output analysis, CGE, cost-benefit analysis), and the large "indirect/induced" multipliers in airport studies are *modeled* estimates, not directly measured, and are prone to double counting. The FAA's own ACRP guidance and the TRB's *Airport Economic Impact Methods and Models* exist precisely because these methods are contested. ([Kumar 2026](https://www.sciencedirect.com/science/article/pii/S2352146526000190), [TRB/NASEM](https://nap.nationalacademies.org/catalog/23267/airport-economic-impact-methods-and-models), [ACRP](https://onlinepubs.trb.org/onlinepubs/acrp/FY2012PS/12-01-06Muldoon.pdf))
+
+- **Mixed causal results elsewhere.** Kotowska & Torój (2026) find the establishment of regional airports in Poland produced **limited, heterogeneous county-level development effects** — not uniform growth. ([Spatial Economic Analysis](https://www.tandfonline.com/doi/full/10.1080/17421772.2025.2536845))
+
+---
+
+## 4. Assessment
+
+| Dimension | Verdict |
+|---|---|
+| **Direct on-airport employment/output** | **Supported** — measurable and verifiable (hundreds of jobs, tens of millions in output at ~500k pax). |
+| **Visitor/tourism spending** | **Supported** — survey-measurable (e.g., SBP's $41.5M visitor spend). |
+| **Indirect/induced (multiplier) effects** | **Supported as estimates, but contested** — real but method-dependent and potentially double-counted. |
+| **Connectivity → GDP/FDI/employment** | **Supported** by econometric evidence, though effect sizes are modest (0.5% GDP per 10% connectivity). |
+| **Airport → broad regional growth (causal)** | **Not firmly established** — expansion studies and several causal analyses find weak or no effect. |
+
+**Conclusion:** The hypothesis holds for the "significant and measurable" part — a 500,000-passenger airport reliably produces hundreds of jobs, tens of millions of dollars in output, and meaningful connectivity benefits that are measurable through standard economic-impact and econometric methods. It is **overstated** only if one interprets the largest headline figures (total output, total jobs including multipliers) as *causal* proof that the airport *drives* regional growth, or assumes that scaling up passengers automatically scales up prosperity. The defensible, evidence-backed claim is: **a ~500k-passenger airport generates substantial direct, visitor, and connectivity-related socioeconomic impacts that are measurable — but its role as a causal engine of broad regional growth is weaker and context-dependent.**

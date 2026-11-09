@@ -1,0 +1,29 @@
+已完成。下面是本次改动的完整说明。
+
+## 改动内容
+
+### 1. `astropy/units/quantity.py`
+
+- 新增导入：`from astropy.utils.compat import NUMPY_LT_1_20, NUMPY_LT_1_22`（`NUMPY_LT_1_22` 原本未导入）。
+- `var()` / `std()` / `mean()` 用 `if NUMPY_LT_1_20:` / `else:` 包裹，NumPy ≥ 1.20 时签名新增关键字参数 `*, where=True`，并透传给 `np.var/np.std/np.mean`。旧版 NumPy 保持原签名，避免传入不支持的 `where`。
+- `nansum()` 用 `if NUMPY_LT_1_22:` / `else:` 包裹，NumPy ≥ 1.22 时新增 `*, initial=None, where=True`，旧版保持原签名。
+- 单位处理不变：`var` 输出 `unit=self.unit**2`，`std`/`mean`/`nansum` 继承 `self.unit`。
+
+### 2. `astropy/utils/masked/core.py`
+
+- `mean()` / `var()` / `std()` 新增 `*, where=True`，内部用 `where = ~self.mask & where`（`var` 用 `where_final`）把用户掩码与数组掩码合并，计数 `n` 也改用合并后的掩码。
+- `any()` / `all()` 新增 `*, where=True`，`where=~self.mask & where`。
+- `sum`/`min`/`max` 无需改动——它们经由 `__array_ufunc__` 的 `reduce` 分支已支持 `where`/`initial`。
+
+### 3. 测试文件（各新增 7 个用例 + 版本开关导入）
+
+- `test_quantity_array_methods.py`：`test_mean_where`、`test_std_where`、`test_var_where`、`test_min_where`、`test_max_where`、`test_sum_where`、`test_nansum_where`，导入改为 `NUMPY_LT_1_20, NUMPY_LT_1_21_1, NUMPY_LT_1_22`。
+- `test_masked.py`：`test_sum_where`、`test_mean_where`、`test_var_where`、`test_std_where`、`test_min_where`、`test_max_where`、`test_all_and_any_where`，并新增 `NUMPY_LT_1_20` 导入（`mean/var/std/all/any` 的 `where` 用例按 NumPy < 1.20 标记 `xfail`）。
+
+## 校验
+
+- 四个文件均通过 `py_compile` 语法检查。
+- 与上游 astropy 5.1（该特性引入版本，PR #12891）逐字节比对：`masked/core.py` 与 `test_masked.py` 完全一致；`quantity.py` 的归约方法区仅剩一个空行级别的格式差异，`_wrap_function` 与上游完全一致。
+- 逻辑上保持了单位（`var` 平方单位）、掩码合并（`~mask & where`）与旧版 NumPy 兼容（`NUMPY_LT_1_20` / `NUMPY_LT_1_22` 门控）。
+
+参考来源：[Astropy changelog](https://docs.astropy.org/en/stable/changelog.html)（该特性的变更记录）。

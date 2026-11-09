@@ -1,0 +1,66 @@
+{
+  "customer": {
+    "name": "Sarah Bosch",
+    "income_usd": 100000,
+    "goal": "highest_everyday_cash_back",
+    "annual_fee_preference": "no_or_minimal_annual_fee",
+    "work_travel_on_company_card": true
+  },
+  "recommendation": {
+    "primary_card": "Gold Rewards Card",
+    "reason": "Highest flat everyday cash back (2.5%) among Rho-Bank no-annual-fee personal cards, with $0.00 annual fee.",
+    "cash_back_flat": "2.5%",
+    "annual_fee": "0.00",
+    "caveats": [
+      "Requires an active Rho-Bank+ premium subscription (cost not stated in bank documents).",
+      "Minimum credit score required: $720.",
+      "Redemption minimum: $15 (1 point = $0.01)."
+    ]
+  },
+  "alternatives": [
+    {
+      "card": "Silver Rewards Card",
+      "cash_back": "1.0% base, 4.0% travel/software",
+      "annual_fee": "0.00",
+      "note": "Fallback if the Rho-Bank+ subscription is not wanted."
+    },
+    {
+      "card": "Bronze Rewards Card",
+      "cash_back": "1.0% flat",
+      "annual_fee": "0.00",
+      "note": "Simplest no-fee option; lower flat rate than Gold."
+    },
+    {
+      "card": "Platinum Rewards Card",
+      "cash_back": "10.0% flat",
+      "annual_fee": "200.00",
+      "note": "Highest rate but carries an annual fee; $150 fee rebate requires $7,500 monthly spend every month."
+    }
+  ],
+  "cards_compared": {
+    "Bronze Rewards Card": { "flat_cash_back": "1.0%", "bonus": null, "annual_fee": "0.00", "min_credit_score": 640 },
+    "Silver Rewards Card": { "flat_cash_back": "1.0%", "bonus": "4.0% travel & software", "annual_fee": "0.00", "min_credit_score": 680 },
+    "Gold Rewards Card": { "flat_cash_back": "2.5%", "bonus": null, "annual_fee": "0.00", "min_credit_score": 720, "requires": "Rho-Bank+ premium subscription" },
+    "Platinum Rewards Card": { "flat_cash_back": "10.0%", "bonus": null, "annual_fee": "200.00", "min_credit_score": 750 },
+    "Diamond Elite Card": { "flat_cash_back": "5.0%", "bonus": null, "annual_fee": "495.00", "min_credit_score": 780, "invitation_only": true },
+    "Crypto-Cash Back": { "flat_cash_back": "2.0% (crypto)", "bonus": null, "annual_fee": "75.00", "min_credit_score": 660 },
+    "EcoCard": { "flat_cash_back": "points (5/$ green, 1/$ other)", "bonus": null, "annual_fee": "50.00", "min_credit_score": 0 }
+  },
+  "sources": [
+    "doc_credit_cards_gold_rewards_card_001.json",
+    "doc_credit_cards_gold_rewards_card_005.json",
+    "doc_credit_cards_bronze_rewards_card_001.json",
+    "doc_credit_cards_bronze_rewards_card_002.json",
+    "doc_credit_cards_silver_rewards_card_001.json",
+    "doc_credit_cards_silver_rewards_card_002.json",
+    "doc_credit_cards_platinum_rewards_card_001.json",
+    "doc_credit_cards_platinum_rewards_card_002.json",
+    "doc_credit_cards_diamond_elite_card_001.json",
+    "doc_credit_cards_diamond_elite_card_003.json",
+    "doc_credit_cards_crypto-cash_back_008.json",
+    "doc_credit_cards_ecocard_001.json",
+    "doc_credit_cards_ecocard_002.json",
+    "doc_credit_cards_credit_cards_(general)_006.json",
+    "doc_credit_cards_credit_cards_(general)_008.json"
+  ]
+}

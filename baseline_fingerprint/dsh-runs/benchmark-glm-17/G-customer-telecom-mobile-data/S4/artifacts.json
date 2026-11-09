@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "output",
+    "output/agent_reply.md",
+    "output/case_notes.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "output/agent_reply.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-customer-telecom-mobile-data/S4/artifacts/output/agent_reply.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793036358000000000,
+      "type": "file",
+      "size": 1981,
+      "sha256": "b8748c85e84bf67c1786e02bfef327165f657a7d10eee5a6103227b0476fbf85"
+    },
+    {
+      "path": "output/case_notes.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-customer-telecom-mobile-data/S4/artifacts/output/case_notes.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793036358000000000,
+      "type": "file",
+      "size": 3686,
+      "sha256": "4f575ed8b9dad5e514d4f63e0b40077bdc027b6011134ffe7157671b28c862f2"
+    }
+  ],
+  "entries": {
+    "output": {
+      "mode": 448,
+      "mtime_ns": 1793036358000000000,
+      "type": "directory"
+    },
+    "output/agent_reply.md": {
+      "mode": 384,
+      "mtime_ns": 1793036358000000000,
+      "type": "file",
+      "size": 1981,
+      "sha256": "b8748c85e84bf67c1786e02bfef327165f657a7d10eee5a6103227b0476fbf85"
+    },
+    "output/case_notes.md": {
+      "mode": 384,
+      "mtime_ns": 1793036358000000000,
+      "type": "file",
+      "size": 3686,
+      "sha256": "4f575ed8b9dad5e514d4f63e0b40077bdc027b6011134ffe7157671b28c862f2"
+    }
+  },
+  "deleted_entries": {}
+}

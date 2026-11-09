@@ -1,0 +1,45 @@
+{
+  "line": 2,
+  "id": 2,
+  "user_query": "为 Astropy 的 Quantity 及 masked 类统计方法增加 NumPy where 参数支持，并在适用版本支持 nansum 的 initial/where；保持单位、掩码和旧版 NumPy 兼容性。",
+  "effective_query": "为 Astropy 的 Quantity 及 masked 类统计方法增加 NumPy where 参数支持，并在适用版本支持 nansum 的 initial/where；保持单位、掩码和旧版 NumPy 兼容性。\n\nAttached files are available at the following paths. Read them as needed:\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_2/astropy/units/quantity.py\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_2/astropy/units/tests/test_quantity_array_methods.py\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_2/astropy/utils/masked/core.py\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_2/astropy/utils/masked/tests/test_masked.py",
+  "attached_files": [
+    "attached_files/task_2/astropy/units/quantity.py",
+    "attached_files/task_2/astropy/units/tests/test_quantity_array_methods.py",
+    "attached_files/task_2/astropy/utils/masked/core.py",
+    "attached_files/task_2/astropy/utils/masked/tests/test_masked.py"
+  ],
+  "resolved_attached_files": [
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_2/astropy/units/quantity.py",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_2/astropy/units/tests/test_quantity_array_methods.py",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_2/astropy/utils/masked/core.py",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_2/astropy/utils/masked/tests/test_masked.py"
+  ],
+  "archived_attachments": [
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_2/astropy/units/quantity.py",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1853564/000002-2/inputs/attached_files/task_2/astropy/units/quantity.py",
+      "size": 80530,
+      "sha256": "5538c71dc43926cfd96507025b7e399519cdaff9d82bcc31c119b191143119e0"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_2/astropy/units/tests/test_quantity_array_methods.py",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1853564/000002-2/inputs/attached_files/task_2/astropy/units/tests/test_quantity_array_methods.py",
+      "size": 19227,
+      "sha256": "769fc78f6db0839c42a91be0cfee03cde01d49b6c434e42d4c154ce9cf4f4520"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_2/astropy/utils/masked/core.py",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1853564/000002-2/inputs/attached_files/task_2/astropy/utils/masked/core.py",
+      "size": 45844,
+      "sha256": "657aa82dd82768dc61b0076f88168026aa285cf340c49eec13d12fb8bd30f9da"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_2/astropy/utils/masked/tests/test_masked.py",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1853564/000002-2/inputs/attached_files/task_2/astropy/utils/masked/tests/test_masked.py",
+      "size": 46057,
+      "sha256": "f1f81bca223387ea5c55c64831bb4ad2ef25445e75cd24dfbc958a779882cbf1"
+    }
+  ],
+  "started_at": "2026-10-18T09:53:08.538087+00:00"
+}

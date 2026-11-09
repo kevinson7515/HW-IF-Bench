@@ -1,0 +1,21 @@
+## Position — Daybreak signing can proceed
+
+The automaker's termination right triggers on an *indirect change of control* and the Nevada tooling restrictions trigger on transfer/assignment — both at closing, not signing. Operative authority (R-records) "blocks completion," never signing. Control rule: executed purchase terms + latest consent schedule govern; seller summaries (E-records) do not.
+
+## Signing path
+
+Fix the CBP-001-01 crosswalk collision (ENT-001-1000 vs ENT-001-2000) so the exact acquired entity holding the tooling and the automaker contract is identified before signing.
+
+## Closing conditions (make these CPs)
+
+- **Customer-consent:** automaker indirect CoC consent CBP-001-11 — approval from Talia Brooks (R473); status pending/inactive, capacity 0, control date 2026-09-02.
+- **Tooling:** Nevada permit-transfer restriction CBP-001-03 — open; blocks completion (R164).
+- **Tooling:** anti-assignment consent CBP-001-08 — Owen Delgado (R293); REV-2025.1 (later) controls over REV-2024.0.
+
+## Priced exception
+
+Invention-assignment defect CBP-001-12 (Caleb Hassan, R433) — price/indemnify, not a CP.
+
+## Reliance limits
+
+These are source exports, not legal dispositions; no record independently resolves entity identity or revision priority. This position rests only on operative-authority R-records and the matter-level control; it is not legal advice.

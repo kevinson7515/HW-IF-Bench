@@ -1,0 +1,57 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "regular-file size and nanosecond mtime before and after the task",
+  "created": [
+    "attached_files/task_18/fix.patch",
+    "attached_files/task_18/solution/astropy/io/ascii/rst.py",
+    "attached_files/task_18/solution/astropy/io/ascii/tests/test_rst.py",
+    "attached_files/task_18/solution/docs/changes/io.ascii/14182.feature.rst",
+    "attached_files/task_18/solution/docs/io/ascii/fixed_width_gallery.rst"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "attached_files/task_18/fix.patch",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000001-18/artifacts/attached_files/task_18/fix.patch",
+      "change": "created",
+      "size": 4984,
+      "sha256": "1eb3daa3815af8e9a90cbc6e50acecb158d86d6cbae097ad743da34a031fb3fa"
+    },
+    {
+      "path": "attached_files/task_18/solution/astropy/io/ascii/rst.py",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000001-18/artifacts/attached_files/task_18/solution/astropy/io/ascii/rst.py",
+      "change": "created",
+      "size": 2453,
+      "sha256": "bc8188a88294e192de93b71663faa304b16c763f055836691a922379ef97adb0"
+    },
+    {
+      "path": "attached_files/task_18/solution/astropy/io/ascii/tests/test_rst.py",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000001-18/artifacts/attached_files/task_18/solution/astropy/io/ascii/tests/test_rst.py",
+      "change": "created",
+      "size": 5782,
+      "sha256": "eb07c62c45f3410c4119867211be9f16a979db2d7d80a9c47a69ef0ec1ef767e"
+    },
+    {
+      "path": "attached_files/task_18/solution/docs/changes/io.ascii/14182.feature.rst",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000001-18/artifacts/attached_files/task_18/solution/docs/changes/io.ascii/14182.feature.rst",
+      "change": "created",
+      "size": 243,
+      "sha256": "d2fdb2635252494b087a4308a5c21c144a125ca4f2f53da3cf8e9f064370a6fb"
+    },
+    {
+      "path": "attached_files/task_18/solution/docs/io/ascii/fixed_width_gallery.rst",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000001-18/artifacts/attached_files/task_18/solution/docs/io/ascii/fixed_width_gallery.rst",
+      "change": "created",
+      "size": 15980,
+      "sha256": "be1f21f47e97127b5b00b6610ebe95d36c16468237d729b71b5ff875cfcefd24"
+    }
+  ],
+  "skipped": [],
+  "errors": [],
+  "limits": {
+    "max_file_bytes": 104857600,
+    "max_total_bytes": 1073741824
+  }
+}

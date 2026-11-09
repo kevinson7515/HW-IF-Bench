@@ -1,0 +1,22 @@
+## Gross margin is not a relevant metric for JPMorgan Chase — and it is not reported in the 10-K.
+
+**Why it doesn't apply.** Gross margin = revenue − cost of goods sold (COGS), divided by revenue. It measures the production/retail efficiency of a company that *makes or sells tangible goods*. JPMorgan Chase is a bank/financial holding company: it does not manufacture or resell goods, so it has no COGS line and no "gross profit" layer to compute.
+
+**Evidence from the attached 10-K (Consolidated Statements of Income, 2022–2020):**
+
+The income statement flows straight from revenue to expenses with no COGS/gross-profit step:
+
+| Line item ($ millions) | 2022 | 2021 | 2020 |
+|---|---|---|---|
+| Noninterest revenue | 61,985 | 69,338 | 65,388 |
+| Net interest income | 66,710 | 52,311 | 54,563 |
+| **Total net revenue** | **128,695** | **121,649** | **119,951** |
+| Provision for credit losses | 6,389 | (9,256) | 17,480 |
+| Noninterest expense | 76,140 | 71,343 | 66,656 |
+| Income before income tax | 46,166 | 59,562 | 35,815 |
+
+A full-text search of the document returns **0 occurrences** of "gross margin," "gross profit," or "cost of goods sold."
+
+**What banks use instead.** The 10-K's own metrics are the relevant analogs: **net interest margin** (NII ÷ interest-earning assets), the **overhead ratio** (noninterest expense ÷ total net revenue; 59% / 59% / 56%), **ROTCE**, and **ROE**. These capture how a bank earns its spread and controls operating costs — the correct lenses for a financial intermediary.
+
+So the question of "historical consistency of gross margins" is a category error for JPMorgan; there is no such metric to evaluate.

@@ -1,0 +1,80 @@
+I have gathered substantial evidence from primary sources (airport studies, peer-reviewed papers, and industry reports). Here is a balanced assessment.
+
+---
+
+# Can a 500,000-passenger airport generate significant, measurable socioeconomic impacts?
+
+**Short answer: Yes — the evidence shows a 500,000-passenger airport can generate *measurable* impacts (hundreds of on-airport jobs, hundreds of millions in output), and in some cases *significant* ones for a small region. But the evidence also shows those impacts are often smaller than headline "total economic impact" figures suggest, are highly dependent on context (catchment, tourism vs. business mix, cargo), and face a serious attribution problem: causality often runs from economic growth *to* airport traffic, not the reverse.**
+
+---
+
+## 1. Direct benchmarks for the ~500,000 scale
+
+### Best single case study: Tri-Cities Airport (TRI), Tennessee
+TRI handled **~447,000 commercial passengers in 2024** — essentially the exact scale in question. A 2024 InterVISTAS study found ([source](https://elizabethton.com/2026/08/25/economic-impact-study-shows-tri-cities-airport-plays-significant-role-in-regional-economy/)):
+
+| Component | Jobs | Economic activity |
+|---|---|---|
+| **Total (all effects)** | ~2,100 | $289 million |
+| Airport + on-airport businesses (direct) | ~390 | $121 million |
+| Visitor spending (incl. induced) | ~1,330 | $153 million |
+| Capital projects | ~90 | $15 million |
+| Tax revenue generated | — | $42.2 million |
+
+This is a textbook example of "significant and measurable" at 500k scale: the airport is one of the region's larger employers and a material source of tax revenue for a small metro area.
+
+### Roanoke-Blacksburg (ROA), Virginia
+ROA served **~827,000 passengers in 2025** (roughly 1.6× the target). The Virginia DOAV study put its **total output at $613 million**, up 20% from 2018 ([source](https://flyroa.com/2025-roa-achievements); [statewide study](https://doav.virginia.gov/wp-content/uploads/Files/DocumentLibrary/Electronic-VA-EIS-Executive-Summary.pdf)). Extrapolating linearly, a 500k-pax airport in that system would be on the order of $370–400 million in total output.
+
+### Charlottesville-Albemarle (CHO), Virginia
+CHO had **351,138 enplanements in 2024** (~700k total passengers). A prior study found **1,267 jobs, $40.7M in wages, and $128.7M in total economic activity** ([source](https://gocho.com/organization-info/reports-statistics/)).
+
+### Jobs-per-passenger benchmark (ACI Europe)
+ACI Europe's 2014 study reports a clear size gradient ([source](https://www.aci-europe.org/downloads/resources/The%20Impact%20of%20An%20Airport.pdf)):
+
+| Airport size | Direct jobs per 1,000 extra passengers |
+|---|---|
+| **< 1 million pax/yr** | **1.2** |
+| 1–10 million | 0.95 |
+| > 10 million | 0.85 |
+
+By this benchmark, a 500k-pax airport generates roughly **600 direct (on-airport) jobs** — a substantial number for a small community, and notably *higher* per passenger than large hubs (economies of scale work in reverse for direct employment at small airports). Note this is "direct" only; total (direct + indirect + induced) multipliers typically run 2–3× direct.
+
+### System-wide context (ACI-NA 2024)
+The 487 U.S. commercial service airports support **12.8 million jobs, $619B payroll, $1.8T output** ([source](https://airportscouncil.org/intelligence/economic-impact-study/)). Small airports are a large share of that count, and the Virginia study finds a **1.7× multiplier** (for every direct job, 1.7 more are supported statewide).
+
+---
+
+## 2. Evidence that *refutes* or qualifies the hypothesis
+
+### (a) No evidence of *spillover* causal effects — Breidenbach (2020)
+Using a difference-in-differences design exploiting European aviation deregulation as a quasi-natural experiment, Philipp Breidenbach found **"no evidence for spillover effects of Germany's regional airports"** on surrounding economies — despite those airports running financial losses and depending on subsidies ([source](https://ideas.repec.org/a/taf/regstd/v54y2020i8p1084-1097.html)).
+
+### (b) Small airports' contribution to growth is limited — Pot & Koster (2022)
+A panel of 274 European NUTS-2 regions (2000–2018) estimated long-run elasticities between air accessibility and GDP per capita of **0.179 (large), 0.033 (medium), and 0.022 (small) airports** — i.e., small airports have roughly **one-eighth the growth effect of large ones**. Crucially, **"causality mainly runs from economic growth to air accessibility, especially considering smaller airports"**; only dense regions with lagging GDP benefited ([source](https://research.rug.nl/en/publications/small-airports-runways-to-regional-economic-growth/)).
+
+### (c) Little clear evidence of a strong positive correlation — Button, Doh & Yuan (2010)
+A study of 66 small Virginia airports found **"little clear evidence to support a strong positive correlation between local air transportation and economic development"** and noted the direction of causation is ambiguous ([source](https://ideas.repec.org/a/aza/jam000/y2010v4i2p125-136.html)).
+
+### (d) Small airports contribute little at the national scale — Pauwels et al. (2025) & Kupfer & Lagneaux (2009)
+Pauwels et al.'s bottom-up input-output study of Belgium's five airports found the **three major airports (Brussels, Charleroi, Liège) account for 95.2% of direct value added**; the small regional airports (Antwerp, Ostend, Kortrijk) are minor contributors ([source](https://ideas.repec.org/a/eee/jaitra/v128y2025ics0969699725001176.html)). The earlier NBB study shows Antwerp (148k pax in 2006) generated only **520 FTEs / €41.7M direct value added**, and Ostend (146k pax) **€31.3M** — modest in absolute terms ([source](https://www.econstor.eu/bitstream/10419/144370/1/wp158en.pdf)). It also shows jobs-per-million-passenger varies wildly: **Brussels 1,172 vs. Charleroi 417** — a low-cost, low-density model produces far fewer jobs per passenger.
+
+---
+
+## 3. The methodological caveat: "impact" vs. "attribution"
+
+The headline figures above are mostly **input-output (IMPLAN/RIMS II) estimates** that sum direct + indirect + induced effects. These are well-established but have known limitations documented in the National Academies' *Airport Economic Impact Methods and Models* ([source](https://nap.nationalacademies.org/catalog/23267/airport-economic-impact-methods-and-models)):
+
+- **Double counting** — e.g., the MSP study explicitly excludes indirect/induced visitor spending to avoid double-counting with airline activity ([source](https://www.mspairport.com/sites/default/files/2017-09/MSP%20Economic%20Impact%20Study%202016%20FINAL%20DRAFT%20REPORT%20%2814Sep2017%29.pdf)).
+- **Static coefficients** — input-output models use fixed supplier-purchase ratios that can become stale and assume local sourcing that may not exist.
+- **Attribution / endogeneity** — the strongest critique. Airports are rarely built in economic vacuums; they are built where travel demand (and underlying economic activity) already exists. The SEO/ACI Europe 2024 study itself uses econometric techniques precisely to address this two-way causality, and still finds the elasticity is modest and concentrated at large airports ([source](https://www.seo.nl/en/publications/the-economic-and-social-impact-of-european-airports-and-air-connectivity/)).
+
+---
+
+## 4. Balanced conclusion
+
+**Supported:** A 500,000-passenger airport *does* generate **measurable** socioeconomic effects — typically several hundred direct on-airport jobs (ACI Europe: ~600 direct at <1mppa), a local employment multiplier of ~1.7–2.6×, and total outputs in the **hundreds of millions of dollars** for a small region (TRI: ~2,100 jobs / $289M; ROA-scaled: ~$370–400M). For a small or isolated region, these can be genuinely significant (major employer, tax base, tourism/business access).
+
+**Qualified/refuted:** The *causal, catalytic* claim — that the airport *causes* regional growth beyond what would otherwise occur — is **not well supported** for small airports. The econometric literature finds small airports' marginal growth contribution is small (elasticity ~0.022 vs. 0.179 for large), causality runs mainly from growth to air service, and German regional airports show no spillover effects. Many "economic impact" figures are also inflated by methodology (double counting, static multipliers) and by attributing to the airport economic activity that would have occurred anyway.
+
+**Net:** The hypothesis is **supported for direct/measurable impacts** but **largely refuted for the stronger claim that a 500k-pax airport is an independent engine of regional economic development.** The honest framing is: a 500,000-passenger airport is a *measurable* economic asset and connectivity provider whose value is real but largely *enabling* (preserving access, supporting existing tourism/business) rather than *generative* — and its net contribution is highly context-dependent.

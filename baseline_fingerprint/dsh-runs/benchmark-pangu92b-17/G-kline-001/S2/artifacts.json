@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "moutai-600519-kline.png"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "moutai-600519-kline.png",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-marketing-kline-000/S2/artifacts/moutai-600519-kline.png",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792966643000000000,
+      "type": "file",
+      "size": 237691,
+      "sha256": "3e8ef472a00c325e36d99655eb60d05849c66dc3dea6f8c335958e96ee62fb39"
+    }
+  ],
+  "entries": {
+    "moutai-600519-kline.png": {
+      "mode": 384,
+      "mtime_ns": 1792966643000000000,
+      "type": "file",
+      "size": 237691,
+      "sha256": "3e8ef472a00c325e36d99655eb60d05849c66dc3dea6f8c335958e96ee62fb39"
+    }
+  },
+  "deleted_entries": {}
+}

@@ -1,0 +1,33 @@
+报告已完成并交付。以下是摘要：
+
+---
+
+# 📊 报告交付摘要：机器学习/深度学习优化材料元素组合配比
+
+**完整报告**：`materials-ml-composition-report.md`（9 章，约 640 行，含摘要、目录、34 个课题组、17 个数据库、基准与精度详表、TRL 分层评估、39 条核心文献）
+**附档**：`materials-ml-composition-groups.md`（课题组调研底稿，逐篇论文链接与核实状态）
+
+## 核心结论
+
+**1. 技术能力已达“工程可用”**
+- 成分级模型形成能 MAE：Magpie+RF 0.067 → ElemNet 0.055 → Roost **0.024–0.030 eV/atom**——已低于 DFT 方法本身相对实验的系统误差（约 0.1 eV/atom）
+- Matbench Discovery 榜单（2026 末快照）：榜首 DPA-4.1 基础模型 **F1 0.935、DAF 6.09**（理论上限 ≈6.5），“ML 粗筛 + DFT 确认”的发现加速已达 6 倍
+- 实验性质任务内插可用：HEA 相分类 86.7–94.3%、硬度 R² 0.93–0.97、超导分类 ≈92%、金属玻璃 GFA ROC-AUC 0.96
+
+**2. 课题组版图（34 个，第 3 章详述）**
+- **金属/合金**：MPIE Raabe（Science 2022 高熵 Invar）、UMass Wen Chen（混合变量 BO）、Lookman（主动学习奠基）、Arróyave、Zi-Kui Liu（CALPHAD+ML）、Takeuchi、Greer、Citrine Meredig；中国：北科大谢建新/宿彦京（MLDS、LLM 钢设计）、东北大学许伟、西工大李金山、港城大、清华倪军、中南张利军
+- **基础设施层**：Ong（CHGNet）、Persson（Materials Project）、Jain（LLM 合成规划）、Ceder（A-Lab + 热力学描述符）、Wolverton（OQMD）、Curtarolo（AFLOW）、Ward（MAGPIE）、Choudhary（JARVIS/ALIGNN）、SNU Jung（LLM 可合成性）、东大 Tsuda/NIMS Tamura（NIMS-OS）、DeepMind（GNoME）、MSR（MatterGen）
+- **企业**：Citrine、QuesTek（Ferrium M54 已用于海军 T-45）、Alloyed（ABD-900AM 商用）、Uncountable、Orbital 等；市场 2026 年 2.5 亿美元 → 2035 年 13.1 亿美元（CAGR ≈9%）
+
+**3. 数据与挑战（第 4、6 章）**
+- 数据主粮是 DFT 库（OQMD 140 万、AFLOW 393 万、MP 15.4 万）；实验数据仍是短板（数百~数千条）
+- 三大硬约束：**分布外外推**（MP2018→2021 新合金 MAE 恶化 3–14 倍）、**可合成性**（GNoME 38.1 万稳定相仅 736 种被外部合成；A-Lab“41/58”经 Nature 2026 更正为 36/57）、**实验/工艺数据生态**
+
+**4. 产业化距离（第 7 章，分层回答）**
+| 层级 | 当前状态 | 距大规模应用 |
+|---|---|---|
+| 特定体系成分优化系统（HEA 硬度、铜合金强导、催化剂配方） | 已进入工业日常（TRL 7–9） | **已开始，2–5 年普及到中腰部企业** |
+| 通用材料基础模型（U-MLIP、成分预训练） | 商品化拐点（TRL 4–6） | **约 5–10 年** |
+| “理想模型”（通用+全变量+校准 UQ+可合成+全闭环） | TRL 2–3，无单一模型满足 | **10–15 年**，瓶颈在数据生态与验证基础设施而非算法 |
+
+**质量纪律**：全文未使用 microsoft.com / news.northwestern.edu 域名（MatterGen 引 Nature/arXiv）；关键数字均经多路检索核实并注明口径（榜单快照日期、unique prototypes 等）；无法核实处（6 项）已明确标注“未核实”。

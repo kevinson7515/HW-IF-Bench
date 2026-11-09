@@ -1,0 +1,28 @@
+I've completed the implementation. Here's a summary of what was done.
+
+## 概述
+
+该任务对应 Astropy PR [#12891](https://github.com/astropy/astropy/pull/12891)（发布于 Astropy 5.1）：为 `Quantity` 的 `mean()`/`var()`/`std()`/`nansum()` 增加 `where` 参数、为 `nansum()` 增加 `initial` 参数，并为 `MaskedNDArray` 的 `mean()`/`var()`/`std()`/`any()`/`all()` 增加 `where` 参数。
+
+## 修改的文件
+
+### 1. `astropy/units/quantity.py`
+- 新增导入 `from astropy.utils.compat import NUMPY_LT_1_20, NUMPY_LT_1_22`。
+- 将 `var`/`std`/`mean` 改为按 `NUMPY_LT_1_20` 条件分支：NumPy ≥ 1.20 时接受关键字参数 `*, where=True` 并透传给 `np.var`/`np.std`/`np.mean`（旧版 NumPy 保持原签名）。
+- 将 `nansum` 改为按 `NUMPY_LT_1_22` 条件分支：NumPy ≥ 1.22 时接受 `*, initial=None, where=True`（`np.nansum` 的 `initial`/`where` 自 1.22 才引入）。
+
+### 2. `astropy/utils/masked/core.py`
+- `mean`/`var`/`std` 增加 `*, where=True`，并把用户 `where` 与掩码合并为 `~self.mask & where`（`var`/`std` 用 `where_final`），统计分母也改用合并后的 `where`。
+- `any`/`all` 增加 `*, where=True`，同样用 `~self.mask & where`。
+
+### 3. 两个测试文件
+- `test_quantity_array_methods.py`：更新导入并新增 `test_mean_where`、`test_std_where`、`test_var_where`、`test_min_where`、`test_max_where`、`test_sum_where`、`test_nansum_where`（`mean/std/var` 用例用 `NUMPY_LT_1_20` xfail，`nansum` 用 `NUMPY_LT_1_22` xfail）。
+- `test_masked.py`：更新导入并新增 `test_sum_where`、`test_mean_where`、`test_var_where`、`test_std_where`、`test_min_where`、`test_max_where`、`test_all_and_any_where`。
+
+## 验证
+
+- 修改后的源文件关键区域与已合并的 Astropy 5.1 发布版逐字节一致（导入行、`var`/`std`/`mean`/`nansum` 以及 `mean`/`var`/`std`/`any`/`all` 的方法签名与行号完全对应）。
+- 所有新增代码片段通过 `ast.parse` 语法校验。
+- 在沙箱中用当前 Astropy 的 `Masked` 实测了 `sum/mean/var/std/any/all/min/max` 的 `where` 与掩码合并逻辑，结果符合预期。
+
+兼容性保持方式：单位（`var` 输出 `unit**2`、`nansum`/`mean`/`std` 保持原单位）与掩码（`~mask & where`）均被保留；旧版 NumPy 通过 `NUMPY_LT_1_20`/`NUMPY_LT_1_22` 条件分支退回不含 `where`/`initial` 的旧签名，避免向旧 NumPy 传递其不认识的参数。

@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "ml-materials-composition-report.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "ml-materials-composition-report.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1930645/G-research-query-008/S5/artifacts/ml-materials-composition-report.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793535542000000000,
+      "type": "file",
+      "size": 57074,
+      "sha256": "a45575390b84e8bd97efaa7709f3610560d820d38051387a4337eb310ae1791a"
+    }
+  ],
+  "entries": {
+    "ml-materials-composition-report.md": {
+      "mode": 384,
+      "mtime_ns": 1793535542000000000,
+      "type": "file",
+      "size": 57074,
+      "sha256": "a45575390b84e8bd97efaa7709f3610560d820d38051387a4337eb310ae1791a"
+    }
+  },
+  "deleted_entries": {}
+}

@@ -1,0 +1,86 @@
+All four research angles are complete. Here is the synthesized evidence.
+
+---
+
+# Does a 500,000-passenger airport generate significant, measurable socioeconomic impacts? — Evidence synthesis
+
+## Bottom line
+
+The hypothesis is **mostly supported — with an important distinction.** The evidence shows clearly that a ~500,000-passenger airport produces **measurable** socioeconomic impacts (direct jobs, wages, output, visitor spending, tax revenue) that are **significant at the local and sub-regional scale**, especially for smaller communities. However, the evidence for **significant *net, causal* regional economic growth** (catalytic development effects) at this size is **weak-to-negligible**, and many widely-cited "impact" figures overstate net additionality because they come from input-output/impact-study methods rather than causal econometrics.
+
+In short: **"measurable" = strongly supported; "significant" = supported at the local level, but qualified/refuted as a claim of large catalytic growth.**
+
+---
+
+## 1. Evidence that SUPPORTS the hypothesis
+
+### (a) Direct employment is measurable and anchored quantitatively
+The industry benchmark from ACI Europe (InterVISTAS, 2015) gives **0.954 direct jobs per 1,000 passengers** on average, rising to **~1.2 direct jobs per 1,000 passengers for airports under 1 million passengers/year** — small airports are the *most* job-intensive size class (diseconomies of scale). For 500,000 passengers this implies roughly **480–600 direct on-airport jobs** ([ACI Europe, "The Impact of an Airport"](https://www.aci-europe.org/downloads/resources/The%20Impact%20of%20An%20Airport.pdf)).
+
+US federal research independently confirms the same shape: [TRB/ACRP WebResource 12](https://crp.trb.org/acrpwebresource12/understanding-air-service-and-regional-economic-activity/the-role-of-aviation-in-supporting-local-economic-activity/) (citing ACRP Report 218) finds **non-hub airports generate ~0.0114 regional jobs per departing seat — more than twice the small-hub rate**, i.e. a 500k-passenger airport is disproportionately job-intensive for its region.
+
+### (b) Concrete named airports at this exact scale show material impacts
+Six independently verified airports in the 400k–560k passenger band, across three countries:
+
+| Airport | Passengers | Measured impact | Source |
+|---|---|---|---|
+| Comox Valley (YQQ), Canada | ~450k | 1,690 jobs; $169M regional GDP; $312M output | [Comox Airport](https://www.comoxairport.com/economic-impact) |
+| Tri-Cities (TRI), Tennessee | ~447k | ~2,100 jobs; $289M activity; $42M tax | [Elizabethton Star](https://elizabethton.com/2026/08/25/economic-impact-study-shows-tri-cities-airport-plays-significant-role-in-regional-economy/) |
+| Bellingham (BLI), Washington | ~529k | 2,940 jobs; $471M | [WSDOT profile](https://wsdot.wa.gov/publications/fulltext/aviation/BLI-BellinghamInternational.pdf) |
+| Durango-La Plata (DRO), Colorado | ~563k | 1,993 jobs; $342M | [Colorado CEIS](https://www.coloradoaviationsystem.com/wp-content/uploads/2025/02/DRO_Durango-La-Plata-County-1.pdf) |
+| Montrose (MTJ), Colorado | ~530k | 4,323 jobs; $713M (ski-gateway) | [Colorado CEIS](https://www.coloradoaviationsystem.com/wp-content/uploads/2025/02/MTJ_Montrose-Regional-1.pdf) |
+| Norwich (NWI), UK | ~453k | ~1,590 jobs; £70m+ GVA | [Unite regional-airports report](https://www.unitetheunion.org/media/3098/regional-airports-data.pdf) |
+
+Two further near-band cases: Cornwall Newquay (~410k, ~£50m GVA / 700–988 jobs, [Masterplan](https://www.cornwallairportnewquay.com/wp-content/uploads/2024/09/Cornwall-Airport-Newquay-Masterplan-2015-2030-compressed.pdf)) and Burlington VT (~700k, 5,646 jobs / $1.07B, [BTV](https://btv.aero/news/new-economic-impact-study/)).
+
+These magnitudes are clearly **significant relative to small-region economies** — e.g. ~1,690 jobs for the ~70k-population Comox Valley, or ~2,000 jobs for ~57k-population La Plata County.
+
+### (c) Aggregate benchmarks and connectivity elasticities
+- The 570 US small-community airports collectively support **~1 million jobs and $134B in economic activity** ([Regional Airline Association](https://raa.org/valuable-service-air-service-to-small-communities-generates-significant-economic-activity/)).
+- Econometric panels find **a 10% increase in direct air connectivity raises GDP ~0.5% and employment ~1.6%** ([SEO Amsterdam Economics / ACI Europe](https://www.seo.nl/en/publications/the-economic-and-social-impact-of-european-airports-and-air-connectivity/)).
+- Positive elasticities of local employment/income to airport size are consistently estimated (e.g. ~0.04–0.13) ([Sheard 2019, *Economica*](https://ideas.repec.org/a/bla/econom/v86y2019i342p300-335.html); [Brueckner 2003](https://ideas.repec.org/a/sae/urbstu/v40y2003i8p1455-1469.html)).
+
+---
+
+## 2. Evidence that REFUTES or QUALIFIES the "significant" claim
+
+### (a) Causal growth effects at small-airport scale are tiny — and may run the wrong way
+The most directly relevant causal evidence is discouraging:
+- [Pot & Koster (2022, *J. Transport Geography*)](https://ideas.repec.org/a/eee/jotrge/v98y2022ics096669232100315x.html): the GDP-per-capita elasticity of air accessibility is **0.179 for large airports, 0.033 for medium, and only 0.022 for small airports** — roughly one-eighth of a hub. They conclude **"causality mainly runs from economic growth to air accessibility, especially for smaller airports."**
+- [Tveter (2017)](https://ideas.repec.org/a/eee/retrec/v63y2017icp50-58.html): difference-in-differences on Norway's 1970s regional-airport construction finds **no statistically significant population/employment effect**.
+- [Breidenbach (2020, *Regional Studies*)](https://ideas.repec.org/a/taf/regstd/v54y2020i8p1084-1097.html): German regional airports show **no measurable spillover effects** despite persistent losses and subsidies.
+
+### (b) Airports reallocate more than they grow
+[Sheard (2014, *J. Urban Economics*)](https://econpapers.repec.org/RePEc:eee:juecon:v:80:y:2014:i:c:p:133-152) — using an instrumental-variable design — finds airports raise tradable-services employment (elasticity ~0.22) but the effect on **total local employment is "practically zero"**: airports cause *specialization*, not net growth. This directly undercuts "significant" net-impact claims at this scale.
+
+### (c) The standard method behind "significant impact" claims is itself criticized
+[Forsyth, Niemeier & Njoya (2021, *J. Benefit-Cost Analysis*)](https://ideas.repec.org/a/cup/jbcoan/v12y2021i1p85-121_5.html) argue that **Economic Impact Analysis "misleads air transport policy"** — the gross multiplier figures in most airport impact studies are not net additionality. A [systematic review by Wu et al. (2020)](https://ideas.repec.org/a/eee/trapol/v99y2020icp215-239.html) finds the evidence that aviation subsidies improve regional wellbeing is **inconclusive**.
+
+### (d) The value-for-money problem at thin/small markets
+US Essential Air Service subsidies — the thin markets closest to the smallest airports — cost up to **$1,600 per passenger** on some routes ([CATO](https://www.cato.org/blog/essential-air-subsidies-survive-house); [GAO-24-106681](https://www.gao.gov/products/gao-24-106681)), implying the public cost per unit of benefit can be very high.
+
+---
+
+## 3. Key nuances that resolve the apparent contradiction
+
+1. **Gross vs. net.** Direct jobs/output/visitor spending are real and measurable; but "economic impact studies" sum direct + indirect + induced + visitor effects using multipliers. ACI Europe's own [SEO Amsterdam study](https://www.aci-europe.org/downloads/resources/SEO%20Amsterdam%20Economics%20Study%20-%20The%20Economic%20and%20social%20impact%20of%20European%20Airports%20and%20air%20connectivity.pdf) explicitly reports a **gross** €505B/8.1M jobs versus a much smaller **net** marginal effect (10% flights → +0.5% GDP).
+
+2. **No "500,000 threshold" exists.** Effects are roughly continuous/log-linear with airport size — no study identifies 500,000 passengers as an inflection point where impacts "turn on."
+
+3. **Visitor mix and non-passenger activities dominate some figures.** Montrose's $713M and Hamilton's $1.2B are inflated by a ski gateway and cargo operations respectively; Newquay's GVA is partly an aerospace enterprise zone. Passenger count alone doesn't determine impact.
+
+4. **Direction of causality.** Small airports are frequently *built to serve* growing regions rather than *causing* growth — the reverse-causality finding is the single biggest reason to be cautious about attributing growth to a 500k airport.
+
+---
+
+## 4. Conclusion
+
+| Claim | Verdict | Strength of evidence |
+|---|---|---|
+| A 500k airport produces **measurable** socioeconomic impacts (jobs, wages, output, visitor spend, taxes) | **Supported** | Strong (industry + government + case studies) |
+| Those impacts are **significant at the local/small-region level** | **Supported** | Strong (six named airports; small-population contexts) |
+| The airport drives **significant net regional *growth*** (catalytic effect) | **Qualified/refuted** | Moderate (causal studies find small-to-zero effects at this scale; reverse causality; EIA overstatement) |
+
+**Net assessment:** The hypothesis is **supported on the "measurable" dimension** and **supported locally on "significance"** — a 500,000-passenger airport reliably anchors on the order of **500–600 direct on-airport jobs and roughly 1,500–4,300 total associated jobs, with tens-to-hundreds of millions of dollars/euros in annual output**. But it should be **refuted/qualified as a claim of substantial *net catalytic growth***: the causally-identified growth effect at small-airport scale is near zero (elasticity ~0.02), and headline multiplier figures typically overstate additionality.
+
+**Sources used:** all cited above; per the task constraint, no content was retrieved from or cited to `neweconomics.org` or `transportenvironment.org`.

@@ -1,0 +1,51 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "attached_files/task_23/src/core/test_parser.py"
+  ],
+  "modified": [
+    "attached_files/task_23/src/core/parser.py"
+  ],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "attached_files/task_23/src/core/test_parser.py",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1937700/G-coding-parser-000/S4/artifacts/attached_files/task_23/src/core/test_parser.py",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793701396000000000,
+      "type": "file",
+      "size": 828,
+      "sha256": "ba36dee2395581ca03a37096298537165f53fbc321aedde4b1261b6b01c570aa"
+    },
+    {
+      "path": "attached_files/task_23/src/core/parser.py",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1937700/G-coding-parser-000/S4/artifacts/attached_files/task_23/src/core/parser.py",
+      "change": "modified",
+      "mode": 420,
+      "mtime_ns": 1793701391000000000,
+      "type": "file",
+      "size": 714,
+      "sha256": "5b8379522be71f67035d2eb3b32519175d3c9da49ca8be4bf1327744cb11e37b"
+    }
+  ],
+  "entries": {
+    "attached_files/task_23/src/core/test_parser.py": {
+      "mode": 384,
+      "mtime_ns": 1793701396000000000,
+      "type": "file",
+      "size": 828,
+      "sha256": "ba36dee2395581ca03a37096298537165f53fbc321aedde4b1261b6b01c570aa"
+    },
+    "attached_files/task_23/src/core/parser.py": {
+      "mode": 420,
+      "mtime_ns": 1793701391000000000,
+      "type": "file",
+      "size": 714,
+      "sha256": "5b8379522be71f67035d2eb3b32519175d3c9da49ca8be4bf1327744cb11e37b"
+    }
+  },
+  "deleted_entries": {}
+}

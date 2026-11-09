@@ -1,0 +1,8 @@
+**Amazon FY2017 DPO ≈ 93.86 days**
+
+From the 10-K (in $ millions):
+- Accounts payable: 2016 = 25,309; 2017 = 34,616 → average = 29,962.5
+- Inventories: 2016 = 11,461; 2017 = 16,047 → ΔInventory = 4,586
+- FY2017 Cost of sales = 111,934
+
+DPO = 365 × 29,962.5 / (111,934 + 4,586) = 10,936,312.5 / 116,520 ≈ **93.86**

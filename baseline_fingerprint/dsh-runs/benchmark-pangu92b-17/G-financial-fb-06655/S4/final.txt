@@ -1,0 +1,16 @@
+I have all the line items I need from the balance sheet and P&L.
+
+**Inputs (in $ millions):**
+- Accounts payable, Dec 31, 2016: **$25,309**
+- Accounts payable, Dec 31, 2017: **$34,616**
+- Inventories, Dec 31, 2016: **$11,461**
+- Inventories, Dec 31, 2017: **$16,047**
+- Cost of sales, FY2017: **$111,934**
+
+**Calculation:**
+- Average AP = (25,309 + 34,616) / 2 = 29,962.5
+- Change in inventory = 16,047 − 11,461 = 4,586
+- Denominator = 111,934 + 4,586 = 116,520
+- DPO = 365 × 29,962.5 / 116,520 = 93.8578…
+
+**Amazon's FY2017 DPO = 93.86**

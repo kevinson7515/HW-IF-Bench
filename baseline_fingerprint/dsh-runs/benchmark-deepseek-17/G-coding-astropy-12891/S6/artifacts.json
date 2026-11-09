@@ -1,0 +1,86 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [],
+  "modified": [
+    "attached_files/task_2/astropy/units/quantity.py",
+    "attached_files/task_2/astropy/units/tests/test_quantity_array_methods.py",
+    "attached_files/task_2/astropy/utils/masked/core.py",
+    "attached_files/task_2/astropy/utils/masked/tests/test_masked.py"
+  ],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "attached_files/task_2/astropy/units/quantity.py",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1872575/G-coding-astropy-12891/S6/artifacts/attached_files/task_2/astropy/units/quantity.py",
+      "change": "modified",
+      "mode": 420,
+      "mtime_ns": 1792681161000000000,
+      "type": "file",
+      "size": 81796,
+      "sha256": "f33a58da9c04bdc0b8246d346c827c60debbcd1bcfd55de2efeab1d99ae8829d"
+    },
+    {
+      "path": "attached_files/task_2/astropy/units/tests/test_quantity_array_methods.py",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1872575/G-coding-astropy-12891/S6/artifacts/attached_files/task_2/astropy/units/tests/test_quantity_array_methods.py",
+      "change": "modified",
+      "mode": 420,
+      "mtime_ns": 1792681417000000000,
+      "type": "file",
+      "size": 21018,
+      "sha256": "c68ac88fdd25522d9173c81f9bcc48b811446a3acb13c8a22c45b0285dc54aa6"
+    },
+    {
+      "path": "attached_files/task_2/astropy/utils/masked/core.py",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1872575/G-coding-astropy-12891/S6/artifacts/attached_files/task_2/astropy/utils/masked/core.py",
+      "change": "modified",
+      "mode": 420,
+      "mtime_ns": 1792681189000000000,
+      "type": "file",
+      "size": 46034,
+      "sha256": "ff0a37f58dcf1ef448612ce96108e839b782de90f572a1426977e207157e0824"
+    },
+    {
+      "path": "attached_files/task_2/astropy/utils/masked/tests/test_masked.py",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1872575/G-coding-astropy-12891/S6/artifacts/attached_files/task_2/astropy/utils/masked/tests/test_masked.py",
+      "change": "modified",
+      "mode": 420,
+      "mtime_ns": 1792681347000000000,
+      "type": "file",
+      "size": 51269,
+      "sha256": "5c282b5f773da980a6d876f9886aea055c2a99bf08cf61885dafcf1f7380ea79"
+    }
+  ],
+  "entries": {
+    "attached_files/task_2/astropy/units/quantity.py": {
+      "mode": 420,
+      "mtime_ns": 1792681161000000000,
+      "type": "file",
+      "size": 81796,
+      "sha256": "f33a58da9c04bdc0b8246d346c827c60debbcd1bcfd55de2efeab1d99ae8829d"
+    },
+    "attached_files/task_2/astropy/units/tests/test_quantity_array_methods.py": {
+      "mode": 420,
+      "mtime_ns": 1792681417000000000,
+      "type": "file",
+      "size": 21018,
+      "sha256": "c68ac88fdd25522d9173c81f9bcc48b811446a3acb13c8a22c45b0285dc54aa6"
+    },
+    "attached_files/task_2/astropy/utils/masked/core.py": {
+      "mode": 420,
+      "mtime_ns": 1792681189000000000,
+      "type": "file",
+      "size": 46034,
+      "sha256": "ff0a37f58dcf1ef448612ce96108e839b782de90f572a1426977e207157e0824"
+    },
+    "attached_files/task_2/astropy/utils/masked/tests/test_masked.py": {
+      "mode": 420,
+      "mtime_ns": 1792681347000000000,
+      "type": "file",
+      "size": 51269,
+      "sha256": "5c282b5f773da980a6d876f9886aea055c2a99bf08cf61885dafcf1f7380ea79"
+    }
+  },
+  "deleted_entries": {}
+}

@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "output",
+    "output/credit_card_recommendation_sarah_bosch.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "output/credit_card_recommendation_sarah_bosch.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-customer-banking-001/S1/artifacts/output/credit_card_recommendation_sarah_bosch.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793029687000000000,
+      "type": "file",
+      "size": 9189,
+      "sha256": "20807ed26b265b159409f607765be21b68edc630a81e3be0000244b66f7b621b"
+    }
+  ],
+  "entries": {
+    "output": {
+      "mode": 448,
+      "mtime_ns": 1793029687000000000,
+      "type": "directory"
+    },
+    "output/credit_card_recommendation_sarah_bosch.md": {
+      "mode": 384,
+      "mtime_ns": 1793029687000000000,
+      "type": "file",
+      "size": 9189,
+      "sha256": "20807ed26b265b159409f607765be21b68edc630a81e3be0000244b66f7b621b"
+    }
+  },
+  "deleted_entries": {}
+}

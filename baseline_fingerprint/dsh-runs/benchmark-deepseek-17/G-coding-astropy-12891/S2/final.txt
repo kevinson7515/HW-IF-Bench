@@ -1,0 +1,13 @@
+已完成。对应 astropy PR #12891 的实现：
+
+**`units/quantity.py`**
+- 导入 `NUMPY_LT_1_20, NUMPY_LT_1_22`
+- `mean/var/std` 增加关键字 `where=True`（`NUMPY_LT_1_20` 时保持旧签名）
+- `nansum` 增加 `initial=None, where=True`（`NUMPY_LT_1_22` 时保持旧签名）
+
+**`utils/masked/core.py`**
+- `mean/var/std/any/all` 增加 `*, where=True`，用 `where_final = ~self.mask & where` 将掩码并入，保持掩码传播
+
+**两个测试文件** 补充 `test_*_where`（含 `xfail(NUMPY_LT_1_20/1_22)` 与分片告警过滤）。
+
+验证：4 个文件均通过 `py_compile`；`masked/core.py`、`test_masked.py` 与 v5.1 逐字节一致，`quantity.py` 及单测仅余与本次改动无关的 isort/`latex_inline` 基线差异。行为抽查 `np.mean(q, where=...)==3.6 m`、`q.sum(initial=0*m, where=...)==9.0 m` 正确。

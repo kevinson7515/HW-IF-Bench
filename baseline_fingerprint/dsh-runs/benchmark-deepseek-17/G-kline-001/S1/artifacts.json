@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "output",
+    "output/moutai_600519_daily_qfq.csv",
+    "output/moutai_kline.png"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "output/moutai_600519_daily_qfq.csv",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1890615/G-marketing-kline-000/S1/artifacts/output/moutai_600519_daily_qfq.csv",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792830979000000000,
+      "type": "file",
+      "size": 38028,
+      "sha256": "114fecc76ab5426f045c930c7c8f53b0ee55902b449d4377c9ff6a06b5094f16"
+    },
+    {
+      "path": "output/moutai_kline.png",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1890615/G-marketing-kline-000/S1/artifacts/output/moutai_kline.png",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792830979000000000,
+      "type": "file",
+      "size": 310656,
+      "sha256": "1f8c9cadf3fb9f27e9816f275e786e041d34bc054ca3b053953212c06167a7ea"
+    }
+  ],
+  "entries": {
+    "output": {
+      "mode": 448,
+      "mtime_ns": 1792830979000000000,
+      "type": "directory"
+    },
+    "output/moutai_600519_daily_qfq.csv": {
+      "mode": 384,
+      "mtime_ns": 1792830979000000000,
+      "type": "file",
+      "size": 38028,
+      "sha256": "114fecc76ab5426f045c930c7c8f53b0ee55902b449d4377c9ff6a06b5094f16"
+    },
+    "output/moutai_kline.png": {
+      "mode": 384,
+      "mtime_ns": 1792830979000000000,
+      "type": "file",
+      "size": 310656,
+      "sha256": "1f8c9cadf3fb9f27e9816f275e786e041d34bc054ca3b053953212c06167a7ea"
+    }
+  },
+  "deleted_entries": {}
+}

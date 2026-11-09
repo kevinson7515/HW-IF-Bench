@@ -1,0 +1,61 @@
+CONFIDENTIAL LEGAL REVIEW
+
+SALES-TAX NEXUS GAP
+RECORD: CB-DOC-001-034
+MATTER: CB-MA-2401
+PORTFOLIO KEY: CBP-001-10
+SOURCE SYSTEM: NetSuite close workbook
+EVIDENCE ROLE: current_operations
+ENTITY KEY: ENT-001-1009
+REFERENCED REVISION: REV-2025.3
+CURRENT REVISION: REV-2025.3
+CUSTODIAN: Nadine Flores
+REVIEWER: Nadine Flores
+
+NATIVE RECORD
+For immutable entity ENT-001-1009.
+the sales-tax nexus gap activity occurred in Delaware under CB-MA-2401-E877. The operating extract cites revision REV-2025.3 and portfolio key CBP-001-10; it does not state a legal disposition.
+
+SOURCE LINEAGE
+NetSuite close workbook produced native record CB-DOC-001-034 for CB-MA-2401. Nadine Flores owns the source population and Nadine Flores recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns sales-tax nexus gap within Project Daybreak battery acquisition. A carve-out manufacturer owns cathode tooling in Nevada while its largest automaker customer can terminate upon an indirect change of control. The record addresses one part of the broader question: Match the cathode-tooling records and automaker consent history to the exact acquired entity.
+
+NATIVE RECORD
+For immutable entity ENT-001-1009.
+the sales-tax nexus gap activity occurred in Delaware under CB-MA-2401-E877. The operating extract cites revision REV-2025.3 and portfolio key CBP-001-10; it does not state a legal disposition.
+
+RELIANCE LIMITS
+This file supplies current operations evidence for CBP-001-10. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SCHEDULE 1 — NATIVE ROWS
+CBP-001-10-CUR-01 | 2025-05-26 | ENT-001-1009 | REV-2025.3 | Caleb Hassan | pending | $876,574.00 | Current Operations support row 1 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-CUR-02 | 2025-05-29 | ENT-001-1009 | REV-2025.3 | Sofia Bennett | superseded | 15% | Current Operations support row 2 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-CUR-03 | 2025-06-01 | ENT-001-1009 | REV-2025.3 | Theo Laurent | confirmed | 15% | Current Operations support row 3 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-CUR-04 | 2025-06-04 | ENT-001-1009 | REV-2025.3 | Nadine Flores | pending | $201,670.00 | Current Operations support row 4 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-CUR-05 | 2025-06-07 | ENT-001-1009 | REV-2025.3 | Owen Delgado | confirmed | 15% | Current Operations support row 5 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-CUR-06 | 2025-06-10 | ENT-001-1009 | REV-2025.3 | Maya Ellison | pending | 3% | Current Operations support row 6 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-CUR-07 | 2025-06-13 | ENT-001-1009 | REV-2025.3 | Dominic Alvarez | recorded | $884,228.00 | Current Operations support row 7 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-CUR-08 | 2025-06-16 | ENT-001-2009 | REV-2025.3 | Talia Brooks | confirmed | 16% | Current Operations support row 8 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-CUR-09 | 2025-06-19 | ENT-001-1009 | REV-2025.3 | Caleb Hassan | recorded | 21% | Current Operations support row 9 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-CUR-10 | 2025-06-22 | ENT-001-1009 | REV-2025.3 | Sofia Bennett | recorded | $129,312.00 | Current Operations support row 10 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-CUR-11 | 2025-06-25 | ENT-001-1009 | REV-2025.3 | Theo Laurent | recorded | 17% | Current Operations support row 11 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-CUR-12 | 2025-06-28 | ENT-001-1009 | REV-2025.3 | Nadine Flores | superseded | 5% | Current Operations support row 12 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-CUR-13 | 2025-07-01 | ENT-001-1009 | REV-2025.3 | Owen Delgado | superseded | $609,095.00 | Current Operations support row 13 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-CUR-14 | 2025-07-04 | ENT-001-1009 | REV-2025.3 | Maya Ellison | superseded | 2% | Current Operations support row 14 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-CUR-15 | 2025-07-07 | ENT-001-1009 | REV-2025.3 | Dominic Alvarez | superseded | 17% | Current Operations support row 15 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-CUR-16 | 2025-07-10 | ENT-001-1009 | REV-2025.3 | Talia Brooks | pending | $658,522.00 | Current Operations support row 16 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-CUR-17 | 2025-07-13 | ENT-001-1009 | REV-2025.3 | Caleb Hassan | recorded | 23% | Current Operations support row 17 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+CBP-001-10-CUR-18 | 2025-07-16 | ENT-001-1009 | REV-2025.3 | Sofia Bennett | confirmed | 26% | Current Operations support row 18 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.
+
+SCHEDULE 2 — CHRONOLOGY
+2024-08-19 | native population opened | Caleb Hassan | CB-DOC-001-034
+2024-08-25 | custodian boundary confirmed | Adrian Mensah | CBP-001-10
+2024-08-31 | export created | Henry Cho | CB-DOC-001-034
+2024-09-06 | cross-system identifier checked | Owen Delgado | CBP-001-10
+2024-09-12 | revision retained | Rafael Okafor | CB-DOC-001-034
+2024-09-18 | matter copy collected | Elliot Mercer | CBP-001-10
+
+PROVENANCE
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

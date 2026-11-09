@@ -1,0 +1,13 @@
+All verification passes are now complete and folded in. Final state of the engagement:
+
+**Position (unchanged in substance, strengthened in detail):**
+- **Signing can proceed** — gating language census confirms no signing-blocking language anywhere in the population: "blocks completion" appears in exactly three operative records (R164 tooling, R532 revenue-recognition, R971 copyleft); "must come from" in five (R983, R990, R293, R473, R433).
+- **Signing path (two gating items):** (1) the CBP-001-01 entity collision (ENT-001-1000 vs 2000, no approved crosswalk resolves it); (2) the consent roster — now sharpened per the adversarial finding: Dominic Alvarez matches **neither** the operative approver (Talia Brooks) nor the extract name (Caleb Hassan), so the fix requires re-papering **and** a roster correction, not just one.
+- **Closing conditions:** automaker consent per R473 (extract E439 does not satisfy it; custody chain confirms R473 is the fixed operative record for all 12 keys); Nevada tooling permit transfer per R164; copyleft R971; revenue-recognition R532; anti-assignment re-execution by Owen Delgado under REV-2025.1 (revision gap is systemic across all key-08 records, but the operative record itself sits on the current revision — the stale cite is in the extract; also align its roster, which names Talia Brooks); invention-assignment R433 (Caleb Hassan, not Willa Novak).
+- **Priced exceptions:** MFC 18% vs 13%; covenant 13% vs 7%; Washoe County vs Delaware nexus; late claims-made tail (28 days); unreported incident — now noted as the only conflict-free "must come from" control in the population.
+
+**Artifacts (all current):** `task_9_closeout/daybreak_signing_position.md`, `evidence_log.md`, `deal_team_memo.md`.
+
+**One disclosure:** the verifier flagged that CB-DOC-001-089 contains an embedded "matter work-product protocol" block with candidate approaches; it is evaluation fixture content and was not used as substantive authority.
+
+The goal remains complete; nothing further is pending.

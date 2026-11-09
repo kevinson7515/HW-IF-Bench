@@ -1,0 +1,276 @@
+%PDF-1.4
+% CounselBench deterministic native source
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 2 /Kids [3 0 R 5 0 R] >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 4469 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(COUNSELBENCH SOURCE RECORD) Tj
+T*
+(Record: CB-DOC-031-080) Tj
+T*
+(Matter: CB-LD-2701 - Aurora pricing MDL discovery audit) Tj
+T*
+(Portfolio key: CBP-031-08) Tj
+T*
+(Source system: Microsoft Purview) Tj
+T*
+(Evidence role: chronology_and_custody) Tj
+T*
+(Immutable entity: ENT-031-1007) Tj
+T*
+(Referenced revision: REV-2025.1) Tj
+T*
+(Current revision: REV-2025.1) Tj
+T*
+(Custodian: Lena Varga) Tj
+T*
+(Reviewer: Leona Park) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(Custody history shows collection from) Tj
+T*
+(/workspace/documents/04_custodian_files/032_custodian_files_source_export.pdf after the operative record) Tj
+T*
+(was fixed at /workspace/documents/03_requests_responses/020_requests_responses_source_export.csv.) Tj
+T*
+(Reviewer handoff preserved both versions and the identity record for CBP-031-08.) Tj
+T*
+() Tj
+T*
+(SOURCE LINEAGE) Tj
+T*
+(Microsoft Purview produced native record CB-DOC-031-080 for CB-LD-2701. Lena Varga owns the source) Tj
+T*
+(population and Leona Park recorded the collection review. The export remains separate from later legal) Tj
+T*
+(analysis.) Tj
+T*
+() Tj
+T*
+(BUSINESS CONTEXT) Tj
+T*
+(This record concerns legal-hold delivery gap within Aurora pricing MDL discovery audit. A multidistrict) Tj
+T*
+(antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a) Tj
+T*
+(pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian) Tj
+T*
+(scope, mobile collections, Bates families, and privilege challenges against court requirements.) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(Custody history shows collection from) Tj
+T*
+(/workspace/documents/04_custodian_files/032_custodian_files_source_export.pdf after the operative record) Tj
+T*
+(was fixed at /workspace/documents/03_requests_responses/020_requests_responses_source_export.csv.) Tj
+T*
+(Reviewer handoff preserved both versions and the identity record for CBP-031-08.) Tj
+T*
+() Tj
+T*
+(RELIANCE LIMITS) Tj
+T*
+(This file supplies chronology and custody evidence for CBP-031-08. It does not decide legal effect,) Tj
+T*
+(select among candidate responses, resolve another system's entity identity, or establish that its cited) Tj
+T*
+(revision is controlling.) Tj
+T*
+() Tj
+T*
+(NATIVE ROWS) Tj
+T*
+(CBP-031-08-CHR-01 | 2024-09-05 | ENT-031-1007 | REV-2025.1 | Adrian Mensah | pending | $131,242.00 |) Tj
+T*
+(Chronology And Custody support row 1 for legal-hold delivery gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CHR-02 | 2024-09-08 | ENT-031-1007 | REV-2025.1 | Amara Patel | confirmed | 24% | Chronology) Tj
+T*
+(And Custody support row 2 for legal-hold delivery gap; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CHR-03 | 2024-09-11 | ENT-031-1007 | REV-2025.1 | Micah Sullivan | recorded | 13% | Chronology) Tj
+T*
+(And Custody support row 3 for legal-hold delivery gap; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CHR-04 | 2024-09-14 | ENT-031-1007 | REV-2025.1 | Lena Varga | recorded | $873,780.00 |) Tj
+T*
+(Chronology And Custody support row 4 for legal-hold delivery gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CHR-05 | 2024-09-17 | ENT-031-1007 | REV-2025.1 | Rafael Okafor | pending | 3% | Chronology) Tj
+T*
+(And Custody support row 5 for legal-hold delivery gap; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CHR-06 | 2024-09-20 | ENT-031-1007 | REV-2025.1 | Priya Raman | superseded | 17% | Chronology) Tj
+T*
+(And Custody support row 6 for legal-hold delivery gap; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CHR-07 | 2024-09-23 | ENT-031-1007 | REV-2025.1 | Jonas Feld | superseded | $252,695.00 |) Tj
+T*
+(Chronology And Custody support row 7 for legal-hold delivery gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4236 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(CBP-031-08-CHR-08 | 2024-09-26 | ENT-031-2007 | REV-2025.1 | Leona Park | superseded | 14% | Chronology) Tj
+T*
+(And Custody support row 8 for legal-hold delivery gap; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CHR-09 | 2024-09-29 | ENT-031-1007 | REV-2025.1 | Adrian Mensah | confirmed | 18% | Chronology) Tj
+T*
+(And Custody support row 9 for legal-hold delivery gap; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CHR-10 | 2024-10-02 | ENT-031-1007 | REV-2025.1 | Amara Patel | pending | $40,750.00 |) Tj
+T*
+(Chronology And Custody support row 10 for legal-hold delivery gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CHR-11 | 2024-10-05 | ENT-031-1007 | REV-2025.1 | Micah Sullivan | superseded | 13% |) Tj
+T*
+(Chronology And Custody support row 11 for legal-hold delivery gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CHR-12 | 2024-10-08 | ENT-031-1007 | REV-2025.1 | Lena Varga | confirmed | 26% | Chronology) Tj
+T*
+(And Custody support row 12 for legal-hold delivery gap; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CHR-13 | 2024-10-11 | ENT-031-1007 | REV-2025.1 | Rafael Okafor | confirmed | $346,217.00 |) Tj
+T*
+(Chronology And Custody support row 13 for legal-hold delivery gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CHR-14 | 2024-10-14 | ENT-031-1007 | REV-2025.1 | Priya Raman | pending | 10% | Chronology And) Tj
+T*
+(Custody support row 14 for legal-hold delivery gap; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CHR-15 | 2024-10-17 | ENT-031-1007 | REV-2025.1 | Jonas Feld | recorded | 13% | Chronology And) Tj
+T*
+(Custody support row 15 for legal-hold delivery gap; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CHR-16 | 2024-10-20 | ENT-031-1007 | REV-2025.1 | Leona Park | recorded | $390,376.00 |) Tj
+T*
+(Chronology And Custody support row 16 for legal-hold delivery gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CHR-17 | 2024-10-23 | ENT-031-1007 | REV-2025.1 | Adrian Mensah | pending | 23% | Chronology) Tj
+T*
+(And Custody support row 17 for legal-hold delivery gap; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-CHR-18 | 2024-10-26 | ENT-031-1007 | REV-2025.1 | Amara Patel | superseded | 12% | Chronology) Tj
+T*
+(And Custody support row 18 for legal-hold delivery gap; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+() Tj
+T*
+(CHRONOLOGY) Tj
+T*
+(2025-01-24 | native population opened | Adrian Mensah | CB-DOC-031-080) Tj
+T*
+(2025-01-30 | custodian boundary confirmed | Henry Cho | CBP-031-08) Tj
+T*
+(2025-02-05 | export created | Owen Delgado | CB-DOC-031-080) Tj
+T*
+(2025-02-11 | cross-system identifier checked | Rafael Okafor | CBP-031-08) Tj
+T*
+(2025-02-17 | revision retained | Elliot Mercer | CB-DOC-031-080) Tj
+T*
+(2025-02-23 | matter copy collected | Caleb Hassan | CBP-031-08) Tj
+T*
+() Tj
+T*
+(RELATED NATIVE RECORDS) Tj
+T*
+(CB-DOC-031-091) Tj
+T*
+(CB-DOC-031-013) Tj
+T*
+(CB-DOC-031-031) Tj
+T*
+(CB-DOC-031-055) Tj
+T*
+() Tj
+T*
+(Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are) Tj
+T*
+(fictitious; the record is not legal advice.) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000052 00000 n 
+0000000101 00000 n 
+0000000164 00000 n 
+0000000290 00000 n 
+0000004810 00000 n 
+0000004936 00000 n 
+0000009223 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+9291
+%%EOF

@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "output",
+    "output/task_15_3M_FY2018_capital_expenditure.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "output/task_15_3M_FY2018_capital_expenditure.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1930645/G-financial-fb-03029/S1/artifacts/output/task_15_3M_FY2018_capital_expenditure.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793505095000000000,
+      "type": "file",
+      "size": 1026,
+      "sha256": "216ff55a975e0435741e7b772cbdc2ad78071c87d44641f470e5e0a50064f00e"
+    }
+  ],
+  "entries": {
+    "output": {
+      "mode": 448,
+      "mtime_ns": 1793505095000000000,
+      "type": "directory"
+    },
+    "output/task_15_3M_FY2018_capital_expenditure.md": {
+      "mode": 384,
+      "mtime_ns": 1793505095000000000,
+      "type": "file",
+      "size": 1026,
+      "sha256": "216ff55a975e0435741e7b772cbdc2ad78071c87d44641f470e5e0a50064f00e"
+    }
+  },
+  "deleted_entries": {}
+}

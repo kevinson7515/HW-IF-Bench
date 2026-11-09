@@ -1,0 +1,13 @@
+详尽报告已完成，写入工作区文件 **`materials-ml-report.md`**（10 章、约 220 行，含国际/国内课题组表、数据库表、模型精度表、TRL 表与 80 余条参考 URL；关键事实均经网络核实，未证实项单独标注）。核心结论如下：
+
+**研究现状**：四条路线——①代理模型+贝叶斯优化/主动学习；②生成式模型（MatterGen/GNoME/CDVAE）；③通用 MLIP+高通量筛选；④闭环自驱动实验室。里程碑：Xue 2016（80 万候选中 36 次实验锁定目标合金）；Wen 2019（HEA 硬度超训练集最优 10%）；Rao 2022 Science（MPIE 团队，主动学习发现高熵 Invar）；GNoME 2023（220 万新晶体/38.1 万稳定）；MatterGen 2025（属性条件生成，SUN 比例翻倍+，开源进 Azure）。
+
+**课题组**：国际有 Ceder（Berkeley/LBNL，A-Lab）、Ong（UCSD）、Wolverton（西北大学）、Buonassisi（MIT）、Lookman（LANL）、Jung（KAIST）、Tsuda（东大）、Raabe/Neugebauer（MPIE）等；国内有汪卫华/柳延辉（物理所）、吕坚（港城大）、谢建新/宿彦京（北科大）、饶梓元（上交）、胡远超（松山湖）、倪军/张亮（清华）、孙志梅（北航）、AISI/深势（DPA-4.1 居 Matbench Discovery 榜首）等。
+
+**数据库与精度**：MP 15 万+、OQMD 140 万、AFLOW 393 万、NOMAD 1900 万条、Atomly 35 万+。MatBench 官方数值：成分-only 形成能 MAE 0.045–0.116 eV/atom（MODNet 最优）；结构模型 0.017；钢屈服强度 79.9 MPa（312 条）；HEA 强度 R² 0.78–0.94；MLIP 榜首 F1≈0.93、MAE≈17 meV/atom；闭环搜索空间压缩约 2 万倍。
+
+**挑战**：小样本+发表偏倚、外推弱（多数 OOD 测试实为内插）、成分-only 忽略工艺-组织链条、可合成性不成熟（A-Lab 复核质疑+2026-01 更正）、多目标、UQ 不足、FAIR、DFT-实验系统误差、验证成本、可解释性。
+
+**产业化距离**：已落地——Citrine×松下/昭和电工、Uncountable×Cabot（周期-50%）、微软×PNNL（N2116 电解质）、MatterGen+Syensqo、深势 C 轮 8 亿元；警示——ECL 关停、IBM RXN 停服、A-Lab 更正。市场 2025 年约 1.7 亿美元→2030 年 4.1 亿（仍属利基）。TRL：代理+BO 6–8、生成式 3–4、SDL 4–6。**判断：5–10 年内 AI 成分设计将成为研发前端标配；端到端理想模型的大规模产业化需 10 年以上；瓶颈为数据＞验证＞标准＞人才＞成本＞IP——核心差距不在算法，而在数据、验证与工程化。**
+
+全部论文、URL 与待核实清单详见报告文件。

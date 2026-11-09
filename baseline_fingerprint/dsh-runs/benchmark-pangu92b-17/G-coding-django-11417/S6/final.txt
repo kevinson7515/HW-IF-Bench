@@ -1,0 +1,1 @@
+Let me re-run a clean, careful test of the attached implementation to establish the current behavior definitively.

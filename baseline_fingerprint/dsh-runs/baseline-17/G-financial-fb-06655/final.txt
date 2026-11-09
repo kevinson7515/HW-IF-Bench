@@ -1,0 +1,18 @@
+Amazon's FY2017 days payable outstanding (DPO) is **93.86 days**.
+
+Using the line items from the FY2017 10-K balance sheet and statement of operations (all figures in $ millions):
+
+**Balance sheet:**
+- Accounts payable: $25,309 (Dec 31, 2016) and $34,616 (Dec 31, 2017)
+- Inventories: $11,461 (Dec 31, 2016) and $16,047 (Dec 31, 2017)
+
+**P&L statement:**
+- Cost of sales (COGS): $111,934 (FY2017)
+
+**Calculation:**
+
+- Average accounts payable = (25,309 + 34,616) / 2 = **29,962.5**
+- Change in inventory = 16,047 − 11,461 = **4,586**
+- COGS + change in inventory = 111,934 + 4,586 = **116,520**
+
+DPO = 365 × 29,962.5 / 116,520 = 93.8578… ≈ **93.86**

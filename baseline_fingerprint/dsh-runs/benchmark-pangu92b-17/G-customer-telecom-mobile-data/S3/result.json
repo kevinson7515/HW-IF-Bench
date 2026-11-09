@@ -1,0 +1,28 @@
+{
+  "group_id": "G-customer-telecom-mobile-data",
+  "variant_id": "S3",
+  "task_id": 8,
+  "provider": "pangu92b",
+  "status": "succeeded",
+  "exit_code": 0,
+  "started_at": "2026-10-24T23:03:35.641032+00:00",
+  "finished_at": "2026-10-24T23:09:44.420977+00:00",
+  "duration_seconds": 368.78,
+  "execution_duration_seconds": 229.021,
+  "recording_duration_seconds": 67.566,
+  "system_prompt_sha256": "47589a9c39e5527edb4107c999a8ec37c112861a326110e476281ff3f8a9151e",
+  "task_dir": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-customer-telecom-mobile-data/S3",
+  "recording_status": "complete",
+  "workspace_restore_status": "complete",
+  "signal": null,
+  "session_id": "session-03b9c0dc-e74a-4f73-b4b8-6c9edeba1c61",
+  "final_event_seen": true,
+  "parse_errors": [],
+  "tool_calls": 17,
+  "tool_errors": 1,
+  "steps": 10,
+  "turn_end_reason": {
+    "kind": "completed"
+  },
+  "restore_duration_seconds": 72.193
+}

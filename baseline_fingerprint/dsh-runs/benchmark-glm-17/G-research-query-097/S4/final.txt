@@ -1,0 +1,13 @@
+**Verdict: supported, with caveats.**
+
+**For**
+- ACI Europe: <1 mppa airports = 1.2 direct jobs/1,000 extra pax → 500k pax/yr ≈ 600 direct jobs. [1](https://www.aci-europe.org/downloads/resources/The%20Impact%20of%20An%20Airport.pdf)
+- Tri-Cities Airport (~450k pax, 2023): ~2,100 jobs, $289M output. [2](https://johnsoncitypress.com/news/387931/study-tri-cities-airport-supports-2100-jobs-289m-in-economic-activity/)
+- Sheard (2014): bigger US airports raise tradable-services employment shares. [3](https://www.sciencedirect.com/science/article/abs/pii/S0094119014000060)
+- Mukkala–Tervo (86 EU regions): air traffic→growth causality in peripheral regions only, not core. [4](https://ideas.repec.org/p/wiw/wiwrsa/ersa12p642.html)
+
+**Against**
+- PSO routes: €74.3 average public compensation/pax. [5](https://www.sciencedirect.com/science/article/pii/S2949899623000102)
+- Input–output impact totals are gross activity, not verified net additions.
+
+**Net:** 500k pax/yr is well above the scale for measurable, significant impacts (~600 direct jobs; ~2,100 total above), causality strongest peripherally — but figures are gross, partly subsidized, reverse-caused.

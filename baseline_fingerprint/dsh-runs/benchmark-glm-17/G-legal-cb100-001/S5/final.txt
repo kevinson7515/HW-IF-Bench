@@ -1,0 +1,9 @@
+**Signing can proceed** under `helios-forge:scoped-evidence` (AUTHORIZED, $18,200). Nothing blocks signing — the change of control occurs at closing, so gating items become closing conditions or disclosed holds.
+
+**Closing conditions (8):** covenant 13% vs 7% (Bennett); permits (Sullivan); revenue rec (Chen); MFC 18% vs 13% (Hassan); incident (Patel); tail (Kim); tooling anti-assignment consent — Delgado, REV-2025.1 (Brooks); copyleft (Mensah).
+
+**Holds (4):** 01 identity collision ENT-001-1000/2000 (Mercer); 10 Washoe County vs Delaware, unreconciled (Ibrahim); 11 automaker change-of-control consent — gating, impact 93: approver split Brooks/Hassan, owner Alvarez pending, capacity 0; 12 approver split (Park).
+
+**Tooling:** consent = supported closing condition; Nevada nexus held until reconciled. **Automaker consent:** gating closing condition once approval authority is cured; if uncured at signing, a termination-right priced exception — unsizable (no revenue data), as are covenant/MFC holdbacks (02, 05).
+
+Rejected: shortcut (UNSUPPORTED_BY_CURRENT_EVIDENCE); blanket-hold ($26,000, misses 9/4). Closeout: register, note, Slack reply in `matter-CB-MA-2401/`.

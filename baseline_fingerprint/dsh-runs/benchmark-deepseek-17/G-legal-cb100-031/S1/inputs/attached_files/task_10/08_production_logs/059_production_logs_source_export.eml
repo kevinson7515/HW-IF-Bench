@@ -1,0 +1,99 @@
+From: Rafael Okafor <rafael_okafor@example.test>
+To: Jonas Feld <jonas_feld@example.test>
+Date: 2026-02-02 08:30:00 -0700
+Message-ID: <cb-doc-031-059@example.test>
+Subject: CB-LD-2701 — custodian omission source export
+X-Matter-Number: CB-LD-2701
+X-Portfolio-Key: CBP-031-11
+X-Source-System: court docket mirror
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+The business owner asks whether the custodian omission certification covers 61 records under CB-LD-2701-E151. The counterparty points to the custodian omission population is 98 records under CB-LD-2701-R976. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+
+SOURCE LINEAGE
+court docket mirror produced native record CB-DOC-031-059 for CB-LD-2701. Rafael Okafor owns the source population and Jonas Feld recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns custodian omission within Aurora pricing MDL discovery audit. A multidistrict antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian scope, mobile collections, Bates families, and privilege challenges against court requirements.
+
+NATIVE RECORD
+The business owner asks whether the custodian omission certification covers 61 records under CB-LD-2701-E151. The counterparty points to the custodian omission population is 98 records under CB-LD-2701-R976. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+
+RELIANCE LIMITS
+This file supplies correspondence evidence for CBP-031-11. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SOURCE THREAD
+-----Original Message-----
+From: Amara Patel <amara_patel@example.test>
+Sent: 2025-05-19 09:00:00 -0700
+To: Jonas Feld <jonas_feld@example.test>
+Subject: CBP-031-11 source row CBP-031-11-COR-01
+
+Correspondence support row 1 for custodian omission; retained from the native system so the reviewer can distinguish the exact CBP-031-11 population from similarly named records. The native status is confirmed and the recorded metric is $917,565.00.
+
+-----Original Message-----
+From: Micah Sullivan <micah_sullivan@example.test>
+Sent: 2025-05-22 09:00:00 -0700
+To: Jonas Feld <jonas_feld@example.test>
+Subject: CBP-031-11 source row CBP-031-11-COR-02
+
+Correspondence support row 2 for custodian omission; retained from the native system so the reviewer can distinguish the exact CBP-031-11 population from similarly named records. The native status is recorded and the recorded metric is 15%.
+
+-----Original Message-----
+From: Lena Varga <lena_varga@example.test>
+Sent: 2025-05-25 09:00:00 -0700
+To: Jonas Feld <jonas_feld@example.test>
+Subject: CBP-031-11 source row CBP-031-11-COR-03
+
+Correspondence support row 3 for custodian omission; retained from the native system so the reviewer can distinguish the exact CBP-031-11 population from similarly named records. The native status is superseded and the recorded metric is 8%.
+
+-----Original Message-----
+From: Rafael Okafor <rafael_okafor@example.test>
+Sent: 2025-05-28 09:00:00 -0700
+To: Jonas Feld <jonas_feld@example.test>
+Subject: CBP-031-11 source row CBP-031-11-COR-04
+
+Correspondence support row 4 for custodian omission; retained from the native system so the reviewer can distinguish the exact CBP-031-11 population from similarly named records. The native status is superseded and the recorded metric is $935,231.00.
+
+-----Original Message-----
+From: Priya Raman <priya_raman@example.test>
+Sent: 2025-05-31 09:00:00 -0700
+To: Jonas Feld <jonas_feld@example.test>
+Subject: CBP-031-11 source row CBP-031-11-COR-05
+
+Correspondence support row 5 for custodian omission; retained from the native system so the reviewer can distinguish the exact CBP-031-11 population from similarly named records. The native status is superseded and the recorded metric is 21%.
+
+-----Original Message-----
+From: Jonas Feld <jonas_feld@example.test>
+Sent: 2025-06-03 09:00:00 -0700
+To: Jonas Feld <jonas_feld@example.test>
+Subject: CBP-031-11 source row CBP-031-11-COR-06
+
+Correspondence support row 6 for custodian omission; retained from the native system so the reviewer can distinguish the exact CBP-031-11 population from similarly named records. The native status is confirmed and the recorded metric is 9%.
+
+-----Original Message-----
+From: Leona Park <leona_park@example.test>
+Sent: 2025-06-06 09:00:00 -0700
+To: Jonas Feld <jonas_feld@example.test>
+Subject: CBP-031-11 source row CBP-031-11-COR-07
+
+Correspondence support row 7 for custodian omission; retained from the native system so the reviewer can distinguish the exact CBP-031-11 population from similarly named records. The native status is pending and the recorded metric is $665,294.00.
+
+-----Original Message-----
+From: Adrian Mensah <adrian_mensah@example.test>
+Sent: 2025-06-09 09:00:00 -0700
+To: Jonas Feld <jonas_feld@example.test>
+Subject: CBP-031-11 source row CBP-031-11-COR-08
+
+Correspondence support row 8 for custodian omission; retained from the native system so the reviewer can distinguish the exact CBP-031-11 population from similarly named records. The native status is confirmed and the recorded metric is 2%.
+
+CHRONOLOGY
+2025-12-29 | native population opened | Amara Patel | CB-DOC-031-059
+2026-01-04 | custodian boundary confirmed | Farah Ibrahim | CBP-031-11
+2026-01-10 | export created | Maya Ellison | CB-DOC-031-059
+2026-01-16 | cross-system identifier checked | Priya Raman | CBP-031-11
+2026-01-22 | revision retained | Mei Whitaker | CB-DOC-031-059
+2026-01-28 | matter copy collected | Sofia Bennett | CBP-031-11
+
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

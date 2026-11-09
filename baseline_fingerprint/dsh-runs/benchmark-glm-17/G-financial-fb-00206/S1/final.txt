@@ -1,0 +1,9 @@
+I extracted the full text of the attached 10-K (382 pages) and verified the income-statement structure and key figures. Here's the answer:
+
+**Gross margin is not a relevant metric for JPM.** The term appears nowhere in the 382-page 2022 10-K — banks don't report it.
+
+**Why:** JPMorgan Chase is a bank holding company with no cost-of-goods-sold structure. Its top line, "total net revenue," is already net: **net interest income** (interest earned on loans/securities minus interest paid on deposits and borrowings) plus **noninterest (fee) revenue**. The closest analogue to COGS — funding cost on ~$2.3T of deposits — is netted directly into NII, and much of the revenue is fees (banking, trading, asset/wealth management). There is no gross profit to measure.
+
+**10-K figures ($B, 2022/2021/2020):** NII 66.7/52.3/54.6; noninterest revenue 62.0/69.3/65.4; provision for credit losses +6.4/−9.3/+17.5.
+
+**Closest proxies are themselves volatile:** NII jumped ~27% in 2022 on Fed rate hikes; overhead (efficiency) ratio 59%/59%/56%; ROE 14%/19%/12%. So no margin-like ratio for JPM sits within a ±2pp band — bank profitability moves with interest rates and credit cycles, not a stable cost-of-goods structure. For banks, use NIM, overhead ratio, ROE/ROTCE, and net charge-off rate instead.

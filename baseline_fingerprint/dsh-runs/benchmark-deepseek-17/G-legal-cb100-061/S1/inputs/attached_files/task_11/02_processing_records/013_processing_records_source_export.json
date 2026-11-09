@@ -1,0 +1,266 @@
+{
+  "body": "sensitive-data classification is due by 2025-08-24 under CB-PR-3001-R870. The referenced and current revision are both REV-2025.1. The matter-level control is: Access, deletion, and transfer duties depend on verified identity, purpose, jurisdiction, and current vendor scope.",
+  "chronology": [
+    {
+      "actor": "Maya Ellison",
+      "date": "2024-05-06",
+      "event": "native population opened",
+      "reference": "CB-DOC-061-013"
+    },
+    {
+      "actor": "Priya Raman",
+      "date": "2024-05-12",
+      "event": "custodian boundary confirmed",
+      "reference": "CBP-061-01"
+    },
+    {
+      "actor": "Mei Whitaker",
+      "date": "2024-05-18",
+      "event": "export created",
+      "reference": "CB-DOC-061-013"
+    },
+    {
+      "actor": "Sofia Bennett",
+      "date": "2024-05-24",
+      "event": "cross-system identifier checked",
+      "reference": "CBP-061-01"
+    },
+    {
+      "actor": "Amara Patel",
+      "date": "2024-05-30",
+      "event": "revision retained",
+      "reference": "CB-DOC-061-013"
+    },
+    {
+      "actor": "Farah Ibrahim",
+      "date": "2024-06-05",
+      "event": "matter copy collected",
+      "reference": "CBP-061-01"
+    }
+  ],
+  "client": "Arcadia Genomics, Inc.",
+  "confidentiality": "Attorney work product",
+  "counterparty": "North Coast Sequencing Network",
+  "current_revision": "REV-2025.1",
+  "custodian": "Caleb Hassan",
+  "evidence_role": "operative_authority",
+  "immutable_entity_key": "ENT-061-1000",
+  "matter_number": "CB-PR-3001",
+  "matter_title": "Arcadia genomic data response audit",
+  "native_version": "1.2",
+  "portfolio_key": "CBP-061-01",
+  "provenance": "Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.",
+  "record_date": "2024-06-10",
+  "record_id": "CB-DOC-061-013",
+  "referenced_revision": "REV-2025.1",
+  "related_records": [
+    "CB-DOC-061-024",
+    "CB-DOC-061-042",
+    "CB-DOC-061-060",
+    "CB-DOC-061-084"
+  ],
+  "reviewer": "Dominic Alvarez",
+  "rows": [
+    {
+      "actor": "Maya Ellison",
+      "effective_date": "2025-03-09",
+      "entity_key": "ENT-061-1000",
+      "line_id": "CBP-061-01-OPE-01",
+      "metric": "$362,471.00",
+      "note": "Operative Authority support row 1 for sensitive-data classification; retained from the native system so the reviewer can distinguish the exact CBP-061-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "superseded"
+    },
+    {
+      "actor": "Dominic Alvarez",
+      "effective_date": "2025-03-12",
+      "entity_key": "ENT-061-1000",
+      "line_id": "CBP-061-01-OPE-02",
+      "metric": "2%",
+      "note": "Operative Authority support row 2 for sensitive-data classification; retained from the native system so the reviewer can distinguish the exact CBP-061-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Talia Brooks",
+      "effective_date": "2025-03-15",
+      "entity_key": "ENT-061-1000",
+      "line_id": "CBP-061-01-OPE-03",
+      "metric": "2%",
+      "note": "Operative Authority support row 3 for sensitive-data classification; retained from the native system so the reviewer can distinguish the exact CBP-061-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "pending"
+    },
+    {
+      "actor": "Caleb Hassan",
+      "effective_date": "2025-03-18",
+      "entity_key": "ENT-061-1000",
+      "line_id": "CBP-061-01-OPE-04",
+      "metric": "$958,480.00",
+      "note": "Operative Authority support row 4 for sensitive-data classification; retained from the native system so the reviewer can distinguish the exact CBP-061-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "recorded"
+    },
+    {
+      "actor": "Sofia Bennett",
+      "effective_date": "2025-03-21",
+      "entity_key": "ENT-061-1000",
+      "line_id": "CBP-061-01-OPE-05",
+      "metric": "3%",
+      "note": "Operative Authority support row 5 for sensitive-data classification; retained from the native system so the reviewer can distinguish the exact CBP-061-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "pending"
+    },
+    {
+      "actor": "Theo Laurent",
+      "effective_date": "2025-03-24",
+      "entity_key": "ENT-061-1000",
+      "line_id": "CBP-061-01-OPE-06",
+      "metric": "15%",
+      "note": "Operative Authority support row 6 for sensitive-data classification; retained from the native system so the reviewer can distinguish the exact CBP-061-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "pending"
+    },
+    {
+      "actor": "Nadine Flores",
+      "effective_date": "2025-03-27",
+      "entity_key": "ENT-061-1000",
+      "line_id": "CBP-061-01-OPE-07",
+      "metric": "$290,526.00",
+      "note": "Operative Authority support row 7 for sensitive-data classification; retained from the native system so the reviewer can distinguish the exact CBP-061-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "pending"
+    },
+    {
+      "actor": "Owen Delgado",
+      "effective_date": "2025-03-30",
+      "entity_key": "ENT-061-2000",
+      "line_id": "CBP-061-01-OPE-08",
+      "metric": "21%",
+      "note": "Operative Authority support row 8 for sensitive-data classification; retained from the native system so the reviewer can distinguish the exact CBP-061-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Maya Ellison",
+      "effective_date": "2025-04-02",
+      "entity_key": "ENT-061-1000",
+      "line_id": "CBP-061-01-OPE-09",
+      "metric": "22%",
+      "note": "Operative Authority support row 9 for sensitive-data classification; retained from the native system so the reviewer can distinguish the exact CBP-061-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "recorded"
+    },
+    {
+      "actor": "Dominic Alvarez",
+      "effective_date": "2025-04-05",
+      "entity_key": "ENT-061-1000",
+      "line_id": "CBP-061-01-OPE-10",
+      "metric": "$696,475.00",
+      "note": "Operative Authority support row 10 for sensitive-data classification; retained from the native system so the reviewer can distinguish the exact CBP-061-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "superseded"
+    },
+    {
+      "actor": "Talia Brooks",
+      "effective_date": "2025-04-08",
+      "entity_key": "ENT-061-1000",
+      "line_id": "CBP-061-01-OPE-11",
+      "metric": "9%",
+      "note": "Operative Authority support row 11 for sensitive-data classification; retained from the native system so the reviewer can distinguish the exact CBP-061-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "recorded"
+    },
+    {
+      "actor": "Caleb Hassan",
+      "effective_date": "2025-04-11",
+      "entity_key": "ENT-061-1000",
+      "line_id": "CBP-061-01-OPE-12",
+      "metric": "23%",
+      "note": "Operative Authority support row 12 for sensitive-data classification; retained from the native system so the reviewer can distinguish the exact CBP-061-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "superseded"
+    },
+    {
+      "actor": "Sofia Bennett",
+      "effective_date": "2025-04-14",
+      "entity_key": "ENT-061-1000",
+      "line_id": "CBP-061-01-OPE-13",
+      "metric": "$666,616.00",
+      "note": "Operative Authority support row 13 for sensitive-data classification; retained from the native system so the reviewer can distinguish the exact CBP-061-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "recorded"
+    },
+    {
+      "actor": "Theo Laurent",
+      "effective_date": "2025-04-17",
+      "entity_key": "ENT-061-1000",
+      "line_id": "CBP-061-01-OPE-14",
+      "metric": "20%",
+      "note": "Operative Authority support row 14 for sensitive-data classification; retained from the native system so the reviewer can distinguish the exact CBP-061-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "recorded"
+    },
+    {
+      "actor": "Nadine Flores",
+      "effective_date": "2025-04-20",
+      "entity_key": "ENT-061-1000",
+      "line_id": "CBP-061-01-OPE-15",
+      "metric": "21%",
+      "note": "Operative Authority support row 15 for sensitive-data classification; retained from the native system so the reviewer can distinguish the exact CBP-061-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "superseded"
+    },
+    {
+      "actor": "Owen Delgado",
+      "effective_date": "2025-04-23",
+      "entity_key": "ENT-061-1000",
+      "line_id": "CBP-061-01-OPE-16",
+      "metric": "$162,399.00",
+      "note": "Operative Authority support row 16 for sensitive-data classification; retained from the native system so the reviewer can distinguish the exact CBP-061-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "superseded"
+    },
+    {
+      "actor": "Maya Ellison",
+      "effective_date": "2025-04-26",
+      "entity_key": "ENT-061-1000",
+      "line_id": "CBP-061-01-OPE-17",
+      "metric": "15%",
+      "note": "Operative Authority support row 17 for sensitive-data classification; retained from the native system so the reviewer can distinguish the exact CBP-061-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "recorded"
+    },
+    {
+      "actor": "Dominic Alvarez",
+      "effective_date": "2025-04-29",
+      "entity_key": "ENT-061-1000",
+      "line_id": "CBP-061-01-OPE-18",
+      "metric": "18%",
+      "note": "Operative Authority support row 18 for sensitive-data classification; retained from the native system so the reviewer can distinguish the exact CBP-061-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "recorded"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Source lineage",
+      "text": "OneTrust data map produced native record CB-DOC-061-013 for CB-PR-3001. Caleb Hassan owns the source population and Dominic Alvarez recorded the collection review. The export remains separate from later legal analysis."
+    },
+    {
+      "heading": "Business context",
+      "text": "This record concerns sensitive-data classification within Arcadia genomic data response audit. A consumer access request exposes inconsistencies among genomic-data notices, deletion jobs, vendors, and overseas research transfers. The record addresses one part of the broader question: Join requester identity, genomic data inventory, vendor copies, deletion jobs, and research transfers."
+    },
+    {
+      "heading": "Native record",
+      "text": "sensitive-data classification is due by 2025-08-24 under CB-PR-3001-R870. The referenced and current revision are both REV-2025.1. The matter-level control is: Access, deletion, and transfer duties depend on verified identity, purpose, jurisdiction, and current vendor scope."
+    },
+    {
+      "heading": "Reliance limits",
+      "text": "This file supplies operative authority evidence for CBP-061-01. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling."
+    }
+  ],
+  "source_path": "/workspace/documents/02_processing_records/013_processing_records_source_export.json",
+  "source_system": "OneTrust data map",
+  "subject": "sensitive-data classification"
+}

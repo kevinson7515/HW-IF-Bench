@@ -1,0 +1,27 @@
+## Short answer
+
+Gross margin is **not a relevant metric for JPMorgan Chase (JPM)**, so the question of whether it is "historically consistent (within ~2% per year)" cannot meaningfully be answered. JPM is a universal bank / financial holding company, and its financial statements contain no gross-margin concept at all.
+
+## Why gross margin doesn't apply
+
+- **No cost of goods sold, no gross profit line.** JPM's Consolidated statements of income (2022 Form 10-K, p. 159) go straight from revenue lines to operating results with no COGS or gross-profit subtotal. The full expense structure is: provision for credit losses, noninterest expense (compensation, occupancy, technology, professional services, marketing, other), and income tax — none of these is a "cost of revenue" tied to units of product sold.
+- **Revenue itself is already partly netted.** "Total net revenue" = noninterest revenue (fees, principal transactions, asset management, card income, etc.) **plus net interest income** (interest income minus interest expense). A bank's single largest "input cost" — interest paid on deposits and borrowings — is embedded *inside* the revenue figure, not below it. There is no clean gross level to compute a margin from.
+- **The business is not selling goods.** Gross margin measures price over production cost of physical/products. JPM earns spread income on a ~$3.3 trillion balance sheet and fee income on services; its "margins" are spreads and ratios, not unit economics. The word "gross" appears in the entire 10-K only in unrelated contexts (gross charge-offs, gross derivative receivables/payables, gross GDP, gross IB revenue for revenue-sharing).
+- **Any "gross margin" you see for JPM in a screener is an artifact** of the data vendor mapping some cost line (or nothing) to COGS — it is not a reported or comparable figure, and its level is arbitrary.
+
+## The margin metrics banks actually use (from this 10-K, FY2020–FY2022)
+
+| Bank metric | 2020 | 2021 | 2022 | Year-over-year move |
+|---|---|---|---|---|
+| Net yield on interest-earning assets (NIM, FTE) | 1.98% | 1.64% | 2.00% | −0.34 pp, then +0.36 pp |
+| Overhead ratio (efficiency ratio) | 56% | 59% | 59% | +3 pp, then 0 pp |
+| Pre-provision profit ÷ total net revenue (computed) | 44.4% | 41.4% | 40.8% | −3.0 pp, then −0.6 pp |
+| Return on assets | 0.91% | 1.30% | 0.98% | — |
+
+So, if you map the spirit of your question onto the closest analogue, **net interest margin was quite stable** (moves of ~0.35 pp, well inside a 2 pp band, driven by the rate cycle: down when rates were at zero, up 36 bps in 2022). The **overhead ratio** stepped 3 pp in 2021 — slightly beyond a "roughly 2%" swing — but that reflects revenue mix (the 2021 revenue surge and 2022 expense growth), not a gross-margin concept. Neither is a gross margin, and neither behaves like one.
+
+Note on "historically": the attached 10-K provides only three years of income-statement history (2020–2022); a longer gross-margin history does not exist in any case, and longer NIM/overhead history would require prior-year filings.
+
+## Data basis
+
+All figures and quotes come from the attached JPMORGAN_2022_10K.pdf (JPMorgan Chase & Co. 2022 Form 10-K), extracted and verified programmatically: the Consolidated statements of income (printed p. 159, revenue/expense line items, three-year figures); the Three-year summary of consolidated financial highlights (printed p. 44, total net revenue, noninterest expense, pre-provision profit, overhead ratio, ROA); the Consolidated results of operations discussion (printed p. 52, net yield of 2.00% in 2022, up 36 bps); the Consolidated average balance sheets, interest and rates schedules (printed pp. 292–293, net interest income and net yield of $67,144M/2.00% in 2022, $52,741M/1.64% in 2021, $54,981M/1.98% in 2020, taxable-equivalent basis); and the Glossary (net yield and overhead ratio definitions). Pre-provision margin values are my computation from the reported pre-provision profit and total net revenue; every other figure is as reported. The full text of all 382 pages was scanned to confirm that "gross margin," "gross profit," "cost of goods," "cost of revenue," and "cost of sales" appear nowhere in the filing.

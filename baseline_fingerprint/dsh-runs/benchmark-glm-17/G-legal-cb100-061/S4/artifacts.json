@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "matter_closeout",
+    "matter_closeout/CB-PR-3001_review_disposition_register.md",
+    "matter_closeout/CB-PR-3001_review_note.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "matter_closeout/CB-PR-3001_review_disposition_register.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/artifacts/matter_closeout/CB-PR-3001_review_disposition_register.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793112706000000000,
+      "type": "file",
+      "size": 3495,
+      "sha256": "7e793fa2564afe873e4fdd7860d0f405bf63f4311f3d691dd0b8d0ba201bc799"
+    },
+    {
+      "path": "matter_closeout/CB-PR-3001_review_note.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S4/artifacts/matter_closeout/CB-PR-3001_review_note.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793112862000000000,
+      "type": "file",
+      "size": 6180,
+      "sha256": "db7a10f6f11a77a76973f7282cd063dc32cf849c4d96c3f5ac3a2d3ae531eed2"
+    }
+  ],
+  "entries": {
+    "matter_closeout": {
+      "mode": 448,
+      "mtime_ns": 1793112862000000000,
+      "type": "directory"
+    },
+    "matter_closeout/CB-PR-3001_review_disposition_register.md": {
+      "mode": 384,
+      "mtime_ns": 1793112706000000000,
+      "type": "file",
+      "size": 3495,
+      "sha256": "7e793fa2564afe873e4fdd7860d0f405bf63f4311f3d691dd0b8d0ba201bc799"
+    },
+    "matter_closeout/CB-PR-3001_review_note.md": {
+      "mode": 384,
+      "mtime_ns": 1793112862000000000,
+      "type": "file",
+      "size": 6180,
+      "sha256": "db7a10f6f11a77a76973f7282cd063dc32cf849c4d96c3f5ac3a2d3ae531eed2"
+    }
+  },
+  "deleted_entries": {}
+}

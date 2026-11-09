@@ -1,0 +1,12 @@
+{
+  "benchmark": "SWE-bench Verified",
+  "instance_id": "pytest-dev__pytest-7571",
+  "repo": "pytest-dev/pytest",
+  "base_commit": "422685d0bdc110547535036c1ff398b5e1c44145",
+  "environment_setup_commit": "634cde9506eb1f48dec3ec77974ee8dc952207c6",
+  "version": "6.0",
+  "upstream_container_image": "swebench/sweb.eval.x86_64.pytest-dev_1776_pytest-7571:latest",
+  "repository_files": 490,
+  "snapshot_format": "tar.gz",
+  "environment_docs": "https://www.swebench.com/SWE-bench/guides/evaluation/"
+}

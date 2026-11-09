@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "session_id": "session-f0d04960-013b-4dac-9ac1-f5511af56144",
+  "source": "/online1/ycsc_chenkh/hitici_07/.dsh/sessions/--online1-ycsc_chenkh-hitici_07-deepseek-harness--/session-f0d04960-013b-4dac-9ac1-f5511af56144",
+  "copied": [
+    {
+      "path": "session.lock",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1872575/G-customer-banking-001/S5/session-records/session.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "session.v4.jsonl.zstd",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1872575/G-customer-banking-001/S5/session-records/session.v4.jsonl.zstd",
+      "size": 132476,
+      "sha256": "91aa9b4ceba47703505a741db0fe8bd78bc6ba325f0b904f6201ff3e32d4f139"
+    }
+  ]
+}

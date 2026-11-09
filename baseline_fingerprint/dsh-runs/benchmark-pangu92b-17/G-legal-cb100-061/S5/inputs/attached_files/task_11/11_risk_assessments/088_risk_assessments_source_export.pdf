@@ -1,0 +1,272 @@
+%PDF-1.4
+% CounselBench deterministic native source
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 2 /Kids [3 0 R 5 0 R] >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 4525 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(COUNSELBENCH SOURCE RECORD) Tj
+T*
+(Record: CB-DOC-061-088) Tj
+T*
+(Matter: CB-PR-3001 - Arcadia genomic data response audit) Tj
+T*
+(Portfolio key: CBP-061-04) Tj
+T*
+(Source system: Vanta control register) Tj
+T*
+(Evidence role: independent_counterrecord) Tj
+T*
+(Immutable entity: ENT-061-1003) Tj
+T*
+(Referenced revision: REV-2025.4) Tj
+T*
+(Current revision: REV-2025.4) Tj
+T*
+(Custodian: Sofia Bennett) Tj
+T*
+(Reviewer: Maya Ellison) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(An independent source repeats portfolio key CBP-061-04 and immutable entity ENT-061-1003 but uses) Tj
+T*
+(reference CB-PR-3001-E104. It confirms raw activity only; it neither selects a decision option nor) Tj
+T*
+(assigns a legal consequence.) Tj
+T*
+() Tj
+T*
+(SOURCE LINEAGE) Tj
+T*
+(Vanta control register produced native record CB-DOC-061-088 for CB-PR-3001. Sofia Bennett owns the) Tj
+T*
+(source population and Maya Ellison recorded the collection review. The export remains separate from later) Tj
+T*
+(legal analysis.) Tj
+T*
+() Tj
+T*
+(BUSINESS CONTEXT) Tj
+T*
+(This record concerns risk-assessment omission within Arcadia genomic data response audit. A consumer) Tj
+T*
+(access request exposes inconsistencies among genomic-data notices, deletion jobs, vendors, and overseas) Tj
+T*
+(research transfers. The record addresses one part of the broader question: Join requester identity,) Tj
+T*
+(genomic data inventory, vendor copies, deletion jobs, and research transfers.) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(An independent source repeats portfolio key CBP-061-04 and immutable entity ENT-061-1003 but uses) Tj
+T*
+(reference CB-PR-3001-E104. It confirms raw activity only; it neither selects a decision option nor) Tj
+T*
+(assigns a legal consequence.) Tj
+T*
+() Tj
+T*
+(RELIANCE LIMITS) Tj
+T*
+(This file supplies independent counterrecord evidence for CBP-061-04. It does not decide legal effect,) Tj
+T*
+(select among candidate responses, resolve another system's entity identity, or establish that its cited) Tj
+T*
+(revision is controlling.) Tj
+T*
+() Tj
+T*
+(NATIVE ROWS) Tj
+T*
+(CBP-061-04-IND-01 | 2024-08-25 | ENT-061-1003 | REV-2025.4 | Dominic Alvarez | confirmed | $503,213.00 |) Tj
+T*
+(Independent Counterrecord support row 1 for risk-assessment omission; retained from the native system so) Tj
+T*
+(the reviewer can distinguish the exact CBP-061-04 population from similarly named records.) Tj
+T*
+(CBP-061-04-IND-02 | 2024-08-28 | ENT-061-1003 | REV-2025.4 | Talia Brooks | superseded | 7% | Independent) Tj
+T*
+(Counterrecord support row 2 for risk-assessment omission; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-061-04 population from similarly named records.) Tj
+T*
+(CBP-061-04-IND-03 | 2024-08-31 | ENT-061-1003 | REV-2025.4 | Caleb Hassan | superseded | 5% | Independent) Tj
+T*
+(Counterrecord support row 3 for risk-assessment omission; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-061-04 population from similarly named records.) Tj
+T*
+(CBP-061-04-IND-04 | 2024-09-03 | ENT-061-1003 | REV-2025.4 | Sofia Bennett | confirmed | $620,265.00 |) Tj
+T*
+(Independent Counterrecord support row 4 for risk-assessment omission; retained from the native system so) Tj
+T*
+(the reviewer can distinguish the exact CBP-061-04 population from similarly named records.) Tj
+T*
+(CBP-061-04-IND-05 | 2024-09-06 | ENT-061-1003 | REV-2025.4 | Theo Laurent | recorded | 10% | Independent) Tj
+T*
+(Counterrecord support row 5 for risk-assessment omission; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-061-04 population from similarly named records.) Tj
+T*
+(CBP-061-04-IND-06 | 2024-09-09 | ENT-061-1003 | REV-2025.4 | Nadine Flores | pending | 12% | Independent) Tj
+T*
+(Counterrecord support row 6 for risk-assessment omission; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-061-04 population from similarly named records.) Tj
+T*
+(CBP-061-04-IND-07 | 2024-09-12 | ENT-061-1003 | REV-2025.4 | Owen Delgado | pending | $438,522.00 |) Tj
+T*
+(Independent Counterrecord support row 7 for risk-assessment omission; retained from the native system so) Tj
+T*
+(the reviewer can distinguish the exact CBP-061-04 population from similarly named records.) Tj
+T*
+(CBP-061-04-IND-08 | 2024-09-15 | ENT-061-2003 | REV-2025.4 | Maya Ellison | pending | 18% | Independent) Tj
+T*
+(Counterrecord support row 8 for risk-assessment omission; retained from the native system so the reviewer) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4063 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(can distinguish the exact CBP-061-04 population from similarly named records.) Tj
+T*
+(CBP-061-04-IND-09 | 2024-09-18 | ENT-061-1003 | REV-2025.4 | Dominic Alvarez | recorded | 24% |) Tj
+T*
+(Independent Counterrecord support row 9 for risk-assessment omission; retained from the native system so) Tj
+T*
+(the reviewer can distinguish the exact CBP-061-04 population from similarly named records.) Tj
+T*
+(CBP-061-04-IND-10 | 2024-09-21 | ENT-061-1003 | REV-2025.4 | Talia Brooks | recorded | $101,452.00 |) Tj
+T*
+(Independent Counterrecord support row 10 for risk-assessment omission; retained from the native system so) Tj
+T*
+(the reviewer can distinguish the exact CBP-061-04 population from similarly named records.) Tj
+T*
+(CBP-061-04-IND-11 | 2024-09-24 | ENT-061-1003 | REV-2025.4 | Caleb Hassan | superseded | 19% |) Tj
+T*
+(Independent Counterrecord support row 11 for risk-assessment omission; retained from the native system so) Tj
+T*
+(the reviewer can distinguish the exact CBP-061-04 population from similarly named records.) Tj
+T*
+(CBP-061-04-IND-12 | 2024-09-27 | ENT-061-1003 | REV-2025.4 | Sofia Bennett | confirmed | 24% |) Tj
+T*
+(Independent Counterrecord support row 12 for risk-assessment omission; retained from the native system so) Tj
+T*
+(the reviewer can distinguish the exact CBP-061-04 population from similarly named records.) Tj
+T*
+(CBP-061-04-IND-13 | 2024-09-30 | ENT-061-1003 | REV-2025.4 | Theo Laurent | recorded | $424,888.00 |) Tj
+T*
+(Independent Counterrecord support row 13 for risk-assessment omission; retained from the native system so) Tj
+T*
+(the reviewer can distinguish the exact CBP-061-04 population from similarly named records.) Tj
+T*
+(CBP-061-04-IND-14 | 2024-10-03 | ENT-061-1003 | REV-2025.4 | Nadine Flores | confirmed | 8% | Independent) Tj
+T*
+(Counterrecord support row 14 for risk-assessment omission; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-04 population from similarly named records.) Tj
+T*
+(CBP-061-04-IND-15 | 2024-10-06 | ENT-061-1003 | REV-2025.4 | Owen Delgado | pending | 7% | Independent) Tj
+T*
+(Counterrecord support row 15 for risk-assessment omission; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-04 population from similarly named records.) Tj
+T*
+(CBP-061-04-IND-16 | 2024-10-09 | ENT-061-1003 | REV-2025.4 | Maya Ellison | confirmed | $165,997.00 |) Tj
+T*
+(Independent Counterrecord support row 16 for risk-assessment omission; retained from the native system so) Tj
+T*
+(the reviewer can distinguish the exact CBP-061-04 population from similarly named records.) Tj
+T*
+(CBP-061-04-IND-17 | 2024-10-12 | ENT-061-1003 | REV-2025.4 | Dominic Alvarez | pending | 18% |) Tj
+T*
+(Independent Counterrecord support row 17 for risk-assessment omission; retained from the native system so) Tj
+T*
+(the reviewer can distinguish the exact CBP-061-04 population from similarly named records.) Tj
+T*
+(CBP-061-04-IND-18 | 2024-10-15 | ENT-061-1003 | REV-2025.4 | Talia Brooks | pending | 14% | Independent) Tj
+T*
+(Counterrecord support row 18 for risk-assessment omission; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-04 population from similarly named records.) Tj
+T*
+() Tj
+T*
+(CHRONOLOGY) Tj
+T*
+(2024-05-07 | native population opened | Dominic Alvarez | CB-DOC-061-088) Tj
+T*
+(2024-05-13 | custodian boundary confirmed | Jonas Feld | CBP-061-04) Tj
+T*
+(2024-05-19 | export created | Isaac Romero | CB-DOC-061-088) Tj
+T*
+(2024-05-25 | cross-system identifier checked | Theo Laurent | CBP-061-04) Tj
+T*
+(2024-05-31 | revision retained | Micah Sullivan | CB-DOC-061-088) Tj
+T*
+(2024-06-06 | matter copy collected | Samuel Kim | CBP-061-04) Tj
+T*
+() Tj
+T*
+(RELATED NATIVE RECORDS) Tj
+T*
+(CB-DOC-061-003) Tj
+T*
+(CB-DOC-061-021) Tj
+T*
+(CB-DOC-061-039) Tj
+T*
+(CB-DOC-061-063) Tj
+T*
+() Tj
+T*
+(Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are) Tj
+T*
+(fictitious; the record is not legal advice.) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000052 00000 n 
+0000000101 00000 n 
+0000000164 00000 n 
+0000000290 00000 n 
+0000004866 00000 n 
+0000004992 00000 n 
+0000009106 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+9174
+%%EOF

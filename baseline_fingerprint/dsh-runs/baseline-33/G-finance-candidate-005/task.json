@@ -1,0 +1,29 @@
+{
+  "line": 19,
+  "id": 36,
+  "user_query": "依据 3M 2020 和 2021 财年年报判断净负债变化是否主要来自新增长期借款，区分现金与借款余额的贡献并说明口径。",
+  "effective_query": "依据 3M 2020 和 2021 财年年报判断净负债变化是否主要来自新增长期借款，区分现金与借款余额的贡献并说明口径。\n\nAttached files are available at the following paths. Read them as needed:\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_36/3M_2020_10K.pdf\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_36/3M_2021_10K.pdf",
+  "attached_files": [
+    "attached_files/task_36/3M_2020_10K.pdf",
+    "attached_files/task_36/3M_2021_10K.pdf"
+  ],
+  "resolved_attached_files": [
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_36/3M_2020_10K.pdf",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_36/3M_2021_10K.pdf"
+  ],
+  "archived_attachments": [
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_36/3M_2020_10K.pdf",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000019-36/inputs/attached_files/task_36/3M_2020_10K.pdf",
+      "size": 1114965,
+      "sha256": "3f08a9350074d19b85c4c3476962a2b6d55614f50e58ea41d0defad56ae7d146"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_36/3M_2021_10K.pdf",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000019-36/inputs/attached_files/task_36/3M_2021_10K.pdf",
+      "size": 1144721,
+      "sha256": "ba87f86df45ba4c6117c3e8fdc17298022d01a3306e5821f9b2b2c3d4d10ca6f"
+    }
+  ],
+  "started_at": "2026-11-06T09:34:31.225594+00:00"
+}

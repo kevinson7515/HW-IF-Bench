@@ -1,0 +1,274 @@
+%PDF-1.4
+% CounselBench deterministic native source
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 2 /Kids [3 0 R 5 0 R] >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 4451 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(COUNSELBENCH SOURCE RECORD) Tj
+T*
+(Record: CB-DOC-031-096) Tj
+T*
+(Matter: CB-LD-2701 - Aurora pricing MDL discovery audit) Tj
+T*
+(Portfolio key: CBP-031-12) Tj
+T*
+(Source system: Everlaw production log) Tj
+T*
+(Evidence role: independent_counterrecord) Tj
+T*
+(Immutable entity: ENT-031-1011) Tj
+T*
+(Referenced revision: REV-2025.5) Tj
+T*
+(Current revision: REV-2025.5) Tj
+T*
+(Custodian: Willa Novak) Tj
+T*
+(Reviewer: Nora Chen) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(An independent source repeats portfolio key CBP-031-12 and immutable entity ENT-031-1011 but uses) Tj
+T*
+(reference CB-LD-2701-E253. It confirms raw activity only; it neither selects a decision option nor) Tj
+T*
+(assigns a legal consequence.) Tj
+T*
+() Tj
+T*
+(SOURCE LINEAGE) Tj
+T*
+(Everlaw production log produced native record CB-DOC-031-096 for CB-LD-2701. Willa Novak owns the source) Tj
+T*
+(population and Nora Chen recorded the collection review. The export remains separate from later legal) Tj
+T*
+(analysis.) Tj
+T*
+() Tj
+T*
+(BUSINESS CONTEXT) Tj
+T*
+(This record concerns common-interest support gap within Aurora pricing MDL discovery audit. A) Tj
+T*
+(multidistrict antitrust production must reconcile mobile chats, departed custodians, overlapping Bates) Tj
+T*
+(ranges, and a pending privilege challenge. The record addresses one part of the broader question:) Tj
+T*
+(Reconcile custodian scope, mobile collections, Bates families, and privilege challenges against court) Tj
+T*
+(requirements.) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(An independent source repeats portfolio key CBP-031-12 and immutable entity ENT-031-1011 but uses) Tj
+T*
+(reference CB-LD-2701-E253. It confirms raw activity only; it neither selects a decision option nor) Tj
+T*
+(assigns a legal consequence.) Tj
+T*
+() Tj
+T*
+(RELIANCE LIMITS) Tj
+T*
+(This file supplies independent counterrecord evidence for CBP-031-12. It does not decide legal effect,) Tj
+T*
+(select among candidate responses, resolve another system's entity identity, or establish that its cited) Tj
+T*
+(revision is controlling.) Tj
+T*
+() Tj
+T*
+(NATIVE ROWS) Tj
+T*
+(CBP-031-12-IND-01 | 2024-08-16 | ENT-031-1011 | REV-2025.5 | Elliot Mercer | pending | $979,218.00 |) Tj
+T*
+(Independent Counterrecord support row 1 for common-interest support gap; retained from the native system) Tj
+T*
+(so the reviewer can distinguish the exact CBP-031-12 population from similarly named records.) Tj
+T*
+(CBP-031-12-IND-02 | 2024-08-19 | ENT-031-1011 | REV-2025.5 | Mei Whitaker | confirmed | 19% | Independent) Tj
+T*
+(Counterrecord support row 2 for common-interest support gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-12 population from similarly named records.) Tj
+T*
+(CBP-031-12-IND-03 | 2024-08-22 | ENT-031-1011 | REV-2025.5 | Isaac Romero | recorded | 3% | Independent) Tj
+T*
+(Counterrecord support row 3 for common-interest support gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-12 population from similarly named records.) Tj
+T*
+(CBP-031-12-IND-04 | 2024-08-25 | ENT-031-1011 | REV-2025.5 | Willa Novak | confirmed | $379,873.00 |) Tj
+T*
+(Independent Counterrecord support row 4 for common-interest support gap; retained from the native system) Tj
+T*
+(so the reviewer can distinguish the exact CBP-031-12 population from similarly named records.) Tj
+T*
+(CBP-031-12-IND-05 | 2024-08-28 | ENT-031-1011 | REV-2025.5 | Henry Cho | superseded | 6% | Independent) Tj
+T*
+(Counterrecord support row 5 for common-interest support gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-12 population from similarly named records.) Tj
+T*
+(CBP-031-12-IND-06 | 2024-08-31 | ENT-031-1011 | REV-2025.5 | Farah Ibrahim | superseded | 26% |) Tj
+T*
+(Independent Counterrecord support row 6 for common-interest support gap; retained from the native system) Tj
+T*
+(so the reviewer can distinguish the exact CBP-031-12 population from similarly named records.) Tj
+T*
+(CBP-031-12-IND-07 | 2024-09-03 | ENT-031-1011 | REV-2025.5 | Samuel Kim | superseded | $820,207.00 |) Tj
+T*
+(Independent Counterrecord support row 7 for common-interest support gap; retained from the native system) Tj
+T*
+(so the reviewer can distinguish the exact CBP-031-12 population from similarly named records.) Tj
+T*
+(CBP-031-12-IND-08 | 2024-09-06 | ENT-031-2011 | REV-2025.5 | Nora Chen | superseded | 11% | Independent) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4192 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(Counterrecord support row 8 for common-interest support gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-12 population from similarly named records.) Tj
+T*
+(CBP-031-12-IND-09 | 2024-09-09 | ENT-031-1011 | REV-2025.5 | Elliot Mercer | superseded | 27% |) Tj
+T*
+(Independent Counterrecord support row 9 for common-interest support gap; retained from the native system) Tj
+T*
+(so the reviewer can distinguish the exact CBP-031-12 population from similarly named records.) Tj
+T*
+(CBP-031-12-IND-10 | 2024-09-12 | ENT-031-1011 | REV-2025.5 | Mei Whitaker | pending | $865,034.00 |) Tj
+T*
+(Independent Counterrecord support row 10 for common-interest support gap; retained from the native system) Tj
+T*
+(so the reviewer can distinguish the exact CBP-031-12 population from similarly named records.) Tj
+T*
+(CBP-031-12-IND-11 | 2024-09-15 | ENT-031-1011 | REV-2025.5 | Isaac Romero | confirmed | 27% | Independent) Tj
+T*
+(Counterrecord support row 11 for common-interest support gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-12 population from similarly named records.) Tj
+T*
+(CBP-031-12-IND-12 | 2024-09-18 | ENT-031-1011 | REV-2025.5 | Willa Novak | pending | 13% | Independent) Tj
+T*
+(Counterrecord support row 12 for common-interest support gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-12 population from similarly named records.) Tj
+T*
+(CBP-031-12-IND-13 | 2024-09-21 | ENT-031-1011 | REV-2025.5 | Henry Cho | recorded | $112,284.00 |) Tj
+T*
+(Independent Counterrecord support row 13 for common-interest support gap; retained from the native system) Tj
+T*
+(so the reviewer can distinguish the exact CBP-031-12 population from similarly named records.) Tj
+T*
+(CBP-031-12-IND-14 | 2024-09-24 | ENT-031-1011 | REV-2025.5 | Farah Ibrahim | pending | 18% | Independent) Tj
+T*
+(Counterrecord support row 14 for common-interest support gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-12 population from similarly named records.) Tj
+T*
+(CBP-031-12-IND-15 | 2024-09-27 | ENT-031-1011 | REV-2025.5 | Samuel Kim | recorded | 15% | Independent) Tj
+T*
+(Counterrecord support row 15 for common-interest support gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-12 population from similarly named records.) Tj
+T*
+(CBP-031-12-IND-16 | 2024-09-30 | ENT-031-1011 | REV-2025.5 | Nora Chen | pending | $715,134.00 |) Tj
+T*
+(Independent Counterrecord support row 16 for common-interest support gap; retained from the native system) Tj
+T*
+(so the reviewer can distinguish the exact CBP-031-12 population from similarly named records.) Tj
+T*
+(CBP-031-12-IND-17 | 2024-10-03 | ENT-031-1011 | REV-2025.5 | Elliot Mercer | pending | 4% | Independent) Tj
+T*
+(Counterrecord support row 17 for common-interest support gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-12 population from similarly named records.) Tj
+T*
+(CBP-031-12-IND-18 | 2024-10-06 | ENT-031-1011 | REV-2025.5 | Mei Whitaker | confirmed | 3% | Independent) Tj
+T*
+(Counterrecord support row 18 for common-interest support gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-12 population from similarly named records.) Tj
+T*
+() Tj
+T*
+(CHRONOLOGY) Tj
+T*
+(2024-12-02 | native population opened | Elliot Mercer | CB-DOC-031-096) Tj
+T*
+(2024-12-08 | custodian boundary confirmed | Caleb Hassan | CBP-031-12) Tj
+T*
+(2024-12-14 | export created | Adrian Mensah | CB-DOC-031-096) Tj
+T*
+(2024-12-20 | cross-system identifier checked | Henry Cho | CBP-031-12) Tj
+T*
+(2024-12-26 | revision retained | Owen Delgado | CB-DOC-031-096) Tj
+T*
+(2025-01-01 | matter copy collected | Rafael Okafor | CBP-031-12) Tj
+T*
+() Tj
+T*
+(RELATED NATIVE RECORDS) Tj
+T*
+(CB-DOC-031-011) Tj
+T*
+(CB-DOC-031-029) Tj
+T*
+(CB-DOC-031-047) Tj
+T*
+(CB-DOC-031-071) Tj
+T*
+() Tj
+T*
+(Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are) Tj
+T*
+(fictitious; the record is not legal advice.) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000052 00000 n 
+0000000101 00000 n 
+0000000164 00000 n 
+0000000290 00000 n 
+0000004792 00000 n 
+0000004918 00000 n 
+0000009161 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+9229
+%%EOF

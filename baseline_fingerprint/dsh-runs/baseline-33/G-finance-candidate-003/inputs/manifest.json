@@ -1,0 +1,26 @@
+[
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_34/APPLE_2019_10K.pdf",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000017-34/inputs/attached_files/task_34/APPLE_2019_10K.pdf",
+    "size": 796040,
+    "sha256": "f607facc037d4767ccf2451b6c07cb313afd679552ff9c2aeeecf2a32324c5e2"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_34/APPLE_2020_10K.pdf",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000017-34/inputs/attached_files/task_34/APPLE_2020_10K.pdf",
+    "size": 799616,
+    "sha256": "93a9fc778c5fa0eb7898009dd5a9beaad3be1222391789f5a5d4481ee991063f"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_34/APPLE_2021_10K.pdf",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000017-34/inputs/attached_files/task_34/APPLE_2021_10K.pdf",
+    "size": 646454,
+    "sha256": "175d0b7a907fd7d41836d44410ee06f3843eb9cb3aed1644bb877cb05f66f94c"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_34/APPLE_2022_10K.pdf",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000017-34/inputs/attached_files/task_34/APPLE_2022_10K.pdf",
+    "size": 729516,
+    "sha256": "40f4a5169ac49f1c3011b8287afe28364138cd4f3e4db36c8d75c9da0f6b2a93"
+  }
+]

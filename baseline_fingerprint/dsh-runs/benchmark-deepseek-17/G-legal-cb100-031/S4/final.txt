@@ -1,0 +1,15 @@
+Position ready for 2026-09-05. Deliverables in `output/` (review note + register).
+
+**Approach:** scoped-evidence (authorized).
+
+**Certify now (6):** CBP-031-02, 04, 06, 07, 08, 09 — all four controls pass.
+
+**Hold (6) until cured:**
+- 01 Bates overlap — pending owner; 215 vs 180
+- 03 mismatch — identity collision
+- 05 collection-date — open + pending owner
+- 10 subpoena deadline — superseded revision
+- 11 custodian omission — identity collision
+- 12 common-interest gap — open
+
+**Aurora cannot certify the full MDL production today**; it certifies the 6 supported keys, full certification waits on the six cures. Change-evidence: an active owner, a resolving identity crosswalk, an unblocked authority, or a non-superseded revision. Owners recorded; Slack reply drafted in the note.

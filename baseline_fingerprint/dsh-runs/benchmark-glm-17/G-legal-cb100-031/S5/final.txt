@@ -1,0 +1,26 @@
+All work is complete. Here is the position, recorded in four deliverables under `output/`.
+
+## Answer to the client's questions
+
+**Can Aurora certify the MDL production?** Not as a whole. On the current record, certification is available only for the supported subset of 6 portfolio keys, with their recorded gaps disclosed. Six keys fail the four-control test and must remain on evidence hold.
+
+**What can be done now (6 keys):** CBP-031-02, -04, -06, -07, -08, -09. Each passes immutable identity, operative authority, current operations, and effective approval/revision. Each carries a gap that is *disclosed*, not concealed — e.g., CBP-031-06 certifies 125 records against a 148-record population (23-record shortfall, E214/R246); CBP-031-09's clawback completed 42 days after the deadline (E503/R664). All six complete by **2026-09-03**, ahead of the 2026-09-05 deadline.
+
+**What must wait (6 keys):**
+- **CBP-031-03, -11 — identity collisions.** Each portfolio key maps to two immutable entities (ENT-031-1002/2002 and ENT-031-1010/2010) whose domain and legal-entity fields disagree; no approved crosswalk revision resolves either. A similar display name is not identity.
+- **CBP-031-01, -05 — approval.** Roster owners Samuel Kim and Dominic Alvarez are pending approval, inactive, capacity 0.
+- **CBP-031-10 — superseded revision.** Operations cites REV-2024.2; REV-2025.3 is effective.
+- **CBP-031-12 — open privilege blocker.** The common-interest support gap blocks completion under R908; the pending privilege challenge cannot be resolved on this record.
+
+**Which gaps must be cured first:** in impact order — CBP-031-03 (score 91, identity), CBP-031-12 (85, privilege), CBP-031-05 (70, approval + blocker), CBP-031-11 (55, identity), CBP-031-01 (37, approval), CBP-031-10 (33, revision).
+
+**What evidence would change the answer:** an approved crosswalk revision resolving both entity collisions; closure of the three "blocks completion" conditions (R694, R821, R908); approved and active roster owners with nonzero capacity for CBP-031-01 and -05 (their next internal control dates, 2026-09-04 and 2026-08-31, fall *before* the deadline, so a roster update could unblock them in time); a REV-2025.3 operations extract for CBP-031-10; and reconciliation of the 215 vs 180 record counts for CBP-031-01.
+
+## Deliverables in `output/`
+
+1. **`review_disposition_register.md`** — the system of record, one row per portfolio key with disposition, controls met/missing, exact gap, roster owner, next internal control date, and source anchors; plus a rollup, hold reasons by missing control, the impact-score table (input only), and a complete source-lineage appendix covering all 96 records.
+2. **`review_note.md`** — the protocol-required review note: selected approach (`aurora-antitrust:scoped-evidence`, AUTHORIZED), supported actions, evidence holds, source anchors, rejected alternatives (`shortcut` is UNSUPPORTED_BY_CURRENT_EVIDENCE; `blanket-hold` is ADDITIONAL_APPROVAL_REQUIRED, misses the deadline, and costs more), and reliance limits.
+3. **`team_working_position.md`** — the team memo answering certify/now/wait/cure-priority/changed-answer questions, with the recommended representation and decision summary.
+4. **`slack_completion_reply.md`** — the completion-route reply draft for channel `C00000031`, thread `1760000031.000005`, drafted only after the register and note were committed, with the re-open-and-confirm step and the correction procedure.
+
+The two rejected approaches were rejected for cause, not preference: the shortcut discards two identity collisions and an open privilege blocker, and the blanket hold over-holds six fully supported keys while deferring past the deadline. The scoped-evidence approach is the only AUTHORIZED option and the only one that both meets the deadline and preserves the unresolved constraints.

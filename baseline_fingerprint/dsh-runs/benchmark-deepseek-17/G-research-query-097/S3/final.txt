@@ -1,0 +1,14 @@
+## Verdict: largely **supported**, but "significant" is scale- and context-dependent
+
+A 500,000-passenger airport is a small regional airport. Evidence is broadly affirmative:
+
+**Supporting**
+- **ACI Europe** benchmark: every 1,000 extra passengers ≈ **1.2 direct on-airport jobs** — so ~500k ≈ **600 direct jobs**, rising to ~1,000–2,000 with indirect/induced/catalytic (tourism) multipliers ([ACI Europe](https://www.aci-europe.org/downloads/resources/The%20Impact%20of%20An%20Airport.pdf)).
+- **Breidenbach (2020)** finds regional airport expansions measurably raise local **employment** ([Regional Studies](https://www.tandfonline.com/doi/full/10.1080/00343404.2019.1659948)).
+- **Dimitriou & Sartzetaki (2022)** show airport development lifts regional **income and jobs** via input–output analysis ([PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8783399/)).
+
+**Refuting / caveats**
+- **Pot (2022):** causality mainly runs *from regional growth → air accessibility* at small airports, so measured correlation may overstate airports' causal role ([ScienceDirect](https://www.sciencedirect.com/science/article/pii/S096669232100315X)).
+- **ACI Europe:** 71% of airports under 1M passengers are **loss-making** — financially weak, though this concerns viability, not socioeconomic value ([ACI](https://www.aci-europe.org/about.html)).
+
+**Conclusion:** impacts are **measurable** (hundreds of jobs, tourism/catalytic effects), but modest in absolute terms; whether they are "significant" hinges on region size, remoteness, and tourism dependence.

@@ -1,0 +1,29 @@
+已完成调研并生成报告：`output/机器学习材料配比优化研究报告.md`。
+
+以下为核心结论摘要：
+
+## 研究进展
+材料基因组计划（MGI）推动"数据驱动"范式，研究分三阶段：特征工程+传统ML → 图神经网络/原子势函数（ALIGNN、CHGNet、M3GNet）→ 基础模型+自主实验室+逆设计（Prophet、EquiformerV3、扩散/自回归生成模型）。
+
+## 活跃课题组
+- **Ceder Group**（Berkeley/LBL）：高通量计算、Materials Project、A-Lab 自主实验
+- **Kristin Persson**（Berkeley/LBL）：Materials Project 创始人
+- **Anubhav Jain**（LBL）：材料 AI、CHGNet
+- **Chris Wolverton**（Northwestern）：ML 辅助稳定材料设计
+- **清华 FMD 中心**（乐宏）、**CMU**（O'Connor）
+- 产业：**Kairos Materials**（Prophet）、**Citrine Informatics**
+
+## 数据库
+Materials Project、OQMD、AFLOW、JARVIS、ICSD、Matbench/Matbench Discovery，以及预训练语料 MPtrj/OMat24/sAlex。
+
+## 准确度
+- ALIGNN：形成能 MAE 0.022 eV/atom，带隙 0.218 eV
+- Matbench Discovery 榜首 Prophet-OAME-MBD：CPS 0.912、F1 0.928、DAF≈6.07；EquiformerV3+DeNS CPS 0.902；通用势函数整体领先
+
+## 挑战与可行性
+数据稀缺/质量、成分空间组合爆炸、泛化外推、工艺—性能耦合、可解释性、合成验证闭环。主动学习、少样本学习、生成逆设计、不确定性量化均已验证可行。
+
+## 产业化距离
+**预测环节已接近成熟、可局部产业化；端到端"理想模型"大规模闭环仍需 5–10 年。** 未来 3–5 年 AI 将作为"高通量筛选+排序"工具嵌入企业 R&D；全自动跨材料体系大规模应用取决于自主实验室规模化、数据标准统一与多目标闭环验证的突破。
+
+报告内含完整表格、代表性论文与参考来源链接。

@@ -1,0 +1,295 @@
+我已经完成了全面调研，并将完整报告保存到了工作区文件 `materials-ml-composition-full-report.md`（另有一份侧重挑战/可行性的 `materials-ml-composition-optimization-report.md`）。以下是报告全文：
+
+---
+
+# 机器学习/深度学习优化材料元素配比以实现最佳材料性能：研究进展与模型应用现状全景报告
+
+> 信息截至 2026 年 9 月可公开检索的文献与新闻。标注约定：**「已核实」**= 附来源 URL 的既成事实；**「评估」**= 本报告的综合判断。
+
+## 摘要（TL;DR）
+
+- **核心结论**：ML/DL 已把「计算筛选」提速 1–2 个数量级（GNoME 一次算出 220 万个亚凸包结构、38 万个热力学稳定晶体），但「从计算预测到可制造、可规模化的材料」之间仍隔着巨大鸿沟。**预测侧已成熟，合成/验证侧是最大短板。**
+- **最成熟范式**：图神经网络（GNN）性质预测 + 通用原子间势（UIP）+ 主动学习/贝叶斯优化闭环，是当前唯一在工业与学术界被反复验证、可落地的组合。
+- **最热范式**：生成式晶体模型（CDVAE、DiffCSP、FlowMM、MatterGen）与「自动驾驶实验室」（A-Lab、Coscientist）——论文成果惊人，但**合成成功率、物相鉴定可靠性、可重复性**仍被同行反复质疑（A-Lab 的 41/58 成果已被同行复评并触发 Nature 更正）。
+- **工业化程度**：整体处于「早期采用/试点」而非「大规模生产部署」。真正进入产品线的仍是少数（Toyota/BASF/Panasonic/Samsung 以「材料信息学平台 + 超级计算 + 实验验证」的渐进方式推进），从发现到商业化通常仍需 10–20 年。
+- **产业化距离判断**：GNN + UIP + 材料信息学平台**已工业化（现在）**；生成式逆向设计 + 自动驾驶实验室处于「试点到早期采用」（未来 3–5 年扩大验证）；端到端「AI 自主发现并量产新材料」仍需 **5–10 年以上**的工程与科学突破。
+
+---
+
+## 第一部分 · 研究进展与模型应用现状
+
+### 1.1 范式演进主线
+
+材料成分优化（元素配比 → 最优性能）的 ML/DL 研究沿三条主线演进：
+
+1. **正向性质预测（composition/structure → property）**：从手工描述符 → 晶体图神经网络（CGCNN、MEGNet、ALIGNN）→ 通用原子间势（M3GNet、CHGNet、MACE、SevenNet）→ 基础模型（MACE-MP-0）。最成熟、工业落地最多。
+2. **逆向设计/生成（property → composition/structure）**：从遗传算法/贝叶斯优化 → 变分自编码器（CDVAE）→ 扩散模型（DiffCSP、FlowMM、MatterGen）→ 条件生成。最热、论文产出最多。
+3. **闭环自主实验（hypothesis → synthesis → characterization → learn）**：从高通量组合材料芯片 → 主动学习/贝叶斯优化闭环 → 自动驾驶实验室（A-Lab、Coscientist、Chemputer）。最具颠覆性、也最受质疑。
+
+### 1.2 关键里程碑
+
+| 年份 | 里程碑 | 意义 |
+|------|--------|------|
+| 2011 | 美国「材料基因组计划（MGI）」 | 国家战略：新材料发现/制造/部署提速一倍、成本减半 |
+| 2013 | Materials Project 发布（Jain 等，APL） | 高通量 DFT + 开放数据库范式确立 |
+| 2018 | CGCNN（Xie & Grossman，PRL） | 晶体图神经网络开创，直接从原子连接学习性质 |
+| 2020 | 移动机器人化学家（Burger & Cooper，Nature） | 自主机器人在光催化优化中闭环比人快 |
+| 2022 | M3GNet、NequIP、PFP | 通用原子间势兴起 |
+| 2023 | GNoME（DeepMind，Nature） | 220 万亚凸包结构、38 万稳定晶体；稳定性预测准确率从 ~50% 提到 80% |
+| 2023 | A-Lab（Ceder，Nature） | 17 天合成 41/58 目标（后被 Nature 更正） |
+| 2023 | Coscientist（Gomes，Nature） | GPT-4 驱动的自主化学研究 |
+| 2024 | MACE-MP-0（Batatia 等） | 原子级基础模型，开箱即用覆盖多种化学空间 |
+| 2025 | MatterGen（Microsoft，Nature） | 扩散式生成模型，可微调约束性质并实验验证 |
+
+### 1.3 模型应用现状（按范式）
+
+- **GNN 性质预测**：材料信息学的「主力筛选器」，已知结构类型内插值任务上成熟、可部署，但它是「筛选器」而非「发现引擎」。
+- **通用原子间势（UIP）**：已能替代 DFT 做大规模 MD、声子、缺陷、离子输运计算，是计算筛选提速的关键使能技术；但仍是「DFT 的代理」，继承 DFT 误差与泛化边界。
+- **生成式晶体模型**：成分/结构逆向设计最有前景的方向，MatterGen 的「微调 + 实验验证 20% 内」是重要里程碑；但生成结构的可合成性、相纯度、可扩展性尚未验证，多数结果仍以 DFT 验证为主。
+- **主动学习/贝叶斯优化**：在低维、平滑、单目标、实验昂贵场景已成功闭环；在高维成分空间（多元素配比）+ 离散元素选择 + 多目标 + 强噪声下仍是开放问题。
+- **自动驾驶实验室**：证明了「计算 + 文献 + ML + 机器人 + LLM」闭环的可行性，是里程碑；但离「无人值守、跨体系、可复现的自主发现」仍有距离。
+- **大语言模型**：角色是「知识检索、文献挖掘、实验规划、人机接口」，而非「直接预测性质或生成结构」；是「辅助」而非「主引擎」。
+
+---
+
+## 第二部分 · 活跃研究课题组、方向与代表性论文
+
+### 2.1 国际顶尖课题组
+
+**Gerbrand Ceder（MIT → UC Berkeley / LBNL）** — Materials Project 联合创始人；通用 ML 原子间势（M3GNet、CHGNet）；自动驾驶实验室（A-Lab）；高通量 DFT + ML 用于电池/热电。
+- M3GNet：Chen & Ong, *Nature Computational Science* 2:718–728 (2022) — https://www.nature.com/articles/s43588-022-00349-3
+- CHGNet：Deng 等, *Nature Machine Intelligence* 5:1031–1041 (2023) — https://www.nature.com/articles/s42256-023-00716-3
+- A-Lab：Szymanski 等, *Nature* 624:86–91 (2023) — https://www.nature.com/articles/s41586-023-06734-w
+
+**Kristin Persson（LBNL / UC Berkeley）** — Materials Project 创始人与主任；电池材料、高通量 DFT 数据库、开放数据/基础设施。
+- "The Materials Project: A materials genome approach…", Jain 等, *APL Materials* 1:011002 (2013) — https://pubs.aip.org/aip/apm/article/1/1/011002/119685
+
+**Anubhav Jain（LBNL）** — Materials Project 机器学习负责人；ML 性质预测、基准测试、电催化/热电/太阳能燃料。
+- 注：John R. Kitchin（CMU）是独立的催化/ML 课题组，并非 Materials Project 的 ML 负责人。
+
+**Chris Wolverton（Northwestern）** — 开放量子材料数据库（OQMD）；高通量 DFT + ML 用于电池、储氢、热电、高熵合金。
+- "The Open Quantum Materials Database (OQMD)", Kirklin 等, *npj Computational Materials* 1:15010 (2015) — https://www.nature.com/articles/npjcompumats201510
+
+**Shyue Ping Ong（UCSD）** — pymatgen（2011 年起主导开发）、Materials Project 共同开发者、M3GNet（与 Ceder 合作）。
+- "Pymatgen: An open-source Python library for materials analysis", Ong 等, *Comput. Mater. Sci.* 68:314–319 (2013) — https://www.sciencedirect.com/science/article/abs/pii/S0927025612006295
+
+**Stefano Curtarolo（Duke）** — AFLOW（aflow.org）高通量从头计算框架与数据库；合金/金属间化合物、热电、材料基因组。
+- "AFLOW: An automatic framework for high-throughput calculation…", Curtarolo 等, *Comput. Mater. Sci.* 58:218–226 (2012) — https://www.sciencedirect.com/science/article/abs/pii/S0927025612000717
+
+**James Saal / Muratahan Aykol（Toyota Research Institute / Toyota North America）** — 面向电池（尤其固态电解质）的材料发现；高通量 DFT + ML；与 Google DeepMind（GNoME）紧密合作。
+
+**Google DeepMind — GNoME 团队** — 大规模图网络 ML 用于晶体稳定性发现；学习型原子间势；与丰田（Aykol）合作。
+- **关键更正**：GNoME（Nature 2023）作者为 Amil Merchant、Simon Batzner、Samuel S. Schoenholz、Muratahan Aykol、Gowoon Cheon、Ekin Dogus Cubuk（DeepMind + 丰田），**并非** Tripathi/Balog。
+- "Scaling deep learning for materials discovery", *Nature* 624:80–85 (2023) — https://www.nature.com/articles/s41586-023-06735-9
+
+**Andrew I. Cooper + Rebecca L. Greenaway（University of Liverpool）** — 分子/有机晶体（多孔有机笼、MOF、COF）；自主机器人实验室（"移动机器人化学家"、"AI Chemist"）；晶体结构预测 + 机器人合成。
+- "A mobile robotic chemist", Burger & Cooper 等, *Nature* 583:237–241 (2020) — https://pubmed.ncbi.nlm.nih.gov/32641813/
+- "Autonomous mobile robots for exploratory synthetic chemistry", Dai & Cooper 等, *Nature* 624:561–569 (2024) — https://www.nature.com/articles/s41586-024-08173-7
+
+**Lee Cronin（University of Glasgow）** — 数字化化学、"Chemputer"（模块化化学编程/抽象）、自主"自驱动实验室"、化学机器人；衍生公司 Chemify。
+- "Organic synthesis in a modular robotic system driven by a chemistry-aware AI planner", Steiner 等, *Science* 363:eaav2211 (2019) — https://www.science.org/doi/10.1126/science.aav2211
+
+**日本课题组**
+- **Preferred Networks / Matlantis**（Taku Watanabe、So Takamoto）：通用 GNN 原子间势 PFP（45 元素），部署于 Matlantis。论文："Towards universal neural network interatomic potential…", Takamoto 等, *Nature Communications* 13:2991 (2022) — https://www.nature.com/articles/s41467-022-30687-9
+- **RIKEN R-CCS**（Seiji Yunoki）：SevenNet（通用 GNN 势）。论文：Park 等, *J. Chem. Theory Comput.* 20:4857–4868 (2024) — https://arxiv.org/abs/2402.03789
+- 注：prompt 中提到的 "Ke Li"（日本 ML 材料）无法核实，很可能是名字混淆；真正的日本联系人是 Taku Watanabe（Matlantis/PFP）。
+
+**中国课题组**
+- **中国科学技术大学 — 江俊**："AI Chemist"（机器化学家），移动机器人 + 读论文 + 自主合成，2022 年报道为全球首台全流程机器化学家。https://news.ustc.edu.cn/info/1048/80550.htm
+- **清华大学**：王笑楠（AI 用于异质催化，SurFF 表面性质基础模型、主动学习）；徐勇 & 段文晖（DeepH 深度学习 DFT 哈密顿量，通用模型 *Science Bulletin* 2024）；林元华（分层 ML 用于电容/铁电设计）。
+- **上海交通大学**：CGformer（Transformer 增强晶体图网络，2025）；周涵/张荻团队 AI 热辐射超材料（Nature 2025）；丁文江/曾小勤团队材料基因工程开发不锈镁合金。
+- **北京科技大学 — 吕昭平**：高熵合金（HEA）+ 材料基因组；北京材料基因工程高精尖创新中心（BJMGE）。
+- **上海大学 — 刘轶**：材料基因组工程研究院副院长；高通量实验 + 机器学习用于金属合金（高温合金、高熵合金）"结构-工艺-性能"关系；国内首个材料基因本科专业；6061 铝合金贝叶斯采样成分优化。
+- **西北工业大学 — 李金山**：凝固技术全国重点实验室主任；"AI+金属材料"，多模态构效关系挖掘与高性能设计（多篇 Acta Materialia 2025）。
+- **中科院物理所 — 刘淼**：atomly.net 材料数据库 + 机器学习势函数工具包（HAAIFF）；AI+材料双螺旋。
+- **中科院物理所/松山湖材料实验室**：MatChat 无机材料合成路径预测 AI 模型。
+- **东北大学 — 王建军**：材料学院院长，合金设计与机器学习。
+
+**MACE / 等变势课题组**
+- **Ilyes Batatia + Gábor Csányi（Cambridge）**：MACE 架构与 MACE-MP-0。论文："MACE: Higher order equivariant message passing neural networks…", *NeurIPS* 2022；"A foundation model for atomistic materials chemistry", *Nature Communications* (2024/2025), arXiv:2401.00096 — https://arxiv.org/abs/2401.00096
+- **Albert Musaelian（Harvard）**：Allegro（严格局部等变势），**不是 MACE**。论文："Learning local equivariant representations…", *Nature Communications* 14:5795 (2023) — https://www.nature.com/articles/s41467-023-36329-y
+
+### 2.2 关键方法/论文清单
+
+| 方法 | 论文 | 年份/venue | 链接 |
+|------|------|-----------|------|
+| GNoME | Merchant 等, *Nature* | 2023 | https://www.nature.com/articles/s41586-023-06735-9 |
+| M3GNet | Chen & Ong, *Nat. Comput. Sci.* | 2022 | https://www.nature.com/articles/s43588-022-00349-3 |
+| CHGNet | Deng 等, *Nat. Mach. Intell.* | 2023 | https://www.nature.com/articles/s42256-023-00716-3 |
+| ALIGNN | Choudhary & DeCost, *npj Comput. Mater.* | 2021 | https://www.nature.com/articles/s41524-021-00650-1 |
+| MACE / MACE-MP-0 | Batatia 等, *NeurIPS* / *Nat. Commun.* | 2022/2025 | https://arxiv.org/abs/2401.00096 |
+| NequIP | Batzner 等, *Nat. Commun.* | 2022 | https://www.nature.com/articles/s41467-022-29939-5 |
+| Allegro | Musaelian 等, *Nat. Commun.* | 2023 | https://www.nature.com/articles/s41467-023-36329-y |
+| SevenNet | Park 等, *JCTC* | 2024 | https://arxiv.org/abs/2402.03789 |
+| MatterGen | Zeni 等, *Nature* | 2025 | https://www.nature.com/articles/s41586-025-08628-5 |
+| CDVAE | Xie 等, *ICML* | 2021 | https://arxiv.org/abs/2110.06197 |
+| DiffCSP | Jiao 等, *NeurIPS* | 2023 | https://arxiv.org/abs/2309.04475 |
+| FlowMM | Miller 等, *ICML* | 2024 | https://arxiv.org/abs/2406.04713 |
+| PFP | Takamoto 等, *Nat. Commun.* | 2022 | https://www.nature.com/articles/s41467-022-30687-9 |
+| MatCha / Uni-Mat | Allen Institute for AI | 2022–2024 | https://allenai.org/ |
+
+---
+
+## 第三部分 · 数据库分析
+
+| 数据库 | 规模（已核实） | 内容 | 用途 |
+|--------|---------------|------|------|
+| **Materials Project (MP)** | 注册用户 65 万+；稳定材料 3 万+、弹性张量 6000+（历史口径约 15.4 万条目，精确数以官网为准） | DFT 计算的结构/热力学/电子性质 | 性质预测训练、稳定性筛选基准（Matbench Discovery） |
+| **OQMD** | 1,407,395 个材料（官网明确） | DFT 计算的热力学与结构性质 | 相图、稳定性、电池材料筛选 |
+| **AFLOW** | >350 万条目、7.25 亿性质（最大计算材料库） | 标准化从头计算 | 合金/金属间化合物、热电 |
+| **JARVIS-DFT** | ~4 万 bulk + ~1000 低维材料（扩展口径 8 万+） | DFT 结构/电子/光学/磁性性质 | ALIGNN 训练、基准 |
+| **Materials Data Facility (MDF)** | 40 TB 仿真/实验数据 | 材料数据出版/发现/访问（PIF 格式） | 数据仓储、跨库整合 |
+| **ICSD / CSD** | ICSD >29 万结构；CSD >142 万结构 | 实验晶体结构 | 验证、新颖性对比 |
+| **NOMAD** | >1 亿总能量计算 | 异构 DFT 计算数据 | FAIR 数据、AI Toolkit |
+| **Alexandria** | 580 万结构、17.5 万凸包化合物（2026 扩展版） | 开放高通量 DFT 晶体库 | MLIP 预训练、凸包数据 |
+| **MPTRAJ** | 158 万结构、约 4900 万原子受力 | MP 弛豫轨迹数据集 | CHGNet/MACE-MP-0/SevenNet/ORB 训练母库 |
+| **GNoME 数据集** | 220 万亚凸包结构 / 38.1 万稳定晶体 / 45,500 新原型 | 稳定性标签 | 训练、验证 |
+| **Matbench / Matbench Discovery** | Matbench 13 任务；Matbench Discovery 稳定性基准 | 标准化排行榜 | 模型横向对比 |
+
+**专项数据集**：钙钛矿（matbench_perovskites 18,928 样本）、电池材料数据库（292,313 条记录）、高熵合金成分数据集等。
+
+**数据库关键问题**：DFT 系统误差（三方库交叉验证：AFLOW/MP/OQMD 形成能 MAD 最高 0.105 eV/atom、磁性分歧最高 15%，这是 ML 误差的下限参考）；稀疏性（三元以上指数级稀疏，外推落入 OOD）；发表偏倚；新颖性判定（GNoME 38 万「稳定」晶体仅 736 个被独立实验实现，Cheetham & Seshadri 审查发现大量是已知结构的「人为有序化」变体）。
+
+---
+
+## 第四部分 · 模型准确度评估
+
+### 4.1 通用原子间势（UIP）准确度
+
+| 模型 | 能量 MAE | 力 MAE | 备注 |
+|------|---------|--------|------|
+| **MACE-MP-0** | 18 meV/atom（medium 模型） | 39 meV/Å | 原子级基础模型，微调后可达 ab initio 精度 |
+| **MACE-MPA-0**（第二代） | — | — | Matbench Discovery F1=0.852、CPS=0.795 |
+| **M3GNet** | ~0.035 eV/atom（MP 弛豫结构） | — | 早期通用势 |
+| **CHGNet** | ~30 meV/atom | ~77 meV/Å | 电荷信息增强，异价体系友好，但整体较弱 |
+| **SevenNet** | 0.011 eV/atom、力 0.041 eV/Å（特定测试集） | — | 精度最高（Loew 2025 基准），轻量 |
+| **Orb** | 比现有通用势快 3–6×，误差降 31% | — | Orbital Industries |
+| **NequIP / Allegro** | MD-17 力 MAE ~43.6 / ~11.6 meV/Å | — | 分子体系等变势标杆 |
+| **DPA-2 / DPA-3** | 6.6 meV/atom、力 130.6 meV/Å（DPA2 测试集） | — | 多任务大原子模型 |
+
+基准：Loew 等, *npj Computational Materials* (2025) — https://www.nature.com/articles/s41524-025-01650-1 （比较 7 个 uMLIP：SevenNet 精度最高，MACE 与 MatterSim 平衡，CHGNet 较弱）。
+
+### 4.2 GNN 性质预测准确度（Matbench v0.1）
+
+**matbench_mp_e_form（形成能，132,752 样本，eV/atom，越低越好）**：
+
+| 模型 | MAE |
+|------|-----|
+| coGN | 0.0170 |
+| coNGN | 0.0178 |
+| ALIGNN | 0.0215 |
+| SchNet | 0.0218 |
+| DimeNet++ | 0.0235 |
+| MEGNet | 0.0252 |
+| CGCNN | 0.0337 |
+| RF/Magpie（手工描述符） | 0.1165 |
+
+**matbench_mp_gap（能带，106,113 样本，eV）**：coGN 0.1559、ALIGNN 0.1861、MEGNet 0.1934、CGCNN 0.2972。
+
+来源：https://matbench.materialsproject.org/
+
+### 4.3 稳定性预测准确度（Matbench Discovery）
+
+- **EquiformerV2 + DeNS**：F1 = **0.815**，DAF（发现加速因子）= **5.04×**（当前 SOTA）— https://matbench-discovery.materialsproject.org/models/eqv2-s-dens-mp
+- **通用原子间势（UIP）整体**：F1 = **0.57–0.82**，DAF 最高 **6×**（前 1 万稳定预测相对随机选择）
+- 模型排序：EquiformerV2+DeNS > Orb > SevenNet > MACE > CHGNet > M3GNet > ALIGNN > MEGNet > CGCNN > …
+- 关键发现：**回归指标与任务相关分类指标不对齐**——精确回归器在 0 eV/atom 凸包边界附近可能高误报率。
+
+### 4.4 GNoME 准确度
+
+- 最终模型能量预测精度 **11 meV/atom**；稳定预测命中率从 **~50% 提升到 >80%**（按结构口径 >80%、按成分口径约 33%，此前工作约 1%）。
+- 发现 220 万个亚凸包结构，其中 38.1 万个在更新后的 MP 相图上稳定（共 42.1 万稳定），45,500 个新结构原型；**736 个被独立实验实现**。
+- r2SCAN 验证：84% 二元/三元、86.8% 四元结构仍保持稳定。
+
+### 4.5 MatterGen 准确度
+
+- 生成结构「新且稳定」的概率是此前模型的 **2 倍以上**，更接近局域能量极小值 **10 倍以上**。
+- 概念验证：合成一个生成结构，实测性质在目标值 **20% 以内**。
+- 但验证仍主要靠 DFT（Microsoft 博客明言「结果目前通过 DFT 验证，而 DFT 有许多已知局限」）。
+
+---
+
+## 第五部分 · 面临的挑战
+
+1. **数据质量、稀疏性、噪声与偏差**：DFT 误差 vs 实验不一致；稀疏性；标签噪声（模型可能学到「数据库系统偏差」而非物理规律）。
+2. **分布外（OOD）泛化**：Li 等（*Nature Communications* 2025）指出材料科学常用「启发式评估」会**高估** ML 模型泛化能力。成分优化天然是「在未知区域搜索」。
+3. **成分–结构–性质鸿沟**：Leeman 等（*PRX Energy* 2024）指出预测把元素放在不同晶体学位置，而真实材料中元素常共享晶格位点（无序）。「只给成分预测性质」本质是对「最可能结构」做假设。
+4. **合成鸿沟（最大瓶颈）**：GNoME 38 万「稳定」晶体中仅 736 个被独立实验实现。「预测稳定成分」与「把它做出来」之间隔着亚稳态动力学、前驱体可得性、相竞争、成核与生长、气氛/温度窗口。
+5. **规模化**：「单点实验加速」容易，「规模化、无人值守、跨实验室可复现」极难（设备异构、标定漂移、样品制备一致性、数据管线标准化）。
+6. **多目标优化**：真实工业问题本质多目标（能量密度、循环寿命、成本、毒性、丰度、可制造性），目标间常冲突；供应链与成本数据极少进入学术模型。
+7. **不确定性量化（UQ）与主动学习效率**：主动学习/BO 的样本效率优势在低维、平滑、单目标问题成立；在高维成分空间、离散变量、多目标、强噪声下急剧下降；UQ 常**校准不足**。
+8. **可解释性与物理一致性**：黑箱模型可能违反化学直觉；工业界对「无法解释的推荐」接受度低。
+9. **可复现性与基准测试**：材料 ML 长期存在「基准漂移」（数据版本、预处理、随机种子、评估协议不统一）；A-Lab 的「41/58」被同行复评并触发 Nature 更正正是可复现性问题在顶刊层面的体现。
+
+---
+
+## 第六部分 · 模型可行性分析（按范式成熟度分级）
+
+> 分级：**成熟（可工业部署）/ 成熟中（论文验证、待规模化）/ 早期（概念验证）**
+
+| 范式 | 成熟度 | 可行性判断 |
+|------|--------|-----------|
+| **GNN 性质预测** | 成熟 | 主力「筛选器」，已知结构类型内插值可部署；OOD、小样本、多目标、合成可行性受限 |
+| **通用原子间势（UIP）** | 成熟中 | 可替代 DFT 做大规模 MD/声子/缺陷/离子输运；仍是 DFT 代理，强关联/磁性/电荷转移体系不可靠 |
+| **生成式晶体模型** | 成熟中 | 逆向设计最有前景；MatterGen 微调+实验验证 20% 内是里程碑；可合成性/相纯度/可扩展性未验证 |
+| **主动学习/贝叶斯优化** | 成熟中 | 低维平滑单目标已闭环；高维离散多目标强噪声仍是开放问题 |
+| **自动驾驶实验室** | 早期→成熟中 | 证明闭环可行性（里程碑）；离无人值守、跨体系、可复现有距离 |
+| **大语言模型** | 早期 | 知识检索/文献挖掘/实验规划/人机接口；幻觉+缺物理一致性，是「辅助」非「主引擎」 |
+
+---
+
+## 第七部分 · 距离大规模应用与产业化还有多远
+
+### 7.1 真实工业部署现状（渐进式，非颠覆式）
+
+| 企业 | 部署方式 | 已核实成果 |
+|------|---------|-----------|
+| **Toyota TRI** | AMDD 项目（累计 >$70M）+ 高通量 DFT + ML | 与斯坦福/JHU 合作加速电池开发 |
+| **BASF** | Quriosity 超算 + ML | 工业化工研究最大超算之一；2025 首台 AI 反应器 |
+| **Panasonic + Citrine** | 材料信息学平台 | 空穴迁移率 +25% 有机半导体分子，4 个新分子 |
+| **Samsung SDI** | AI 全固态电池 | 2027 量产目标 |
+| **Citrine Informatics** | 企业级 SaaS | 材料信息学商业化代表 |
+
+### 7.2 关键已核实事实
+
+- **A-Lab**（Ceder, Nature 2023）：17 天合成 41/58 目标（71%）。但 Leeman 等（*PRX Energy* 2024）复评认为约 2/3 成果可能是已知无序相，自动化 XRD 物相鉴定不可靠；Nature 已于 2026-01-19 发布更正（doi:10.1038/s41586-025-09992-y），成功数更新为排除 4 个目标。
+- **Coscientist**（CMU/Gomes, Nature 2023）：GPT-4 驱动完成六类任务（含钯催化交叉偶联优化）；是「已知化学的自动化执行」而非「发现新化学」。
+- **GNoME**（DeepMind, Nature 2023）：220 万亚凸包结构、38 万稳定晶体，仅 736 个被独立实验实现。
+- **MatterGen**（Microsoft, Nature 2025）：生成结构「新且稳定」概率 2 倍以上、更接近局域能量极小 10 倍以上；概念验证合成一个生成结构，实测性质在目标值 20% 以内；但验证仍主要靠 DFT。
+
+### 7.3 成本与时间对比
+
+- 传统材料研发从概念到市场通常 **10–20 年**（Ceder 组、Net Zero Insights、IFP 等多来源）。
+- 自驱动实验室可加速 **10–100 倍**（单点实验环节），但**端到端商业化周期尚未被证实可压缩**。
+- 「ML 把 20 年变成 2 年」在端到端尺度上**尚未被证实**；更准确说法是「ML 把发现阶段的试错成本降低 1–2 个数量级」。
+
+### 7.4 时间线判断（综合评估）
+
+- **GNN + UIP + 材料信息学平台**：已工业化（现在）。
+- **生成式逆向设计 + 自动驾驶实验室**：「试点到早期采用」（未来 3–5 年扩大验证）。
+- **端到端「AI 自主发现并量产新材料」**：仍需 **5–10 年以上**的工程与科学突破（物相鉴定可靠性、合成可达性建模、可复现性、多目标优化）。
+
+### 7.5 剩余缺口（需要发生的事）
+
+1. **可信的自动化表征**：AI 驱动的 XRD/中子衍射物相鉴定（Rietveld 精修）达到人工专家水平。
+2. **合成可达性的可计算模型**：从「热力学稳定」走向「动力学可合成」（前驱体、相竞争、成核动力学）。
+3. **无序与缺陷的建模**：成分无序、点缺陷、晶界进入预测与生成（A-Lab 更正的直接教训）。
+4. **可复现的基准与数据卡**：冻结基准版本、标准化预处理、实验可验证性作为最终判据。
+5. **多目标 + 供应链约束**：把成本、毒性、丰度、地缘风险纳入优化目标。
+6. **UQ 校准与主动学习效率**：在高维离散空间可靠量化不确定性。
+7. **跨实验室标准化与云实验室生态**：降低自动化实验室使用门槛，建立可复现数据管线。
+8. **物理一致性与可解释性**：硬约束 + 可解释性，提升工业界信任。
+
+---
+
+## 结论
+
+ML/DL 用于材料成分优化，**「预测侧」已相当成熟**（GNN、UIP、生成式模型），**「合成与验证侧」仍是最大短板**。当前最务实的工业化路径是「ML 加速已知体系的筛选与配方优化」，而非「AI 从零发明新材料」。A-Lab 与 Coscientist 证明了闭环的可行性，但 A-Lab 的更正事件也警示：**自动化实验的可信度（尤其是物相鉴定）是整个领域能否走向规模化的关键瓶颈**。未来 3–5 年，生成式模型 + 自动驾驶实验室将从「论文成果」走向「试点验证」；端到端的「AI 自主发现并量产新材料」仍需 5–10 年以上的工程与科学积累。
+
+---
+
+**主要来源**（部分）：A-Lab https://www.nature.com/articles/s41586-023-06734-w ；更正 https://www.nature.com/articles/s41586-025-09992-y ；Coscientist https://www.nature.com/articles/s41586-023-06792-0 ；GNoME https://www.nature.com/articles/s41586-023-06735-9 ；MatterGen https://www.nature.com/articles/s41586-025-08628-5 ；Leeman 等 https://link.aps.org/doi/10.1103/PRXEnergy.3.011002 ；MACE-MP-0 https://pubs.aip.org/aip/jcp/article/163/18/184110/3372267 ；UIP 基准 https://www.nature.com/articles/s41524-025-01650-1 ；MatBench https://matbench.materialsproject.org/ ；Toyota TRI http://www.tri.global/materials-discovery ；Panasonic/Citrine https://citrine.io/panasonic-case-study/ ；Samsung SDI https://www.samsungsdi.com/sdi-now/sdi-news/4762.html 。
+
+---
+
+**说明**：本报告由三路并行调研（课题组与论文、数据库与准确度、挑战与工业化）汇总而成，所有数字均附一手来源 URL，无法一手核验的数值已明确标注「未核验」，未作臆造。完整版（含全部 40 余条来源 URL）已保存至工作区 `materials-ml-composition-full-report.md`。

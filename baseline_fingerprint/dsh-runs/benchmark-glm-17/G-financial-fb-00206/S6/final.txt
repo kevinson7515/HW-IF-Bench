@@ -1,0 +1,8 @@
+**Gross margin is not a relevant metric for JPM.** The attached 2022 10-K (all 382 pages) contains no "cost of goods sold," "gross profit," or "gross margin" anywhere. Its consolidated income statement (p.159) uses the bank format:
+
+- Noninterest revenue $61,985M + net interest income (interest income $92,807M − interest expense $26,097M) $66,710M = total net revenue $128,695M
+- Provision for credit losses $6,389M; noninterest expense $76,140M; net income $37,676M
+
+Why: a bank sells no goods with unit costs. Revenue is the spread between interest earned on loans/securities and interest paid on deposits/funding, plus fees. Interest expense is a funding cost of liabilities, not COGS, so "revenue − COGS" is undefined, and any pseudo-margin would swing with rates (interest expense: $10.0B 2020 → $5.6B 2021 → $26.1B 2022) with no change in unit economics.
+
+Bank-appropriate metrics: net interest margin, efficiency ratio (55.6% → 58.6% → 59.2%, 2020–22), pre-provision profit, ROA/ROE. These move with credit and rate cycles — pre-tax margin was 29.9%, 49.0%, 35.9%, driven mostly by provisions ($17.5B → −$9.3B → $6.4B). So the ±2% consistency test can't be applied to gross margin here.

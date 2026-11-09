@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "1937-1949抗战及战后史学研究报告.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "1937-1949抗战及战后史学研究报告.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1938603/G-research-query-032/S1/artifacts/1937-1949抗战及战后史学研究报告.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793713426000000000,
+      "type": "file",
+      "size": 53167,
+      "sha256": "d1f1f8dfe2aeed6679af8f145a27f087a4a60ab27ac27cf56e001def761e6ce4"
+    }
+  ],
+  "entries": {
+    "1937-1949抗战及战后史学研究报告.md": {
+      "mode": 384,
+      "mtime_ns": 1793713426000000000,
+      "type": "file",
+      "size": 53167,
+      "sha256": "d1f1f8dfe2aeed6679af8f145a27f087a4a60ab27ac27cf56e001def761e6ce4"
+    }
+  },
+  "deleted_entries": {}
+}

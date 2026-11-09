@@ -1,0 +1,38 @@
+Both deliverables are complete and consistent: **6 SUPPORTED + 6 HOLD** across the 12 portfolio keys, with named owners and flip-evidence for each hold. Here is the coherent working position for the team.
+
+---
+
+## Position for the litigation team (CB-LD-2701, Aurora MDL)
+
+**Can Aurora certify the MDL production?** Not in full today. It can certify a **scoped** production of **6 of 12 portfolio keys** now, with the residual variances disclosed; **6 keys must be held** and cured before full certification.
+
+**The defensible approach is `aurora-antitrust:scoped-evidence` (AUTHORIZED)** — commit 6 supported actions, preserve 6 evidence holds, finish the latest supported action by **2026-09-03**. `shortcut` is unsupported by the evidence; `blanket-hold` is overbroad and needs additional approval.
+
+### What Aurora can do now (6 supported keys — certify with disclosure)
+- **CBP-031-04** Metadata Field Loss — clean (completed 2025-11-25, ahead of the 2025-11-27 deadline).
+- **CBP-031-02** Email-Family Separation — disclose 14% result vs 11% threshold.
+- **CBP-031-06** Protective-Order Designation Error — disclose 125 vs 148 designation delta.
+- **CBP-031-07** Production Gap — disclose 40 vs 78 delta.
+- **CBP-031-08** Legal-Hold Delivery Gap — disclose receipt-address variance.
+- **CBP-031-09** Clawback Deadline — disclose 2025-05-12 completion vs 2025-03-31 due.
+
+### What must wait (6 evidence holds — cure before full certification)
+| Key | Gap to cure | Owner |
+|---|---|---|
+| CBP-031-01 Bates-Range Overlap | 180 vs 215 Bates delta + inactive owner | Samuel Kim (reassign) |
+| CBP-031-03 Request-Response Mismatch | identity collision + open mismatch | Adrian Mensah |
+| CBP-031-05 Collection-Date Inconsistency | open inconsistency + inactive owner | Dominic Alvarez (reassign) |
+| CBP-031-10 Third-Party Subpoena Deadline | revision priority (REV-2024.2 vs REV-2025.3) | Willa Novak |
+| CBP-031-11 Custodian Omission | identity collision + 61 vs 98 | Owen Delgado |
+| CBP-031-12 Common-Interest Support Gap | open privilege/common-interest gap | Priya Raman |
+
+The four client-flagged themes reconcile cleanly: **overlapping Bates ranges → CBP-031-01**; **departed custodians → CBP-031-11** (plus two inactive owners to reassign on 01 and 05); **pending privilege challenge → CBP-031-12** (06 supportable-with-disclosure); **mobile chats → CBP-031-03 / 05 / 07**.
+
+### What evidence would change the answer
+Each hold is nameable and narrow — an approved crosswalk resolving the ENT-100x/200x identity collisions (03, 11), a reconciled count delta (01, 11), a corrected collection date or order (05), confirmation that REV-2025.3 governs (10), and an executed common-interest agreement (12). Full detail is in the memo.
+
+### Deliverables recorded in the workspace
+- `output/aurora_antitrust_working_position.md` — the full position (bottom line, direct answers, register, holds/owners, loop-close, limits).
+- `output/aurora_antitrust_review_disposition_register.csv` — one row per portfolio key (12 rows), with the four-control pass/fail, missing controls, owner, flip-evidence, and source anchors.
+
+The completion route is a reply in Slack `C00000031` / thread `1760000031.000005` (no new top-level post), to be sent after the register and note are committed — which they now are. **One coherent takeaway: certify the 6 clean keys now with disclosures, do not represent full MDL certification, and assign the 6 cures to the named owners with a reconvene on 2026-09-03.**

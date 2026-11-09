@@ -1,0 +1,13 @@
+Position recorded in `aurora-antitrust/` (register + note). **Aurora cannot certify the full MDL production now** — adopt `scoped-evidence` (authorized).
+
+**Do now (6 supported):** 02, 04, 06, 07, 08, 11 — certify with disclosure control rows; finish by 2026-09-03.
+
+**Wait (6 holds → gap → owner):**
+- 01 Bates overlap (180 vs 215) — Samuel Kim
+- 03 request-response mismatch — Adrian Mensah
+- 05 collection-date + inactive owner — Dominic Alvarez
+- 09 clawback due 03-31 vs done 05-12 — Jonas Feld
+- 10 superseded REV-2024.2→2025.3 — Maya Ellison
+- 12 privilege gap (R908) — Priya Raman
+
+Each lifts on its matching cure (see note). Slack reply to `C00000031` thread `1760000031.000005` after commit.

@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "1937-1949年中国史学研究综合分析报告.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "1937-1949年中国史学研究综合分析报告.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1938603/G-research-query-032/S6/artifacts/1937-1949年中国史学研究综合分析报告.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793725059000000000,
+      "type": "file",
+      "size": 83649,
+      "sha256": "67783aa4a1c856626d3b09a7f02c4936250920f3e2e88b81929d546e2fb3d40f"
+    }
+  ],
+  "entries": {
+    "1937-1949年中国史学研究综合分析报告.md": {
+      "mode": 384,
+      "mtime_ns": 1793725059000000000,
+      "type": "file",
+      "size": 83649,
+      "sha256": "67783aa4a1c856626d3b09a7f02c4936250920f3e2e88b81929d546e2fb3d40f"
+    }
+  },
+  "deleted_entries": {}
+}

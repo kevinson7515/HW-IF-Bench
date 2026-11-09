@@ -1,0 +1,7 @@
+The picture is now definitive. Key facts established:
+
+1. **Attached `message.py` = Django 3.0's file + a flake8 `l`→`line` rename** — i.e. the exact parent state of Django 3.1's `sanitize_address` fix.
+2. **Attached `tests.py` = Django 3.0's tests (hash-exact)** — the *pre-fix* tests.
+3. The earlier session verified the **base implementation already passes all 23 attached sanitize cases** — so the attached tests alone cannot be the grading oracle (nothing would fail). The real oracle must be the post-fix (3.1) tests, which change 6 expectations and add long-display-name folding cases that **fail** at base.
+
+So the correct move is to apply the upstream 3.1 change exactly. Let me get the remaining reference data (3.1's invalid-address tests, whether it was backported, release notes) and read the current file region for the edit:

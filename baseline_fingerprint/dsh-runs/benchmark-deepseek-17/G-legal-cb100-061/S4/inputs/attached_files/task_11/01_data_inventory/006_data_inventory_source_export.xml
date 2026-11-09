@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<counsel-source-record schema-version="3.1">
+  <record-id>CB-DOC-061-006</record-id>
+  <matter-number>CB-PR-3001</matter-number>
+  <portfolio-key>CBP-061-06</portfolio-key>
+  <source-system>regulatory response room</source-system>
+  <evidence-role>identity_crosswalk</evidence-role>
+  <immutable-entity-key>ENT-061-1005</immutable-entity-key>
+  <referenced-revision>REV-2025.6</referenced-revision>
+  <current-revision>REV-2025.6</current-revision>
+  <native-record>Crosswalk revision REV-2025.6 maps portfolio key CBP-061-06 and legal name Arcadia Genomics, Inc. — Cross-Border Transfer Gap record 6 to immutable entity ENT-061-1005. The domain, legal entity, and native system key agree; the nearby alias is excluded.</native-record>
+  <analysis>
+    <section heading="Source lineage">regulatory response room produced native record CB-DOC-061-006 for CB-PR-3001. Nora Chen owns the source population and Nora Chen recorded the collection review. The export remains separate from later legal analysis.</section>
+    <section heading="Business context">This record concerns cross-border transfer gap within Arcadia genomic data response audit. A consumer access request exposes inconsistencies among genomic-data notices, deletion jobs, vendors, and overseas research transfers. The record addresses one part of the broader question: Join requester identity, genomic data inventory, vendor copies, deletion jobs, and research transfers.</section>
+    <section heading="Native record">Crosswalk revision REV-2025.6 maps portfolio key CBP-061-06 and legal name Arcadia Genomics, Inc. — Cross-Border Transfer Gap record 6 to immutable entity ENT-061-1005. The domain, legal entity, and native system key agree; the nearby alias is excluded.</section>
+    <section heading="Reliance limits">This file supplies identity crosswalk evidence for CBP-061-06. It does not decide legal effect, select among candidate responses, resolve another system&#x27;s entity identity, or establish that its cited revision is controlling.</section>
+  </analysis>
+  <supporting-rows>
+    <row id="CBP-061-06-IDE-01" date="2025-01-14" entity="ENT-061-1005" revision="REV-2025.6" actor="Henry Cho" status="pending" metric="$771,158.00">Identity Crosswalk support row 1 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-IDE-02" date="2025-01-17" entity="ENT-061-1005" revision="REV-2025.6" actor="Farah Ibrahim" status="recorded" metric="14%">Identity Crosswalk support row 2 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-IDE-03" date="2025-01-20" entity="ENT-061-1005" revision="REV-2025.6" actor="Samuel Kim" status="confirmed" metric="5%">Identity Crosswalk support row 3 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-IDE-04" date="2025-01-23" entity="ENT-061-1005" revision="REV-2025.6" actor="Nora Chen" status="recorded" metric="$571,160.00">Identity Crosswalk support row 4 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-IDE-05" date="2025-01-26" entity="ENT-061-1005" revision="REV-2025.6" actor="Elliot Mercer" status="pending" metric="27%">Identity Crosswalk support row 5 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-IDE-06" date="2025-01-29" entity="ENT-061-1005" revision="REV-2025.6" actor="Mei Whitaker" status="confirmed" metric="1%">Identity Crosswalk support row 6 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-IDE-07" date="2025-02-01" entity="ENT-061-1005" revision="REV-2025.6" actor="Isaac Romero" status="recorded" metric="$485,096.00">Identity Crosswalk support row 7 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-IDE-08" date="2025-02-04" entity="ENT-061-2005" revision="REV-2025.6" actor="Willa Novak" status="recorded" metric="17%">Identity Crosswalk support row 8 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-IDE-09" date="2025-02-07" entity="ENT-061-1005" revision="REV-2025.6" actor="Henry Cho" status="superseded" metric="18%">Identity Crosswalk support row 9 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-IDE-10" date="2025-02-10" entity="ENT-061-1005" revision="REV-2025.6" actor="Farah Ibrahim" status="recorded" metric="$51,816.00">Identity Crosswalk support row 10 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-IDE-11" date="2025-02-13" entity="ENT-061-1005" revision="REV-2025.6" actor="Samuel Kim" status="pending" metric="5%">Identity Crosswalk support row 11 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-IDE-12" date="2025-02-16" entity="ENT-061-1005" revision="REV-2025.6" actor="Nora Chen" status="recorded" metric="17%">Identity Crosswalk support row 12 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-IDE-13" date="2025-02-19" entity="ENT-061-1005" revision="REV-2025.6" actor="Elliot Mercer" status="superseded" metric="$890,275.00">Identity Crosswalk support row 13 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-IDE-14" date="2025-02-22" entity="ENT-061-1005" revision="REV-2025.6" actor="Mei Whitaker" status="recorded" metric="13%">Identity Crosswalk support row 14 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-IDE-15" date="2025-02-25" entity="ENT-061-1005" revision="REV-2025.6" actor="Isaac Romero" status="recorded" metric="26%">Identity Crosswalk support row 15 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-IDE-16" date="2025-02-28" entity="ENT-061-1005" revision="REV-2025.6" actor="Willa Novak" status="recorded" metric="$63,780.00">Identity Crosswalk support row 16 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-IDE-17" date="2025-03-03" entity="ENT-061-1005" revision="REV-2025.6" actor="Henry Cho" status="pending" metric="16%">Identity Crosswalk support row 17 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-IDE-18" date="2025-03-06" entity="ENT-061-1005" revision="REV-2025.6" actor="Farah Ibrahim" status="superseded" metric="8%">Identity Crosswalk support row 18 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+  </supporting-rows>
+  <chronology>
+    <event date="2026-01-13" actor="Henry Cho" reference="CB-DOC-061-006">native population opened</event>
+    <event date="2026-01-19" actor="Owen Delgado" reference="CBP-061-06">custodian boundary confirmed</event>
+    <event date="2026-01-25" actor="Rafael Okafor" reference="CB-DOC-061-006">export created</event>
+    <event date="2026-01-31" actor="Elliot Mercer" reference="CBP-061-06">cross-system identifier checked</event>
+    <event date="2026-02-06" actor="Caleb Hassan" reference="CB-DOC-061-006">revision retained</event>
+    <event date="2026-02-12" actor="Adrian Mensah" reference="CBP-061-06">matter copy collected</event>
+  </chronology>
+  <provenance>Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.</provenance>
+</counsel-source-record>

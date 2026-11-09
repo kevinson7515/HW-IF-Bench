@@ -1,0 +1,24 @@
+The position is recorded at `aurora-mdl-certification/2026-09-05-certification-position.md`. Here is the coherent working position for the team.
+
+---
+
+## Working position — Aurora MDL production certification (CB-LD-2701)
+
+**Aurora cannot certify the full production today.** It certifies **6 of 12** portfolio keys now and **holds 6** until a named control is cured. This is the protocol-authorized `scoped-evidence` route, not the unsupported `shortcut` (certify from log totals) and not the over-broad `blanket-hold` (which would defer the 6 already-certifiable keys and needs additional approval).
+
+**Certify now (finish by 2026-09-03):** CBP-031-02, -04, -06, -07, -08, -09. Each passes all four controls (identity / operative authority / current operations / effective approval-revision). The residual numbers in four of them are **disclosed**, not cured: email-family result 14% vs threshold 11%; protective-order 125 vs 148; production gap 40 vs 78; legal-hold receipt `archive-in_…` vs `notices-aurora_…`; clawback completion 2025-05-12 vs deadline 2025-03-31.
+
+**Hold (do not represent completeness until cured):**
+
+| Key | Issue | Missing control | Owner | Evidence that flips it |
+|---|---|---|---|---|
+| CBP-031-01 | Overlapping Bates ranges | Pending owner | Samuel Kim (inactive, cap 0) | Active owner + reconciled Bates map (35 records) |
+| CBP-031-03 | Request-response mismatch | Similar-name collision + blocks | Adrian Mensah | Approved crosswalk (1002/2002) + paired requests/responses |
+| CBP-031-05 | Collection-date inconsistency (mobile) | Blocks + pending owner | Dominic Alvarez (inactive, cap 0) | Reconciled dates + active owner |
+| CBP-031-10 | Third-party subpoena deadline | Superseded revision | Willa Novak | Confirm REV-2025.3 + correct notice address |
+| CBP-031-11 | Departed custodians | Similar-name collision | Owen Delgado | Approved crosswalk (1010/2010) + collect 37 omitted records |
+| CBP-031-12 | Pending privilege challenge | Blocks completion | Priya Raman | Executed common-interest agreement + privilege log |
+
+**The four concerns map cleanly:** Bates ranges → CBP-031-01 (hold); departed custodians → CBP-031-11 (hold); privilege challenge → CBP-031-12 (hold, with CBP-031-06 as a disclose-only designation error); mobile chats → CBP-031-05 (hold) with CBP-031-07 (40-of-78) as a disclose-only production gap.
+
+**Bottom line for the client:** do not sign the 26(g) certification until the six holds are cured. In the interim, certify the six supported keys, disclose their four numeric/domain residuals, and assign the two "pending owner" holds (Samuel Kim and Dominic Alvarez) to active owners. No external facts are assumed beyond the 2026-09-05 matter date, and the underlying records are synthetic CounselBench source material, not legal advice.

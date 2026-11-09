@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "maotai-analysis",
+    "maotai-analysis/600519_daily_1y.csv",
+    "maotai-analysis/maotai_kline_1y.png"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "maotai-analysis/600519_daily_1y.csv",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1937700/G-marketing-kline-000/S3/artifacts/maotai-analysis/600519_daily_1y.csv",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793690083000000000,
+      "type": "file",
+      "size": 18047,
+      "sha256": "3b3ad3b01cbdaa7c77b47afef9a00640f4a2c2aef20e80a1aa391ec54b0b8b72"
+    },
+    {
+      "path": "maotai-analysis/maotai_kline_1y.png",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1937700/G-marketing-kline-000/S3/artifacts/maotai-analysis/maotai_kline_1y.png",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793690083000000000,
+      "type": "file",
+      "size": 225952,
+      "sha256": "90069245b70000612326ede985c426d3e9272e0e3c069ffa114c4b17c849f861"
+    }
+  ],
+  "entries": {
+    "maotai-analysis": {
+      "mode": 448,
+      "mtime_ns": 1793690083000000000,
+      "type": "directory"
+    },
+    "maotai-analysis/600519_daily_1y.csv": {
+      "mode": 384,
+      "mtime_ns": 1793690083000000000,
+      "type": "file",
+      "size": 18047,
+      "sha256": "3b3ad3b01cbdaa7c77b47afef9a00640f4a2c2aef20e80a1aa391ec54b0b8b72"
+    },
+    "maotai-analysis/maotai_kline_1y.png": {
+      "mode": 384,
+      "mtime_ns": 1793690083000000000,
+      "type": "file",
+      "size": 225952,
+      "sha256": "90069245b70000612326ede985c426d3e9272e0e3c069ffa114c4b17c849f861"
+    }
+  },
+  "deleted_entries": {}
+}

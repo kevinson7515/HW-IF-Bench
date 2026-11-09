@@ -1,0 +1,272 @@
+%PDF-1.4
+% CounselBench deterministic native source
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 2 /Kids [3 0 R 5 0 R] >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 4553 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(COUNSELBENCH SOURCE RECORD) Tj
+T*
+(Record: CB-DOC-001-088) Tj
+T*
+(Matter: CB-MA-2401 - Project Daybreak battery acquisition) Tj
+T*
+(Portfolio key: CBP-001-04) Tj
+T*
+(Source system: NetSuite close workbook) Tj
+T*
+(Evidence role: independent_counterrecord) Tj
+T*
+(Immutable entity: ENT-001-1003) Tj
+T*
+(Referenced revision: REV-2025.4) Tj
+T*
+(Current revision: REV-2025.4) Tj
+T*
+(Custodian: Maya Ellison) Tj
+T*
+(Reviewer: Sofia Bennett) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(An independent source repeats portfolio key CBP-001-04 and immutable entity ENT-001-1003 but uses) Tj
+T*
+(reference CB-MA-2401-E548. It confirms raw activity only; it neither selects a decision option nor) Tj
+T*
+(assigns a legal consequence.) Tj
+T*
+() Tj
+T*
+(SOURCE LINEAGE) Tj
+T*
+(NetSuite close workbook produced native record CB-DOC-001-088 for CB-MA-2401. Maya Ellison owns the) Tj
+T*
+(source population and Sofia Bennett recorded the collection review. The export remains separate from) Tj
+T*
+(later legal analysis.) Tj
+T*
+() Tj
+T*
+(BUSINESS CONTEXT) Tj
+T*
+(This record concerns revenue recognition exception within Project Daybreak battery acquisition. A) Tj
+T*
+(carve-out manufacturer owns cathode tooling in Nevada while its largest automaker customer can terminate) Tj
+T*
+(upon an indirect change of control. The record addresses one part of the broader question: Match the) Tj
+T*
+(cathode-tooling records and automaker consent history to the exact acquired entity.) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(An independent source repeats portfolio key CBP-001-04 and immutable entity ENT-001-1003 but uses) Tj
+T*
+(reference CB-MA-2401-E548. It confirms raw activity only; it neither selects a decision option nor) Tj
+T*
+(assigns a legal consequence.) Tj
+T*
+() Tj
+T*
+(RELIANCE LIMITS) Tj
+T*
+(This file supplies independent counterrecord evidence for CBP-001-04. It does not decide legal effect,) Tj
+T*
+(select among candidate responses, resolve another system's entity identity, or establish that its cited) Tj
+T*
+(revision is controlling.) Tj
+T*
+() Tj
+T*
+(NATIVE ROWS) Tj
+T*
+(CBP-001-04-IND-01 | 2025-05-18 | ENT-001-1003 | REV-2025.4 | Theo Laurent | confirmed | $948,621.00 |) Tj
+T*
+(Independent Counterrecord support row 1 for revenue recognition exception; retained from the native) Tj
+T*
+(system so the reviewer can distinguish the exact CBP-001-04 population from similarly named records.) Tj
+T*
+(CBP-001-04-IND-02 | 2025-05-21 | ENT-001-1003 | REV-2025.4 | Nadine Flores | superseded | 13% |) Tj
+T*
+(Independent Counterrecord support row 2 for revenue recognition exception; retained from the native) Tj
+T*
+(system so the reviewer can distinguish the exact CBP-001-04 population from similarly named records.) Tj
+T*
+(CBP-001-04-IND-03 | 2025-05-24 | ENT-001-1003 | REV-2025.4 | Owen Delgado | superseded | 7% | Independent) Tj
+T*
+(Counterrecord support row 3 for revenue recognition exception; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-001-04 population from similarly named records.) Tj
+T*
+(CBP-001-04-IND-04 | 2025-05-27 | ENT-001-1003 | REV-2025.4 | Maya Ellison | confirmed | $78,809.00 |) Tj
+T*
+(Independent Counterrecord support row 4 for revenue recognition exception; retained from the native) Tj
+T*
+(system so the reviewer can distinguish the exact CBP-001-04 population from similarly named records.) Tj
+T*
+(CBP-001-04-IND-05 | 2025-05-30 | ENT-001-1003 | REV-2025.4 | Dominic Alvarez | recorded | 27% |) Tj
+T*
+(Independent Counterrecord support row 5 for revenue recognition exception; retained from the native) Tj
+T*
+(system so the reviewer can distinguish the exact CBP-001-04 population from similarly named records.) Tj
+T*
+(CBP-001-04-IND-06 | 2025-06-02 | ENT-001-1003 | REV-2025.4 | Talia Brooks | confirmed | 3% | Independent) Tj
+T*
+(Counterrecord support row 6 for revenue recognition exception; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-001-04 population from similarly named records.) Tj
+T*
+(CBP-001-04-IND-07 | 2025-06-05 | ENT-001-1003 | REV-2025.4 | Caleb Hassan | pending | $395,022.00 |) Tj
+T*
+(Independent Counterrecord support row 7 for revenue recognition exception; retained from the native) Tj
+T*
+(system so the reviewer can distinguish the exact CBP-001-04 population from similarly named records.) Tj
+T*
+(CBP-001-04-IND-08 | 2025-06-08 | ENT-001-2003 | REV-2025.4 | Sofia Bennett | confirmed | 13% |) Tj
+T*
+(Independent Counterrecord support row 8 for revenue recognition exception; retained from the native) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4129 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(system so the reviewer can distinguish the exact CBP-001-04 population from similarly named records.) Tj
+T*
+(CBP-001-04-IND-09 | 2025-06-11 | ENT-001-1003 | REV-2025.4 | Theo Laurent | superseded | 25% |) Tj
+T*
+(Independent Counterrecord support row 9 for revenue recognition exception; retained from the native) Tj
+T*
+(system so the reviewer can distinguish the exact CBP-001-04 population from similarly named records.) Tj
+T*
+(CBP-001-04-IND-10 | 2025-06-14 | ENT-001-1003 | REV-2025.4 | Nadine Flores | recorded | $894,776.00 |) Tj
+T*
+(Independent Counterrecord support row 10 for revenue recognition exception; retained from the native) Tj
+T*
+(system so the reviewer can distinguish the exact CBP-001-04 population from similarly named records.) Tj
+T*
+(CBP-001-04-IND-11 | 2025-06-17 | ENT-001-1003 | REV-2025.4 | Owen Delgado | pending | 2% | Independent) Tj
+T*
+(Counterrecord support row 11 for revenue recognition exception; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-001-04 population from similarly named records.) Tj
+T*
+(CBP-001-04-IND-12 | 2025-06-20 | ENT-001-1003 | REV-2025.4 | Maya Ellison | recorded | 14% | Independent) Tj
+T*
+(Counterrecord support row 12 for revenue recognition exception; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-001-04 population from similarly named records.) Tj
+T*
+(CBP-001-04-IND-13 | 2025-06-23 | ENT-001-1003 | REV-2025.4 | Dominic Alvarez | pending | $776,166.00 |) Tj
+T*
+(Independent Counterrecord support row 13 for revenue recognition exception; retained from the native) Tj
+T*
+(system so the reviewer can distinguish the exact CBP-001-04 population from similarly named records.) Tj
+T*
+(CBP-001-04-IND-14 | 2025-06-26 | ENT-001-1003 | REV-2025.4 | Talia Brooks | recorded | 9% | Independent) Tj
+T*
+(Counterrecord support row 14 for revenue recognition exception; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-001-04 population from similarly named records.) Tj
+T*
+(CBP-001-04-IND-15 | 2025-06-29 | ENT-001-1003 | REV-2025.4 | Caleb Hassan | pending | 8% | Independent) Tj
+T*
+(Counterrecord support row 15 for revenue recognition exception; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-001-04 population from similarly named records.) Tj
+T*
+(CBP-001-04-IND-16 | 2025-07-02 | ENT-001-1003 | REV-2025.4 | Sofia Bennett | recorded | $169,348.00 |) Tj
+T*
+(Independent Counterrecord support row 16 for revenue recognition exception; retained from the native) Tj
+T*
+(system so the reviewer can distinguish the exact CBP-001-04 population from similarly named records.) Tj
+T*
+(CBP-001-04-IND-17 | 2025-07-05 | ENT-001-1003 | REV-2025.4 | Theo Laurent | recorded | 12% | Independent) Tj
+T*
+(Counterrecord support row 17 for revenue recognition exception; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-001-04 population from similarly named records.) Tj
+T*
+(CBP-001-04-IND-18 | 2025-07-08 | ENT-001-1003 | REV-2025.4 | Nadine Flores | recorded | 2% | Independent) Tj
+T*
+(Counterrecord support row 18 for revenue recognition exception; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-001-04 population from similarly named records.) Tj
+T*
+() Tj
+T*
+(CHRONOLOGY) Tj
+T*
+(2024-10-17 | native population opened | Theo Laurent | CB-DOC-001-088) Tj
+T*
+(2024-10-23 | custodian boundary confirmed | Micah Sullivan | CBP-001-04) Tj
+T*
+(2024-10-29 | export created | Samuel Kim | CB-DOC-001-088) Tj
+T*
+(2024-11-04 | cross-system identifier checked | Dominic Alvarez | CBP-001-04) Tj
+T*
+(2024-11-10 | revision retained | Jonas Feld | CB-DOC-001-088) Tj
+T*
+(2024-11-16 | matter copy collected | Isaac Romero | CBP-001-04) Tj
+T*
+() Tj
+T*
+(RELATED NATIVE RECORDS) Tj
+T*
+(CB-DOC-001-003) Tj
+T*
+(CB-DOC-001-021) Tj
+T*
+(CB-DOC-001-039) Tj
+T*
+(CB-DOC-001-063) Tj
+T*
+() Tj
+T*
+(Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are) Tj
+T*
+(fictitious; the record is not legal advice.) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000052 00000 n 
+0000000101 00000 n 
+0000000164 00000 n 
+0000000290 00000 n 
+0000004894 00000 n 
+0000005020 00000 n 
+0000009200 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+9268
+%%EOF

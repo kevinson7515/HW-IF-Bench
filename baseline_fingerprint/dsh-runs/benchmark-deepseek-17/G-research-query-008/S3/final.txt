@@ -1,0 +1,29 @@
+# 机器学习优化材料元素配比：进展与产业化评估
+
+## 一、研究进展与模型现状
+元素配比优化已从"试错+DFT高通量"转向数据驱动与生成式深度学习逆设计。三类主流模型：①描述符+浅层模型（随机森林/GBDT/SVR，适合小样本）；②图神经网络GNN——CGCNN、MEGNet、ALIGNN、E3NN、Matformer，直接从晶体图预测性质；③生成模型（VAE/GAN/扩散/LLM）用于成分逆设计（[逆设计综述](https://www.sciencedirect.com/science/article/pii/S2949822824003472)、[生成式逆设计](https://link.springer.com/chapter/10.1007/978-3-032-04129-6_8)）。
+
+## 二、活跃课题组与代表论文
+- **Ceder组(MIT/伯克利)**：Materials Project创始人，ALIGNN等图模型。
+- **Curtarolo组(Duke)**：AFLOW高通量框架。
+- **Ramprasad组(佐治亚理工)**：材料指纹+ML聚合物设计。
+- **Choudhary组(NIST)**：JARVIS数据库与基准。
+- **Citrine Informatics**：企业级材料信息学SaaS（[平台](https://citrine.io/materials-science-with-large-scale-data-and-informatics-unlocking-new-opportunities/)）。
+- 高熵合金ML代表性工作：[Ma等硬度/断裂应变设计](https://pubs.acs.org/doi/10.1021/acs.jcim.3c00916)、[HEA综述](https://www.mdpi.com/2075-4701/15/12/1349)。
+
+## 三、数据库与基准
+Materials Project、OQMD、AFLOW、JARVIS、ICSD、NOMAD；三大DFT库对比见[此](https://link.aps.org/doi/10.1103/PhysRevMaterials.7.053805)。基准套件：[Matbench](https://www.nature.com/articles/s41524-020-00406-3)（13类性质）+ MatUQ（OOD评估）。
+
+## 四、模型准确度
+Matbench上GNN回归MAE达meV~0.1 eV量级（形成能等），部分接近DFT精度；[E3NN分类优于CGCNN](https://www.science.org/doi/10.1126/sciadv.adi3245)，ALIGNN多数基准居首。但OOD/外推成分下误差显著放大。
+
+## 五、挑战
+①数据稀缺与偏斜（高熵合金成分空间爆炸，可靠标签少）；②外推泛化差（插值-外推权衡）；③多目标多性质权衡+可制造性约束；④不确定性量化不足；⑤DFT/实验标签噪声。
+
+## 六、模型可行性
+GNN+迁移/主动学习可行；生成逆设计+实验闭环（自驱动实验室）已出现，但精度与可靠性未达工程级。
+
+## 七、距产业化距离
+处于"实验室—中试"早期。约束性逆设计、多目标权衡、可制造性（工艺/成本）与验证闭环未成熟。预计5–10年，先在电池正极、高性能合金等窄域落地大规模应用。
+
+（数据来源为公开检索综述，具体参数以原论文为准。）

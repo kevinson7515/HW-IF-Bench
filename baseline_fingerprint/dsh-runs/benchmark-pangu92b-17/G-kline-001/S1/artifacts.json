@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "output",
+    "output/maotai_kline.png",
+    "output/maotai_kline_2026.png"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "output/maotai_kline.png",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-marketing-kline-000/S1/artifacts/output/maotai_kline.png",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792965046000000000,
+      "type": "file",
+      "size": 258145,
+      "sha256": "bbb1394a3291d26b633bc1ea197997fc3a41d70de2097fe6b51995ef766ffef6"
+    },
+    {
+      "path": "output/maotai_kline_2026.png",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-marketing-kline-000/S1/artifacts/output/maotai_kline_2026.png",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792965551000000000,
+      "type": "file",
+      "size": 287685,
+      "sha256": "68aad3ab6ac12a3a4dfe5ba65a5ade875d833437c3e1fb4b21d8eb5c33502d5f"
+    }
+  ],
+  "entries": {
+    "output": {
+      "mode": 448,
+      "mtime_ns": 1792965551000000000,
+      "type": "directory"
+    },
+    "output/maotai_kline.png": {
+      "mode": 384,
+      "mtime_ns": 1792965046000000000,
+      "type": "file",
+      "size": 258145,
+      "sha256": "bbb1394a3291d26b633bc1ea197997fc3a41d70de2097fe6b51995ef766ffef6"
+    },
+    "output/maotai_kline_2026.png": {
+      "mode": 384,
+      "mtime_ns": 1792965551000000000,
+      "type": "file",
+      "size": 287685,
+      "sha256": "68aad3ab6ac12a3a4dfe5ba65a5ade875d833437c3e1fb4b21d8eb5c33502d5f"
+    }
+  },
+  "deleted_entries": {}
+}

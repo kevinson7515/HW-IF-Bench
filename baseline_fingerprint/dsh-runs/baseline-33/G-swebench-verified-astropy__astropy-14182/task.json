@@ -1,0 +1,37 @@
+{
+  "line": 1,
+  "id": 18,
+  "user_query": "修复 Astropy 的 reStructuredText 表格导出，使 QTable 使用 ascii.rst 时支持 header_rows 参数，例如同时输出列名和单位，并保持默认表格格式兼容。",
+  "effective_query": "修复 Astropy 的 reStructuredText 表格导出，使 QTable 使用 ascii.rst 时支持 header_rows 参数，例如同时输出列名和单位，并保持默认表格格式兼容。\n\nAttached files are available at the following paths. Read them as needed:\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_18/repository.tar.gz\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_18/problem_statement.md\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_18/environment.json",
+  "attached_files": [
+    "attached_files/task_18/repository.tar.gz",
+    "attached_files/task_18/problem_statement.md",
+    "attached_files/task_18/environment.json"
+  ],
+  "resolved_attached_files": [
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_18/repository.tar.gz",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_18/problem_statement.md",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_18/environment.json"
+  ],
+  "archived_attachments": [
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_18/repository.tar.gz",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000001-18/inputs/attached_files/task_18/repository.tar.gz",
+      "size": 8177057,
+      "sha256": "3e1451f706d34fbe39e5925ca978054e1d1fc65efb3441854c54f189c9c9eb91"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_18/problem_statement.md",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000001-18/inputs/attached_files/task_18/problem_statement.md",
+      "size": 1871,
+      "sha256": "2f743a72613ab0e8e063ff7b7f0a233015ad12ba14992625d9f84b315fa885fd"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_18/environment.json",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000001-18/inputs/attached_files/task_18/environment.json",
+      "size": 498,
+      "sha256": "d68129b2f68911c4364e9e52da7788f2c9ee7f8d2fa4411bbb03913a51e53424"
+    }
+  ],
+  "started_at": "2026-11-06T06:20:01.877281+00:00"
+}

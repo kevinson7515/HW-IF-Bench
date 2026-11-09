@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "output",
+    "output/ML材料成分优化研究报告.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "output/ML材料成分优化研究报告.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1890615/G-research-query-008/S4/artifacts/output/ML材料成分优化研究报告.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792824644000000000,
+      "type": "file",
+      "size": 15845,
+      "sha256": "34c6e715d8c82334c8502e1e8d69dadd72cb1c1f98ecbc75637dfbc66f249475"
+    }
+  ],
+  "entries": {
+    "output": {
+      "mode": 448,
+      "mtime_ns": 1792824644000000000,
+      "type": "directory"
+    },
+    "output/ML材料成分优化研究报告.md": {
+      "mode": 384,
+      "mtime_ns": 1792824644000000000,
+      "type": "file",
+      "size": 15845,
+      "sha256": "34c6e715d8c82334c8502e1e8d69dadd72cb1c1f98ecbc75637dfbc66f249475"
+    }
+  },
+  "deleted_entries": {}
+}

@@ -1,0 +1,39 @@
+# ML/DL 优化材料元素配比：研究进展与产业化评估
+
+## 一、研究进展与模型应用现状
+核心范式有三类：①**正向预测**（成分→性能）：图神经网络（GNN）+ 描述符 + 树模型；②**逆向设计**（目标性能→成分）：生成模型（GAN/VAE/扩散）+ 贝叶斯优化/主动学习；③**自主实验闭环**（A-Lab 式"设计-合成-表征"机器人）。生成式 AI 是当前最热方向（[MatterGen](https://www.nature.com/articles/s41586-025-08628-5)、[GNoME](https://www.nature.com/articles/s41586-023-06735-9)）。
+
+## 二、活跃课题组
+| 课题组 | 方向 | 代表成果 |
+|---|---|---|
+| Ceder（Berkeley/LBL） | 高通量 DFT、通用势函数、自主实验 | [Materials Project](https://next-gen.materialsproject.org/)、M3GNet/CHGNet、[MAST-ML](https://github.com/uw-cmg/MAST-ML) |
+| DeepMind | 规模化晶体发现 | GNoME 发现 220 万晶体、38 万稳定相 |
+| Microsoft Research | 生成式材料设计 | [MatterGen](https://www.microsoft.com/en-us/research/blog/mattergen-a-new-paradigm-of-materials-design-with-generative-ai/) 扩散模型 |
+| A-Lab 团队（Caltech/Berkeley） | 自主合成实验室 | [A-Lab](https://www.nature.com/articles/s41586-023-06734-w) 41 天合成 41 种目标材料 |
+| Ong（UCSD）等 | 开源工具链、基准 | [Matbench Discovery](https://matbench-discovery.materialsproject.org/) |
+
+## 三、数据库分析
+| 数据库 | 规模/特点 | 用途 |
+|---|---|---|
+| Materials Project | >15 万无机晶体，DFT 弛豫 | 训练/基准主源 |
+| AFLOW / OQMD | 百万级 DFT 计算 | 交叉验证、稳定性筛选 |
+| 实验数据库（ICSD、PCAM） | 小样本、含合成信息 | 弥补"可合成性"缺口 |
+
+三大库在形成能、带隙等性质上存在系统性偏差，需谨慎对齐（[Hegde 2023](https://link.aps.org/doi/10.1103/PhysRevMaterials.7.053805)）。
+
+## 四、模型准确度评估
+- **形成能 MAE**：CHGNet/M3GNet 等通用势函数约 **0.02–0.05 eV/atom**，接近 DFT 精度；Matbench Discovery 统一基准显示顶尖模型在稳定性预测上仍有约 1–2 成漏检。
+- **带隙/弹性等性质**：GNN 中等误差（R² 常 0.9+），但外推到新化学空间误差骤增。
+- **生成模型**：MatterGen 可生成满足目标性质（力学/电子/磁）的稳定候选，但"生成即稳定"不等于"可合成"。
+
+## 五、挑战与可行性
+1. **数据稀缺**：约 60% 材料类无足够数据，小样本学习/迁移学习是刚需（[Xu 2023](https://www.nature.com/articles/s41524-023-01000-z)）。
+2. **外推失效**：OOD 泛化是最大瓶颈，训练分布外预测不可靠（[OOD 基准](https://www.nature.com/articles/s41524-024-01316-4)）。
+3. **可合成性鸿沟**：计算稳定≠实验可得，动力学/相分离常被忽略。
+4. **黑箱与可解释性**：阻碍科学信任与工艺迁移。
+5. **可行性**：正向预测已可用于**高通量初筛**（降本 10–100×）；逆向生成+主动学习在小样本闭环中可行，但离"端到端自动配比优化"仍远。
+
+## 六、距大规模产业化还有多远
+**乐观估计 5–10 年，谨慎估计 15 年以上**。当前处于"研究验证→试点"阶段：GNoME/MatterGen 证明了规模可行性，A-Lab 证明了闭环可行性，但**数据质量、外推可靠性、可合成性验证、成本**四大瓶颈未解。产业化路径更可能是"人机协同"——ML 负责初筛与定向搜索，实验负责验证与反馈迭代，而非全自动替代。率先落地场景为**电池、合金、催化剂等高价值、数据相对丰富的领域**。
+
+*注：以上数据来自公开文献与基准，具体数值随模型/数据集版本波动。*

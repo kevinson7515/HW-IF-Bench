@@ -1,0 +1,80 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "matter_records",
+    "matter_records/CB-LD-2701",
+    "matter_records/CB-LD-2701/completion_message.md",
+    "matter_records/CB-LD-2701/review_disposition_register.md",
+    "matter_records/CB-LD-2701/review_note.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "matter_records/CB-LD-2701/completion_message.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-031/S3/artifacts/matter_records/CB-LD-2701/completion_message.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793082208000000000,
+      "type": "file",
+      "size": 2421,
+      "sha256": "cb47bba1bcb60693edd3f12d4f9efe79997e20f0b61ab6c542c37abecb73c036"
+    },
+    {
+      "path": "matter_records/CB-LD-2701/review_disposition_register.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-031/S3/artifacts/matter_records/CB-LD-2701/review_disposition_register.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793081918000000000,
+      "type": "file",
+      "size": 8116,
+      "sha256": "407fb27506aa22727a8f819f02ad35476b83d90a412f6b83308b04179f179dfb"
+    },
+    {
+      "path": "matter_records/CB-LD-2701/review_note.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-031/S3/artifacts/matter_records/CB-LD-2701/review_note.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793082119000000000,
+      "type": "file",
+      "size": 9751,
+      "sha256": "a3efc0fab4c37d59a65a91dc5244f942bb13b9467c9f4c93d0395f5b1deab1c1"
+    }
+  ],
+  "entries": {
+    "matter_records": {
+      "mode": 448,
+      "mtime_ns": 1793081918000000000,
+      "type": "directory"
+    },
+    "matter_records/CB-LD-2701": {
+      "mode": 448,
+      "mtime_ns": 1793082208000000000,
+      "type": "directory"
+    },
+    "matter_records/CB-LD-2701/completion_message.md": {
+      "mode": 384,
+      "mtime_ns": 1793082208000000000,
+      "type": "file",
+      "size": 2421,
+      "sha256": "cb47bba1bcb60693edd3f12d4f9efe79997e20f0b61ab6c542c37abecb73c036"
+    },
+    "matter_records/CB-LD-2701/review_disposition_register.md": {
+      "mode": 384,
+      "mtime_ns": 1793081918000000000,
+      "type": "file",
+      "size": 8116,
+      "sha256": "407fb27506aa22727a8f819f02ad35476b83d90a412f6b83308b04179f179dfb"
+    },
+    "matter_records/CB-LD-2701/review_note.md": {
+      "mode": 384,
+      "mtime_ns": 1793082119000000000,
+      "type": "file",
+      "size": 9751,
+      "sha256": "a3efc0fab4c37d59a65a91dc5244f942bb13b9467c9f4c93d0395f5b1deab1c1"
+    }
+  },
+  "deleted_entries": {}
+}

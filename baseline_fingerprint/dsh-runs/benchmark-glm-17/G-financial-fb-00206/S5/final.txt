@@ -1,0 +1,8 @@
+**No — gross margin is not a relevant metric for JPMorgan Chase**, so the question of its historical consistency does not apply.
+
+Why (from the 2022 10-K):
+- JPM is a bank. Revenue = noninterest revenue (2022: $62.0B from fees, trading, asset management, card income) + net interest income ($66.7B). Total net revenue: $128.7B.
+- Gross margin = (revenue − cost of goods sold) ÷ revenue. Banks have no COGS. The cost of a bank's "raw material" (funding, i.e., interest expense) is already netted inside net interest income. Remaining costs (compensation $41.6B, technology, occupancy, professional services) are operating expenses, not COGS.
+- Verified in the filing: the consolidated income statement has no gross-profit line, and all 382 pages contain zero occurrences of "gross margin," "gross profit," or "cost of goods sold."
+
+Meaningful bank metrics instead: net interest margin, efficiency ratio (noninterest expense / total net revenue, ~59% in 2022), provision for credit losses, and ROTCE. Any "gross margin" a data aggregator displays for JPM is an artificial construct, not comparable to industrial companies.

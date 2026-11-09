@@ -1,0 +1,17 @@
+## Answer
+
+**Gross margin is not a relevant metric for JPMorgan Chase & Co.**, so the "consistency" question doesn't apply. I can't compute it, and no such figure is reported.
+
+**Why:** JPMorgan is a financial holding company (bank), not a manufacturer or retailer. It has no "cost of goods sold." A bank's "cost of revenue" is mainly interest paid on deposits and wholesale funding, which is already netted into **net interest income** — not a COGS line. Its income statement instead runs: Total net revenue → noninterest expense → provision for credit losses → income before tax. The metrics that matter for a bank are net interest margin, the efficiency/overhead ratio, ROTCE, and ROE — not gross margin.
+
+## Data basis
+
+JPMorgan Chase 2022 Form 10-K (fiscal year ended Dec 31, 2022), 382 pages. A full-text search of the document found **zero** occurrences of "gross margin," "cost of goods sold," or "COGS." The Consolidated Statements of Income (p. 159) report:
+
+| ($ millions) | 2022 | 2021 | 2020 |
+|---|---|---|---|
+| Total net revenue | 128,695 | 121,649 | 119,951 |
+| Total noninterest expense | 76,140 | 71,343 | 66,656 |
+| Net income | 37,676 | 48,334 | 29,131 |
+
+Reported ratios: ROE 14% / 19% / 12%; ROTCE 18% / 23% / 14%; overhead ratio 59% / 59% / 56%.

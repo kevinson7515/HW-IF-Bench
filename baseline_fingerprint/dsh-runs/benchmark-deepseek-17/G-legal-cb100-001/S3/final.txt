@@ -1,0 +1,58 @@
+The reconciliation is complete and the closeout records are committed. Here is the position for the team.
+
+---
+
+# Daybreak signing — operating position (CB-MA-2401 / Helios Forge)
+
+## Bottom line
+
+**Yes — Daybreak can sign, but only on the scoped-evidence path, not clean, not frozen.** The single AUTHORIZED disposition across the twelve portfolio keys is `helios-forge:scoped-evidence`: sign with 8 supported closing conditions and named cure owners, and preserve 4 evidence holds. Do not release every signature page (the "shortcut" path is `UNSUPPORTED_BY_CURRENT_EVIDENCE`), and do not freeze the matter (the "blanket-hold" path needs `ADDITIONAL_APPROVAL_REQUIRED` and would wrongly defer 8 records that are already supportable).
+
+Reconciliation result: **8 supported → closing conditions; 4 held → evidence holds.** Each supported item has all four controls reconciled (immutable identity, operative authority, current operations, effective approval/revision); each hold is missing exactly one control, and I have not guessed through it.
+
+## The two gaps the deal team asked about
+
+**Cathode tooling (Nevada).** Three records touch the tooling:
+
+- **Sales-tax nexus gap (CBP-001-10) → closing condition.** Identity is clean (ENT-001-1009); authority is singular and current ("authority is limited to Washoe County, Nevada," R710). The open issue is scope: operations assert activity in Delaware (E877) against Nevada-only authority. Condition closing on resolving the Delaware/Nevada nexus scope for the Nevada tooling.
+- **Permit transfer restriction (CBP-001-03) → closing condition.** Open item that blocks completion (E368/R164); condition closing on the transfer consent.
+- **Anti-assignment restriction (CBP-001-08) → hold, not yet a condition.** Operations cite REV-2024.0 while REV-2025.1 is the later effective revision (R293). This is the one "superseded revision" trap — refresh the operative revision in the **signing path** before it can be written as a condition.
+
+**Automaker change-of-control termination.** The customer-consent gap is the **change-of-control consent (CBP-001-11) → hold.** The approval owner is disputed — current operations name Caleb Hassan (E439), operative authority names Talia Brooks (R473). Until the owner is settled you cannot write a clean consent condition. Settle ownership in the **signing path**, then obtain the automaker's consent/waiver to the indirect change of control as a **closing condition**.
+
+## Signing path vs closing conditions vs priced exception
+
+**Signing path (resolve before/at signing — the four holds' missing controls):**
+
+1. CBP-001-01 — settle entity identity (ENT-001-1000 vs ENT-001-2000) and the approval owner (Jonas Feld vs Maya Ellison).
+2. CBP-001-08 — refresh the anti-assignment operative revision to REV-2025.1.
+3. CBP-001-11 — settle the change-of-control consent owner (Caleb Hassan vs Talia Brooks).
+4. CBP-001-12 — settle the invention-assignment approver (Willa Novak vs Caleb Hassan).
+
+**Closing conditions (8 supported, each with a named cure owner):**
+
+| Key | Condition |
+|---|---|
+| CBP-001-02 | Cure/waive financial covenant breach (13% vs 7%) |
+| CBP-001-03 | Obtain permit-transfer consent |
+| CBP-001-04 | Cure open revenue-recognition exception |
+| CBP-001-05 | Resolve most-favored-customer exposure (18% vs 13%) |
+| CBP-001-06 | Complete unreported-security-incident review (Theo Laurent) |
+| CBP-001-07 | Procure/confirm claims-made insurance tail (due 2025-08-05; event 2025-09-02) |
+| CBP-001-09 | Clear open-source copyleft exposure |
+| CBP-001-10 | Resolve sales-tax nexus scope (Delaware vs Washoe County, Nevada) |
+
+**Priced exception.** None of the four holds can be priced — each is an *unmeasured* ambiguity (wrong entity, stale revision, disputed owner), and pricing requires a quantified exposure. A priced exception is only available for a *known* overage (e.g., the ~5pp MFC overage or the ~6pp covenant overage) if the team elects to accept it commercially in lieu of a condition — that is a business call, not a disposition the current evidence supports.
+
+## Matter closeout
+
+The Review Disposition Register (one row per key) and the Review Note are committed at:
+
+- `matter-closeout/Review_Disposition_Register.md`
+- `matter-closeout/Review_Note.md`
+
+The note records the selected approach, the 8 supported actions, the 4 evidence holds, source anchors, rejected alternatives, and limits. Completion route per the matter protocol: reply in Slack channel `C00000001`, thread `1760000001.000005` (per `005_corporate_source_export.json`) — no new top-level post — and re-open each changed provider record to confirm the recorded result.
+
+## Reliance limits
+
+This position is confined to the source population for matter CB-MA-2401 as of the 2026-09-04 matter date, and no external facts are assumed. It is a disposition on record reconciliation only: it states which keys survive the four-control test (identity, authority, current operations, revision) and which are held for a missing control. It does not decide legal effect, select among the parties' candidate responses, resolve another system's entity identity, or establish that any cited revision is controlling; the impact-control scores in the population file are inputs, not dispositions. The source records are synthetic CounselBench-100 material — all parties, entities, amounts, and references are fictitious — so the bucketing (signing path / closing condition / priced exception) is a matter-ops classification to hand the deal team, not legal advice, and the four holds must be cured with the controlling authority (not a similar name, superseded revision, or pending owner) before their conditions can be signed.

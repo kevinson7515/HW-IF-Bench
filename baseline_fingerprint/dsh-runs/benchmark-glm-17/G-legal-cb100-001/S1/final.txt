@@ -1,0 +1,13 @@
+**Position: signing can proceed.** Delivered 2026-09-04 in four files under `matter_closeout/task_9_daybreak/`.
+
+**Why signing is safe.** I parsed all 96 records (12 subjects × 8 evidence roles) plus the impact workbook. Every operative finding that uses blocking language says it "blocks **completion**" — none reaches signing. The matter-level control on every operative record — "the executed purchase terms and the latest consent schedule control; seller summaries do not" — makes this a structuring-plus-conditions answer, not a delay.
+
+**Nevada cathode tooling (CBP-001-03) — closing condition.** Open permit-transfer restriction blocks completion under R164; status "open and unresolved"; capacity active (Micah Sullivan, 3, control 2026-09-01). Ordinary-course workable.
+
+**Automaker consent (CBP-001-11) — closing condition plus signing-path fixes.** Consent outstanding; approver conflict (operative: Talia Brooks R473 vs ops: Caleb Hassan E439); and this file is the **only inactive file in the population** — roster pending approval, capacity 0, highest impact score (93), control date 2026-09-02. Nothing moves until capacity activates; route per operative authority unless the executed consent schedule shows otherwise.
+
+**Also surfaced:** a third consent gap (anti-assignment, with the ops extract citing the superseded REV-2024.0) → closing condition; and an entity-identity collision on CBP-001-01 (ENT-001-1000 vs ENT-001-2000, no approved crosswalk) → **signing path**, since uncorrected outreach risks addressing the automaker to the wrong legal entity.
+
+**Priced exceptions:** MFC breach (13% vs 18%), financial covenant (7% vs 13%), sales-tax nexus (Washoe County-only authority vs Delaware activity).
+
+**No guessing:** each record disclaims deciding legal effect or resolving identity/revision conflicts, so every conflict is carried as a named reconciliation item routed to the operative approver or the executed consent schedule — never resolved by inference. Facts were verified against source records, and capacity-record errors caught in verification were corrected.

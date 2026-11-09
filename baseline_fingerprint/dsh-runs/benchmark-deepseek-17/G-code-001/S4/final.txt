@@ -1,0 +1,20 @@
+已修复 `src/core/parser.py` 中空输入抛出的 `IndexError`。
+
+**修改内容**（仅改动 `parse_text` 函数内部，`__main__` 示例入口保持不变）：
+
+```python
+# 检查 tokens 是否为空，避免在空输入时抛出 IndexError
+command = tokens[0] if tokens else None
+argument = tokens[1] if len(tokens) > 1 else None
+```
+
+原代码直接访问 `tokens[0]` 和 `tokens[1]`，在空字符串/纯空白输入时 `split()` 返回空列表，导致 `IndexError`。现在对空列表和单个 token 的情况做了保护，缺失的 `command`/`argument` 返回 `None`。
+
+**验证结果**（直接执行修改后的解析器文件）：
+
+- 直接运行 `python parser.py`：返回码 `0`，输出 `正在解析空输入: ''`，无异常。
+- 功能校验：
+  - `parse_text("")` → `{'command': None, 'argument': None}`
+  - `parse_text("   ")` → `{'command': None, 'argument': None}`
+  - `parse_text("hello")` → `{'command': 'hello', 'argument': None}`
+  - `parse_text("hello world")` → `{'command': 'hello', 'argument': 'world'}`

@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "output",
+    "output/信用卡推荐报告_Sarah_Bosch.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "output/信用卡推荐报告_Sarah_Bosch.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-customer-banking-001/S6/artifacts/output/信用卡推荐报告_Sarah_Bosch.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792881951000000000,
+      "type": "file",
+      "size": 3911,
+      "sha256": "8d45dffae4bbc5ff6656626b28895d82a434b73dce8678aa6265a1d5bbcc0c8d"
+    }
+  ],
+  "entries": {
+    "output": {
+      "mode": 448,
+      "mtime_ns": 1792881951000000000,
+      "type": "directory"
+    },
+    "output/信用卡推荐报告_Sarah_Bosch.md": {
+      "mode": 384,
+      "mtime_ns": 1792881951000000000,
+      "type": "file",
+      "size": 3911,
+      "sha256": "8d45dffae4bbc5ff6656626b28895d82a434b73dce8678aa6265a1d5bbcc0c8d"
+    }
+  },
+  "deleted_entries": {}
+}

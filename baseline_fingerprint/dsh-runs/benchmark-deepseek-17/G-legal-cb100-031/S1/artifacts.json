@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "output",
+    "output/aurora_antitrust_review_disposition_register.csv",
+    "output/aurora_antitrust_working_position.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "output/aurora_antitrust_review_disposition_register.csv",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1872575/G-legal-cb100-031/S1/artifacts/output/aurora_antitrust_review_disposition_register.csv",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792703685000000000,
+      "type": "file",
+      "size": 3604,
+      "sha256": "43678c8850ad29f71fe6cdaaf89a37ecd52f2ad312b07481174e650c4bff3623"
+    },
+    {
+      "path": "output/aurora_antitrust_working_position.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1872575/G-legal-cb100-031/S1/artifacts/output/aurora_antitrust_working_position.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792703706000000000,
+      "type": "file",
+      "size": 10230,
+      "sha256": "1db9a42e5457811cebc0b8711450de16d32f3328e8a93b5676773417606314cc"
+    }
+  ],
+  "entries": {
+    "output": {
+      "mode": 448,
+      "mtime_ns": 1792703706000000000,
+      "type": "directory"
+    },
+    "output/aurora_antitrust_review_disposition_register.csv": {
+      "mode": 384,
+      "mtime_ns": 1792703685000000000,
+      "type": "file",
+      "size": 3604,
+      "sha256": "43678c8850ad29f71fe6cdaaf89a37ecd52f2ad312b07481174e650c4bff3623"
+    },
+    "output/aurora_antitrust_working_position.md": {
+      "mode": 384,
+      "mtime_ns": 1792703706000000000,
+      "type": "file",
+      "size": 10230,
+      "sha256": "1db9a42e5457811cebc0b8711450de16d32f3328e8a93b5676773417606314cc"
+    }
+  },
+  "deleted_entries": {}
+}

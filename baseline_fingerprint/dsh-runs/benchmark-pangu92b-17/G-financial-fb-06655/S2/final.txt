@@ -1,0 +1,9 @@
+**Amazon FY2017 DPO = 93.86**
+
+Using the 10-K line items (in millions):
+
+- Accounts payable: FY2016 = $25,309; FY2017 = $34,616 → average = $29,962.5
+- Inventories: FY2016 = $11,461; FY2017 = $16,047 → Δ inventory = $4,586
+- FY2017 Cost of sales = $111,934
+
+DPO = 365 × 29,962.5 / (111,934 + 4,586) = 365 × 29,962.5 / 116,520 = **93.86**

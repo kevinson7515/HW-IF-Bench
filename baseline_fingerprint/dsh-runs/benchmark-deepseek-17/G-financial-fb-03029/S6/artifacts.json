@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "output",
+    "output/task_15_answer.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "output/task_15_answer.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1890615/G-financial-fb-03029/S6/artifacts/output/task_15_answer.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792818957000000000,
+      "type": "file",
+      "size": 1207,
+      "sha256": "16ee0a59bcc6da5ea9b43e3bac2d1c9647e972701720af2c1133d15fbbf32d98"
+    }
+  ],
+  "entries": {
+    "output": {
+      "mode": 448,
+      "mtime_ns": 1792818957000000000,
+      "type": "directory"
+    },
+    "output/task_15_answer.md": {
+      "mode": 384,
+      "mtime_ns": 1792818957000000000,
+      "type": "file",
+      "size": 1207,
+      "sha256": "16ee0a59bcc6da5ea9b43e3bac2d1c9647e972701720af2c1133d15fbbf32d98"
+    }
+  },
+  "deleted_entries": {}
+}

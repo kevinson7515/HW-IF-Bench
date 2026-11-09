@@ -1,0 +1,10 @@
+已修复并验证。修改仅限于 `parse_text` 及其直接测试（`__main__` 代码块）：
+
+**Bug 原因** — `text.split()` 在输入为空或仅包含空白字符时会返回 `[]`，因此 `tokens[0]` 会抛出 `IndexError: list index out of range`。相邻的 `tokens[1]` 存在相同的未受保护的索引问题，会在单 token 输入（例如 `"help"`）时导致崩溃，因此我也对其进行了对称修复。
+
+**修复方案** ([src/core/parser.py](attached_files/task_23/src/core/parser.py))：
+- 空输入或仅包含空白字符的输入现在会返回 `{"command": None, "argument": None}`，从而保持返回字典的结构稳定，而不是崩溃。
+- 缺失 argument token 时返回 `argument: None`，而不是抛出 `IndexError`。
+- 更新了 docstring 以说明此行为，并将 `__main__` 演示（其注释声称空输入会触发 `IndexError`）替换为对空、仅空白字符、单 token 和双 token 输入的验证。
+
+**验证** — 在 E2B 沙箱中运行了修改后的文件（同步副本，SHA-256 `66c1e5a…`）：`__main__` 代码块执行无误，且断言确认 `parse_text("")` / `parse_text("   \t \n ")` → `{'command': None, 'argument': None}`，`parse_text("help")` → `{'command': 'help', 'argument': None}`，而正常输入（`"run job"`，`"a b c"`）的行为保持不变。

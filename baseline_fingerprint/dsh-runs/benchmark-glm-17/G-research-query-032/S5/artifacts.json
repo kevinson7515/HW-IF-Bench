@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "research-output",
+    "research-output/1937-1949年中国史学界抗战与战后研究横向对比与选题预测报告.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "research-output/1937-1949年中国史学界抗战与战后研究横向对比与选题预测报告.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1938603/G-research-query-032/S5/artifacts/research-output/1937-1949年中国史学界抗战与战后研究横向对比与选题预测报告.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793721297000000000,
+      "type": "file",
+      "size": 71781,
+      "sha256": "320aa36b64aa87199a1e241f2df9cb1b47d0bbbd9416124a280f917dc449e6cf"
+    }
+  ],
+  "entries": {
+    "research-output": {
+      "mode": 448,
+      "mtime_ns": 1793721297000000000,
+      "type": "directory"
+    },
+    "research-output/1937-1949年中国史学界抗战与战后研究横向对比与选题预测报告.md": {
+      "mode": 384,
+      "mtime_ns": 1793721297000000000,
+      "type": "file",
+      "size": 71781,
+      "sha256": "320aa36b64aa87199a1e241f2df9cb1b47d0bbbd9416124a280f917dc449e6cf"
+    }
+  },
+  "deleted_entries": {}
+}

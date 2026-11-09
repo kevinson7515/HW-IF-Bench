@@ -1,0 +1,28 @@
+{
+  "group_id": "G-financial-fb-03029",
+  "variant_id": "S4",
+  "task_id": 15,
+  "provider": "company-glm",
+  "status": "succeeded",
+  "exit_code": 0,
+  "started_at": "2026-11-01T04:13:37.470987+00:00",
+  "finished_at": "2026-11-01T04:20:21.521956+00:00",
+  "duration_seconds": 404.051,
+  "execution_duration_seconds": 120.611,
+  "recording_duration_seconds": 134.785,
+  "system_prompt_sha256": "d4e1007b48eaea8eea2d81c14e311e78b50fdc4f1496293dab4c6b6fa2f7224b",
+  "task_dir": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1930645/G-financial-fb-03029/S4",
+  "recording_status": "complete",
+  "workspace_restore_status": "complete",
+  "signal": null,
+  "session_id": "session-a8943ed7-af7d-41b5-9038-d516f7de53d3",
+  "final_event_seen": true,
+  "parse_errors": [],
+  "tool_calls": 9,
+  "tool_errors": 0,
+  "steps": 10,
+  "turn_end_reason": {
+    "kind": "completed"
+  },
+  "restore_duration_seconds": 148.655
+}

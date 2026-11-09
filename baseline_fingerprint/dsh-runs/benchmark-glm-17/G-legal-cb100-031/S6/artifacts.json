@@ -1,0 +1,92 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "output",
+    "output/review_disposition_register.md",
+    "output/review_note.md",
+    "output/slack_reply.md",
+    "output/team_working_position.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "output/review_disposition_register.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-031/S6/artifacts/output/review_disposition_register.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793099234000000000,
+      "type": "file",
+      "size": 10124,
+      "sha256": "d5bb7645355f8efd073cd346b5e1c9a6c0bdd59c209e8198f6395d0e346698be"
+    },
+    {
+      "path": "output/review_note.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-031/S6/artifacts/output/review_note.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793099725000000000,
+      "type": "file",
+      "size": 14288,
+      "sha256": "1047c02dd71cd14f0f4724e215d3fedee7562ecb715d0206e4746c7b9f454b7c"
+    },
+    {
+      "path": "output/slack_reply.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-031/S6/artifacts/output/slack_reply.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793099376000000000,
+      "type": "file",
+      "size": 3507,
+      "sha256": "74dd111b7f69031f107624fb767a18ca8257af33e6992dea5afb29407dfe095e"
+    },
+    {
+      "path": "output/team_working_position.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-031/S6/artifacts/output/team_working_position.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793099354000000000,
+      "type": "file",
+      "size": 7916,
+      "sha256": "3051f003d878a2b9b7111e900c3d55ab0c4eaf7d03f5df4a5d5bc4d01469df69"
+    }
+  ],
+  "entries": {
+    "output": {
+      "mode": 448,
+      "mtime_ns": 1793099725000000000,
+      "type": "directory"
+    },
+    "output/review_disposition_register.md": {
+      "mode": 384,
+      "mtime_ns": 1793099234000000000,
+      "type": "file",
+      "size": 10124,
+      "sha256": "d5bb7645355f8efd073cd346b5e1c9a6c0bdd59c209e8198f6395d0e346698be"
+    },
+    "output/review_note.md": {
+      "mode": 384,
+      "mtime_ns": 1793099725000000000,
+      "type": "file",
+      "size": 14288,
+      "sha256": "1047c02dd71cd14f0f4724e215d3fedee7562ecb715d0206e4746c7b9f454b7c"
+    },
+    "output/slack_reply.md": {
+      "mode": 384,
+      "mtime_ns": 1793099376000000000,
+      "type": "file",
+      "size": 3507,
+      "sha256": "74dd111b7f69031f107624fb767a18ca8257af33e6992dea5afb29407dfe095e"
+    },
+    "output/team_working_position.md": {
+      "mode": 384,
+      "mtime_ns": 1793099354000000000,
+      "type": "file",
+      "size": 7916,
+      "sha256": "3051f003d878a2b9b7111e900c3d55ab0c4eaf7d03f5df4a5d5bc4d01469df69"
+    }
+  },
+  "deleted_entries": {}
+}

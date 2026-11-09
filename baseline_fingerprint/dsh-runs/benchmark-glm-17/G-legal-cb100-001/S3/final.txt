@@ -1,0 +1,33 @@
+## Signing position for the partner call
+
+**Yes — Daybreak signing can proceed, conditioned on eight supported closing conditions.** Four items stay on evidence hold: they cannot be signed into conditions, and none of them can be priced as an exception yet. Selected approach: `helios-forge:scoped-evidence` (AUTHORIZED, $18,200, latest supported action due 2026-09-03). Reconciling all twelve portfolio keys against the protocol's four-control test produced exactly the 8-supported / 4-hold outcome that approach commits to.
+
+**(a) The signing path — eight supported closing conditions**, each with a named cure owner from the current responsibility roster (all active):
+
+| Key | Subject | Condition | Cure owner |
+| --- | --- | --- | --- |
+| 02 | Financial covenant breach | 13% result vs 7% threshold — cure or waive under the executed terms | Sofia Bennett |
+| 03 | Permit transfer restriction | Obtain the required permit transfer | Micah Sullivan |
+| 04 | Revenue recognition exception | Resolve the open exception | Nora Chen |
+| 05 | Most-favored-customer exposure | 18% vs 13% — resolve or consent under the executed terms | Caleb Hassan |
+| 06 | Unreported security incident | Disclose and resolve with the required approval (Theo Laurent confirmed on both sides) | Amara Patel |
+| 07 | Claims-made insurance tail | Place the tail or obtain a waiver of the ~1-month lapse | Samuel Kim |
+| 09 | Open-source copyleft exposure | Resolve the exposure | Adrian Mensah |
+| 10 | Sales-tax nexus gap | Obtain Delaware nexus authority (activity sits outside the Washoe County scope) or resolve under the terms | Farah Ibrahim |
+
+**(b) Evidence holds — not closing conditions, not priced exceptions.** Each fails the four-control test, and the protocol forbids converting a similar name, a superseded revision, or a pending owner into proof:
+
+- **Key 11 — Change-of-control consent (the customer-consent gap, impact 93, highest in the population).** Operative authority requires Talia Brooks under R473; operations names Caleb Hassan under E439; and the roster owner Dominic Alvarez is *pending approval, inactive, zero capacity*. Both the operations and approval controls fail. Until Brooks is confirmed and an active owner is assigned, the automaker consent cannot be matched to the acquired entity — and this is the item behind the indirect change-of-control termination right.
+- **Key 01 — Charter authorization mismatch (tooling-side gateway).** The key maps to **both** ENT-001-1000 and ENT-001-2000 with no approved crosswalk resolution; operations also names the wrong approver. Until identity resolves, the cathode-tooling records cannot be matched to the acquired entity at all — this gates the whole tooling chain.
+- **Key 08 — Anti-assignment restriction.** Operations names Nadine Flores where authority requires Owen Delgado (R293), citing the superseded REV-2024.0 against the effective REV-2025.1. Sits directly on the tooling-transfer path.
+- **Key 12 — Invention assignment defect.** Operations names Willa Novak where authority requires Caleb Hassan (R433). Affects the tooling IP chain.
+
+**(c) Nothing is priceable as an exception on current evidence.** Pricing requires a quantified exposure; on all four holds the failed control means the exposure size itself is unevidenced — any number would rest on the collision, the stale revision, or the pending owner. The `shortcut` approach makes exactly that trade and is marked UNSUPPORTED_BY_CURRENT_EVIDENCE. Each hold becomes priceable once its missing control is cured; the cure is a prerequisite to pricing, not an alternative.
+
+**Rejected alternatives:** `shortcut` ($0, UNSUPPORTED_BY_CURRENT_EVIDENCE — discards the four unresolved constraints, would leave the impact-93 consent item unreconciled at signing); `blanket-hold` ($26,000, ADDITIONAL_APPROVAL_REQUIRED — defers all 12 to 2026-09-07 including the 8 already supported, and misses the 09-04 call).
+
+**Closeout.** The Review Disposition Register (system of record, one row per key) and the review note are committed at `matter_work_product/review_disposition_register.md` and `matter_work_product/review_note.md`, and I re-opened both to confirm the recorded result. The protocol's completion route — a reply in Slack channel `C00000001`, thread `1760000001.000005`, no new top-level post — **could not be executed: this session has no Slack tool**, so the loop is closed here rather than in the channel. Someone with Slack access should post the link to the two committed records in that thread.
+
+## Reliance limits
+
+This position applies the matter work-product protocol to the 96-record source population; it decides no legal effect and is not an opinion on the enforceability of the change-of-control clause, the anti-assignment restriction, or any cure. Every source record carries identical limits: it does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling — this review inherits all of them. The matter-level control governs throughout: the executed purchase terms and the latest consent schedule control; seller summaries do not. The impact scores (key 11 at 93 down to key 07 at 36) come from the impact-population workbook, which is a retained source population and not a legal disposition, so they prioritize work but justify nothing. No hold is priced, and no monetary quantification is supported by current evidence. The matter date is 2026-09-04 and no external facts were assumed; all facts derive from the synthetic CounselBench-100 records for matter CB-MA-2401, which state they are not legal advice. Finally, the designated Slack completion route was unavailable in this session, so team notification is reported here rather than posted — the register and note themselves are the committed system of record.

@@ -1,0 +1,25 @@
+完成。`sanitize_address` 已按 Django 上游提交 `96a3ea39ef`（ticket #31784）更新，两个附件文件均已修改并通过验证。
+
+## 修改清单
+
+**`django/core/mail/message.py`**
+1. 导入 `email.utils.formataddr`（与 `formatdate/getaddresses/make_msgid` 并列）。
+2. `sanitize_address()` 的输出与校验逻辑更新：
+   - 新增换行/回车注入防护：对拼接后的 `nm + localpart + domain` 检测 CR/LF，命中即抛 `ValueError("Invalid address; address parts cannot contain newlines.")`。
+   - 显示名只在**非 ASCII** 时才用 `Header(nm, encoding).encode()` 编码，ASCII 显示名保持原样，避免多余的 RFC-2047 编码。
+   - 改用 `Address(username=localpart, domain=domain)` + `formataddr((nm, parsed_address.addr_spec))` 输出，替代旧的 `Address(nm, ...)` + `str()`（后者在超长/折行显示名时会把 CR/LF 传给 `Address` 而崩溃）。
+
+字符串分支的 `parser.get_mailbox`（`email.headerregistry`）解析、IDN `punycode`、本地部分编码等既有能力保持不变。
+
+**`tests/mail/tests.py`**
+1. 更新 6 处预期值（ASCII 显示名在 `utf-8` 编码下不再被 RFC-2047 编码）。
+2. 新增 3 个超长显示名/Unicode 域名用例。
+3. 新增 `test_sanitize_address_header_injection`（4 个注入输入，均断言 `ValueError`）。
+
+## 验证结果
+
+在 E2B 中加载修改后的 `message.py` 逐项运行：
+- **21 个有效地址**全部输出与预期一致（含显示名、IDN `to@xn--xample-9ua.com`、需编码本地部分 `dMOz`、带引号双 `@` 地址、超长显示名折行）。
+- **5 个非法地址**（`to@other.com@example.com`、`to@other.com <to@example.com>`、`@`、`to@`、`@example.com`）均抛出 `ValueError`。
+- **4 个注入输入**均抛出 `ValueError`，消息为 `"Invalid address; address parts cannot contain newlines."`。
+- 两个文件 `py_compile` 均通过。

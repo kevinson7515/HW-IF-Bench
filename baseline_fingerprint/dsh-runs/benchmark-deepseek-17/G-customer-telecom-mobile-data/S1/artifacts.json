@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "output",
+    "output/tech_support_resolution_john_smith.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "output/tech_support_resolution_john_smith.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1872575/G-customer-telecom-mobile-data/S1/artifacts/output/tech_support_resolution_john_smith.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792695763000000000,
+      "type": "file",
+      "size": 4676,
+      "sha256": "0ea663844b1ad5490b194c270d596377f34fff469c8404b4c2cb3ce69f536f5b"
+    }
+  ],
+  "entries": {
+    "output": {
+      "mode": 448,
+      "mtime_ns": 1792695763000000000,
+      "type": "directory"
+    },
+    "output/tech_support_resolution_john_smith.md": {
+      "mode": 384,
+      "mtime_ns": 1792695763000000000,
+      "type": "file",
+      "size": 4676,
+      "sha256": "0ea663844b1ad5490b194c270d596377f34fff469c8404b4c2cb3ce69f536f5b"
+    }
+  },
+  "deleted_entries": {}
+}

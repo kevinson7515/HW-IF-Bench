@@ -1,0 +1,266 @@
+{
+  "body": "The business owner asks whether the collection-date inconsistency status is open and unresolved under CB-LD-2701-E407. The counterparty points to open collection-date inconsistency blocks completion under CB-LD-2701-R821. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.",
+  "chronology": [
+    {
+      "actor": "Leona Park",
+      "date": "2024-11-06",
+      "event": "native population opened",
+      "reference": "CB-DOC-031-053"
+    },
+    {
+      "actor": "Willa Novak",
+      "date": "2024-11-12",
+      "event": "custodian boundary confirmed",
+      "reference": "CBP-031-05"
+    },
+    {
+      "actor": "Nadine Flores",
+      "date": "2024-11-18",
+      "event": "export created",
+      "reference": "CB-DOC-031-053"
+    },
+    {
+      "actor": "Lena Varga",
+      "date": "2024-11-24",
+      "event": "cross-system identifier checked",
+      "reference": "CBP-031-05"
+    },
+    {
+      "actor": "Nora Chen",
+      "date": "2024-11-30",
+      "event": "revision retained",
+      "reference": "CB-DOC-031-053"
+    },
+    {
+      "actor": "Talia Brooks",
+      "date": "2024-12-06",
+      "event": "matter copy collected",
+      "reference": "CBP-031-05"
+    }
+  ],
+  "client": "Aurora Home Supply Co.",
+  "confidentiality": "Attorney work product",
+  "counterparty": "In re Residential Fixture Pricing",
+  "current_revision": "REV-2025.5",
+  "custodian": "Micah Sullivan",
+  "evidence_role": "correspondence",
+  "immutable_entity_key": "ENT-031-1004",
+  "matter_number": "CB-LD-2701",
+  "matter_title": "Aurora pricing MDL discovery audit",
+  "native_version": "5.3",
+  "portfolio_key": "CBP-031-05",
+  "provenance": "Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.",
+  "record_date": "2024-12-11",
+  "record_id": "CB-DOC-031-053",
+  "referenced_revision": "REV-2025.5",
+  "related_records": [
+    "CB-DOC-031-064",
+    "CB-DOC-031-082",
+    "CB-DOC-031-004",
+    "CB-DOC-031-028"
+  ],
+  "reviewer": "Adrian Mensah",
+  "rows": [
+    {
+      "actor": "Leona Park",
+      "effective_date": "2025-02-26",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-COR-01",
+      "metric": "$477,092.00",
+      "note": "Correspondence support row 1 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "recorded"
+    },
+    {
+      "actor": "Adrian Mensah",
+      "effective_date": "2025-03-01",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-COR-02",
+      "metric": "23%",
+      "note": "Correspondence support row 2 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Amara Patel",
+      "effective_date": "2025-03-04",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-COR-03",
+      "metric": "11%",
+      "note": "Correspondence support row 3 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Micah Sullivan",
+      "effective_date": "2025-03-07",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-COR-04",
+      "metric": "$693,269.00",
+      "note": "Correspondence support row 4 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Lena Varga",
+      "effective_date": "2025-03-10",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-COR-05",
+      "metric": "8%",
+      "note": "Correspondence support row 5 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "pending"
+    },
+    {
+      "actor": "Rafael Okafor",
+      "effective_date": "2025-03-13",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-COR-06",
+      "metric": "13%",
+      "note": "Correspondence support row 6 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Priya Raman",
+      "effective_date": "2025-03-16",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-COR-07",
+      "metric": "$835,717.00",
+      "note": "Correspondence support row 7 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Jonas Feld",
+      "effective_date": "2025-03-19",
+      "entity_key": "ENT-031-2004",
+      "line_id": "CBP-031-05-COR-08",
+      "metric": "20%",
+      "note": "Correspondence support row 8 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "recorded"
+    },
+    {
+      "actor": "Leona Park",
+      "effective_date": "2025-03-22",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-COR-09",
+      "metric": "22%",
+      "note": "Correspondence support row 9 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "recorded"
+    },
+    {
+      "actor": "Adrian Mensah",
+      "effective_date": "2025-03-25",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-COR-10",
+      "metric": "$452,416.00",
+      "note": "Correspondence support row 10 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "recorded"
+    },
+    {
+      "actor": "Amara Patel",
+      "effective_date": "2025-03-28",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-COR-11",
+      "metric": "18%",
+      "note": "Correspondence support row 11 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Micah Sullivan",
+      "effective_date": "2025-03-31",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-COR-12",
+      "metric": "20%",
+      "note": "Correspondence support row 12 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "pending"
+    },
+    {
+      "actor": "Lena Varga",
+      "effective_date": "2025-04-03",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-COR-13",
+      "metric": "$142,353.00",
+      "note": "Correspondence support row 13 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Rafael Okafor",
+      "effective_date": "2025-04-06",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-COR-14",
+      "metric": "10%",
+      "note": "Correspondence support row 14 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Priya Raman",
+      "effective_date": "2025-04-09",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-COR-15",
+      "metric": "13%",
+      "note": "Correspondence support row 15 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Jonas Feld",
+      "effective_date": "2025-04-12",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-COR-16",
+      "metric": "$953,382.00",
+      "note": "Correspondence support row 16 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "pending"
+    },
+    {
+      "actor": "Leona Park",
+      "effective_date": "2025-04-15",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-COR-17",
+      "metric": "19%",
+      "note": "Correspondence support row 17 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "recorded"
+    },
+    {
+      "actor": "Adrian Mensah",
+      "effective_date": "2025-04-18",
+      "entity_key": "ENT-031-1004",
+      "line_id": "CBP-031-05-COR-18",
+      "metric": "27%",
+      "note": "Correspondence support row 18 for collection-date inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-031-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Source lineage",
+      "text": "court docket mirror produced native record CB-DOC-031-053 for CB-LD-2701. Micah Sullivan owns the source population and Adrian Mensah recorded the collection review. The export remains separate from later legal analysis."
+    },
+    {
+      "heading": "Business context",
+      "text": "This record concerns collection-date inconsistency within Aurora pricing MDL discovery audit. A multidistrict antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian scope, mobile collections, Bates families, and privilege challenges against court requirements."
+    },
+    {
+      "heading": "Native record",
+      "text": "The business owner asks whether the collection-date inconsistency status is open and unresolved under CB-LD-2701-E407. The counterparty points to open collection-date inconsistency blocks completion under CB-LD-2701-R821. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled."
+    },
+    {
+      "heading": "Reliance limits",
+      "text": "This file supplies correspondence evidence for CBP-031-05. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling."
+    }
+  ],
+  "source_path": "/workspace/documents/07_privilege_material/053_privilege_material_source_export.json",
+  "source_system": "court docket mirror",
+  "subject": "collection-date inconsistency"
+}

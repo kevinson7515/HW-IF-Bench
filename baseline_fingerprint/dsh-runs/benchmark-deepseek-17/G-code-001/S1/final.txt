@@ -1,0 +1,11 @@
+修复完成。问题根因是 `text.split()` 对空字符串/纯空白输入返回空列表 `[]`，随后直接访问 `tokens[0]` 和 `tokens[1]` 触发 `IndexError`。
+
+修改仅限 `parse_text` 函数内部（示例入口 `__main__` 块与函数文档字符串保持不变）：
+
+- 在索引前增加空列表检查，空输入返回 `{"command": "", "argument": ""}`；
+- 对 `tokens[1]` 增加长度判断，避免单 token 输入（如 `"hello"`）同样抛 `IndexError`。
+
+修复后行为：
+- `parse_text("")` → `{"command": "", "argument": ""}`
+- `parse_text("hello")` → `{"command": "hello", "argument": ""}`
+- `parse_text("hello world")` → `{"command": "hello", "argument": "world"}`

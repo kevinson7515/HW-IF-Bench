@@ -1,0 +1,98 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "matter_closeout",
+    "matter_closeout/task_9_daybreak",
+    "matter_closeout/task_9_daybreak/01_signing_position_memo.md",
+    "matter_closeout/task_9_daybreak/02_closeout_tracker.md",
+    "matter_closeout/task_9_daybreak/03_closing_conditions_summary.md",
+    "matter_closeout/task_9_daybreak/04_team_delivery_log.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "matter_closeout/task_9_daybreak/01_signing_position_memo.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-001/S1/artifacts/matter_closeout/task_9_daybreak/01_signing_position_memo.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793039835000000000,
+      "type": "file",
+      "size": 8458,
+      "sha256": "86849db08745160f5a9209991cd4d3c69c54cf46c7e99b1766f590ff63043b0d"
+    },
+    {
+      "path": "matter_closeout/task_9_daybreak/02_closeout_tracker.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-001/S1/artifacts/matter_closeout/task_9_daybreak/02_closeout_tracker.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793040142000000000,
+      "type": "file",
+      "size": 7040,
+      "sha256": "242f1f9e6c3d0797e2b768c1049f67d6a45318692ac13a0cced74386c723075c"
+    },
+    {
+      "path": "matter_closeout/task_9_daybreak/03_closing_conditions_summary.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-001/S1/artifacts/matter_closeout/task_9_daybreak/03_closing_conditions_summary.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793039927000000000,
+      "type": "file",
+      "size": 5162,
+      "sha256": "23f03ab342ef7ad070c24ea038068329c48503eee991ac74f793468e1bb1200d"
+    },
+    {
+      "path": "matter_closeout/task_9_daybreak/04_team_delivery_log.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-001/S1/artifacts/matter_closeout/task_9_daybreak/04_team_delivery_log.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793040180000000000,
+      "type": "file",
+      "size": 3410,
+      "sha256": "97d40a32ff6d605ed79f43c4fc92c40454e8b89fb2510ddb9bcd5cba3375dc93"
+    }
+  ],
+  "entries": {
+    "matter_closeout": {
+      "mode": 448,
+      "mtime_ns": 1793039835000000000,
+      "type": "directory"
+    },
+    "matter_closeout/task_9_daybreak": {
+      "mode": 448,
+      "mtime_ns": 1793040180000000000,
+      "type": "directory"
+    },
+    "matter_closeout/task_9_daybreak/01_signing_position_memo.md": {
+      "mode": 384,
+      "mtime_ns": 1793039835000000000,
+      "type": "file",
+      "size": 8458,
+      "sha256": "86849db08745160f5a9209991cd4d3c69c54cf46c7e99b1766f590ff63043b0d"
+    },
+    "matter_closeout/task_9_daybreak/02_closeout_tracker.md": {
+      "mode": 384,
+      "mtime_ns": 1793040142000000000,
+      "type": "file",
+      "size": 7040,
+      "sha256": "242f1f9e6c3d0797e2b768c1049f67d6a45318692ac13a0cced74386c723075c"
+    },
+    "matter_closeout/task_9_daybreak/03_closing_conditions_summary.md": {
+      "mode": 384,
+      "mtime_ns": 1793039927000000000,
+      "type": "file",
+      "size": 5162,
+      "sha256": "23f03ab342ef7ad070c24ea038068329c48503eee991ac74f793468e1bb1200d"
+    },
+    "matter_closeout/task_9_daybreak/04_team_delivery_log.md": {
+      "mode": 384,
+      "mtime_ns": 1793040180000000000,
+      "type": "file",
+      "size": 3410,
+      "sha256": "97d40a32ff6d605ed79f43c4fc92c40454e8b89fb2510ddb9bcd5cba3375dc93"
+    }
+  },
+  "deleted_entries": {}
+}

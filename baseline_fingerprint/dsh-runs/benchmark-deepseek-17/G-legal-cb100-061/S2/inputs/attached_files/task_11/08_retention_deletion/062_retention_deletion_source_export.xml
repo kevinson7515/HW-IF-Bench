@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<counsel-source-record schema-version="3.1">
+  <record-id>CB-DOC-061-062</record-id>
+  <matter-number>CB-PR-3001</matter-number>
+  <portfolio-key>CBP-061-02</portfolio-key>
+  <source-system>ServiceNow privacy queue</source-system>
+  <evidence-role>financial_or_population_support</evidence-role>
+  <immutable-entity-key>ENT-061-1001</immutable-entity-key>
+  <referenced-revision>REV-2025.2</referenced-revision>
+  <current-revision>REV-2025.2</current-revision>
+  <native-record>The supporting population for CBP-061-02 was exported under CB-PR-3001-E728. The population uses immutable entity ENT-061-1001 and records impact-control score 55; this score is an input, not a disposition.</native-record>
+  <analysis>
+    <section heading="Source lineage">ServiceNow privacy queue produced native record CB-DOC-061-062 for CB-PR-3001. Leona Park owns the source population and Leona Park recorded the collection review. The export remains separate from later legal analysis.</section>
+    <section heading="Business context">This record concerns notice-practice mismatch within Arcadia genomic data response audit. A consumer access request exposes inconsistencies among genomic-data notices, deletion jobs, vendors, and overseas research transfers. The record addresses one part of the broader question: Join requester identity, genomic data inventory, vendor copies, deletion jobs, and research transfers.</section>
+    <section heading="Native record">The supporting population for CBP-061-02 was exported under CB-PR-3001-E728. The population uses immutable entity ENT-061-1001 and records impact-control score 55; this score is an input, not a disposition.</section>
+    <section heading="Reliance limits">This file supplies financial or population support evidence for CBP-061-02. It does not decide legal effect, select among candidate responses, resolve another system&#x27;s entity identity, or establish that its cited revision is controlling.</section>
+  </analysis>
+  <supporting-rows>
+    <row id="CBP-061-02-FIN-01" date="2025-02-28" entity="ENT-061-1001" revision="REV-2025.2" actor="Rafael Okafor" status="confirmed" metric="$241,401.00">Financial Or Population Support support row 1 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-FIN-02" date="2025-03-03" entity="ENT-061-1001" revision="REV-2025.2" actor="Priya Raman" status="pending" metric="22%">Financial Or Population Support support row 2 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-FIN-03" date="2025-03-06" entity="ENT-061-1001" revision="REV-2025.2" actor="Jonas Feld" status="confirmed" metric="11%">Financial Or Population Support support row 3 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-FIN-04" date="2025-03-09" entity="ENT-061-1001" revision="REV-2025.2" actor="Leona Park" status="superseded" metric="$147,091.00">Financial Or Population Support support row 4 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-FIN-05" date="2025-03-12" entity="ENT-061-1001" revision="REV-2025.2" actor="Adrian Mensah" status="recorded" metric="1%">Financial Or Population Support support row 5 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-FIN-06" date="2025-03-15" entity="ENT-061-1001" revision="REV-2025.2" actor="Amara Patel" status="superseded" metric="5%">Financial Or Population Support support row 6 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-FIN-07" date="2025-03-18" entity="ENT-061-1001" revision="REV-2025.2" actor="Micah Sullivan" status="superseded" metric="$761,627.00">Financial Or Population Support support row 7 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-FIN-08" date="2025-03-21" entity="ENT-061-2001" revision="REV-2025.2" actor="Lena Varga" status="superseded" metric="25%">Financial Or Population Support support row 8 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-FIN-09" date="2025-03-24" entity="ENT-061-1001" revision="REV-2025.2" actor="Rafael Okafor" status="pending" metric="27%">Financial Or Population Support support row 9 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-FIN-10" date="2025-03-27" entity="ENT-061-1001" revision="REV-2025.2" actor="Priya Raman" status="superseded" metric="$319,219.00">Financial Or Population Support support row 10 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-FIN-11" date="2025-03-30" entity="ENT-061-1001" revision="REV-2025.2" actor="Jonas Feld" status="confirmed" metric="24%">Financial Or Population Support support row 11 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-FIN-12" date="2025-04-02" entity="ENT-061-1001" revision="REV-2025.2" actor="Leona Park" status="pending" metric="12%">Financial Or Population Support support row 12 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-FIN-13" date="2025-04-05" entity="ENT-061-1001" revision="REV-2025.2" actor="Adrian Mensah" status="recorded" metric="$507,408.00">Financial Or Population Support support row 13 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-FIN-14" date="2025-04-08" entity="ENT-061-1001" revision="REV-2025.2" actor="Amara Patel" status="pending" metric="9%">Financial Or Population Support support row 14 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-FIN-15" date="2025-04-11" entity="ENT-061-1001" revision="REV-2025.2" actor="Micah Sullivan" status="recorded" metric="5%">Financial Or Population Support support row 15 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-FIN-16" date="2025-04-14" entity="ENT-061-1001" revision="REV-2025.2" actor="Lena Varga" status="recorded" metric="$75,920.00">Financial Or Population Support support row 16 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-FIN-17" date="2025-04-17" entity="ENT-061-1001" revision="REV-2025.2" actor="Rafael Okafor" status="recorded" metric="9%">Financial Or Population Support support row 17 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-FIN-18" date="2025-04-20" entity="ENT-061-1001" revision="REV-2025.2" actor="Priya Raman" status="recorded" metric="19%">Financial Or Population Support support row 18 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+  </supporting-rows>
+  <chronology>
+    <event date="2024-11-30" actor="Rafael Okafor" reference="CB-DOC-061-062">native population opened</event>
+    <event date="2024-12-06" actor="Elliot Mercer" reference="CBP-061-02">custodian boundary confirmed</event>
+    <event date="2024-12-12" actor="Caleb Hassan" reference="CB-DOC-061-062">export created</event>
+    <event date="2024-12-18" actor="Adrian Mensah" reference="CBP-061-02">cross-system identifier checked</event>
+    <event date="2024-12-24" actor="Henry Cho" reference="CB-DOC-061-062">revision retained</event>
+    <event date="2024-12-30" actor="Owen Delgado" reference="CBP-061-02">matter copy collected</event>
+  </chronology>
+  <provenance>Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.</provenance>
+</counsel-source-record>

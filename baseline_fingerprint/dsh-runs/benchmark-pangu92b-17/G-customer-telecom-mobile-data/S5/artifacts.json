@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "output",
+    "output/report.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "output/report.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-customer-telecom-mobile-data/S5/artifacts/output/report.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792884010000000000,
+      "type": "file",
+      "size": 1234,
+      "sha256": "a7283bb2710bf4e6ec91c7b274c61515d5e543e7a19da8a82653eb5d3304a9cb"
+    }
+  ],
+  "entries": {
+    "output": {
+      "mode": 448,
+      "mtime_ns": 1792884010000000000,
+      "type": "directory"
+    },
+    "output/report.md": {
+      "mode": 384,
+      "mtime_ns": 1792884010000000000,
+      "type": "file",
+      "size": 1234,
+      "sha256": "a7283bb2710bf4e6ec91c7b274c61515d5e543e7a19da8a82653eb5d3304a9cb"
+    }
+  },
+  "deleted_entries": {}
+}

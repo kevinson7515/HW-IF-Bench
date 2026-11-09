@@ -1,0 +1,37 @@
+{
+  "line": 2,
+  "id": 19,
+  "user_query": "为 Django 的 Paginator 增加迭代支持，使调用方可以直接按页码顺序遍历 Paginator，并逐个获得 Page 对象。",
+  "effective_query": "为 Django 的 Paginator 增加迭代支持，使调用方可以直接按页码顺序遍历 Paginator，并逐个获得 Page 对象。\n\nAttached files are available at the following paths. Read them as needed:\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_19/repository.tar.gz\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_19/problem_statement.md\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_19/environment.json",
+  "attached_files": [
+    "attached_files/task_19/repository.tar.gz",
+    "attached_files/task_19/problem_statement.md",
+    "attached_files/task_19/environment.json"
+  ],
+  "resolved_attached_files": [
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_19/repository.tar.gz",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_19/problem_statement.md",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_19/environment.json"
+  ],
+  "archived_attachments": [
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_19/repository.tar.gz",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000002-19/inputs/attached_files/task_19/repository.tar.gz",
+      "size": 8990885,
+      "sha256": "a11a032a3e501fb4a7bff74057183afe088bd1a71df0b3c84eec3dd643964c9d"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_19/problem_statement.md",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000002-19/inputs/attached_files/task_19/problem_statement.md",
+      "size": 411,
+      "sha256": "1dad6e4ae15cb47af74a688dc59b6a40fa55b6ec0086f587e16c784c78acfc23"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_19/environment.json",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000002-19/inputs/attached_files/task_19/environment.json",
+      "size": 490,
+      "sha256": "2e82bc6c0fd8f8e7ce252ea0fae8ec568192c603859856b5622b8eb396438b36"
+    }
+  ],
+  "started_at": "2026-11-06T06:45:00.481995+00:00"
+}

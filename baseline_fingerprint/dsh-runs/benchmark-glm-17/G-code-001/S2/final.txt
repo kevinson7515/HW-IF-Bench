@@ -1,0 +1,28 @@
+修复完成。
+
+## 问题
+
+`src/core/parser.py` 中 `parse_text()` 对 `text.split()` 的结果直接索引：
+
+- **空输入 / 纯空白输入**：`split()` 返回 `[]`，`tokens[0]` 抛出 `IndexError: list index out of range`（即任务报告的 bug）
+- **单个词输入**：`tokens[1]` 是同一失效模式的第二个越界点，一并修复
+
+## 修改（`attached_files/task_23/src/core/parser.py`）
+
+1. **空输入守卫**：`if not tokens: return {"command": None, "argument": None}` —— 空输入返回 `None` 值，保持返回类型（`dict`）不变
+2. **单词守卫**：`argument = tokens[1] if len(tokens) > 1 else None`
+3. 同步更新了过时的注释与 docstring（原注释描述的是缺陷本身），`__main__` 冒烟块现在打印结果而非仅触发异常
+
+## 验证
+
+按约束要求，验证**直接加载并执行修改后的解析器文件本身**（通过 `importlib` 导入该文件模块 + `runpy` 执行其 `__main__` 块，而非重新抄写的等价函数）。在 Python 3.13 沙箱中全部通过：
+
+| 输入 | 结果 |
+|---|---|
+| `""`（原 bug 触发点） | `{'command': None, 'argument': None}`，无异常 |
+| `"   \t \n "`（纯空白） | `{'command': None, 'argument': None}`，无异常 |
+| `"cmd"`（单词） | `{'command': 'cmd', 'argument': None}`，无异常 |
+| `"cmd arg"`（正常） | `{'command': 'cmd', 'argument': 'arg'}`，行为不变 |
+| `"cmd arg extra"`（多词） | `{'command': 'cmd', 'argument': 'arg'}`，行为不变 |
+
+`__main__` 块直接执行输出：`正在解析空输入: ''` → `{'command': None, 'argument': None}`，未抛出 `IndexError`。

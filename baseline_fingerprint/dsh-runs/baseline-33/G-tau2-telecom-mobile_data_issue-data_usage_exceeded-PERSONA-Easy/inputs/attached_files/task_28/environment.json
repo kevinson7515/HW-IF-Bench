@@ -1,0 +1,13 @@
+{
+  "benchmark": "tau2-bench",
+  "repo": "https://github.com/sierra-research/tau2-bench",
+  "commit": "033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f",
+  "domain": "telecom",
+  "task_id": "[mobile_data_issue]data_usage_exceeded[PERSONA:Easy]",
+  "language": "en",
+  "source_task_file": "tasks_small.json",
+  "domain_bundle": "domain_bundle.zip",
+  "scenario_file": "scenario.json",
+  "runner_install": "git clone https://github.com/sierra-research/tau2-bench.git && cd tau2-bench && git checkout 033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f && uv sync --locked",
+  "runner_docs": "https://github.com/sierra-research/tau2-bench/blob/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/docs/running-the-benchmark.md"
+}

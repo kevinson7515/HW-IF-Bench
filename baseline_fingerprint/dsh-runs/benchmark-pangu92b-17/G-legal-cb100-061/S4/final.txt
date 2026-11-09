@@ -1,0 +1,1 @@
+This is a large audit. Let me extract the key control fields efficiently across all records using grep.

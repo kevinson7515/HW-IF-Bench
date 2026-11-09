@@ -1,0 +1,9 @@
+The FY2018 capital expenditure for 3M is **$1,577 million**.
+
+From the Consolidated Statement of Cash Flows (page 60), under "Cash Flows from Investing Activities," the line item **"Purchases of property, plant and equipment (PP&E)"** shows:
+
+- **2018: $(1,577)**
+- 2017: $(1,373)
+- 2016: $(1,420)
+
+So the FY2018 capital expenditure (additions to PP&E) was **$1,577 million** (USD millions).

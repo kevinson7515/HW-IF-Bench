@@ -1,0 +1,272 @@
+%PDF-1.4
+% CounselBench deterministic native source
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 2 /Kids [3 0 R 5 0 R] >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 4536 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(COUNSELBENCH SOURCE RECORD) Tj
+T*
+(Record: CB-DOC-061-096) Tj
+T*
+(Matter: CB-PR-3001 - Arcadia genomic data response audit) Tj
+T*
+(Portfolio key: CBP-061-12) Tj
+T*
+(Source system: regulatory response room) Tj
+T*
+(Evidence role: independent_counterrecord) Tj
+T*
+(Immutable entity: ENT-061-1011) Tj
+T*
+(Referenced revision: REV-2025.5) Tj
+T*
+(Current revision: REV-2025.5) Tj
+T*
+(Custodian: Farah Ibrahim) Tj
+T*
+(Reviewer: Mei Whitaker) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(An independent source repeats portfolio key CBP-061-12 and immutable entity ENT-061-1011 but uses) Tj
+T*
+(reference CB-PR-3001-E104. It confirms raw activity only; it neither selects a decision option nor) Tj
+T*
+(assigns a legal consequence.) Tj
+T*
+() Tj
+T*
+(SOURCE LINEAGE) Tj
+T*
+(regulatory response room produced native record CB-DOC-061-096 for CB-PR-3001. Farah Ibrahim owns the) Tj
+T*
+(source population and Mei Whitaker recorded the collection review. The export remains separate from later) Tj
+T*
+(legal analysis.) Tj
+T*
+() Tj
+T*
+(BUSINESS CONTEXT) Tj
+T*
+(This record concerns processor-contract omission within Arcadia genomic data response audit. A consumer) Tj
+T*
+(access request exposes inconsistencies among genomic-data notices, deletion jobs, vendors, and overseas) Tj
+T*
+(research transfers. The record addresses one part of the broader question: Join requester identity,) Tj
+T*
+(genomic data inventory, vendor copies, deletion jobs, and research transfers.) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(An independent source repeats portfolio key CBP-061-12 and immutable entity ENT-061-1011 but uses) Tj
+T*
+(reference CB-PR-3001-E104. It confirms raw activity only; it neither selects a decision option nor) Tj
+T*
+(assigns a legal consequence.) Tj
+T*
+() Tj
+T*
+(RELIANCE LIMITS) Tj
+T*
+(This file supplies independent counterrecord evidence for CBP-061-12. It does not decide legal effect,) Tj
+T*
+(select among candidate responses, resolve another system's entity identity, or establish that its cited) Tj
+T*
+(revision is controlling.) Tj
+T*
+() Tj
+T*
+(NATIVE ROWS) Tj
+T*
+(CBP-061-12-IND-01 | 2024-06-12 | ENT-061-1011 | REV-2025.5 | Isaac Romero | confirmed | $352,173.00 |) Tj
+T*
+(Independent Counterrecord support row 1 for processor-contract omission; retained from the native system) Tj
+T*
+(so the reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-IND-02 | 2024-06-15 | ENT-061-1011 | REV-2025.5 | Willa Novak | recorded | 16% | Independent) Tj
+T*
+(Counterrecord support row 2 for processor-contract omission; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-IND-03 | 2024-06-18 | ENT-061-1011 | REV-2025.5 | Henry Cho | recorded | 7% | Independent) Tj
+T*
+(Counterrecord support row 3 for processor-contract omission; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-IND-04 | 2024-06-21 | ENT-061-1011 | REV-2025.5 | Farah Ibrahim | pending | $419,194.00 |) Tj
+T*
+(Independent Counterrecord support row 4 for processor-contract omission; retained from the native system) Tj
+T*
+(so the reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-IND-05 | 2024-06-24 | ENT-061-1011 | REV-2025.5 | Samuel Kim | confirmed | 26% | Independent) Tj
+T*
+(Counterrecord support row 5 for processor-contract omission; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-IND-06 | 2024-06-27 | ENT-061-1011 | REV-2025.5 | Nora Chen | confirmed | 22% | Independent) Tj
+T*
+(Counterrecord support row 6 for processor-contract omission; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-IND-07 | 2024-06-30 | ENT-061-1011 | REV-2025.5 | Elliot Mercer | recorded | $114,204.00 |) Tj
+T*
+(Independent Counterrecord support row 7 for processor-contract omission; retained from the native system) Tj
+T*
+(so the reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-IND-08 | 2024-07-03 | ENT-061-2011 | REV-2025.5 | Mei Whitaker | confirmed | 11% | Independent) Tj
+T*
+(Counterrecord support row 8 for processor-contract omission; retained from the native system so the) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4087 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-IND-09 | 2024-07-06 | ENT-061-1011 | REV-2025.5 | Isaac Romero | pending | 19% | Independent) Tj
+T*
+(Counterrecord support row 9 for processor-contract omission; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-IND-10 | 2024-07-09 | ENT-061-1011 | REV-2025.5 | Willa Novak | superseded | $952,367.00 |) Tj
+T*
+(Independent Counterrecord support row 10 for processor-contract omission; retained from the native system) Tj
+T*
+(so the reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-IND-11 | 2024-07-12 | ENT-061-1011 | REV-2025.5 | Henry Cho | pending | 2% | Independent) Tj
+T*
+(Counterrecord support row 11 for processor-contract omission; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-IND-12 | 2024-07-15 | ENT-061-1011 | REV-2025.5 | Farah Ibrahim | confirmed | 12% |) Tj
+T*
+(Independent Counterrecord support row 12 for processor-contract omission; retained from the native system) Tj
+T*
+(so the reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-IND-13 | 2024-07-18 | ENT-061-1011 | REV-2025.5 | Samuel Kim | recorded | $425,420.00 |) Tj
+T*
+(Independent Counterrecord support row 13 for processor-contract omission; retained from the native system) Tj
+T*
+(so the reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-IND-14 | 2024-07-21 | ENT-061-1011 | REV-2025.5 | Nora Chen | confirmed | 17% | Independent) Tj
+T*
+(Counterrecord support row 14 for processor-contract omission; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-IND-15 | 2024-07-24 | ENT-061-1011 | REV-2025.5 | Elliot Mercer | recorded | 3% | Independent) Tj
+T*
+(Counterrecord support row 15 for processor-contract omission; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-IND-16 | 2024-07-27 | ENT-061-1011 | REV-2025.5 | Mei Whitaker | superseded | $107,807.00 |) Tj
+T*
+(Independent Counterrecord support row 16 for processor-contract omission; retained from the native system) Tj
+T*
+(so the reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-IND-17 | 2024-07-30 | ENT-061-1011 | REV-2025.5 | Isaac Romero | recorded | 6% | Independent) Tj
+T*
+(Counterrecord support row 17 for processor-contract omission; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-IND-18 | 2024-08-02 | ENT-061-1011 | REV-2025.5 | Willa Novak | recorded | 19% | Independent) Tj
+T*
+(Counterrecord support row 18 for processor-contract omission; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+() Tj
+T*
+(CHRONOLOGY) Tj
+T*
+(2025-07-14 | native population opened | Isaac Romero | CB-DOC-061-096) Tj
+T*
+(2025-07-20 | custodian boundary confirmed | Theo Laurent | CBP-061-12) Tj
+T*
+(2025-07-26 | export created | Micah Sullivan | CB-DOC-061-096) Tj
+T*
+(2025-08-01 | cross-system identifier checked | Samuel Kim | CBP-061-12) Tj
+T*
+(2025-08-07 | revision retained | Dominic Alvarez | CB-DOC-061-096) Tj
+T*
+(2025-08-13 | matter copy collected | Jonas Feld | CBP-061-12) Tj
+T*
+() Tj
+T*
+(RELATED NATIVE RECORDS) Tj
+T*
+(CB-DOC-061-011) Tj
+T*
+(CB-DOC-061-029) Tj
+T*
+(CB-DOC-061-047) Tj
+T*
+(CB-DOC-061-071) Tj
+T*
+() Tj
+T*
+(Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are) Tj
+T*
+(fictitious; the record is not legal advice.) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000052 00000 n 
+0000000101 00000 n 
+0000000164 00000 n 
+0000000290 00000 n 
+0000004877 00000 n 
+0000005003 00000 n 
+0000009141 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+9209
+%%EOF

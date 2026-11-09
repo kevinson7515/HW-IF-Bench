@@ -1,0 +1,41 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "regular-file size and nanosecond mtime before and after the task",
+  "created": [
+    "attached_files/task_41/extracted/Agentless.txt",
+    "attached_files/task_41/extracted/SWEagent.txt",
+    "attached_files/task_41/extracted/SWEbench.txt"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "attached_files/task_41/extracted/Agentless.txt",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000024-41/artifacts/attached_files/task_41/extracted/Agentless.txt",
+      "change": "created",
+      "size": 97704,
+      "sha256": "e345c172af9171906a0c1c669ba938a53a9f31198242c5e7eb1cd4ca31a13f64"
+    },
+    {
+      "path": "attached_files/task_41/extracted/SWEagent.txt",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000024-41/artifacts/attached_files/task_41/extracted/SWEagent.txt",
+      "change": "created",
+      "size": 296581,
+      "sha256": "b6a3eb0e77e2c226b605348698f8ce08144592aa6557b24be81bc57ddb1b7946"
+    },
+    {
+      "path": "attached_files/task_41/extracted/SWEbench.txt",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000024-41/artifacts/attached_files/task_41/extracted/SWEbench.txt",
+      "change": "created",
+      "size": 134602,
+      "sha256": "f7c9fedb7a24870153d939237f6dc77aa0a6a173d9ea19ecfba07d7e27931f6b"
+    }
+  ],
+  "skipped": [],
+  "errors": [],
+  "limits": {
+    "max_file_bytes": 104857600,
+    "max_total_bytes": 1073741824
+  }
+}

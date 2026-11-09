@@ -1,0 +1,29 @@
+{
+  "line": 30,
+  "id": 47,
+  "user_query": "根据附件中 Pydantic v2.10.6 的官方迁移指南，整理从 v1 迁移到该版本时的主要破坏性 API 变化、对应写法及短期兼容方法。按数据模型、校验、序列化和设置分组，注明版本及指南章节。",
+  "effective_query": "根据附件中 Pydantic v2.10.6 的官方迁移指南，整理从 v1 迁移到该版本时的主要破坏性 API 变化、对应写法及短期兼容方法。按数据模型、校验、序列化和设置分组，注明版本及指南章节。\n\nAttached files are available at the following paths. Read them as needed:\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_47/migration_source.md\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_47/PydanticMigration.md",
+  "attached_files": [
+    "attached_files/task_47/migration_source.md",
+    "attached_files/task_47/PydanticMigration.md"
+  ],
+  "resolved_attached_files": [
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_47/migration_source.md",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_47/PydanticMigration.md"
+  ],
+  "archived_attachments": [
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_47/migration_source.md",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000030-47/inputs/attached_files/task_47/migration_source.md",
+      "size": 369,
+      "sha256": "72d716833b551f38529a662534789acfae5f3fcc1118850820e29a255cb13a85"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_47/PydanticMigration.md",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000030-47/inputs/attached_files/task_47/PydanticMigration.md",
+      "size": 49362,
+      "sha256": "9e51980256231ceb88bf3d4a87a6e7b1513e636b165744f7a566c88734e9c9a0"
+    }
+  ],
+  "started_at": "2026-11-06T10:18:11.613397+00:00"
+}

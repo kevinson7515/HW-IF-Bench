@@ -1,0 +1,74 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "aurora-antitrust",
+    "aurora-antitrust/DISPOSITION_REGISTER.csv",
+    "aurora-antitrust/REVIEW_NOTE.md",
+    "aurora-antitrust/SLACK_REPLY.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "aurora-antitrust/DISPOSITION_REGISTER.csv",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-legal-cb100-031/S3/artifacts/aurora-antitrust/DISPOSITION_REGISTER.csv",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792903515000000000,
+      "type": "file",
+      "size": 2287,
+      "sha256": "f871330eb6b8fda8e06bfc9674692db56286925d2b1cf4471eeff1e5ed1bc034"
+    },
+    {
+      "path": "aurora-antitrust/REVIEW_NOTE.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-legal-cb100-031/S3/artifacts/aurora-antitrust/REVIEW_NOTE.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792903514000000000,
+      "type": "file",
+      "size": 3778,
+      "sha256": "44eb288e6e91dad88126184261ec8ba86488c59987d164d1bfd73a4016aacc0d"
+    },
+    {
+      "path": "aurora-antitrust/SLACK_REPLY.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-legal-cb100-031/S3/artifacts/aurora-antitrust/SLACK_REPLY.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792903515000000000,
+      "type": "file",
+      "size": 1296,
+      "sha256": "a7095be09b7c097fb68c4f7442b2207d0580b7f22fa2178f8e866c01196694c5"
+    }
+  ],
+  "entries": {
+    "aurora-antitrust": {
+      "mode": 448,
+      "mtime_ns": 1792903515000000000,
+      "type": "directory"
+    },
+    "aurora-antitrust/DISPOSITION_REGISTER.csv": {
+      "mode": 384,
+      "mtime_ns": 1792903515000000000,
+      "type": "file",
+      "size": 2287,
+      "sha256": "f871330eb6b8fda8e06bfc9674692db56286925d2b1cf4471eeff1e5ed1bc034"
+    },
+    "aurora-antitrust/REVIEW_NOTE.md": {
+      "mode": 384,
+      "mtime_ns": 1792903514000000000,
+      "type": "file",
+      "size": 3778,
+      "sha256": "44eb288e6e91dad88126184261ec8ba86488c59987d164d1bfd73a4016aacc0d"
+    },
+    "aurora-antitrust/SLACK_REPLY.md": {
+      "mode": 384,
+      "mtime_ns": 1792903515000000000,
+      "type": "file",
+      "size": 1296,
+      "sha256": "a7095be09b7c097fb68c4f7442b2207d0580b7f22fa2178f8e866c01196694c5"
+    }
+  },
+  "deleted_entries": {}
+}

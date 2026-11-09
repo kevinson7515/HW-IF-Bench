@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "attached_files/task_11/matter_closeout",
+    "attached_files/task_11/matter_closeout/review_disposition_register.md",
+    "attached_files/task_11/matter_closeout/review_note.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "attached_files/task_11/matter_closeout/review_disposition_register.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S2/artifacts/attached_files/task_11/matter_closeout/review_disposition_register.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793106362000000000,
+      "type": "file",
+      "size": 8038,
+      "sha256": "5b908e69c9ff178c4fca08842fe62569dccf3b2f29bc8d598879bb34d8cc6e59"
+    },
+    {
+      "path": "attached_files/task_11/matter_closeout/review_note.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-061/S2/artifacts/attached_files/task_11/matter_closeout/review_note.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793106395000000000,
+      "type": "file",
+      "size": 8867,
+      "sha256": "42516392a753df1d3217cf8cb73ebb05100093d329d614c428bafffc10531f7c"
+    }
+  ],
+  "entries": {
+    "attached_files/task_11/matter_closeout": {
+      "mode": 448,
+      "mtime_ns": 1793106395000000000,
+      "type": "directory"
+    },
+    "attached_files/task_11/matter_closeout/review_disposition_register.md": {
+      "mode": 384,
+      "mtime_ns": 1793106362000000000,
+      "type": "file",
+      "size": 8038,
+      "sha256": "5b908e69c9ff178c4fca08842fe62569dccf3b2f29bc8d598879bb34d8cc6e59"
+    },
+    "attached_files/task_11/matter_closeout/review_note.md": {
+      "mode": 384,
+      "mtime_ns": 1793106395000000000,
+      "type": "file",
+      "size": 8867,
+      "sha256": "42516392a753df1d3217cf8cb73ebb05100093d329d614c428bafffc10531f7c"
+    }
+  },
+  "deleted_entries": {}
+}

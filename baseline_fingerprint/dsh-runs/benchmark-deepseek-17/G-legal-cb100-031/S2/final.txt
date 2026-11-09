@@ -1,0 +1,42 @@
+I've completed the analysis and recorded the outcome in the workspace. Here is the coherent working position for the team.
+
+## Working position — Aurora MDL production (CB-LD-2701)
+
+**Can Aurora certify the MDL production?** Not the whole thing. Certification must be **scoped, not blanket**: 6 of 12 portfolio keys are supported and certifiable now; 6 must be held until cured. The authorized route is `aurora-antitrust:scoped-evidence`. The `shortcut` route (certify from log totals) is unsupported; `blanket-hold` needs additional approval.
+
+### Certify now — 6 supported keys (all four controls hold; disclose the residual)
+| Key | Subject | Owner | Disclose |
+|---|---|---|---|
+| 02 | Email-family separation | Talia Brooks | 14% result vs 11% threshold |
+| 04 | Metadata field loss | Farah Ibrahim | completed 11-25, before 11-27 deadline |
+| 06 | Protective-order designation error | Leona Park | 125 vs 148 records |
+| 07 | Production gap | Henry Cho | 40 vs 78 records |
+| 08 | Legal-hold delivery gap | Maya Ellison | archive@ vs required notices@ |
+| 09 | Clawback deadline | Jonas Feld | completed 05-12, after 03-31 deadline |
+
+### Hold — 6 keys, and what cures each
+| Key | Subject | Missing control | Cure (owner) |
+|---|---|---|---|
+| 01 | **Bates-range overlap** | Approval pending/0 | Samuel Kim approves + reconcile 180 vs 215 |
+| 03 | Request-response mismatch | Identity + Authority + Current | Resolve entity collision; close open mismatch (Adrian Mensah) |
+| 05 | Collection-date inconsistency | Authority + Current + Approval | Close open inconsistency; Dominic Alvarez approval |
+| 10 | Third-party subpoena deadline | Revision | Reconcile REV-2025.3 vs REV-2024.2 + address (Willa Novak) |
+| 11 | **Custodian omission (departed custodians)** | Identity | Resolve entity collision; collect 61 → 98 (Owen Delgado) |
+| 12 | **Common-interest support gap (privilege)** | Authority + Current | Close open gap (Priya Raman) |
+
+### The four issues you flagged map as follows
+- **Overlapping Bates ranges** → key 01 (hold)
+- **Departed custodians** → key 11 (hold)
+- **Mobile chats / collection** → keys 05 and 03 (holds)
+- **Pending privilege challenge** → key 12 (hold), with keys 06/08/09 supported-but-disclosed
+
+### What evidence would change the answer
+A reconciled Bates count or signed approval (01); a close-out/stipulation for the "blocks completion" records (03/05/12); one consistent revision and correct address (10); a resolved crosswalk plus collected departed-custodian data (11). Any "supported" key downgrades to hold if its disclosure is later treated as a material omission.
+
+### Recorded in the workspace
+- `attached_files/task_10/aurora_mdl_position/review_disposition_register.md` — 12-row register (system of record), one row per portfolio key.
+- `attached_files/task_10/aurora_mdl_position/working_position_note.md` — full note with approach, supported actions, holds, source anchors, rejected alternatives, and limits.
+
+**Completion route to note:** per the matter protocol, the close-out is to reply in Slack channel `C00000031`, thread `1760000031.000005` (`005_pleadings_source_export.json`) — not a new top-level post — only after the register and note are committed, and to re-open each changed provider record so the recorded result is confirmed. I have no Slack tool in this session, so that reply step remains a team action; the register and note are committed and ready.
+
+One flag for your judgment: key 09 (clawback) passes all four controls, so I placed it in "certify now with disclosure" — but the completed-on-05-12 vs due-03-31 spread is a real privilege-waiver risk, so the disclosure language on that certification needs senior sign-off. If the team treats a late clawback as non-disclosable, key 09 moves to hold and the split becomes 5 supported / 7 held.

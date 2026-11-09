@@ -1,0 +1,22 @@
+All deliverables are complete and verified. Here is the closing summary:
+
+## Position (for the team, 2026-09-05)
+
+**Can Aurora certify the MDL production? No.** Six of twelve portfolio keys are supported by current evidence; six carry unresolved evidence constraints that must be cured before any certification or completeness representation.
+
+**What can be done now** — commit the six supported actions (CBP-031-02, 04, 06, 07, 08, 09), each with its disclosure: 02's 14% result against the 11% threshold; 06/07's quantified shortfalls (125 of 148; 40 of 78) as production-control rows; 08's notice re-issue to `notices-aurora_home_supply_co@example.test`; 09's late completion (2025-05-12 vs 2025-03-31, no extension evidence). Sequenced by next internal control date, they finish 2026-08-27 → 2026-09-03, inside the matter date. Owner reassignment (01: Samuel Kim, 05: Dominic Alvarez — both pending/inactive/capacity 0), notice re-issues (08, 10), and shortfall cure work (01, 06, 07, 11) also start now.
+
+**What must wait** — any certification, any completeness/accuracy representation, and any disposition on the six held keys (01 approval, 03 identity, 05 approval, 10 revision, 11 identity, 12 current operations).
+
+**What would change the answer** — approved crosswalk revisions for the 03/11 entity collisions; owner approval or reassignment for 01/05; a controlling-revision determination for 10 (REV-2024.2 vs REV-2025.3); closure evidence for the 03/05/12 blocking statuses; a revised operative order changing the certification populations or threshold; proof the 09 deadline was extended; a corrected notice receipt.
+
+## Deliverables (all in `output/`)
+
+| File | Content |
+|---|---|
+| `review_disposition_register.md` | System of record: 12 rows, 6 supported / 6 holds, four-control test per key, owners with status/capacity/next control date, sequencing, cure requirements, hold-release triggers — each row citing all 8 evidence-role anchors |
+| `review_note.md` | Method, selected approach (`aurora-antitrust:scoped-evidence`, $20,000, AUTHORIZED), supported actions with disclosures, holds with named missing controls, per-key anchor matrix, rejected alternatives, limits (including the 07/12 exact-gap vs nonresponsive-anomaly rationale) |
+| `team_working_position.md` | The team's single working position: one-sentence answer, what now / what waits / what changes the answer, owner and notice requests |
+| `slack_reply.md` | Reply text for channel `C00000031`, thread `1760000031.000005` (thread reply only, no top-level post), with the precondition satisfied |
+
+Per the protocol's re-open requirement, every deliverable was re-read in full after writing; every recorded fact (entities, references, populations, rosters, dates, crosswalks) was re-verified in the cited source file, and all transcription defects found on re-read were corrected before the files were finalized.

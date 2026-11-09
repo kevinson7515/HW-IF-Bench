@@ -1,0 +1,22 @@
+## Amazon's FY2017 Days Payable Outstanding (DPO): **93.86 days**
+
+### Source line items (from the attached AMAZON_2017_10K.pdf, in $ millions)
+
+**Consolidated Balance Sheets (December 31, 2016 and 2017):**
+| Line item | FY2016 | FY2017 |
+|---|---|---|
+| Accounts payable | $25,309 | $34,616 |
+| Inventories | $11,461 | $16,047 |
+
+**Consolidated Statements of Operations (Year Ended December 31, 2017):**
+| Line item | FY2017 |
+|---|---|
+| Cost of sales | $111,934 |
+
+### Calculation
+1. **Average accounts payable** = ($25,309 + $34,616) / 2 = **$29,962.5**
+2. **Change in inventory** = $16,047 − $11,461 = **$4,586**
+3. **Denominator** (COGS + Δinventory) = $111,934 + $4,586 = **$116,520**
+4. **DPO** = 365 × $29,962.5 / $116,520 = 93.8578…
+
+**DPO ≈ 93.86 days** — meaning Amazon took roughly 94 days on average to pay its suppliers in FY2017, consistent with its known strategy of collecting from customers before supplier payments come due (the 2017 jump in accounts payable largely reflects the Whole Foods Market acquisition).

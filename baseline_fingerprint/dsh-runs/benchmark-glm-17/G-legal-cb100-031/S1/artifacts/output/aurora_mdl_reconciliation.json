@@ -1,0 +1,433 @@
+{
+  "matter": {
+    "matter_number": "CB-LD-2701",
+    "matter_title": "Aurora pricing MDL discovery audit",
+    "client": "Aurora Home Supply Co.",
+    "counterparty": "In re Residential Fixture Pricing",
+    "matter_level_control": "The operative discovery order and certification population govern completeness and privilege treatment.",
+    "client_deadline_for_position": "2026-09-05",
+    "sources_reconciled": {
+      "source_records": 96,
+      "structure": "12 defect populations x 8 evidence roles (identity_crosswalk, operative_authority, current_operations, approval_and_capacity, correspondence, financial_or_population_support, chronology_and_custody, independent_counterrecord)",
+      "impact_population_workbook": "12_case_management/097_aurora_antitrust_impact_population.xlsx"
+    }
+  },
+  "reconciliation_method": [
+    "Each defect population (portfolio key) carries eight records in fixed evidence roles.",
+    "The chronology_and_custody record for each population states the operative record was 'fixed at' the operative_authority file, which identifies the controlling record for that population.",
+    "The operative_authority record (R-reference) supplies the requirement; the current_operations record (E-reference) supplies what was done. Every current_operations extract states it 'does not state a legal disposition'.",
+    "Every correspondence record confirms the counterparty has already cited the operative R-reference against the client's E-reference position.",
+    "Impact-control scores are inputs, not dispositions (stated in each financial_or_population_support record and in the workbook's source_population_status column)."
+  ],
+  "certification_answer": {
+    "can_aurora_certify": false,
+    "bottom_line": "No. Aurora cannot certify the MDL production on the current record.",
+    "measure": "Matter-level control: the operative discovery order and certification population govern completeness and privilege treatment.",
+    "compliant_populations": 1,
+    "noncompliant_populations": 11,
+    "total_defect_populations": 12,
+    "uncertified_record_count": 133,
+    "uncertified_detail": "Records inside the operative populations but outside the certified populations: CBP-031-01 (35), CBP-031-06 (23), CBP-031-07 (38), CBP-031-11 (37)."
+  },
+  "populations": [
+    {
+      "key": "CBP-031-01",
+      "issue": "Bates-range overlap",
+      "entity": "ENT-031-1000",
+      "revision": "REV-2025.1",
+      "impact_control_score": 37,
+      "operative_authority": {
+        "record": "CB-DOC-031-013",
+        "file": "02_orders/013_orders_source_export.json",
+        "reference": "CB-LD-2701-R753",
+        "requirement": "Bates-range overlap population is 215 records."
+      },
+      "current_operations": {
+        "record": "CB-DOC-031-025",
+        "file": "04_custodian_files/025_custodian_files_source_export.md",
+        "reference": "CB-LD-2701-E138",
+        "position": "Certification covers 180 records."
+      },
+      "correspondence_record": "CB-DOC-031-049",
+      "financial_support_record": "CB-DOC-031-061",
+      "custody_record": "CB-DOC-031-073",
+      "counterrecord": "CB-DOC-031-085",
+      "gap": "Certification covers 180 of 215 operative records; 35 records (16.3%) uncertified.",
+      "status": "noncompliant_population_shortfall",
+      "blocks_completion": false,
+      "owner_of_record": "Samuel Kim",
+      "owner_status": "pending approval and inactive; remaining matter capacity 0",
+      "owner_next_internal_control_date": "2026-09-04",
+      "owner_record": "CB-DOC-031-037",
+      "ownership_functional": false
+    },
+    {
+      "key": "CBP-031-02",
+      "issue": "Email-family separation",
+      "entity": "ENT-031-1001",
+      "revision": "REV-2025.2",
+      "impact_control_score": 89,
+      "operative_authority": {
+        "record": "CB-DOC-031-014",
+        "file": "02_orders/014_orders_source_export.xml",
+        "reference": "CB-LD-2701-R682",
+        "requirement": "Email-family separation threshold is 11%."
+      },
+      "current_operations": {
+        "record": "CB-DOC-031-026",
+        "file": "04_custodian_files/026_custodian_files_source_export.txt",
+        "reference": "CB-LD-2701-E716",
+        "position": "Separation result is 14%."
+      },
+      "correspondence_record": "CB-DOC-031-050",
+      "financial_support_record": "CB-DOC-031-062",
+      "custody_record": "CB-DOC-031-074",
+      "counterrecord": "CB-DOC-031-086",
+      "gap": "Result 14% exceeds the operative threshold 11% by 3 percentage points.",
+      "status": "noncompliant_threshold_exceeded",
+      "blocks_completion": false,
+      "owner_of_record": "Talia Brooks",
+      "owner_status": "active; remaining matter capacity 1",
+      "owner_next_internal_control_date": "2026-09-03",
+      "owner_record": "CB-DOC-031-038",
+      "ownership_functional": true
+    },
+    {
+      "key": "CBP-031-03",
+      "issue": "Request-response mismatch",
+      "entity": "ENT-031-1002",
+      "entity_collision": "ENT-031-1002 vs ENT-031-2002; domain and legal-entity fields disagree; no approved crosswalk revision resolves the collision",
+      "entity_collision_record": "CB-DOC-031-003",
+      "revision": "REV-2025.3",
+      "impact_control_score": 91,
+      "operative_authority": {
+        "record": "CB-DOC-031-015",
+        "file": "02_orders/015_orders_source_export.html",
+        "reference": "CB-LD-2701-R694",
+        "requirement": "Open request-response mismatch blocks completion."
+      },
+      "current_operations": {
+        "record": "CB-DOC-031-027",
+        "file": "04_custodian_files/027_custodian_files_source_export.eml",
+        "reference": "CB-LD-2701-E452",
+        "position": "Status is open and unresolved."
+      },
+      "correspondence_record": "CB-DOC-031-051",
+      "financial_support_record": "CB-DOC-031-063",
+      "custody_record": "CB-DOC-031-075",
+      "counterrecord": "CB-DOC-031-087",
+      "gap": "Open and unresolved; operative authority states this status blocks completion. Entity identity additionally unresolved.",
+      "status": "noncompliant_blocks_completion",
+      "blocks_completion": true,
+      "owner_of_record": "Adrian Mensah",
+      "owner_status": "active; remaining matter capacity 4",
+      "owner_next_internal_control_date": "2026-09-02",
+      "owner_record": "CB-DOC-031-039",
+      "ownership_functional": true
+    },
+    {
+      "key": "CBP-031-04",
+      "issue": "Metadata field loss",
+      "entity": "ENT-031-1003",
+      "revision": "REV-2025.4",
+      "impact_control_score": 45,
+      "operative_authority": {
+        "record": "CB-DOC-031-016",
+        "file": "02_orders/016_orders_source_export.pdf",
+        "reference": "CB-LD-2701-R665",
+        "requirement": "Metadata field loss is due by 2025-11-27."
+      },
+      "current_operations": {
+        "record": "CB-DOC-031-028",
+        "file": "04_custodian_files/028_custodian_files_source_export.csv",
+        "reference": "CB-LD-2701-E980",
+        "position": "Event completed on 2025-11-25."
+      },
+      "correspondence_record": "CB-DOC-031-052",
+      "financial_support_record": "CB-DOC-031-064",
+      "custody_record": "CB-DOC-031-076",
+      "counterrecord": "CB-DOC-031-088",
+      "gap": "None. Completed 2025-11-25, two days before the 2025-11-27 operative deadline.",
+      "status": "compliant",
+      "blocks_completion": false,
+      "owner_of_record": "Farah Ibrahim",
+      "owner_status": "active; remaining matter capacity 4",
+      "owner_next_internal_control_date": "2026-09-01",
+      "owner_record": "CB-DOC-031-040",
+      "ownership_functional": true
+    },
+    {
+      "key": "CBP-031-05",
+      "issue": "Collection-date inconsistency (mobile chat collections)",
+      "entity": "ENT-031-1004",
+      "revision": "REV-2025.5",
+      "impact_control_score": 70,
+      "operative_authority": {
+        "record": "CB-DOC-031-017",
+        "file": "03_requests_responses/017_requests_responses_source_export.md",
+        "reference": "CB-LD-2701-R821",
+        "requirement": "Open collection-date inconsistency blocks completion."
+      },
+      "current_operations": {
+        "record": "CB-DOC-031-029",
+        "file": "04_custodian_files/029_custodian_files_source_export.json",
+        "reference": "CB-LD-2701-E407",
+        "position": "Status is open and unresolved."
+      },
+      "correspondence_record": "CB-DOC-031-053",
+      "financial_support_record": "CB-DOC-031-065",
+      "custody_record": "CB-DOC-031-077",
+      "counterrecord": "CB-DOC-031-089",
+      "gap": "Open and unresolved; operative authority states this status blocks completion. Chat collection dates are unverified.",
+      "status": "noncompliant_blocks_completion",
+      "blocks_completion": true,
+      "owner_of_record": "Dominic Alvarez",
+      "owner_status": "pending approval and inactive; remaining matter capacity 0",
+      "owner_next_internal_control_date": "2026-08-31",
+      "owner_record": "CB-DOC-031-041",
+      "ownership_functional": false
+    },
+    {
+      "key": "CBP-031-06",
+      "issue": "Protective-order designation error",
+      "entity": "ENT-031-1005",
+      "revision": "REV-2025.6",
+      "impact_control_score": 82,
+      "operative_authority": {
+        "record": "CB-DOC-031-018",
+        "file": "03_requests_responses/018_requests_responses_source_export.txt",
+        "reference": "CB-LD-2701-R246",
+        "requirement": "Protective-order designation error population is 148 records."
+      },
+      "current_operations": {
+        "record": "CB-DOC-031-030",
+        "file": "04_custodian_files/030_custodian_files_source_export.xml",
+        "reference": "CB-LD-2701-E214",
+        "position": "Certification covers 125 records."
+      },
+      "correspondence_record": "CB-DOC-031-054",
+      "financial_support_record": "CB-DOC-031-066",
+      "custody_record": "CB-DOC-031-078",
+      "counterrecord": "CB-DOC-031-090",
+      "gap": "Certification covers 125 of 148 operative records; 23 records (15.5%) uncertified.",
+      "status": "noncompliant_population_shortfall",
+      "blocks_completion": false,
+      "owner_of_record": "Leona Park",
+      "owner_status": "active; remaining matter capacity 6",
+      "owner_next_internal_control_date": "2026-08-30",
+      "owner_record": "CB-DOC-031-042",
+      "ownership_functional": true
+    },
+    {
+      "key": "CBP-031-07",
+      "issue": "Production gap",
+      "entity": "ENT-031-1006",
+      "revision": "REV-2025.7",
+      "impact_control_score": 58,
+      "operative_authority": {
+        "record": "CB-DOC-031-019",
+        "file": "03_requests_responses/019_requests_responses_source_export.eml",
+        "reference": "CB-LD-2701-R626",
+        "requirement": "Production gap population is 78 records."
+      },
+      "current_operations": {
+        "record": "CB-DOC-031-031",
+        "file": "04_custodian_files/031_custodian_files_source_export.html",
+        "reference": "CB-LD-2701-E660",
+        "position": "Certification covers 40 records."
+      },
+      "correspondence_record": "CB-DOC-031-055",
+      "financial_support_record": "CB-DOC-031-067",
+      "custody_record": "CB-DOC-031-079",
+      "counterrecord": "CB-DOC-031-091",
+      "gap": "Certification covers 40 of 78 operative records; 38 records (48.7%) uncertified.",
+      "status": "noncompliant_population_shortfall",
+      "blocks_completion": false,
+      "owner_of_record": "Henry Cho",
+      "owner_status": "active; remaining matter capacity 6",
+      "owner_next_internal_control_date": "2026-08-29",
+      "owner_record": "CB-DOC-031-043",
+      "ownership_functional": true
+    },
+    {
+      "key": "CBP-031-08",
+      "issue": "Legal-hold delivery gap (departed custodians)",
+      "entity": "ENT-031-1007",
+      "revision": "REV-2025.1",
+      "impact_control_score": 57,
+      "operative_authority": {
+        "record": "CB-DOC-031-020",
+        "file": "03_requests_responses/020_requests_responses_source_export.csv",
+        "reference": "CB-LD-2701-R397",
+        "requirement": "Notices must use notices-aurora_home_supply_co@example.test."
+      },
+      "current_operations": {
+        "record": "CB-DOC-031-032",
+        "file": "04_custodian_files/032_custodian_files_source_export.pdf",
+        "reference": "CB-LD-2701-E382",
+        "position": "Receipt used archive-in_re_residential_fixture_pricing@example.test."
+      },
+      "correspondence_record": "CB-DOC-031-056",
+      "financial_support_record": "CB-DOC-031-068",
+      "custody_record": "CB-DOC-031-080",
+      "counterrecord": "CB-DOC-031-092",
+      "gap": "Delivery to the wrong channel: the counterparty archive address instead of the required client notices address. Hold receipt for departed custodians unverified.",
+      "status": "noncompliant_wrong_channel",
+      "blocks_completion": false,
+      "owner_of_record": "Maya Ellison",
+      "owner_status": "active; remaining matter capacity 1",
+      "owner_next_internal_control_date": "2026-08-28",
+      "owner_record": "CB-DOC-031-044",
+      "ownership_functional": true
+    },
+    {
+      "key": "CBP-031-09",
+      "issue": "Clawback deadline (privilege challenge)",
+      "entity": "ENT-031-1008",
+      "revision": "REV-2025.2",
+      "impact_control_score": 61,
+      "operative_authority": {
+        "record": "CB-DOC-031-021",
+        "file": "03_requests_responses/021_requests_responses_source_export.json",
+        "reference": "CB-LD-2701-R664",
+        "requirement": "Clawback deadline is due by 2025-03-31."
+      },
+      "current_operations": {
+        "record": "CB-DOC-031-033",
+        "file": "05_email_families/033_email_families_source_export.md",
+        "reference": "CB-LD-2701-E503",
+        "position": "Event completed on 2025-05-12."
+      },
+      "correspondence_record": "CB-DOC-031-057",
+      "financial_support_record": "CB-DOC-031-069",
+      "custody_record": "CB-DOC-031-081",
+      "counterrecord": "CB-DOC-031-093",
+      "gap": "Completed 2025-05-12, 42 days after the 2025-03-31 operative deadline. Lateness is a historical fact and cannot be cured retroactively; only disclosed or excused.",
+      "status": "noncompliant_late_completed",
+      "blocks_completion": false,
+      "owner_of_record": "Jonas Feld",
+      "owner_status": "active; remaining matter capacity 1",
+      "owner_next_internal_control_date": "2026-08-27",
+      "owner_record": "CB-DOC-031-045",
+      "ownership_functional": true
+    },
+    {
+      "key": "CBP-031-10",
+      "issue": "Third-party subpoena deadline",
+      "entity": "ENT-031-1009",
+      "revision_referenced": "REV-2024.2",
+      "revision_current": "REV-2025.3",
+      "revision_note": "Operations cites REV-2024.2; the operative record states REV-2025.3 is the later effective revision.",
+      "impact_control_score": 33,
+      "operative_authority": {
+        "record": "CB-DOC-031-022",
+        "file": "03_requests_responses/022_requests_responses_source_export.xml",
+        "reference": "CB-LD-2701-R537",
+        "requirement": "Notices must use notices-aurora_home_supply_co@example.test; REV-2025.3 is the later effective revision."
+      },
+      "current_operations": {
+        "record": "CB-DOC-031-034",
+        "file": "05_email_families/034_email_families_source_export.txt",
+        "reference": "CB-LD-2701-E178",
+        "position": "Receipt used archive-in_re_residential_fixture_pricing@example.test; extract cites REV-2024.2."
+      },
+      "correspondence_record": "CB-DOC-031-058",
+      "financial_support_record": "CB-DOC-031-070",
+      "custody_record": "CB-DOC-031-082",
+      "counterrecord": "CB-DOC-031-094",
+      "gap": "Wrong delivery channel, and operations relies on superseded revision REV-2024.2 while REV-2025.3 controls.",
+      "status": "noncompliant_wrong_channel_and_stale_revision",
+      "blocks_completion": false,
+      "owner_of_record": "Willa Novak",
+      "owner_status": "active; remaining matter capacity 4",
+      "owner_next_internal_control_date": "2026-09-04",
+      "owner_record": "CB-DOC-031-046",
+      "ownership_functional": true
+    },
+    {
+      "key": "CBP-031-11",
+      "issue": "Custodian omission (departed custodians)",
+      "entity": "ENT-031-1010",
+      "entity_collision": "ENT-031-1010 vs ENT-031-2010; domain and legal-entity fields disagree; no approved crosswalk revision resolves the collision",
+      "entity_collision_record": "CB-DOC-031-011",
+      "revision": "REV-2025.4",
+      "impact_control_score": 55,
+      "operative_authority": {
+        "record": "CB-DOC-031-023",
+        "file": "03_requests_responses/023_requests_responses_source_export.html",
+        "reference": "CB-LD-2701-R976",
+        "requirement": "Custodian omission population is 98 records."
+      },
+      "current_operations": {
+        "record": "CB-DOC-031-035",
+        "file": "05_email_families/035_email_families_source_export.eml",
+        "reference": "CB-LD-2701-E151",
+        "position": "Certification covers 61 records."
+      },
+      "correspondence_record": "CB-DOC-031-059",
+      "financial_support_record": "CB-DOC-031-071",
+      "custody_record": "CB-DOC-031-083",
+      "counterrecord": "CB-DOC-031-095",
+      "gap": "Certification covers 61 of 98 operative records; 37 records (37.8%) uncertified. Entity identity additionally unresolved.",
+      "status": "noncompliant_population_shortfall",
+      "blocks_completion": false,
+      "owner_of_record": "Owen Delgado",
+      "owner_status": "active; remaining matter capacity 3",
+      "owner_next_internal_control_date": "2026-09-03",
+      "owner_record": "CB-DOC-031-047",
+      "ownership_functional": true
+    },
+    {
+      "key": "CBP-031-12",
+      "issue": "Common-interest support gap (privilege challenge)",
+      "entity": "ENT-031-1011",
+      "revision": "REV-2025.5",
+      "impact_control_score": 85,
+      "operative_authority": {
+        "record": "CB-DOC-031-024",
+        "file": "03_requests_responses/024_requests_responses_source_export.pdf",
+        "reference": "CB-LD-2701-R908",
+        "requirement": "Open common-interest support gap blocks completion."
+      },
+      "current_operations": {
+        "record": "CB-DOC-031-036",
+        "file": "05_email_families/036_email_families_source_export.csv",
+        "reference": "CB-LD-2701-E253",
+        "position": "Status is open and unresolved."
+      },
+      "correspondence_record": "CB-DOC-031-060",
+      "financial_support_record": "CB-DOC-031-072",
+      "custody_record": "CB-DOC-031-084",
+      "counterrecord": "CB-DOC-031-096",
+      "gap": "Open and unresolved; operative authority states this status blocks completion. Common-interest support is the basis for privilege treatment, so privilege treatment cannot be certified while open.",
+      "status": "noncompliant_blocks_completion",
+      "blocks_completion": true,
+      "owner_of_record": "Priya Raman",
+      "owner_status": "active; remaining matter capacity 1",
+      "owner_next_internal_control_date": "2026-09-02",
+      "owner_record": "CB-DOC-031-048",
+      "ownership_functional": true
+    }
+  ],
+  "cross_cutting_findings": {
+    "ownership_failures": [
+      "CBP-031-01 (Bates-range overlap): owner of record Samuel Kim is pending approval and inactive with remaining capacity 0 (CB-DOC-031-037).",
+      "CBP-031-05 (collection-date inconsistency / mobile chats): owner of record Dominic Alvarez is pending approval and inactive with remaining capacity 0 (CB-DOC-031-041).",
+      "These are the two populations at the center of the client's question; neither currently has a functional owner."
+    ],
+    "entity_collisions": [
+      "CBP-031-03: ENT-031-1002 vs ENT-031-2002 (CB-DOC-031-003).",
+      "CBP-031-11: ENT-031-1010 vs ENT-031-2010 (CB-DOC-031-011).",
+      "No approved crosswalk revision resolves either collision."
+    ],
+    "wrong_channel_delivery": [
+      "CBP-031-08 and CBP-031-10 used archive-in_re_residential_fixture_pricing@example.test where the operative records require notices-aurora_home_supply_co@example.test."
+    ],
+    "stale_revision_reliance": [
+      "CBP-031-10 operations cites REV-2024.2; the operative record states REV-2025.3 is the later effective revision."
+    ],
+    "counterparty_awareness": "Every correspondence record shows the counterparty citing the operative R-reference against the client's E-reference position, so the shortfalls are already noticed.",
+    "timing": "All twelve populations have an internal control checkpoint between 2026-08-27 and 2026-09-04, before the client's 2026-09-05 position deadline."
+  },
+  "provenance_note": "Source records are synthetic CounselBench-100 records and state they are not legal advice. Impact-control scores are inputs, not dispositions. This reconciliation is a working position for the litigation team, not a legal opinion, and covers the twelve defect populations evidenced in the CB-LD-2701 record set rather than an audit of the entire production."
+}

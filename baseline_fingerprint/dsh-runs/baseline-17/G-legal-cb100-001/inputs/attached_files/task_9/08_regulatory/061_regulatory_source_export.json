@@ -1,0 +1,266 @@
+{
+  "body": "The supporting population for CBP-001-01 was exported under CB-MA-2401-E257. The population uses immutable entity ENT-001-1000 and records impact-control score 80; this score is an input, not a disposition.",
+  "chronology": [
+    {
+      "actor": "Sofia Bennett",
+      "date": "2024-10-29",
+      "event": "native population opened",
+      "reference": "CB-DOC-001-061"
+    },
+    {
+      "actor": "Amara Patel",
+      "date": "2024-11-04",
+      "event": "custodian boundary confirmed",
+      "reference": "CBP-001-01"
+    },
+    {
+      "actor": "Farah Ibrahim",
+      "date": "2024-11-10",
+      "event": "export created",
+      "reference": "CB-DOC-001-061"
+    },
+    {
+      "actor": "Maya Ellison",
+      "date": "2024-11-16",
+      "event": "cross-system identifier checked",
+      "reference": "CBP-001-01"
+    },
+    {
+      "actor": "Priya Raman",
+      "date": "2024-11-22",
+      "event": "revision retained",
+      "reference": "CB-DOC-001-061"
+    },
+    {
+      "actor": "Mei Whitaker",
+      "date": "2024-11-28",
+      "event": "matter copy collected",
+      "reference": "CBP-001-01"
+    }
+  ],
+  "client": "Helios Forge, Inc.",
+  "confidentiality": "Attorney work product",
+  "counterparty": "BluePeak Battery Systems LLC",
+  "current_revision": "REV-2025.1",
+  "custodian": "Owen Delgado",
+  "evidence_role": "financial_or_population_support",
+  "immutable_entity_key": "ENT-001-1000",
+  "matter_number": "CB-MA-2401",
+  "matter_title": "Project Daybreak battery acquisition",
+  "native_version": "2.2",
+  "portfolio_key": "CBP-001-01",
+  "provenance": "Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.",
+  "record_date": "2024-12-03",
+  "record_id": "CB-DOC-001-061",
+  "referenced_revision": "REV-2025.1",
+  "related_records": [
+    "CB-DOC-001-072",
+    "CB-DOC-001-090",
+    "CB-DOC-001-012",
+    "CB-DOC-001-036"
+  ],
+  "reviewer": "Theo Laurent",
+  "rows": [
+    {
+      "actor": "Sofia Bennett",
+      "effective_date": "2024-08-24",
+      "entity_key": "ENT-001-1000",
+      "line_id": "CBP-001-01-FIN-01",
+      "metric": "$953,918.00",
+      "note": "Financial Or Population Support support row 1 for charter authorization mismatch; retained from the native system so the reviewer can distinguish the exact CBP-001-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "pending"
+    },
+    {
+      "actor": "Theo Laurent",
+      "effective_date": "2024-08-27",
+      "entity_key": "ENT-001-1000",
+      "line_id": "CBP-001-01-FIN-02",
+      "metric": "17%",
+      "note": "Financial Or Population Support support row 2 for charter authorization mismatch; retained from the native system so the reviewer can distinguish the exact CBP-001-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "pending"
+    },
+    {
+      "actor": "Nadine Flores",
+      "effective_date": "2024-08-30",
+      "entity_key": "ENT-001-1000",
+      "line_id": "CBP-001-01-FIN-03",
+      "metric": "19%",
+      "note": "Financial Or Population Support support row 3 for charter authorization mismatch; retained from the native system so the reviewer can distinguish the exact CBP-001-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "superseded"
+    },
+    {
+      "actor": "Owen Delgado",
+      "effective_date": "2024-09-02",
+      "entity_key": "ENT-001-1000",
+      "line_id": "CBP-001-01-FIN-04",
+      "metric": "$617,226.00",
+      "note": "Financial Or Population Support support row 4 for charter authorization mismatch; retained from the native system so the reviewer can distinguish the exact CBP-001-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "pending"
+    },
+    {
+      "actor": "Maya Ellison",
+      "effective_date": "2024-09-05",
+      "entity_key": "ENT-001-1000",
+      "line_id": "CBP-001-01-FIN-05",
+      "metric": "5%",
+      "note": "Financial Or Population Support support row 5 for charter authorization mismatch; retained from the native system so the reviewer can distinguish the exact CBP-001-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "recorded"
+    },
+    {
+      "actor": "Dominic Alvarez",
+      "effective_date": "2024-09-08",
+      "entity_key": "ENT-001-1000",
+      "line_id": "CBP-001-01-FIN-06",
+      "metric": "12%",
+      "note": "Financial Or Population Support support row 6 for charter authorization mismatch; retained from the native system so the reviewer can distinguish the exact CBP-001-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "recorded"
+    },
+    {
+      "actor": "Talia Brooks",
+      "effective_date": "2024-09-11",
+      "entity_key": "ENT-001-1000",
+      "line_id": "CBP-001-01-FIN-07",
+      "metric": "$81,801.00",
+      "note": "Financial Or Population Support support row 7 for charter authorization mismatch; retained from the native system so the reviewer can distinguish the exact CBP-001-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Caleb Hassan",
+      "effective_date": "2024-09-14",
+      "entity_key": "ENT-001-2000",
+      "line_id": "CBP-001-01-FIN-08",
+      "metric": "6%",
+      "note": "Financial Or Population Support support row 8 for charter authorization mismatch; retained from the native system so the reviewer can distinguish the exact CBP-001-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "recorded"
+    },
+    {
+      "actor": "Sofia Bennett",
+      "effective_date": "2024-09-17",
+      "entity_key": "ENT-001-1000",
+      "line_id": "CBP-001-01-FIN-09",
+      "metric": "21%",
+      "note": "Financial Or Population Support support row 9 for charter authorization mismatch; retained from the native system so the reviewer can distinguish the exact CBP-001-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Theo Laurent",
+      "effective_date": "2024-09-20",
+      "entity_key": "ENT-001-1000",
+      "line_id": "CBP-001-01-FIN-10",
+      "metric": "$82,609.00",
+      "note": "Financial Or Population Support support row 10 for charter authorization mismatch; retained from the native system so the reviewer can distinguish the exact CBP-001-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Nadine Flores",
+      "effective_date": "2024-09-23",
+      "entity_key": "ENT-001-1000",
+      "line_id": "CBP-001-01-FIN-11",
+      "metric": "4%",
+      "note": "Financial Or Population Support support row 11 for charter authorization mismatch; retained from the native system so the reviewer can distinguish the exact CBP-001-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "recorded"
+    },
+    {
+      "actor": "Owen Delgado",
+      "effective_date": "2024-09-26",
+      "entity_key": "ENT-001-1000",
+      "line_id": "CBP-001-01-FIN-12",
+      "metric": "8%",
+      "note": "Financial Or Population Support support row 12 for charter authorization mismatch; retained from the native system so the reviewer can distinguish the exact CBP-001-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Maya Ellison",
+      "effective_date": "2024-09-29",
+      "entity_key": "ENT-001-1000",
+      "line_id": "CBP-001-01-FIN-13",
+      "metric": "$202,153.00",
+      "note": "Financial Or Population Support support row 13 for charter authorization mismatch; retained from the native system so the reviewer can distinguish the exact CBP-001-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Dominic Alvarez",
+      "effective_date": "2024-10-02",
+      "entity_key": "ENT-001-1000",
+      "line_id": "CBP-001-01-FIN-14",
+      "metric": "4%",
+      "note": "Financial Or Population Support support row 14 for charter authorization mismatch; retained from the native system so the reviewer can distinguish the exact CBP-001-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "pending"
+    },
+    {
+      "actor": "Talia Brooks",
+      "effective_date": "2024-10-05",
+      "entity_key": "ENT-001-1000",
+      "line_id": "CBP-001-01-FIN-15",
+      "metric": "1%",
+      "note": "Financial Or Population Support support row 15 for charter authorization mismatch; retained from the native system so the reviewer can distinguish the exact CBP-001-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Caleb Hassan",
+      "effective_date": "2024-10-08",
+      "entity_key": "ENT-001-1000",
+      "line_id": "CBP-001-01-FIN-16",
+      "metric": "$992,391.00",
+      "note": "Financial Or Population Support support row 16 for charter authorization mismatch; retained from the native system so the reviewer can distinguish the exact CBP-001-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "superseded"
+    },
+    {
+      "actor": "Sofia Bennett",
+      "effective_date": "2024-10-11",
+      "entity_key": "ENT-001-1000",
+      "line_id": "CBP-001-01-FIN-17",
+      "metric": "18%",
+      "note": "Financial Or Population Support support row 17 for charter authorization mismatch; retained from the native system so the reviewer can distinguish the exact CBP-001-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "recorded"
+    },
+    {
+      "actor": "Theo Laurent",
+      "effective_date": "2024-10-14",
+      "entity_key": "ENT-001-1000",
+      "line_id": "CBP-001-01-FIN-18",
+      "metric": "6%",
+      "note": "Financial Or Population Support support row 18 for charter authorization mismatch; retained from the native system so the reviewer can distinguish the exact CBP-001-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "confirmed"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Source lineage",
+      "text": "Intralinks VDR produced native record CB-DOC-001-061 for CB-MA-2401. Owen Delgado owns the source population and Theo Laurent recorded the collection review. The export remains separate from later legal analysis."
+    },
+    {
+      "heading": "Business context",
+      "text": "This record concerns charter authorization mismatch within Project Daybreak battery acquisition. A carve-out manufacturer owns cathode tooling in Nevada while its largest automaker customer can terminate upon an indirect change of control. The record addresses one part of the broader question: Match the cathode-tooling records and automaker consent history to the exact acquired entity."
+    },
+    {
+      "heading": "Native record",
+      "text": "The supporting population for CBP-001-01 was exported under CB-MA-2401-E257. The population uses immutable entity ENT-001-1000 and records impact-control score 80; this score is an input, not a disposition."
+    },
+    {
+      "heading": "Reliance limits",
+      "text": "This file supplies financial or population support evidence for CBP-001-01. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling."
+    }
+  ],
+  "source_path": "/workspace/documents/08_regulatory/061_regulatory_source_export.json",
+  "source_system": "Intralinks VDR",
+  "subject": "charter authorization mismatch"
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<counsel-source-record schema-version="3.1">
+  <record-id>CB-DOC-001-014</record-id>
+  <matter-number>CB-MA-2401</matter-number>
+  <portfolio-key>CBP-001-02</portfolio-key>
+  <source-system>Carta capitalization ledger</source-system>
+  <evidence-role>operative_authority</evidence-role>
+  <immutable-entity-key>ENT-001-1001</immutable-entity-key>
+  <referenced-revision>REV-2025.2</referenced-revision>
+  <current-revision>REV-2025.2</current-revision>
+  <native-record>the financial covenant breach threshold is 7% under CB-MA-2401-R158. The referenced and current revision are both REV-2025.2. The matter-level control is: The executed purchase terms and the latest consent schedule control; seller summaries do not.</native-record>
+  <analysis>
+    <section heading="Source lineage">Carta capitalization ledger produced native record CB-DOC-001-014 for CB-MA-2401. Lena Varga owns the source population and Lena Varga recorded the collection review. The export remains separate from later legal analysis.</section>
+    <section heading="Business context">This record concerns financial covenant breach within Project Daybreak battery acquisition. A carve-out manufacturer owns cathode tooling in Nevada while its largest automaker customer can terminate upon an indirect change of control. The record addresses one part of the broader question: Match the cathode-tooling records and automaker consent history to the exact acquired entity.</section>
+    <section heading="Native record">the financial covenant breach threshold is 7% under CB-MA-2401-R158. The referenced and current revision are both REV-2025.2. The matter-level control is: The executed purchase terms and the latest consent schedule control; seller summaries do not.</section>
+    <section heading="Reliance limits">This file supplies operative authority evidence for CBP-001-02. It does not decide legal effect, select among candidate responses, resolve another system&#x27;s entity identity, or establish that its cited revision is controlling.</section>
+  </analysis>
+  <supporting-rows>
+    <row id="CBP-001-02-OPE-01" date="2025-07-06" entity="ENT-001-1001" revision="REV-2025.2" actor="Adrian Mensah" status="superseded" metric="$172,663.00">Operative Authority support row 1 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-OPE-02" date="2025-07-09" entity="ENT-001-1001" revision="REV-2025.2" actor="Amara Patel" status="recorded" metric="19%">Operative Authority support row 2 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-OPE-03" date="2025-07-12" entity="ENT-001-1001" revision="REV-2025.2" actor="Micah Sullivan" status="recorded" metric="18%">Operative Authority support row 3 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-OPE-04" date="2025-07-15" entity="ENT-001-1001" revision="REV-2025.2" actor="Lena Varga" status="pending" metric="$149,862.00">Operative Authority support row 4 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-OPE-05" date="2025-07-18" entity="ENT-001-1001" revision="REV-2025.2" actor="Rafael Okafor" status="pending" metric="1%">Operative Authority support row 5 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-OPE-06" date="2025-07-21" entity="ENT-001-1001" revision="REV-2025.2" actor="Priya Raman" status="confirmed" metric="12%">Operative Authority support row 6 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-OPE-07" date="2025-07-24" entity="ENT-001-1001" revision="REV-2025.2" actor="Jonas Feld" status="pending" metric="$294,674.00">Operative Authority support row 7 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-OPE-08" date="2025-07-27" entity="ENT-001-2001" revision="REV-2025.2" actor="Leona Park" status="recorded" metric="3%">Operative Authority support row 8 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-OPE-09" date="2025-07-30" entity="ENT-001-1001" revision="REV-2025.2" actor="Adrian Mensah" status="recorded" metric="1%">Operative Authority support row 9 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-OPE-10" date="2025-08-02" entity="ENT-001-1001" revision="REV-2025.2" actor="Amara Patel" status="superseded" metric="$220,091.00">Operative Authority support row 10 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-OPE-11" date="2025-08-05" entity="ENT-001-1001" revision="REV-2025.2" actor="Micah Sullivan" status="superseded" metric="19%">Operative Authority support row 11 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-OPE-12" date="2025-08-08" entity="ENT-001-1001" revision="REV-2025.2" actor="Lena Varga" status="superseded" metric="4%">Operative Authority support row 12 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-OPE-13" date="2025-08-11" entity="ENT-001-1001" revision="REV-2025.2" actor="Rafael Okafor" status="recorded" metric="$52,012.00">Operative Authority support row 13 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-OPE-14" date="2025-08-14" entity="ENT-001-1001" revision="REV-2025.2" actor="Priya Raman" status="confirmed" metric="27%">Operative Authority support row 14 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-OPE-15" date="2025-08-17" entity="ENT-001-1001" revision="REV-2025.2" actor="Jonas Feld" status="pending" metric="22%">Operative Authority support row 15 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-OPE-16" date="2025-08-20" entity="ENT-001-1001" revision="REV-2025.2" actor="Leona Park" status="pending" metric="$921,410.00">Operative Authority support row 16 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-OPE-17" date="2025-08-23" entity="ENT-001-1001" revision="REV-2025.2" actor="Adrian Mensah" status="confirmed" metric="14%">Operative Authority support row 17 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+    <row id="CBP-001-02-OPE-18" date="2025-08-26" entity="ENT-001-1001" revision="REV-2025.2" actor="Amara Patel" status="pending" metric="8%">Operative Authority support row 18 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.</row>
+  </supporting-rows>
+  <chronology>
+    <event date="2025-11-07" actor="Adrian Mensah" reference="CB-DOC-001-014">native population opened</event>
+    <event date="2025-11-13" actor="Henry Cho" reference="CBP-001-02">custodian boundary confirmed</event>
+    <event date="2025-11-19" actor="Owen Delgado" reference="CB-DOC-001-014">export created</event>
+    <event date="2025-11-25" actor="Rafael Okafor" reference="CBP-001-02">cross-system identifier checked</event>
+    <event date="2025-12-01" actor="Elliot Mercer" reference="CB-DOC-001-014">revision retained</event>
+    <event date="2025-12-07" actor="Caleb Hassan" reference="CBP-001-02">matter copy collected</event>
+  </chronology>
+  <provenance>Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.</provenance>
+</counsel-source-record>

@@ -1,0 +1,14 @@
+[
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_42/sodium_cathode_sources.md",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000025-42/inputs/attached_files/task_42/sodium_cathode_sources.md",
+    "size": 1359,
+    "sha256": "fb32e0b16a6573289f1616a97acb41cf688fe05428defa4da774f985eb772a54"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_42/PrussianBlue.pdf",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000025-42/inputs/attached_files/task_42/PrussianBlue.pdf",
+    "size": 5750699,
+    "sha256": "0bb4b35ade36f3aab6432867df62ea05b2efccd83a1c437461aaa9ee3a6fc381"
+  }
+]

@@ -1,0 +1,48 @@
+持久化状态已核验（登记表文件已回读确认）。审计已完成，以下是最终结论。
+
+## 审计结论
+
+**选定方案：`arcadia-genomics:scoped-evidence`（Authority: AUTHORIZED）** —— 完成有证据支持的访问与删除工作，并升级确切的转移缺口。逐键核对四项控制（不可变身份、运营授权、当前运营、有效批准/修订），一项支持性处置需四项控制全部通过；否则保留证据保留并注明缺失控制。
+
+**结果：8 项支持，4 项证据保留**（与授权方案的预期结果一致；`shortcut` 为 UNSUPPORTED_BY_CURRENT_EVIDENCE，`blanket-hold` 为 ADDITIONAL_APPROVAL_REQUIRED，均未执行）。
+
+### 处置登记表（Review Disposition Register，每组合键一行）
+
+| 组合键 | 主题 | 不可变实体 | 修订（引用 → 当前） | 处置 | 缺失控制（如保留） |
+|---|---|---|---|---|---|
+| CBP-061-01 | 敏感数据分类 | ENT-061-1000 | REV-2025.1 → REV-2025.1 | 支持 | — |
+| CBP-061-02 | 通知实践不一致 | ENT-061-1001 | REV-2025.2 → REV-2025.2 | 支持 | — |
+| CBP-061-03 | 保留期限冲突 | ENT-061-1002 | REV-2025.3 → REV-2025.3 | 支持 | — |
+| CBP-061-04 | 风险评估遗漏 | ENT-061-1003 | REV-2025.4 → REV-2025.4 | 支持 | — |
+| CBP-061-05 | 处理目的缺口 | ENT-061-1004 | REV-2025.5 → REV-2025.5 | 支持 | — |
+| CBP-061-06 | 跨境转移缺口 | ENT-061-1005 | REV-2025.6 → REV-2025.6 | 支持 | — |
+| CBP-061-07 | 事件通知时限 | ENT-061-1006 | REV-2025.7 → REV-2025.7 | **证据保留** | 有效批准（负责人待批准且未激活） |
+| CBP-061-08 | 监管承诺逾期 | ENT-061-1007 | REV-2024.0 → REV-2025.1 | **证据保留** | 有效修订（引用已作废 REV-2024.0） |
+| CBP-061-09 | 次处理者清单不一致 | ENT-061-1008 | REV-2025.2 → REV-2025.2 | **证据保留** | 不可变身份（实体冲突） |
+| CBP-061-10 | 身份核验不一致 | ENT-061-1009 | REV-2025.3 → REV-2025.3 | 支持 | — |
+| CBP-061-11 | 培训完成缺口 | ENT-061-1010 | REV-2025.4 → REV-2025.4 | 支持 | — |
+| CBP-061-12 | 处理者合同遗漏 | ENT-061-1011 | REV-2025.5 → REV-2025.5 | **证据保留** | 运营授权（引用与 CBP-061-04 重复） |
+
+### 四项证据保留（含缺失控制与来源锚点）
+
+1. **CBP-061-07 · 事件通知时限** —— 缺失控制：**有效批准**。职责名册标注 Isaac Romero「Status is pending approval and inactive; remaining matter capacity is 0」（`043_notices_consents_source_export.eml`）。待定负责人不能作为批准证明。
+2. **CBP-061-08 · 监管承诺逾期** —— 缺失控制：**有效修订**。运营授权引用 REV-2024.0，而 REV-2025.1 为后效修订（「Operations cites REV-2024.0, but REV-2025.1 is the later effective revision」，`020_vendor_reviews_source_export.csv`）。已作废修订不能作为证明。
+3. **CBP-061-09 · 次处理者清单不一致** —— 缺失控制：**不可变身份**。身份交叉对照将 CBP-061-09 同时关联 ENT-061-1008 与 ENT-061-2008，域与法律实体字段不一致，且无已批准的交叉对照修订可解决冲突（`009_processing_records_source_export.md`）。相近名称不能作为证明。
+4. **CBP-061-12 · 处理者合同遗漏** —— 缺失控制：**运营授权**。其授权引用 R173 与事件引用 E104 与 CBP-061-04 重复（`024_vendor_reviews_source_export.pdf`、`036_consumer_requests_source_export.csv`；对照 `016`、`028`），法律依据无法唯一确立。
+
+### 八项支持处置
+
+CBP-061-01、02、03、04、05、06、10、11。各项四项控制均可核对一致：身份解析为单一实体（「邻近别名已排除」）、运营授权给出明确规范（R 码）、当前运营为已完成/已发生/已回执/已认证或明确识别出的缺口、批准处于 active 且修订为有效（非作废）。
+
+### 持久化状态与结项
+
+- 登记表与复核意见已写入并**回读核验** `arcadia_genomics_review_disposition_register.md`（40 行，含 12 行登记表 + 复核意见，状态已确认持久化）。
+- 仅执行**已授权**的 `scoped-evidence` 结项；`shortcut`（未获当前证据支持）与 `blanket-hold`（需额外批准）未执行。
+- 指定的完成路由为回复 Slack 频道 `C00000061`、线程 `1760000061.000005`（005_data_inventory_source_export.json），不开新顶层帖；本环境无 Slack 工具，故以已提交并核验的登记表与复核意见作为结项记录。
+
+## 数据口径说明
+
+- **判断口径**：本审计的「响应步骤」即 `cb100-061-arcadia-genomics` 下 12 个组合键（CBP-061-01 至 CBP-061-12），每个组合键对应一个隐私/监管主题。「支持」= 四项控制（不可变身份、运营授权、当前运营、有效批准/修订）全部可核对一致；「证据保留」= 至少一项控制缺失或无法核对，并须注明具体缺失控制。8 支持 + 4 保留与授权方案 `scoped-evidence` 声明的结果一致。
+- **数据来源口径**：12 个目录、96 条来源导出记录（CB-DOC-061-001 至 096），按 8 类证据角色分布（identity_crosswalk / operative_authority / current_operations / approval_and_capacity / chronology_and_custody / correspondence / independent_counterrecord / financial_or_population_support），每种角色各 12 条，覆盖 8 种导出格式（md/txt/eml/csv/json/xml/html/pdf），另有 1 份影响人口工作簿 `097_arcadia_genomics_impact_population.xlsx`。
+- **实体与修订口径**：12 个组合键分别映射唯一实体 ENT-061-1000 至 ENT-061-1011（别名 ENT-061-2xxx 为被排除的相近名称）；有效修订为 REV-2025.1 至 REV-2025.7，REV-2024.0 为已作废修订。影响控制评分（37–89）仅为输入，不构成处置结论。
+- **限制口径**：本审计仅就 12 个组合键给出处置，不决定法律效力、不替其他系统解析实体身份、不认定所引修订具有控制力；事项日期为 2026-09-02，未假设任何外部事实。全部记录为合成数据（CounselBench-100），不构成法律意见。

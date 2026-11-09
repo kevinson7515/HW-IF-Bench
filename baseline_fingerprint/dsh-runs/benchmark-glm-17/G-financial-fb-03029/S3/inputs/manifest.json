@@ -1,0 +1,11 @@
+[
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_15/3M_2018_10K.pdf",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1930645/G-financial-fb-03029/S3/inputs/attached_files/task_15/3M_2018_10K.pdf",
+    "mode": 420,
+    "mtime_ns": 1792659523000000000,
+    "type": "file",
+    "size": 1252586,
+    "sha256": "faf10c53fc6f1a8aa346ec3db79145e3ae6fbb3753c8064924e174d0a973934d"
+  }
+]

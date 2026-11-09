@@ -1,0 +1,266 @@
+{
+  "body": "The supporting population for CBP-061-09 was exported under CB-PR-3001-E991. The population uses immutable entity ENT-061-1008 and records impact-control score 58; this score is an input, not a disposition.",
+  "chronology": [
+    {
+      "actor": "Mei Whitaker",
+      "date": "2024-12-15",
+      "event": "native population opened",
+      "reference": "CB-DOC-061-069"
+    },
+    {
+      "actor": "Sofia Bennett",
+      "date": "2024-12-21",
+      "event": "custodian boundary confirmed",
+      "reference": "CBP-061-09"
+    },
+    {
+      "actor": "Amara Patel",
+      "date": "2024-12-27",
+      "event": "export created",
+      "reference": "CB-DOC-061-069"
+    },
+    {
+      "actor": "Farah Ibrahim",
+      "date": "2025-01-02",
+      "event": "cross-system identifier checked",
+      "reference": "CBP-061-09"
+    },
+    {
+      "actor": "Maya Ellison",
+      "date": "2025-01-08",
+      "event": "revision retained",
+      "reference": "CB-DOC-061-069"
+    },
+    {
+      "actor": "Priya Raman",
+      "date": "2025-01-14",
+      "event": "matter copy collected",
+      "reference": "CBP-061-09"
+    }
+  ],
+  "client": "Arcadia Genomics, Inc.",
+  "confidentiality": "Confidential source record",
+  "counterparty": "North Coast Sequencing Network",
+  "current_revision": "REV-2025.2",
+  "custodian": "Henry Cho",
+  "evidence_role": "financial_or_population_support",
+  "immutable_entity_key": "ENT-061-1008",
+  "matter_number": "CB-PR-3001",
+  "matter_title": "Arcadia genomic data response audit",
+  "native_version": "4.5",
+  "portfolio_key": "CBP-061-09",
+  "provenance": "Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.",
+  "record_date": "2025-01-19",
+  "record_id": "CB-DOC-061-069",
+  "referenced_revision": "REV-2025.2",
+  "related_records": [
+    "CB-DOC-061-080",
+    "CB-DOC-061-002",
+    "CB-DOC-061-020",
+    "CB-DOC-061-044"
+  ],
+  "reviewer": "Isaac Romero",
+  "rows": [
+    {
+      "actor": "Mei Whitaker",
+      "effective_date": "2025-07-29",
+      "entity_key": "ENT-061-1008",
+      "line_id": "CBP-061-09-FIN-01",
+      "metric": "$510,494.00",
+      "note": "Financial Or Population Support support row 1 for subprocessor inventory mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "pending"
+    },
+    {
+      "actor": "Isaac Romero",
+      "effective_date": "2025-08-01",
+      "entity_key": "ENT-061-1008",
+      "line_id": "CBP-061-09-FIN-02",
+      "metric": "16%",
+      "note": "Financial Or Population Support support row 2 for subprocessor inventory mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "superseded"
+    },
+    {
+      "actor": "Willa Novak",
+      "effective_date": "2025-08-04",
+      "entity_key": "ENT-061-1008",
+      "line_id": "CBP-061-09-FIN-03",
+      "metric": "16%",
+      "note": "Financial Or Population Support support row 3 for subprocessor inventory mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "recorded"
+    },
+    {
+      "actor": "Henry Cho",
+      "effective_date": "2025-08-07",
+      "entity_key": "ENT-061-1008",
+      "line_id": "CBP-061-09-FIN-04",
+      "metric": "$612,233.00",
+      "note": "Financial Or Population Support support row 4 for subprocessor inventory mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Farah Ibrahim",
+      "effective_date": "2025-08-10",
+      "entity_key": "ENT-061-1008",
+      "line_id": "CBP-061-09-FIN-05",
+      "metric": "1%",
+      "note": "Financial Or Population Support support row 5 for subprocessor inventory mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "pending"
+    },
+    {
+      "actor": "Samuel Kim",
+      "effective_date": "2025-08-13",
+      "entity_key": "ENT-061-1008",
+      "line_id": "CBP-061-09-FIN-06",
+      "metric": "17%",
+      "note": "Financial Or Population Support support row 6 for subprocessor inventory mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "recorded"
+    },
+    {
+      "actor": "Nora Chen",
+      "effective_date": "2025-08-16",
+      "entity_key": "ENT-061-1008",
+      "line_id": "CBP-061-09-FIN-07",
+      "metric": "$858,907.00",
+      "note": "Financial Or Population Support support row 7 for subprocessor inventory mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "superseded"
+    },
+    {
+      "actor": "Elliot Mercer",
+      "effective_date": "2025-08-19",
+      "entity_key": "ENT-061-2008",
+      "line_id": "CBP-061-09-FIN-08",
+      "metric": "6%",
+      "note": "Financial Or Population Support support row 8 for subprocessor inventory mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Mei Whitaker",
+      "effective_date": "2025-08-22",
+      "entity_key": "ENT-061-1008",
+      "line_id": "CBP-061-09-FIN-09",
+      "metric": "2%",
+      "note": "Financial Or Population Support support row 9 for subprocessor inventory mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "recorded"
+    },
+    {
+      "actor": "Isaac Romero",
+      "effective_date": "2025-08-25",
+      "entity_key": "ENT-061-1008",
+      "line_id": "CBP-061-09-FIN-10",
+      "metric": "$104,986.00",
+      "note": "Financial Or Population Support support row 10 for subprocessor inventory mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "pending"
+    },
+    {
+      "actor": "Willa Novak",
+      "effective_date": "2025-08-28",
+      "entity_key": "ENT-061-1008",
+      "line_id": "CBP-061-09-FIN-11",
+      "metric": "11%",
+      "note": "Financial Or Population Support support row 11 for subprocessor inventory mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "recorded"
+    },
+    {
+      "actor": "Henry Cho",
+      "effective_date": "2025-08-31",
+      "entity_key": "ENT-061-1008",
+      "line_id": "CBP-061-09-FIN-12",
+      "metric": "17%",
+      "note": "Financial Or Population Support support row 12 for subprocessor inventory mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "recorded"
+    },
+    {
+      "actor": "Farah Ibrahim",
+      "effective_date": "2025-09-03",
+      "entity_key": "ENT-061-1008",
+      "line_id": "CBP-061-09-FIN-13",
+      "metric": "$152,564.00",
+      "note": "Financial Or Population Support support row 13 for subprocessor inventory mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "recorded"
+    },
+    {
+      "actor": "Samuel Kim",
+      "effective_date": "2025-09-06",
+      "entity_key": "ENT-061-1008",
+      "line_id": "CBP-061-09-FIN-14",
+      "metric": "19%",
+      "note": "Financial Or Population Support support row 14 for subprocessor inventory mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Nora Chen",
+      "effective_date": "2025-09-09",
+      "entity_key": "ENT-061-1008",
+      "line_id": "CBP-061-09-FIN-15",
+      "metric": "11%",
+      "note": "Financial Or Population Support support row 15 for subprocessor inventory mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "superseded"
+    },
+    {
+      "actor": "Elliot Mercer",
+      "effective_date": "2025-09-12",
+      "entity_key": "ENT-061-1008",
+      "line_id": "CBP-061-09-FIN-16",
+      "metric": "$43,506.00",
+      "note": "Financial Or Population Support support row 16 for subprocessor inventory mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "pending"
+    },
+    {
+      "actor": "Mei Whitaker",
+      "effective_date": "2025-09-15",
+      "entity_key": "ENT-061-1008",
+      "line_id": "CBP-061-09-FIN-17",
+      "metric": "23%",
+      "note": "Financial Or Population Support support row 17 for subprocessor inventory mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "recorded"
+    },
+    {
+      "actor": "Isaac Romero",
+      "effective_date": "2025-09-18",
+      "entity_key": "ENT-061-1008",
+      "line_id": "CBP-061-09-FIN-18",
+      "metric": "7%",
+      "note": "Financial Or Population Support support row 18 for subprocessor inventory mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "confirmed"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Source lineage",
+      "text": "BigID deletion log produced native record CB-DOC-061-069 for CB-PR-3001. Henry Cho owns the source population and Isaac Romero recorded the collection review. The export remains separate from later legal analysis."
+    },
+    {
+      "heading": "Business context",
+      "text": "This record concerns subprocessor inventory mismatch within Arcadia genomic data response audit. A consumer access request exposes inconsistencies among genomic-data notices, deletion jobs, vendors, and overseas research transfers. The record addresses one part of the broader question: Join requester identity, genomic data inventory, vendor copies, deletion jobs, and research transfers."
+    },
+    {
+      "heading": "Native record",
+      "text": "The supporting population for CBP-061-09 was exported under CB-PR-3001-E991. The population uses immutable entity ENT-061-1008 and records impact-control score 58; this score is an input, not a disposition."
+    },
+    {
+      "heading": "Reliance limits",
+      "text": "This file supplies financial or population support evidence for CBP-061-09. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling."
+    }
+  ],
+  "source_path": "/workspace/documents/09_training/069_training_source_export.json",
+  "source_system": "BigID deletion log",
+  "subject": "subprocessor inventory mismatch"
+}

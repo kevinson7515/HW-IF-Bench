@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<counsel-source-record schema-version="3.1">
+  <record-id>CB-DOC-001-030</record-id>
+  <matter-number>CB-MA-2401</matter-number>
+  <portfolio-key>CBP-001-06</portfolio-key>
+  <source-system>Workday HRIS</source-system>
+  <evidence-role>current_operations</evidence-role>
+  <immutable-entity-key>ENT-001-1005</immutable-entity-key>
+  <referenced-revision>REV-2025.6</referenced-revision>
+  <current-revision>REV-2025.6</current-revision>
+  <native-record>For immutable entity ENT-001-1005.
+the unreported security incident approval names Theo Laurent under CB-MA-2401-E311. The operating extract cites revision REV-2025.6 and portfolio key CBP-001-06; it does not state a legal disposition.</native-record>
+  <analysis>
+    <section heading="Source lineage">Workday HRIS produced native record CB-DOC-001-030 for CB-MA-2401. Willa Novak owns the source population and Willa Novak recorded the collection review. The export remains separate from later legal analysis.</section>
+    <section heading="Business context">This record concerns unreported security incident within Project Daybreak battery acquisition. A carve-out manufacturer owns cathode tooling in Nevada while its largest automaker customer can terminate upon an indirect change of control. The record addresses one part of the broader question: Match the cathode-tooling records and automaker consent history to the exact acquired entity.</section>
+    <section heading="Native record">For immutable entity ENT-001-1005.
+the unreported security incident approval names Theo Laurent under CB-MA-2401-E311. The operating extract cites revision REV-2025.6 and portfolio key CBP-001-06; it does not state a legal disposition.</section>
+    <section heading="Reliance limits">This file supplies current operations evidence for CBP-001-06. It does not decide legal effect, select among candidate responses, resolve another system&#x27;s entity identity, or establish that its cited revision is controlling.</section>
+  </analysis>
+  <supporting-rows>
+    <row id="CBP-001-06-CUR-01" date="2025-02-05" entity="ENT-001-1005" revision="REV-2025.6" actor="Elliot Mercer" status="confirmed" metric="$468,025.00">Current Operations support row 1 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.</row>
+    <row id="CBP-001-06-CUR-02" date="2025-02-08" entity="ENT-001-1005" revision="REV-2025.6" actor="Mei Whitaker" status="confirmed" metric="4%">Current Operations support row 2 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.</row>
+    <row id="CBP-001-06-CUR-03" date="2025-02-11" entity="ENT-001-1005" revision="REV-2025.6" actor="Isaac Romero" status="recorded" metric="18%">Current Operations support row 3 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.</row>
+    <row id="CBP-001-06-CUR-04" date="2025-02-14" entity="ENT-001-1005" revision="REV-2025.6" actor="Willa Novak" status="recorded" metric="$655,664.00">Current Operations support row 4 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.</row>
+    <row id="CBP-001-06-CUR-05" date="2025-02-17" entity="ENT-001-1005" revision="REV-2025.6" actor="Henry Cho" status="confirmed" metric="8%">Current Operations support row 5 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.</row>
+    <row id="CBP-001-06-CUR-06" date="2025-02-20" entity="ENT-001-1005" revision="REV-2025.6" actor="Farah Ibrahim" status="pending" metric="4%">Current Operations support row 6 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.</row>
+    <row id="CBP-001-06-CUR-07" date="2025-02-23" entity="ENT-001-1005" revision="REV-2025.6" actor="Samuel Kim" status="pending" metric="$744,874.00">Current Operations support row 7 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.</row>
+    <row id="CBP-001-06-CUR-08" date="2025-02-26" entity="ENT-001-2005" revision="REV-2025.6" actor="Nora Chen" status="confirmed" metric="16%">Current Operations support row 8 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.</row>
+    <row id="CBP-001-06-CUR-09" date="2025-03-01" entity="ENT-001-1005" revision="REV-2025.6" actor="Elliot Mercer" status="recorded" metric="21%">Current Operations support row 9 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.</row>
+    <row id="CBP-001-06-CUR-10" date="2025-03-04" entity="ENT-001-1005" revision="REV-2025.6" actor="Mei Whitaker" status="confirmed" metric="$882,453.00">Current Operations support row 10 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.</row>
+    <row id="CBP-001-06-CUR-11" date="2025-03-07" entity="ENT-001-1005" revision="REV-2025.6" actor="Isaac Romero" status="confirmed" metric="20%">Current Operations support row 11 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.</row>
+    <row id="CBP-001-06-CUR-12" date="2025-03-10" entity="ENT-001-1005" revision="REV-2025.6" actor="Willa Novak" status="confirmed" metric="21%">Current Operations support row 12 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.</row>
+    <row id="CBP-001-06-CUR-13" date="2025-03-13" entity="ENT-001-1005" revision="REV-2025.6" actor="Henry Cho" status="confirmed" metric="$614,673.00">Current Operations support row 13 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.</row>
+    <row id="CBP-001-06-CUR-14" date="2025-03-16" entity="ENT-001-1005" revision="REV-2025.6" actor="Farah Ibrahim" status="recorded" metric="7%">Current Operations support row 14 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.</row>
+    <row id="CBP-001-06-CUR-15" date="2025-03-19" entity="ENT-001-1005" revision="REV-2025.6" actor="Samuel Kim" status="superseded" metric="10%">Current Operations support row 15 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.</row>
+    <row id="CBP-001-06-CUR-16" date="2025-03-22" entity="ENT-001-1005" revision="REV-2025.6" actor="Nora Chen" status="confirmed" metric="$333,973.00">Current Operations support row 16 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.</row>
+    <row id="CBP-001-06-CUR-17" date="2025-03-25" entity="ENT-001-1005" revision="REV-2025.6" actor="Elliot Mercer" status="superseded" metric="17%">Current Operations support row 17 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.</row>
+    <row id="CBP-001-06-CUR-18" date="2025-03-28" entity="ENT-001-1005" revision="REV-2025.6" actor="Mei Whitaker" status="recorded" metric="6%">Current Operations support row 18 for unreported security incident; retained from the native system so the reviewer can distinguish the exact CBP-001-06 population from similarly named records.</row>
+  </supporting-rows>
+  <chronology>
+    <event date="2025-03-31" actor="Elliot Mercer" reference="CB-DOC-001-030">native population opened</event>
+    <event date="2025-04-06" actor="Caleb Hassan" reference="CBP-001-06">custodian boundary confirmed</event>
+    <event date="2025-04-12" actor="Adrian Mensah" reference="CB-DOC-001-030">export created</event>
+    <event date="2025-04-18" actor="Henry Cho" reference="CBP-001-06">cross-system identifier checked</event>
+    <event date="2025-04-24" actor="Owen Delgado" reference="CB-DOC-001-030">revision retained</event>
+    <event date="2025-04-30" actor="Rafael Okafor" reference="CBP-001-06">matter copy collected</event>
+  </chronology>
+  <provenance>Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.</provenance>
+</counsel-source-record>

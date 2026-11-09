@@ -1,0 +1,29 @@
+{
+  "line": 16,
+  "id": 33,
+  "user_query": "请核对附件中 Adobe 2021 和 2022 财年的研发费用及同比增速，标明报表页码和计量单位。",
+  "effective_query": "请核对附件中 Adobe 2021 和 2022 财年的研发费用及同比增速，标明报表页码和计量单位。\n\nAttached files are available at the following paths. Read them as needed:\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_33/ADOBE_2021_10K.pdf\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_33/ADOBE_2022_10K.pdf",
+  "attached_files": [
+    "attached_files/task_33/ADOBE_2021_10K.pdf",
+    "attached_files/task_33/ADOBE_2022_10K.pdf"
+  ],
+  "resolved_attached_files": [
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_33/ADOBE_2021_10K.pdf",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_33/ADOBE_2022_10K.pdf"
+  ],
+  "archived_attachments": [
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_33/ADOBE_2021_10K.pdf",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000016-33/inputs/attached_files/task_33/ADOBE_2021_10K.pdf",
+      "size": 633302,
+      "sha256": "c8b1340273afaceab32d238860651bd1b3c1716639a7abf7fb6eecc47b423b16"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_33/ADOBE_2022_10K.pdf",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000016-33/inputs/attached_files/task_33/ADOBE_2022_10K.pdf",
+      "size": 620288,
+      "sha256": "ce8c716abac26bfa38ae6b71d703112852c8591a4bb19f7c1177beb1dfc87ad2"
+    }
+  ],
+  "started_at": "2026-11-06T09:21:50.602401+00:00"
+}

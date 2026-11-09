@@ -1,0 +1,49 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "regular-file size and nanosecond mtime before and after the task",
+  "created": [
+    "attached_files/task_20/patch.diff",
+    "attached_files/task_20/repository/changelog/7981.bugfix.rst",
+    "attached_files/task_20/repository/src/_pytest/pathlib.py",
+    "attached_files/task_20/repository/testing/test_collection.py"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "attached_files/task_20/patch.diff",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000003-20/artifacts/attached_files/task_20/patch.diff",
+      "change": "created",
+      "size": 1767,
+      "sha256": "e6355a0a7719e923041083e33e56e1fa23dd9e29ef8f6e11ca1266436bc34dbb"
+    },
+    {
+      "path": "attached_files/task_20/repository/changelog/7981.bugfix.rst",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000003-20/artifacts/attached_files/task_20/repository/changelog/7981.bugfix.rst",
+      "change": "created",
+      "size": 93,
+      "sha256": "7f4879539d6417a33a1818e3d48d61b8460aed45a4689ed719c61857252a15cc"
+    },
+    {
+      "path": "attached_files/task_20/repository/src/_pytest/pathlib.py",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000003-20/artifacts/attached_files/task_20/repository/src/_pytest/pathlib.py",
+      "change": "created",
+      "size": 20125,
+      "sha256": "b848ab55125cb88f1214aeb012ffd142fc51ff4df4df30bbd34a6b105840a957"
+    },
+    {
+      "path": "attached_files/task_20/repository/testing/test_collection.py",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000003-20/artifacts/attached_files/task_20/repository/testing/test_collection.py",
+      "change": "created",
+      "size": 48339,
+      "sha256": "76c2211157264953a8e79e37d82a652faacaefe1376f2f39c4c999390335508a"
+    }
+  ],
+  "skipped": [],
+  "errors": [],
+  "limits": {
+    "max_file_bytes": 104857600,
+    "max_total_bytes": 1073741824
+  }
+}

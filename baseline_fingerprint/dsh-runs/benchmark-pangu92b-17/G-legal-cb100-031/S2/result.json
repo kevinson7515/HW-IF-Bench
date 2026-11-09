@@ -1,0 +1,28 @@
+{
+  "group_id": "G-legal-cb100-031",
+  "variant_id": "S2",
+  "task_id": 10,
+  "provider": "pangu92b",
+  "status": "failed",
+  "exit_code": 1,
+  "started_at": "2026-10-25T03:43:43.553952+00:00",
+  "finished_at": "2026-10-25T04:19:56.735642+00:00",
+  "duration_seconds": 2173.182,
+  "execution_duration_seconds": 1812.53,
+  "recording_duration_seconds": 236.837,
+  "system_prompt_sha256": "3aa8467dd50ad2a7a3936b6bcf22f08c4c25992439a20697160bed62e5015459",
+  "task_dir": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-legal-cb100-031/S2",
+  "recording_status": "complete",
+  "workspace_restore_status": "complete",
+  "signal": null,
+  "session_id": "session-1a885098-854c-421b-8921-85966ebbac1d",
+  "final_event_seen": true,
+  "parse_errors": [],
+  "tool_calls": 130,
+  "tool_errors": 29,
+  "steps": 22,
+  "turn_end_reason": {
+    "kind": "max-tokens"
+  },
+  "restore_duration_seconds": 123.814
+}

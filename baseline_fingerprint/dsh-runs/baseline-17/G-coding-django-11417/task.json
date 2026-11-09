@@ -1,0 +1,29 @@
+{
+  "line": 3,
+  "id": 3,
+  "user_query": "更新 django.core.mail.message.sanitize_address，使用现代标准库 email.headerregistry 解析邮箱地址；正确支持显示名、国际化域名和需要编码的本地部分，并对无法完整解析的非法地址抛出 ValueError。",
+  "effective_query": "更新 django.core.mail.message.sanitize_address，使用现代标准库 email.headerregistry 解析邮箱地址；正确支持显示名、国际化域名和需要编码的本地部分，并对无法完整解析的非法地址抛出 ValueError。\n\nAttached files are available at the following paths. Read them as needed:\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_3/django/core/mail/message.py\n- /online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_3/tests/mail/tests.py",
+  "attached_files": [
+    "attached_files/task_3/django/core/mail/message.py",
+    "attached_files/task_3/tests/mail/tests.py"
+  ],
+  "resolved_attached_files": [
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_3/django/core/mail/message.py",
+    "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_3/tests/mail/tests.py"
+  ],
+  "archived_attachments": [
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_3/django/core/mail/message.py",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1853564/000003-3/inputs/attached_files/task_3/django/core/mail/message.py",
+      "size": 16707,
+      "sha256": "4e7a2712d06dde59d2a345734922b5f68eab39c47dd922115e788e77f92bd79d"
+    },
+    {
+      "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_3/tests/mail/tests.py",
+      "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1853564/000003-3/inputs/attached_files/task_3/tests/mail/tests.py",
+      "size": 68357,
+      "sha256": "97367d92e2936c811335e56bebd310b0c896c8311e7e77fee1301041890772b0"
+    }
+  ],
+  "started_at": "2026-10-18T10:04:47.416829+00:00"
+}

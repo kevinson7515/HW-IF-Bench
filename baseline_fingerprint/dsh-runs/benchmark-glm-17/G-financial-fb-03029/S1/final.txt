@@ -1,0 +1,15 @@
+**3M's FY2018 capital expenditure was $1,577 million** (reported as an outflow of $(1,577) million).
+
+**Details from the cash flow statement** (3M Company and Subsidiaries, Consolidated Statement of Cash Flows, 2018 Form 10-K):
+
+Under "Cash Flows from Investing Activities," the capital expenditure line reads:
+
+| Line item (Millions) | 2018 | 2017 | 2016 |
+|---|---|---|---|
+| Purchases of property, plant and equipment (PP&E) | $(1,577) | $(1,373) | $(1,420) |
+
+The figure is corroborated elsewhere in the same filing:
+- The MD&A investing-activities table shows the same $(1,577) million for 2018.
+- The Free Cash Flow (non-GAAP) reconciliation ties out: $6,439M operating cash flow − $1,577M PP&E purchases = $4,862M free cash flow.
+
+The answer has been delivered to `output/task_15_3M_FY2018_capital_expenditure.md`.

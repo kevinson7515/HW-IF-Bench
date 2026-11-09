@@ -1,0 +1,13 @@
+Both deliverables are committed and the changed provider records have been re-opened and confirmed (001, 013, 014, 018, 020, 023, 024, 025, 030, 035, 036, 040, 047, 048, 049, 053, 054, 055, 059, 060, 069, 089, 093, 095, 096 — all read directly this session or verified by targeted grep). The register shows 8 ACT / 4 HOLD, matching the scoped-evidence outcome exactly, and the note documents the Slack completion route per the Aurora precedent. Delivering the deal-team answer:
+
+**Daybreak (CB-MA-2401): signing proceeds on helios-forge:scoped-evidence — 8 supported actions, 4 holds, latest 2026-09-03.**
+
+Supported: closing conditions — permit transfer (-03), rev-rec (-04), MFC 18% vs 13% (-05), copyleft (-09), Delaware tax nexus vs Washoe-County authority (-10); Laurent approval (-06); disclosures: covenant 13% vs 7% (-02), late tail 09-02 vs 08-05 (-07).
+
+Holds: automaker consent (-11) — closing condition per R473 (Talia Brooks), held on E439/R473 conflict and owner Alvarez (pending, cap 0); anti-assignment (-08): E111/REV-2024.0 (Flores) vs R293 (Delgado); identity (-01) — ENT-001-1000/2000 collision, foundational for the tooling/consent entity match; invention assignment (-12) — Novak E278 vs Hassan R433.
+
+Rejected: shortcut ($0, unsupported); blanket-hold ($26k, to 09-07). Register + note in daybreak-battery-acquisition/; Slack C00000001/1760000001.000005; records re-opened.
+
+## Reliance limits
+
+Synthetic CounselBench-100 data; fictitious entities; not legal advice. Records don't decide legal effect or identity, select responses, or fix controlling revisions; dispositions rest on the four-control test. As of 2026-09-04; no external facts assumed.

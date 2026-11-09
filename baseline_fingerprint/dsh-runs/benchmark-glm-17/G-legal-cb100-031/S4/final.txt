@@ -1,0 +1,11 @@
+Both deliverables are committed and verified. The protocol's completion route (Slack `C00000031` / thread `1760000031.000005`) is recorded in the note; with no Slack tool in this session, the committed register and note are the close-the-loop record.
+
+**Position** (full record: `output/review_disposition_register.md`, `output/review_note.md`)
+
+**Aurora cannot certify the MDL production matter-wide now.** Selected `scoped-evidence` (AUTHORIZED): 6 supported actions, 6 evidence holds, done by 2026-09-03.
+
+**Can do now (supported, gap disclosed):** k2 separation 14% vs 11% threshold; k4 cured (done 11-25 < due 11-27); k6 125/148 covered; k7 40/78; k8 wrong legal-hold address; k9 clawback ~6 weeks late. Owners: Brooks, Ibrahim, Park, Cho, Ellison, Feld.
+
+**Must wait:** k1 owner Kim pending/inactive + 180/215 covered; k3 entity collision, R694 blocks; k5 owner Alvarez pending/inactive, R821 blocks; k10 stale REV-2024.2 vs current 2025.3; k11 entity collision, 61/98; k12 R908 blocks (privilege challenge).
+
+**Evidence that changes it:** approved crosswalks (k3, k11); owner approval activation (k1, k5); re-cite REV-2025.3 plus proof of redelivery (k10); privilege resolution closing E253 (k12); population reconciliation or court order on shortfalls.

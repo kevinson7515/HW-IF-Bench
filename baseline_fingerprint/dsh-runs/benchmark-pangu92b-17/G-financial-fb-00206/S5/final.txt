@@ -1,0 +1,16 @@
+No — gross margin is **not a relevant metric** for JPMorgan Chase, so the "historically consistent within ~2%" framing doesn't apply.
+
+**Why:** Gross margin = revenue − cost of goods sold. JPMorgan is a bank, not a manufacturer/retailer, so it has **no cost of goods sold**. Its income statement (2022 10-K, p. 159) contains no COGS line; instead it flows:
+
+- Noninterest revenue + Net interest income = Total net revenue
+- Provision for credit losses
+- Noninterest expense (compensation, occupancy, technology, etc.)
+- Income before tax → Net income
+
+Its "products" are financial intermediation (loans, deposits, trading, fees), so the relevant profitability measures are different:
+
+- Net interest margin / net yield on interest-earning assets (e.g., 2.00% managed basis in 2022)
+- Overhead ratio (noninterest expense ÷ total net revenue; 59%, 59%, 56% for 2022–2020)
+- ROE / ROTCE (14%/18% in 2022)
+
+These are the metrics JPMorgan actually discloses and manages to — not gross margin.

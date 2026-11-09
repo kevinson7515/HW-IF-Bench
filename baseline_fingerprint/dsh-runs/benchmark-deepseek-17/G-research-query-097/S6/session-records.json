@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "session_id": "session-1500a9d1-cded-4f63-90a7-739cd9621851",
+  "source": "/online1/ycsc_chenkh/hitici_07/.dsh/sessions/--online1-ycsc_chenkh-hitici_07-deepseek-harness--/session-1500a9d1-cded-4f63-90a7-739cd9621851",
+  "copied": [
+    {
+      "path": "session.lock",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1890615/G-research-query-097/S6/session-records/session.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "session.v4.jsonl.zstd",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-deepseek-1890615/G-research-query-097/S6/session-records/session.v4.jsonl.zstd",
+      "size": 144726,
+      "sha256": "ddfa77a3b467cca5a5030a24c596f9d72e29c9499d0dec3a8c48f308b1941137"
+    }
+  ]
+}

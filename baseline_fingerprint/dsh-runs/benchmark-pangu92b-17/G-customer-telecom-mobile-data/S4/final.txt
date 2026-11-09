@@ -1,0 +1,24 @@
+I've completed the troubleshooting and produced a resolution record. Here's a summary of what I did and found for you, John.
+
+## Resolution Summary
+
+**Customer identified:** John Smith — 555-123-2002 (located in France, roaming).
+
+**Root cause analysis (following the support workflow):**
+
+1. **No Service** — Since you're abroad (France), the most likely cause is that **international roaming was not enabled on your line**. Per policy, enabling roaming for travelers is free. I've enabled it on your line.
+
+2. **Mobile Data Unavailable** — Even with line roaming on, your phone's own **Data Roaming toggle** may be off. You'll need to turn it ON in your phone settings, and confirm Mobile Data is enabled.
+
+3. **Speed not Excellent** — After restoring connectivity, if speed is still below excellent, I'd guide you through: turning off Data Saver, switching network preference to `4G/5G preferred`, and disconnecting any active VPN.
+
+4. **Data limit** — You offered to add 2GB without changing your plan. I've applied a **2GB data refuel** to your line (per your plan's refueling rate), so you won't be cut off if you've exceeded your monthly allowance.
+
+**Actions taken:**
+- ✅ Enabled line roaming (free of charge)
+- ✅ Added 2GB data refuel (no plan change)
+- ✅ No transfer to human agent required
+
+**Next step for you:** Reboot your device, then confirm service returns and run a speed test. If it's still not "excellent," we'll run the remaining optimization steps (Data Saver → network mode → VPN).
+
+The full record is saved at `output/resolution_summary.md`.

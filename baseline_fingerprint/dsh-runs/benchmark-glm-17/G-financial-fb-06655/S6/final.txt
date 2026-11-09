@@ -1,0 +1,20 @@
+## Answer: Amazon's FY2017 DPO ≈ **93.86 days**
+
+All figures are taken directly from the attached FY2017 10-K (in $ millions):
+
+**From the Consolidated Balance Sheets (Dec 31, 2016 and 2017):**
+| Line item | FY2016 | FY2017 |
+|---|---|---|
+| Accounts payable | $25,309 | $34,616 |
+| Inventories | $11,461 | $16,047 |
+
+**From the Consolidated Statements of Operations (Year Ended Dec 31, 2017):**
+- Cost of sales (FY2017): $111,934
+
+**Calculation:**
+1. Average accounts payable = (25,309 + 34,616) / 2 = **$29,962.5**
+2. Change in inventory = 16,047 − 11,461 = **$4,586**
+3. Adjusted purchases denominator = COGS + Δinventory = 111,934 + 4,586 = **$116,520**
+4. DPO = 365 × 29,962.5 / 116,520 = **93.86 days** (93.8578 unrounded)
+
+This indicates Amazon took roughly 94 days on average to pay its suppliers in FY2017 — a notably long payables cycle that reflects Amazon's negotiating leverage with vendors, effectively using supplier financing to fund its operations.

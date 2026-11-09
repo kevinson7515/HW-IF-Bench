@@ -1,0 +1,266 @@
+{
+  "body": "The current responsibility roster names Samuel Kim for CBP-031-01. Status is pending approval and inactive; remaining matter capacity is 0. The next internal control date is 2026-09-04.",
+  "chronology": [
+    {
+      "actor": "Nadine Flores",
+      "date": "2025-04-11",
+      "event": "native population opened",
+      "reference": "CB-DOC-031-037"
+    },
+    {
+      "actor": "Lena Varga",
+      "date": "2025-04-17",
+      "event": "custodian boundary confirmed",
+      "reference": "CBP-031-01"
+    },
+    {
+      "actor": "Nora Chen",
+      "date": "2025-04-23",
+      "event": "export created",
+      "reference": "CB-DOC-031-037"
+    },
+    {
+      "actor": "Talia Brooks",
+      "date": "2025-04-29",
+      "event": "cross-system identifier checked",
+      "reference": "CBP-031-01"
+    },
+    {
+      "actor": "Leona Park",
+      "date": "2025-05-05",
+      "event": "revision retained",
+      "reference": "CB-DOC-031-037"
+    },
+    {
+      "actor": "Willa Novak",
+      "date": "2025-05-11",
+      "event": "matter copy collected",
+      "reference": "CBP-031-01"
+    }
+  ],
+  "client": "Aurora Home Supply Co.",
+  "confidentiality": "Attorney work product",
+  "counterparty": "In re Residential Fixture Pricing",
+  "current_revision": "REV-2025.1",
+  "custodian": "Dominic Alvarez",
+  "evidence_role": "approval_and_capacity",
+  "immutable_entity_key": "ENT-031-1000",
+  "matter_number": "CB-LD-2701",
+  "matter_title": "Aurora pricing MDL discovery audit",
+  "native_version": "1.2",
+  "portfolio_key": "CBP-031-01",
+  "provenance": "Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.",
+  "record_date": "2025-05-16",
+  "record_id": "CB-DOC-031-037",
+  "referenced_revision": "REV-2025.1",
+  "related_records": [
+    "CB-DOC-031-048",
+    "CB-DOC-031-066",
+    "CB-DOC-031-084",
+    "CB-DOC-031-012"
+  ],
+  "reviewer": "Owen Delgado",
+  "rows": [
+    {
+      "actor": "Nadine Flores",
+      "effective_date": "2024-11-11",
+      "entity_key": "ENT-031-1000",
+      "line_id": "CBP-031-01-APP-01",
+      "metric": "$588,820.00",
+      "note": "Approval And Capacity support row 1 for Bates-range overlap; retained from the native system so the reviewer can distinguish the exact CBP-031-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "recorded"
+    },
+    {
+      "actor": "Owen Delgado",
+      "effective_date": "2024-11-14",
+      "entity_key": "ENT-031-1000",
+      "line_id": "CBP-031-01-APP-02",
+      "metric": "13%",
+      "note": "Approval And Capacity support row 2 for Bates-range overlap; retained from the native system so the reviewer can distinguish the exact CBP-031-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "superseded"
+    },
+    {
+      "actor": "Maya Ellison",
+      "effective_date": "2024-11-17",
+      "entity_key": "ENT-031-1000",
+      "line_id": "CBP-031-01-APP-03",
+      "metric": "16%",
+      "note": "Approval And Capacity support row 3 for Bates-range overlap; retained from the native system so the reviewer can distinguish the exact CBP-031-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "superseded"
+    },
+    {
+      "actor": "Dominic Alvarez",
+      "effective_date": "2024-11-20",
+      "entity_key": "ENT-031-1000",
+      "line_id": "CBP-031-01-APP-04",
+      "metric": "$520,322.00",
+      "note": "Approval And Capacity support row 4 for Bates-range overlap; retained from the native system so the reviewer can distinguish the exact CBP-031-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "pending"
+    },
+    {
+      "actor": "Talia Brooks",
+      "effective_date": "2024-11-23",
+      "entity_key": "ENT-031-1000",
+      "line_id": "CBP-031-01-APP-05",
+      "metric": "26%",
+      "note": "Approval And Capacity support row 5 for Bates-range overlap; retained from the native system so the reviewer can distinguish the exact CBP-031-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Caleb Hassan",
+      "effective_date": "2024-11-26",
+      "entity_key": "ENT-031-1000",
+      "line_id": "CBP-031-01-APP-06",
+      "metric": "14%",
+      "note": "Approval And Capacity support row 6 for Bates-range overlap; retained from the native system so the reviewer can distinguish the exact CBP-031-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Sofia Bennett",
+      "effective_date": "2024-11-29",
+      "entity_key": "ENT-031-1000",
+      "line_id": "CBP-031-01-APP-07",
+      "metric": "$490,403.00",
+      "note": "Approval And Capacity support row 7 for Bates-range overlap; retained from the native system so the reviewer can distinguish the exact CBP-031-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "superseded"
+    },
+    {
+      "actor": "Theo Laurent",
+      "effective_date": "2024-12-02",
+      "entity_key": "ENT-031-2000",
+      "line_id": "CBP-031-01-APP-08",
+      "metric": "23%",
+      "note": "Approval And Capacity support row 8 for Bates-range overlap; retained from the native system so the reviewer can distinguish the exact CBP-031-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Nadine Flores",
+      "effective_date": "2024-12-05",
+      "entity_key": "ENT-031-1000",
+      "line_id": "CBP-031-01-APP-09",
+      "metric": "16%",
+      "note": "Approval And Capacity support row 9 for Bates-range overlap; retained from the native system so the reviewer can distinguish the exact CBP-031-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "superseded"
+    },
+    {
+      "actor": "Owen Delgado",
+      "effective_date": "2024-12-08",
+      "entity_key": "ENT-031-1000",
+      "line_id": "CBP-031-01-APP-10",
+      "metric": "$577,533.00",
+      "note": "Approval And Capacity support row 10 for Bates-range overlap; retained from the native system so the reviewer can distinguish the exact CBP-031-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Maya Ellison",
+      "effective_date": "2024-12-11",
+      "entity_key": "ENT-031-1000",
+      "line_id": "CBP-031-01-APP-11",
+      "metric": "3%",
+      "note": "Approval And Capacity support row 11 for Bates-range overlap; retained from the native system so the reviewer can distinguish the exact CBP-031-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Dominic Alvarez",
+      "effective_date": "2024-12-14",
+      "entity_key": "ENT-031-1000",
+      "line_id": "CBP-031-01-APP-12",
+      "metric": "15%",
+      "note": "Approval And Capacity support row 12 for Bates-range overlap; retained from the native system so the reviewer can distinguish the exact CBP-031-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "recorded"
+    },
+    {
+      "actor": "Talia Brooks",
+      "effective_date": "2024-12-17",
+      "entity_key": "ENT-031-1000",
+      "line_id": "CBP-031-01-APP-13",
+      "metric": "$185,645.00",
+      "note": "Approval And Capacity support row 13 for Bates-range overlap; retained from the native system so the reviewer can distinguish the exact CBP-031-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Caleb Hassan",
+      "effective_date": "2024-12-20",
+      "entity_key": "ENT-031-1000",
+      "line_id": "CBP-031-01-APP-14",
+      "metric": "20%",
+      "note": "Approval And Capacity support row 14 for Bates-range overlap; retained from the native system so the reviewer can distinguish the exact CBP-031-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "pending"
+    },
+    {
+      "actor": "Sofia Bennett",
+      "effective_date": "2024-12-23",
+      "entity_key": "ENT-031-1000",
+      "line_id": "CBP-031-01-APP-15",
+      "metric": "27%",
+      "note": "Approval And Capacity support row 15 for Bates-range overlap; retained from the native system so the reviewer can distinguish the exact CBP-031-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "superseded"
+    },
+    {
+      "actor": "Theo Laurent",
+      "effective_date": "2024-12-26",
+      "entity_key": "ENT-031-1000",
+      "line_id": "CBP-031-01-APP-16",
+      "metric": "$920,494.00",
+      "note": "Approval And Capacity support row 16 for Bates-range overlap; retained from the native system so the reviewer can distinguish the exact CBP-031-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "pending"
+    },
+    {
+      "actor": "Nadine Flores",
+      "effective_date": "2024-12-29",
+      "entity_key": "ENT-031-1000",
+      "line_id": "CBP-031-01-APP-17",
+      "metric": "26%",
+      "note": "Approval And Capacity support row 17 for Bates-range overlap; retained from the native system so the reviewer can distinguish the exact CBP-031-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Owen Delgado",
+      "effective_date": "2025-01-01",
+      "entity_key": "ENT-031-1000",
+      "line_id": "CBP-031-01-APP-18",
+      "metric": "6%",
+      "note": "Approval And Capacity support row 18 for Bates-range overlap; retained from the native system so the reviewer can distinguish the exact CBP-031-01 population from similarly named records.",
+      "revision": "REV-2025.1",
+      "status": "confirmed"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Source lineage",
+      "text": "Relativity workspace produced native record CB-DOC-031-037 for CB-LD-2701. Dominic Alvarez owns the source population and Owen Delgado recorded the collection review. The export remains separate from later legal analysis."
+    },
+    {
+      "heading": "Business context",
+      "text": "This record concerns Bates-range overlap within Aurora pricing MDL discovery audit. A multidistrict antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian scope, mobile collections, Bates families, and privilege challenges against court requirements."
+    },
+    {
+      "heading": "Native record",
+      "text": "The current responsibility roster names Samuel Kim for CBP-031-01. Status is pending approval and inactive; remaining matter capacity is 0. The next internal control date is 2026-09-04."
+    },
+    {
+      "heading": "Reliance limits",
+      "text": "This file supplies approval and capacity evidence for CBP-031-01. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling."
+    }
+  ],
+  "source_path": "/workspace/documents/05_email_families/037_email_families_source_export.json",
+  "source_system": "Relativity workspace",
+  "subject": "Bates-range overlap"
+}

@@ -1,0 +1,28 @@
+{
+  "group_id": "G-coding-parser-000",
+  "variant_id": "S4",
+  "task_id": 23,
+  "provider": "company-glm",
+  "status": "succeeded",
+  "exit_code": 0,
+  "started_at": "2026-11-03T10:18:05.806271+00:00",
+  "finished_at": "2026-11-03T10:30:36.683242+00:00",
+  "duration_seconds": 750.877,
+  "execution_duration_seconds": 396.171,
+  "recording_duration_seconds": 220.272,
+  "system_prompt_sha256": "4b199fecd4f3e4c7c21a94813ef95da9f13b0cc8ad62a961261660bf03a557d8",
+  "task_dir": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1937700/G-coding-parser-000/S4",
+  "recording_status": "complete",
+  "workspace_restore_status": "complete",
+  "signal": null,
+  "session_id": "session-372d5fbc-31ef-40db-a804-6ae87a59f51d",
+  "final_event_seen": true,
+  "parse_errors": [],
+  "tool_calls": 9,
+  "tool_errors": 1,
+  "steps": 10,
+  "turn_end_reason": {
+    "kind": "completed"
+  },
+  "restore_duration_seconds": 134.434
+}

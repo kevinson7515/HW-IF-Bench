@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "matter_closeout_CB-MA-2401_Daybreak.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "matter_closeout_CB-MA-2401_Daybreak.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-legal-cb100-001/S5/artifacts/matter_closeout_CB-MA-2401_Daybreak.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1792892553000000000,
+      "type": "file",
+      "size": 4751,
+      "sha256": "12e2709b0281800f641c3686976b611e4675513b2064c8aeb2f508132fc4242a"
+    }
+  ],
+  "entries": {
+    "matter_closeout_CB-MA-2401_Daybreak.md": {
+      "mode": 384,
+      "mtime_ns": 1792892553000000000,
+      "type": "file",
+      "size": 4751,
+      "sha256": "12e2709b0281800f641c3686976b611e4675513b2064c8aeb2f508132fc4242a"
+    }
+  },
+  "deleted_entries": {}
+}

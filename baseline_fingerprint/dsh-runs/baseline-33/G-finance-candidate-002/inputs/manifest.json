@@ -1,0 +1,14 @@
+[
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_33/ADOBE_2021_10K.pdf",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000016-33/inputs/attached_files/task_33/ADOBE_2021_10K.pdf",
+    "size": 633302,
+    "sha256": "c8b1340273afaceab32d238860651bd1b3c1716639a7abf7fb6eecc47b423b16"
+  },
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_33/ADOBE_2022_10K.pdf",
+    "copy": "/home/export/base/ycsc_chenkh/hitici_07/online1/dsh-runs/user_query-1950311/000016-33/inputs/attached_files/task_33/ADOBE_2022_10K.pdf",
+    "size": 620288,
+    "sha256": "ce8c716abac26bfa38ae6b71d703112852c8591a4bb19f7c1177beb1dfc87ad2"
+  }
+]

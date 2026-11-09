@@ -1,0 +1,152 @@
+{
+  "status": "complete",
+  "scope": "/online1/ycsc_chenkh/hitici_07/deepseek-harness",
+  "detection": "file bytes, permissions, entry types, and symbolic-link targets",
+  "created": [
+    "task_10_workspace",
+    "task_10_workspace/_analysis",
+    "task_10_workspace/_analysis/four_control_grid.txt",
+    "task_10_workspace/_analysis/pdf_text.txt",
+    "task_10_workspace/_analysis/source_digest.txt",
+    "task_10_workspace/_analysis/xlsx_population.txt",
+    "task_10_workspace/review_disposition_register.md",
+    "task_10_workspace/review_note.md",
+    "task_10_workspace/slack_reply_C00000031_thread_1760000031.000005.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "copied": [
+    {
+      "path": "task_10_workspace/_analysis/four_control_grid.txt",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-031/S2/artifacts/task_10_workspace/_analysis/four_control_grid.txt",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793076235000000000,
+      "type": "file",
+      "size": 22081,
+      "sha256": "713c95d3c17192014f750b476af5b86401f6a8e94e8539628c7fe926124c052e"
+    },
+    {
+      "path": "task_10_workspace/_analysis/pdf_text.txt",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-031/S2/artifacts/task_10_workspace/_analysis/pdf_text.txt",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793074078000000000,
+      "type": "file",
+      "size": 95014,
+      "sha256": "9af58f502f4d14447931819a998dee101a7d0949d2ab8fdbea9cf3d0ef8cd502"
+    },
+    {
+      "path": "task_10_workspace/_analysis/source_digest.txt",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-031/S2/artifacts/task_10_workspace/_analysis/source_digest.txt",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793073957000000000,
+      "type": "file",
+      "size": 34019,
+      "sha256": "95d763f3c579d200080c532e78f807366d76bfddcf13d8ba4958f310f40ad4ec"
+    },
+    {
+      "path": "task_10_workspace/_analysis/xlsx_population.txt",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-031/S2/artifacts/task_10_workspace/_analysis/xlsx_population.txt",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793074184000000000,
+      "type": "file",
+      "size": 1682,
+      "sha256": "7260abf53053ac26cdb6243ca1ab12083405e530d6b07c53a5fb9a4bd1d7f0f4"
+    },
+    {
+      "path": "task_10_workspace/review_disposition_register.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-031/S2/artifacts/task_10_workspace/review_disposition_register.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793077896000000000,
+      "type": "file",
+      "size": 8639,
+      "sha256": "23210e0cb787396b800390b907465cd93874efd16bf46aedd9587c8c01545462"
+    },
+    {
+      "path": "task_10_workspace/review_note.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-031/S2/artifacts/task_10_workspace/review_note.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793077979000000000,
+      "type": "file",
+      "size": 10939,
+      "sha256": "3c82147f2c7f0dd9fecb3e09523ae4af9659b57cf3f7b81f0bc6b83f3935de50"
+    },
+    {
+      "path": "task_10_workspace/slack_reply_C00000031_thread_1760000031.000005.md",
+      "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-glm-1899383/G-legal-cb100-031/S2/artifacts/task_10_workspace/slack_reply_C00000031_thread_1760000031.000005.md",
+      "change": "created",
+      "mode": 384,
+      "mtime_ns": 1793078097000000000,
+      "type": "file",
+      "size": 3902,
+      "sha256": "b52c988ed0ad60fcd4a5e88cd794a0fe6287f1a554fa5f5a370feacb5cd3360f"
+    }
+  ],
+  "entries": {
+    "task_10_workspace": {
+      "mode": 448,
+      "mtime_ns": 1793078097000000000,
+      "type": "directory"
+    },
+    "task_10_workspace/_analysis": {
+      "mode": 448,
+      "mtime_ns": 1793076235000000000,
+      "type": "directory"
+    },
+    "task_10_workspace/_analysis/four_control_grid.txt": {
+      "mode": 384,
+      "mtime_ns": 1793076235000000000,
+      "type": "file",
+      "size": 22081,
+      "sha256": "713c95d3c17192014f750b476af5b86401f6a8e94e8539628c7fe926124c052e"
+    },
+    "task_10_workspace/_analysis/pdf_text.txt": {
+      "mode": 384,
+      "mtime_ns": 1793074078000000000,
+      "type": "file",
+      "size": 95014,
+      "sha256": "9af58f502f4d14447931819a998dee101a7d0949d2ab8fdbea9cf3d0ef8cd502"
+    },
+    "task_10_workspace/_analysis/source_digest.txt": {
+      "mode": 384,
+      "mtime_ns": 1793073957000000000,
+      "type": "file",
+      "size": 34019,
+      "sha256": "95d763f3c579d200080c532e78f807366d76bfddcf13d8ba4958f310f40ad4ec"
+    },
+    "task_10_workspace/_analysis/xlsx_population.txt": {
+      "mode": 384,
+      "mtime_ns": 1793074184000000000,
+      "type": "file",
+      "size": 1682,
+      "sha256": "7260abf53053ac26cdb6243ca1ab12083405e530d6b07c53a5fb9a4bd1d7f0f4"
+    },
+    "task_10_workspace/review_disposition_register.md": {
+      "mode": 384,
+      "mtime_ns": 1793077896000000000,
+      "type": "file",
+      "size": 8639,
+      "sha256": "23210e0cb787396b800390b907465cd93874efd16bf46aedd9587c8c01545462"
+    },
+    "task_10_workspace/review_note.md": {
+      "mode": 384,
+      "mtime_ns": 1793077979000000000,
+      "type": "file",
+      "size": 10939,
+      "sha256": "3c82147f2c7f0dd9fecb3e09523ae4af9659b57cf3f7b81f0bc6b83f3935de50"
+    },
+    "task_10_workspace/slack_reply_C00000031_thread_1760000031.000005.md": {
+      "mode": 384,
+      "mtime_ns": 1793078097000000000,
+      "type": "file",
+      "size": 3902,
+      "sha256": "b52c988ed0ad60fcd4a5e88cd794a0fe6287f1a554fa5f5a370feacb5cd3360f"
+    }
+  },
+  "deleted_entries": {}
+}

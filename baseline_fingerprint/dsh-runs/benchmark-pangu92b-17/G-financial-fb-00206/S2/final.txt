@@ -1,0 +1,38 @@
+## Answer
+
+**Gross margin is not a relevant metric for JPMorgan Chase & Co., and the 10-K does not report it.** So the question of whether it is "historically consistent" cannot be answered from the filing — not because the numbers fluctuate, but because the metric doesn't exist for this company.
+
+### Why gross margin doesn't apply to JPM
+
+Gross margin is defined as:
+
+> **Gross margin = (Revenue − Cost of Goods Sold) / Revenue**
+
+It is a metric for businesses that sell physical goods or services with a direct, traceable production/fulfillment cost — manufacturers, retailers, airlines, etc. — where "cost of goods sold" is a well-defined line item.
+
+JPMorgan Chase is a bank / financial holding company. Its consolidated income statement (page 159 of the 10-K) has **no "cost of goods sold" line and no "gross margin" line**. A full-text search of all 382 pages of the 2022 10-K returns **zero occurrences of "gross margin."** Its revenue structure is fundamentally different:
+
+| Line item (in millions) | 2022 | 2021 | 2020 |
+|---|---|---|---|
+| Noninterest revenue | 61,985 | 69,338 | 65,388 |
+| Net interest income | 66,710 | 52,311 | 54,563 |
+| **Total net revenue** | **128,695** | **121,649** | **119,951** |
+| Provision for credit losses | 6,389 | (9,256) | 17,480 |
+| Total noninterest expense | 76,140 | 71,343 | 66,656 |
+| Income before income tax expense | 46,166 | 59,562 | 35,815 |
+| Net income | 37,676 | 48,334 | 29,131 |
+
+The bank's "costs" are not tied to producing a discrete product. Its expenses are compensation, occupancy, technology, professional services, and marketing — and critically, its largest "cost" item is the **provision for credit losses**, which is an accounting estimate of expected loan losses, not a production cost. Because there is no COGS, there is no gross profit, and therefore no gross margin.
+
+### What JPM actually reports instead
+
+The 10-K uses margin-type metrics that are meaningful for a bank:
+
+- **Net interest margin / net yield on average interest-earning assets** — the closest analog to a "spread" on its core lending/investing activity: 2.00% (2022), 1.64% (2021), 1.98% (2020, managed basis). This *does* fluctuate more than ~2% year over year (it fell from 1.98% to 1.64% in 2021, then rose to 2.00% in 2022), driven by the interest-rate environment.
+- **Overhead ratio** (total noninterest expense / total net revenue): 59% (2022), 59% (2021), 56% (2020).
+- **Return on common equity (ROE)**: 14% (2022), 19% (2021), 12% (2020).
+- **Return on tangible common equity (ROTCE)** and **return on assets (ROA)**.
+
+### Bottom line
+
+The premise of the question is misplaced: **gross margin is not a relevant metric for JPMorgan Chase**, because as a bank it has no cost of goods sold and reports no gross margin. The right way to assess its profitability consistency is through net interest margin, overhead ratio, ROE, ROTCE, and the credit-loss provision — and those metrics show the expected year-to-year movement for a large bank in a changing rate and credit cycle, not the "stable ~2%" behavior of a gross-margin metric for a product company.

@@ -1,0 +1,11 @@
+[
+  {
+    "source": "/online1/ycsc_chenkh/hitici_07/deepseek-harness/attached_files/task_16/AMAZON_2017_10K.pdf",
+    "copy": "/online1/ycsc_chenkh/hitici_07/dsh-runs/benchmark-pangu92b-1891561/G-financial-fb-06655/S2/inputs/attached_files/task_16/AMAZON_2017_10K.pdf",
+    "mode": 420,
+    "mtime_ns": 1792659523000000000,
+    "type": "file",
+    "size": 627047,
+    "sha256": "f8af08ff6c4147351ec3a6e5e2c74e104678ce68fb0d6d476b1e43f685c09a3f"
+  }
+]
