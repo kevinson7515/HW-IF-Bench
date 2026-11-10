@@ -77,17 +77,3 @@ python -m unittest discover -s tests -q
 ```
 
 合成示例仅用于检查输入格式和规则，不代表真实任务已可执行。生成器的本地校验与模型审查不能替代真实回放、任务完成判定或人工复核。此仓库不包含真实基线数据、API Key、输出、检查点或日志。
-
-## 上传到 GitHub
-
-在本目录创建 Git 仓库后，连接你自己的 GitHub 空仓库：
-
-```powershell
-git init -b main
-git add .
-git commit -m "Initial benchmark group generator"
-git remote add origin "https://github.com/USERNAME/REPO.git"
-git push -u origin main
-```
-
-提交前可运行 `git status` 核对文件清单；`.gitignore` 会排除本机配置、数据集和生成结果。若通过 GitHub 网页上传，请解压发布包并上传其中的文件和目录，而不是把 ZIP 本身当成代码文件提交。
