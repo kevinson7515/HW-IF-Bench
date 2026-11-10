@@ -1,0 +1,144 @@
+{
+  "run": "benchmark-demo",
+  "groups_sha256": "763706a822ab1eec51c5506aad67bfb0b63ce885a62623c645e378f77ecb9987",
+  "results": [
+    {
+      "group_id": "G-demo",
+      "variant_id": "S1",
+      "run_status": "succeeded",
+      "delivery": null,
+      "prompt_hash_match": null,
+      "metrics": {
+        "response_cjk_count": {
+          "value": 0,
+          "status": "extracted",
+          "locations": [
+            "C:\\Users\\22637\\Documents\\Codex\\2026-11-10\\new-chat-2\\outputs\\scoring-github\\examples\\dataset\\dsh-runs\\benchmark-demo\\G-demo\\S1\\final.txt"
+          ],
+          "note": ""
+        },
+        "has_artifact_path": {
+          "value": false,
+          "status": "extracted",
+          "locations": [
+            "C:\\Users\\22637\\Documents\\Codex\\2026-11-10\\new-chat-2\\outputs\\scoring-github\\examples\\dataset\\dsh-runs\\benchmark-demo\\G-demo\\S1\\final.txt"
+          ],
+          "note": ""
+        },
+        "citation_count": {
+          "value": 0,
+          "status": "extracted",
+          "locations": [
+            "C:\\Users\\22637\\Documents\\Codex\\2026-11-10\\new-chat-2\\outputs\\scoring-github\\examples\\dataset\\dsh-runs\\benchmark-demo\\G-demo\\S1\\final.txt"
+          ],
+          "note": ""
+        },
+        "has_pros": {
+          "value": false,
+          "status": "extracted",
+          "locations": [
+            "C:\\Users\\22637\\Documents\\Codex\\2026-11-10\\new-chat-2\\outputs\\scoring-github\\examples\\dataset\\dsh-runs\\benchmark-demo\\G-demo\\S1\\final.txt"
+          ],
+          "note": ""
+        },
+        "has_cons": {
+          "value": false,
+          "status": "extracted",
+          "locations": [
+            "C:\\Users\\22637\\Documents\\Codex\\2026-11-10\\new-chat-2\\outputs\\scoring-github\\examples\\dataset\\dsh-runs\\benchmark-demo\\G-demo\\S1\\final.txt"
+          ],
+          "note": ""
+        },
+        "markdown_table_headers": {
+          "value": [],
+          "status": "extracted",
+          "locations": [
+            "C:\\Users\\22637\\Documents\\Codex\\2026-11-10\\new-chat-2\\outputs\\scoring-github\\examples\\dataset\\dsh-runs\\benchmark-demo\\G-demo\\S1\\final.txt"
+          ],
+          "note": ""
+        },
+        "positive_row_count": {
+          "value": 0,
+          "status": "extracted",
+          "locations": [
+            "C:\\Users\\22637\\Documents\\Codex\\2026-11-10\\new-chat-2\\outputs\\scoring-github\\examples\\dataset\\dsh-runs\\benchmark-demo\\G-demo\\S1\\final.txt"
+          ],
+          "note": ""
+        },
+        "negative_row_count": {
+          "value": 0,
+          "status": "extracted",
+          "locations": [
+            "C:\\Users\\22637\\Documents\\Codex\\2026-11-10\\new-chat-2\\outputs\\scoring-github\\examples\\dataset\\dsh-runs\\benchmark-demo\\G-demo\\S1\\final.txt"
+          ],
+          "note": ""
+        },
+        "has_trend_summary": {
+          "value": null,
+          "status": "unavailable",
+          "locations": [
+            "C:\\Users\\22637\\Documents\\Codex\\2026-11-10\\new-chat-2\\outputs\\scoring-github\\examples\\dataset\\dsh-runs\\benchmark-demo\\G-demo\\S1\\final.txt"
+          ],
+          "note": "需要语义判定走势总结"
+        },
+        "has_data_period": {
+          "value": null,
+          "status": "unavailable",
+          "locations": [
+            "C:\\Users\\22637\\Documents\\Codex\\2026-11-10\\new-chat-2\\outputs\\scoring-github\\examples\\dataset\\dsh-runs\\benchmark-demo\\G-demo\\S1\\final.txt"
+          ],
+          "note": "需要核对图表或数据时间范围"
+        },
+        "tests_deleted": {
+          "value": false,
+          "status": "extracted",
+          "locations": [
+            "C:\\Users\\22637\\Documents\\Codex\\2026-11-10\\new-chat-2\\outputs\\scoring-github\\examples\\dataset\\dsh-runs\\benchmark-demo\\G-demo\\S1\\artifacts.json"
+          ],
+          "note": ""
+        }
+      },
+      "rubric": [
+        {
+          "id": "IF-1",
+          "layer": "IF",
+          "method": "program",
+          "weight": 0.6,
+          "must_pass": true,
+          "evaluation_source": "rubric_rule",
+          "status": "pass"
+        },
+        {
+          "id": "TC-1",
+          "layer": "TC",
+          "method": "llm_judge",
+          "weight": 0.4,
+          "must_pass": false,
+          "status": "pending_llm"
+        },
+        {
+          "id": "SE-1",
+          "layer": "SE",
+          "method": "llm_judge",
+          "weight": -0.2,
+          "must_pass": false,
+          "status": "pending_llm"
+        }
+      ],
+      "IF": 0.6,
+      "TC": null,
+      "SE": null,
+      "weighted_score": null,
+      "joint_success": null,
+      "scoring_status": "needs_review",
+      "baseline_reference": {
+        "reference": "",
+        "status": "missing",
+        "file": "C:\\Users\\22637\\Documents\\Codex\\2026-11-10\\new-chat-2\\outputs\\scoring-github\\examples\\dataset",
+        "sha256": null
+      },
+      "baseline_alignment": [],
+      "eligible_for_comparison": false
+    }
+  ]
+}

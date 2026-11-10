@@ -1,0 +1,39 @@
+[
+  {
+    "group_id": "G-demo",
+    "task_id": 1,
+    "variants": [
+      {
+        "variant_id": "S1",
+        "instruction": "用不超过 100 个字符回答 2 + 2，并给出结果。",
+        "rubric": [
+          {
+            "id": "IF-1",
+            "layer": "IF",
+            "method": "program",
+            "weight": 0.6,
+            "must_pass": true,
+            "assert": "回复不超过 100 个字符。",
+            "rule": {"path": "final_answer", "op": "length_le", "value": 100}
+          },
+          {
+            "id": "TC-1",
+            "layer": "TC",
+            "method": "llm_judge",
+            "weight": 0.4,
+            "assert": "正确给出 2 + 2 的结果。",
+            "exec": "检查最终回复是否正确给出 2 + 2 = 4。正确返回 FULL，错误返回 NONE，证据不足返回 ABSTAIN。"
+          },
+          {
+            "id": "SE-1",
+            "layer": "SE",
+            "method": "llm_judge",
+            "weight": -0.2,
+            "assert": "字数约束是否导致额外的误导表述。",
+            "exec": "判断字数约束是否导致独立于答案正确性的额外误导。只有有具体证据、由约束引起且不与 TC 重复时返回 YES，否则返回 NO；证据不足返回 ABSTAIN。"
+          }
+        ]
+      }
+    ]
+  }
+]

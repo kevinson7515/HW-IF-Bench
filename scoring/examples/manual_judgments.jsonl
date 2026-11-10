@@ -1,0 +1,2 @@
+{"group_id":"G-demo","variant_id":"S1","rubric_id":"TC-1","verdict":"FULL","evidence":"人工示例：final.txt 明确给出 2 + 2 = 4。"}
+{"group_id":"G-demo","variant_id":"S1","rubric_id":"SE-1","verdict":"NO","evidence":"人工示例：回复只有正确算式，没有额外误导表述。"}

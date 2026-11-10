@@ -1,0 +1,19 @@
+{
+  "data_dir": "examples/dataset",
+  "groups_file": "benchmark_groups.json",
+  "source_parser": "attached_files/task_3/parser.py",
+  "baseline_files": {},
+  "results_dir": "results",
+  "deepseek_judge": {
+    "enabled": false,
+    "base_url": "https://api.deepseek.com",
+    "api_key": "",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "model": "",
+    "vision_model": "",
+    "max_tokens": 4096,
+    "max_attempts": 3,
+    "max_new_judgments_per_run": 0,
+    "confirm_before_send": true
+  }
+}
