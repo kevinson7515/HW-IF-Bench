@@ -1,0 +1,6 @@
+# 复制为 config.yaml 后在本机填写；config.yaml 已被 .gitignore 排除。
+deepseek_api_key: "请填入DeepSeek API Key"
+deepseek_model: "deepseek-flash"
+profile: "balanced"
+count: 5
+max_combination: 6

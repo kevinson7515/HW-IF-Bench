@@ -1,0 +1,374 @@
+{
+  "task_type": "explanation",
+  "candidates": [
+    {
+      "id": "c1",
+      "instruction": "最终回答不得超过 200 个Unicode字符，包含空白、代码块和表格。",
+      "instr_types": [
+        "artifact-form"
+      ],
+      "basis": [
+        {
+          "field": "reply_len",
+          "baseline_value": 500,
+          "target": 200,
+          "reason": "反转已观测默认输出习惯"
+        }
+      ],
+      "feasibility_reason": "仅改变文字呈现，保留解释所需内容。",
+      "checks": [
+        {
+          "assert": "最终回答不得超过 200 个Unicode字符，包含空白、代码块和表格。",
+          "rule": {
+            "path": "final_answer",
+            "op": "length_le",
+            "value": 200
+          },
+          "pass": "实际证据满足此项约束",
+          "fail": "实际证据违反此项约束"
+        }
+      ],
+      "policy": {
+        "kind": "answer_length",
+        "limit": 200
+      }
+    },
+    {
+      "id": "c2",
+      "instruction": "最终回答不得使用项目符号或编号列表，改用连贯段落表达。",
+      "instr_types": [
+        "artifact-form"
+      ],
+      "basis": [
+        {
+          "field": "bullets",
+          "baseline_value": true,
+          "target": false,
+          "reason": "反转已观测默认输出习惯"
+        }
+      ],
+      "feasibility_reason": "仅改变文字呈现，保留解释所需内容。",
+      "checks": [
+        {
+          "assert": "最终回答不得使用项目符号或编号列表，改用连贯段落表达。",
+          "rule": {
+            "path": "final_answer",
+            "op": "not_regex",
+            "value": "(?m)^\\s*(?:[-+*]|\\d+[.)])\\s"
+          },
+          "pass": "实际证据满足此项约束",
+          "fail": "实际证据违反此项约束"
+        }
+      ],
+      "policy": {
+        "kind": "no_lists"
+      }
+    },
+    {
+      "id": "c3",
+      "instruction": "最终回答不得出现Unicode U+1F300至U+1FAFF范围的表情字符。",
+      "instr_types": [
+        "negative"
+      ],
+      "basis": [
+        {
+          "field": "emoji",
+          "baseline_value": true,
+          "target": false,
+          "reason": "反转已观测默认输出习惯"
+        }
+      ],
+      "feasibility_reason": "仅改变文字呈现，保留解释所需内容。",
+      "checks": [
+        {
+          "assert": "最终回答不得出现Unicode U+1F300至U+1FAFF范围的表情字符。",
+          "rule": {
+            "path": "final_answer",
+            "op": "not_regex",
+            "value": "[🌀-🫿]"
+          },
+          "pass": "实际证据满足此项约束",
+          "fail": "实际证据违反此项约束"
+        }
+      ],
+      "policy": {
+        "kind": "no_emoji_range"
+      }
+    },
+    {
+      "id": "c4",
+      "instruction": "最终回答不得包含中文或英文感叹号。",
+      "instr_types": [
+        "persona-tone"
+      ],
+      "basis": [
+        {
+          "field": "exclamation",
+          "baseline_value": true,
+          "target": false,
+          "reason": "反转已观测默认输出习惯"
+        }
+      ],
+      "feasibility_reason": "仅改变文字呈现，保留解释所需内容。",
+      "checks": [
+        {
+          "assert": "最终回答不得包含中文或英文感叹号。",
+          "rule": {
+            "path": "final_answer",
+            "op": "not_regex",
+            "value": "[!！]"
+          },
+          "pass": "实际证据满足此项约束",
+          "fail": "实际证据违反此项约束"
+        }
+      ],
+      "policy": {
+        "kind": "no_exclamation"
+      }
+    },
+    {
+      "id": "c5",
+      "instruction": "最终回答不得出现以下原文词语：我。",
+      "instr_types": [
+        "negative"
+      ],
+      "basis": [
+        {
+          "field": "first_person",
+          "baseline_value": true,
+          "target": false,
+          "reason": "反转已观测默认输出习惯"
+        }
+      ],
+      "feasibility_reason": "仅改变文字呈现，保留解释所需内容。",
+      "checks": [
+        {
+          "assert": "最终回答不得出现以下原文词语：我。",
+          "rule": {
+            "all": [
+              {
+                "path": "final_answer",
+                "op": "not_contains",
+                "value": "我"
+              }
+            ]
+          },
+          "pass": "实际证据满足此项约束",
+          "fail": "实际证据违反此项约束"
+        }
+      ],
+      "policy": {
+        "kind": "forbidden_words",
+        "words": [
+          "我"
+        ]
+      }
+    },
+    {
+      "id": "c6",
+      "instruction": "最终回答最后一个非空行必须是以下原文之一：置信度：高；置信度：中；置信度：低。",
+      "instr_types": [
+        "artifact-form"
+      ],
+      "basis": [
+        {
+          "field": "confidence_line",
+          "baseline_value": false,
+          "target": true,
+          "reason": "反转已观测默认输出习惯"
+        }
+      ],
+      "feasibility_reason": "仅改变文字呈现，保留解释所需内容。",
+      "checks": [
+        {
+          "assert": "最终回答最后一个非空行必须是以下原文之一：置信度：高；置信度：中；置信度：低。",
+          "rule": {
+            "path": "final_answer",
+            "op": "regex",
+            "value": "(?:^|\\n)(?:置信度：高|置信度：中|置信度：低)\\s*\\Z"
+          },
+          "pass": "实际证据满足此项约束",
+          "fail": "实际证据违反此项约束"
+        }
+      ],
+      "policy": {
+        "kind": "ending_line",
+        "choices": [
+          "置信度：高",
+          "置信度：中",
+          "置信度：低"
+        ]
+      }
+    },
+    {
+      "id": "c7",
+      "instruction": "最终回答依次且仅使用以下二级标题：结论、证据。",
+      "instr_types": [
+        "artifact-form"
+      ],
+      "basis": [
+        {
+          "field": "reply_heads",
+          "baseline_value": [
+            "说明"
+          ],
+          "target": [
+            "结论",
+            "证据"
+          ],
+          "reason": "反转已观测默认输出习惯"
+        }
+      ],
+      "feasibility_reason": "仅改变文字呈现，保留解释所需内容。",
+      "checks": [
+        {
+          "assert": "最终回答依次且仅使用以下二级标题：结论、证据。",
+          "rule": {
+            "path": "final_answer",
+            "op": "headings_eq",
+            "value": [
+              "结论",
+              "证据"
+            ]
+          },
+          "pass": "实际证据满足此项约束",
+          "fail": "实际证据违反此项约束"
+        }
+      ],
+      "policy": {
+        "kind": "headings",
+        "headings": [
+          "结论",
+          "证据"
+        ]
+      }
+    },
+    {
+      "id": "c8",
+      "instruction": "最终回答不得出现以下原文词语：综上所述、值得注意的是。",
+      "instr_types": [
+        "negative"
+      ],
+      "basis": [
+        {
+          "field": "stock_phrase",
+          "baseline_value": true,
+          "target": false,
+          "reason": "反转已观测默认输出习惯"
+        }
+      ],
+      "feasibility_reason": "仅改变文字呈现，保留解释所需内容。",
+      "checks": [
+        {
+          "assert": "最终回答不得出现以下原文词语：综上所述、值得注意的是。",
+          "rule": {
+            "all": [
+              {
+                "path": "final_answer",
+                "op": "not_contains",
+                "value": "综上所述"
+              },
+              {
+                "path": "final_answer",
+                "op": "not_contains",
+                "value": "值得注意的是"
+              }
+            ]
+          },
+          "pass": "实际证据满足此项约束",
+          "fail": "实际证据违反此项约束"
+        }
+      ],
+      "policy": {
+        "kind": "forbidden_words",
+        "words": [
+          "综上所述",
+          "值得注意的是"
+        ]
+      }
+    }
+  ],
+  "variants": [
+    {
+      "tier": "A",
+      "candidate_ids": [
+        "c1"
+      ],
+      "position": "tail",
+      "expected_behavior": null,
+      "user_query_append": null,
+      "environment_override": null
+    },
+    {
+      "tier": "A",
+      "candidate_ids": [
+        "c2"
+      ],
+      "position": "tail",
+      "expected_behavior": null,
+      "user_query_append": null,
+      "environment_override": null
+    },
+    {
+      "tier": "A",
+      "candidate_ids": [
+        "c3"
+      ],
+      "position": "tail",
+      "expected_behavior": null,
+      "user_query_append": null,
+      "environment_override": null
+    },
+    {
+      "tier": "B",
+      "candidate_ids": [
+        "c1",
+        "c2"
+      ],
+      "position": "tail",
+      "expected_behavior": null,
+      "user_query_append": null,
+      "environment_override": null
+    },
+    {
+      "tier": "C",
+      "candidate_ids": [
+        "c1"
+      ],
+      "position": "middle",
+      "expected_behavior": null,
+      "user_query_append": null,
+      "environment_override": null
+    },
+    {
+      "tier": "D",
+      "candidate_ids": [
+        "c1"
+      ],
+      "position": "tail",
+      "expected_behavior": "保持200字符限制并回答原问题。",
+      "user_query_append": "请用至少500个字符回答。",
+      "environment_override": null
+    }
+  ],
+  "task_completion": {
+    "assert": "准确解释离线快照如何改善复现",
+    "evidence": "final_answer",
+    "pass": "说明固定输入及其对重复实验的作用",
+    "partial": "只说明固定输入，未解释其与复现的关联",
+    "fail": "无解释或声称离线快照保证所有随机性完全消失"
+  },
+  "side_effect": {
+    "assert": "不因格式约束删掉核心因果关系",
+    "evidence": "final_answer",
+    "pass": "保留固定输入减少外部变化的因果说明",
+    "fail": "只回报格式遵从，缺失核心解释",
+    "basis": [
+      {
+        "field": "side_effect_risk",
+        "baseline_value": "synthetic_observed",
+        "reason": "合成测试中的风险观测，非真实基线证据"
+      }
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "legacy_policy_kinds": [
+    "tool_forbidden",
+    "tool_budget",
+    "first_tool",
+    "answer_length",
+    "no_markdown_table",
+    "no_lists",
+    "no_exclamation",
+    "no_emoji_range",
+    "forbidden_words",
+    "ending_line",
+    "headings",
+    "source_blacklist",
+    "python_imports_exclude",
+    "artifact_directory",
+    "required_section",
+    "forbidden_read_paths",
+    "chart_no_grid",
+    "chart_colors",
+    "first_round_readonly",
+    "modify_via_python"
+  ],
+  "new_policies": {
+    "json_schema": [
+      "structured-output",
+      "schema:受限JSON Schema，对象/数组/类型/必填字段/枚举/长度"
+    ],
+    "paragraph_range": [
+      "layout-control",
+      "min,max:按空行分隔的非空文本块数量"
+    ],
+    "opening_line": [
+      "response-contract",
+      "text:第一非空行原文"
+    ],
+    "no_code_fences": [
+      "layout-control",
+      "禁止Markdown代码围栏"
+    ],
+    "tool_total_budget": [
+      "resource-budget",
+      "limit:全部工具调用数上限"
+    ],
+    "unique_tool_budget": [
+      "resource-budget",
+      "limit:使用不同工具的种类上限"
+    ],
+    "tool_repeat_limit": [
+      "tool-sequencing",
+      "tool,max:指定工具最大连续调用数"
+    ],
+    "tool_order": [
+      "tool-sequencing",
+      "before,after:至少调用after一次，且首次before先于首次after"
+    ],
+    "conditional_section": [
+      "conditional-logic",
+      "on_error,on_success:有工具错误/无工具错误分别要求的二级章节"
+    ],
+    "evidence_refs": [
+      "evidence-linking",
+      "min:仅当运行中Agent可见调用ID且评测端可采集ID/状态时，答复以[证据:调用ID]引用至少N个成功调用；只验证结构链接"
+    ],
+    "artifact_extensions": [
+      "artifact-contract",
+      "extensions:以点开头的小写扩展名白名单，至少一个实际产物"
+    ],
+    "artifact_count": [
+      "artifact-contract",
+      "min,max:实际交付产物数量范围"
+    ],
+    "section_limits": [
+      "layout-control",
+      "sections:{二级标题:该节Unicode字符上限}，各节必须非空"
+    ],
+    "citation_range": [
+      "citation-control",
+      "min,max:最终答复不同HTTP(S)完整URL数量范围"
+    ],
+    "workflow_plan_progress": [
+      "process-planning",
+      "公开计划、每N次工具调用更新、勾选进度"
+    ],
+    "workflow_readonly_probe": [
+      "process-staging",
+      "写入前完成只读探查"
+    ],
+    "workflow_tool_discovery": [
+      "process-discovery",
+      "任务工具前先查询真实工具目录"
+    ],
+    "workflow_approval_gate": [
+      "process-approval",
+      "列出拟改文件并等待真实用户确认"
+    ],
+    "workflow_catalog_first": [
+      "process-discovery",
+      "实际目录工具首次调用；按本次trace.calls.0.name核验"
+    ],
+    "workflow_plan_first": [
+      "process-planning",
+      "实际规划工具首次调用；按本次trace.calls.0.name核验"
+    ]
+  },
+  "implemented_policy_kind_count": 40,
+  "declared_family_count": 25,
+  "coverage_is_task_dependent": true
+}

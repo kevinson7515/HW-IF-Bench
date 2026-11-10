@@ -1,0 +1,51 @@
+{
+  "task_id": "synthetic-workflow-1",
+  "group_id": "G-synthetic-workflow-1",
+  "task_type": "code_change",
+  "user_query": "修复附件 parser.py 的解析错误，交付实际修改并说明如何核验。",
+  "system_prompt": "这是离线合成示例，仅用于验证流程约束的结构和评分规则。",
+  "tools": [
+    "tool_catalog",
+    "file_read",
+    "file_edit",
+    "web_search"
+  ],
+  "env": {
+    "snapshot": "synthetic only; no real tool or user confirmation"
+  },
+  "attached_files": [
+    "parser.py"
+  ],
+  "capabilities": {
+    "visible_intermediate_messages": true,
+    "operation_effects": true,
+    "tool_catalog_available": true,
+    "interactive_confirmation": true
+  },
+  "evidence_contract": {
+    "trace.events": {
+      "implemented": true,
+      "extractor": "synthetic_workflow_event_fixture",
+      "source": "synthetic_workflow_event_fixture"
+    }
+  },
+  "fingerprint": {
+    "plan_before_first_tool": false,
+    "readonly_before_write": false,
+    "tool_discovery_before_task_tool": false,
+    "approval_before_write": false,
+    "reply_len": 950,
+    "reply_block_count": 6,
+    "tool_call_count": 12,
+    "tool_distinct_count": 4,
+    "side_effect_risk": "synthetic_observed"
+  },
+  "example_status": "synthetic_fixture_not_real_baseline",
+  "generation_options": {
+    "profile": "workflow",
+    "max_combination": 6,
+    "candidate_count": 8,
+    "min_families": 4,
+    "strict_coverage": false
+  }
+}
