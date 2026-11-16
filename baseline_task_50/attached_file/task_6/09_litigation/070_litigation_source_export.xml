@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<counsel-source-record schema-version="3.1">
+  <record-id>CB-DOC-001-070</record-id>
+  <matter-number>CB-MA-2401</matter-number>
+  <portfolio-key>CBP-001-10</portfolio-key>
+  <source-system>NetSuite close workbook</source-system>
+  <evidence-role>financial_or_population_support</evidence-role>
+  <immutable-entity-key>ENT-001-1009</immutable-entity-key>
+  <referenced-revision>REV-2025.3</referenced-revision>
+  <current-revision>REV-2025.3</current-revision>
+  <native-record>The supporting population for CBP-001-10 was exported under CB-MA-2401-E877. The population uses immutable entity ENT-001-1009 and records impact-control score 72; this score is an input, not a disposition.</native-record>
+  <analysis>
+    <section heading="Source lineage">NetSuite close workbook produced native record CB-DOC-001-070 for CB-MA-2401. Talia Brooks owns the source population and Talia Brooks recorded the collection review. The export remains separate from later legal analysis.</section>
+    <section heading="Business context">This record concerns sales-tax nexus gap within Project Daybreak battery acquisition. A carve-out manufacturer owns cathode tooling in Nevada while its largest automaker customer can terminate upon an indirect change of control. The record addresses one part of the broader question: Match the cathode-tooling records and automaker consent history to the exact acquired entity.</section>
+    <section heading="Native record">The supporting population for CBP-001-10 was exported under CB-MA-2401-E877. The population uses immutable entity ENT-001-1009 and records impact-control score 72; this score is an input, not a disposition.</section>
+    <section heading="Reliance limits">This file supplies financial or population support evidence for CBP-001-10. It does not decide legal effect, select among candidate responses, resolve another system&#x27;s entity identity, or establish that its cited revision is controlling.</section>
+  </analysis>
+  <supporting-rows>
+    <row id="CBP-001-10-FIN-01" date="2024-05-26" entity="ENT-001-1009" revision="REV-2025.3" actor="Owen Delgado" status="superseded" metric="$169,883.00">Financial Or Population Support support row 1 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-FIN-02" date="2024-05-29" entity="ENT-001-1009" revision="REV-2025.3" actor="Maya Ellison" status="pending" metric="24%">Financial Or Population Support support row 2 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-FIN-03" date="2024-06-01" entity="ENT-001-1009" revision="REV-2025.3" actor="Dominic Alvarez" status="recorded" metric="18%">Financial Or Population Support support row 3 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-FIN-04" date="2024-06-04" entity="ENT-001-1009" revision="REV-2025.3" actor="Talia Brooks" status="superseded" metric="$103,099.00">Financial Or Population Support support row 4 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-FIN-05" date="2024-06-07" entity="ENT-001-1009" revision="REV-2025.3" actor="Caleb Hassan" status="pending" metric="4%">Financial Or Population Support support row 5 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-FIN-06" date="2024-06-10" entity="ENT-001-1009" revision="REV-2025.3" actor="Sofia Bennett" status="superseded" metric="4%">Financial Or Population Support support row 6 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-FIN-07" date="2024-06-13" entity="ENT-001-1009" revision="REV-2025.3" actor="Theo Laurent" status="pending" metric="$723,494.00">Financial Or Population Support support row 7 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-FIN-08" date="2024-06-16" entity="ENT-001-2009" revision="REV-2025.3" actor="Nadine Flores" status="superseded" metric="2%">Financial Or Population Support support row 8 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-FIN-09" date="2024-06-19" entity="ENT-001-1009" revision="REV-2025.3" actor="Owen Delgado" status="pending" metric="15%">Financial Or Population Support support row 9 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-FIN-10" date="2024-06-22" entity="ENT-001-1009" revision="REV-2025.3" actor="Maya Ellison" status="pending" metric="$252,242.00">Financial Or Population Support support row 10 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-FIN-11" date="2024-06-25" entity="ENT-001-1009" revision="REV-2025.3" actor="Dominic Alvarez" status="recorded" metric="3%">Financial Or Population Support support row 11 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-FIN-12" date="2024-06-28" entity="ENT-001-1009" revision="REV-2025.3" actor="Talia Brooks" status="pending" metric="4%">Financial Or Population Support support row 12 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-FIN-13" date="2024-07-01" entity="ENT-001-1009" revision="REV-2025.3" actor="Caleb Hassan" status="confirmed" metric="$469,965.00">Financial Or Population Support support row 13 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-FIN-14" date="2024-07-04" entity="ENT-001-1009" revision="REV-2025.3" actor="Sofia Bennett" status="pending" metric="1%">Financial Or Population Support support row 14 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-FIN-15" date="2024-07-07" entity="ENT-001-1009" revision="REV-2025.3" actor="Theo Laurent" status="confirmed" metric="26%">Financial Or Population Support support row 15 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-FIN-16" date="2024-07-10" entity="ENT-001-1009" revision="REV-2025.3" actor="Nadine Flores" status="confirmed" metric="$144,453.00">Financial Or Population Support support row 16 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-FIN-17" date="2024-07-13" entity="ENT-001-1009" revision="REV-2025.3" actor="Owen Delgado" status="recorded" metric="1%">Financial Or Population Support support row 17 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-FIN-18" date="2024-07-16" entity="ENT-001-1009" revision="REV-2025.3" actor="Maya Ellison" status="pending" metric="2%">Financial Or Population Support support row 18 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+  </supporting-rows>
+  <chronology>
+    <event date="2025-04-05" actor="Owen Delgado" reference="CB-DOC-001-070">native population opened</event>
+    <event date="2025-04-11" actor="Rafael Okafor" reference="CBP-001-10">custodian boundary confirmed</event>
+    <event date="2025-04-17" actor="Elliot Mercer" reference="CB-DOC-001-070">export created</event>
+    <event date="2025-04-23" actor="Caleb Hassan" reference="CBP-001-10">cross-system identifier checked</event>
+    <event date="2025-04-29" actor="Adrian Mensah" reference="CB-DOC-001-070">revision retained</event>
+    <event date="2025-05-05" actor="Henry Cho" reference="CBP-001-10">matter copy collected</event>
+  </chronology>
+  <provenance>Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.</provenance>
+</counsel-source-record>

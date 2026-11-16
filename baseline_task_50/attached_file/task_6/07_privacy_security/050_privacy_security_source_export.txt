@@ -1,0 +1,59 @@
+RESTRICTED MATTER TEAM
+
+FINANCIAL COVENANT BREACH
+RECORD: CB-DOC-001-050
+MATTER: CB-MA-2401
+PORTFOLIO KEY: CBP-001-02
+SOURCE SYSTEM: Carta capitalization ledger
+EVIDENCE ROLE: correspondence
+ENTITY KEY: ENT-001-1001
+REFERENCED REVISION: REV-2025.2
+CURRENT REVISION: REV-2025.2
+CUSTODIAN: Leona Park
+REVIEWER: Leona Park
+
+NATIVE RECORD
+The business owner asks whether the financial covenant breach result is 13% under CB-MA-2401-E738. The counterparty points to the financial covenant breach threshold is 7% under CB-MA-2401-R158. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+
+SOURCE LINEAGE
+Carta capitalization ledger produced native record CB-DOC-001-050 for CB-MA-2401. Leona Park owns the source population and Leona Park recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns financial covenant breach within Project Daybreak battery acquisition. A carve-out manufacturer owns cathode tooling in Nevada while its largest automaker customer can terminate upon an indirect change of control. The record addresses one part of the broader question: Match the cathode-tooling records and automaker consent history to the exact acquired entity.
+
+NATIVE RECORD
+The business owner asks whether the financial covenant breach result is 13% under CB-MA-2401-E738. The counterparty points to the financial covenant breach threshold is 7% under CB-MA-2401-R158. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+
+RELIANCE LIMITS
+This file supplies correspondence evidence for CBP-001-02. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SCHEDULE 1 — NATIVE ROWS
+CBP-001-02-COR-01 | 2024-10-26 | ENT-001-1001 | REV-2025.2 | Rafael Okafor | superseded | $690,795.00 | Correspondence support row 1 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-COR-02 | 2024-10-29 | ENT-001-1001 | REV-2025.2 | Priya Raman | pending | 4% | Correspondence support row 2 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-COR-03 | 2024-11-01 | ENT-001-1001 | REV-2025.2 | Jonas Feld | pending | 12% | Correspondence support row 3 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-COR-04 | 2024-11-04 | ENT-001-1001 | REV-2025.2 | Leona Park | pending | $788,182.00 | Correspondence support row 4 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-COR-05 | 2024-11-07 | ENT-001-1001 | REV-2025.2 | Adrian Mensah | confirmed | 16% | Correspondence support row 5 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-COR-06 | 2024-11-10 | ENT-001-1001 | REV-2025.2 | Amara Patel | pending | 23% | Correspondence support row 6 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-COR-07 | 2024-11-13 | ENT-001-1001 | REV-2025.2 | Micah Sullivan | recorded | $314,104.00 | Correspondence support row 7 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-COR-08 | 2024-11-16 | ENT-001-2001 | REV-2025.2 | Lena Varga | confirmed | 21% | Correspondence support row 8 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-COR-09 | 2024-11-19 | ENT-001-1001 | REV-2025.2 | Rafael Okafor | recorded | 17% | Correspondence support row 9 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-COR-10 | 2024-11-22 | ENT-001-1001 | REV-2025.2 | Priya Raman | superseded | $838,491.00 | Correspondence support row 10 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-COR-11 | 2024-11-25 | ENT-001-1001 | REV-2025.2 | Jonas Feld | confirmed | 2% | Correspondence support row 11 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-COR-12 | 2024-11-28 | ENT-001-1001 | REV-2025.2 | Leona Park | confirmed | 17% | Correspondence support row 12 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-COR-13 | 2024-12-01 | ENT-001-1001 | REV-2025.2 | Adrian Mensah | confirmed | $971,301.00 | Correspondence support row 13 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-COR-14 | 2024-12-04 | ENT-001-1001 | REV-2025.2 | Amara Patel | confirmed | 12% | Correspondence support row 14 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-COR-15 | 2024-12-07 | ENT-001-1001 | REV-2025.2 | Micah Sullivan | pending | 23% | Correspondence support row 15 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-COR-16 | 2024-12-10 | ENT-001-1001 | REV-2025.2 | Lena Varga | superseded | $185,759.00 | Correspondence support row 16 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-COR-17 | 2024-12-13 | ENT-001-1001 | REV-2025.2 | Rafael Okafor | recorded | 4% | Correspondence support row 17 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+CBP-001-02-COR-18 | 2024-12-16 | ENT-001-1001 | REV-2025.2 | Priya Raman | recorded | 19% | Correspondence support row 18 for financial covenant breach; retained from the native system so the reviewer can distinguish the exact CBP-001-02 population from similarly named records.
+
+SCHEDULE 2 — CHRONOLOGY
+2025-09-12 | native population opened | Rafael Okafor | CB-DOC-001-050
+2025-09-18 | custodian boundary confirmed | Elliot Mercer | CBP-001-02
+2025-09-24 | export created | Caleb Hassan | CB-DOC-001-050
+2025-09-30 | cross-system identifier checked | Adrian Mensah | CBP-001-02
+2025-10-06 | revision retained | Henry Cho | CB-DOC-001-050
+2025-10-12 | matter copy collected | Owen Delgado | CBP-001-02
+
+PROVENANCE
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

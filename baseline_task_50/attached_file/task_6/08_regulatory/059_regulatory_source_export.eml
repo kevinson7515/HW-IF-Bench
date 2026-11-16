@@ -1,0 +1,99 @@
+From: Micah Sullivan <micah_sullivan@example.test>
+To: Rafael Okafor <rafael_okafor@example.test>
+Date: 2025-04-15 08:30:00 -0700
+Message-ID: <cb-doc-001-059@example.test>
+Subject: CB-MA-2401 — change-of-control consent source export
+X-Matter-Number: CB-MA-2401
+X-Portfolio-Key: CBP-001-11
+X-Source-System: Jira integration tracker
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+The business owner asks whether the change-of-control consent approval names Caleb Hassan under CB-MA-2401-E439. The counterparty points to change-of-control consent approval must come from Talia Brooks under CB-MA-2401-R473. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+
+SOURCE LINEAGE
+Jira integration tracker produced native record CB-DOC-001-059 for CB-MA-2401. Micah Sullivan owns the source population and Rafael Okafor recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns change-of-control consent within Project Daybreak battery acquisition. A carve-out manufacturer owns cathode tooling in Nevada while its largest automaker customer can terminate upon an indirect change of control. The record addresses one part of the broader question: Match the cathode-tooling records and automaker consent history to the exact acquired entity.
+
+NATIVE RECORD
+The business owner asks whether the change-of-control consent approval names Caleb Hassan under CB-MA-2401-E439. The counterparty points to change-of-control consent approval must come from Talia Brooks under CB-MA-2401-R473. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+
+RELIANCE LIMITS
+This file supplies correspondence evidence for CBP-001-11. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SOURCE THREAD
+-----Original Message-----
+From: Leona Park <leona_park@example.test>
+Sent: 2024-09-03 09:00:00 -0700
+To: Rafael Okafor <rafael_okafor@example.test>
+Subject: CBP-001-11 source row CBP-001-11-COR-01
+
+Correspondence support row 1 for change-of-control consent; retained from the native system so the reviewer can distinguish the exact CBP-001-11 population from similarly named records. The native status is confirmed and the recorded metric is $844,257.00.
+
+-----Original Message-----
+From: Adrian Mensah <adrian_mensah@example.test>
+Sent: 2024-09-06 09:00:00 -0700
+To: Rafael Okafor <rafael_okafor@example.test>
+Subject: CBP-001-11 source row CBP-001-11-COR-02
+
+Correspondence support row 2 for change-of-control consent; retained from the native system so the reviewer can distinguish the exact CBP-001-11 population from similarly named records. The native status is confirmed and the recorded metric is 8%.
+
+-----Original Message-----
+From: Amara Patel <amara_patel@example.test>
+Sent: 2024-09-09 09:00:00 -0700
+To: Rafael Okafor <rafael_okafor@example.test>
+Subject: CBP-001-11 source row CBP-001-11-COR-03
+
+Correspondence support row 3 for change-of-control consent; retained from the native system so the reviewer can distinguish the exact CBP-001-11 population from similarly named records. The native status is pending and the recorded metric is 13%.
+
+-----Original Message-----
+From: Micah Sullivan <micah_sullivan@example.test>
+Sent: 2024-09-12 09:00:00 -0700
+To: Rafael Okafor <rafael_okafor@example.test>
+Subject: CBP-001-11 source row CBP-001-11-COR-04
+
+Correspondence support row 4 for change-of-control consent; retained from the native system so the reviewer can distinguish the exact CBP-001-11 population from similarly named records. The native status is pending and the recorded metric is $61,430.00.
+
+-----Original Message-----
+From: Lena Varga <lena_varga@example.test>
+Sent: 2024-09-15 09:00:00 -0700
+To: Rafael Okafor <rafael_okafor@example.test>
+Subject: CBP-001-11 source row CBP-001-11-COR-05
+
+Correspondence support row 5 for change-of-control consent; retained from the native system so the reviewer can distinguish the exact CBP-001-11 population from similarly named records. The native status is superseded and the recorded metric is 9%.
+
+-----Original Message-----
+From: Rafael Okafor <rafael_okafor@example.test>
+Sent: 2024-09-18 09:00:00 -0700
+To: Rafael Okafor <rafael_okafor@example.test>
+Subject: CBP-001-11 source row CBP-001-11-COR-06
+
+Correspondence support row 6 for change-of-control consent; retained from the native system so the reviewer can distinguish the exact CBP-001-11 population from similarly named records. The native status is confirmed and the recorded metric is 13%.
+
+-----Original Message-----
+From: Priya Raman <priya_raman@example.test>
+Sent: 2024-09-21 09:00:00 -0700
+To: Rafael Okafor <rafael_okafor@example.test>
+Subject: CBP-001-11 source row CBP-001-11-COR-07
+
+Correspondence support row 7 for change-of-control consent; retained from the native system so the reviewer can distinguish the exact CBP-001-11 population from similarly named records. The native status is superseded and the recorded metric is $255,551.00.
+
+-----Original Message-----
+From: Jonas Feld <jonas_feld@example.test>
+Sent: 2024-09-24 09:00:00 -0700
+To: Rafael Okafor <rafael_okafor@example.test>
+Subject: CBP-001-11 source row CBP-001-11-COR-08
+
+Correspondence support row 8 for change-of-control consent; retained from the native system so the reviewer can distinguish the exact CBP-001-11 population from similarly named records. The native status is pending and the recorded metric is 18%.
+
+CHRONOLOGY
+2025-03-11 | native population opened | Leona Park | CB-DOC-001-059
+2025-03-17 | custodian boundary confirmed | Willa Novak | CBP-001-11
+2025-03-23 | export created | Nadine Flores | CB-DOC-001-059
+2025-03-29 | cross-system identifier checked | Lena Varga | CBP-001-11
+2025-04-04 | revision retained | Nora Chen | CB-DOC-001-059
+2025-04-10 | matter copy collected | Talia Brooks | CBP-001-11
+
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

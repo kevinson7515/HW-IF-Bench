@@ -1,0 +1,99 @@
+From: Isaac Romero <isaac_romero@example.test>
+To: Henry Cho <henry_cho@example.test>
+Date: 2026-02-07 08:30:00 -0700
+Message-ID: <cb-doc-001-003@example.test>
+Subject: CB-MA-2401 — permit transfer restriction source export
+X-Matter-Number: CB-MA-2401
+X-Portfolio-Key: CBP-001-03
+X-Source-System: Ironclad CLM
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Crosswalk revision REV-2025.3 maps portfolio key CBP-001-03 and legal name Helios Forge, Inc. — Permit Transfer Restriction record 3 to immutable entity ENT-001-1002. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+
+SOURCE LINEAGE
+Ironclad CLM produced native record CB-DOC-001-003 for CB-MA-2401. Isaac Romero owns the source population and Henry Cho recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns permit transfer restriction within Project Daybreak battery acquisition. A carve-out manufacturer owns cathode tooling in Nevada while its largest automaker customer can terminate upon an indirect change of control. The record addresses one part of the broader question: Match the cathode-tooling records and automaker consent history to the exact acquired entity.
+
+NATIVE RECORD
+Crosswalk revision REV-2025.3 maps portfolio key CBP-001-03 and legal name Helios Forge, Inc. — Permit Transfer Restriction record 3 to immutable entity ENT-001-1002. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+
+RELIANCE LIMITS
+This file supplies identity crosswalk evidence for CBP-001-03. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SOURCE THREAD
+-----Original Message-----
+From: Nora Chen <nora_chen@example.test>
+Sent: 2024-04-13 09:00:00 -0700
+To: Henry Cho <henry_cho@example.test>
+Subject: CBP-001-03 source row CBP-001-03-IDE-01
+
+Identity Crosswalk support row 1 for permit transfer restriction; retained from the native system so the reviewer can distinguish the exact CBP-001-03 population from similarly named records. The native status is recorded and the recorded metric is $299,160.00.
+
+-----Original Message-----
+From: Elliot Mercer <elliot_mercer@example.test>
+Sent: 2024-04-16 09:00:00 -0700
+To: Henry Cho <henry_cho@example.test>
+Subject: CBP-001-03 source row CBP-001-03-IDE-02
+
+Identity Crosswalk support row 2 for permit transfer restriction; retained from the native system so the reviewer can distinguish the exact CBP-001-03 population from similarly named records. The native status is pending and the recorded metric is 2%.
+
+-----Original Message-----
+From: Mei Whitaker <mei_whitaker@example.test>
+Sent: 2024-04-19 09:00:00 -0700
+To: Henry Cho <henry_cho@example.test>
+Subject: CBP-001-03 source row CBP-001-03-IDE-03
+
+Identity Crosswalk support row 3 for permit transfer restriction; retained from the native system so the reviewer can distinguish the exact CBP-001-03 population from similarly named records. The native status is confirmed and the recorded metric is 1%.
+
+-----Original Message-----
+From: Isaac Romero <isaac_romero@example.test>
+Sent: 2024-04-22 09:00:00 -0700
+To: Henry Cho <henry_cho@example.test>
+Subject: CBP-001-03 source row CBP-001-03-IDE-04
+
+Identity Crosswalk support row 4 for permit transfer restriction; retained from the native system so the reviewer can distinguish the exact CBP-001-03 population from similarly named records. The native status is confirmed and the recorded metric is $895,157.00.
+
+-----Original Message-----
+From: Willa Novak <willa_novak@example.test>
+Sent: 2024-04-25 09:00:00 -0700
+To: Henry Cho <henry_cho@example.test>
+Subject: CBP-001-03 source row CBP-001-03-IDE-05
+
+Identity Crosswalk support row 5 for permit transfer restriction; retained from the native system so the reviewer can distinguish the exact CBP-001-03 population from similarly named records. The native status is pending and the recorded metric is 14%.
+
+-----Original Message-----
+From: Henry Cho <henry_cho@example.test>
+Sent: 2024-04-28 09:00:00 -0700
+To: Henry Cho <henry_cho@example.test>
+Subject: CBP-001-03 source row CBP-001-03-IDE-06
+
+Identity Crosswalk support row 6 for permit transfer restriction; retained from the native system so the reviewer can distinguish the exact CBP-001-03 population from similarly named records. The native status is confirmed and the recorded metric is 11%.
+
+-----Original Message-----
+From: Farah Ibrahim <farah_ibrahim@example.test>
+Sent: 2024-05-01 09:00:00 -0700
+To: Henry Cho <henry_cho@example.test>
+Subject: CBP-001-03 source row CBP-001-03-IDE-07
+
+Identity Crosswalk support row 7 for permit transfer restriction; retained from the native system so the reviewer can distinguish the exact CBP-001-03 population from similarly named records. The native status is pending and the recorded metric is $271,602.00.
+
+-----Original Message-----
+From: Samuel Kim <samuel_kim@example.test>
+Sent: 2024-05-04 09:00:00 -0700
+To: Henry Cho <henry_cho@example.test>
+Subject: CBP-001-03 source row CBP-001-03-IDE-08
+
+Identity Crosswalk support row 8 for permit transfer restriction; retained from the native system so the reviewer can distinguish the exact CBP-001-03 population from similarly named records. The native status is pending and the recorded metric is 11%.
+
+CHRONOLOGY
+2026-01-03 | native population opened | Nora Chen | CB-DOC-001-003
+2026-01-09 | custodian boundary confirmed | Talia Brooks | CBP-001-03
+2026-01-15 | export created | Leona Park | CB-DOC-001-003
+2026-01-21 | cross-system identifier checked | Willa Novak | CBP-001-03
+2026-01-27 | revision retained | Nadine Flores | CB-DOC-001-003
+2026-02-02 | matter copy collected | Lena Varga | CBP-001-03
+
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

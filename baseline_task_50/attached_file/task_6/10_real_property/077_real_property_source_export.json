@@ -1,0 +1,266 @@
+{
+  "body": "Custody history shows collection from /workspace/documents/04_debt_security/029_debt_security_source_export.json after the operative record was fixed at /workspace/documents/03_material_contracts/017_material_contracts_source_export.md. Reviewer handoff preserved both versions and the identity record for CBP-001-05.",
+  "chronology": [
+    {
+      "actor": "Priya Raman",
+      "date": "2024-05-04",
+      "event": "native population opened",
+      "reference": "CB-DOC-001-077"
+    },
+    {
+      "actor": "Mei Whitaker",
+      "date": "2024-05-10",
+      "event": "custodian boundary confirmed",
+      "reference": "CBP-001-05"
+    },
+    {
+      "actor": "Sofia Bennett",
+      "date": "2024-05-16",
+      "event": "export created",
+      "reference": "CB-DOC-001-077"
+    },
+    {
+      "actor": "Amara Patel",
+      "date": "2024-05-22",
+      "event": "cross-system identifier checked",
+      "reference": "CBP-001-05"
+    },
+    {
+      "actor": "Farah Ibrahim",
+      "date": "2024-05-28",
+      "event": "revision retained",
+      "reference": "CB-DOC-001-077"
+    },
+    {
+      "actor": "Maya Ellison",
+      "date": "2024-06-03",
+      "event": "matter copy collected",
+      "reference": "CBP-001-05"
+    }
+  ],
+  "client": "Helios Forge, Inc.",
+  "confidentiality": "Restricted matter team",
+  "counterparty": "BluePeak Battery Systems LLC",
+  "current_revision": "REV-2025.5",
+  "custodian": "Adrian Mensah",
+  "evidence_role": "chronology_and_custody",
+  "immutable_entity_key": "ENT-001-1004",
+  "matter_number": "CB-MA-2401",
+  "matter_title": "Project Daybreak battery acquisition",
+  "native_version": "4.2",
+  "portfolio_key": "CBP-001-05",
+  "provenance": "Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.",
+  "record_date": "2024-06-08",
+  "record_id": "CB-DOC-001-077",
+  "referenced_revision": "REV-2025.5",
+  "related_records": [
+    "CB-DOC-001-088",
+    "CB-DOC-001-010",
+    "CB-DOC-001-028",
+    "CB-DOC-001-052"
+  ],
+  "reviewer": "Jonas Feld",
+  "rows": [
+    {
+      "actor": "Priya Raman",
+      "effective_date": "2024-11-17",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-CHR-01",
+      "metric": "$574,155.00",
+      "note": "Chronology And Custody support row 1 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Jonas Feld",
+      "effective_date": "2024-11-20",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-CHR-02",
+      "metric": "14%",
+      "note": "Chronology And Custody support row 2 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "pending"
+    },
+    {
+      "actor": "Leona Park",
+      "effective_date": "2024-11-23",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-CHR-03",
+      "metric": "21%",
+      "note": "Chronology And Custody support row 3 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Adrian Mensah",
+      "effective_date": "2024-11-26",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-CHR-04",
+      "metric": "$638,835.00",
+      "note": "Chronology And Custody support row 4 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Amara Patel",
+      "effective_date": "2024-11-29",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-CHR-05",
+      "metric": "1%",
+      "note": "Chronology And Custody support row 5 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "pending"
+    },
+    {
+      "actor": "Micah Sullivan",
+      "effective_date": "2024-12-02",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-CHR-06",
+      "metric": "17%",
+      "note": "Chronology And Custody support row 6 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "pending"
+    },
+    {
+      "actor": "Lena Varga",
+      "effective_date": "2024-12-05",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-CHR-07",
+      "metric": "$525,124.00",
+      "note": "Chronology And Custody support row 7 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "recorded"
+    },
+    {
+      "actor": "Rafael Okafor",
+      "effective_date": "2024-12-08",
+      "entity_key": "ENT-001-2004",
+      "line_id": "CBP-001-05-CHR-08",
+      "metric": "3%",
+      "note": "Chronology And Custody support row 8 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "pending"
+    },
+    {
+      "actor": "Priya Raman",
+      "effective_date": "2024-12-11",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-CHR-09",
+      "metric": "9%",
+      "note": "Chronology And Custody support row 9 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Jonas Feld",
+      "effective_date": "2024-12-14",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-CHR-10",
+      "metric": "$857,909.00",
+      "note": "Chronology And Custody support row 10 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Leona Park",
+      "effective_date": "2024-12-17",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-CHR-11",
+      "metric": "2%",
+      "note": "Chronology And Custody support row 11 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "pending"
+    },
+    {
+      "actor": "Adrian Mensah",
+      "effective_date": "2024-12-20",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-CHR-12",
+      "metric": "25%",
+      "note": "Chronology And Custody support row 12 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "pending"
+    },
+    {
+      "actor": "Amara Patel",
+      "effective_date": "2024-12-23",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-CHR-13",
+      "metric": "$621,595.00",
+      "note": "Chronology And Custody support row 13 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Micah Sullivan",
+      "effective_date": "2024-12-26",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-CHR-14",
+      "metric": "9%",
+      "note": "Chronology And Custody support row 14 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "recorded"
+    },
+    {
+      "actor": "Lena Varga",
+      "effective_date": "2024-12-29",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-CHR-15",
+      "metric": "22%",
+      "note": "Chronology And Custody support row 15 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Rafael Okafor",
+      "effective_date": "2025-01-01",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-CHR-16",
+      "metric": "$340,985.00",
+      "note": "Chronology And Custody support row 16 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Priya Raman",
+      "effective_date": "2025-01-04",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-CHR-17",
+      "metric": "19%",
+      "note": "Chronology And Custody support row 17 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Jonas Feld",
+      "effective_date": "2025-01-07",
+      "entity_key": "ENT-001-1004",
+      "line_id": "CBP-001-05-CHR-18",
+      "metric": "20%",
+      "note": "Chronology And Custody support row 18 for most-favored-customer exposure; retained from the native system so the reviewer can distinguish the exact CBP-001-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "recorded"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Source lineage",
+      "text": "Jira integration tracker produced native record CB-DOC-001-077 for CB-MA-2401. Adrian Mensah owns the source population and Jonas Feld recorded the collection review. The export remains separate from later legal analysis."
+    },
+    {
+      "heading": "Business context",
+      "text": "This record concerns most-favored-customer exposure within Project Daybreak battery acquisition. A carve-out manufacturer owns cathode tooling in Nevada while its largest automaker customer can terminate upon an indirect change of control. The record addresses one part of the broader question: Match the cathode-tooling records and automaker consent history to the exact acquired entity."
+    },
+    {
+      "heading": "Native record",
+      "text": "Custody history shows collection from /workspace/documents/04_debt_security/029_debt_security_source_export.json after the operative record was fixed at /workspace/documents/03_material_contracts/017_material_contracts_source_export.md. Reviewer handoff preserved both versions and the identity record for CBP-001-05."
+    },
+    {
+      "heading": "Reliance limits",
+      "text": "This file supplies chronology and custody evidence for CBP-001-05. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling."
+    }
+  ],
+  "source_path": "/workspace/documents/10_real_property/077_real_property_source_export.json",
+  "source_system": "Jira integration tracker",
+  "subject": "most-favored-customer exposure"
+}

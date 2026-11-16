@@ -1,0 +1,276 @@
+%PDF-1.4
+% CounselBench deterministic native source
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 2 /Kids [3 0 R 5 0 R] >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 4496 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(COUNSELBENCH SOURCE RECORD) Tj
+T*
+(Record: CB-DOC-001-056) Tj
+T*
+(Matter: CB-MA-2401 - Project Daybreak battery acquisition) Tj
+T*
+(Portfolio key: CBP-001-08) Tj
+T*
+(Source system: Carta capitalization ledger) Tj
+T*
+(Evidence role: correspondence) Tj
+T*
+(Immutable entity: ENT-001-1007) Tj
+T*
+(Referenced revision: REV-2024.0) Tj
+T*
+(Current revision: REV-2025.1) Tj
+T*
+(Custodian: Amara Patel) Tj
+T*
+(Reviewer: Priya Raman) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(The business owner asks whether the anti-assignment restriction approval names Nadine Flores under) Tj
+T*
+(CB-MA-2401-E111. The counterparty points to anti-assignment restriction approval must come from Owen) Tj
+T*
+(Delgado under CB-MA-2401-R293. Neither message resolves entity identity, revision priority, or approval) Tj
+T*
+(authority; the source records must be reconciled.) Tj
+T*
+() Tj
+T*
+(SOURCE LINEAGE) Tj
+T*
+(Carta capitalization ledger produced native record CB-DOC-001-056 for CB-MA-2401. Amara Patel owns the) Tj
+T*
+(source population and Priya Raman recorded the collection review. The export remains separate from later) Tj
+T*
+(legal analysis.) Tj
+T*
+() Tj
+T*
+(BUSINESS CONTEXT) Tj
+T*
+(This record concerns anti-assignment restriction within Project Daybreak battery acquisition. A carve-out) Tj
+T*
+(manufacturer owns cathode tooling in Nevada while its largest automaker customer can terminate upon an) Tj
+T*
+(indirect change of control. The record addresses one part of the broader question: Match the) Tj
+T*
+(cathode-tooling records and automaker consent history to the exact acquired entity.) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(The business owner asks whether the anti-assignment restriction approval names Nadine Flores under) Tj
+T*
+(CB-MA-2401-E111. The counterparty points to anti-assignment restriction approval must come from Owen) Tj
+T*
+(Delgado under CB-MA-2401-R293. Neither message resolves entity identity, revision priority, or approval) Tj
+T*
+(authority; the source records must be reconciled.) Tj
+T*
+() Tj
+T*
+(RELIANCE LIMITS) Tj
+T*
+(This file supplies correspondence evidence for CBP-001-08. It does not decide legal effect, select among) Tj
+T*
+(candidate responses, resolve another system's entity identity, or establish that its cited revision is) Tj
+T*
+(controlling.) Tj
+T*
+() Tj
+T*
+(NATIVE ROWS) Tj
+T*
+(CBP-001-08-COR-01 | 2025-03-15 | ENT-001-1007 | REV-2024.0 | Jonas Feld | superseded | $277,163.00 |) Tj
+T*
+(Correspondence support row 1 for anti-assignment restriction; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-001-08 population from similarly named records.) Tj
+T*
+(CBP-001-08-COR-02 | 2025-03-18 | ENT-001-1007 | REV-2025.1 | Leona Park | confirmed | 8% | Correspondence) Tj
+T*
+(support row 2 for anti-assignment restriction; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-001-08 population from similarly named records.) Tj
+T*
+(CBP-001-08-COR-03 | 2025-03-21 | ENT-001-1007 | REV-2025.1 | Adrian Mensah | pending | 17% |) Tj
+T*
+(Correspondence support row 3 for anti-assignment restriction; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-001-08 population from similarly named records.) Tj
+T*
+(CBP-001-08-COR-04 | 2025-03-24 | ENT-001-1007 | REV-2025.1 | Amara Patel | pending | $174,634.00 |) Tj
+T*
+(Correspondence support row 4 for anti-assignment restriction; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-001-08 population from similarly named records.) Tj
+T*
+(CBP-001-08-COR-05 | 2025-03-27 | ENT-001-1007 | REV-2025.1 | Micah Sullivan | superseded | 2% |) Tj
+T*
+(Correspondence support row 5 for anti-assignment restriction; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-001-08 population from similarly named records.) Tj
+T*
+(CBP-001-08-COR-06 | 2025-03-30 | ENT-001-1007 | REV-2024.0 | Lena Varga | superseded | 22% |) Tj
+T*
+(Correspondence support row 6 for anti-assignment restriction; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-001-08 population from similarly named records.) Tj
+T*
+(CBP-001-08-COR-07 | 2025-04-02 | ENT-001-1007 | REV-2025.1 | Rafael Okafor | superseded | $432,163.00 |) Tj
+T*
+(Correspondence support row 7 for anti-assignment restriction; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-001-08 population from similarly named records.) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4178 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(CBP-001-08-COR-08 | 2025-04-05 | ENT-001-2007 | REV-2025.1 | Priya Raman | pending | 22% | Correspondence) Tj
+T*
+(support row 8 for anti-assignment restriction; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-001-08 population from similarly named records.) Tj
+T*
+(CBP-001-08-COR-09 | 2025-04-08 | ENT-001-1007 | REV-2025.1 | Jonas Feld | pending | 2% | Correspondence) Tj
+T*
+(support row 9 for anti-assignment restriction; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-001-08 population from similarly named records.) Tj
+T*
+(CBP-001-08-COR-10 | 2025-04-11 | ENT-001-1007 | REV-2025.1 | Leona Park | recorded | $314,908.00 |) Tj
+T*
+(Correspondence support row 10 for anti-assignment restriction; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-001-08 population from similarly named records.) Tj
+T*
+(CBP-001-08-COR-11 | 2025-04-14 | ENT-001-1007 | REV-2024.0 | Adrian Mensah | recorded | 9% |) Tj
+T*
+(Correspondence support row 11 for anti-assignment restriction; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-001-08 population from similarly named records.) Tj
+T*
+(CBP-001-08-COR-12 | 2025-04-17 | ENT-001-1007 | REV-2025.1 | Amara Patel | pending | 23% | Correspondence) Tj
+T*
+(support row 12 for anti-assignment restriction; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-001-08 population from similarly named records.) Tj
+T*
+(CBP-001-08-COR-13 | 2025-04-20 | ENT-001-1007 | REV-2025.1 | Micah Sullivan | recorded | $541,572.00 |) Tj
+T*
+(Correspondence support row 13 for anti-assignment restriction; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-001-08 population from similarly named records.) Tj
+T*
+(CBP-001-08-COR-14 | 2025-04-23 | ENT-001-1007 | REV-2025.1 | Lena Varga | pending | 10% | Correspondence) Tj
+T*
+(support row 14 for anti-assignment restriction; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-001-08 population from similarly named records.) Tj
+T*
+(CBP-001-08-COR-15 | 2025-04-26 | ENT-001-1007 | REV-2025.1 | Rafael Okafor | pending | 3% |) Tj
+T*
+(Correspondence support row 15 for anti-assignment restriction; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-001-08 population from similarly named records.) Tj
+T*
+(CBP-001-08-COR-16 | 2025-04-29 | ENT-001-1007 | REV-2024.0 | Priya Raman | superseded | $117,171.00 |) Tj
+T*
+(Correspondence support row 16 for anti-assignment restriction; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-001-08 population from similarly named records.) Tj
+T*
+(CBP-001-08-COR-17 | 2025-05-02 | ENT-001-1007 | REV-2025.1 | Jonas Feld | pending | 6% | Correspondence) Tj
+T*
+(support row 17 for anti-assignment restriction; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-001-08 population from similarly named records.) Tj
+T*
+(CBP-001-08-COR-18 | 2025-05-05 | ENT-001-1007 | REV-2025.1 | Leona Park | superseded | 7% |) Tj
+T*
+(Correspondence support row 18 for anti-assignment restriction; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-001-08 population from similarly named records.) Tj
+T*
+() Tj
+T*
+(CHRONOLOGY) Tj
+T*
+(2025-11-15 | native population opened | Jonas Feld | CB-DOC-001-056) Tj
+T*
+(2025-11-21 | custodian boundary confirmed | Isaac Romero | CBP-001-08) Tj
+T*
+(2025-11-27 | export created | Theo Laurent | CB-DOC-001-056) Tj
+T*
+(2025-12-03 | cross-system identifier checked | Micah Sullivan | CBP-001-08) Tj
+T*
+(2025-12-09 | revision retained | Samuel Kim | CB-DOC-001-056) Tj
+T*
+(2025-12-15 | matter copy collected | Dominic Alvarez | CBP-001-08) Tj
+T*
+() Tj
+T*
+(RELATED NATIVE RECORDS) Tj
+T*
+(CB-DOC-001-067) Tj
+T*
+(CB-DOC-001-085) Tj
+T*
+(CB-DOC-001-007) Tj
+T*
+(CB-DOC-001-031) Tj
+T*
+() Tj
+T*
+(Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are) Tj
+T*
+(fictitious; the record is not legal advice.) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000052 00000 n 
+0000000101 00000 n 
+0000000164 00000 n 
+0000000290 00000 n 
+0000004837 00000 n 
+0000004963 00000 n 
+0000009192 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+9260
+%%EOF

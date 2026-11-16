@@ -1,0 +1,99 @@
+From: Dominic Alvarez <dominic_alvarez@example.test>
+To: Caleb Hassan <caleb_hassan@example.test>
+Date: 2025-08-12 08:30:00 -0700
+Message-ID: <cb-doc-001-019@example.test>
+Subject: CB-MA-2401 — claims-made insurance tail source export
+X-Matter-Number: CB-MA-2401
+X-Portfolio-Key: CBP-001-07
+X-Source-System: Intralinks VDR
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+claims-made insurance tail is due by 2025-08-05 under CB-MA-2401-R611. The referenced and current revision are both REV-2025.7. The matter-level control is: The executed purchase terms and the latest consent schedule control; seller summaries do not.
+
+SOURCE LINEAGE
+Intralinks VDR produced native record CB-DOC-001-019 for CB-MA-2401. Dominic Alvarez owns the source population and Caleb Hassan recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns claims-made insurance tail within Project Daybreak battery acquisition. A carve-out manufacturer owns cathode tooling in Nevada while its largest automaker customer can terminate upon an indirect change of control. The record addresses one part of the broader question: Match the cathode-tooling records and automaker consent history to the exact acquired entity.
+
+NATIVE RECORD
+claims-made insurance tail is due by 2025-08-05 under CB-MA-2401-R611. The referenced and current revision are both REV-2025.7. The matter-level control is: The executed purchase terms and the latest consent schedule control; seller summaries do not.
+
+RELIANCE LIMITS
+This file supplies operative authority evidence for CBP-001-07. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SOURCE THREAD
+-----Original Message-----
+From: Nadine Flores <nadine_flores@example.test>
+Sent: 2024-10-04 09:00:00 -0700
+To: Caleb Hassan <caleb_hassan@example.test>
+Subject: CBP-001-07 source row CBP-001-07-OPE-01
+
+Operative Authority support row 1 for claims-made insurance tail; retained from the native system so the reviewer can distinguish the exact CBP-001-07 population from similarly named records. The native status is recorded and the recorded metric is $973,316.00.
+
+-----Original Message-----
+From: Owen Delgado <owen_delgado@example.test>
+Sent: 2024-10-07 09:00:00 -0700
+To: Caleb Hassan <caleb_hassan@example.test>
+Subject: CBP-001-07 source row CBP-001-07-OPE-02
+
+Operative Authority support row 2 for claims-made insurance tail; retained from the native system so the reviewer can distinguish the exact CBP-001-07 population from similarly named records. The native status is recorded and the recorded metric is 22%.
+
+-----Original Message-----
+From: Maya Ellison <maya_ellison@example.test>
+Sent: 2024-10-10 09:00:00 -0700
+To: Caleb Hassan <caleb_hassan@example.test>
+Subject: CBP-001-07 source row CBP-001-07-OPE-03
+
+Operative Authority support row 3 for claims-made insurance tail; retained from the native system so the reviewer can distinguish the exact CBP-001-07 population from similarly named records. The native status is confirmed and the recorded metric is 17%.
+
+-----Original Message-----
+From: Dominic Alvarez <dominic_alvarez@example.test>
+Sent: 2024-10-13 09:00:00 -0700
+To: Caleb Hassan <caleb_hassan@example.test>
+Subject: CBP-001-07 source row CBP-001-07-OPE-04
+
+Operative Authority support row 4 for claims-made insurance tail; retained from the native system so the reviewer can distinguish the exact CBP-001-07 population from similarly named records. The native status is confirmed and the recorded metric is $61,105.00.
+
+-----Original Message-----
+From: Talia Brooks <talia_brooks@example.test>
+Sent: 2024-10-16 09:00:00 -0700
+To: Caleb Hassan <caleb_hassan@example.test>
+Subject: CBP-001-07 source row CBP-001-07-OPE-05
+
+Operative Authority support row 5 for claims-made insurance tail; retained from the native system so the reviewer can distinguish the exact CBP-001-07 population from similarly named records. The native status is superseded and the recorded metric is 14%.
+
+-----Original Message-----
+From: Caleb Hassan <caleb_hassan@example.test>
+Sent: 2024-10-19 09:00:00 -0700
+To: Caleb Hassan <caleb_hassan@example.test>
+Subject: CBP-001-07 source row CBP-001-07-OPE-06
+
+Operative Authority support row 6 for claims-made insurance tail; retained from the native system so the reviewer can distinguish the exact CBP-001-07 population from similarly named records. The native status is superseded and the recorded metric is 11%.
+
+-----Original Message-----
+From: Sofia Bennett <sofia_bennett@example.test>
+Sent: 2024-10-22 09:00:00 -0700
+To: Caleb Hassan <caleb_hassan@example.test>
+Subject: CBP-001-07 source row CBP-001-07-OPE-07
+
+Operative Authority support row 7 for claims-made insurance tail; retained from the native system so the reviewer can distinguish the exact CBP-001-07 population from similarly named records. The native status is pending and the recorded metric is $848,578.00.
+
+-----Original Message-----
+From: Theo Laurent <theo_laurent@example.test>
+Sent: 2024-10-25 09:00:00 -0700
+To: Caleb Hassan <caleb_hassan@example.test>
+Subject: CBP-001-07 source row CBP-001-07-OPE-08
+
+Operative Authority support row 8 for claims-made insurance tail; retained from the native system so the reviewer can distinguish the exact CBP-001-07 population from similarly named records. The native status is recorded and the recorded metric is 21%.
+
+CHRONOLOGY
+2025-07-08 | native population opened | Nadine Flores | CB-DOC-001-019
+2025-07-14 | custodian boundary confirmed | Lena Varga | CBP-001-07
+2025-07-20 | export created | Nora Chen | CB-DOC-001-019
+2025-07-26 | cross-system identifier checked | Talia Brooks | CBP-001-07
+2025-08-01 | revision retained | Leona Park | CB-DOC-001-019
+2025-08-07 | matter copy collected | Willa Novak | CBP-001-07
+
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

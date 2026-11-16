@@ -1,0 +1,99 @@
+From: Micah Sullivan <micah_sullivan@example.test>
+To: Rafael Okafor <rafael_okafor@example.test>
+Date: 2024-10-08 08:30:00 -0700
+Message-ID: <cb-doc-001-011@example.test>
+Subject: CB-MA-2401 — change-of-control consent source export
+X-Matter-Number: CB-MA-2401
+X-Portfolio-Key: CBP-001-11
+X-Source-System: Jira integration tracker
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Crosswalk revision REV-2025.4 maps portfolio key CBP-001-11 and legal name Helios Forge, Inc. — Change-Of-Control Consent record 11 to immutable entity ENT-001-1010. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+
+SOURCE LINEAGE
+Jira integration tracker produced native record CB-DOC-001-011 for CB-MA-2401. Micah Sullivan owns the source population and Rafael Okafor recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns change-of-control consent within Project Daybreak battery acquisition. A carve-out manufacturer owns cathode tooling in Nevada while its largest automaker customer can terminate upon an indirect change of control. The record addresses one part of the broader question: Match the cathode-tooling records and automaker consent history to the exact acquired entity.
+
+NATIVE RECORD
+Crosswalk revision REV-2025.4 maps portfolio key CBP-001-11 and legal name Helios Forge, Inc. — Change-Of-Control Consent record 11 to immutable entity ENT-001-1010. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+
+RELIANCE LIMITS
+This file supplies identity crosswalk evidence for CBP-001-11. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SOURCE THREAD
+-----Original Message-----
+From: Leona Park <leona_park@example.test>
+Sent: 2024-04-19 09:00:00 -0700
+To: Rafael Okafor <rafael_okafor@example.test>
+Subject: CBP-001-11 source row CBP-001-11-IDE-01
+
+Identity Crosswalk support row 1 for change-of-control consent; retained from the native system so the reviewer can distinguish the exact CBP-001-11 population from similarly named records. The native status is confirmed and the recorded metric is $285,841.00.
+
+-----Original Message-----
+From: Adrian Mensah <adrian_mensah@example.test>
+Sent: 2024-04-22 09:00:00 -0700
+To: Rafael Okafor <rafael_okafor@example.test>
+Subject: CBP-001-11 source row CBP-001-11-IDE-02
+
+Identity Crosswalk support row 2 for change-of-control consent; retained from the native system so the reviewer can distinguish the exact CBP-001-11 population from similarly named records. The native status is recorded and the recorded metric is 13%.
+
+-----Original Message-----
+From: Amara Patel <amara_patel@example.test>
+Sent: 2024-04-25 09:00:00 -0700
+To: Rafael Okafor <rafael_okafor@example.test>
+Subject: CBP-001-11 source row CBP-001-11-IDE-03
+
+Identity Crosswalk support row 3 for change-of-control consent; retained from the native system so the reviewer can distinguish the exact CBP-001-11 population from similarly named records. The native status is superseded and the recorded metric is 16%.
+
+-----Original Message-----
+From: Micah Sullivan <micah_sullivan@example.test>
+Sent: 2024-04-28 09:00:00 -0700
+To: Rafael Okafor <rafael_okafor@example.test>
+Subject: CBP-001-11 source row CBP-001-11-IDE-04
+
+Identity Crosswalk support row 4 for change-of-control consent; retained from the native system so the reviewer can distinguish the exact CBP-001-11 population from similarly named records. The native status is confirmed and the recorded metric is $761,637.00.
+
+-----Original Message-----
+From: Lena Varga <lena_varga@example.test>
+Sent: 2024-05-01 09:00:00 -0700
+To: Rafael Okafor <rafael_okafor@example.test>
+Subject: CBP-001-11 source row CBP-001-11-IDE-05
+
+Identity Crosswalk support row 5 for change-of-control consent; retained from the native system so the reviewer can distinguish the exact CBP-001-11 population from similarly named records. The native status is confirmed and the recorded metric is 5%.
+
+-----Original Message-----
+From: Rafael Okafor <rafael_okafor@example.test>
+Sent: 2024-05-04 09:00:00 -0700
+To: Rafael Okafor <rafael_okafor@example.test>
+Subject: CBP-001-11 source row CBP-001-11-IDE-06
+
+Identity Crosswalk support row 6 for change-of-control consent; retained from the native system so the reviewer can distinguish the exact CBP-001-11 population from similarly named records. The native status is superseded and the recorded metric is 27%.
+
+-----Original Message-----
+From: Priya Raman <priya_raman@example.test>
+Sent: 2024-05-07 09:00:00 -0700
+To: Rafael Okafor <rafael_okafor@example.test>
+Subject: CBP-001-11 source row CBP-001-11-IDE-07
+
+Identity Crosswalk support row 7 for change-of-control consent; retained from the native system so the reviewer can distinguish the exact CBP-001-11 population from similarly named records. The native status is superseded and the recorded metric is $168,715.00.
+
+-----Original Message-----
+From: Jonas Feld <jonas_feld@example.test>
+Sent: 2024-05-10 09:00:00 -0700
+To: Rafael Okafor <rafael_okafor@example.test>
+Subject: CBP-001-11 source row CBP-001-11-IDE-08
+
+Identity Crosswalk support row 8 for change-of-control consent; retained from the native system so the reviewer can distinguish the exact CBP-001-11 population from similarly named records. The native status is confirmed and the recorded metric is 23%.
+
+CHRONOLOGY
+2024-09-03 | native population opened | Leona Park | CB-DOC-001-011
+2024-09-09 | custodian boundary confirmed | Willa Novak | CBP-001-11
+2024-09-15 | export created | Nadine Flores | CB-DOC-001-011
+2024-09-21 | cross-system identifier checked | Lena Varga | CBP-001-11
+2024-09-27 | revision retained | Nora Chen | CB-DOC-001-011
+2024-10-03 | matter copy collected | Talia Brooks | CBP-001-11
+
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

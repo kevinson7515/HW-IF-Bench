@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<counsel-source-record schema-version="3.1">
+  <record-id>CB-DOC-001-094</record-id>
+  <matter-number>CB-MA-2401</matter-number>
+  <portfolio-key>CBP-001-10</portfolio-key>
+  <source-system>NetSuite close workbook</source-system>
+  <evidence-role>independent_counterrecord</evidence-role>
+  <immutable-entity-key>ENT-001-1009</immutable-entity-key>
+  <referenced-revision>REV-2025.3</referenced-revision>
+  <current-revision>REV-2025.3</current-revision>
+  <native-record>An independent source repeats portfolio key CBP-001-10 and immutable entity ENT-001-1009 but uses reference CB-MA-2401-E877. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.</native-record>
+  <analysis>
+    <section heading="Source lineage">NetSuite close workbook produced native record CB-DOC-001-094 for CB-MA-2401. Talia Brooks owns the source population and Talia Brooks recorded the collection review. The export remains separate from later legal analysis.</section>
+    <section heading="Business context">This record concerns sales-tax nexus gap within Project Daybreak battery acquisition. A carve-out manufacturer owns cathode tooling in Nevada while its largest automaker customer can terminate upon an indirect change of control. The record addresses one part of the broader question: Match the cathode-tooling records and automaker consent history to the exact acquired entity.</section>
+    <section heading="Native record">An independent source repeats portfolio key CBP-001-10 and immutable entity ENT-001-1009 but uses reference CB-MA-2401-E877. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.</section>
+    <section heading="Reliance limits">This file supplies independent counterrecord evidence for CBP-001-10. It does not decide legal effect, select among candidate responses, resolve another system&#x27;s entity identity, or establish that its cited revision is controlling.</section>
+  </analysis>
+  <supporting-rows>
+    <row id="CBP-001-10-IND-01" date="2024-11-02" entity="ENT-001-1009" revision="REV-2025.3" actor="Owen Delgado" status="confirmed" metric="$731,281.00">Independent Counterrecord support row 1 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-IND-02" date="2024-11-05" entity="ENT-001-1009" revision="REV-2025.3" actor="Maya Ellison" status="pending" metric="5%">Independent Counterrecord support row 2 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-IND-03" date="2024-11-08" entity="ENT-001-1009" revision="REV-2025.3" actor="Dominic Alvarez" status="superseded" metric="17%">Independent Counterrecord support row 3 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-IND-04" date="2024-11-11" entity="ENT-001-1009" revision="REV-2025.3" actor="Talia Brooks" status="pending" metric="$389,530.00">Independent Counterrecord support row 4 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-IND-05" date="2024-11-14" entity="ENT-001-1009" revision="REV-2025.3" actor="Caleb Hassan" status="confirmed" metric="18%">Independent Counterrecord support row 5 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-IND-06" date="2024-11-17" entity="ENT-001-1009" revision="REV-2025.3" actor="Sofia Bennett" status="superseded" metric="14%">Independent Counterrecord support row 6 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-IND-07" date="2024-11-20" entity="ENT-001-1009" revision="REV-2025.3" actor="Theo Laurent" status="pending" metric="$45,658.00">Independent Counterrecord support row 7 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-IND-08" date="2024-11-23" entity="ENT-001-2009" revision="REV-2025.3" actor="Nadine Flores" status="pending" metric="2%">Independent Counterrecord support row 8 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-IND-09" date="2024-11-26" entity="ENT-001-1009" revision="REV-2025.3" actor="Owen Delgado" status="confirmed" metric="8%">Independent Counterrecord support row 9 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-IND-10" date="2024-11-29" entity="ENT-001-1009" revision="REV-2025.3" actor="Maya Ellison" status="recorded" metric="$351,428.00">Independent Counterrecord support row 10 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-IND-11" date="2024-12-02" entity="ENT-001-1009" revision="REV-2025.3" actor="Dominic Alvarez" status="superseded" metric="22%">Independent Counterrecord support row 11 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-IND-12" date="2024-12-05" entity="ENT-001-1009" revision="REV-2025.3" actor="Talia Brooks" status="superseded" metric="5%">Independent Counterrecord support row 12 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-IND-13" date="2024-12-08" entity="ENT-001-1009" revision="REV-2025.3" actor="Caleb Hassan" status="superseded" metric="$26,091.00">Independent Counterrecord support row 13 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-IND-14" date="2024-12-11" entity="ENT-001-1009" revision="REV-2025.3" actor="Sofia Bennett" status="superseded" metric="2%">Independent Counterrecord support row 14 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-IND-15" date="2024-12-14" entity="ENT-001-1009" revision="REV-2025.3" actor="Theo Laurent" status="recorded" metric="26%">Independent Counterrecord support row 15 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-IND-16" date="2024-12-17" entity="ENT-001-1009" revision="REV-2025.3" actor="Nadine Flores" status="recorded" metric="$135,092.00">Independent Counterrecord support row 16 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-IND-17" date="2024-12-20" entity="ENT-001-1009" revision="REV-2025.3" actor="Owen Delgado" status="superseded" metric="5%">Independent Counterrecord support row 17 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+    <row id="CBP-001-10-IND-18" date="2024-12-23" entity="ENT-001-1009" revision="REV-2025.3" actor="Maya Ellison" status="superseded" metric="22%">Independent Counterrecord support row 18 for sales-tax nexus gap; retained from the native system so the reviewer can distinguish the exact CBP-001-10 population from similarly named records.</row>
+  </supporting-rows>
+  <chronology>
+    <event date="2024-10-11" actor="Owen Delgado" reference="CB-DOC-001-094">native population opened</event>
+    <event date="2024-10-17" actor="Rafael Okafor" reference="CBP-001-10">custodian boundary confirmed</event>
+    <event date="2024-10-23" actor="Elliot Mercer" reference="CB-DOC-001-094">export created</event>
+    <event date="2024-10-29" actor="Caleb Hassan" reference="CBP-001-10">cross-system identifier checked</event>
+    <event date="2024-11-04" actor="Adrian Mensah" reference="CB-DOC-001-094">revision retained</event>
+    <event date="2024-11-10" actor="Henry Cho" reference="CBP-001-10">matter copy collected</event>
+  </chronology>
+  <provenance>Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.</provenance>
+</counsel-source-record>

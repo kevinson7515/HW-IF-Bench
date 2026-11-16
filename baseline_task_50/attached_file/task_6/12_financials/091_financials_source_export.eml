@@ -1,0 +1,99 @@
+From: Dominic Alvarez <dominic_alvarez@example.test>
+To: Caleb Hassan <caleb_hassan@example.test>
+Date: 2024-11-29 08:30:00 -0700
+Message-ID: <cb-doc-001-091@example.test>
+Subject: CB-MA-2401 — claims-made insurance tail source export
+X-Matter-Number: CB-MA-2401
+X-Portfolio-Key: CBP-001-07
+X-Source-System: Intralinks VDR
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+An independent source repeats portfolio key CBP-001-07 and immutable entity ENT-001-1006 but uses reference CB-MA-2401-E341. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.
+
+SOURCE LINEAGE
+Intralinks VDR produced native record CB-DOC-001-091 for CB-MA-2401. Dominic Alvarez owns the source population and Caleb Hassan recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns claims-made insurance tail within Project Daybreak battery acquisition. A carve-out manufacturer owns cathode tooling in Nevada while its largest automaker customer can terminate upon an indirect change of control. The record addresses one part of the broader question: Match the cathode-tooling records and automaker consent history to the exact acquired entity.
+
+NATIVE RECORD
+An independent source repeats portfolio key CBP-001-07 and immutable entity ENT-001-1006 but uses reference CB-MA-2401-E341. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.
+
+RELIANCE LIMITS
+This file supplies independent counterrecord evidence for CBP-001-07. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SOURCE THREAD
+-----Original Message-----
+From: Nadine Flores <nadine_flores@example.test>
+Sent: 2024-10-23 09:00:00 -0700
+To: Caleb Hassan <caleb_hassan@example.test>
+Subject: CBP-001-07 source row CBP-001-07-IND-01
+
+Independent Counterrecord support row 1 for claims-made insurance tail; retained from the native system so the reviewer can distinguish the exact CBP-001-07 population from similarly named records. The native status is confirmed and the recorded metric is $315,961.00.
+
+-----Original Message-----
+From: Owen Delgado <owen_delgado@example.test>
+Sent: 2024-10-26 09:00:00 -0700
+To: Caleb Hassan <caleb_hassan@example.test>
+Subject: CBP-001-07 source row CBP-001-07-IND-02
+
+Independent Counterrecord support row 2 for claims-made insurance tail; retained from the native system so the reviewer can distinguish the exact CBP-001-07 population from similarly named records. The native status is pending and the recorded metric is 18%.
+
+-----Original Message-----
+From: Maya Ellison <maya_ellison@example.test>
+Sent: 2024-10-29 09:00:00 -0700
+To: Caleb Hassan <caleb_hassan@example.test>
+Subject: CBP-001-07 source row CBP-001-07-IND-03
+
+Independent Counterrecord support row 3 for claims-made insurance tail; retained from the native system so the reviewer can distinguish the exact CBP-001-07 population from similarly named records. The native status is recorded and the recorded metric is 8%.
+
+-----Original Message-----
+From: Dominic Alvarez <dominic_alvarez@example.test>
+Sent: 2024-11-01 09:00:00 -0700
+To: Caleb Hassan <caleb_hassan@example.test>
+Subject: CBP-001-07 source row CBP-001-07-IND-04
+
+Independent Counterrecord support row 4 for claims-made insurance tail; retained from the native system so the reviewer can distinguish the exact CBP-001-07 population from similarly named records. The native status is superseded and the recorded metric is $504,179.00.
+
+-----Original Message-----
+From: Talia Brooks <talia_brooks@example.test>
+Sent: 2024-11-04 09:00:00 -0700
+To: Caleb Hassan <caleb_hassan@example.test>
+Subject: CBP-001-07 source row CBP-001-07-IND-05
+
+Independent Counterrecord support row 5 for claims-made insurance tail; retained from the native system so the reviewer can distinguish the exact CBP-001-07 population from similarly named records. The native status is confirmed and the recorded metric is 24%.
+
+-----Original Message-----
+From: Caleb Hassan <caleb_hassan@example.test>
+Sent: 2024-11-07 09:00:00 -0700
+To: Caleb Hassan <caleb_hassan@example.test>
+Subject: CBP-001-07 source row CBP-001-07-IND-06
+
+Independent Counterrecord support row 6 for claims-made insurance tail; retained from the native system so the reviewer can distinguish the exact CBP-001-07 population from similarly named records. The native status is pending and the recorded metric is 9%.
+
+-----Original Message-----
+From: Sofia Bennett <sofia_bennett@example.test>
+Sent: 2024-11-10 09:00:00 -0700
+To: Caleb Hassan <caleb_hassan@example.test>
+Subject: CBP-001-07 source row CBP-001-07-IND-07
+
+Independent Counterrecord support row 7 for claims-made insurance tail; retained from the native system so the reviewer can distinguish the exact CBP-001-07 population from similarly named records. The native status is recorded and the recorded metric is $953,424.00.
+
+-----Original Message-----
+From: Theo Laurent <theo_laurent@example.test>
+Sent: 2024-11-13 09:00:00 -0700
+To: Caleb Hassan <caleb_hassan@example.test>
+Subject: CBP-001-07 source row CBP-001-07-IND-08
+
+Independent Counterrecord support row 8 for claims-made insurance tail; retained from the native system so the reviewer can distinguish the exact CBP-001-07 population from similarly named records. The native status is superseded and the recorded metric is 5%.
+
+CHRONOLOGY
+2024-10-25 | native population opened | Nadine Flores | CB-DOC-001-091
+2024-10-31 | custodian boundary confirmed | Lena Varga | CBP-001-07
+2024-11-06 | export created | Nora Chen | CB-DOC-001-091
+2024-11-12 | cross-system identifier checked | Talia Brooks | CBP-001-07
+2024-11-18 | revision retained | Leona Park | CB-DOC-001-091
+2024-11-24 | matter copy collected | Willa Novak | CBP-001-07
+
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.
