@@ -1,0 +1,12 @@
+{
+  "benchmark": "SWE-bench Verified",
+  "instance_id": "pylint-dev__pylint-4970",
+  "repo": "pylint-dev/pylint",
+  "base_commit": "40cc2ffd7887959157aaf469e09585ec2be7f528",
+  "environment_setup_commit": "bc95cd34071ec2e71de5bca8ff95cc9b88e23814",
+  "version": "2.10",
+  "upstream_container_image": "swebench/sweb.eval.x86_64.pylint-dev_1776_pylint-4970:latest",
+  "repository_files": 1573,
+  "snapshot_format": "tar.gz",
+  "environment_docs": "https://www.swebench.com/SWE-bench/guides/evaluation/"
+}

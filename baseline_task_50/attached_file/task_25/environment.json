@@ -1,0 +1,12 @@
+{
+  "benchmark": "SWE-bench Verified",
+  "instance_id": "django__django-11951",
+  "repo": "django/django",
+  "base_commit": "312049091288dbba2299de8d07ea3e3311ed7238",
+  "environment_setup_commit": "0668164b4ac93a5be79f5b87fae83c657124d9ab",
+  "version": "3.1",
+  "upstream_container_image": "swebench/sweb.eval.x86_64.django_1776_django-11951:latest",
+  "repository_files": 6144,
+  "snapshot_format": "tar.gz",
+  "environment_docs": "https://www.swebench.com/SWE-bench/guides/evaluation/"
+}
