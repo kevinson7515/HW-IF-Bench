@@ -1,0 +1,26 @@
+{
+  "task_id": "demo",
+  "group_id": "G-demo",
+  "benchmark": "演示：结构化文本任务",
+  "user_query": "根据已给信息解释为什么离线快照有助于复现实验。",
+  "system_prompt": "依据用户提供的信息给出准确回答。",
+  "tools": [],
+  "env": {
+    "snapshot": "demo-static-v1",
+    "seed": 7,
+    "temperature": 0.2
+  },
+  "fingerprint": {
+    "reply_len": 500,
+    "bullets": true,
+    "emoji": true,
+    "exclamation": true,
+    "first_person": true,
+    "confidence_line": false,
+    "reply_heads": [
+      "说明"
+    ],
+    "stock_phrase": true,
+    "side_effect_risk": "synthetic_observed"
+  }
+}
