@@ -1,0 +1,2938 @@
+[
+  {
+    "id": 1,
+    "original_id": 2,
+    "group_id": "G-coding-astropy-12891",
+    "status": "baseline_attachment",
+    "source_links": [],
+    "files": [
+      {
+        "path": "attached_files/task_1/astropy/units/quantity.py",
+        "sha256": "5538c71dc43926cfd96507025b7e399519cdaff9d82bcc31c119b191143119e0"
+      },
+      {
+        "path": "attached_files/task_1/astropy/units/tests/test_quantity_array_methods.py",
+        "sha256": "769fc78f6db0839c42a91be0cfee03cde01d49b6c434e42d4c154ce9cf4f4520"
+      },
+      {
+        "path": "attached_files/task_1/astropy/utils/masked/core.py",
+        "sha256": "657aa82dd82768dc61b0076f88168026aa285cf340c49eec13d12fb8bd30f9da"
+      },
+      {
+        "path": "attached_files/task_1/astropy/utils/masked/tests/test_masked.py",
+        "sha256": "f1f81bca223387ea5c55c64831bb4ad2ef25445e75cd24dfbc958a779882cbf1"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": 2,
+    "original_id": 3,
+    "group_id": "G-coding-django-11417",
+    "status": "baseline_attachment",
+    "source_links": [],
+    "files": [
+      {
+        "path": "attached_files/task_2/django/core/mail/message.py",
+        "sha256": "4e7a2712d06dde59d2a345734922b5f68eab39c47dd922115e788e77f92bd79d"
+      },
+      {
+        "path": "attached_files/task_2/tests/mail/tests.py",
+        "sha256": "97367d92e2936c811335e56bebd310b0c896c8311e7e77fee1301041890772b0"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": 3,
+    "original_id": 4,
+    "group_id": "G-customer-airline-000",
+    "status": "baseline_attachment",
+    "source_links": [],
+    "files": [
+      {
+        "path": "attached_files/task_3/policy.md",
+        "sha256": "10dc0525421521208be39cee235bba84a16e2bcba9899eb93d92cd81d2f62fc4"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": 4,
+    "original_id": 5,
+    "group_id": "G-customer-banking-001",
+    "status": "baseline_attachment",
+    "source_links": [],
+    "files": [
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_bronze_rewards_card_001.json",
+        "sha256": "824b5e5a1ee0e8dadd35d0c8987b10365aaba2c19f089f20099bdd235eef2ef1"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_bronze_rewards_card_002.json",
+        "sha256": "ee29c742e0bb166da0e4254687289d0bb357a07f79a7ca7e227493c4f3a62db0"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_bronze_rewards_card_003.json",
+        "sha256": "5aa7d13572746c83fdf04279bbb95f08aee57e805383fd1f0951bd29ecec645a"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_bronze_rewards_card_004.json",
+        "sha256": "c8c423d221e4302096a721e0f299382fd7863368b52634f66acef1959e7dc0f3"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_bronze_rewards_card_005.json",
+        "sha256": "bd827230b802f59dfa198110705f0a190d65f7f4998aaef308ac113828884e03"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_bronze_rewards_card_006.json",
+        "sha256": "52530d174a09c0458d56953a5517d024cd9b78e950f8bd82dfb46ea71c6003f0"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_bronze_rewards_card_007.json",
+        "sha256": "c3a0dea6fc438c002e017a64ad037d02bf0d680017d220dfcdf5d47ebfe5d5e1"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_bronze_rewards_card_008.json",
+        "sha256": "1a13bbe9a91640e4d6bc2ccb3b7208079cc520540286c9c6b98be98acfb29309"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_card_account_logistics_001.json",
+        "sha256": "a33e58f4505ae8c8302f2c47d55d1d9b5ce1fd8773c5e4cd1ed4b04174ade08c"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_card_account_logistics_002.json",
+        "sha256": "d567b11554289362b8f9925ba2396ed5b2cffa77ebbbdc9432382cb105cb3093"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_card_account_logistics_003.json",
+        "sha256": "c2c110f4f5c1d65f70e58939fefcc0d8dd79b0c375bfbc8c44af62f2eda5ffaa"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_card_account_logistics_004.json",
+        "sha256": "804d0835620f9686bdbf7ea2cce0a73dffd134cd2d49ce94b528473afd244da8"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_card_account_logistics_005.json",
+        "sha256": "6bf5a81fd2d29a53dabad0e0f38ec27b7bd9bc73a4d87d2cb57867c6e3896202"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_card_account_logistics_006.json",
+        "sha256": "5b5fc94d7ff18b6d541e3731f072937362979cfa84c6f152018b7416ce4b87e4"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_card_account_logistics_007.json",
+        "sha256": "981f63f92f6f1ee6164479f910111e6ca0c2d3991284968fbb2cd06e826f4c06"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_card_account_logistics_008.json",
+        "sha256": "af6f55f232db7ba6051b71b6b25b1fcf8ce05c0271a5c462503c4afcfdd83132"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_card_account_logistics_009.json",
+        "sha256": "abaec3a3884c66afb6d87e96eabc36f7128a10c7240ae5bc611e9d437bc62111"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_card_replacements_001.json",
+        "sha256": "bb84aa2ae3b7f5d24e8bab2e204d486c8678791ab0f551a6f915ae0406e563c4"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_card_replacements_002.json",
+        "sha256": "9b0a5555f907e28c913bd4fdb7319bca629d4a9be4b7d417503f40080da596ad"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_card_replacements_003.json",
+        "sha256": "e5406cf9d8d86f1c2760b48f6ced8104242221e1de4278e96dd40c74c8be76d9"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_card_replacements_004.json",
+        "sha256": "ca76885d5797df6ab24130c2817abfc9bef7fd96c47a7e73a1df9371783ff04c"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_card_replacements_005.json",
+        "sha256": "1e864ff9036ecc7768d7500e79ec1e075fa4d0daf355aca5dab4e81454d113e2"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_cards_(general)_001.json",
+        "sha256": "74f283685064f83f5003587d177ef6348ea5a0609311e3890abdc2886e38caaf"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_cards_(general)_002.json",
+        "sha256": "30d1cbdc5e78f46438a941c2d02a5bc379799f437f0f93c6ff821417bc7033a5"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_cards_(general)_003.json",
+        "sha256": "9c1dbb1201644a76c3d76a16c78385c39c8c55195aa171f4615402b314266265"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_cards_(general)_004.json",
+        "sha256": "7c6611ac6bdf0f3361481fa247ea75e284a0b443c6e3221ae00a1113992453e5"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_cards_(general)_005.json",
+        "sha256": "2c81cf502428b7a4f8528500fbb760a319bdc2433730878fa5d07961d83f77d5"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_cards_(general)_006.json",
+        "sha256": "1b600c184c5bea6894e73cb2a7e3b8f1f67cf4926459be8ac919af15bfc36907"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_cards_(general)_007.json",
+        "sha256": "96a4f81913c46de18f21d4e7befca7e662e0f36d70f087f2771b665c112dd409"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_cards_(general)_008.json",
+        "sha256": "fe4268ed45a6b60ff6ff8c05a551451595591e87780b12a287122603e18ab014"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_cards_(general)_009.json",
+        "sha256": "ff7412b0ca70f39b89e1c17115b381b46ba7d2214f73360053bd88f3e08a925c"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_cards_(general)_010.json",
+        "sha256": "29339448bc5dd1733c61fd7e46b3443bd96d15d8575748844164b46d218eb416"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_cards_(general)_011.json",
+        "sha256": "d34f3acb4f422b5b5b6180437baae846ea1d66a681212d915d02a7500ef6ffe9"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_cards_(general)_012.json",
+        "sha256": "30e8473b0fe3042aff3a0c9c0be3bd898b5f78c2e1c18997aa1659cf586adcd4"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_cards_(general)_013.json",
+        "sha256": "e7eb4d5a119d1371e40172971d9b2035b62013499f5540ecf308e922082a9c83"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_cards_(general)_014.json",
+        "sha256": "2663549aa63e17b56a1bcf1f9c85e4144736eb77f2c1182554e42e72af901857"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_cards_(general)_015.json",
+        "sha256": "2062e176db1a58932c7f4bc0285bab405fcafcba5e96b7079bd0f94bf1164f66"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_cards_(general)_016.json",
+        "sha256": "6685f0850379bfa5c8cac892e6956d9d0e329c07d6945cf67c9e330d1fc45a96"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_cards_(general)_017.json",
+        "sha256": "5f74cacfc6823eecf852a09c758516f49f5bb4b437ea8c89a999ec18635df89f"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_cards_(general)_018.json",
+        "sha256": "a224eff3bd9898b3ef81626332a7cd0eeb33b620904f9204d1f99ed9f61029ec"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_cards_(general)_019.json",
+        "sha256": "e4340f7e64ffa9e283db16c2e93b62822646a540dd14630b01475e27c55384f3"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_cards_(general)_020.json",
+        "sha256": "8770990210b4a8cc75c7dc9cb8743c1c347fb7eef1530bed85ce1b0bbcd7008b"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_cards_(general)_021.json",
+        "sha256": "34171f258d9b4fd250fe6f34eea9f20fc9fd5eddf66b6d15945fdae8d26199d8"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_cards_(general)_022.json",
+        "sha256": "db48e118c0da9fb9176e0166db5f2a334024f6c7ad05a8d3fd0b0e1b37a3b826"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_cards_(general)_023.json",
+        "sha256": "11dc0ed874970a844223a8eea8a482aa4e5b965d43979475c3f0046d51d84423"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_cards_(general)_024.json",
+        "sha256": "93e3938b4f867873fc795b44b734d41938770be15d451efe9dc30bd48ef1401d"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_credit_cards_(general)_025.json",
+        "sha256": "8fef838784325c2c3f4ab5e83d0fa6f694dfaa9209f87ea59af4990c4deeec5b"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_crypto-cash_back_001.json",
+        "sha256": "e49e11caf061b3bb53d10826185acad27f11606a8dbb6bc4ac67335a0d31399c"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_crypto-cash_back_002.json",
+        "sha256": "a108eb76d86a5df35b1b8e526d3b78cf92e497bf8daf362eab4e59bcf294e8ab"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_crypto-cash_back_003.json",
+        "sha256": "962c26a3839c24f81dc40d8c1633daa7b8deca96ae1b90598fbf9cdf4948c3c0"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_crypto-cash_back_004.json",
+        "sha256": "cdbaa144b29958e6915196cc750323363978a4706fba7fab2d8f388e8a4e813d"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_crypto-cash_back_005.json",
+        "sha256": "851e62e95e9d6b2aae1829fd7003d27f127f459e8e14fcc2fe6931e5d6c929f0"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_crypto-cash_back_006.json",
+        "sha256": "62612fe7e2cf79eae63228baf0f6eafec84e4412611e2736209b73c069358eff"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_crypto-cash_back_007.json",
+        "sha256": "cc76eda958d7442580580d927b9cf3ae8b4b4803dbf4680af2e63750ac2aca3a"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_crypto-cash_back_008.json",
+        "sha256": "f035e0c6dee1fa26cbf0ff3ee83a49e7b83b582f1a39939c847208cc46a76526"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_crypto-cash_back_009.json",
+        "sha256": "20d11ffa59c35b4bd1a05be0139dfdcbe56739a856503315a79e230df76046a2"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_diamond_elite_card_001.json",
+        "sha256": "2668165030cb7032d2ff2693ca8018a5f617c5208e049dda538f13d901850bf5"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_diamond_elite_card_002.json",
+        "sha256": "28f543a640f39e3363b85887e232ffe51fa1ca5b30f965f348c223e2a391f70e"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_diamond_elite_card_003.json",
+        "sha256": "4468abac989a007b42df945e1f4c1fe2db94266d7670add8aad3ec61d1d9a5fb"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_diamond_elite_card_004.json",
+        "sha256": "fc2a39a5e446d37abb029bb63d7e4cfff2de7f01f2d7bf7a780e66e88b05b7f4"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_diamond_elite_card_005.json",
+        "sha256": "53100711427a00af7f743b8c0e3710bf9366e7952f487023a155bc7e0dfe82a4"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_diamond_elite_card_006.json",
+        "sha256": "939c8b88165c2d9234cd06bc74bd84f8896b3e172cbcbecc2d40a29d57043314"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_diamond_elite_card_007.json",
+        "sha256": "4b0a5013b6f2aae09bcedceb3c5e5316acf26a01f9428facf9f201558cd2ce55"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_diamond_elite_card_008.json",
+        "sha256": "f251a6c4a3059972e01eaf4af65d774ab8044b8e2b68090812cf2657b93306d0"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_diamond_elite_card_009.json",
+        "sha256": "066882870b2f2b38c9b8d0f882635a7e2d64ebceecffd82ec3709eb68f9e5669"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_ecocard_001.json",
+        "sha256": "c545d2661be1e78121e0c3eade4150210afa986dd604bb5d9d9c6efa3eeb61ac"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_ecocard_002.json",
+        "sha256": "29296f60dfe30012c771a7acdb90174ad4c2160060daba27b5ba9abe4f942677"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_ecocard_003.json",
+        "sha256": "c13bd06c99f77d8e1922a56e987b735b47b310b3f2ae505359a1ceefdcd649ab"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_ecocard_004.json",
+        "sha256": "b96eec97aeaed32b069d32868743ae53f9aa7544c6e6fab129a539e3e3c09bee"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_ecocard_005.json",
+        "sha256": "55f63c114dc3959ab7d86d57e4fc72b8df8a0a2a408aac5e95439a23a1131e0c"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_ecocard_006.json",
+        "sha256": "8f1b7d90ab03919d769d2db64f5dd2e5fe36849cd07e85b69a1c64a59d0aaf96"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_ecocard_007.json",
+        "sha256": "036dcd4c8513a0d3363c2e7e7a6071e1a03e4ada078feee973f46a87b04e2513"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_ecocard_008.json",
+        "sha256": "b81df7fdce31fb612f337b7da4fba66f74da65470984b42954ba0466694ee7e3"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_ecocard_009.json",
+        "sha256": "87036d4d776c87435f6b82e8d81c3081bb29ab3d2e2cac9bfca9a1383fa6cc72"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_ecocard_010.json",
+        "sha256": "987cd3478a1b080ed7739cbc4e8895d0fe9070d014f675119e6e8ca3e6b079a8"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_ecocard_011.json",
+        "sha256": "68d41654e81a284988c07b0b8b2821368506695c91232459ff0b5f46b0bdba22"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_gold_rewards_card_001.json",
+        "sha256": "67cadb8e04c5859974f3236af915f26153da1d5f8f5fa304bbce7dd9e91acd98"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_gold_rewards_card_002.json",
+        "sha256": "d35b45eeb3c4eec6b1c92d17cb5cf8930d270283d8820921b90b313c18e07fb2"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_gold_rewards_card_003.json",
+        "sha256": "d7310c44070a571b5c103a2de776c76f4f407cbc965ef1c4c0821803de2e467c"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_gold_rewards_card_004.json",
+        "sha256": "47e5ea3f5b23d129b4965d826a608d21ab862bb00e8f7f85b5e7a7bd1a4b055d"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_gold_rewards_card_005.json",
+        "sha256": "3f0442715614d1c0b5c5e5d041b8944624e52917390cbdcd37cb8a16376f90fa"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_platinum_rewards_card_001.json",
+        "sha256": "f1e2582c08dc4caf028b12c1da44b7fe2d1eba2ff2b59765c7005029f7ca00fe"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_platinum_rewards_card_002.json",
+        "sha256": "3d1b144beacc6d3138f443143c70031d2dbdcd46ef8c35e0a7c9a7ca4e1b7e20"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_platinum_rewards_card_003.json",
+        "sha256": "ef27ba30fa4fcc7ba577197a10d21af6e6e8f86e755cfb7767ef69d949591d0e"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_platinum_rewards_card_004.json",
+        "sha256": "a4d869184bae601cd6c66fb5d9e9344518a293af36dca4b8df99947818013d8b"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_platinum_rewards_card_005.json",
+        "sha256": "da07d10fa59c272d6d2725baa179300e7327fed518aced7a72a1eb49d0c55ea3"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_platinum_rewards_card_006.json",
+        "sha256": "b8ef9f9284cb9d95be1a02b1e2afd80c1424156927b434fa2f448e3d408537b8"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_platinum_rewards_card_007.json",
+        "sha256": "13b6be2025a247b54fa481ec24a8191d1c0cdc6732cca52e9f76a79b37d22a8c"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_platinum_rewards_card_008.json",
+        "sha256": "5a9b19f1f2718baa3d148968f8664f660f4c86f7add2b5cfd882682e2d1ef837"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_platinum_rewards_card_009.json",
+        "sha256": "63856e63de18aeccf98baec625cdc2f260ecb53859d019024443e1340b3af2b8"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_platinum_rewards_card_010.json",
+        "sha256": "23a7d069e8b113b7d06f2db4d90fba0d2aae78f1ca73b5f1ba58a8fd08e9b463"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_silver_rewards_card_001.json",
+        "sha256": "d9cf19b542a1f2e5ce45fe4c25f78f03da0b0032a9052f471e6a64031354e3fe"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_silver_rewards_card_002.json",
+        "sha256": "50ae3b5fa1505a0b9df0d48f37b5a9b9a56e1e69ca43551149b3548cf7546432"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_silver_rewards_card_003.json",
+        "sha256": "aa191c364e4529fd9333b8a0c356c4e5e850a072853496125a5ba6797b91d131"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_silver_rewards_card_004.json",
+        "sha256": "ee87c3db113728095199ee8d02acd19c7e3af267d8ec35747f53761b3e76d421"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_silver_rewards_card_005.json",
+        "sha256": "83d25c8624f2b5078ab8c1307bc5c121bebbdb00ffef5d90bafc6b57cb081838"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_silver_rewards_card_006.json",
+        "sha256": "bc7de019849d49a4c53308d0113b2b8cf460f8190d4f3a8bcc86189eb9ee4242"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_silver_rewards_card_007.json",
+        "sha256": "80446eeca6d3dcfc8eee99f116ec19eb3752f551f9c4e3b33b9b853ed8f53e64"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_silver_rewards_card_008.json",
+        "sha256": "d1ccc13606d3c57619fc4f64d12bb405637047ae3e2f2e818d3e71c5be55c309"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_silver_rewards_card_009.json",
+        "sha256": "97e2d0eabad3af524044396a4629a47b364e1d54d0e6353c0c537afc350eabac"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_silver_rewards_card_010.json",
+        "sha256": "1b186b1a10cc3d62a9912a12409bba93de2ee764a1ca9964154cb0ee95aaa05e"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_silver_rewards_card_011.json",
+        "sha256": "83b69be54ff44797090e99fbb87fba571f5198f2e873021c1c9f7da31fa4033c"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_virtual_card_management_001.json",
+        "sha256": "8dbb013e851c8f7185298d82b7eaca46360cd64e2cd84a53f06e036162629a36"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_virtual_card_management_002.json",
+        "sha256": "c6b7493ac3e495308d581aa69b90faf80253e6f339a51e0f62b0b3c3f1cdd680"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_virtual_card_management_003.json",
+        "sha256": "a7521cc422183631f11316211f55ae26469a088bb813a01637afe0dd77073cbc"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_virtual_card_management_004.json",
+        "sha256": "0c737663051f6d2f498f7b86e9f35833e9af4b3577465abbb6f2d8906f17b3f9"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_virtual_card_management_005.json",
+        "sha256": "26394a511d31990476fb650c8dded6ff0d9570b5b94a128a7c27913a7020c174"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_virtual_card_management_006.json",
+        "sha256": "ed13e170455d7ca009ab719d95c8b3b1b222b73567572b54fc1a2b1aa03f881e"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_virtual_card_management_007.json",
+        "sha256": "38cedec6b8e77f49f314dc24e7b71b0091c927740b9cd76448769ce06d373a13"
+      },
+      {
+        "path": "attached_files/task_4/documents/doc_credit_cards_virtual_card_management_008.json",
+        "sha256": "78d0715fe6b1501731b33ef9d58deecfe1d1c0dba03e80be90a17de472fe2a0c"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": 5,
+    "original_id": 8,
+    "group_id": "G-customer-telecom-mobile-data",
+    "status": "baseline_attachment",
+    "source_links": [],
+    "files": [
+      {
+        "path": "attached_files/task_5/main_policy.md",
+        "sha256": "95943844a0cf11fdf0e2842b483b81d9f9338aa53235712ed131db075d086ed7"
+      },
+      {
+        "path": "attached_files/task_5/tech_support_manual.md",
+        "sha256": "015a3ee49ec8c199c5e1a059c922081937b92cf3a5ea74fedbc4357816f389ba"
+      },
+      {
+        "path": "attached_files/task_5/tech_support_workflow.md",
+        "sha256": "64f3ccd13875d14f358b21b9af221dab09e0e7bf5690d0e4322fb91855a43a4d"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": 6,
+    "original_id": 9,
+    "group_id": "G-legal-cb100-001",
+    "status": "baseline_attachment",
+    "source_links": [],
+    "files": [
+      {
+        "path": "attached_files/task_6/01_corporate/001_corporate_source_export.md",
+        "sha256": "16977ed51eda6bfb3f8003be49e199c3a056f4d8d09ca53520d1cfa73a062d42"
+      },
+      {
+        "path": "attached_files/task_6/01_corporate/002_corporate_source_export.txt",
+        "sha256": "292f57b2607b46130de221b41c2cc63d532db4704ff4a4f917c55c745d858eb2"
+      },
+      {
+        "path": "attached_files/task_6/01_corporate/003_corporate_source_export.eml",
+        "sha256": "fad3f3585d98fc57ac126a2165d01098ebaf66b58fd6d41e1428dffc0b7afe88"
+      },
+      {
+        "path": "attached_files/task_6/01_corporate/004_corporate_source_export.csv",
+        "sha256": "c7badb2f780d62deb430d654c2978c9739e012099ddea8b131e9b35e464ad431"
+      },
+      {
+        "path": "attached_files/task_6/01_corporate/005_corporate_source_export.json",
+        "sha256": "636ec7c3d319516d4c1e6e1f6cce60ff85a05fddf73e6f822b070ff6230db10b"
+      },
+      {
+        "path": "attached_files/task_6/01_corporate/006_corporate_source_export.xml",
+        "sha256": "157cd606f5d7f1f1c3a8604979d3f27edc58b89a7a6c8f370c59853d2297f22b"
+      },
+      {
+        "path": "attached_files/task_6/01_corporate/007_corporate_source_export.html",
+        "sha256": "a1237134b44b37967eddfac28f1e303a45dac4a72180c4474cac56637c2960de"
+      },
+      {
+        "path": "attached_files/task_6/01_corporate/008_corporate_source_export.pdf",
+        "sha256": "1b39aeefa00c9e2a2252de075a362a5b1a014d30ff7554af9443b4180ffeb7b7"
+      },
+      {
+        "path": "attached_files/task_6/02_capitalization/009_capitalization_source_export.md",
+        "sha256": "abbd15b8b43624f71c3e09d2282f53ac7dd48b86e287c69fe1670a06df335aad"
+      },
+      {
+        "path": "attached_files/task_6/02_capitalization/010_capitalization_source_export.txt",
+        "sha256": "b5da2724f81bae2e9df9f3bd13807da04fc41a6a9062e0182ed001b0dd698621"
+      },
+      {
+        "path": "attached_files/task_6/02_capitalization/011_capitalization_source_export.eml",
+        "sha256": "3d61653e30a0267e48671327e18a6bf8deb55217387e02c7f51f8fa3ba87821d"
+      },
+      {
+        "path": "attached_files/task_6/02_capitalization/012_capitalization_source_export.csv",
+        "sha256": "71a350b121e3785ce71d384a359f494b5ba33ba21cf13c9a7a758d66ee9593d3"
+      },
+      {
+        "path": "attached_files/task_6/02_capitalization/013_capitalization_source_export.json",
+        "sha256": "33a533d997af6979adc3371d8dff60897b40686e05853887b99081379d07b54d"
+      },
+      {
+        "path": "attached_files/task_6/02_capitalization/014_capitalization_source_export.xml",
+        "sha256": "7df4dedb8b19370b08c6bd1f74630d4e0ae3a9ae21e02c79fe1d70ea030900fa"
+      },
+      {
+        "path": "attached_files/task_6/02_capitalization/015_capitalization_source_export.html",
+        "sha256": "70a5e494a8fcb81817ed601ddc27d3c9db36175e72e5b1d8c13a4110833babe3"
+      },
+      {
+        "path": "attached_files/task_6/02_capitalization/016_capitalization_source_export.pdf",
+        "sha256": "ce6d86a9ceeb9777ddace525375d2040882ccb452fc3928c3af9a214f3e67659"
+      },
+      {
+        "path": "attached_files/task_6/03_material_contracts/017_material_contracts_source_export.md",
+        "sha256": "8b08e7c9491e884d4013eb8d078ee94c96ae81ce8a4ce8d41b2009de65b69baa"
+      },
+      {
+        "path": "attached_files/task_6/03_material_contracts/018_material_contracts_source_export.txt",
+        "sha256": "515568503ba2d2bc73653b4e36487c295a45cf89876d51513e7f8cf32945e7fe"
+      },
+      {
+        "path": "attached_files/task_6/03_material_contracts/019_material_contracts_source_export.eml",
+        "sha256": "a52587c4c29ca16b3ab5bdc2075f60cb41b398155f899118ae1a5865e848be8d"
+      },
+      {
+        "path": "attached_files/task_6/03_material_contracts/020_material_contracts_source_export.csv",
+        "sha256": "0ad4601b1776465261721e8241164056c9c61b801408e48e1dacbdfc5778d258"
+      },
+      {
+        "path": "attached_files/task_6/03_material_contracts/021_material_contracts_source_export.json",
+        "sha256": "d39302e8b331918f3b5ee5c124ece44a36eaf2c0977fe18e38e9276fc1b23e20"
+      },
+      {
+        "path": "attached_files/task_6/03_material_contracts/022_material_contracts_source_export.xml",
+        "sha256": "4bfd8c5c517d5fe565ee06559d92b8ce3bac0664080e07b1bcbaaec49db5e852"
+      },
+      {
+        "path": "attached_files/task_6/03_material_contracts/023_material_contracts_source_export.html",
+        "sha256": "1940b1e4e7e30640029709e46e1d11d43c6b8c549013be15aeb0d1f52ef58288"
+      },
+      {
+        "path": "attached_files/task_6/03_material_contracts/024_material_contracts_source_export.pdf",
+        "sha256": "0a8a749b99bf4c75af77edd35e98d46a63ba582202844e1e8edf3fa271e7b2a0"
+      },
+      {
+        "path": "attached_files/task_6/04_debt_security/025_debt_security_source_export.md",
+        "sha256": "f064aa1dbb3b378ad1126dc81ae2010a2810561125e300b02bec50545ace251f"
+      },
+      {
+        "path": "attached_files/task_6/04_debt_security/026_debt_security_source_export.txt",
+        "sha256": "557081b7900825b8faeaa06ecd390ab9cc3dc139dbfd7c4d3daeb25c477ee527"
+      },
+      {
+        "path": "attached_files/task_6/04_debt_security/027_debt_security_source_export.eml",
+        "sha256": "de8729a56c1d4f84c9eb7b12017c63d0ded2c47ee2636e946c601a57fee9e97f"
+      },
+      {
+        "path": "attached_files/task_6/04_debt_security/028_debt_security_source_export.csv",
+        "sha256": "71b5678743ff2e940f816fb6f1fc0bb0cba8ef091875be16842d819b35447395"
+      },
+      {
+        "path": "attached_files/task_6/04_debt_security/029_debt_security_source_export.json",
+        "sha256": "c9bd733bc20464d2d32f78b5dcc66d14db79d6282f8ed578eeba92f487c50c0a"
+      },
+      {
+        "path": "attached_files/task_6/04_debt_security/030_debt_security_source_export.xml",
+        "sha256": "2df1626e74c01932714d5747de40006fde27e2e035922843217e0c15ee5345e6"
+      },
+      {
+        "path": "attached_files/task_6/04_debt_security/031_debt_security_source_export.html",
+        "sha256": "0cbdf9062354636fba169dfacf95df8051b19ce82b30d344c00ed51aa6448059"
+      },
+      {
+        "path": "attached_files/task_6/04_debt_security/032_debt_security_source_export.pdf",
+        "sha256": "b71fdd1a3196d2f53494d619c76b812af3ec0b412b41eb9b35cb5e3151cd71fa"
+      },
+      {
+        "path": "attached_files/task_6/05_employment/033_employment_source_export.md",
+        "sha256": "d6b93b854fbc7d8e1c2e1c296aa5603e1501694bd411fc726ee33510e4b22494"
+      },
+      {
+        "path": "attached_files/task_6/05_employment/034_employment_source_export.txt",
+        "sha256": "8be189d6446fd13c71d18ba5c78c4adedf196130576f0f8588893370e42f6e80"
+      },
+      {
+        "path": "attached_files/task_6/05_employment/035_employment_source_export.eml",
+        "sha256": "a1cdfd15778e36f85fb15579d8817ac3b7ecc8f926cf036b072e22d249695c02"
+      },
+      {
+        "path": "attached_files/task_6/05_employment/036_employment_source_export.csv",
+        "sha256": "637beabde796bae174173a8ea1987363829f80a8e61f5c9c16f27a09442cf153"
+      },
+      {
+        "path": "attached_files/task_6/05_employment/037_employment_source_export.json",
+        "sha256": "e6001c681b97d49ce542d9b09454c500fb93e96c2aa8ab8d88a9946099b8a844"
+      },
+      {
+        "path": "attached_files/task_6/05_employment/038_employment_source_export.xml",
+        "sha256": "5d3a2dacd14f59a0f763ffb82c2a920a6af7c31a4c82a56b8a28b857834b8c87"
+      },
+      {
+        "path": "attached_files/task_6/05_employment/039_employment_source_export.html",
+        "sha256": "46784d44abddca4053e158e41495430d72147300f6e1c039277493bfd77d06bc"
+      },
+      {
+        "path": "attached_files/task_6/05_employment/040_employment_source_export.pdf",
+        "sha256": "8a5a7258802fd3aadd245d6bc2ecf90e005c351bed779372716e2d3797154add"
+      },
+      {
+        "path": "attached_files/task_6/06_ip_technology/041_ip_technology_source_export.md",
+        "sha256": "bffd52eebb34d0e421fc336f4dc3d7e29c3ac4014c61e6b37fdcbe6ee6e10e75"
+      },
+      {
+        "path": "attached_files/task_6/06_ip_technology/042_ip_technology_source_export.txt",
+        "sha256": "51f24d46ef04eb72e0bfe298792bf01367d75e8eb2b7f9b42c3572333f148c7f"
+      },
+      {
+        "path": "attached_files/task_6/06_ip_technology/043_ip_technology_source_export.eml",
+        "sha256": "f727cd484c0d225c6ff1366c0b50066e78982218fd9ab0f2e7fb8de2a811627e"
+      },
+      {
+        "path": "attached_files/task_6/06_ip_technology/044_ip_technology_source_export.csv",
+        "sha256": "2cd2b6e4c098014a3e8efe5d2665d820e07b083d7696bcad3b41435d27415c8d"
+      },
+      {
+        "path": "attached_files/task_6/06_ip_technology/045_ip_technology_source_export.json",
+        "sha256": "f8e0f4fc44d293af64fc075ffd70db96c95770627e37f6840df7a26a2cec8917"
+      },
+      {
+        "path": "attached_files/task_6/06_ip_technology/046_ip_technology_source_export.xml",
+        "sha256": "ac69f67e951b7e5f984cae097002868deda75c45f0454a1c9de59b194f99e319"
+      },
+      {
+        "path": "attached_files/task_6/06_ip_technology/047_ip_technology_source_export.html",
+        "sha256": "3350dcc574690548dcc56ab4515f0d2f421bc30512c47f41388ca3dac9834b02"
+      },
+      {
+        "path": "attached_files/task_6/06_ip_technology/048_ip_technology_source_export.pdf",
+        "sha256": "f54d0405994e799c987b5098169a84ea76a1a84726ce3c588d8687a92ec79dae"
+      },
+      {
+        "path": "attached_files/task_6/07_privacy_security/049_privacy_security_source_export.md",
+        "sha256": "5747b1380c7877c1e4b7d52a67b02afda6ad82d7d5edd9f883027e8eeb4d7b0f"
+      },
+      {
+        "path": "attached_files/task_6/07_privacy_security/050_privacy_security_source_export.txt",
+        "sha256": "4943c294c87acfdf4d5dd7c0beaff79ab2faea130c1cbaa15b3068ce6cff9db7"
+      },
+      {
+        "path": "attached_files/task_6/07_privacy_security/051_privacy_security_source_export.eml",
+        "sha256": "e44ed09a6ba1f1f08313df48ac68d24100c9621863cc4ef38673e94af5ec0c26"
+      },
+      {
+        "path": "attached_files/task_6/07_privacy_security/052_privacy_security_source_export.csv",
+        "sha256": "a692d4e0742afde3e9a5a3b3459a88c5ee48ec5babb3673006312334f57e1de3"
+      },
+      {
+        "path": "attached_files/task_6/07_privacy_security/053_privacy_security_source_export.json",
+        "sha256": "53e49f45f9f6d17b47238e13cd1e61a23b5824fd9d28caa5211c49f5d17c59f1"
+      },
+      {
+        "path": "attached_files/task_6/07_privacy_security/054_privacy_security_source_export.xml",
+        "sha256": "a5cad15059d542a43bfbbe9d42f97c6bedf6b5b1f41d31d0fc5ee0af458127fd"
+      },
+      {
+        "path": "attached_files/task_6/07_privacy_security/055_privacy_security_source_export.html",
+        "sha256": "05096e4770fa6ede5216bfa9e8d17aba4727c79abb721f8fcb8b842e27606bdc"
+      },
+      {
+        "path": "attached_files/task_6/07_privacy_security/056_privacy_security_source_export.pdf",
+        "sha256": "80ee87326af755345f0fcaad7a96dcb31a1405a8bb53d154fa8147e41897354e"
+      },
+      {
+        "path": "attached_files/task_6/08_regulatory/057_regulatory_source_export.md",
+        "sha256": "29f540dafef37bd7b73ff1743a9f47268d3b8a8e0c3ccbc132fbd1508bed27a0"
+      },
+      {
+        "path": "attached_files/task_6/08_regulatory/058_regulatory_source_export.txt",
+        "sha256": "ce2bca047eb31f9cb9500690cc05f16654c2131e93daf0b9fd2aa51f58c6f39e"
+      },
+      {
+        "path": "attached_files/task_6/08_regulatory/059_regulatory_source_export.eml",
+        "sha256": "e165a99a0fe12bf266d9af6f488c4a369eaba2d32883bc266f1e3eb49d701b10"
+      },
+      {
+        "path": "attached_files/task_6/08_regulatory/060_regulatory_source_export.csv",
+        "sha256": "3013f4a51529bbd7009e50389ed30fe97878c0661c353a9b85fac98b42b0381e"
+      },
+      {
+        "path": "attached_files/task_6/08_regulatory/061_regulatory_source_export.json",
+        "sha256": "6170f9754f91e7692cd46a579eb29e4ba53a70940f73582b9c07b4bb43705c83"
+      },
+      {
+        "path": "attached_files/task_6/08_regulatory/062_regulatory_source_export.xml",
+        "sha256": "76ecac41d42a21b04818662cf5b8c31fb4e30f210555ecff65596f0b6423275e"
+      },
+      {
+        "path": "attached_files/task_6/08_regulatory/063_regulatory_source_export.html",
+        "sha256": "4eeac0cc88108438942ad5228cbbd11f7bc7adc791454a3ef71df49620569743"
+      },
+      {
+        "path": "attached_files/task_6/08_regulatory/064_regulatory_source_export.pdf",
+        "sha256": "a35e45d81471e0b76b8c2e5ad3aa9713ac8f743e1e736de3d9d3eadbfb400ca7"
+      },
+      {
+        "path": "attached_files/task_6/09_litigation/065_litigation_source_export.md",
+        "sha256": "fa61a447544c86e1ff867e66e99afdbae9736ec5475dad4ad8873220311054e9"
+      },
+      {
+        "path": "attached_files/task_6/09_litigation/066_litigation_source_export.txt",
+        "sha256": "e0ceb3b8d12962cac1be0c893fd026656649cf1af4d6f80f120bd933db048d62"
+      },
+      {
+        "path": "attached_files/task_6/09_litigation/067_litigation_source_export.eml",
+        "sha256": "7f077511d7a42a14ffbdd008d1fac1837e12d77fab5aa48918ffecd8d5ecf4fc"
+      },
+      {
+        "path": "attached_files/task_6/09_litigation/068_litigation_source_export.csv",
+        "sha256": "070613cca7f98e7edde62f89763e96d854a338263d0b3c66b12f2c29d36fe371"
+      },
+      {
+        "path": "attached_files/task_6/09_litigation/069_litigation_source_export.json",
+        "sha256": "916fb453480a9b89cc45da086d31cad06ef7458d35ac7182cb8256e1cf99c0c3"
+      },
+      {
+        "path": "attached_files/task_6/09_litigation/070_litigation_source_export.xml",
+        "sha256": "b478c2524205cc673698a2f6e783dd9d32297a1b17117de1c609eadbcdb45c9c"
+      },
+      {
+        "path": "attached_files/task_6/09_litigation/071_litigation_source_export.html",
+        "sha256": "0c00fe2bc4efdfda7aa025168489bf76431cb9f5fa254a44402728e17bbba128"
+      },
+      {
+        "path": "attached_files/task_6/09_litigation/072_litigation_source_export.pdf",
+        "sha256": "0e4b8b1f4c55d3b23b746a11b945ac3724a861dc12bae065bea5dc6261f6739f"
+      },
+      {
+        "path": "attached_files/task_6/10_real_property/073_real_property_source_export.md",
+        "sha256": "6b676356d452c6b75eb4437c02c3892b146d13c7067b3c670016dacdbb56a5ae"
+      },
+      {
+        "path": "attached_files/task_6/10_real_property/074_real_property_source_export.txt",
+        "sha256": "c97b3178024c9d4233ad35d11fdff714b00327f2b5b2d3de76a8186927f3b770"
+      },
+      {
+        "path": "attached_files/task_6/10_real_property/075_real_property_source_export.eml",
+        "sha256": "e526d33db38b78e321ae25f9dd4304ad772b3606f0b816f51833e03bf8bc7b8e"
+      },
+      {
+        "path": "attached_files/task_6/10_real_property/076_real_property_source_export.csv",
+        "sha256": "73f43f1f5be107aa35f39aeed551bc2b815ed9086829558ac9233727fe8f8d4e"
+      },
+      {
+        "path": "attached_files/task_6/10_real_property/077_real_property_source_export.json",
+        "sha256": "05dd7cc8893f009874df1b76d7f9c06ad4faed02101b6af5934b55222bfcf525"
+      },
+      {
+        "path": "attached_files/task_6/10_real_property/078_real_property_source_export.xml",
+        "sha256": "0a6017e703a6f486389ca0f5e75e5f1e5d564d888605192c27dd92da0136c42a"
+      },
+      {
+        "path": "attached_files/task_6/10_real_property/079_real_property_source_export.html",
+        "sha256": "52f73bb4fd830d86ddcc096a7d6d0183aadcb6001b1a26ccfd4fc3d8d6a91869"
+      },
+      {
+        "path": "attached_files/task_6/10_real_property/080_real_property_source_export.pdf",
+        "sha256": "2594b03a3d41459c6c1f74f421ecd17cc088a29d77c2a89c9e14cdb7496acc4b"
+      },
+      {
+        "path": "attached_files/task_6/11_tax_insurance/081_tax_insurance_source_export.md",
+        "sha256": "983ba6b7d7a9d433db364c5a05f9b6e43931f56b5dfb4456cd668336f8f87b3f"
+      },
+      {
+        "path": "attached_files/task_6/11_tax_insurance/082_tax_insurance_source_export.txt",
+        "sha256": "ca045f4fc92730251938a7bd6edbe96c2ee3e705c0b06c6218fe7350c912fbb5"
+      },
+      {
+        "path": "attached_files/task_6/11_tax_insurance/083_tax_insurance_source_export.eml",
+        "sha256": "12e18bbecb4d977bd672aee14ec78b8edcf6f610af8e120060422f69df814a2c"
+      },
+      {
+        "path": "attached_files/task_6/11_tax_insurance/084_tax_insurance_source_export.csv",
+        "sha256": "fab73514bb363e7efabe7e91c88b2e4360daa77a801a68447b5dadefdccfa3c9"
+      },
+      {
+        "path": "attached_files/task_6/11_tax_insurance/085_tax_insurance_source_export.json",
+        "sha256": "fbbe7d998280e645dcabcff00bddec0a23bee9a804ee0261ac399fb60dec9d2e"
+      },
+      {
+        "path": "attached_files/task_6/11_tax_insurance/086_tax_insurance_source_export.xml",
+        "sha256": "252a12231898b6136530af3df1b5ee7be621005bd481b7ec7444fdd754c2517c"
+      },
+      {
+        "path": "attached_files/task_6/11_tax_insurance/087_tax_insurance_source_export.html",
+        "sha256": "75877987955a1bf45d2e7650efcf9ff323101a29cbc5cde06a1fe247d91a4998"
+      },
+      {
+        "path": "attached_files/task_6/11_tax_insurance/088_tax_insurance_source_export.pdf",
+        "sha256": "66896e6a4df0c3f7f39c08d948e104fee7111b8144e578fe8c5caf0f9b55a1bd"
+      },
+      {
+        "path": "attached_files/task_6/12_financials/089_financials_source_export.md",
+        "sha256": "dd9e3d11ee103cc9d230648b28573be05dfcea86e95ef703fe44d49c539ccaeb"
+      },
+      {
+        "path": "attached_files/task_6/12_financials/090_financials_source_export.txt",
+        "sha256": "51404408dd128afdb9a8137b8363061dbadfa021e1ed6b9a0d26dcdcc8b4c152"
+      },
+      {
+        "path": "attached_files/task_6/12_financials/091_financials_source_export.eml",
+        "sha256": "ecb94f66eda7c0aef2e00245d4be677241a8791054d12f4dd6fb60c775dd5d44"
+      },
+      {
+        "path": "attached_files/task_6/12_financials/092_financials_source_export.csv",
+        "sha256": "84b3cd9536bf2955a966ea25e8f506220fd354e14efa95d7b9096f1f9c212da8"
+      },
+      {
+        "path": "attached_files/task_6/12_financials/093_financials_source_export.json",
+        "sha256": "c8a66bc9b39a65c50ad203e78c6723b451f48d83d8f51b8aa418f125d966e368"
+      },
+      {
+        "path": "attached_files/task_6/12_financials/094_financials_source_export.xml",
+        "sha256": "5b16b1a95519a2801e977549ae2255a85a9c09e8debc71595c1e13ceaa2a8ae6"
+      },
+      {
+        "path": "attached_files/task_6/12_financials/095_financials_source_export.html",
+        "sha256": "20e2ff87bb7c9da0f8f8850bb17410b83dfd65e39ee6b66a9a77d0ab76d6ead3"
+      },
+      {
+        "path": "attached_files/task_6/12_financials/096_financials_source_export.pdf",
+        "sha256": "3f37290bc3f6705b91b20ea39d97b0e781f3a9a590b98777ed7035f004086026"
+      },
+      {
+        "path": "attached_files/task_6/12_financials/097_helios_forge_impact_population.xlsx",
+        "sha256": "774a517f5b16b471154d546e6c1494795062706ba43c31c36c5a231a5fb1cc0c"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": 7,
+    "original_id": 10,
+    "group_id": "G-legal-cb100-031",
+    "status": "baseline_attachment",
+    "source_links": [],
+    "files": [
+      {
+        "path": "attached_files/task_7/01_pleadings/001_pleadings_source_export.md",
+        "sha256": "55e6ef10eddbee9ec98c3800eba95f4f1c227978e9a0a282362d283a1eb1bdfc"
+      },
+      {
+        "path": "attached_files/task_7/01_pleadings/002_pleadings_source_export.txt",
+        "sha256": "b3e74e31b518db44cad36e08ea14702d706b3a63e23b1090949ec14a13a69009"
+      },
+      {
+        "path": "attached_files/task_7/01_pleadings/003_pleadings_source_export.eml",
+        "sha256": "ef5902414e7d7f01c27a83a90010aba07697d5b540429af0a9482f97e4fe1b82"
+      },
+      {
+        "path": "attached_files/task_7/01_pleadings/004_pleadings_source_export.csv",
+        "sha256": "2de48a2e4626dea873550738a957ffb76acad1bbbf418896e0ebd49d5be94c3e"
+      },
+      {
+        "path": "attached_files/task_7/01_pleadings/005_pleadings_source_export.json",
+        "sha256": "09a443d78daa3ce5b1ee56c5c5ccb582101b5c174ccbd913380e73dc08c3f5dd"
+      },
+      {
+        "path": "attached_files/task_7/01_pleadings/006_pleadings_source_export.xml",
+        "sha256": "0199702e2438d840d1d2463f3ee9bd6b812b1be93f222a78ffd0eadf57c1e281"
+      },
+      {
+        "path": "attached_files/task_7/01_pleadings/007_pleadings_source_export.html",
+        "sha256": "94f4f6c73c5031d31ff0cb3e83f355b9e143e9d71b7469821a7ffcf2df879c29"
+      },
+      {
+        "path": "attached_files/task_7/01_pleadings/008_pleadings_source_export.pdf",
+        "sha256": "a45396f0d74554ed3f8f9316839abfd6a4c546451cbf706fe2517d673115d6e1"
+      },
+      {
+        "path": "attached_files/task_7/02_orders/009_orders_source_export.md",
+        "sha256": "a6f83b970f7bbd2d41638253e3b63cb62b305539af5dd862dff532d4c09f1502"
+      },
+      {
+        "path": "attached_files/task_7/02_orders/010_orders_source_export.txt",
+        "sha256": "e023bdf5595e8041e89917b552ae32fb26dc435a98253d1a6ff05eca0397f285"
+      },
+      {
+        "path": "attached_files/task_7/02_orders/011_orders_source_export.eml",
+        "sha256": "56db1c768174e5393dc0de05759fdda2ffe4eac383601b47b261ad5addc9d4ae"
+      },
+      {
+        "path": "attached_files/task_7/02_orders/012_orders_source_export.csv",
+        "sha256": "85f93a776517a85167e42b37dca3f6704b643df561e916ad0dd7dfc5916f04f6"
+      },
+      {
+        "path": "attached_files/task_7/02_orders/013_orders_source_export.json",
+        "sha256": "647c895b42eb90e869d35011274956459f45774781cbe4d080e9a27a204bfaf3"
+      },
+      {
+        "path": "attached_files/task_7/02_orders/014_orders_source_export.xml",
+        "sha256": "e99cb87312fec086fa46cf03ca0fac2d99323e8711eeeced9a26154a19ec2548"
+      },
+      {
+        "path": "attached_files/task_7/02_orders/015_orders_source_export.html",
+        "sha256": "dd722584dd6101f006872c3d233fc7d141fe4c3cb233908e793208d391d63e91"
+      },
+      {
+        "path": "attached_files/task_7/02_orders/016_orders_source_export.pdf",
+        "sha256": "3e74b92e4c93af303362c96798ad7ad61f7f99a1e13e95fc96d4ddc579eedd5d"
+      },
+      {
+        "path": "attached_files/task_7/03_requests_responses/017_requests_responses_source_export.md",
+        "sha256": "891b28a09e3be21b4763dff00b6d183ada2850dbecd9edcb22b84de0c07ec226"
+      },
+      {
+        "path": "attached_files/task_7/03_requests_responses/018_requests_responses_source_export.txt",
+        "sha256": "8b70003b5b8a0ea0b879354045271ab45c4ebc26a22729ffe970689581f58a65"
+      },
+      {
+        "path": "attached_files/task_7/03_requests_responses/019_requests_responses_source_export.eml",
+        "sha256": "461b20d27287cdc6d16b212e6c47c57cd14d77f29c22d8f52075534f9a1bebb7"
+      },
+      {
+        "path": "attached_files/task_7/03_requests_responses/020_requests_responses_source_export.csv",
+        "sha256": "5fc7711fc22ab54c6be5e049ac59ba500dee743f29fa8787aa5fbfaa74ea17b7"
+      },
+      {
+        "path": "attached_files/task_7/03_requests_responses/021_requests_responses_source_export.json",
+        "sha256": "5d067edd5eecfbf8094b785e4d50e4fa886726b5fd98d4c68daaef0bf6039482"
+      },
+      {
+        "path": "attached_files/task_7/03_requests_responses/022_requests_responses_source_export.xml",
+        "sha256": "d70eb9ff64f073df516efa8f0acd15cdc25e5a74c92a0947915223b76f116ac9"
+      },
+      {
+        "path": "attached_files/task_7/03_requests_responses/023_requests_responses_source_export.html",
+        "sha256": "d21d1f814735dfda736c3b9e9d3caf6e762c1fc251672407529eaed51faaf57b"
+      },
+      {
+        "path": "attached_files/task_7/03_requests_responses/024_requests_responses_source_export.pdf",
+        "sha256": "696abfee49eb4b56abc41ceefc0dd2847aa9ded15d4d10c57b8b721981f069dd"
+      },
+      {
+        "path": "attached_files/task_7/04_custodian_files/025_custodian_files_source_export.md",
+        "sha256": "0966c888c7b91b874ad874112eb7ee540e70f4b02cefbddc6307716a16df7556"
+      },
+      {
+        "path": "attached_files/task_7/04_custodian_files/026_custodian_files_source_export.txt",
+        "sha256": "ba33af45f4d0c4c2a7d93668d987abb4d515699db3584bb90dc5b036cdb0f4b7"
+      },
+      {
+        "path": "attached_files/task_7/04_custodian_files/027_custodian_files_source_export.eml",
+        "sha256": "7b50bfb9d2a0d4c4a26fe4a73c1793229c3fc51c2092fa0e17ba8cc88e2a6cf7"
+      },
+      {
+        "path": "attached_files/task_7/04_custodian_files/028_custodian_files_source_export.csv",
+        "sha256": "f422bb074a8dff6a33d52563e5d6cef0ba4624e742062ebb00242425631bc220"
+      },
+      {
+        "path": "attached_files/task_7/04_custodian_files/029_custodian_files_source_export.json",
+        "sha256": "2721e529f515b04906869979cfdbcbcb1284959049223653f529edd994b2cfc8"
+      },
+      {
+        "path": "attached_files/task_7/04_custodian_files/030_custodian_files_source_export.xml",
+        "sha256": "3aba01f96350da8dabdfaf659066b2026b4236b3dd47271fffef3d6c9ad712a5"
+      },
+      {
+        "path": "attached_files/task_7/04_custodian_files/031_custodian_files_source_export.html",
+        "sha256": "09164ec9ada0001923fc183811c5c59528ef2d9108b4a33066e463b810dc4350"
+      },
+      {
+        "path": "attached_files/task_7/04_custodian_files/032_custodian_files_source_export.pdf",
+        "sha256": "0095255e945152ce9be2d9f778b614f14d37a170691536de031d3b0b8d8f50d2"
+      },
+      {
+        "path": "attached_files/task_7/05_email_families/033_email_families_source_export.md",
+        "sha256": "f42d8347ae470727b7dccd25b21762ab4e7a016a35ff2e5ab1a3ab35bb9f8e32"
+      },
+      {
+        "path": "attached_files/task_7/05_email_families/034_email_families_source_export.txt",
+        "sha256": "6b1fa4048cd3c936bbef2cf3e8dabc07bdd851a17e4e9e7ba3d1367056c6f6e1"
+      },
+      {
+        "path": "attached_files/task_7/05_email_families/035_email_families_source_export.eml",
+        "sha256": "3cf191e0a64ae0aacab45fa9ad1bd6cc0da27f15e0e512e88b0766ed576d38dd"
+      },
+      {
+        "path": "attached_files/task_7/05_email_families/036_email_families_source_export.csv",
+        "sha256": "158e34deba98e15e16b2d70589bc916698b151c3a791e060a3e61148966a64bf"
+      },
+      {
+        "path": "attached_files/task_7/05_email_families/037_email_families_source_export.json",
+        "sha256": "8327795418ef376c3d122cc57205db4a9ade71a35e210f26afbce175f33f231b"
+      },
+      {
+        "path": "attached_files/task_7/05_email_families/038_email_families_source_export.xml",
+        "sha256": "0aa56228a2dea87e67ac5667addbeea4731df563d6d43adcf1d9a286435fdc2c"
+      },
+      {
+        "path": "attached_files/task_7/05_email_families/039_email_families_source_export.html",
+        "sha256": "98b2c3dce52b75732e61a0f36f497d46d9fd70559e971f898719cb50f174697f"
+      },
+      {
+        "path": "attached_files/task_7/05_email_families/040_email_families_source_export.pdf",
+        "sha256": "4789d057e1f7e6a0c60773e4bb07ed30c16f97d606d7a2d8c44b9ef029385e7a"
+      },
+      {
+        "path": "attached_files/task_7/06_chat_exports/041_chat_exports_source_export.md",
+        "sha256": "fb9b58754a85337e72157983ff4f9ea5f22e76f1c7b999e5676c7d2c7c0fe8a0"
+      },
+      {
+        "path": "attached_files/task_7/06_chat_exports/042_chat_exports_source_export.txt",
+        "sha256": "91a167dd6c1b9080e44cf0fc4daeda443c48e56684357a058daef1686722f71c"
+      },
+      {
+        "path": "attached_files/task_7/06_chat_exports/043_chat_exports_source_export.eml",
+        "sha256": "1bea3f5b83de9eb364e8347fccdd54568e5ced97d2e80ab3896e0736b93e2c76"
+      },
+      {
+        "path": "attached_files/task_7/06_chat_exports/044_chat_exports_source_export.csv",
+        "sha256": "58994221e249cb8d2673a032519f0f6b5562075b97a3ad02fd8b4ea20d915b1e"
+      },
+      {
+        "path": "attached_files/task_7/06_chat_exports/045_chat_exports_source_export.json",
+        "sha256": "2b555e7c28d961f503e0eca925514b1ca059f4756c86854a0cd3a59bbade0ff7"
+      },
+      {
+        "path": "attached_files/task_7/06_chat_exports/046_chat_exports_source_export.xml",
+        "sha256": "9f19c335b5ed49e9271c5dc582e98f11d617f9f0549515f4f1a59c05adeb601e"
+      },
+      {
+        "path": "attached_files/task_7/06_chat_exports/047_chat_exports_source_export.html",
+        "sha256": "823b9bad6a3d3f99b635cbdc1899c747fd223cce5ac8a60e4baf24763b67f88c"
+      },
+      {
+        "path": "attached_files/task_7/06_chat_exports/048_chat_exports_source_export.pdf",
+        "sha256": "9fa5b11868bc7121e6b3f1d292464ee60774655125b39e8ebf11e39ab8d5abab"
+      },
+      {
+        "path": "attached_files/task_7/07_privilege_material/049_privilege_material_source_export.md",
+        "sha256": "164f36acaec26cbdefc44d449252288bf0a576b7fe8a90cb95c34cad5cf71b7e"
+      },
+      {
+        "path": "attached_files/task_7/07_privilege_material/050_privilege_material_source_export.txt",
+        "sha256": "65717b2bedb388077418b36130a9e732cf22598df41544f98af0a13e5fc38776"
+      },
+      {
+        "path": "attached_files/task_7/07_privilege_material/051_privilege_material_source_export.eml",
+        "sha256": "11511056f461d98b270d2dabb63611bccc86c12aa869d7f941de969b27065f41"
+      },
+      {
+        "path": "attached_files/task_7/07_privilege_material/052_privilege_material_source_export.csv",
+        "sha256": "8e8b4d085168ce4d51301e29cd717a0c61c5201bdf5bef0e44ec3ffa2dc3a191"
+      },
+      {
+        "path": "attached_files/task_7/07_privilege_material/053_privilege_material_source_export.json",
+        "sha256": "e7cb975c80f870193040df1e0232fe8f93c5b2451405b59fc440a53fffe4522a"
+      },
+      {
+        "path": "attached_files/task_7/07_privilege_material/054_privilege_material_source_export.xml",
+        "sha256": "6320c7ef3cd6934495ee92bea2a0f73b60da076d8c1609cec0a0bdeae855587f"
+      },
+      {
+        "path": "attached_files/task_7/07_privilege_material/055_privilege_material_source_export.html",
+        "sha256": "7dd4a25cc6e9e155d1d67da2067b6a3e2421c490683edb28a64f490ee80279f3"
+      },
+      {
+        "path": "attached_files/task_7/07_privilege_material/056_privilege_material_source_export.pdf",
+        "sha256": "f656788fe2e47ca867bb0905ca21bb3932b60aa59b430ac480fad900269404e8"
+      },
+      {
+        "path": "attached_files/task_7/08_production_logs/057_production_logs_source_export.md",
+        "sha256": "bd158b0674e9f49caf7cd6554697c09a1a659df45da387a5de97fc2793b708cc"
+      },
+      {
+        "path": "attached_files/task_7/08_production_logs/058_production_logs_source_export.txt",
+        "sha256": "8128fcbdc9915d2838b4c8fe4a63001ba95f7595e5f9723028ffbb179167ee3d"
+      },
+      {
+        "path": "attached_files/task_7/08_production_logs/059_production_logs_source_export.eml",
+        "sha256": "1ad9f9a21db5f6ad6210b3d725377f9c587e411d2a7cf0fb40cb89dad43a6eb7"
+      },
+      {
+        "path": "attached_files/task_7/08_production_logs/060_production_logs_source_export.csv",
+        "sha256": "3fa03bf822acbd4dc45c945255ed9013e3a0b19951b68ca84d652281c34193ae"
+      },
+      {
+        "path": "attached_files/task_7/08_production_logs/061_production_logs_source_export.json",
+        "sha256": "e92a7507ee61373e02a7db93ca359e4c9e9b7d40201eda4063d69b0924acbb9f"
+      },
+      {
+        "path": "attached_files/task_7/08_production_logs/062_production_logs_source_export.xml",
+        "sha256": "d92dd1f6a4cdbda44e25ad6c240119a0fac043921b66f5342c7c2f7f84a464a7"
+      },
+      {
+        "path": "attached_files/task_7/08_production_logs/063_production_logs_source_export.html",
+        "sha256": "00aef774dd2d2702abfbebcc3e79895121b866db683cc5ca598229c8e2b147fd"
+      },
+      {
+        "path": "attached_files/task_7/08_production_logs/064_production_logs_source_export.pdf",
+        "sha256": "2a910b2b4d85bf8cbf3ae88d15bb55db4dfe56aaa1b98a5970cdd111cfec5b09"
+      },
+      {
+        "path": "attached_files/task_7/09_depositions/065_depositions_source_export.md",
+        "sha256": "f3ebe3d55e1822233e505a810529b207b9549076c4a1c4c7fe4a65c3fae3d4dc"
+      },
+      {
+        "path": "attached_files/task_7/09_depositions/066_depositions_source_export.txt",
+        "sha256": "6aaeb696d6be9011de2b2df6af7a2e7c1aa6b77de81f4ed9e8ba9b44ac2e9785"
+      },
+      {
+        "path": "attached_files/task_7/09_depositions/067_depositions_source_export.eml",
+        "sha256": "b273a56c126b1f27973f5a930ce91839fc594aa65bf54bf475a9bdd0cc32f724"
+      },
+      {
+        "path": "attached_files/task_7/09_depositions/068_depositions_source_export.csv",
+        "sha256": "f58727b159710a6db75712947c53890a352d1c8b49c081e2726cee524f3a7cb6"
+      },
+      {
+        "path": "attached_files/task_7/09_depositions/069_depositions_source_export.json",
+        "sha256": "b2d8be2060e36e63b98f9e0e018a6804e0b0dc15eec3f53ee37b56f363f216fd"
+      },
+      {
+        "path": "attached_files/task_7/09_depositions/070_depositions_source_export.xml",
+        "sha256": "ae32e9eb306be426c1114c537bbaca1807f13c4160a03ecb25bbda37fbf6f0c1"
+      },
+      {
+        "path": "attached_files/task_7/09_depositions/071_depositions_source_export.html",
+        "sha256": "15dfc31909f1b7bc52b40eb3d21924cb6b484321974f7953ab7159ab6c903ec5"
+      },
+      {
+        "path": "attached_files/task_7/09_depositions/072_depositions_source_export.pdf",
+        "sha256": "90c5898e51dab343e58e403048ef0fca0f31f0c58d9f90f68df0bcb619484c47"
+      },
+      {
+        "path": "attached_files/task_7/10_expert_material/073_expert_material_source_export.md",
+        "sha256": "e3f0cc82ba332e3da4f0160ba3566aad9b1c2c5995da833901bca9e632154923"
+      },
+      {
+        "path": "attached_files/task_7/10_expert_material/074_expert_material_source_export.txt",
+        "sha256": "480df969cf60cfab7a4f114c384f4caec7e6e58f5a6e6e60c35e2c1bf06606d4"
+      },
+      {
+        "path": "attached_files/task_7/10_expert_material/075_expert_material_source_export.eml",
+        "sha256": "1b5cbc2b2582f4fd4396d8375e441873b6493241b2e5f8bb17b3d8afd2f7c882"
+      },
+      {
+        "path": "attached_files/task_7/10_expert_material/076_expert_material_source_export.csv",
+        "sha256": "c08d71689a95bca44d745d911fd6756917a8a72e34d9f1b249601025f71ccd1f"
+      },
+      {
+        "path": "attached_files/task_7/10_expert_material/077_expert_material_source_export.json",
+        "sha256": "a4b7743b4c843d7f5c649c7832c73e553154e0f2efbb08c40c19038bc104ef0f"
+      },
+      {
+        "path": "attached_files/task_7/10_expert_material/078_expert_material_source_export.xml",
+        "sha256": "cbe0c25b540c66541218d5dce2f0bdb6cb2b42f33798590594d18e84d9941977"
+      },
+      {
+        "path": "attached_files/task_7/10_expert_material/079_expert_material_source_export.html",
+        "sha256": "875f336b6671a4c809ea3c0d262c117536c2cb4f12a863558aed034980339399"
+      },
+      {
+        "path": "attached_files/task_7/10_expert_material/080_expert_material_source_export.pdf",
+        "sha256": "eb25613e87da6a9260fb2ac85952b1ceac9e96c6b28a804889b12d0b6382ae09"
+      },
+      {
+        "path": "attached_files/task_7/11_third_party/081_third_party_source_export.md",
+        "sha256": "523015cacc6be33b319f45bf7db5b07d910219568f01a21f0c53536ce5e9daea"
+      },
+      {
+        "path": "attached_files/task_7/11_third_party/082_third_party_source_export.txt",
+        "sha256": "818ea1fb7d601f0ead9ef1f712b5e9df6a21b9c129c1a0af0811db5dba2b5f3c"
+      },
+      {
+        "path": "attached_files/task_7/11_third_party/083_third_party_source_export.eml",
+        "sha256": "1ab09d98d6b2b1885ccfdcc2d7544484c12ef7d829a98856e5b22a6cb1230259"
+      },
+      {
+        "path": "attached_files/task_7/11_third_party/084_third_party_source_export.csv",
+        "sha256": "bd6417e3a538ee0cf1badde12dfd0942fd5d532daf52d7e5b970be70d780d537"
+      },
+      {
+        "path": "attached_files/task_7/11_third_party/085_third_party_source_export.json",
+        "sha256": "fc3bff7e3c4ca50372b737cdf58a0ef458091247f12971b32ab27d88cb455e13"
+      },
+      {
+        "path": "attached_files/task_7/11_third_party/086_third_party_source_export.xml",
+        "sha256": "70b3da1efa168bf24666d5e7dfe772c70f676e5f7e22a0672e2a8de4e301a1a8"
+      },
+      {
+        "path": "attached_files/task_7/11_third_party/087_third_party_source_export.html",
+        "sha256": "ae2d825bea10c62afdf6ab33a14da763bdaf15fd4bda72da6a51c49a242e0866"
+      },
+      {
+        "path": "attached_files/task_7/11_third_party/088_third_party_source_export.pdf",
+        "sha256": "df97fcf4f6359b07aee01996272445bd3711464c4b35bb81f18a64010183e177"
+      },
+      {
+        "path": "attached_files/task_7/12_case_management/089_case_management_source_export.md",
+        "sha256": "36cc90bb59c5c87992cb70d4de33a2ed5f04164cde3b434ccbd6154cbbdecb73"
+      },
+      {
+        "path": "attached_files/task_7/12_case_management/090_case_management_source_export.txt",
+        "sha256": "130a3024d20b3b54ae50cd4e6ed324b1dbf600375ecfc4edc26ff006b5893f7a"
+      },
+      {
+        "path": "attached_files/task_7/12_case_management/091_case_management_source_export.eml",
+        "sha256": "c2cd7cb4a3f118ed69ec612508626f15099ece68d8c275c5f4c5894891838564"
+      },
+      {
+        "path": "attached_files/task_7/12_case_management/092_case_management_source_export.csv",
+        "sha256": "2a06b6d31124e632c623f8831dd5966ef8a3552974a23ee354526066cec1e324"
+      },
+      {
+        "path": "attached_files/task_7/12_case_management/093_case_management_source_export.json",
+        "sha256": "2f3d0336b625b2a2fd4aef8ad6234718c017badee0b1248faf3f236347c9f609"
+      },
+      {
+        "path": "attached_files/task_7/12_case_management/094_case_management_source_export.xml",
+        "sha256": "1f941cc970015a131e9d0885fd12f62e72aab6f44d901764395f5948e7f89165"
+      },
+      {
+        "path": "attached_files/task_7/12_case_management/095_case_management_source_export.html",
+        "sha256": "f1627e78c6d9871bbfa87972ba4446b4c1fc5eae3f9c96fdf7a1d6acb0354996"
+      },
+      {
+        "path": "attached_files/task_7/12_case_management/096_case_management_source_export.pdf",
+        "sha256": "3013e6cae7693b8203b14bf68ffe7508e6ff0e8b09bdab9f6310046611d12bad"
+      },
+      {
+        "path": "attached_files/task_7/12_case_management/097_aurora_antitrust_impact_population.xlsx",
+        "sha256": "6cfe120fc7bc360f278315a8f4a3c76ce1c4a85626b54d83c34a8653d58b1a4a"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": 8,
+    "original_id": 11,
+    "group_id": "G-legal-cb100-061",
+    "status": "baseline_attachment",
+    "source_links": [],
+    "files": [
+      {
+        "path": "attached_files/task_8/01_data_inventory/001_data_inventory_source_export.md",
+        "sha256": "e5a387af566eaa1526cd79eb9513cbdfe220a40c3a680b19dd23a220f855ca30"
+      },
+      {
+        "path": "attached_files/task_8/01_data_inventory/002_data_inventory_source_export.txt",
+        "sha256": "2c61e0d7f2b39598c049e70b276b12b550e33fa32ee7ea888b9a9b9ec3714344"
+      },
+      {
+        "path": "attached_files/task_8/01_data_inventory/003_data_inventory_source_export.eml",
+        "sha256": "00b7ebe023a70f43117fbcfba52fc1ae7b18eb7fe1587dfd876ebb89df4eb073"
+      },
+      {
+        "path": "attached_files/task_8/01_data_inventory/004_data_inventory_source_export.csv",
+        "sha256": "375fb3c3628f8d2eb2b4925be15b1769acad85c610695e2f8bcea081781ddd8d"
+      },
+      {
+        "path": "attached_files/task_8/01_data_inventory/005_data_inventory_source_export.json",
+        "sha256": "21c3e990e23f48d147060c9e0d2240344a0dbed1a5027a740405cad02fed2237"
+      },
+      {
+        "path": "attached_files/task_8/01_data_inventory/006_data_inventory_source_export.xml",
+        "sha256": "c9d999ab0b78f62cdc9f8c2bcd77eea67c00d8629a6a90493352a81eedb61660"
+      },
+      {
+        "path": "attached_files/task_8/01_data_inventory/007_data_inventory_source_export.html",
+        "sha256": "025add6c1c0ef3d33027c51221dad2be73c35c0e99f55263fd39dfc89aa29aa0"
+      },
+      {
+        "path": "attached_files/task_8/01_data_inventory/008_data_inventory_source_export.pdf",
+        "sha256": "356d92215f015b9c18ed5b183eeb2eca1549a43a07b25e9620651cf30f336cf6"
+      },
+      {
+        "path": "attached_files/task_8/02_processing_records/009_processing_records_source_export.md",
+        "sha256": "ed652495af99ae5bfb17ca6c0c8c581697780d145b20f9e6a92df8513ba1cc98"
+      },
+      {
+        "path": "attached_files/task_8/02_processing_records/010_processing_records_source_export.txt",
+        "sha256": "86d38dd896059395eb6d025a12f1364b9533feba01a13f8939718cdc2b073d39"
+      },
+      {
+        "path": "attached_files/task_8/02_processing_records/011_processing_records_source_export.eml",
+        "sha256": "512050084e12f7418a0cdcb32af5d37567d54100e28aff676b64d486c761f7b4"
+      },
+      {
+        "path": "attached_files/task_8/02_processing_records/012_processing_records_source_export.csv",
+        "sha256": "d6a190c456df44a49863b58d8c7d9e4ffafbdbb1e87ded1986cc4cf3a3dd68b4"
+      },
+      {
+        "path": "attached_files/task_8/02_processing_records/013_processing_records_source_export.json",
+        "sha256": "397b318218dc195c1081a19626ee82551c80d2c7e55c208cba9a7ba2151dd332"
+      },
+      {
+        "path": "attached_files/task_8/02_processing_records/014_processing_records_source_export.xml",
+        "sha256": "ab81879faa7d0e40ad0326bae1518316771ddc7b2e48ccf483f2b5e07c104838"
+      },
+      {
+        "path": "attached_files/task_8/02_processing_records/015_processing_records_source_export.html",
+        "sha256": "e81546d2236f64d19fdfc8b816a5abbddf81b2a66116d76b90244f9b6a606f0d"
+      },
+      {
+        "path": "attached_files/task_8/02_processing_records/016_processing_records_source_export.pdf",
+        "sha256": "e48b931058c61dba6f33999eed02f43478ad3987aa86b2fe7e99e79c0f6189ad"
+      },
+      {
+        "path": "attached_files/task_8/03_vendor_reviews/017_vendor_reviews_source_export.md",
+        "sha256": "74bc841dc551e0a6ff3b4c03826b50369be5aaf21408d780239fee534ef5530b"
+      },
+      {
+        "path": "attached_files/task_8/03_vendor_reviews/018_vendor_reviews_source_export.txt",
+        "sha256": "52f92affcb9dda3a1d2081e48d85d50ba6ca54fbed7e9fa87d81d5ed2740751f"
+      },
+      {
+        "path": "attached_files/task_8/03_vendor_reviews/019_vendor_reviews_source_export.eml",
+        "sha256": "14787157e05e8f30348dba7ba4c561f90bb9d1c0b33d0e0f1f1403bbc0b3fae4"
+      },
+      {
+        "path": "attached_files/task_8/03_vendor_reviews/020_vendor_reviews_source_export.csv",
+        "sha256": "b568730c42250817c4b2fbaae1adf6f9ec220c54523f233392b6d72a260dd0f0"
+      },
+      {
+        "path": "attached_files/task_8/03_vendor_reviews/021_vendor_reviews_source_export.json",
+        "sha256": "49ab6eb9a2586798e77e7339ae2e8e182d0689ebefd21e5f08e9412d58ecc522"
+      },
+      {
+        "path": "attached_files/task_8/03_vendor_reviews/022_vendor_reviews_source_export.xml",
+        "sha256": "0d33a8296e76207ea8596a990d0ed8620bf9e60e55076079e1106dbd28f8fd1b"
+      },
+      {
+        "path": "attached_files/task_8/03_vendor_reviews/023_vendor_reviews_source_export.html",
+        "sha256": "6677df51003ffc440bd0669145a0f8071999bcc9c50ecdfc2c4057316d96fe1a"
+      },
+      {
+        "path": "attached_files/task_8/03_vendor_reviews/024_vendor_reviews_source_export.pdf",
+        "sha256": "d5d3ad9ef1876eef94638c05cbb59549c9bc979d3cf3a43495611cd486994a9e"
+      },
+      {
+        "path": "attached_files/task_8/04_security_incidents/025_security_incidents_source_export.md",
+        "sha256": "9e1a43ea7b5488bc0db5b89a910d293a8c0b5ace85c5fb15f5fcd4a72a30f963"
+      },
+      {
+        "path": "attached_files/task_8/04_security_incidents/026_security_incidents_source_export.txt",
+        "sha256": "f638ada0ee15999a5bb2188f29d37925f9439bb50ff2e7c72ff3b8c8dc6a35b6"
+      },
+      {
+        "path": "attached_files/task_8/04_security_incidents/027_security_incidents_source_export.eml",
+        "sha256": "6219b8fc1c89a94925a5b6012fac61f6dc8ae67e636685bddce4051c0d8b884a"
+      },
+      {
+        "path": "attached_files/task_8/04_security_incidents/028_security_incidents_source_export.csv",
+        "sha256": "934fc0639c9ee9744aeffe4ebb5f08c6aa68123837f1354052f0a86bb6674c0f"
+      },
+      {
+        "path": "attached_files/task_8/04_security_incidents/029_security_incidents_source_export.json",
+        "sha256": "1bfaad001eab8aaeccfa55a01735c339c6abc7ed32e568492bdf5c2455207d06"
+      },
+      {
+        "path": "attached_files/task_8/04_security_incidents/030_security_incidents_source_export.xml",
+        "sha256": "d3b4e28b4651bd18c69d2dcc39add6626adea4db4417cd0f89b60c46574dca15"
+      },
+      {
+        "path": "attached_files/task_8/04_security_incidents/031_security_incidents_source_export.html",
+        "sha256": "75b6299f38e89da9b88bd8f8df0046895f16fa22b1275e15de3ccc60f0b15f93"
+      },
+      {
+        "path": "attached_files/task_8/04_security_incidents/032_security_incidents_source_export.pdf",
+        "sha256": "adda68ac0162360bb3b43bcf837451128be68f502167f5b1a7c942bc0b51165e"
+      },
+      {
+        "path": "attached_files/task_8/05_consumer_requests/033_consumer_requests_source_export.md",
+        "sha256": "46c175ebfebae7d72cd95230816e46b53f41b24f774ca376364b7ff36ec427a9"
+      },
+      {
+        "path": "attached_files/task_8/05_consumer_requests/034_consumer_requests_source_export.txt",
+        "sha256": "e69c50ff55999235a8e4e637685482f15f97acc6ca5bc81162fa80b9b2128a64"
+      },
+      {
+        "path": "attached_files/task_8/05_consumer_requests/035_consumer_requests_source_export.eml",
+        "sha256": "5f733ec1251404a68b9331b291acb17eb7beb7476a3c007ee42193695b9f8988"
+      },
+      {
+        "path": "attached_files/task_8/05_consumer_requests/036_consumer_requests_source_export.csv",
+        "sha256": "70076635caab76394c8f560b78d4a4cd8a12e137ae7eba708ee5ac4a12a14d0f"
+      },
+      {
+        "path": "attached_files/task_8/05_consumer_requests/037_consumer_requests_source_export.json",
+        "sha256": "0bde4212a6c45452ae24c23b8effe5ed21ecaa48fd0a766e125697fa2ee8b754"
+      },
+      {
+        "path": "attached_files/task_8/05_consumer_requests/038_consumer_requests_source_export.xml",
+        "sha256": "d1fda76ec5c88a35326762703416e60d78a8b6a68b4ea7a874f0a27a9fefdd4d"
+      },
+      {
+        "path": "attached_files/task_8/05_consumer_requests/039_consumer_requests_source_export.html",
+        "sha256": "a034617ad9ab20d187311ac54b03dae759864ca5d64bd34e442b85c7de48b36a"
+      },
+      {
+        "path": "attached_files/task_8/05_consumer_requests/040_consumer_requests_source_export.pdf",
+        "sha256": "26808b720822189d8ddcccd353946584ac4e5d58335508bfc33e8169652354b5"
+      },
+      {
+        "path": "attached_files/task_8/06_notices_consents/041_notices_consents_source_export.md",
+        "sha256": "34264e17411a4605f48c2b524b20952653f95b64a2fb0c8c2cb53a6eaf3e0d6e"
+      },
+      {
+        "path": "attached_files/task_8/06_notices_consents/042_notices_consents_source_export.txt",
+        "sha256": "1c9d4e55a3ce871a6d7a29d0f3adaddf07ec97ff6a370624842246b613cf37bf"
+      },
+      {
+        "path": "attached_files/task_8/06_notices_consents/043_notices_consents_source_export.eml",
+        "sha256": "c46a4bd641f165d8556f8dcaf851362b2d3788170bc64add075dea3b1fe1ad0f"
+      },
+      {
+        "path": "attached_files/task_8/06_notices_consents/044_notices_consents_source_export.csv",
+        "sha256": "48395c876eaf35a165054ce0cbe90f963c287183af397623ca6ea002dbd00f72"
+      },
+      {
+        "path": "attached_files/task_8/06_notices_consents/045_notices_consents_source_export.json",
+        "sha256": "4789e3442b45ce6285553048432e562e7bb78316d20e227b970301ee16bb8fef"
+      },
+      {
+        "path": "attached_files/task_8/06_notices_consents/046_notices_consents_source_export.xml",
+        "sha256": "dcec2e4059c9d5ae04f68abb452bad63abf79e585a88b7228266f6d5296a08aa"
+      },
+      {
+        "path": "attached_files/task_8/06_notices_consents/047_notices_consents_source_export.html",
+        "sha256": "9c2632d416e2aabb684a99c5826825fa0bf99cf84a17afd79b1d5667e895dfd5"
+      },
+      {
+        "path": "attached_files/task_8/06_notices_consents/048_notices_consents_source_export.pdf",
+        "sha256": "f8e20c033c4b878568400cc1cfd62140272e34f09b60f58ebf9614bde1fa6c52"
+      },
+      {
+        "path": "attached_files/task_8/07_transfer_mechanisms/049_transfer_mechanisms_source_export.md",
+        "sha256": "3344ee7719d44a7d8452c39a7e809415fe4c62adbba73a5e71ce33c93a795074"
+      },
+      {
+        "path": "attached_files/task_8/07_transfer_mechanisms/050_transfer_mechanisms_source_export.txt",
+        "sha256": "c31b7499c6a34197bd2e8cb4dc24d9296700b42745da5f436a2755e349554311"
+      },
+      {
+        "path": "attached_files/task_8/07_transfer_mechanisms/051_transfer_mechanisms_source_export.eml",
+        "sha256": "e640cc629b0d36ddf700e9fbd33e39e22cb092be2e4dfcf67ee7276415f37fc0"
+      },
+      {
+        "path": "attached_files/task_8/07_transfer_mechanisms/052_transfer_mechanisms_source_export.csv",
+        "sha256": "13d993ed230d6adb6043df0f1a5ec3c72f77d6e06338c9dd07d812fe59f9f22f"
+      },
+      {
+        "path": "attached_files/task_8/07_transfer_mechanisms/053_transfer_mechanisms_source_export.json",
+        "sha256": "17bd1172905ec61bb3197415234075831033b4d053d8e068f7d97bce2a4dcc7d"
+      },
+      {
+        "path": "attached_files/task_8/07_transfer_mechanisms/054_transfer_mechanisms_source_export.xml",
+        "sha256": "5d0a52021de78ebdd1797e5a4d34a441423417e85bfb2d707208248d778ec7fd"
+      },
+      {
+        "path": "attached_files/task_8/07_transfer_mechanisms/055_transfer_mechanisms_source_export.html",
+        "sha256": "39b13b2b24d6c96bd130da0bc416d0c0caa517245b052035d4f0255c1121eafe"
+      },
+      {
+        "path": "attached_files/task_8/07_transfer_mechanisms/056_transfer_mechanisms_source_export.pdf",
+        "sha256": "fada605c831d273f2504bb0f40fc854bc1c7976cf0ca0487acf8a34c641a7e64"
+      },
+      {
+        "path": "attached_files/task_8/08_retention_deletion/057_retention_deletion_source_export.md",
+        "sha256": "bf505d262df7de2326c21fc9db40626ad8aa863a2e8ebba3596a26e98172d634"
+      },
+      {
+        "path": "attached_files/task_8/08_retention_deletion/058_retention_deletion_source_export.txt",
+        "sha256": "22e63516ba678c6426eb0aeaa1b6fcce75caa976ee07985ae0f7621b46f63b48"
+      },
+      {
+        "path": "attached_files/task_8/08_retention_deletion/059_retention_deletion_source_export.eml",
+        "sha256": "e8bf4d27f86546c8c5e239e2ef3a52481a0130da3b8c24e081d9b54d5958f91a"
+      },
+      {
+        "path": "attached_files/task_8/08_retention_deletion/060_retention_deletion_source_export.csv",
+        "sha256": "5f34f870c20e8c931a42aaf3c1ec7d9d3f7c24d146a1c6c486b7d8b260df2258"
+      },
+      {
+        "path": "attached_files/task_8/08_retention_deletion/061_retention_deletion_source_export.json",
+        "sha256": "49f426f59b63ee7d9ae6a5b446518a2c07a1c117a2b49721f6d781d2bdc1f252"
+      },
+      {
+        "path": "attached_files/task_8/08_retention_deletion/062_retention_deletion_source_export.xml",
+        "sha256": "d0ed2bef09aeb96517ff280b60ae981ecce42ceb23a47dfbf4d428b7c0f1e48d"
+      },
+      {
+        "path": "attached_files/task_8/08_retention_deletion/063_retention_deletion_source_export.html",
+        "sha256": "19a91c98efb2e4c8d2ddbeae7e6b75d1a3b9818525d03fb6d0ea8fe6f4aad2cf"
+      },
+      {
+        "path": "attached_files/task_8/08_retention_deletion/064_retention_deletion_source_export.pdf",
+        "sha256": "dbe229db7a5c098ccc1001fff093fa25083f866f997e3de2e84cdb0861a97952"
+      },
+      {
+        "path": "attached_files/task_8/09_training/065_training_source_export.md",
+        "sha256": "19b28ae456628c550ab7340630f8089b388ffa564115f5a9bc757668b7bc07d2"
+      },
+      {
+        "path": "attached_files/task_8/09_training/066_training_source_export.txt",
+        "sha256": "e25859fe739cdb3cb07583c7de1efdfe6dcbb813cf861b3b445a351627e85afe"
+      },
+      {
+        "path": "attached_files/task_8/09_training/067_training_source_export.eml",
+        "sha256": "23033878b701c08f30b76dab14ff018017e3f1fc2bab689e72dbebead79ecc4d"
+      },
+      {
+        "path": "attached_files/task_8/09_training/068_training_source_export.csv",
+        "sha256": "7cac0c3b05166a654c6a63b24fa0508bd02565bdf870e89cb7e9b45275e4dc2d"
+      },
+      {
+        "path": "attached_files/task_8/09_training/069_training_source_export.json",
+        "sha256": "e39e2fa79c1369107c07b83bc6d93663fb422d1ea5995738b4c1f13a9e7a41e7"
+      },
+      {
+        "path": "attached_files/task_8/09_training/070_training_source_export.xml",
+        "sha256": "fb0215d3eefff3fb5f0763528573f7b87239e2ae9fae36b8220b19ea1b418a0f"
+      },
+      {
+        "path": "attached_files/task_8/09_training/071_training_source_export.html",
+        "sha256": "12fa7a98a5f9dddea3da7bddd13b474b34a8b2ed7d3df0a7b23282bd3df89db8"
+      },
+      {
+        "path": "attached_files/task_8/09_training/072_training_source_export.pdf",
+        "sha256": "0148989d4df241bb3572b829107e1cd9e3d97ddf3c843dd895bf3f710182027f"
+      },
+      {
+        "path": "attached_files/task_8/10_regulator_correspondence/073_regulator_correspondence_source_export.md",
+        "sha256": "5ad927c97e6b4c0f09d5f45feec674c876472b8eac0a8dd1f14dccdeaae4a1c1"
+      },
+      {
+        "path": "attached_files/task_8/10_regulator_correspondence/074_regulator_correspondence_source_export.txt",
+        "sha256": "c1ee84d205240c5216c35b1f7e9376cfe2be1d30a6fe3db7fad2c83d41a421af"
+      },
+      {
+        "path": "attached_files/task_8/10_regulator_correspondence/075_regulator_correspondence_source_export.eml",
+        "sha256": "e14a2830a60f1a4115001e00a753b465ca76f8269775340b87e42d06fa0b1087"
+      },
+      {
+        "path": "attached_files/task_8/10_regulator_correspondence/076_regulator_correspondence_source_export.csv",
+        "sha256": "bb39c92a4b776879c076c64e9d8e828ee81e709d68399a7f9246f86a17190f2e"
+      },
+      {
+        "path": "attached_files/task_8/10_regulator_correspondence/077_regulator_correspondence_source_export.json",
+        "sha256": "518aa63516bee1924f64fcc39806b09c7c2fc33865959d2da87576c8a0090af6"
+      },
+      {
+        "path": "attached_files/task_8/10_regulator_correspondence/078_regulator_correspondence_source_export.xml",
+        "sha256": "2b9ee6b0a962855d892ee9a5d6e98ebac9d37b92b8ac10b4db6981e5d0834fa2"
+      },
+      {
+        "path": "attached_files/task_8/10_regulator_correspondence/079_regulator_correspondence_source_export.html",
+        "sha256": "384bda5cf1279a22a05591ba1daa1fcae4f850232d3fa3a0875cd10eb889b679"
+      },
+      {
+        "path": "attached_files/task_8/10_regulator_correspondence/080_regulator_correspondence_source_export.pdf",
+        "sha256": "0e1f9c563e445abb1c3a2d8081522d078f5498d0a2af7af6cfc0fcae62cd03e0"
+      },
+      {
+        "path": "attached_files/task_8/11_risk_assessments/081_risk_assessments_source_export.md",
+        "sha256": "837269ffb0d3f1e3518d221a0e06b939de57bed8ab4b39125624e2927ebe84c9"
+      },
+      {
+        "path": "attached_files/task_8/11_risk_assessments/082_risk_assessments_source_export.txt",
+        "sha256": "6637652b5bf95cdfb16a64113abd5c9da315f3442757ec1121277b240b80575f"
+      },
+      {
+        "path": "attached_files/task_8/11_risk_assessments/083_risk_assessments_source_export.eml",
+        "sha256": "6eb21b1082f381a84837a69cb4e8239051622a8dd90150f334ce09bee8e51066"
+      },
+      {
+        "path": "attached_files/task_8/11_risk_assessments/084_risk_assessments_source_export.csv",
+        "sha256": "f505fec5f1270984a9501f362929ae674f180a3be0809215a1e99f53c248071e"
+      },
+      {
+        "path": "attached_files/task_8/11_risk_assessments/085_risk_assessments_source_export.json",
+        "sha256": "b598389e52ae7a30b8277b38998ec002f59be9288a9e1614600cc8c296057391"
+      },
+      {
+        "path": "attached_files/task_8/11_risk_assessments/086_risk_assessments_source_export.xml",
+        "sha256": "c5c9a9317819c319aaa043a41e52c4f133041be64cc229915a1ee21aaba55232"
+      },
+      {
+        "path": "attached_files/task_8/11_risk_assessments/087_risk_assessments_source_export.html",
+        "sha256": "37cda3a8a7806a236080a74e6c2c01b1f61ea9399db1208ba2adbe89186417ae"
+      },
+      {
+        "path": "attached_files/task_8/11_risk_assessments/088_risk_assessments_source_export.pdf",
+        "sha256": "e631ed2cff3675b1134e23f247f284792c9dab624f9fa6dd0dce440bc46405f4"
+      },
+      {
+        "path": "attached_files/task_8/12_remediation/089_remediation_source_export.md",
+        "sha256": "347ea26709130a11f768c4625dac13200a31925168046ba0a23b680d3c83667e"
+      },
+      {
+        "path": "attached_files/task_8/12_remediation/090_remediation_source_export.txt",
+        "sha256": "58a5ff9bb925a32982e6383d0cc097aab1fdc244ec940d089c1bcf8813326ac1"
+      },
+      {
+        "path": "attached_files/task_8/12_remediation/091_remediation_source_export.eml",
+        "sha256": "d070d0fb976a69d713f7ad0e57ee896ac91f674f72ed2c682c369f942abe8c46"
+      },
+      {
+        "path": "attached_files/task_8/12_remediation/092_remediation_source_export.csv",
+        "sha256": "cf1048df4880d1fd395cd9fa2d9e4d258c1a54aa60beacd1e67751d08491fe9c"
+      },
+      {
+        "path": "attached_files/task_8/12_remediation/093_remediation_source_export.json",
+        "sha256": "4fc5d923320d37b0a5f059335e9f95119344ecde3409eb1cab462145057be97b"
+      },
+      {
+        "path": "attached_files/task_8/12_remediation/094_remediation_source_export.xml",
+        "sha256": "c646875d34538db0f73c91ba4ac9949347a22eec5fbcc26c7f54d644cadec96c"
+      },
+      {
+        "path": "attached_files/task_8/12_remediation/095_remediation_source_export.html",
+        "sha256": "81572e56f764fe9be8ec79c5cafc0ccafb05bb21154a5e0fab35fd74ebeb283c"
+      },
+      {
+        "path": "attached_files/task_8/12_remediation/096_remediation_source_export.pdf",
+        "sha256": "4e4644b07639085bd569d5740381ed3bf57824a632f9d1249990aa10d1b35942"
+      },
+      {
+        "path": "attached_files/task_8/12_remediation/097_arcadia_genomics_impact_population.xlsx",
+        "sha256": "d7d4bd894ccf11328161d6075591440b18e68d35947c7040d80766caeb6baea9"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": 9,
+    "original_id": 15,
+    "group_id": "G-financial-fb-03029",
+    "status": "baseline_attachment",
+    "source_links": [],
+    "files": [
+      {
+        "path": "attached_files/task_9/3M_2018_10K.pdf",
+        "sha256": "faf10c53fc6f1a8aa346ec3db79145e3ae6fbb3753c8064924e174d0a973934d"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": 10,
+    "original_id": 16,
+    "group_id": "G-financial-fb-06655",
+    "status": "baseline_attachment",
+    "source_links": [],
+    "files": [
+      {
+        "path": "attached_files/task_10/AMAZON_2017_10K.pdf",
+        "sha256": "f8af08ff6c4147351ec3a6e5e2c74e104678ce68fb0d6d476b1e43f685c09a3f"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": 11,
+    "original_id": 17,
+    "group_id": "G-financial-fb-00206",
+    "status": "baseline_attachment",
+    "source_links": [],
+    "files": [
+      {
+        "path": "attached_files/task_11/JPMORGAN_2022_10K.pdf",
+        "sha256": "c269899950f36edfa496e3c8447a51d86d0a206442a96dc24dcd9317d55b957c"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": 12,
+    "original_id": 18,
+    "group_id": "G-research-query-008",
+    "status": "no_attachment_in_input",
+    "source_links": [],
+    "files": [],
+    "note": ""
+  },
+  {
+    "id": 13,
+    "original_id": 19,
+    "group_id": "G-research-query-032",
+    "status": "no_attachment_in_input",
+    "source_links": [],
+    "files": [],
+    "note": ""
+  },
+  {
+    "id": 14,
+    "original_id": 20,
+    "group_id": "G-research-query-097",
+    "status": "no_attachment_in_input",
+    "source_links": [],
+    "files": [],
+    "note": ""
+  },
+  {
+    "id": 15,
+    "original_id": 21,
+    "group_id": "G-kline-001",
+    "status": "no_attachment_in_input",
+    "source_links": [],
+    "files": [],
+    "note": ""
+  },
+  {
+    "id": 16,
+    "original_id": 22,
+    "group_id": "G-search-001",
+    "status": "no_attachment_in_input",
+    "source_links": [],
+    "files": [],
+    "note": ""
+  },
+  {
+    "id": 17,
+    "original_id": 23,
+    "group_id": "G-code-001",
+    "status": "baseline_attachment",
+    "source_links": [],
+    "files": [
+      {
+        "path": "attached_files/task_17/src/core/parser.py",
+        "sha256": "449e7f966fef7ffb117aabe7eb90f577697364e42ea9dc21eabe67faf232f569"
+      }
+    ],
+    "note": "输入引用的 parser.py 位置已按 baseline 实际文件修正为 src/core/parser.py。"
+  },
+  {
+    "id": 18,
+    "original_id": 24,
+    "original_group_id": "G-coding-candidate-001",
+    "original_user_query": "修复一个 Python CSV 导入模块：当输入文件仅有表头时，程序不应抛出异常，而应返回空记录集合；保留现有非空文件行为。",
+    "group_id": "G-swebench-verified-astropy__astropy-14182",
+    "status": "paired_benchmark_task",
+    "files": [
+      {
+        "path": "attached_files/task_18/repository.tar.gz",
+        "sha256": "3e1451f706d34fbe39e5925ca978054e1d1fc65efb3441854c54f189c9c9eb91",
+        "bytes": 8177057,
+        "source_url": "https://codeload.github.com/astropy/astropy/tar.gz/a5917978be39d13cd90b517e1de4e7a539ffaa48"
+      },
+      {
+        "path": "attached_files/task_18/problem_statement.md",
+        "sha256": "2f743a72613ab0e8e063ff7b7f0a233015ad12ba14992625d9f84b315fa885fd",
+        "bytes": 1871,
+        "source_url": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified"
+      },
+      {
+        "path": "attached_files/task_18/environment.json",
+        "sha256": "d68129b2f68911c4364e9e52da7788f2c9ee7f8d2fa4411bbb03913a51e53424",
+        "bytes": 498
+      }
+    ],
+    "benchmark": "SWE-bench Verified",
+    "source_instance_id": "astropy__astropy-14182",
+    "base_commit": "a5917978be39d13cd90b517e1de4e7a539ffaa48",
+    "source_links": [
+      "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified",
+      "https://github.com/astropy/astropy/pull/14182",
+      "https://github.com/astropy/astropy/tree/a5917978be39d13cd90b517e1de4e7a539ffaa48"
+    ],
+    "evaluation_path": "evaluation_only/task_18/swebench_instance.json",
+    "verification": {
+      "repository_files": 1877,
+      "test_patch_applies": true,
+      "reference_patch_applies": true,
+      "fail_to_pass_count": 1,
+      "pass_to_pass_count": 9
+    }
+  },
+  {
+    "id": 19,
+    "original_id": 25,
+    "original_group_id": "G-coding-candidate-002",
+    "original_user_query": "修复一个 Web 服务中的分页接口：当 page_size 超出允许范围时返回明确的参数错误，不得默默截断数据；添加边界测试。",
+    "group_id": "G-swebench-verified-django__django-9296",
+    "status": "paired_benchmark_task",
+    "files": [
+      {
+        "path": "attached_files/task_19/repository.tar.gz",
+        "sha256": "a11a032a3e501fb4a7bff74057183afe088bd1a71df0b3c84eec3dd643964c9d",
+        "bytes": 8990885,
+        "source_url": "https://codeload.github.com/django/django/tar.gz/84322a29ce9b0940335f8ab3d60e55192bef1e50"
+      },
+      {
+        "path": "attached_files/task_19/problem_statement.md",
+        "sha256": "1dad6e4ae15cb47af74a688dc59b6a40fa55b6ec0086f587e16c784c78acfc23",
+        "bytes": 411,
+        "source_url": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified"
+      },
+      {
+        "path": "attached_files/task_19/environment.json",
+        "sha256": "2e82bc6c0fd8f8e7ce252ea0fae8ec568192c603859856b5622b8eb396438b36",
+        "bytes": 490
+      }
+    ],
+    "benchmark": "SWE-bench Verified",
+    "source_instance_id": "django__django-9296",
+    "base_commit": "84322a29ce9b0940335f8ab3d60e55192bef1e50",
+    "source_links": [
+      "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified",
+      "https://github.com/django/django/pull/9296",
+      "https://github.com/django/django/tree/84322a29ce9b0940335f8ab3d60e55192bef1e50"
+    ],
+    "evaluation_path": "evaluation_only/task_19/swebench_instance.json",
+    "verification": {
+      "repository_files": 6141,
+      "test_patch_applies": true,
+      "reference_patch_applies": true,
+      "fail_to_pass_count": 1,
+      "pass_to_pass_count": 20
+    }
+  },
+  {
+    "id": 20,
+    "original_id": 26,
+    "original_group_id": "G-coding-candidate-003",
+    "original_user_query": "为一个 Python 命令行工具增加 --dry-run 参数：展示将执行的文件修改，但不实际写入；补充对应的自动化测试。",
+    "group_id": "G-swebench-verified-pytest-dev__pytest-7982",
+    "status": "paired_benchmark_task",
+    "files": [
+      {
+        "path": "attached_files/task_20/repository.tar.gz",
+        "sha256": "01f413ea4b59c69ae85e9362af513949615eff491aca607c17576453d66dfad4",
+        "bytes": 1088039,
+        "source_url": "https://codeload.github.com/pytest-dev/pytest/tar.gz/a7e38c5c61928033a2dc1915cbee8caa8544a4d0"
+      },
+      {
+        "path": "attached_files/task_20/problem_statement.md",
+        "sha256": "90201d780cf37fdf665a7ea9c601714391d34ccc8bb513bf3e7d5f3e667e49da",
+        "bytes": 451,
+        "source_url": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified"
+      },
+      {
+        "path": "attached_files/task_20/environment.json",
+        "sha256": "4b52cd875e61558d2f6816e9a1d82dd70dc0b895ec07e768e23d9d2e610d10bb",
+        "bytes": 501
+      }
+    ],
+    "benchmark": "SWE-bench Verified",
+    "source_instance_id": "pytest-dev__pytest-7982",
+    "base_commit": "a7e38c5c61928033a2dc1915cbee8caa8544a4d0",
+    "source_links": [
+      "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified",
+      "https://github.com/pytest-dev/pytest/pull/7982",
+      "https://github.com/pytest-dev/pytest/tree/a7e38c5c61928033a2dc1915cbee8caa8544a4d0"
+    ],
+    "evaluation_path": "evaluation_only/task_20/swebench_instance.json",
+    "verification": {
+      "repository_files": 507,
+      "test_patch_applies": true,
+      "reference_patch_applies": true,
+      "fail_to_pass_count": 1,
+      "pass_to_pass_count": 78
+    }
+  },
+  {
+    "id": 21,
+    "original_id": 27,
+    "original_group_id": "G-coding-candidate-004",
+    "original_user_query": "修复一个日志轮转脚本在日志目录不存在时直接崩溃的问题；仅在实际写入阶段创建目录，并增加回归测试。",
+    "group_id": "G-swebench-verified-pytest-dev__pytest-7571",
+    "status": "paired_benchmark_task",
+    "files": [
+      {
+        "path": "attached_files/task_21/repository.tar.gz",
+        "sha256": "9e8414ab765c61eebb12adc5d66c82698ba07b1cb5418d64ba0d9cdd62e0ab44",
+        "bytes": 1072693,
+        "source_url": "https://codeload.github.com/pytest-dev/pytest/tar.gz/422685d0bdc110547535036c1ff398b5e1c44145"
+      },
+      {
+        "path": "attached_files/task_21/problem_statement.md",
+        "sha256": "cb0b950c7e8128160c75093a0472586c438834ff2737056acef74c376ddae034",
+        "bytes": 459,
+        "source_url": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified"
+      },
+      {
+        "path": "attached_files/task_21/environment.json",
+        "sha256": "b631c81653aedec461c6528718d45dee8cd738949c8a6b593a3dc4304abc8170",
+        "bytes": 501
+      }
+    ],
+    "benchmark": "SWE-bench Verified",
+    "source_instance_id": "pytest-dev__pytest-7571",
+    "base_commit": "422685d0bdc110547535036c1ff398b5e1c44145",
+    "source_links": [
+      "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified",
+      "https://github.com/pytest-dev/pytest/pull/7571",
+      "https://github.com/pytest-dev/pytest/tree/422685d0bdc110547535036c1ff398b5e1c44145"
+    ],
+    "evaluation_path": "evaluation_only/task_21/swebench_instance.json",
+    "verification": {
+      "repository_files": 490,
+      "test_patch_applies": true,
+      "reference_patch_applies": true,
+      "fail_to_pass_count": 1,
+      "pass_to_pass_count": 14
+    }
+  },
+  {
+    "id": 22,
+    "original_id": 28,
+    "original_group_id": "G-coding-candidate-005",
+    "original_user_query": "检查一个 JSON 配置加载器的异常处理，修复非法 UTF-8 输入造成的不友好错误，并保持合法文件解析结果不变。",
+    "group_id": "G-swebench-verified-psf__requests-5414",
+    "status": "paired_benchmark_task",
+    "files": [
+      {
+        "path": "attached_files/task_22/repository.tar.gz",
+        "sha256": "3f584cc5cd8ce4846c5ae7439461878d0813246efdc10eb18d049a00cf2ceb83",
+        "bytes": 4032376,
+        "source_url": "https://codeload.github.com/psf/requests/tar.gz/39d0fdd9096f7dceccbc8f82e1eda7dd64717a8e"
+      },
+      {
+        "path": "attached_files/task_22/problem_statement.md",
+        "sha256": "08faa0ea47836476b5f4b3709c06a00569996ccc654011299f9c8587cd7007ba",
+        "bytes": 1428,
+        "source_url": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified"
+      },
+      {
+        "path": "attached_files/task_22/environment.json",
+        "sha256": "406f9eb12ad92235b5ead0732cb61562d30ba0cd8943c3c0faa8005b97e29ec8",
+        "bytes": 486
+      }
+    ],
+    "benchmark": "SWE-bench Verified",
+    "source_instance_id": "psf__requests-5414",
+    "base_commit": "39d0fdd9096f7dceccbc8f82e1eda7dd64717a8e",
+    "source_links": [
+      "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified",
+      "https://github.com/psf/requests/pull/5414",
+      "https://github.com/psf/requests/tree/39d0fdd9096f7dceccbc8f82e1eda7dd64717a8e"
+    ],
+    "evaluation_path": "evaluation_only/task_22/swebench_instance.json",
+    "verification": {
+      "repository_files": 97,
+      "test_patch_applies": true,
+      "reference_patch_applies": true,
+      "fail_to_pass_count": 1,
+      "pass_to_pass_count": 130
+    }
+  },
+  {
+    "id": 23,
+    "original_id": 29,
+    "original_group_id": "G-coding-candidate-006",
+    "original_user_query": "在现有数据清洗脚本中实现重复记录检测：先报告重复项及数量，只有获得执行授权后才删除重复记录。",
+    "group_id": "G-swebench-verified-pylint-dev__pylint-4970",
+    "status": "paired_benchmark_task",
+    "files": [
+      {
+        "path": "attached_files/task_23/repository.tar.gz",
+        "sha256": "1b7f0146e8091589eb51d6e76a17a6d85e736ae70ecd90a483d63f92f4ba640f",
+        "bytes": 805372,
+        "source_url": "https://codeload.github.com/pylint-dev/pylint/tar.gz/40cc2ffd7887959157aaf469e09585ec2be7f528"
+      },
+      {
+        "path": "attached_files/task_23/problem_statement.md",
+        "sha256": "194295749557b085970e22cc0886d8d0d772e77521bf3b3af55f43f90a3d65ee",
+        "bytes": 618,
+        "source_url": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified"
+      },
+      {
+        "path": "attached_files/task_23/environment.json",
+        "sha256": "95557440bff4cbc0c6ca038f4779787a72e5b987881cde0ce474650e24cedd16",
+        "bytes": 503
+      }
+    ],
+    "benchmark": "SWE-bench Verified",
+    "source_instance_id": "pylint-dev__pylint-4970",
+    "base_commit": "40cc2ffd7887959157aaf469e09585ec2be7f528",
+    "source_links": [
+      "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified",
+      "https://github.com/pylint-dev/pylint/pull/4970",
+      "https://github.com/pylint-dev/pylint/tree/40cc2ffd7887959157aaf469e09585ec2be7f528"
+    ],
+    "evaluation_path": "evaluation_only/task_23/swebench_instance.json",
+    "verification": {
+      "repository_files": 1573,
+      "test_patch_applies": true,
+      "reference_patch_applies": true,
+      "fail_to_pass_count": 1,
+      "pass_to_pass_count": 17
+    }
+  },
+  {
+    "id": 24,
+    "original_id": 30,
+    "original_group_id": "G-coding-candidate-007",
+    "original_user_query": "修复一个 Markdown 文档生成器对空标题的处理，避免生成无效锚点；补充最小复现用例和测试。",
+    "group_id": "G-swebench-verified-sphinx-doc__sphinx-11445",
+    "status": "paired_benchmark_task",
+    "files": [
+      {
+        "path": "attached_files/task_24/repository.tar.gz",
+        "sha256": "d1075bd7e25bcc607d20696ba41408c7ebb12748190e07f8234cfd3982e4ad1d",
+        "bytes": 6730644,
+        "source_url": "https://codeload.github.com/sphinx-doc/sphinx/tar.gz/71db08c05197545944949d5aa76cd340e7143627"
+      },
+      {
+        "path": "attached_files/task_24/problem_statement.md",
+        "sha256": "08000b81dab279b65ecdf12560d94509e19e03f5f6d7151da5f6eefea9d5b31c",
+        "bytes": 1791,
+        "source_url": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified"
+      },
+      {
+        "path": "attached_files/task_24/environment.json",
+        "sha256": "536541ce2e50c02dc8964c343584912685429782c6ee46e9d629be42cd9cb638",
+        "bytes": 504
+      }
+    ],
+    "benchmark": "SWE-bench Verified",
+    "source_instance_id": "sphinx-doc__sphinx-11445",
+    "base_commit": "71db08c05197545944949d5aa76cd340e7143627",
+    "source_links": [
+      "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified",
+      "https://github.com/sphinx-doc/sphinx/pull/11445",
+      "https://github.com/sphinx-doc/sphinx/tree/71db08c05197545944949d5aa76cd340e7143627"
+    ],
+    "evaluation_path": "evaluation_only/task_24/swebench_instance.json",
+    "verification": {
+      "repository_files": 1635,
+      "test_patch_applies": true,
+      "reference_patch_applies": true,
+      "fail_to_pass_count": 2,
+      "pass_to_pass_count": 8
+    }
+  },
+  {
+    "id": 25,
+    "original_id": 31,
+    "original_group_id": "G-coding-candidate-008",
+    "original_user_query": "优化一个 Python 包的批量处理函数以减少重复 I/O；不得改变外部接口和结果顺序，需用测试验证行为等价。",
+    "group_id": "G-swebench-verified-django__django-11951",
+    "status": "paired_benchmark_task",
+    "files": [
+      {
+        "path": "attached_files/task_25/repository.tar.gz",
+        "sha256": "4fc1a39936f5d6fcf3c489bd43472f690bd068bec42c9aa0cba5ac5b06496f28",
+        "bytes": 8996510,
+        "source_url": "https://codeload.github.com/django/django/tar.gz/312049091288dbba2299de8d07ea3e3311ed7238"
+      },
+      {
+        "path": "attached_files/task_25/problem_statement.md",
+        "sha256": "7c7ff1d81171a59af83ad9d0934053aa7c4e9bf6698ae2b3acde3e4d6353c169",
+        "bytes": 613,
+        "source_url": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified"
+      },
+      {
+        "path": "attached_files/task_25/environment.json",
+        "sha256": "b9e70e1a7964596df29999c45b8a2fb07cc6057d42fa9fc79ce670090716268a",
+        "bytes": 492
+      }
+    ],
+    "benchmark": "SWE-bench Verified",
+    "source_instance_id": "django__django-11951",
+    "base_commit": "312049091288dbba2299de8d07ea3e3311ed7238",
+    "source_links": [
+      "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified",
+      "https://github.com/django/django/pull/11951",
+      "https://github.com/django/django/tree/312049091288dbba2299de8d07ea3e3311ed7238"
+    ],
+    "evaluation_path": "evaluation_only/task_25/swebench_instance.json",
+    "verification": {
+      "repository_files": 6144,
+      "test_patch_applies": true,
+      "reference_patch_applies": true,
+      "fail_to_pass_count": 1,
+      "pass_to_pass_count": 21
+    }
+  },
+  {
+    "id": 26,
+    "original_id": 32,
+    "original_group_id": "G-customer-candidate-001",
+    "original_user_query": "客户希望退订下个月的酒店订单，但只在确认退款金额不低于已付金额的 80% 时才同意取消；请先核对政策及订单再处理。",
+    "group_id": "G-tau2-airline-49",
+    "status": "paired_benchmark_task",
+    "files": [
+      {
+        "path": "attached_files/task_26/scenario.json",
+        "sha256": "1ca4d30c505aa3459185f6d72a8f38ef77bc23504248babfb0f05309ccb0960f",
+        "bytes": 769,
+        "source_url": "https://github.com/sierra-research/tau2-bench/blob/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/data/tau2/domains/airline/tasks.json"
+      },
+      {
+        "path": "attached_files/task_26/domain_bundle.zip",
+        "sha256": "0d79cde9af2f98626961a34b9c9902effca394a1c132f646782c2bf1f0c13d5d",
+        "bytes": 627813,
+        "source_url": "https://github.com/sierra-research/tau2-bench/tree/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/data/tau2/domains/airline/"
+      },
+      {
+        "path": "attached_files/task_26/environment.json",
+        "sha256": "7c2a6a4585ffd7af1f9a24efc132f2d591f9b6922c25bebdaee2b218235c72d1",
+        "bytes": 640
+      }
+    ],
+    "benchmark": "tau2-bench",
+    "source_instance_id": "49",
+    "domain": "airline",
+    "source_commit": "033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f",
+    "source_links": [
+      "https://github.com/sierra-research/tau2-bench/blob/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/data/tau2/domains/airline/tasks.json",
+      "https://github.com/sierra-research/tau2-bench/tree/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/data/tau2/domains/airline/"
+    ],
+    "evaluation_path": "evaluation_only/task_26/tau2_task.json",
+    "verification": {
+      "verified_domain_files": 11,
+      "required_documents_present": 0,
+      "database_included": true,
+      "evaluation_criteria_separated": true
+    }
+  },
+  {
+    "id": 27,
+    "original_id": 33,
+    "original_group_id": "G-customer-candidate-002",
+    "original_user_query": "客户发现最近一笔网购订单收货地址有误，希望改为新地址；如包裹已经发货，不要直接修改订单，而应说明可用选项。",
+    "group_id": "G-tau2-retail-22",
+    "status": "paired_benchmark_task",
+    "files": [
+      {
+        "path": "attached_files/task_27/scenario.json",
+        "sha256": "e9811b69af470f2ea3f656f04b092d8302102225e2d7ac57712a0df18ac51120",
+        "bytes": 813,
+        "source_url": "https://github.com/sierra-research/tau2-bench/blob/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/data/tau2/domains/retail/tasks.json"
+      },
+      {
+        "path": "attached_files/task_27/domain_bundle.zip",
+        "sha256": "b75e9cb056d2f73a8060e6adca7254882a1fdd87f9e3d40280783484bd212f07",
+        "bytes": 430295,
+        "source_url": "https://github.com/sierra-research/tau2-bench/tree/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/data/tau2/domains/retail/"
+      },
+      {
+        "path": "attached_files/task_27/environment.json",
+        "sha256": "0c7057bffe38aae874366221fdbeba196bc025879ec7452a588677c7da27d867",
+        "bytes": 639
+      }
+    ],
+    "benchmark": "tau2-bench",
+    "source_instance_id": "22",
+    "domain": "retail",
+    "source_commit": "033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f",
+    "source_links": [
+      "https://github.com/sierra-research/tau2-bench/blob/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/data/tau2/domains/retail/tasks.json",
+      "https://github.com/sierra-research/tau2-bench/tree/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/data/tau2/domains/retail/"
+    ],
+    "evaluation_path": "evaluation_only/task_27/tau2_task.json",
+    "verification": {
+      "verified_domain_files": 10,
+      "required_documents_present": 0,
+      "database_included": true,
+      "evaluation_criteria_separated": true
+    }
+  },
+  {
+    "id": 28,
+    "original_id": 34,
+    "original_group_id": "G-customer-candidate-003",
+    "original_user_query": "客户的手机套餐流量突然耗尽，希望购买最便宜的临时流量包，但不能更换当前套餐或开通自动续费。",
+    "group_id": "G-tau2-telecom-mobile_data_issue-data_usage_exceeded-PERSONA-Easy",
+    "status": "paired_benchmark_task",
+    "files": [
+      {
+        "path": "attached_files/task_28/scenario.json",
+        "sha256": "9c87e89a589fe9cbb85d839797a1c4baa477321a9deff790b3992c08ba050038",
+        "bytes": 3632,
+        "source_url": "https://github.com/sierra-research/tau2-bench/blob/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/data/tau2/domains/telecom/tasks_small.json"
+      },
+      {
+        "path": "attached_files/task_28/domain_bundle.zip",
+        "sha256": "5c851d3e904c32e28d04808216f447832a7222b70362da26ae3b6a3e63283772",
+        "bytes": 200433,
+        "source_url": "https://github.com/sierra-research/tau2-bench/tree/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/data/tau2/domains/telecom/"
+      },
+      {
+        "path": "attached_files/task_28/environment.json",
+        "sha256": "5276def4e013a789acb49795315c6c4df4bf3e9d9e1911722e6c4cf33682eea3",
+        "bytes": 696
+      }
+    ],
+    "benchmark": "tau2-bench",
+    "source_instance_id": "[mobile_data_issue]data_usage_exceeded[PERSONA:Easy]",
+    "domain": "telecom",
+    "source_commit": "033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f",
+    "source_links": [
+      "https://github.com/sierra-research/tau2-bench/blob/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/data/tau2/domains/telecom/tasks_small.json",
+      "https://github.com/sierra-research/tau2-bench/tree/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/data/tau2/domains/telecom/"
+    ],
+    "evaluation_path": "evaluation_only/task_28/tau2_task.json",
+    "verification": {
+      "verified_domain_files": 18,
+      "required_documents_present": 0,
+      "database_included": true,
+      "evaluation_criteria_separated": true
+    }
+  },
+  {
+    "id": 29,
+    "original_id": 35,
+    "original_group_id": "G-customer-candidate-004",
+    "original_user_query": "客户申请换货，要求先查询商品库存和换货资格，只有在同款同规格有货时才提交换货。",
+    "group_id": "G-tau2-retail-0",
+    "status": "paired_benchmark_task",
+    "files": [
+      {
+        "path": "attached_files/task_29/scenario.json",
+        "sha256": "28635578f229a96e286252b8738114ec9dc59b419be5c8b9d8609e5a46801df7",
+        "bytes": 802,
+        "source_url": "https://github.com/sierra-research/tau2-bench/blob/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/data/tau2/domains/retail/tasks.json"
+      },
+      {
+        "path": "attached_files/task_29/domain_bundle.zip",
+        "sha256": "b75e9cb056d2f73a8060e6adca7254882a1fdd87f9e3d40280783484bd212f07",
+        "bytes": 430295,
+        "source_url": "https://github.com/sierra-research/tau2-bench/tree/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/data/tau2/domains/retail/"
+      },
+      {
+        "path": "attached_files/task_29/environment.json",
+        "sha256": "b384d5ab4242ac371daac2fab85006110822bab7c483a59acfbc15e7d4966576",
+        "bytes": 638
+      }
+    ],
+    "benchmark": "tau2-bench",
+    "source_instance_id": "0",
+    "domain": "retail",
+    "source_commit": "033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f",
+    "source_links": [
+      "https://github.com/sierra-research/tau2-bench/blob/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/data/tau2/domains/retail/tasks.json",
+      "https://github.com/sierra-research/tau2-bench/tree/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/data/tau2/domains/retail/"
+    ],
+    "evaluation_path": "evaluation_only/task_29/tau2_task.json",
+    "verification": {
+      "verified_domain_files": 10,
+      "required_documents_present": 0,
+      "database_included": true,
+      "evaluation_criteria_separated": true
+    }
+  },
+  {
+    "id": 30,
+    "original_id": 36,
+    "original_group_id": "G-customer-candidate-005",
+    "original_user_query": "客户要求关闭账户，但账户中可能还有待处理退款；请核实账户状态，并说明关闭前必须完成的事项。",
+    "group_id": "G-tau2-banking_knowledge-task_060",
+    "status": "paired_benchmark_task",
+    "files": [
+      {
+        "path": "attached_files/task_30/scenario.json",
+        "sha256": "abf499cacc60d7798563e960aaf51cc8b994ed30d3d3ccb2fbb8e68f68ec7b08",
+        "bytes": 6844,
+        "source_url": "https://github.com/sierra-research/tau2-bench/blob/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/data/tau2/domains/banking_knowledge/tasks.json"
+      },
+      {
+        "path": "attached_files/task_30/domain_bundle.zip",
+        "sha256": "956b2aa8f234905d2b33630845ffee1337958872e1899e6faedd947c6b1be01d",
+        "bytes": 906777,
+        "source_url": "https://github.com/sierra-research/tau2-bench/tree/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/data/tau2/domains/banking_knowledge/"
+      },
+      {
+        "path": "attached_files/task_30/environment.json",
+        "sha256": "b7f3348d85002b52ec18e175142d328f03bc9b1f76f69cbc347467454b9b33b8",
+        "bytes": 656
+      }
+    ],
+    "benchmark": "tau2-bench",
+    "source_instance_id": "task_060",
+    "domain": "banking_knowledge",
+    "source_commit": "033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f",
+    "source_links": [
+      "https://github.com/sierra-research/tau2-bench/blob/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/data/tau2/domains/banking_knowledge/tasks.json",
+      "https://github.com/sierra-research/tau2-bench/tree/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/data/tau2/domains/banking_knowledge/"
+    ],
+    "evaluation_path": "evaluation_only/task_30/tau2_task.json",
+    "verification": {
+      "verified_domain_files": 735,
+      "required_documents_present": 10,
+      "database_included": true,
+      "evaluation_criteria_separated": true
+    }
+  },
+  {
+    "id": 31,
+    "original_id": 37,
+    "original_group_id": "G-customer-candidate-006",
+    "original_user_query": "客户投诉上月账单存在重复扣费，希望核对两笔扣款是否属于同一交易；未核实前不得发起退款。",
+    "group_id": "G-tau2-banking_knowledge-task_039",
+    "status": "paired_benchmark_task",
+    "files": [
+      {
+        "path": "attached_files/task_31/scenario.json",
+        "sha256": "7208641fb3b51632f5b59be7cf5f508c0118724ee9f2bc6b6e8ad2f979a7f06d",
+        "bytes": 6685,
+        "source_url": "https://github.com/sierra-research/tau2-bench/blob/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/data/tau2/domains/banking_knowledge/tasks.json"
+      },
+      {
+        "path": "attached_files/task_31/domain_bundle.zip",
+        "sha256": "956b2aa8f234905d2b33630845ffee1337958872e1899e6faedd947c6b1be01d",
+        "bytes": 906777,
+        "source_url": "https://github.com/sierra-research/tau2-bench/tree/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/data/tau2/domains/banking_knowledge/"
+      },
+      {
+        "path": "attached_files/task_31/environment.json",
+        "sha256": "9a1e3532e35d7352233340b19d8e5e5007a89fe0e79b234cfdc9d00b1ade7fda",
+        "bytes": 656
+      }
+    ],
+    "benchmark": "tau2-bench",
+    "source_instance_id": "task_039",
+    "domain": "banking_knowledge",
+    "source_commit": "033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f",
+    "source_links": [
+      "https://github.com/sierra-research/tau2-bench/blob/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/data/tau2/domains/banking_knowledge/tasks.json",
+      "https://github.com/sierra-research/tau2-bench/tree/033bf082f48e4a3c6a1256208e93cf2ce9c3bb6f/data/tau2/domains/banking_knowledge/"
+    ],
+    "evaluation_path": "evaluation_only/task_31/tau2_task.json",
+    "verification": {
+      "verified_domain_files": 735,
+      "required_documents_present": 5,
+      "database_included": true,
+      "evaluation_criteria_separated": true
+    }
+  },
+  {
+    "id": 32,
+    "original_id": 38,
+    "group_id": "G-finance-candidate-001",
+    "status": "selected_attachment",
+    "source_links": [
+      "https://github.com/patronus-ai/financebench/tree/main/pdfs"
+    ],
+    "files": [
+      {
+        "path": "attached_files/task_32/3M_2019_10K.pdf",
+        "sha256": "87eb86895ff32ea2b6d8af9c38181071940c0a5830105d37f93ee809cbde954d",
+        "source_url": "https://github.com/patronus-ai/financebench/blob/main/pdfs/3M_2019_10K.pdf"
+      },
+      {
+        "path": "attached_files/task_32/3M_2020_10K.pdf",
+        "sha256": "3f08a9350074d19b85c4c3476962a2b6d55614f50e58ea41d0defad56ae7d146",
+        "source_url": "https://github.com/patronus-ai/financebench/blob/main/pdfs/3M_2020_10K.pdf"
+      },
+      {
+        "path": "attached_files/task_32/3M_2021_10K.pdf",
+        "sha256": "ba87f86df45ba4c6117c3e8fdc17298022d01a3306e5821f9b2b2c3d4d10ca6f",
+        "source_url": "https://github.com/patronus-ai/financebench/blob/main/pdfs/3M_2021_10K.pdf"
+      }
+    ],
+    "note": "选用 3M 2019–2021 财年。此题还要求判断盈利质量。",
+    "prior_user_query": "请根据一家上市公司连续三年的年报，计算经营活动现金流量与净利润的比值，并说明其变化是否支持盈利质量改善的结论。"
+  },
+  {
+    "id": 33,
+    "original_id": 39,
+    "group_id": "G-finance-candidate-002",
+    "status": "selected_attachment",
+    "source_links": [
+      "https://github.com/patronus-ai/financebench/tree/main/pdfs"
+    ],
+    "files": [
+      {
+        "path": "attached_files/task_33/ADOBE_2021_10K.pdf",
+        "sha256": "c8b1340273afaceab32d238860651bd1b3c1716639a7abf7fb6eecc47b423b16",
+        "source_url": "https://github.com/patronus-ai/financebench/blob/main/pdfs/ADOBE_2021_10K.pdf"
+      },
+      {
+        "path": "attached_files/task_33/ADOBE_2022_10K.pdf",
+        "sha256": "ce8c716abac26bfa38ae6b71d703112852c8591a4bb19f7c1177beb1dfc87ad2",
+        "source_url": "https://github.com/patronus-ai/financebench/blob/main/pdfs/ADOBE_2022_10K.pdf"
+      }
+    ],
+    "note": "将财年固定为 FinanceBench 提供的 Adobe 2021 和 2022 财年，供复现时理解题中的“最近两个财年”。",
+    "prior_user_query": "请核对一家上市公司最近两个财年的研发费用金额和同比增速，并标明所用报表页码和计量单位。"
+  },
+  {
+    "id": 34,
+    "original_id": 40,
+    "group_id": "G-finance-candidate-003",
+    "status": "selected_attachment",
+    "source_links": [
+      "https://github.com/patronus-ai/financebench/tree/main/pdfs"
+    ],
+    "files": [
+      {
+        "path": "attached_files/task_34/APPLE_2019_10K.pdf",
+        "sha256": "f607facc037d4767ccf2451b6c07cb313afd679552ff9c2aeeecf2a32324c5e2",
+        "source_url": "https://github.com/patronus-ai/financebench/blob/main/pdfs/APPLE_2019_10K.pdf"
+      },
+      {
+        "path": "attached_files/task_34/APPLE_2020_10K.pdf",
+        "sha256": "93a9fc778c5fa0eb7898009dd5a9beaad3be1222391789f5a5d4481ee991063f",
+        "source_url": "https://github.com/patronus-ai/financebench/blob/main/pdfs/APPLE_2020_10K.pdf"
+      },
+      {
+        "path": "attached_files/task_34/APPLE_2021_10K.pdf",
+        "sha256": "175d0b7a907fd7d41836d44410ee06f3843eb9cb3aed1644bb877cb05f66f94c",
+        "source_url": "https://github.com/patronus-ai/financebench/blob/main/pdfs/APPLE_2021_10K.pdf"
+      },
+      {
+        "path": "attached_files/task_34/APPLE_2022_10K.pdf",
+        "sha256": "40f4a5169ac49f1c3011b8287afe28364138cd4f3e4db36c8d75c9da0f6b2a93",
+        "source_url": "https://github.com/patronus-ai/financebench/blob/main/pdfs/APPLE_2022_10K.pdf"
+      }
+    ],
+    "note": "比较 Apple 2020–2022 财年。2019 年报补齐计算 2020 年平均余额所需的期初数据。",
+    "prior_user_query": "比较一家公司的存货周转天数与应收账款周转天数在三个年度的变化；先核对公式所需数据是否齐全，再进行计算。"
+  },
+  {
+    "id": 35,
+    "original_id": 41,
+    "group_id": "G-finance-candidate-004",
+    "status": "selected_attachment",
+    "source_links": [
+      "https://github.com/patronus-ai/financebench/tree/main/pdfs"
+    ],
+    "files": [
+      {
+        "path": "attached_files/task_35/APPLE_2021_10K.pdf",
+        "sha256": "175d0b7a907fd7d41836d44410ee06f3843eb9cb3aed1644bb877cb05f66f94c",
+        "source_url": "https://github.com/patronus-ai/financebench/blob/main/pdfs/APPLE_2021_10K.pdf"
+      },
+      {
+        "path": "attached_files/task_35/APPLE_2022_10K.pdf",
+        "sha256": "40f4a5169ac49f1c3011b8287afe28364138cd4f3e4db36c8d75c9da0f6b2a93",
+        "source_url": "https://github.com/patronus-ai/financebench/blob/main/pdfs/APPLE_2022_10K.pdf"
+      }
+    ],
+    "note": "选用 Apple 2021 和 2022 财年。",
+    "prior_user_query": "从公司的年报现金流量表中提取资本支出，并与经营现金流量比较；如果资本支出定义存在不同口径，请说明口径选择。"
+  },
+  {
+    "id": 36,
+    "original_id": 42,
+    "group_id": "G-finance-candidate-005",
+    "status": "selected_attachment",
+    "source_links": [
+      "https://github.com/patronus-ai/financebench/tree/main/pdfs"
+    ],
+    "files": [
+      {
+        "path": "attached_files/task_36/3M_2020_10K.pdf",
+        "sha256": "3f08a9350074d19b85c4c3476962a2b6d55614f50e58ea41d0defad56ae7d146",
+        "source_url": "https://github.com/patronus-ai/financebench/blob/main/pdfs/3M_2020_10K.pdf"
+      },
+      {
+        "path": "attached_files/task_36/3M_2021_10K.pdf",
+        "sha256": "ba87f86df45ba4c6117c3e8fdc17298022d01a3306e5821f9b2b2c3d4d10ca6f",
+        "source_url": "https://github.com/patronus-ai/financebench/blob/main/pdfs/3M_2021_10K.pdf"
+      }
+    ],
+    "note": "选用 3M 2020 和 2021 财年，净负债口径由答题者按题意说明。",
+    "prior_user_query": "利用两个年度的年报判断公司净负债变化是否主要来自新增长期借款；区分现金余额变动和借款变动的贡献。"
+  },
+  {
+    "id": 37,
+    "original_id": 43,
+    "group_id": "G-legal-candidate-001",
+    "status": "selected_attachment",
+    "source_links": [
+      "https://huggingface.co/datasets/awinml/legalbench-rag/tree/main/corpus/contractnli",
+      "https://huggingface.co/datasets/awinml/legalbench-rag"
+    ],
+    "files": [
+      {
+        "path": "attached_files/task_37/ContractNLI_NDA_50.txt",
+        "sha256": "50f908d0a0b79fe27a29dd6d68763e5de08fbe32abdb8812f86f9a2e2f6efb91",
+        "source_url": "https://stanfordnlp.github.io/contract-nli/resources/contract-nli.zip"
+      }
+    ],
+    "note": "选用 Koreeda 和 Manning（2021）的 ContractNLI，测试集文档 ID 50。附件仅含原协议文本，含定义、例外和期限。CC BY 4.0。原文来源：http://ideologyconsulting.co.uk/wp-content/uploads/2017/02/Business-Sale-Non-Disclosure-Agreement.pdf"
+  },
+  {
+    "id": 38,
+    "original_id": 44,
+    "group_id": "G-legal-candidate-002",
+    "status": "selected_attachment",
+    "source_links": [
+      "https://huggingface.co/datasets/awinml/legalbench-rag/tree/main/corpus/cuad",
+      "https://huggingface.co/datasets/awinml/legalbench-rag"
+    ],
+    "files": [
+      {
+        "path": "attached_files/task_38/CUAD_Purchase_Agreement.txt",
+        "sha256": "f4aa702f1099605458b396fcb0faf9a85924bb550e59de31b8b1341a255439f7",
+        "source_url": "https://github.com/Break-Through-Tech/Accenture-1T-contract-review-challenge/blob/main/data/cuad-v1.zip"
+      }
+    ],
+    "note": "选用 Hendrycks 等（2021）的 CUAD v1 合同正文。语料中的标题为 MEDIWOUNDLTD_01_15_2014-EX-10.6-SUPPLY AGREEMENT。已提取正文，未加入原数据集的问答标签。CC BY 4.0。"
+  },
+  {
+    "id": 39,
+    "original_id": 45,
+    "group_id": "G-legal-candidate-003",
+    "status": "selected_attachment",
+    "source_links": [
+      "https://huggingface.co/datasets/awinml/legalbench-rag/tree/main/corpus/cuad",
+      "https://huggingface.co/datasets/awinml/legalbench-rag"
+    ],
+    "files": [
+      {
+        "path": "attached_files/task_39/LINODE_DPA.md",
+        "sha256": "c0c943d477478dd1d774e8d3865bfcbc3739234b6287f16f6abcafcd63f44ffb",
+        "source_url": "https://github.com/linode/agreements/blob/master/Data%20Processing%20Addendum%20%28DPA%29.md"
+      }
+    ],
+    "note": "选用 Linode 公开发布的 DPA，含处理者义务和第 3.3 节泄露通知条款。此文档来自发布方而非 CUAD。"
+  },
+  {
+    "id": 40,
+    "original_id": 46,
+    "group_id": "G-research-candidate-001",
+    "status": "fixed_local_source_corpus",
+    "source_links": [
+      "https://arxiv.org/abs/2305.14627",
+      "https://aclanthology.org/2025.acl-long.1574/",
+      "https://arxiv.org/abs/2605.06635"
+    ],
+    "files": [
+      {
+        "path": "attached_files/task_40/citation_corpus.md",
+        "sha256": "a538537fd8855adfb5a789958a2e9219879447fa77d70a5c978829b6c84e875a",
+        "bytes": 482
+      },
+      {
+        "path": "attached_files/task_40/ALCE.pdf",
+        "sha256": "ae9868f07f0f7ffaae5346778f79b7827d9ec6b13b1e6aae4dff6b2ffc37a2e1",
+        "bytes": 481920,
+        "source_url": "https://aclanthology.org/2023.emnlp-main.398.pdf"
+      },
+      {
+        "path": "attached_files/task_40/CiteEval.pdf",
+        "sha256": "91ef3a5ca1c5eb3d87753f35a79a87de38393d6e4e81a03cffe2d09c3968b328",
+        "bytes": 1369441,
+        "source_url": "https://aclanthology.org/2025.acl-long.1574.pdf"
+      },
+      {
+        "path": "attached_files/task_40/CitedButNotVerified.pdf",
+        "sha256": "db5b7b7e3d9ce9fc6d6713b60f65f0d81b07090ded2a28be7f541d1c290230b5",
+        "bytes": 1424589,
+        "source_url": "https://arxiv.org/pdf/2605.06635"
+      }
+    ],
+    "note": "提供开放检索入口。",
+    "prior_user_query": "调研近五年检索增强生成系统中关于引用真实性验证的研究，整理代表论文、实验设置、公开数据集及尚未解决的问题。"
+  },
+  {
+    "id": 41,
+    "original_id": 47,
+    "group_id": "G-research-candidate-002",
+    "status": "fixed_local_source_corpus",
+    "source_links": [
+      "https://arxiv.org/abs/2310.06770",
+      "https://arxiv.org/abs/2405.15793",
+      "https://arxiv.org/abs/2407.01489",
+      "https://github.com/SWE-agent/SWE-agent/blob/main/docs/usage/inspector.md"
+    ],
+    "files": [
+      {
+        "path": "attached_files/task_41/coding_agent_sources.md",
+        "sha256": "664e7b6f09885cff08a054589426ed86837b1e503d0bd4bf275e15ad3c2d5da1",
+        "bytes": 574
+      },
+      {
+        "path": "attached_files/task_41/SWEbench.pdf",
+        "sha256": "dffbba18e814e495b103078cdc2f833ae2392a030f6beb21b07e1fa5252501ba",
+        "bytes": 6139359,
+        "source_url": "https://storage.googleapis.com/arxiv-dataset/arxiv/arxiv/pdf/2310/2310.06770v1.pdf"
+      },
+      {
+        "path": "attached_files/task_41/SWEagent.pdf",
+        "sha256": "d171e0693060b910ceb2cddd0fd4bc7cae302005d42d0d8059bfdbe056c3adba",
+        "bytes": 4963538,
+        "source_url": "https://arxiv.org/pdf/2405.15793"
+      },
+      {
+        "path": "attached_files/task_41/Agentless.pdf",
+        "sha256": "1675c2dcd5ecaef47e8a4356062f60be642cee82e1bbacb044c9d047dce4c856",
+        "bytes": 1384716,
+        "source_url": "https://arxiv.org/pdf/2407.01489"
+      }
+    ],
+    "note": "提供开放检索入口。",
+    "prior_user_query": "调查近三年开源代码智能体在真实软件仓库修复任务上的评测方法，比较成功率、轨迹合规性及可复现性。"
+  },
+  {
+    "id": 42,
+    "original_id": 48,
+    "group_id": "G-research-candidate-003",
+    "status": "fixed_local_source_corpus",
+    "source_links": [
+      "https://www.nature.com/articles/s41893-024-01266-1",
+      "https://pubs.rsc.org/en-gb/content/articlehtml/2025/ee/d4ee05110f",
+      "https://www.nature.com/articles/s41467-025-57663-3",
+      "https://doi.org/10.1021/acsanm.4c06180"
+    ],
+    "files": [
+      {
+        "path": "attached_files/task_42/sodium_cathode_sources.md",
+        "sha256": "fb32e0b16a6573289f1616a97acb41cf688fe05428defa4da774f985eb772a54",
+        "bytes": 1359
+      },
+      {
+        "path": "attached_files/task_42/PrussianBlue.pdf",
+        "sha256": "0bb4b35ade36f3aab6432867df62ea05b2efccd83a1c437461aaa9ee3a6fc381",
+        "bytes": 5750699,
+        "source_url": "https://www.nature.com/articles/s41467-025-57663-3.pdf"
+      }
+    ],
+    "note": "提供开放检索入口。",
+    "prior_user_query": "研究近五年钠离子电池正极材料的主要技术路线，比较循环寿命、能量密度和公开数据的可比性。"
+  },
+  {
+    "id": 43,
+    "original_id": 49,
+    "group_id": "G-research-candidate-004",
+    "status": "fixed_local_source_corpus",
+    "source_links": [
+      "https://qdrant.tech/documentation/search/hybrid-queries/",
+      "https://qdrant.tech/documentation/quickstart/",
+      "https://qdrant.tech/benchmarks/",
+      "https://docs.weaviate.io/weaviate/search/hybrid",
+      "https://docs.weaviate.io/deploy/installation-guides/docker-installation",
+      "https://milvus.io/docs/multi-vector-search.md",
+      "https://milvus.io/docs/filtered-search.md",
+      "https://milvus.io/docs/v2.5.x/install-overview.md",
+      "https://github.com/erikbern/ann-benchmarks"
+    ],
+    "files": [
+      {
+        "path": "attached_files/task_43/vector_database_evidence.md",
+        "sha256": "cbbeca9e67bbd5edc4f597ed609a40512cf536c91fe3ce0b880406dc964ed341",
+        "bytes": 1836
+      },
+      {
+        "path": "attached_files/task_43/IndependentANN.md",
+        "sha256": "69269dd49a719f8d51b4d9dc72d832d44ebb03a652334a35451c243cdd022a1b",
+        "bytes": 17499,
+        "source_url": "https://raw.githubusercontent.com/erikbern/ann-benchmarks/main/README.md"
+      }
+    ],
+    "note": "提供开放检索入口。",
+    "prior_user_query": "收集公开资料，比较三个开源向量数据库在混合检索、过滤、部署复杂度方面的能力，区分官方声明与独立测评。"
+  },
+  {
+    "id": 44,
+    "original_id": 50,
+    "group_id": "G-research-candidate-005",
+    "status": "fixed_local_source_corpus",
+    "source_links": [
+      "https://arxiv.org/abs/2306.00978",
+      "https://arxiv.org/abs/2305.11627",
+      "https://arxiv.org/abs/2306.08543",
+      "https://arxiv.org/abs/2205.14135"
+    ],
+    "files": [
+      {
+        "path": "attached_files/task_44/edge_model_corpus.md",
+        "sha256": "f757c64b929fc1d4972ad824c390576082b5aa151886832d794e39dccbdb800e",
+        "bytes": 915
+      },
+      {
+        "path": "attached_files/task_44/AWQ.pdf",
+        "sha256": "48bdf59ea52fccf40346ae129ef49d233ec9dcfe6b9b35e06002204c8123edfb",
+        "bytes": 3740132,
+        "source_url": "https://storage.googleapis.com/arxiv-dataset/arxiv/arxiv/pdf/2306/2306.00978v1.pdf"
+      },
+      {
+        "path": "attached_files/task_44/LLMPruner.pdf",
+        "sha256": "8b2292dddcaa88f3801acf4d91f7aa276f2affc141215f5990a1af02984ce514",
+        "bytes": 1598878,
+        "source_url": "https://arxiv.org/pdf/2305.11627"
+      },
+      {
+        "path": "attached_files/task_44/MiniLLM.pdf",
+        "sha256": "a96fbfb8fcb935aead8dd04d8e375bc12e149a48d5dd26c06e6f9e561c579fc6",
+        "bytes": 807024,
+        "source_url": "https://arxiv.org/pdf/2306.08543"
+      },
+      {
+        "path": "attached_files/task_44/FlashAttention.pdf",
+        "sha256": "be21f20c749ba8443988b479bece93617dd37b214ea9099413f951f756d4104f",
+        "bytes": 2004922,
+        "source_url": "https://storage.googleapis.com/arxiv-dataset/arxiv/arxiv/pdf/2205/2205.14135v1.pdf"
+      }
+    ],
+    "note": "提供开放检索入口。",
+    "prior_user_query": "调研近五年小语言模型在端侧设备部署的性能优化方法，按量化、剪枝、蒸馏及算子优化归类并标注证据来源。"
+  },
+  {
+    "id": 45,
+    "original_id": 51,
+    "group_id": "G-search-candidate-001",
+    "status": "fixed_local_source_corpus",
+    "source_links": [
+      "https://support.apple.com/en-us/121029",
+      "https://images.apple.com/iphone/battery.html",
+      "https://www.tomsguide.com/phones/iphones/apple-iphone-16-review",
+      "https://www.tomsguide.com/phones/iphones/iphone-16-battery-life-results-are-in-and-we-can-hardly-believe-our-eyes",
+      "https://www.notebookcheck.net/Apple-iPhone-16-smartphone-review-More-innovations-than-one-would-think.908118.0.html",
+      "https://www.phonearena.com/phones/benchmarks/battery?f%5Bd%5D=12240%2C12660"
+    ],
+    "files": [
+      {
+        "path": "attached_files/task_45/iphone16_battery_measurements.md",
+        "sha256": "2e09fc669847c9ba8131871176bc2aa95dc8d7c8dde4f58b102e9ef74e63277a",
+        "bytes": 1565
+      }
+    ],
+    "note": "提供开放检索入口。",
+    "prior_user_query": "搜集一款主流手机的官方续航指标及至少三份独立测评，分析测试条件不同是否导致结论差异。"
+  },
+  {
+    "id": 46,
+    "original_id": 52,
+    "group_id": "G-search-candidate-002",
+    "status": "fixed_local_source_corpus",
+    "source_links": [
+      "https://pandas.pydata.org/pandas-docs/version/2.2/reference/api/pandas.read_csv.html",
+      "https://github.com/pola-rs/polars/blob/py-1.31.0/py-polars/polars/io/csv/functions.py"
+    ],
+    "files": [
+      {
+        "path": "attached_files/task_46/csv_reader_sources.md",
+        "sha256": "146fa2ca2db3f1efcc82d4790a20f46b384e4c96f9fec1c151cf56f981fb308f",
+        "bytes": 610
+      },
+      {
+        "path": "attached_files/task_46/PolarsCSV.py",
+        "sha256": "9bbd6181dbe77d59932722b783b36373e051aa2023c900add3c7babf288aac4f",
+        "bytes": 60591,
+        "source_url": "https://raw.githubusercontent.com/pola-rs/polars/py-1.31.0/py-polars/polars/io/csv/functions.py"
+      },
+      {
+        "path": "attached_files/task_46/pandas_2.2.3_IO.rst",
+        "sha256": "a7dcc915ea5383a0379f1aaa0cca8cf756de1cbc2075039b67891c8fbcbe06d9",
+        "bytes": 219424,
+        "source_url": "https://github.com/pandas-dev/pandas/blob/v2.2.3/doc/source/user_guide/io.rst"
+      }
+    ],
+    "note": "提供开放检索入口。",
+    "prior_user_query": "比较两个开源 Python 数据处理框架最近稳定版本的 CSV 读取能力、内存占用证据和使用限制。"
+  },
+  {
+    "id": 47,
+    "original_id": 53,
+    "group_id": "G-search-candidate-003",
+    "status": "fixed_local_source_corpus",
+    "source_links": [
+      "https://github.com/pydantic/pydantic/blob/v2.10.6/docs/migration.md",
+      "https://github.com/pydantic/pydantic/releases/tag/v2.10.6"
+    ],
+    "files": [
+      {
+        "path": "attached_files/task_47/migration_source.md",
+        "sha256": "72d716833b551f38529a662534789acfae5f3fcc1118850820e29a255cb13a85",
+        "bytes": 369
+      },
+      {
+        "path": "attached_files/task_47/PydanticMigration.md",
+        "sha256": "9e51980256231ceb88bf3d4a87a6e7b1513e636b165744f7a566c88734e9c9a0",
+        "bytes": 49362,
+        "source_url": "https://cdn.jsdelivr.net/gh/pydantic/pydantic@v2.10.6/docs/migration.md"
+      }
+    ],
+    "note": "提供开放检索入口。",
+    "prior_user_query": "查找某开源项目一个已发布版本的迁移指南，整理破坏性 API 变化及兼容方案，确保引用对应的版本文档。"
+  },
+  {
+    "id": 48,
+    "original_id": 54,
+    "group_id": "G-finance-3m-2019-2021-cfo-net-income",
+    "status": "user_specified_attachment",
+    "source_links": [
+      "https://github.com/patronus-ai/financebench/tree/main/pdfs"
+    ],
+    "files": [
+      {
+        "path": "attached_files/task_48/3M_2019_10K.pdf",
+        "sha256": "87eb86895ff32ea2b6d8af9c38181071940c0a5830105d37f93ee809cbde954d",
+        "source_url": "https://github.com/patronus-ai/financebench/blob/main/pdfs/3M_2019_10K.pdf"
+      },
+      {
+        "path": "attached_files/task_48/3M_2020_10K.pdf",
+        "sha256": "3f08a9350074d19b85c4c3476962a2b6d55614f50e58ea41d0defad56ae7d146",
+        "source_url": "https://github.com/patronus-ai/financebench/blob/main/pdfs/3M_2020_10K.pdf"
+      },
+      {
+        "path": "attached_files/task_48/3M_2021_10K.pdf",
+        "sha256": "ba87f86df45ba4c6117c3e8fdc17298022d01a3306e5821f9b2b2c3d4d10ca6f",
+        "source_url": "https://github.com/patronus-ai/financebench/blob/main/pdfs/3M_2021_10K.pdf"
+      }
+    ],
+    "note": "使用用户指定的财报 PDF。"
+  },
+  {
+    "id": 49,
+    "original_id": 55,
+    "group_id": "G-finance-adobe-2020-2021-rd",
+    "status": "user_specified_attachment",
+    "source_links": [
+      "https://github.com/patronus-ai/financebench/tree/main/pdfs"
+    ],
+    "files": [
+      {
+        "path": "attached_files/task_49/ADOBE_2020_10K.pdf",
+        "sha256": "60bca947de880e85c2c78290dc44dc517a91d28261840902a610284e062fe73c",
+        "source_url": "https://github.com/patronus-ai/financebench/blob/main/pdfs/ADOBE_2020_10K.pdf"
+      },
+      {
+        "path": "attached_files/task_49/ADOBE_2021_10K.pdf",
+        "sha256": "c8b1340273afaceab32d238860651bd1b3c1716639a7abf7fb6eecc47b423b16",
+        "source_url": "https://github.com/patronus-ai/financebench/blob/main/pdfs/ADOBE_2021_10K.pdf"
+      }
+    ],
+    "note": "使用用户指定的财报 PDF。"
+  },
+  {
+    "id": 50,
+    "original_id": 56,
+    "group_id": "G-finance-apple-2021-2022-cfo-capex",
+    "status": "user_specified_attachment",
+    "source_links": [
+      "https://github.com/patronus-ai/financebench/tree/main/pdfs"
+    ],
+    "files": [
+      {
+        "path": "attached_files/task_50/APPLE_2021_10K.pdf",
+        "sha256": "175d0b7a907fd7d41836d44410ee06f3843eb9cb3aed1644bb877cb05f66f94c",
+        "source_url": "https://github.com/patronus-ai/financebench/blob/main/pdfs/APPLE_2021_10K.pdf"
+      },
+      {
+        "path": "attached_files/task_50/APPLE_2022_10K.pdf",
+        "sha256": "40f4a5169ac49f1c3011b8287afe28364138cd4f3e4db36c8d75c9da0f6b2a93",
+        "source_url": "https://github.com/patronus-ai/financebench/blob/main/pdfs/APPLE_2022_10K.pdf"
+      }
+    ],
+    "note": "使用用户指定的财报 PDF。"
+  }
+]
