@@ -1,0 +1,59 @@
+CONFIDENTIAL SOURCE RECORD
+
+EMAIL-FAMILY SEPARATION
+RECORD: CB-DOC-031-074
+MATTER: CB-LD-2701
+PORTFOLIO KEY: CBP-031-02
+SOURCE SYSTEM: Microsoft Purview
+EVIDENCE ROLE: chronology_and_custody
+ENTITY KEY: ENT-031-1001
+REFERENCED REVISION: REV-2025.2
+CURRENT REVISION: REV-2025.2
+CUSTODIAN: Amara Patel
+REVIEWER: Amara Patel
+
+NATIVE RECORD
+Custody history shows collection from /workspace/documents/04_custodian_files/026_custodian_files_source_export.txt after the operative record was fixed at /workspace/documents/02_orders/014_orders_source_export.xml. Reviewer handoff preserved both versions and the identity record for CBP-031-02.
+
+SOURCE LINEAGE
+Microsoft Purview produced native record CB-DOC-031-074 for CB-LD-2701. Amara Patel owns the source population and Amara Patel recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns email-family separation within Aurora pricing MDL discovery audit. A multidistrict antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian scope, mobile collections, Bates families, and privilege challenges against court requirements.
+
+NATIVE RECORD
+Custody history shows collection from /workspace/documents/04_custodian_files/026_custodian_files_source_export.txt after the operative record was fixed at /workspace/documents/02_orders/014_orders_source_export.xml. Reviewer handoff preserved both versions and the identity record for CBP-031-02.
+
+RELIANCE LIMITS
+This file supplies chronology and custody evidence for CBP-031-02. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SCHEDULE 1 — NATIVE ROWS
+CBP-031-02-CHR-01 | 2024-11-28 | ENT-031-1001 | REV-2025.2 | Jonas Feld | recorded | $185,444.00 | Chronology And Custody support row 1 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.
+CBP-031-02-CHR-02 | 2024-12-01 | ENT-031-1001 | REV-2025.2 | Leona Park | confirmed | 12% | Chronology And Custody support row 2 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.
+CBP-031-02-CHR-03 | 2024-12-04 | ENT-031-1001 | REV-2025.2 | Adrian Mensah | recorded | 15% | Chronology And Custody support row 3 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.
+CBP-031-02-CHR-04 | 2024-12-07 | ENT-031-1001 | REV-2025.2 | Amara Patel | pending | $770,494.00 | Chronology And Custody support row 4 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.
+CBP-031-02-CHR-05 | 2024-12-10 | ENT-031-1001 | REV-2025.2 | Micah Sullivan | pending | 3% | Chronology And Custody support row 5 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.
+CBP-031-02-CHR-06 | 2024-12-13 | ENT-031-1001 | REV-2025.2 | Lena Varga | recorded | 11% | Chronology And Custody support row 6 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.
+CBP-031-02-CHR-07 | 2024-12-16 | ENT-031-1001 | REV-2025.2 | Rafael Okafor | pending | $852,770.00 | Chronology And Custody support row 7 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.
+CBP-031-02-CHR-08 | 2024-12-19 | ENT-031-2001 | REV-2025.2 | Priya Raman | superseded | 7% | Chronology And Custody support row 8 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.
+CBP-031-02-CHR-09 | 2024-12-22 | ENT-031-1001 | REV-2025.2 | Jonas Feld | recorded | 17% | Chronology And Custody support row 9 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.
+CBP-031-02-CHR-10 | 2024-12-25 | ENT-031-1001 | REV-2025.2 | Leona Park | superseded | $861,683.00 | Chronology And Custody support row 10 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.
+CBP-031-02-CHR-11 | 2024-12-28 | ENT-031-1001 | REV-2025.2 | Adrian Mensah | pending | 8% | Chronology And Custody support row 11 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.
+CBP-031-02-CHR-12 | 2024-12-31 | ENT-031-1001 | REV-2025.2 | Amara Patel | recorded | 3% | Chronology And Custody support row 12 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.
+CBP-031-02-CHR-13 | 2025-01-03 | ENT-031-1001 | REV-2025.2 | Micah Sullivan | confirmed | $226,089.00 | Chronology And Custody support row 13 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.
+CBP-031-02-CHR-14 | 2025-01-06 | ENT-031-1001 | REV-2025.2 | Lena Varga | recorded | 13% | Chronology And Custody support row 14 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.
+CBP-031-02-CHR-15 | 2025-01-09 | ENT-031-1001 | REV-2025.2 | Rafael Okafor | superseded | 14% | Chronology And Custody support row 15 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.
+CBP-031-02-CHR-16 | 2025-01-12 | ENT-031-1001 | REV-2025.2 | Priya Raman | recorded | $676,868.00 | Chronology And Custody support row 16 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.
+CBP-031-02-CHR-17 | 2025-01-15 | ENT-031-1001 | REV-2025.2 | Jonas Feld | pending | 17% | Chronology And Custody support row 17 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.
+CBP-031-02-CHR-18 | 2025-01-18 | ENT-031-1001 | REV-2025.2 | Leona Park | recorded | 25% | Chronology And Custody support row 18 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.
+
+SCHEDULE 2 — CHRONOLOGY
+2025-10-11 | native population opened | Jonas Feld | CB-DOC-031-074
+2025-10-17 | custodian boundary confirmed | Isaac Romero | CBP-031-02
+2025-10-23 | export created | Theo Laurent | CB-DOC-031-074
+2025-10-29 | cross-system identifier checked | Micah Sullivan | CBP-031-02
+2025-11-04 | revision retained | Samuel Kim | CB-DOC-031-074
+2025-11-10 | matter copy collected | Dominic Alvarez | CBP-031-02
+
+PROVENANCE
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

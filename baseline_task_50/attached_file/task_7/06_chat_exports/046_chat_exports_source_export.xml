@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<counsel-source-record schema-version="3.1">
+  <record-id>CB-DOC-031-046</record-id>
+  <matter-number>CB-LD-2701</matter-number>
+  <portfolio-key>CBP-031-10</portfolio-key>
+  <source-system>iManage matter file</source-system>
+  <evidence-role>approval_and_capacity</evidence-role>
+  <immutable-entity-key>ENT-031-1009</immutable-entity-key>
+  <referenced-revision>REV-2024.2</referenced-revision>
+  <current-revision>REV-2025.3</current-revision>
+  <native-record>The current responsibility roster names Willa Novak for CBP-031-10. Status is active; remaining matter capacity is 4. The next internal control date is 2026-09-04.</native-record>
+  <analysis>
+    <section heading="Source lineage">iManage matter file produced native record CB-DOC-031-046 for CB-LD-2701. Sofia Bennett owns the source population and Sofia Bennett recorded the collection review. The export remains separate from later legal analysis.</section>
+    <section heading="Business context">This record concerns third-party subpoena deadline within Aurora pricing MDL discovery audit. A multidistrict antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian scope, mobile collections, Bates families, and privilege challenges against court requirements.</section>
+    <section heading="Native record">The current responsibility roster names Willa Novak for CBP-031-10. Status is active; remaining matter capacity is 4. The next internal control date is 2026-09-04.</section>
+    <section heading="Reliance limits">This file supplies approval and capacity evidence for CBP-031-10. It does not decide legal effect, select among candidate responses, resolve another system&#x27;s entity identity, or establish that its cited revision is controlling.</section>
+  </analysis>
+  <supporting-rows>
+    <row id="CBP-031-10-APP-01" date="2025-07-16" entity="ENT-031-1009" revision="REV-2024.2" actor="Dominic Alvarez" status="superseded" metric="$234,519.00">Approval And Capacity support row 1 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.</row>
+    <row id="CBP-031-10-APP-02" date="2025-07-19" entity="ENT-031-1009" revision="REV-2025.3" actor="Talia Brooks" status="superseded" metric="7%">Approval And Capacity support row 2 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.</row>
+    <row id="CBP-031-10-APP-03" date="2025-07-22" entity="ENT-031-1009" revision="REV-2025.3" actor="Caleb Hassan" status="pending" metric="25%">Approval And Capacity support row 3 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.</row>
+    <row id="CBP-031-10-APP-04" date="2025-07-25" entity="ENT-031-1009" revision="REV-2025.3" actor="Sofia Bennett" status="superseded" metric="$396,623.00">Approval And Capacity support row 4 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.</row>
+    <row id="CBP-031-10-APP-05" date="2025-07-28" entity="ENT-031-1009" revision="REV-2025.3" actor="Theo Laurent" status="recorded" metric="12%">Approval And Capacity support row 5 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.</row>
+    <row id="CBP-031-10-APP-06" date="2025-07-31" entity="ENT-031-1009" revision="REV-2024.2" actor="Nadine Flores" status="pending" metric="5%">Approval And Capacity support row 6 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.</row>
+    <row id="CBP-031-10-APP-07" date="2025-08-03" entity="ENT-031-1009" revision="REV-2025.3" actor="Owen Delgado" status="recorded" metric="$350,448.00">Approval And Capacity support row 7 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.</row>
+    <row id="CBP-031-10-APP-08" date="2025-08-06" entity="ENT-031-2009" revision="REV-2025.3" actor="Maya Ellison" status="pending" metric="11%">Approval And Capacity support row 8 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.</row>
+    <row id="CBP-031-10-APP-09" date="2025-08-09" entity="ENT-031-1009" revision="REV-2025.3" actor="Dominic Alvarez" status="confirmed" metric="2%">Approval And Capacity support row 9 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.</row>
+    <row id="CBP-031-10-APP-10" date="2025-08-12" entity="ENT-031-1009" revision="REV-2025.3" actor="Talia Brooks" status="superseded" metric="$61,451.00">Approval And Capacity support row 10 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.</row>
+    <row id="CBP-031-10-APP-11" date="2025-08-15" entity="ENT-031-1009" revision="REV-2024.2" actor="Caleb Hassan" status="confirmed" metric="15%">Approval And Capacity support row 11 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.</row>
+    <row id="CBP-031-10-APP-12" date="2025-08-18" entity="ENT-031-1009" revision="REV-2025.3" actor="Sofia Bennett" status="superseded" metric="9%">Approval And Capacity support row 12 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.</row>
+    <row id="CBP-031-10-APP-13" date="2025-08-21" entity="ENT-031-1009" revision="REV-2025.3" actor="Theo Laurent" status="recorded" metric="$936,956.00">Approval And Capacity support row 13 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.</row>
+    <row id="CBP-031-10-APP-14" date="2025-08-24" entity="ENT-031-1009" revision="REV-2025.3" actor="Nadine Flores" status="confirmed" metric="26%">Approval And Capacity support row 14 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.</row>
+    <row id="CBP-031-10-APP-15" date="2025-08-27" entity="ENT-031-1009" revision="REV-2025.3" actor="Owen Delgado" status="recorded" metric="6%">Approval And Capacity support row 15 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.</row>
+    <row id="CBP-031-10-APP-16" date="2025-08-30" entity="ENT-031-1009" revision="REV-2024.2" actor="Maya Ellison" status="confirmed" metric="$375,245.00">Approval And Capacity support row 16 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.</row>
+    <row id="CBP-031-10-APP-17" date="2025-09-02" entity="ENT-031-1009" revision="REV-2025.3" actor="Dominic Alvarez" status="superseded" metric="15%">Approval And Capacity support row 17 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.</row>
+    <row id="CBP-031-10-APP-18" date="2025-09-05" entity="ENT-031-1009" revision="REV-2025.3" actor="Talia Brooks" status="recorded" metric="5%">Approval And Capacity support row 18 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.</row>
+  </supporting-rows>
+  <chronology>
+    <event date="2024-04-15" actor="Dominic Alvarez" reference="CB-DOC-031-046">native population opened</event>
+    <event date="2024-04-21" actor="Jonas Feld" reference="CBP-031-10">custodian boundary confirmed</event>
+    <event date="2024-04-27" actor="Isaac Romero" reference="CB-DOC-031-046">export created</event>
+    <event date="2024-05-03" actor="Theo Laurent" reference="CBP-031-10">cross-system identifier checked</event>
+    <event date="2024-05-09" actor="Micah Sullivan" reference="CB-DOC-031-046">revision retained</event>
+    <event date="2024-05-15" actor="Samuel Kim" reference="CBP-031-10">matter copy collected</event>
+  </chronology>
+  <provenance>Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.</provenance>
+</counsel-source-record>

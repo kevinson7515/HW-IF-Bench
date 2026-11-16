@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<counsel-source-record schema-version="3.1">
+  <record-id>CB-DOC-031-054</record-id>
+  <matter-number>CB-LD-2701</matter-number>
+  <portfolio-key>CBP-031-06</portfolio-key>
+  <source-system>Everlaw production log</source-system>
+  <evidence-role>correspondence</evidence-role>
+  <immutable-entity-key>ENT-031-1005</immutable-entity-key>
+  <referenced-revision>REV-2025.6</referenced-revision>
+  <current-revision>REV-2025.6</current-revision>
+  <native-record>The business owner asks whether the protective-order designation error certification covers 125 records under CB-LD-2701-E214. The counterparty points to the protective-order designation error population is 148 records under CB-LD-2701-R246. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.</native-record>
+  <analysis>
+    <section heading="Source lineage">Everlaw production log produced native record CB-DOC-031-054 for CB-LD-2701. Farah Ibrahim owns the source population and Farah Ibrahim recorded the collection review. The export remains separate from later legal analysis.</section>
+    <section heading="Business context">This record concerns protective-order designation error within Aurora pricing MDL discovery audit. A multidistrict antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian scope, mobile collections, Bates families, and privilege challenges against court requirements.</section>
+    <section heading="Native record">The business owner asks whether the protective-order designation error certification covers 125 records under CB-LD-2701-E214. The counterparty points to the protective-order designation error population is 148 records under CB-LD-2701-R246. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.</section>
+    <section heading="Reliance limits">This file supplies correspondence evidence for CBP-031-06. It does not decide legal effect, select among candidate responses, resolve another system&#x27;s entity identity, or establish that its cited revision is controlling.</section>
+  </analysis>
+  <supporting-rows>
+    <row id="CBP-031-06-COR-01" date="2024-04-29" entity="ENT-031-1005" revision="REV-2025.6" actor="Isaac Romero" status="pending" metric="$556,518.00">Correspondence support row 1 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-COR-02" date="2024-05-02" entity="ENT-031-1005" revision="REV-2025.6" actor="Willa Novak" status="superseded" metric="27%">Correspondence support row 2 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-COR-03" date="2024-05-05" entity="ENT-031-1005" revision="REV-2025.6" actor="Henry Cho" status="superseded" metric="12%">Correspondence support row 3 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-COR-04" date="2024-05-08" entity="ENT-031-1005" revision="REV-2025.6" actor="Farah Ibrahim" status="recorded" metric="$519,276.00">Correspondence support row 4 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-COR-05" date="2024-05-11" entity="ENT-031-1005" revision="REV-2025.6" actor="Samuel Kim" status="pending" metric="1%">Correspondence support row 5 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-COR-06" date="2024-05-14" entity="ENT-031-1005" revision="REV-2025.6" actor="Nora Chen" status="superseded" metric="1%">Correspondence support row 6 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-COR-07" date="2024-05-17" entity="ENT-031-1005" revision="REV-2025.6" actor="Elliot Mercer" status="pending" metric="$416,082.00">Correspondence support row 7 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-COR-08" date="2024-05-20" entity="ENT-031-2005" revision="REV-2025.6" actor="Mei Whitaker" status="superseded" metric="1%">Correspondence support row 8 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-COR-09" date="2024-05-23" entity="ENT-031-1005" revision="REV-2025.6" actor="Isaac Romero" status="pending" metric="10%">Correspondence support row 9 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-COR-10" date="2024-05-26" entity="ENT-031-1005" revision="REV-2025.6" actor="Willa Novak" status="superseded" metric="$415,503.00">Correspondence support row 10 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-COR-11" date="2024-05-29" entity="ENT-031-1005" revision="REV-2025.6" actor="Henry Cho" status="recorded" metric="24%">Correspondence support row 11 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-COR-12" date="2024-06-01" entity="ENT-031-1005" revision="REV-2025.6" actor="Farah Ibrahim" status="recorded" metric="9%">Correspondence support row 12 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-COR-13" date="2024-06-04" entity="ENT-031-1005" revision="REV-2025.6" actor="Samuel Kim" status="superseded" metric="$599,695.00">Correspondence support row 13 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-COR-14" date="2024-06-07" entity="ENT-031-1005" revision="REV-2025.6" actor="Nora Chen" status="pending" metric="20%">Correspondence support row 14 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-COR-15" date="2024-06-10" entity="ENT-031-1005" revision="REV-2025.6" actor="Elliot Mercer" status="superseded" metric="6%">Correspondence support row 15 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-COR-16" date="2024-06-13" entity="ENT-031-1005" revision="REV-2025.6" actor="Mei Whitaker" status="superseded" metric="$791,787.00">Correspondence support row 16 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-COR-17" date="2024-06-16" entity="ENT-031-1005" revision="REV-2025.6" actor="Isaac Romero" status="superseded" metric="2%">Correspondence support row 17 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-COR-18" date="2024-06-19" entity="ENT-031-1005" revision="REV-2025.6" actor="Willa Novak" status="recorded" metric="19%">Correspondence support row 18 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+  </supporting-rows>
+  <chronology>
+    <event date="2024-12-19" actor="Isaac Romero" reference="CB-DOC-031-054">native population opened</event>
+    <event date="2024-12-25" actor="Theo Laurent" reference="CBP-031-06">custodian boundary confirmed</event>
+    <event date="2024-12-31" actor="Micah Sullivan" reference="CB-DOC-031-054">export created</event>
+    <event date="2025-01-06" actor="Samuel Kim" reference="CBP-031-06">cross-system identifier checked</event>
+    <event date="2025-01-12" actor="Dominic Alvarez" reference="CB-DOC-031-054">revision retained</event>
+    <event date="2025-01-18" actor="Jonas Feld" reference="CBP-031-06">matter copy collected</event>
+  </chronology>
+  <provenance>Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.</provenance>
+</counsel-source-record>

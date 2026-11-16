@@ -1,0 +1,266 @@
+{
+  "body": "clawback deadline is due by 2025-03-31 under CB-LD-2701-R664. The referenced and current revision are both REV-2025.2. The matter-level control is: The operative discovery order and certification population govern completeness and privilege treatment.",
+  "chronology": [
+    {
+      "actor": "Nora Chen",
+      "date": "2024-09-17",
+      "event": "native population opened",
+      "reference": "CB-DOC-031-021"
+    },
+    {
+      "actor": "Talia Brooks",
+      "date": "2024-09-23",
+      "event": "custodian boundary confirmed",
+      "reference": "CBP-031-09"
+    },
+    {
+      "actor": "Leona Park",
+      "date": "2024-09-29",
+      "event": "export created",
+      "reference": "CB-DOC-031-021"
+    },
+    {
+      "actor": "Willa Novak",
+      "date": "2024-10-05",
+      "event": "cross-system identifier checked",
+      "reference": "CBP-031-09"
+    },
+    {
+      "actor": "Nadine Flores",
+      "date": "2024-10-11",
+      "event": "revision retained",
+      "reference": "CB-DOC-031-021"
+    },
+    {
+      "actor": "Lena Varga",
+      "date": "2024-10-17",
+      "event": "matter copy collected",
+      "reference": "CBP-031-09"
+    }
+  ],
+  "client": "Aurora Home Supply Co.",
+  "confidentiality": "Restricted matter team",
+  "counterparty": "In re Residential Fixture Pricing",
+  "current_revision": "REV-2025.2",
+  "custodian": "Isaac Romero",
+  "evidence_role": "operative_authority",
+  "immutable_entity_key": "ENT-031-1008",
+  "matter_number": "CB-LD-2701",
+  "matter_title": "Aurora pricing MDL discovery audit",
+  "native_version": "5.0",
+  "portfolio_key": "CBP-031-09",
+  "provenance": "Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.",
+  "record_date": "2024-10-22",
+  "record_id": "CB-DOC-031-021",
+  "referenced_revision": "REV-2025.2",
+  "related_records": [
+    "CB-DOC-031-032",
+    "CB-DOC-031-050",
+    "CB-DOC-031-068",
+    "CB-DOC-031-092"
+  ],
+  "reviewer": "Elliot Mercer",
+  "rows": [
+    {
+      "actor": "Nora Chen",
+      "effective_date": "2024-08-11",
+      "entity_key": "ENT-031-1008",
+      "line_id": "CBP-031-09-OPE-01",
+      "metric": "$143,765.00",
+      "note": "Operative Authority support row 1 for clawback deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Elliot Mercer",
+      "effective_date": "2024-08-14",
+      "entity_key": "ENT-031-1008",
+      "line_id": "CBP-031-09-OPE-02",
+      "metric": "3%",
+      "note": "Operative Authority support row 2 for clawback deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "superseded"
+    },
+    {
+      "actor": "Mei Whitaker",
+      "effective_date": "2024-08-17",
+      "entity_key": "ENT-031-1008",
+      "line_id": "CBP-031-09-OPE-03",
+      "metric": "6%",
+      "note": "Operative Authority support row 3 for clawback deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Isaac Romero",
+      "effective_date": "2024-08-20",
+      "entity_key": "ENT-031-1008",
+      "line_id": "CBP-031-09-OPE-04",
+      "metric": "$403,024.00",
+      "note": "Operative Authority support row 4 for clawback deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "recorded"
+    },
+    {
+      "actor": "Willa Novak",
+      "effective_date": "2024-08-23",
+      "entity_key": "ENT-031-1008",
+      "line_id": "CBP-031-09-OPE-05",
+      "metric": "4%",
+      "note": "Operative Authority support row 5 for clawback deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Henry Cho",
+      "effective_date": "2024-08-26",
+      "entity_key": "ENT-031-1008",
+      "line_id": "CBP-031-09-OPE-06",
+      "metric": "10%",
+      "note": "Operative Authority support row 6 for clawback deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "superseded"
+    },
+    {
+      "actor": "Farah Ibrahim",
+      "effective_date": "2024-08-29",
+      "entity_key": "ENT-031-1008",
+      "line_id": "CBP-031-09-OPE-07",
+      "metric": "$257,101.00",
+      "note": "Operative Authority support row 7 for clawback deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Samuel Kim",
+      "effective_date": "2024-09-01",
+      "entity_key": "ENT-031-2008",
+      "line_id": "CBP-031-09-OPE-08",
+      "metric": "21%",
+      "note": "Operative Authority support row 8 for clawback deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "recorded"
+    },
+    {
+      "actor": "Nora Chen",
+      "effective_date": "2024-09-04",
+      "entity_key": "ENT-031-1008",
+      "line_id": "CBP-031-09-OPE-09",
+      "metric": "26%",
+      "note": "Operative Authority support row 9 for clawback deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "pending"
+    },
+    {
+      "actor": "Elliot Mercer",
+      "effective_date": "2024-09-07",
+      "entity_key": "ENT-031-1008",
+      "line_id": "CBP-031-09-OPE-10",
+      "metric": "$829,622.00",
+      "note": "Operative Authority support row 10 for clawback deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "pending"
+    },
+    {
+      "actor": "Mei Whitaker",
+      "effective_date": "2024-09-10",
+      "entity_key": "ENT-031-1008",
+      "line_id": "CBP-031-09-OPE-11",
+      "metric": "12%",
+      "note": "Operative Authority support row 11 for clawback deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Isaac Romero",
+      "effective_date": "2024-09-13",
+      "entity_key": "ENT-031-1008",
+      "line_id": "CBP-031-09-OPE-12",
+      "metric": "26%",
+      "note": "Operative Authority support row 12 for clawback deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Willa Novak",
+      "effective_date": "2024-09-16",
+      "entity_key": "ENT-031-1008",
+      "line_id": "CBP-031-09-OPE-13",
+      "metric": "$924,004.00",
+      "note": "Operative Authority support row 13 for clawback deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "recorded"
+    },
+    {
+      "actor": "Henry Cho",
+      "effective_date": "2024-09-19",
+      "entity_key": "ENT-031-1008",
+      "line_id": "CBP-031-09-OPE-14",
+      "metric": "15%",
+      "note": "Operative Authority support row 14 for clawback deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "superseded"
+    },
+    {
+      "actor": "Farah Ibrahim",
+      "effective_date": "2024-09-22",
+      "entity_key": "ENT-031-1008",
+      "line_id": "CBP-031-09-OPE-15",
+      "metric": "18%",
+      "note": "Operative Authority support row 15 for clawback deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "superseded"
+    },
+    {
+      "actor": "Samuel Kim",
+      "effective_date": "2024-09-25",
+      "entity_key": "ENT-031-1008",
+      "line_id": "CBP-031-09-OPE-16",
+      "metric": "$315,865.00",
+      "note": "Operative Authority support row 16 for clawback deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Nora Chen",
+      "effective_date": "2024-09-28",
+      "entity_key": "ENT-031-1008",
+      "line_id": "CBP-031-09-OPE-17",
+      "metric": "4%",
+      "note": "Operative Authority support row 17 for clawback deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "superseded"
+    },
+    {
+      "actor": "Elliot Mercer",
+      "effective_date": "2024-10-01",
+      "entity_key": "ENT-031-1008",
+      "line_id": "CBP-031-09-OPE-18",
+      "metric": "16%",
+      "note": "Operative Authority support row 18 for clawback deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-09 population from similarly named records.",
+      "revision": "REV-2025.2",
+      "status": "superseded"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Source lineage",
+      "text": "Legal hold console produced native record CB-DOC-031-021 for CB-LD-2701. Isaac Romero owns the source population and Elliot Mercer recorded the collection review. The export remains separate from later legal analysis."
+    },
+    {
+      "heading": "Business context",
+      "text": "This record concerns clawback deadline within Aurora pricing MDL discovery audit. A multidistrict antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian scope, mobile collections, Bates families, and privilege challenges against court requirements."
+    },
+    {
+      "heading": "Native record",
+      "text": "clawback deadline is due by 2025-03-31 under CB-LD-2701-R664. The referenced and current revision are both REV-2025.2. The matter-level control is: The operative discovery order and certification population govern completeness and privilege treatment."
+    },
+    {
+      "heading": "Reliance limits",
+      "text": "This file supplies operative authority evidence for CBP-031-09. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling."
+    }
+  ],
+  "source_path": "/workspace/documents/03_requests_responses/021_requests_responses_source_export.json",
+  "source_system": "Legal hold console",
+  "subject": "clawback deadline"
+}

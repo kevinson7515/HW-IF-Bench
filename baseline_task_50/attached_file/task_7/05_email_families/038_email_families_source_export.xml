@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<counsel-source-record schema-version="3.1">
+  <record-id>CB-DOC-031-038</record-id>
+  <matter-number>CB-LD-2701</matter-number>
+  <portfolio-key>CBP-031-02</portfolio-key>
+  <source-system>Microsoft Purview</source-system>
+  <evidence-role>approval_and_capacity</evidence-role>
+  <immutable-entity-key>ENT-031-1001</immutable-entity-key>
+  <referenced-revision>REV-2025.2</referenced-revision>
+  <current-revision>REV-2025.2</current-revision>
+  <native-record>The current responsibility roster names Talia Brooks for CBP-031-02. Status is active; remaining matter capacity is 1. The next internal control date is 2026-09-03.</native-record>
+  <analysis>
+    <section heading="Source lineage">Microsoft Purview produced native record CB-DOC-031-038 for CB-LD-2701. Priya Raman owns the source population and Priya Raman recorded the collection review. The export remains separate from later legal analysis.</section>
+    <section heading="Business context">This record concerns email-family separation within Aurora pricing MDL discovery audit. A multidistrict antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian scope, mobile collections, Bates families, and privilege challenges against court requirements.</section>
+    <section heading="Native record">The current responsibility roster names Talia Brooks for CBP-031-02. Status is active; remaining matter capacity is 1. The next internal control date is 2026-09-03.</section>
+    <section heading="Reliance limits">This file supplies approval and capacity evidence for CBP-031-02. It does not decide legal effect, select among candidate responses, resolve another system&#x27;s entity identity, or establish that its cited revision is controlling.</section>
+  </analysis>
+  <supporting-rows>
+    <row id="CBP-031-02-APP-01" date="2024-07-11" entity="ENT-031-1001" revision="REV-2025.2" actor="Micah Sullivan" status="confirmed" metric="$573,021.00">Approval And Capacity support row 1 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.</row>
+    <row id="CBP-031-02-APP-02" date="2024-07-14" entity="ENT-031-1001" revision="REV-2025.2" actor="Lena Varga" status="confirmed" metric="18%">Approval And Capacity support row 2 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.</row>
+    <row id="CBP-031-02-APP-03" date="2024-07-17" entity="ENT-031-1001" revision="REV-2025.2" actor="Rafael Okafor" status="superseded" metric="9%">Approval And Capacity support row 3 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.</row>
+    <row id="CBP-031-02-APP-04" date="2024-07-20" entity="ENT-031-1001" revision="REV-2025.2" actor="Priya Raman" status="recorded" metric="$909,316.00">Approval And Capacity support row 4 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.</row>
+    <row id="CBP-031-02-APP-05" date="2024-07-23" entity="ENT-031-1001" revision="REV-2025.2" actor="Jonas Feld" status="recorded" metric="22%">Approval And Capacity support row 5 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.</row>
+    <row id="CBP-031-02-APP-06" date="2024-07-26" entity="ENT-031-1001" revision="REV-2025.2" actor="Leona Park" status="recorded" metric="14%">Approval And Capacity support row 6 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.</row>
+    <row id="CBP-031-02-APP-07" date="2024-07-29" entity="ENT-031-1001" revision="REV-2025.2" actor="Adrian Mensah" status="confirmed" metric="$884,693.00">Approval And Capacity support row 7 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.</row>
+    <row id="CBP-031-02-APP-08" date="2024-08-01" entity="ENT-031-2001" revision="REV-2025.2" actor="Amara Patel" status="superseded" metric="14%">Approval And Capacity support row 8 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.</row>
+    <row id="CBP-031-02-APP-09" date="2024-08-04" entity="ENT-031-1001" revision="REV-2025.2" actor="Micah Sullivan" status="pending" metric="20%">Approval And Capacity support row 9 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.</row>
+    <row id="CBP-031-02-APP-10" date="2024-08-07" entity="ENT-031-1001" revision="REV-2025.2" actor="Lena Varga" status="confirmed" metric="$189,617.00">Approval And Capacity support row 10 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.</row>
+    <row id="CBP-031-02-APP-11" date="2024-08-10" entity="ENT-031-1001" revision="REV-2025.2" actor="Rafael Okafor" status="pending" metric="27%">Approval And Capacity support row 11 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.</row>
+    <row id="CBP-031-02-APP-12" date="2024-08-13" entity="ENT-031-1001" revision="REV-2025.2" actor="Priya Raman" status="superseded" metric="11%">Approval And Capacity support row 12 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.</row>
+    <row id="CBP-031-02-APP-13" date="2024-08-16" entity="ENT-031-1001" revision="REV-2025.2" actor="Jonas Feld" status="recorded" metric="$994,332.00">Approval And Capacity support row 13 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.</row>
+    <row id="CBP-031-02-APP-14" date="2024-08-19" entity="ENT-031-1001" revision="REV-2025.2" actor="Leona Park" status="recorded" metric="6%">Approval And Capacity support row 14 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.</row>
+    <row id="CBP-031-02-APP-15" date="2024-08-22" entity="ENT-031-1001" revision="REV-2025.2" actor="Adrian Mensah" status="recorded" metric="4%">Approval And Capacity support row 15 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.</row>
+    <row id="CBP-031-02-APP-16" date="2024-08-25" entity="ENT-031-1001" revision="REV-2025.2" actor="Amara Patel" status="pending" metric="$483,694.00">Approval And Capacity support row 16 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.</row>
+    <row id="CBP-031-02-APP-17" date="2024-08-28" entity="ENT-031-1001" revision="REV-2025.2" actor="Micah Sullivan" status="confirmed" metric="14%">Approval And Capacity support row 17 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.</row>
+    <row id="CBP-031-02-APP-18" date="2024-08-31" entity="ENT-031-1001" revision="REV-2025.2" actor="Lena Varga" status="recorded" metric="10%">Approval And Capacity support row 18 for email-family separation; retained from the native system so the reviewer can distinguish the exact CBP-031-02 population from similarly named records.</row>
+  </supporting-rows>
+  <chronology>
+    <event date="2025-10-26" actor="Micah Sullivan" reference="CB-DOC-031-038">native population opened</event>
+    <event date="2025-11-01" actor="Samuel Kim" reference="CBP-031-02">custodian boundary confirmed</event>
+    <event date="2025-11-07" actor="Dominic Alvarez" reference="CB-DOC-031-038">export created</event>
+    <event date="2025-11-13" actor="Jonas Feld" reference="CBP-031-02">cross-system identifier checked</event>
+    <event date="2025-11-19" actor="Isaac Romero" reference="CB-DOC-031-038">revision retained</event>
+    <event date="2025-11-25" actor="Theo Laurent" reference="CBP-031-02">matter copy collected</event>
+  </chronology>
+  <provenance>Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.</provenance>
+</counsel-source-record>

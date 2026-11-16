@@ -1,0 +1,59 @@
+ATTORNEY WORK PRODUCT
+
+PROTECTIVE-ORDER DESIGNATION ERROR
+RECORD: CB-DOC-031-090
+MATTER: CB-LD-2701
+PORTFOLIO KEY: CBP-031-06
+SOURCE SYSTEM: Everlaw production log
+EVIDENCE ROLE: independent_counterrecord
+ENTITY KEY: ENT-031-1005
+REFERENCED REVISION: REV-2025.6
+CURRENT REVISION: REV-2025.6
+CUSTODIAN: Mei Whitaker
+REVIEWER: Mei Whitaker
+
+NATIVE RECORD
+An independent source repeats portfolio key CBP-031-06 and immutable entity ENT-031-1005 but uses reference CB-LD-2701-E214. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.
+
+SOURCE LINEAGE
+Everlaw production log produced native record CB-DOC-031-090 for CB-LD-2701. Mei Whitaker owns the source population and Mei Whitaker recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns protective-order designation error within Aurora pricing MDL discovery audit. A multidistrict antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian scope, mobile collections, Bates families, and privilege challenges against court requirements.
+
+NATIVE RECORD
+An independent source repeats portfolio key CBP-031-06 and immutable entity ENT-031-1005 but uses reference CB-LD-2701-E214. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.
+
+RELIANCE LIMITS
+This file supplies independent counterrecord evidence for CBP-031-06. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SCHEDULE 1 — NATIVE ROWS
+CBP-031-06-IND-01 | 2024-07-22 | ENT-031-1005 | REV-2025.6 | Samuel Kim | recorded | $622,860.00 | Independent Counterrecord support row 1 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-IND-02 | 2024-07-25 | ENT-031-1005 | REV-2025.6 | Nora Chen | superseded | 26% | Independent Counterrecord support row 2 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-IND-03 | 2024-07-28 | ENT-031-1005 | REV-2025.6 | Elliot Mercer | recorded | 25% | Independent Counterrecord support row 3 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-IND-04 | 2024-07-31 | ENT-031-1005 | REV-2025.6 | Mei Whitaker | confirmed | $800,405.00 | Independent Counterrecord support row 4 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-IND-05 | 2024-08-03 | ENT-031-1005 | REV-2025.6 | Isaac Romero | pending | 16% | Independent Counterrecord support row 5 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-IND-06 | 2024-08-06 | ENT-031-1005 | REV-2025.6 | Willa Novak | recorded | 2% | Independent Counterrecord support row 6 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-IND-07 | 2024-08-09 | ENT-031-1005 | REV-2025.6 | Henry Cho | confirmed | $483,101.00 | Independent Counterrecord support row 7 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-IND-08 | 2024-08-12 | ENT-031-2005 | REV-2025.6 | Farah Ibrahim | recorded | 15% | Independent Counterrecord support row 8 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-IND-09 | 2024-08-15 | ENT-031-1005 | REV-2025.6 | Samuel Kim | pending | 7% | Independent Counterrecord support row 9 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-IND-10 | 2024-08-18 | ENT-031-1005 | REV-2025.6 | Nora Chen | confirmed | $276,537.00 | Independent Counterrecord support row 10 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-IND-11 | 2024-08-21 | ENT-031-1005 | REV-2025.6 | Elliot Mercer | confirmed | 15% | Independent Counterrecord support row 11 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-IND-12 | 2024-08-24 | ENT-031-1005 | REV-2025.6 | Mei Whitaker | superseded | 5% | Independent Counterrecord support row 12 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-IND-13 | 2024-08-27 | ENT-031-1005 | REV-2025.6 | Isaac Romero | recorded | $456,420.00 | Independent Counterrecord support row 13 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-IND-14 | 2024-08-30 | ENT-031-1005 | REV-2025.6 | Willa Novak | confirmed | 2% | Independent Counterrecord support row 14 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-IND-15 | 2024-09-02 | ENT-031-1005 | REV-2025.6 | Henry Cho | confirmed | 24% | Independent Counterrecord support row 15 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-IND-16 | 2024-09-05 | ENT-031-1005 | REV-2025.6 | Farah Ibrahim | confirmed | $535,613.00 | Independent Counterrecord support row 16 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-IND-17 | 2024-09-08 | ENT-031-1005 | REV-2025.6 | Samuel Kim | superseded | 22% | Independent Counterrecord support row 17 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-IND-18 | 2024-09-11 | ENT-031-1005 | REV-2025.6 | Nora Chen | confirmed | 5% | Independent Counterrecord support row 18 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+
+SCHEDULE 2 — CHRONOLOGY
+2024-12-16 | native population opened | Samuel Kim | CB-DOC-031-090
+2024-12-22 | custodian boundary confirmed | Dominic Alvarez | CBP-031-06
+2024-12-28 | export created | Jonas Feld | CB-DOC-031-090
+2025-01-03 | cross-system identifier checked | Isaac Romero | CBP-031-06
+2025-01-09 | revision retained | Theo Laurent | CB-DOC-031-090
+2025-01-15 | matter copy collected | Micah Sullivan | CBP-031-06
+
+PROVENANCE
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

@@ -1,0 +1,59 @@
+CONFIDENTIAL LEGAL REVIEW
+
+PROTECTIVE-ORDER DESIGNATION ERROR
+RECORD: CB-DOC-031-018
+MATTER: CB-LD-2701
+PORTFOLIO KEY: CBP-031-06
+SOURCE SYSTEM: Everlaw production log
+EVIDENCE ROLE: operative_authority
+ENTITY KEY: ENT-031-1005
+REFERENCED REVISION: REV-2025.6
+CURRENT REVISION: REV-2025.6
+CUSTODIAN: Mei Whitaker
+REVIEWER: Mei Whitaker
+
+NATIVE RECORD
+the protective-order designation error population is 148 records under CB-LD-2701-R246. The referenced and current revision are both REV-2025.6. The matter-level control is: The operative discovery order and certification population govern completeness and privilege treatment.
+
+SOURCE LINEAGE
+Everlaw production log produced native record CB-DOC-031-018 for CB-LD-2701. Mei Whitaker owns the source population and Mei Whitaker recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns protective-order designation error within Aurora pricing MDL discovery audit. A multidistrict antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian scope, mobile collections, Bates families, and privilege challenges against court requirements.
+
+NATIVE RECORD
+the protective-order designation error population is 148 records under CB-LD-2701-R246. The referenced and current revision are both REV-2025.6. The matter-level control is: The operative discovery order and certification population govern completeness and privilege treatment.
+
+RELIANCE LIMITS
+This file supplies operative authority evidence for CBP-031-06. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SCHEDULE 1 — NATIVE ROWS
+CBP-031-06-OPE-01 | 2025-01-21 | ENT-031-1005 | REV-2025.6 | Samuel Kim | superseded | $908,519.00 | Operative Authority support row 1 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-OPE-02 | 2025-01-24 | ENT-031-1005 | REV-2025.6 | Nora Chen | confirmed | 21% | Operative Authority support row 2 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-OPE-03 | 2025-01-27 | ENT-031-1005 | REV-2025.6 | Elliot Mercer | superseded | 12% | Operative Authority support row 3 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-OPE-04 | 2025-01-30 | ENT-031-1005 | REV-2025.6 | Mei Whitaker | recorded | $167,536.00 | Operative Authority support row 4 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-OPE-05 | 2025-02-02 | ENT-031-1005 | REV-2025.6 | Isaac Romero | superseded | 5% | Operative Authority support row 5 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-OPE-06 | 2025-02-05 | ENT-031-1005 | REV-2025.6 | Willa Novak | superseded | 17% | Operative Authority support row 6 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-OPE-07 | 2025-02-08 | ENT-031-1005 | REV-2025.6 | Henry Cho | pending | $502,674.00 | Operative Authority support row 7 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-OPE-08 | 2025-02-11 | ENT-031-2005 | REV-2025.6 | Farah Ibrahim | pending | 16% | Operative Authority support row 8 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-OPE-09 | 2025-02-14 | ENT-031-1005 | REV-2025.6 | Samuel Kim | confirmed | 23% | Operative Authority support row 9 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-OPE-10 | 2025-02-17 | ENT-031-1005 | REV-2025.6 | Nora Chen | confirmed | $314,301.00 | Operative Authority support row 10 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-OPE-11 | 2025-02-20 | ENT-031-1005 | REV-2025.6 | Elliot Mercer | recorded | 15% | Operative Authority support row 11 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-OPE-12 | 2025-02-23 | ENT-031-1005 | REV-2025.6 | Mei Whitaker | confirmed | 12% | Operative Authority support row 12 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-OPE-13 | 2025-02-26 | ENT-031-1005 | REV-2025.6 | Isaac Romero | recorded | $537,916.00 | Operative Authority support row 13 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-OPE-14 | 2025-03-01 | ENT-031-1005 | REV-2025.6 | Willa Novak | superseded | 12% | Operative Authority support row 14 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-OPE-15 | 2025-03-04 | ENT-031-1005 | REV-2025.6 | Henry Cho | confirmed | 9% | Operative Authority support row 15 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-OPE-16 | 2025-03-07 | ENT-031-1005 | REV-2025.6 | Farah Ibrahim | recorded | $881,336.00 | Operative Authority support row 16 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-OPE-17 | 2025-03-10 | ENT-031-1005 | REV-2025.6 | Samuel Kim | pending | 3% | Operative Authority support row 17 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+CBP-031-06-OPE-18 | 2025-03-13 | ENT-031-1005 | REV-2025.6 | Nora Chen | superseded | 24% | Operative Authority support row 18 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.
+
+SCHEDULE 2 — CHRONOLOGY
+2024-06-04 | native population opened | Samuel Kim | CB-DOC-031-018
+2024-06-10 | custodian boundary confirmed | Dominic Alvarez | CBP-031-06
+2024-06-16 | export created | Jonas Feld | CB-DOC-031-018
+2024-06-22 | cross-system identifier checked | Isaac Romero | CBP-031-06
+2024-06-28 | revision retained | Theo Laurent | CB-DOC-031-018
+2024-07-04 | matter copy collected | Micah Sullivan | CBP-031-06
+
+PROVENANCE
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

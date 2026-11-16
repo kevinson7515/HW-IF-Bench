@@ -1,0 +1,59 @@
+CONFIDENTIAL SOURCE RECORD
+
+THIRD-PARTY SUBPOENA DEADLINE
+RECORD: CB-DOC-031-010
+MATTER: CB-LD-2701
+PORTFOLIO KEY: CBP-031-10
+SOURCE SYSTEM: iManage matter file
+EVIDENCE ROLE: identity_crosswalk
+ENTITY KEY: ENT-031-1009
+REFERENCED REVISION: REV-2024.2
+CURRENT REVISION: REV-2025.3
+CUSTODIAN: Maya Ellison
+REVIEWER: Maya Ellison
+
+NATIVE RECORD
+Crosswalk revision REV-2025.3 maps portfolio key CBP-031-10 and legal name Aurora Home Supply Co. — Third-Party Subpoena Deadline record 10 to immutable entity ENT-031-1009. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+
+SOURCE LINEAGE
+iManage matter file produced native record CB-DOC-031-010 for CB-LD-2701. Maya Ellison owns the source population and Maya Ellison recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns third-party subpoena deadline within Aurora pricing MDL discovery audit. A multidistrict antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian scope, mobile collections, Bates families, and privilege challenges against court requirements.
+
+NATIVE RECORD
+Crosswalk revision REV-2025.3 maps portfolio key CBP-031-10 and legal name Aurora Home Supply Co. — Third-Party Subpoena Deadline record 10 to immutable entity ENT-031-1009. The domain, legal entity, and native system key agree; the nearby alias is excluded.
+
+RELIANCE LIMITS
+This file supplies identity crosswalk evidence for CBP-031-10. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SCHEDULE 1 — NATIVE ROWS
+CBP-031-10-IDE-01 | 2025-03-30 | ENT-031-1009 | REV-2024.2 | Theo Laurent | confirmed | $901,633.00 | Identity Crosswalk support row 1 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-IDE-02 | 2025-04-02 | ENT-031-1009 | REV-2025.3 | Nadine Flores | superseded | 19% | Identity Crosswalk support row 2 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-IDE-03 | 2025-04-05 | ENT-031-1009 | REV-2025.3 | Owen Delgado | superseded | 1% | Identity Crosswalk support row 3 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-IDE-04 | 2025-04-08 | ENT-031-1009 | REV-2025.3 | Maya Ellison | confirmed | $390,289.00 | Identity Crosswalk support row 4 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-IDE-05 | 2025-04-11 | ENT-031-1009 | REV-2025.3 | Dominic Alvarez | pending | 12% | Identity Crosswalk support row 5 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-IDE-06 | 2025-04-14 | ENT-031-1009 | REV-2024.2 | Talia Brooks | confirmed | 20% | Identity Crosswalk support row 6 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-IDE-07 | 2025-04-17 | ENT-031-1009 | REV-2025.3 | Caleb Hassan | pending | $217,154.00 | Identity Crosswalk support row 7 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-IDE-08 | 2025-04-20 | ENT-031-2009 | REV-2025.3 | Sofia Bennett | pending | 21% | Identity Crosswalk support row 8 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-IDE-09 | 2025-04-23 | ENT-031-1009 | REV-2025.3 | Theo Laurent | pending | 4% | Identity Crosswalk support row 9 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-IDE-10 | 2025-04-26 | ENT-031-1009 | REV-2025.3 | Nadine Flores | recorded | $577,888.00 | Identity Crosswalk support row 10 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-IDE-11 | 2025-04-29 | ENT-031-1009 | REV-2024.2 | Owen Delgado | superseded | 9% | Identity Crosswalk support row 11 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-IDE-12 | 2025-05-02 | ENT-031-1009 | REV-2025.3 | Maya Ellison | recorded | 6% | Identity Crosswalk support row 12 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-IDE-13 | 2025-05-05 | ENT-031-1009 | REV-2025.3 | Dominic Alvarez | superseded | $73,867.00 | Identity Crosswalk support row 13 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-IDE-14 | 2025-05-08 | ENT-031-1009 | REV-2025.3 | Talia Brooks | confirmed | 14% | Identity Crosswalk support row 14 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-IDE-15 | 2025-05-11 | ENT-031-1009 | REV-2025.3 | Caleb Hassan | recorded | 6% | Identity Crosswalk support row 15 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-IDE-16 | 2025-05-14 | ENT-031-1009 | REV-2024.2 | Sofia Bennett | superseded | $767,323.00 | Identity Crosswalk support row 16 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-IDE-17 | 2025-05-17 | ENT-031-1009 | REV-2025.3 | Theo Laurent | recorded | 21% | Identity Crosswalk support row 17 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+CBP-031-10-IDE-18 | 2025-05-20 | ENT-031-1009 | REV-2025.3 | Nadine Flores | pending | 4% | Identity Crosswalk support row 18 for third-party subpoena deadline; retained from the native system so the reviewer can distinguish the exact CBP-031-10 population from similarly named records.
+
+SCHEDULE 2 — CHRONOLOGY
+2024-08-01 | native population opened | Theo Laurent | CB-DOC-031-010
+2024-08-07 | custodian boundary confirmed | Micah Sullivan | CBP-031-10
+2024-08-13 | export created | Samuel Kim | CB-DOC-031-010
+2024-08-19 | cross-system identifier checked | Dominic Alvarez | CBP-031-10
+2024-08-25 | revision retained | Jonas Feld | CB-DOC-031-010
+2024-08-31 | matter copy collected | Isaac Romero | CBP-031-10
+
+PROVENANCE
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

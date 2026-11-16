@@ -1,0 +1,272 @@
+%PDF-1.4
+% CounselBench deterministic native source
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 2 /Kids [3 0 R 5 0 R] >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 4505 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(COUNSELBENCH SOURCE RECORD) Tj
+T*
+(Record: CB-DOC-031-064) Tj
+T*
+(Matter: CB-LD-2701 - Aurora pricing MDL discovery audit) Tj
+T*
+(Portfolio key: CBP-031-04) Tj
+T*
+(Source system: iManage matter file) Tj
+T*
+(Evidence role: financial_or_population_support) Tj
+T*
+(Immutable entity: ENT-031-1003) Tj
+T*
+(Referenced revision: REV-2025.4) Tj
+T*
+(Current revision: REV-2025.4) Tj
+T*
+(Custodian: Talia Brooks) Tj
+T*
+(Reviewer: Nadine Flores) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(The supporting population for CBP-031-04 was exported under CB-LD-2701-E980. The population uses) Tj
+T*
+(immutable entity ENT-031-1003 and records impact-control score 45; this score is an input, not a) Tj
+T*
+(disposition.) Tj
+T*
+() Tj
+T*
+(SOURCE LINEAGE) Tj
+T*
+(iManage matter file produced native record CB-DOC-031-064 for CB-LD-2701. Talia Brooks owns the source) Tj
+T*
+(population and Nadine Flores recorded the collection review. The export remains separate from later legal) Tj
+T*
+(analysis.) Tj
+T*
+() Tj
+T*
+(BUSINESS CONTEXT) Tj
+T*
+(This record concerns metadata field loss within Aurora pricing MDL discovery audit. A multidistrict) Tj
+T*
+(antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a) Tj
+T*
+(pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian) Tj
+T*
+(scope, mobile collections, Bates families, and privilege challenges against court requirements.) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(The supporting population for CBP-031-04 was exported under CB-LD-2701-E980. The population uses) Tj
+T*
+(immutable entity ENT-031-1003 and records impact-control score 45; this score is an input, not a) Tj
+T*
+(disposition.) Tj
+T*
+() Tj
+T*
+(RELIANCE LIMITS) Tj
+T*
+(This file supplies financial or population support evidence for CBP-031-04. It does not decide legal) Tj
+T*
+(effect, select among candidate responses, resolve another system's entity identity, or establish that its) Tj
+T*
+(cited revision is controlling.) Tj
+T*
+() Tj
+T*
+(NATIVE ROWS) Tj
+T*
+(CBP-031-04-FIN-01 | 2025-01-11 | ENT-031-1003 | REV-2025.4 | Owen Delgado | pending | $506,946.00 |) Tj
+T*
+(Financial Or Population Support support row 1 for metadata field loss; retained from the native system so) Tj
+T*
+(the reviewer can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-FIN-02 | 2025-01-14 | ENT-031-1003 | REV-2025.4 | Maya Ellison | pending | 14% | Financial Or) Tj
+T*
+(Population Support support row 2 for metadata field loss; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-FIN-03 | 2025-01-17 | ENT-031-1003 | REV-2025.4 | Dominic Alvarez | pending | 25% | Financial) Tj
+T*
+(Or Population Support support row 3 for metadata field loss; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-FIN-04 | 2025-01-20 | ENT-031-1003 | REV-2025.4 | Talia Brooks | pending | $444,542.00 |) Tj
+T*
+(Financial Or Population Support support row 4 for metadata field loss; retained from the native system so) Tj
+T*
+(the reviewer can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-FIN-05 | 2025-01-23 | ENT-031-1003 | REV-2025.4 | Caleb Hassan | recorded | 14% | Financial Or) Tj
+T*
+(Population Support support row 5 for metadata field loss; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-FIN-06 | 2025-01-26 | ENT-031-1003 | REV-2025.4 | Sofia Bennett | pending | 1% | Financial Or) Tj
+T*
+(Population Support support row 6 for metadata field loss; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-FIN-07 | 2025-01-29 | ENT-031-1003 | REV-2025.4 | Theo Laurent | pending | $847,674.00 |) Tj
+T*
+(Financial Or Population Support support row 7 for metadata field loss; retained from the native system so) Tj
+T*
+(the reviewer can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-FIN-08 | 2025-02-01 | ENT-031-2003 | REV-2025.4 | Nadine Flores | superseded | 27% | Financial) Tj
+T*
+(Or Population Support support row 8 for metadata field loss; retained from the native system so the) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4077 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(reviewer can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-FIN-09 | 2025-02-04 | ENT-031-1003 | REV-2025.4 | Owen Delgado | confirmed | 9% | Financial Or) Tj
+T*
+(Population Support support row 9 for metadata field loss; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-FIN-10 | 2025-02-07 | ENT-031-1003 | REV-2025.4 | Maya Ellison | recorded | $668,944.00 |) Tj
+T*
+(Financial Or Population Support support row 10 for metadata field loss; retained from the native system) Tj
+T*
+(so the reviewer can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-FIN-11 | 2025-02-10 | ENT-031-1003 | REV-2025.4 | Dominic Alvarez | superseded | 1% |) Tj
+T*
+(Financial Or Population Support support row 11 for metadata field loss; retained from the native system) Tj
+T*
+(so the reviewer can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-FIN-12 | 2025-02-13 | ENT-031-1003 | REV-2025.4 | Talia Brooks | pending | 26% | Financial Or) Tj
+T*
+(Population Support support row 12 for metadata field loss; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-FIN-13 | 2025-02-16 | ENT-031-1003 | REV-2025.4 | Caleb Hassan | pending | $658,050.00 |) Tj
+T*
+(Financial Or Population Support support row 13 for metadata field loss; retained from the native system) Tj
+T*
+(so the reviewer can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-FIN-14 | 2025-02-19 | ENT-031-1003 | REV-2025.4 | Sofia Bennett | confirmed | 26% | Financial) Tj
+T*
+(Or Population Support support row 14 for metadata field loss; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-FIN-15 | 2025-02-22 | ENT-031-1003 | REV-2025.4 | Theo Laurent | pending | 5% | Financial Or) Tj
+T*
+(Population Support support row 15 for metadata field loss; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-FIN-16 | 2025-02-25 | ENT-031-1003 | REV-2025.4 | Nadine Flores | pending | $515,658.00 |) Tj
+T*
+(Financial Or Population Support support row 16 for metadata field loss; retained from the native system) Tj
+T*
+(so the reviewer can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-FIN-17 | 2025-02-28 | ENT-031-1003 | REV-2025.4 | Owen Delgado | recorded | 25% | Financial Or) Tj
+T*
+(Population Support support row 17 for metadata field loss; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+(CBP-031-04-FIN-18 | 2025-03-03 | ENT-031-1003 | REV-2025.4 | Maya Ellison | superseded | 19% | Financial) Tj
+T*
+(Or Population Support support row 18 for metadata field loss; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-04 population from similarly named records.) Tj
+T*
+() Tj
+T*
+(CHRONOLOGY) Tj
+T*
+(2025-08-02 | native population opened | Owen Delgado | CB-DOC-031-064) Tj
+T*
+(2025-08-08 | custodian boundary confirmed | Rafael Okafor | CBP-031-04) Tj
+T*
+(2025-08-14 | export created | Elliot Mercer | CB-DOC-031-064) Tj
+T*
+(2025-08-20 | cross-system identifier checked | Caleb Hassan | CBP-031-04) Tj
+T*
+(2025-08-26 | revision retained | Adrian Mensah | CB-DOC-031-064) Tj
+T*
+(2025-09-01 | matter copy collected | Henry Cho | CBP-031-04) Tj
+T*
+() Tj
+T*
+(RELATED NATIVE RECORDS) Tj
+T*
+(CB-DOC-031-075) Tj
+T*
+(CB-DOC-031-093) Tj
+T*
+(CB-DOC-031-015) Tj
+T*
+(CB-DOC-031-039) Tj
+T*
+() Tj
+T*
+(Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are) Tj
+T*
+(fictitious; the record is not legal advice.) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000052 00000 n 
+0000000101 00000 n 
+0000000164 00000 n 
+0000000290 00000 n 
+0000004846 00000 n 
+0000004972 00000 n 
+0000009100 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+9168
+%%EOF

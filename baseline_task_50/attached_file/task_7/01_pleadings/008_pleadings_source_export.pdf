@@ -1,0 +1,272 @@
+%PDF-1.4
+% CounselBench deterministic native source
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 2 /Kids [3 0 R 5 0 R] >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 4497 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(COUNSELBENCH SOURCE RECORD) Tj
+T*
+(Record: CB-DOC-031-008) Tj
+T*
+(Matter: CB-LD-2701 - Aurora pricing MDL discovery audit) Tj
+T*
+(Portfolio key: CBP-031-08) Tj
+T*
+(Source system: Microsoft Purview) Tj
+T*
+(Evidence role: identity_crosswalk) Tj
+T*
+(Immutable entity: ENT-031-1007) Tj
+T*
+(Referenced revision: REV-2025.1) Tj
+T*
+(Current revision: REV-2025.1) Tj
+T*
+(Custodian: Lena Varga) Tj
+T*
+(Reviewer: Leona Park) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(Crosswalk revision REV-2025.1 maps portfolio key CBP-031-08 and legal name Aurora Home Supply Co. ?) Tj
+T*
+(Legal-Hold Delivery Gap record 8 to immutable entity ENT-031-1007. The domain, legal entity, and native) Tj
+T*
+(system key agree; the nearby alias is excluded.) Tj
+T*
+() Tj
+T*
+(SOURCE LINEAGE) Tj
+T*
+(Microsoft Purview produced native record CB-DOC-031-008 for CB-LD-2701. Lena Varga owns the source) Tj
+T*
+(population and Leona Park recorded the collection review. The export remains separate from later legal) Tj
+T*
+(analysis.) Tj
+T*
+() Tj
+T*
+(BUSINESS CONTEXT) Tj
+T*
+(This record concerns legal-hold delivery gap within Aurora pricing MDL discovery audit. A multidistrict) Tj
+T*
+(antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a) Tj
+T*
+(pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian) Tj
+T*
+(scope, mobile collections, Bates families, and privilege challenges against court requirements.) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(Crosswalk revision REV-2025.1 maps portfolio key CBP-031-08 and legal name Aurora Home Supply Co. ?) Tj
+T*
+(Legal-Hold Delivery Gap record 8 to immutable entity ENT-031-1007. The domain, legal entity, and native) Tj
+T*
+(system key agree; the nearby alias is excluded.) Tj
+T*
+() Tj
+T*
+(RELIANCE LIMITS) Tj
+T*
+(This file supplies identity crosswalk evidence for CBP-031-08. It does not decide legal effect, select) Tj
+T*
+(among candidate responses, resolve another system's entity identity, or establish that its cited revision) Tj
+T*
+(is controlling.) Tj
+T*
+() Tj
+T*
+(NATIVE ROWS) Tj
+T*
+(CBP-031-08-IDE-01 | 2025-03-10 | ENT-031-1007 | REV-2025.1 | Adrian Mensah | recorded | $272,100.00 |) Tj
+T*
+(Identity Crosswalk support row 1 for legal-hold delivery gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-IDE-02 | 2025-03-13 | ENT-031-1007 | REV-2025.1 | Amara Patel | recorded | 24% | Identity) Tj
+T*
+(Crosswalk support row 2 for legal-hold delivery gap; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-IDE-03 | 2025-03-16 | ENT-031-1007 | REV-2025.1 | Micah Sullivan | recorded | 25% | Identity) Tj
+T*
+(Crosswalk support row 3 for legal-hold delivery gap; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-IDE-04 | 2025-03-19 | ENT-031-1007 | REV-2025.1 | Lena Varga | pending | $651,806.00 |) Tj
+T*
+(Identity Crosswalk support row 4 for legal-hold delivery gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-IDE-05 | 2025-03-22 | ENT-031-1007 | REV-2025.1 | Rafael Okafor | superseded | 3% | Identity) Tj
+T*
+(Crosswalk support row 5 for legal-hold delivery gap; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-IDE-06 | 2025-03-25 | ENT-031-1007 | REV-2025.1 | Priya Raman | recorded | 19% | Identity) Tj
+T*
+(Crosswalk support row 6 for legal-hold delivery gap; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-IDE-07 | 2025-03-28 | ENT-031-1007 | REV-2025.1 | Jonas Feld | recorded | $792,484.00 |) Tj
+T*
+(Identity Crosswalk support row 7 for legal-hold delivery gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-IDE-08 | 2025-03-31 | ENT-031-2007 | REV-2025.1 | Leona Park | superseded | 2% | Identity) Tj
+T*
+(Crosswalk support row 8 for legal-hold delivery gap; retained from the native system so the reviewer can) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 3977 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-IDE-09 | 2025-04-03 | ENT-031-1007 | REV-2025.1 | Adrian Mensah | recorded | 24% | Identity) Tj
+T*
+(Crosswalk support row 9 for legal-hold delivery gap; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-IDE-10 | 2025-04-06 | ENT-031-1007 | REV-2025.1 | Amara Patel | recorded | $203,076.00 |) Tj
+T*
+(Identity Crosswalk support row 10 for legal-hold delivery gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-IDE-11 | 2025-04-09 | ENT-031-1007 | REV-2025.1 | Micah Sullivan | superseded | 27% | Identity) Tj
+T*
+(Crosswalk support row 11 for legal-hold delivery gap; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-IDE-12 | 2025-04-12 | ENT-031-1007 | REV-2025.1 | Lena Varga | superseded | 6% | Identity) Tj
+T*
+(Crosswalk support row 12 for legal-hold delivery gap; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-IDE-13 | 2025-04-15 | ENT-031-1007 | REV-2025.1 | Rafael Okafor | superseded | $90,763.00 |) Tj
+T*
+(Identity Crosswalk support row 13 for legal-hold delivery gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-IDE-14 | 2025-04-18 | ENT-031-1007 | REV-2025.1 | Priya Raman | superseded | 16% | Identity) Tj
+T*
+(Crosswalk support row 14 for legal-hold delivery gap; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-IDE-15 | 2025-04-21 | ENT-031-1007 | REV-2025.1 | Jonas Feld | superseded | 10% | Identity) Tj
+T*
+(Crosswalk support row 15 for legal-hold delivery gap; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-IDE-16 | 2025-04-24 | ENT-031-1007 | REV-2025.1 | Leona Park | pending | $955,294.00 |) Tj
+T*
+(Identity Crosswalk support row 16 for legal-hold delivery gap; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-IDE-17 | 2025-04-27 | ENT-031-1007 | REV-2025.1 | Adrian Mensah | superseded | 19% | Identity) Tj
+T*
+(Crosswalk support row 17 for legal-hold delivery gap; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+(CBP-031-08-IDE-18 | 2025-04-30 | ENT-031-1007 | REV-2025.1 | Amara Patel | superseded | 11% | Identity) Tj
+T*
+(Crosswalk support row 18 for legal-hold delivery gap; retained from the native system so the reviewer can) Tj
+T*
+(distinguish the exact CBP-031-08 population from similarly named records.) Tj
+T*
+() Tj
+T*
+(CHRONOLOGY) Tj
+T*
+(2025-04-29 | native population opened | Adrian Mensah | CB-DOC-031-008) Tj
+T*
+(2025-05-05 | custodian boundary confirmed | Henry Cho | CBP-031-08) Tj
+T*
+(2025-05-11 | export created | Owen Delgado | CB-DOC-031-008) Tj
+T*
+(2025-05-17 | cross-system identifier checked | Rafael Okafor | CBP-031-08) Tj
+T*
+(2025-05-23 | revision retained | Elliot Mercer | CB-DOC-031-008) Tj
+T*
+(2025-05-29 | matter copy collected | Caleb Hassan | CBP-031-08) Tj
+T*
+() Tj
+T*
+(RELATED NATIVE RECORDS) Tj
+T*
+(CB-DOC-031-019) Tj
+T*
+(CB-DOC-031-037) Tj
+T*
+(CB-DOC-031-055) Tj
+T*
+(CB-DOC-031-079) Tj
+T*
+() Tj
+T*
+(Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are) Tj
+T*
+(fictitious; the record is not legal advice.) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000052 00000 n 
+0000000101 00000 n 
+0000000164 00000 n 
+0000000290 00000 n 
+0000004838 00000 n 
+0000004964 00000 n 
+0000008992 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+9060
+%%EOF

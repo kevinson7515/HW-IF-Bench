@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<counsel-source-record schema-version="3.1">
+  <record-id>CB-DOC-031-006</record-id>
+  <matter-number>CB-LD-2701</matter-number>
+  <portfolio-key>CBP-031-06</portfolio-key>
+  <source-system>Everlaw production log</source-system>
+  <evidence-role>identity_crosswalk</evidence-role>
+  <immutable-entity-key>ENT-031-1005</immutable-entity-key>
+  <referenced-revision>REV-2025.6</referenced-revision>
+  <current-revision>REV-2025.6</current-revision>
+  <native-record>Crosswalk revision REV-2025.6 maps portfolio key CBP-031-06 and legal name Aurora Home Supply Co. — Protective-Order Designation Error record 6 to immutable entity ENT-031-1005. The domain, legal entity, and native system key agree; the nearby alias is excluded.</native-record>
+  <analysis>
+    <section heading="Source lineage">Everlaw production log produced native record CB-DOC-031-006 for CB-LD-2701. Farah Ibrahim owns the source population and Farah Ibrahim recorded the collection review. The export remains separate from later legal analysis.</section>
+    <section heading="Business context">This record concerns protective-order designation error within Aurora pricing MDL discovery audit. A multidistrict antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian scope, mobile collections, Bates families, and privilege challenges against court requirements.</section>
+    <section heading="Native record">Crosswalk revision REV-2025.6 maps portfolio key CBP-031-06 and legal name Aurora Home Supply Co. — Protective-Order Designation Error record 6 to immutable entity ENT-031-1005. The domain, legal entity, and native system key agree; the nearby alias is excluded.</section>
+    <section heading="Reliance limits">This file supplies identity crosswalk evidence for CBP-031-06. It does not decide legal effect, select among candidate responses, resolve another system&#x27;s entity identity, or establish that its cited revision is controlling.</section>
+  </analysis>
+  <supporting-rows>
+    <row id="CBP-031-06-IDE-01" date="2025-03-05" entity="ENT-031-1005" revision="REV-2025.6" actor="Isaac Romero" status="recorded" metric="$597,268.00">Identity Crosswalk support row 1 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-IDE-02" date="2025-03-08" entity="ENT-031-1005" revision="REV-2025.6" actor="Willa Novak" status="pending" metric="20%">Identity Crosswalk support row 2 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-IDE-03" date="2025-03-11" entity="ENT-031-1005" revision="REV-2025.6" actor="Henry Cho" status="pending" metric="6%">Identity Crosswalk support row 3 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-IDE-04" date="2025-03-14" entity="ENT-031-1005" revision="REV-2025.6" actor="Farah Ibrahim" status="confirmed" metric="$263,637.00">Identity Crosswalk support row 4 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-IDE-05" date="2025-03-17" entity="ENT-031-1005" revision="REV-2025.6" actor="Samuel Kim" status="superseded" metric="11%">Identity Crosswalk support row 5 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-IDE-06" date="2025-03-20" entity="ENT-031-1005" revision="REV-2025.6" actor="Nora Chen" status="superseded" metric="19%">Identity Crosswalk support row 6 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-IDE-07" date="2025-03-23" entity="ENT-031-1005" revision="REV-2025.6" actor="Elliot Mercer" status="confirmed" metric="$744,385.00">Identity Crosswalk support row 7 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-IDE-08" date="2025-03-26" entity="ENT-031-2005" revision="REV-2025.6" actor="Mei Whitaker" status="confirmed" metric="8%">Identity Crosswalk support row 8 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-IDE-09" date="2025-03-29" entity="ENT-031-1005" revision="REV-2025.6" actor="Isaac Romero" status="confirmed" metric="13%">Identity Crosswalk support row 9 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-IDE-10" date="2025-04-01" entity="ENT-031-1005" revision="REV-2025.6" actor="Willa Novak" status="confirmed" metric="$40,837.00">Identity Crosswalk support row 10 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-IDE-11" date="2025-04-04" entity="ENT-031-1005" revision="REV-2025.6" actor="Henry Cho" status="superseded" metric="23%">Identity Crosswalk support row 11 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-IDE-12" date="2025-04-07" entity="ENT-031-1005" revision="REV-2025.6" actor="Farah Ibrahim" status="pending" metric="13%">Identity Crosswalk support row 12 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-IDE-13" date="2025-04-10" entity="ENT-031-1005" revision="REV-2025.6" actor="Samuel Kim" status="recorded" metric="$389,464.00">Identity Crosswalk support row 13 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-IDE-14" date="2025-04-13" entity="ENT-031-1005" revision="REV-2025.6" actor="Nora Chen" status="confirmed" metric="14%">Identity Crosswalk support row 14 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-IDE-15" date="2025-04-16" entity="ENT-031-1005" revision="REV-2025.6" actor="Elliot Mercer" status="recorded" metric="10%">Identity Crosswalk support row 15 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-IDE-16" date="2025-04-19" entity="ENT-031-1005" revision="REV-2025.6" actor="Mei Whitaker" status="superseded" metric="$866,443.00">Identity Crosswalk support row 16 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-IDE-17" date="2025-04-22" entity="ENT-031-1005" revision="REV-2025.6" actor="Isaac Romero" status="recorded" metric="13%">Identity Crosswalk support row 17 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+    <row id="CBP-031-06-IDE-18" date="2025-04-25" entity="ENT-031-1005" revision="REV-2025.6" actor="Willa Novak" status="recorded" metric="6%">Identity Crosswalk support row 18 for protective-order designation error; retained from the native system so the reviewer can distinguish the exact CBP-031-06 population from similarly named records.</row>
+  </supporting-rows>
+  <chronology>
+    <event date="2024-12-31" actor="Isaac Romero" reference="CB-DOC-031-006">native population opened</event>
+    <event date="2025-01-06" actor="Theo Laurent" reference="CBP-031-06">custodian boundary confirmed</event>
+    <event date="2025-01-12" actor="Micah Sullivan" reference="CB-DOC-031-006">export created</event>
+    <event date="2025-01-18" actor="Samuel Kim" reference="CBP-031-06">cross-system identifier checked</event>
+    <event date="2025-01-24" actor="Dominic Alvarez" reference="CB-DOC-031-006">revision retained</event>
+    <event date="2025-01-30" actor="Jonas Feld" reference="CBP-031-06">matter copy collected</event>
+  </chronology>
+  <provenance>Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.</provenance>
+</counsel-source-record>

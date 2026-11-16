@@ -1,0 +1,99 @@
+From: Rafael Okafor <rafael_okafor@example.test>
+To: Jonas Feld <jonas_feld@example.test>
+Date: 2025-08-13 08:30:00 -0700
+Message-ID: <cb-doc-031-083@example.test>
+Subject: CB-LD-2701 — custodian omission source export
+X-Matter-Number: CB-LD-2701
+X-Portfolio-Key: CBP-031-11
+X-Source-System: court docket mirror
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Custody history shows collection from /workspace/documents/05_email_families/035_email_families_source_export.eml after the operative record was fixed at /workspace/documents/03_requests_responses/023_requests_responses_source_export.html. Reviewer handoff preserved both versions and the identity record for CBP-031-11.
+
+SOURCE LINEAGE
+court docket mirror produced native record CB-DOC-031-083 for CB-LD-2701. Rafael Okafor owns the source population and Jonas Feld recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns custodian omission within Aurora pricing MDL discovery audit. A multidistrict antitrust production must reconcile mobile chats, departed custodians, overlapping Bates ranges, and a pending privilege challenge. The record addresses one part of the broader question: Reconcile custodian scope, mobile collections, Bates families, and privilege challenges against court requirements.
+
+NATIVE RECORD
+Custody history shows collection from /workspace/documents/05_email_families/035_email_families_source_export.eml after the operative record was fixed at /workspace/documents/03_requests_responses/023_requests_responses_source_export.html. Reviewer handoff preserved both versions and the identity record for CBP-031-11.
+
+RELIANCE LIMITS
+This file supplies chronology and custody evidence for CBP-031-11. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SOURCE THREAD
+-----Original Message-----
+From: Amara Patel <amara_patel@example.test>
+Sent: 2024-11-13 09:00:00 -0700
+To: Jonas Feld <jonas_feld@example.test>
+Subject: CBP-031-11 source row CBP-031-11-CHR-01
+
+Chronology And Custody support row 1 for custodian omission; retained from the native system so the reviewer can distinguish the exact CBP-031-11 population from similarly named records. The native status is confirmed and the recorded metric is $498,777.00.
+
+-----Original Message-----
+From: Micah Sullivan <micah_sullivan@example.test>
+Sent: 2024-11-16 09:00:00 -0700
+To: Jonas Feld <jonas_feld@example.test>
+Subject: CBP-031-11 source row CBP-031-11-CHR-02
+
+Chronology And Custody support row 2 for custodian omission; retained from the native system so the reviewer can distinguish the exact CBP-031-11 population from similarly named records. The native status is confirmed and the recorded metric is 19%.
+
+-----Original Message-----
+From: Lena Varga <lena_varga@example.test>
+Sent: 2024-11-19 09:00:00 -0700
+To: Jonas Feld <jonas_feld@example.test>
+Subject: CBP-031-11 source row CBP-031-11-CHR-03
+
+Chronology And Custody support row 3 for custodian omission; retained from the native system so the reviewer can distinguish the exact CBP-031-11 population from similarly named records. The native status is superseded and the recorded metric is 15%.
+
+-----Original Message-----
+From: Rafael Okafor <rafael_okafor@example.test>
+Sent: 2024-11-22 09:00:00 -0700
+To: Jonas Feld <jonas_feld@example.test>
+Subject: CBP-031-11 source row CBP-031-11-CHR-04
+
+Chronology And Custody support row 4 for custodian omission; retained from the native system so the reviewer can distinguish the exact CBP-031-11 population from similarly named records. The native status is superseded and the recorded metric is $230,067.00.
+
+-----Original Message-----
+From: Priya Raman <priya_raman@example.test>
+Sent: 2024-11-25 09:00:00 -0700
+To: Jonas Feld <jonas_feld@example.test>
+Subject: CBP-031-11 source row CBP-031-11-CHR-05
+
+Chronology And Custody support row 5 for custodian omission; retained from the native system so the reviewer can distinguish the exact CBP-031-11 population from similarly named records. The native status is confirmed and the recorded metric is 21%.
+
+-----Original Message-----
+From: Jonas Feld <jonas_feld@example.test>
+Sent: 2024-11-28 09:00:00 -0700
+To: Jonas Feld <jonas_feld@example.test>
+Subject: CBP-031-11 source row CBP-031-11-CHR-06
+
+Chronology And Custody support row 6 for custodian omission; retained from the native system so the reviewer can distinguish the exact CBP-031-11 population from similarly named records. The native status is recorded and the recorded metric is 11%.
+
+-----Original Message-----
+From: Leona Park <leona_park@example.test>
+Sent: 2024-12-01 09:00:00 -0700
+To: Jonas Feld <jonas_feld@example.test>
+Subject: CBP-031-11 source row CBP-031-11-CHR-07
+
+Chronology And Custody support row 7 for custodian omission; retained from the native system so the reviewer can distinguish the exact CBP-031-11 population from similarly named records. The native status is superseded and the recorded metric is $126,687.00.
+
+-----Original Message-----
+From: Adrian Mensah <adrian_mensah@example.test>
+Sent: 2024-12-04 09:00:00 -0700
+To: Jonas Feld <jonas_feld@example.test>
+Subject: CBP-031-11 source row CBP-031-11-CHR-08
+
+Chronology And Custody support row 8 for custodian omission; retained from the native system so the reviewer can distinguish the exact CBP-031-11 population from similarly named records. The native status is superseded and the recorded metric is 23%.
+
+CHRONOLOGY
+2025-07-09 | native population opened | Amara Patel | CB-DOC-031-083
+2025-07-15 | custodian boundary confirmed | Farah Ibrahim | CBP-031-11
+2025-07-21 | export created | Maya Ellison | CB-DOC-031-083
+2025-07-27 | cross-system identifier checked | Priya Raman | CBP-031-11
+2025-08-02 | revision retained | Mei Whitaker | CB-DOC-031-083
+2025-08-08 | matter copy collected | Sofia Bennett | CBP-031-11
+
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.
