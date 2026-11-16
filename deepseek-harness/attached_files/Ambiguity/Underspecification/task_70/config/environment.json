@@ -1,0 +1,12 @@
+{
+  "case_id": "DESIGN-US-06",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "available_evidence_file": "environment.json"
+  },
+  "capabilities": {
+    "initial": "calendar.json返回start=2026-07-01,end=2026-09-30；三笔交易日期为06-30、07-01、09-30。",
+    "specification": "2026-07-01/2026-09-30"
+  }
+}

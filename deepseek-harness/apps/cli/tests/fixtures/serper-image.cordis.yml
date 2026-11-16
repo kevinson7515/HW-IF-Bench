@@ -1,0 +1,26 @@
+# Keyless Loader composition for the Serper image-search tool.
+- id: system-prompt
+  name: cordis:serper-test-system-prompt
+
+- id: tools
+  name: cordis:serper-test-tools
+
+- id: web
+  name: cordis:serper-test-web
+  config:
+    imageSearchProvider: serper
+
+- id: web-search-serper
+  name: cordis:serper-test-provider
+  config:
+    apiKey: test-key
+    baseURL: https://search.test
+    authMode: bearer
+
+- id: tool-web
+  name: cordis:serper-test-tool-web
+  config:
+    search: false
+    fetch: false
+    imageSearch: true
+    searchMaxResults: 1

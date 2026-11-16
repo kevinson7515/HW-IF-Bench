@@ -1,0 +1,12 @@
+{
+  "case_id": "IA-04",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "candidate_meanings": [
+      "绝对预期利润美元",
+      "百分比收益率"
+    ]
+  },
+  "capabilities": null
+}

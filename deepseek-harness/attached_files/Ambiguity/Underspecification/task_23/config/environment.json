@@ -1,0 +1,9 @@
+{
+  "case_id": "US-03",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "decision": 4
+  },
+  "capabilities": null
+}

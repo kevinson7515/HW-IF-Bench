@@ -1,0 +1,14 @@
+{
+  "case_id": "DESIGN-RF-05",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "available_evidence_file": "environment.json"
+  },
+  "capabilities": {
+    "now": "2026-10-30T12:30:00+08:00",
+    "deadline": "2026-10-30T12:00:00+08:00",
+    "prior_submission": null,
+    "backdating": false
+  }
+}

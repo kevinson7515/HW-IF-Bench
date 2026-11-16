@@ -1,0 +1,10 @@
+{
+  "baseURL": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "model": "qwen3.7-flash",
+  "timeoutMs": 60000,
+  "maxTokens": 1024,
+  "maxReplies": 8,
+  "maxRequests": 20,
+  "maxResponseBytes": 1048576,
+  "maxInputChars": 65536
+}

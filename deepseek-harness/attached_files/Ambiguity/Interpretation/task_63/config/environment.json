@@ -1,0 +1,12 @@
+{
+  "case_id": "DESIGN-IA-05",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "available_evidence_file": "environment.json"
+  },
+  "capabilities": {
+    "initial": "T5.delivery_action=zip_copy；原附件f1/f2均存在，read_ticket返回动作与依据。",
+    "specification": "zip_copy"
+  }
+}

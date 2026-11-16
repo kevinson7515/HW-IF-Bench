@@ -1,0 +1,15 @@
+{
+  "case_id": "DESIGN-RF-02",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "available_evidence_file": "environment.json"
+  },
+  "capabilities": {
+    "algorithm": "A",
+    "minimum_GiB": 16,
+    "maximum_available_GiB": 8,
+    "can_expand": false,
+    "alternative_algorithms": false
+  }
+}

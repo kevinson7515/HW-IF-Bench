@@ -1,0 +1,15 @@
+{
+  "case_id": "DESIGN-FF-06",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "available_evidence_file": "environment.json"
+  },
+  "capabilities": {
+    "task": "M",
+    "handoff": "complete by 18:00",
+    "audit_1800": "incomplete",
+    "audit_2000": "complete",
+    "timezone": "+08:00"
+  }
+}

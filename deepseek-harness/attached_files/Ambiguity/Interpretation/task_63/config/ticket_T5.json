@@ -1,0 +1,8 @@
+{
+  "ticket_id": "T5",
+  "delivery_action": "zip_copy",
+  "attachments": [
+    "inputs/attachments/f1.txt",
+    "inputs/attachments/f2.txt"
+  ]
+}

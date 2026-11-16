@@ -1,0 +1,9 @@
+{
+  "case_id": "DESIGN-US-02",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "input": "A1未登录100天，A2为200天；比较条件明确为>=N。"
+  },
+  "capabilities": null
+}

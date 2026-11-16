@@ -1,0 +1,12 @@
+{
+  "case_id": "AA-RR-01",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "original_reservation": "res_mco_001",
+    "original_status": "confirmed",
+    "user_can_resolve": true,
+    "reply_this_round": null
+  },
+  "capabilities": null
+}

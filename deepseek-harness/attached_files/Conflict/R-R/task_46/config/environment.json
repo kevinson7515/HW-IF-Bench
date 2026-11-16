@@ -1,0 +1,10 @@
+{
+  "case_id": "DESIGN-RR-05",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "order_id": "O9",
+    "status": "completed"
+  },
+  "capabilities": null
+}

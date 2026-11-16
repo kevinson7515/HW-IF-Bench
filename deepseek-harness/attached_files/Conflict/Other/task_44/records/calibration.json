@@ -1,0 +1,9 @@
+{
+  "A": {
+    "architecture_applicable": false
+  },
+  "B": {
+    "architecture_applicable": true,
+    "calibrated": true
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "initial": "T5.delivery_action=zip_copy；原附件f1/f2均存在，read_ticket返回动作与依据。",
+  "specification": "zip_copy"
+}

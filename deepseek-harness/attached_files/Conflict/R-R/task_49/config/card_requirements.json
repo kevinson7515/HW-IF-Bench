@@ -1,0 +1,9 @@
+{
+  "max_unicode_codepoints": 10,
+  "required_literals": [
+    "ALPHA",
+    "BRAVO",
+    "CHARLIE"
+  ],
+  "hidden_fields_allowed": false
+}

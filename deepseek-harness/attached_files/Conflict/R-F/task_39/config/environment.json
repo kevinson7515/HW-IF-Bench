@@ -1,0 +1,14 @@
+{
+  "case_id": "DESIGN-RF-01",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "available_evidence_file": "environment.json"
+  },
+  "capabilities": {
+    "certified_tool_X": false,
+    "install": false,
+    "remote": false,
+    "alternatives": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "product": "P",
+  "region": "local",
+  "month": "November",
+  "forecast_A": 1000,
+  "forecast_B": 1600,
+  "relative_difference_threshold": 0.5,
+  "both_applicable": true,
+  "reliability_priority": null
+}

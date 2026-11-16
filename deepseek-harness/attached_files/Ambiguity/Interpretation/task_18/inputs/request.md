@@ -1,0 +1,4 @@
+# 本轮任务
+
+倒推Melanie在卖出前有多少台吸尘器。
+背景：Melanie is a door-to-door saleswoman. She sold a third of her vacuum cleaners at the green house, 2 more to the red house, and half of what was left at the orange house. After all three sales, Melanie has 5 vacuum cleaners left.

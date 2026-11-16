@@ -1,0 +1,14 @@
+[
+  {
+    "model": "A",
+    "version": "V9",
+    "window_hours": 24,
+    "probability": 0.9
+  },
+  {
+    "model": "B",
+    "version": "V9",
+    "window_hours": 24,
+    "probability": 0.1
+  }
+]

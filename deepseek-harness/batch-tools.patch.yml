@@ -1,0 +1,79 @@
+- id: web
+  config:
+    searchProvider: serper
+    imageSearchProvider: serper
+    fetchProvider: http
+
+- id: tool-web
+  config:
+    search: true
+    fetch: true
+    imageSearch: true
+    searchTimeoutMs: 60000
+
+- id: web-search-deepseek
+  disabled: true
+
+- id: tool-bash
+  disabled: true
+
+- id: tool-jobs
+  disabled: true
+
+- insert:
+    - id: web-search-serper
+      name: '@deepseek-ai/dsh-web-search-serper'
+      config:
+        baseURL: !!js process.env.SERPER_BASE_URL
+        authMode: !!js process.env.SERPER_AUTH_MODE
+
+    - id: mcp-e2b
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        transport: stdio
+        serverName: e2b
+        command: !!js process.env.DSH_BATCH_PYTHON
+        args:
+          - scripts/dsh-e2b-mcp.py
+        env:
+          E2B_API_KEY: !!js process.env.E2B_API_KEY
+          E2B_PROXY: !!js process.env.E2B_PROXY
+          NO_PROXY: !!js process.env.NO_PROXY
+          DSH_E2B_EXPORT_ROOT: !!js process.env.DSH_BATCH_REPO_ROOT
+          DSH_E2B_TASK_FILE: !!js process.env.DSH_E2B_TASK_FILE ?? ''
+          DSH_E2B_PROJECTS_FILE: !!js process.env.DSH_E2B_PROJECTS_FILE ?? ''
+          DSH_E2B_TEMPLATE: !!js process.env.DSH_E2B_TEMPLATE ?? ''
+          DSH_E2B_MAX_INPUT_FILE_BYTES: !!js process.env.DSH_E2B_MAX_INPUT_FILE_BYTES ?? '104857600'
+          DSH_E2B_MAX_INPUT_TOTAL_BYTES: !!js process.env.DSH_E2B_MAX_INPUT_TOTAL_BYTES ?? '268435456'
+          DSH_E2B_MAX_EXPORT_BYTES: !!js process.env.DSH_ARTIFACT_MAX_FILE_BYTES ?? '104857600'
+        cwd: !!js process.env.DSH_BATCH_REPO_ROOT
+        failOnStartupError: true
+        reconnect:
+          enabled: false
+
+    - id: mcp-vision
+      name: '@deepseek-ai/dsh-mcp-client'
+      disabled: !!js "!['pangu', 'pangu92b'].includes(process.env.DSH_MODEL_PROVIDER)"
+      config:
+        transport: stdio
+        serverName: vision
+        command: !!js process.env.DSH_BATCH_PYTHON
+        args:
+          - scripts/dsh-vision-mcp.py
+        env:
+          COMPANY_DEEPSEEK_API_KEY: !!js process.env.COMPANY_DEEPSEEK_API_KEY
+          COMPANY_DEEPSEEK_BASE_URL: !!js process.env.COMPANY_DEEPSEEK_BASE_URL
+          DSH_BATCH_REPO_ROOT: !!js process.env.DSH_BATCH_REPO_ROOT
+          DSH_VISION_MODEL: !!js process.env.DSH_VISION_MODEL ?? 'deepseek-v4-pro'
+          DSH_VISION_TIMEOUT_SECONDS: !!js process.env.DSH_VISION_TIMEOUT_SECONDS ?? '180'
+          DSH_VISION_MAX_TOKENS: !!js process.env.DSH_VISION_MAX_TOKENS ?? '4096'
+          DSH_VISION_MAX_IMAGE_BYTES: !!js process.env.DSH_VISION_MAX_IMAGE_BYTES ?? '8388608'
+          HTTP_PROXY: !!js process.env.HTTP_PROXY
+          HTTPS_PROXY: !!js process.env.HTTPS_PROXY
+          NO_PROXY: !!js process.env.NO_PROXY
+          SSL_CERT_FILE: !!js process.env.SSL_CERT_FILE
+        cwd: !!js process.env.DSH_BATCH_REPO_ROOT
+        toolCallTimeoutMs: !!js "(Number(process.env.DSH_VISION_TIMEOUT_SECONDS ?? 180) + 10) * 1000"
+        failOnStartupError: true
+        reconnect:
+          enabled: false

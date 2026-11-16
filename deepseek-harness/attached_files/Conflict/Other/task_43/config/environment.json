@@ -1,0 +1,18 @@
+{
+  "case_id": "DESIGN-OT-02",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "A": {
+      "seconds": 1,
+      "MB": 800
+    },
+    "B": {
+      "seconds": 3,
+      "MB": 200
+    },
+    "complete_candidate_set": true,
+    "preference": null
+  },
+  "capabilities": null
+}

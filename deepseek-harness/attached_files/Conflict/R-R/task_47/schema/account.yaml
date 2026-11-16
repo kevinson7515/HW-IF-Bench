@@ -1,0 +1,4 @@
+entity: Account
+fields:
+  - name: user_id
+    type: string

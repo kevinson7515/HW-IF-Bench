@@ -1,0 +1,12 @@
+{
+  "case_id": "DESIGN-US-05",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "available_evidence_file": "environment.json"
+  },
+  "capabilities": {
+    "initial": "approved_versions.json中libQ=3.2.1；当前依赖为3.1.0。",
+    "specification": "3.2.1"
+  }
+}

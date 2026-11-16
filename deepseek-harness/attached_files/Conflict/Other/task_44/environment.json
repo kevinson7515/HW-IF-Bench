@@ -1,0 +1,12 @@
+{
+  "version": "V9",
+  "window_hours": 24,
+  "model_A": 0.9,
+  "model_B": 0.1,
+  "disagreement_threshold": 0.5,
+  "calibration": {
+    "A_applicable": false,
+    "B_applicable": true,
+    "B_calibrated": true
+  }
+}

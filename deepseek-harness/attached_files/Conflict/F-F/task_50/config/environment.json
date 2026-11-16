@@ -1,0 +1,18 @@
+{
+  "case_id": "DESIGN-FF-04",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "available_evidence_file": "environment.json"
+  },
+  "capabilities": {
+    "entity": "E",
+    "period": "2026Q3",
+    "currency": "CNY",
+    "unit": "10000",
+    "snapshot": "t0",
+    "report_A": 1200,
+    "report_B": 1100,
+    "ledger": 1100
+  }
+}

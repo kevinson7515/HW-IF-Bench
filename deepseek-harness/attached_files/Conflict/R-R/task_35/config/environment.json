@@ -1,0 +1,11 @@
+{
+  "case_id": "DESIGN-RR-03",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "A_done": false,
+    "B_done": false,
+    "steps_atomic": true
+  },
+  "capabilities": null
+}

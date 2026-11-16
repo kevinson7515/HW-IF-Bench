@@ -1,0 +1,18 @@
+{
+  "case_id": "DESIGN-OT-05",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "A": {
+      "cost": 30,
+      "days": 1
+    },
+    "B": {
+      "cost": 10,
+      "days": 3
+    },
+    "preference": "cost first then speed",
+    "purchase_requested": false
+  },
+  "capabilities": null
+}

@@ -1,0 +1,9 @@
+{
+  "dataset": "D",
+  "column": "x",
+  "normalization": "minmax",
+  "range": [
+    0,
+    1
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "case_id": "DESIGN-RR-08",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "history": "Final report must be Chinese only.",
+    "current": "Keep all previous requirements and use English only.",
+    "report_nonempty": true
+  },
+  "capabilities": null
+}

@@ -1,0 +1,10 @@
+{
+  "case_id": "DESIGN-US-04",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "input": "上下文全文：仅用本轮模拟汇率1 USD=7.2 CNY，不联网。",
+    "task_specification": 7.2
+  },
+  "capabilities": null
+}

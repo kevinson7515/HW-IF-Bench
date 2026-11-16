@@ -1,0 +1,13 @@
+{
+  "case_id": "DESIGN-RF-03",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "available_evidence_file": "environment.json"
+  },
+  "capabilities": {
+    "D0": null,
+    "backups": [],
+    "recovery": "unrecoverable within closed fixture"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "order": "O8",
+  "user_claim": "paid in full at t0",
+  "order_snapshot": {
+    "time": "t0",
+    "paid": 0,
+    "total": 500,
+    "currency": "CNY"
+  },
+  "ledger": {
+    "time": "t0",
+    "paid": 0
+  }
+}

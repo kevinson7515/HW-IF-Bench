@@ -1,0 +1,21 @@
+{
+  "case_id": "CCB-03",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "test_inputs": [
+      [
+        "#?",
+        "?."
+      ],
+      [
+        "#.",
+        "?#"
+      ],
+      [
+        "#."
+      ]
+    ]
+  },
+  "capabilities": null
+}

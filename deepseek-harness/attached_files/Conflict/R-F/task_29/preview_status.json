@@ -1,0 +1,6 @@
+{
+  "staging": "/var/www/staging/homepage.html",
+  "draft_matches_update": true,
+  "preview_service": "all calls return Internal server error",
+  "substitutes_allowed": false
+}

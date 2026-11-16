@@ -1,0 +1,4 @@
+{
+  "initial": "x=[10,20,30]；read_dictionary(D)返回normalization=minmax，min=10,max=30。",
+  "specification": "minmax"
+}

@@ -1,0 +1,13 @@
+{
+  "case_id": "IA-03",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "candidate_meanings": [
+      "占全班",
+      "占未选contemporary者"
+    ],
+    "decision": "whole_class"
+  },
+  "capabilities": null
+}

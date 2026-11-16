@@ -1,0 +1,22 @@
+{
+  "case_id": "DESIGN-FF-01",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "available_evidence_file": "environment.json"
+  },
+  "capabilities": {
+    "export": {
+      "build_id": "B42",
+      "libQ": "2.1.0"
+    },
+    "manifest": {
+      "build_id": "B42",
+      "libQ": "3.0.0"
+    },
+    "locked": {
+      "build_id": "B42",
+      "libQ": "3.0.0"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "case_id": "DESIGN-IA-04",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "input": "A有两行，B有一行；字段相同。上下文全文：本轮合并指按A后B追加，保留全部重复记录。",
+    "task_specification": "append"
+  },
+  "capabilities": null
+}

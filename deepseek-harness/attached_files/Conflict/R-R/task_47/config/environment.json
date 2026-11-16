@@ -1,0 +1,12 @@
+{
+  "case_id": "DESIGN-RR-06",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "generated": "generated/client.ts",
+    "source": "schema/account.yaml",
+    "direct_edit_authorized": false,
+    "alternative_source_edit_authorized": false
+  },
+  "capabilities": null
+}

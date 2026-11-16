@@ -1,0 +1,43 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/web/web-search-serper/README.md
+/:
+  en: 92fdefb17d7cb77a
+  zh: 9efd9c78cd8ccc4c
+/deepseek-ai-dsh-web-search-serper:
+  en: e0cf8f9134d2d6d7
+  zh: a41c2c70bc1ca75e
+/deepseek-ai-dsh-web-search-serper/summary:
+  en: 21b24ccb831f15cd
+  zh: 7da105c5ff6f4128
+/deepseek-ai-dsh-web-search-serper/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 602536a49bc9e25e
+/deepseek-ai-dsh-web-search-serper/use-this-package:
+  en: 2077dfa50edf05bf
+  zh: 113e180851aeafdf
+/deepseek-ai-dsh-web-search-serper/use-this-package/when-to-choose-it:
+  en: a632db98e35c34ee
+  zh: 0b4f44355b67aebd
+/deepseek-ai-dsh-web-search-serper/use-this-package/minimal-configuration:
+  en: 085650e853d9075c
+  zh: 3d05cc0e36d7c201
+/deepseek-ai-dsh-web-search-serper/understand-the-implementation:
+  en: 5a5120b2945d65da
+  zh: 5404c33d8487b2f8
+/deepseek-ai-dsh-web-search-serper/further-exploration:
+  en: 69ad39c28a2c57d1
+  zh: e1b229fc446a98eb
+/deepseek-ai-dsh-web-search-serper/model-experience:
+  en: 5b82452e9478ab7c
+  zh: 759daa6b472ee280
+/deepseek-ai-dsh-web-search-serper/model-experience/kv-cache-effect:
+  en: b7940d0415daae91
+  zh: 41073135d6226f24
+/deepseek-ai-dsh-web-search-serper/known-limitations-and-deferred-work:
+  en: 04998d15bb9fab46
+  zh: 4de71228f89dab12
+/deepseek-ai-dsh-web-search-serper/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 3bb0c20c93f16f98

@@ -1,0 +1,14 @@
+{
+  "case_id": "DESIGN-OT-01",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "test_required": true,
+    "test_forbidden": true,
+    "build": "B42",
+    "export_libQ": "2.1.0",
+    "manifest_libQ": "3.0.0",
+    "locked_libQ": "3.0.0"
+  },
+  "capabilities": null
+}

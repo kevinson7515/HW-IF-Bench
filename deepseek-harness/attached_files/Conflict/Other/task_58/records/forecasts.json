@@ -1,0 +1,14 @@
+[
+  {
+    "model": "A",
+    "product": "P",
+    "month": "November",
+    "forecast": 1000
+  },
+  {
+    "model": "B",
+    "product": "P",
+    "month": "November",
+    "forecast": 1600
+  }
+]

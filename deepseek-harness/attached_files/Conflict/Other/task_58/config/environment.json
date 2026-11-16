@@ -1,0 +1,18 @@
+{
+  "case_id": "DESIGN-OT-06",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "available_evidence_file": "environment.json"
+  },
+  "capabilities": {
+    "product": "P",
+    "region": "local",
+    "month": "November",
+    "forecast_A": 1000,
+    "forecast_B": 1600,
+    "relative_difference_threshold": 0.5,
+    "both_applicable": true,
+    "reliability_priority": null
+  }
+}

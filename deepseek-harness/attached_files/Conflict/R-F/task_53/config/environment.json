@@ -1,0 +1,14 @@
+{
+  "case_id": "DESIGN-RF-04",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "available_evidence_file": "environment.json"
+  },
+  "capabilities": {
+    "role": "reader",
+    "required_role": "admin",
+    "grant_service": false,
+    "delegation": false
+  }
+}

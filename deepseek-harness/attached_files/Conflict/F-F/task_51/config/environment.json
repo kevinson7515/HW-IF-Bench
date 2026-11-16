@@ -1,0 +1,15 @@
+{
+  "case_id": "DESIGN-FF-05",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "available_evidence_file": "environment.json"
+  },
+  "capabilities": {
+    "experiment": "E1",
+    "sample": "S17",
+    "method_group": "control",
+    "result_group": "treatment",
+    "locked_assignment": "control"
+  }
+}

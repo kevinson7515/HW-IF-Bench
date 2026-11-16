@@ -1,0 +1,12 @@
+{
+  "case_id": "DESIGN-OT-04",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "only_json": true,
+    "mandatory_outside_json_prose": true,
+    "D0": null,
+    "backups": []
+  },
+  "capabilities": null
+}

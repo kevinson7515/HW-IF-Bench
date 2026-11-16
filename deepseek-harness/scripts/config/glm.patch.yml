@@ -1,0 +1,23 @@
+# Deployment defaults follow the harness's generic provider capacities, not
+# verified company gateway limits. Override them with accepted gateway values.
+- id: llm-deepseek
+  disabled: true
+
+- id: llm-pi-ai
+  config:
+    providers:
+      company-glm:
+        api: openai-completions
+        baseURL: !!js process.env.COMPANY_GLM_BASE_URL ?? 'http://115.120.87.159:8082/v1'
+        apiKeyEnv: COMPANY_GLM_API_KEY
+        compat:
+          maxTokensField: max_tokens
+        models:
+          - id: glm-5.3
+            contextWindow: !!js Number(process.env.COMPANY_GLM_CONTEXT_WINDOW ?? 262144)
+            maxTokens: !!js Number(process.env.COMPANY_GLM_MAX_TOKENS ?? 32768)
+
+- id: agent-default-model
+  config:
+    provider: company-glm
+    model: glm-5.3

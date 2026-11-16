@@ -1,0 +1,16 @@
+{
+  "case_id": "DESIGN-RR-04",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "D": {
+      "files": [
+        "a.txt",
+        "b.txt",
+        "c.txt"
+      ],
+      "initial_hashes": "capture at reset"
+    }
+  },
+  "capabilities": null
+}

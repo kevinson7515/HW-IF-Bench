@@ -1,0 +1,15 @@
+{
+  "case_id": "DESIGN-RF-06",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "available_evidence_file": "environment.json"
+  },
+  "capabilities": {
+    "volume": "V",
+    "file": "F",
+    "writable": false,
+    "can_remount": false,
+    "overlay": false
+  }
+}

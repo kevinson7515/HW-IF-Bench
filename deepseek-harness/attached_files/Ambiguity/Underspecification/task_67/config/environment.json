@@ -1,0 +1,10 @@
+{
+  "case_id": "DESIGN-US-03",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "input": "上下文全文：本轮每页显示50条。当前page_size=20，最大允许100。",
+    "task_specification": 50
+  },
+  "capabilities": null
+}

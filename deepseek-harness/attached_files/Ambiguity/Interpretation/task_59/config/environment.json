@@ -1,0 +1,9 @@
+{
+  "case_id": "DESIGN-IA-01",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "input": "A1为旧系统且近期活跃，A2为新系统但200天未登录，A3均不满足。"
+  },
+  "capabilities": null
+}

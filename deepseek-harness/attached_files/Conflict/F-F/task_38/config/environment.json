@@ -1,0 +1,13 @@
+{
+  "case_id": "DESIGN-FF-03",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "build_id": "V7",
+    "single_libQ": true,
+    "manifest_A": "2.1.0",
+    "manifest_B": "3.0.0",
+    "signed_manifest": null
+  },
+  "capabilities": null
+}

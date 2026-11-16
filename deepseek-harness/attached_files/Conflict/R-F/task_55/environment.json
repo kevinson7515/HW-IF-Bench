@@ -1,0 +1,7 @@
+{
+  "volume": "V",
+  "file": "F",
+  "writable": false,
+  "can_remount": false,
+  "overlay": false
+}

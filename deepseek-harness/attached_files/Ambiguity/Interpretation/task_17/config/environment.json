@@ -1,0 +1,12 @@
+{
+  "case_id": "IA-01",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "candidate_meanings": [
+      "累计净收益抵平成本",
+      "首次累计盈利为正"
+    ]
+  },
+  "capabilities": null
+}

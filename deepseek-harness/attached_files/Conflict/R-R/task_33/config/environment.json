@@ -1,0 +1,14 @@
+{
+  "case_id": "DESIGN-RR-01",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "files": [
+      "src/parser.ts",
+      "tests/parser.test.ts"
+    ],
+    "target": "only parser",
+    "tests_available": true
+  },
+  "capabilities": null
+}

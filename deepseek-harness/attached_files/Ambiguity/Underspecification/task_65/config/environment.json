@@ -1,0 +1,9 @@
+{
+  "case_id": "DESIGN-US-01",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "input": "user_timeout=15，admin_timeout=10；只有user_timeout可改。"
+  },
+  "capabilities": null
+}

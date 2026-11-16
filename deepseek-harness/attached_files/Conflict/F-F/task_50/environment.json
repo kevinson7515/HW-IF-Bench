@@ -1,0 +1,10 @@
+{
+  "entity": "E",
+  "period": "2026Q3",
+  "currency": "CNY",
+  "unit": "10000",
+  "snapshot": "t0",
+  "report_A": 1200,
+  "report_B": 1100,
+  "ledger": 1100
+}

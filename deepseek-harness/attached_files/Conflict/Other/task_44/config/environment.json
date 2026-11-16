@@ -1,0 +1,20 @@
+{
+  "case_id": "DESIGN-OT-03",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "available_evidence_file": "environment.json"
+  },
+  "capabilities": {
+    "version": "V9",
+    "window_hours": 24,
+    "model_A": 0.9,
+    "model_B": 0.1,
+    "disagreement_threshold": 0.5,
+    "calibration": {
+      "A_applicable": false,
+      "B_applicable": true,
+      "B_calibrated": true
+    }
+  }
+}

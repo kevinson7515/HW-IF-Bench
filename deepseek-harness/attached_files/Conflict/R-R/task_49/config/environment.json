@@ -1,0 +1,14 @@
+{
+  "case_id": "DESIGN-RR-09",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "max_codepoints": 10,
+    "required_phrases": [
+      "ALPHA",
+      "BRAVO",
+      "CHARLIE"
+    ]
+  },
+  "capabilities": null
+}

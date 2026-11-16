@@ -1,0 +1,9 @@
+{
+  "case_id": "DESIGN-IA-02",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "input": "表有r1姓名=\" Alice \"、r2姓名=\"\"，其余列明确。"
+  },
+  "capabilities": null
+}

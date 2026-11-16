@@ -1,0 +1,12 @@
+{
+  "case_id": "IA-02",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "candidate_meanings": [
+      "全部销售开始前",
+      "最后一家橙屋销售前"
+    ]
+  },
+  "capabilities": null
+}

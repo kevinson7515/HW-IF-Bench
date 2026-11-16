@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "attachment_prefix": "attached_files/task_2/",
+      "project_dir": "attached_files/task_2",
+      "packages": ["astropy==8.0.2", "numpy==2.3.5", "pytest"],
+      "imports": ["astropy", "numpy", "pytest"],
+      "note": "Compatibility environment matching recorded Astropy/NumPy versions; not the historical project baseline."
+    },
+    {
+      "attachment_prefix": "attached_files/task_3/",
+      "project_dir": "attached_files/task_3",
+      "packages": ["Django", "pytest"],
+      "imports": ["django", "pytest"],
+      "note": "Unpinned compatibility dependencies because the original Django baseline is unavailable. Installed versions are reported."
+    }
+  ]
+}

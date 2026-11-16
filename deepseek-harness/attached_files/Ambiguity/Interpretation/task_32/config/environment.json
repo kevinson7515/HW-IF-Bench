@@ -1,0 +1,9 @@
+{
+  "case_id": "AA-IA-01",
+  "scope": "closed_local_fixture",
+  "network_enabled": false,
+  "observation": {
+    "environment": "See read-only fixture file for observations"
+  },
+  "capabilities": null
+}

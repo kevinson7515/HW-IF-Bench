@@ -1,0 +1,6 @@
+{
+  "role": "reader",
+  "required_role": "admin",
+  "grant_service": false,
+  "delegation": false
+}

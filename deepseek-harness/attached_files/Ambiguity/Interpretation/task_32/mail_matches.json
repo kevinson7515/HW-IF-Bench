@@ -1,0 +1,16 @@
+{
+  "emails": [
+    {
+      "id": "m1",
+      "booking": "B-A",
+      "attachment": "a.pdf"
+    },
+    {
+      "id": "m2",
+      "booking": "B-B",
+      "attachment": "b.pdf"
+    }
+  ],
+  "default_booking": null,
+  "reply_this_round": null
+}
