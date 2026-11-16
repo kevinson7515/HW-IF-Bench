@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<counsel-source-record schema-version="3.1">
+  <record-id>CB-DOC-061-086</record-id>
+  <matter-number>CB-PR-3001</matter-number>
+  <portfolio-key>CBP-061-02</portfolio-key>
+  <source-system>ServiceNow privacy queue</source-system>
+  <evidence-role>independent_counterrecord</evidence-role>
+  <immutable-entity-key>ENT-061-1001</immutable-entity-key>
+  <referenced-revision>REV-2025.2</referenced-revision>
+  <current-revision>REV-2025.2</current-revision>
+  <native-record>An independent source repeats portfolio key CBP-061-02 and immutable entity ENT-061-1001 but uses reference CB-PR-3001-E728. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.</native-record>
+  <analysis>
+    <section heading="Source lineage">ServiceNow privacy queue produced native record CB-DOC-061-086 for CB-PR-3001. Leona Park owns the source population and Leona Park recorded the collection review. The export remains separate from later legal analysis.</section>
+    <section heading="Business context">This record concerns notice-practice mismatch within Arcadia genomic data response audit. A consumer access request exposes inconsistencies among genomic-data notices, deletion jobs, vendors, and overseas research transfers. The record addresses one part of the broader question: Join requester identity, genomic data inventory, vendor copies, deletion jobs, and research transfers.</section>
+    <section heading="Native record">An independent source repeats portfolio key CBP-061-02 and immutable entity ENT-061-1001 but uses reference CB-PR-3001-E728. It confirms raw activity only; it neither selects a decision option nor assigns a legal consequence.</section>
+    <section heading="Reliance limits">This file supplies independent counterrecord evidence for CBP-061-02. It does not decide legal effect, select among candidate responses, resolve another system&#x27;s entity identity, or establish that its cited revision is controlling.</section>
+  </analysis>
+  <supporting-rows>
+    <row id="CBP-061-02-IND-01" date="2024-04-28" entity="ENT-061-1001" revision="REV-2025.2" actor="Rafael Okafor" status="superseded" metric="$145,171.00">Independent Counterrecord support row 1 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-IND-02" date="2024-05-01" entity="ENT-061-1001" revision="REV-2025.2" actor="Priya Raman" status="pending" metric="10%">Independent Counterrecord support row 2 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-IND-03" date="2024-05-04" entity="ENT-061-1001" revision="REV-2025.2" actor="Jonas Feld" status="recorded" metric="20%">Independent Counterrecord support row 3 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-IND-04" date="2024-05-07" entity="ENT-061-1001" revision="REV-2025.2" actor="Leona Park" status="confirmed" metric="$184,485.00">Independent Counterrecord support row 4 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-IND-05" date="2024-05-10" entity="ENT-061-1001" revision="REV-2025.2" actor="Adrian Mensah" status="superseded" metric="11%">Independent Counterrecord support row 5 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-IND-06" date="2024-05-13" entity="ENT-061-1001" revision="REV-2025.2" actor="Amara Patel" status="pending" metric="15%">Independent Counterrecord support row 6 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-IND-07" date="2024-05-16" entity="ENT-061-1001" revision="REV-2025.2" actor="Micah Sullivan" status="superseded" metric="$251,303.00">Independent Counterrecord support row 7 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-IND-08" date="2024-05-19" entity="ENT-061-2001" revision="REV-2025.2" actor="Lena Varga" status="confirmed" metric="14%">Independent Counterrecord support row 8 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-IND-09" date="2024-05-22" entity="ENT-061-1001" revision="REV-2025.2" actor="Rafael Okafor" status="recorded" metric="5%">Independent Counterrecord support row 9 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-IND-10" date="2024-05-25" entity="ENT-061-1001" revision="REV-2025.2" actor="Priya Raman" status="pending" metric="$157,662.00">Independent Counterrecord support row 10 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-IND-11" date="2024-05-28" entity="ENT-061-1001" revision="REV-2025.2" actor="Jonas Feld" status="confirmed" metric="5%">Independent Counterrecord support row 11 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-IND-12" date="2024-05-31" entity="ENT-061-1001" revision="REV-2025.2" actor="Leona Park" status="pending" metric="27%">Independent Counterrecord support row 12 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-IND-13" date="2024-06-03" entity="ENT-061-1001" revision="REV-2025.2" actor="Adrian Mensah" status="pending" metric="$65,030.00">Independent Counterrecord support row 13 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-IND-14" date="2024-06-06" entity="ENT-061-1001" revision="REV-2025.2" actor="Amara Patel" status="superseded" metric="8%">Independent Counterrecord support row 14 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-IND-15" date="2024-06-09" entity="ENT-061-1001" revision="REV-2025.2" actor="Micah Sullivan" status="pending" metric="18%">Independent Counterrecord support row 15 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-IND-16" date="2024-06-12" entity="ENT-061-1001" revision="REV-2025.2" actor="Lena Varga" status="pending" metric="$100,430.00">Independent Counterrecord support row 16 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-IND-17" date="2024-06-15" entity="ENT-061-1001" revision="REV-2025.2" actor="Rafael Okafor" status="confirmed" metric="3%">Independent Counterrecord support row 17 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+    <row id="CBP-061-02-IND-18" date="2024-06-18" entity="ENT-061-1001" revision="REV-2025.2" actor="Priya Raman" status="superseded" metric="1%">Independent Counterrecord support row 18 for notice-practice mismatch; retained from the native system so the reviewer can distinguish the exact CBP-061-02 population from similarly named records.</row>
+  </supporting-rows>
+  <chronology>
+    <event date="2025-05-16" actor="Rafael Okafor" reference="CB-DOC-061-086">native population opened</event>
+    <event date="2025-05-22" actor="Elliot Mercer" reference="CBP-061-02">custodian boundary confirmed</event>
+    <event date="2025-05-28" actor="Caleb Hassan" reference="CB-DOC-061-086">export created</event>
+    <event date="2025-06-03" actor="Adrian Mensah" reference="CBP-061-02">cross-system identifier checked</event>
+    <event date="2025-06-09" actor="Henry Cho" reference="CB-DOC-061-086">revision retained</event>
+    <event date="2025-06-15" actor="Owen Delgado" reference="CBP-061-02">matter copy collected</event>
+  </chronology>
+  <provenance>Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.</provenance>
+</counsel-source-record>

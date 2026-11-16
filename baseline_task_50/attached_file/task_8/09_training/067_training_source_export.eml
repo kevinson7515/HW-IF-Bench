@@ -1,0 +1,99 @@
+From: Theo Laurent <theo_laurent@example.test>
+To: Owen Delgado <owen_delgado@example.test>
+Date: 2025-12-11 08:30:00 -0700
+Message-ID: <cb-doc-061-067@example.test>
+Subject: CB-PR-3001 — incident-notification clock source export
+X-Matter-Number: CB-PR-3001
+X-Portfolio-Key: CBP-061-07
+X-Source-System: OneTrust data map
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+The supporting population for CBP-061-07 was exported under CB-PR-3001-E157. The population uses immutable entity ENT-061-1006 and records impact-control score 72; this score is an input, not a disposition.
+
+SOURCE LINEAGE
+OneTrust data map produced native record CB-DOC-061-067 for CB-PR-3001. Theo Laurent owns the source population and Owen Delgado recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns incident-notification clock within Arcadia genomic data response audit. A consumer access request exposes inconsistencies among genomic-data notices, deletion jobs, vendors, and overseas research transfers. The record addresses one part of the broader question: Join requester identity, genomic data inventory, vendor copies, deletion jobs, and research transfers.
+
+NATIVE RECORD
+The supporting population for CBP-061-07 was exported under CB-PR-3001-E157. The population uses immutable entity ENT-061-1006 and records impact-control score 72; this score is an input, not a disposition.
+
+RELIANCE LIMITS
+This file supplies financial or population support evidence for CBP-061-07. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SOURCE THREAD
+-----Original Message-----
+From: Talia Brooks <talia_brooks@example.test>
+Sent: 2024-05-12 09:00:00 -0700
+To: Owen Delgado <owen_delgado@example.test>
+Subject: CBP-061-07 source row CBP-061-07-FIN-01
+
+Financial Or Population Support support row 1 for incident-notification clock; retained from the native system so the reviewer can distinguish the exact CBP-061-07 population from similarly named records. The native status is superseded and the recorded metric is $31,719.00.
+
+-----Original Message-----
+From: Caleb Hassan <caleb_hassan@example.test>
+Sent: 2024-05-15 09:00:00 -0700
+To: Owen Delgado <owen_delgado@example.test>
+Subject: CBP-061-07 source row CBP-061-07-FIN-02
+
+Financial Or Population Support support row 2 for incident-notification clock; retained from the native system so the reviewer can distinguish the exact CBP-061-07 population from similarly named records. The native status is superseded and the recorded metric is 14%.
+
+-----Original Message-----
+From: Sofia Bennett <sofia_bennett@example.test>
+Sent: 2024-05-18 09:00:00 -0700
+To: Owen Delgado <owen_delgado@example.test>
+Subject: CBP-061-07 source row CBP-061-07-FIN-03
+
+Financial Or Population Support support row 3 for incident-notification clock; retained from the native system so the reviewer can distinguish the exact CBP-061-07 population from similarly named records. The native status is confirmed and the recorded metric is 15%.
+
+-----Original Message-----
+From: Theo Laurent <theo_laurent@example.test>
+Sent: 2024-05-21 09:00:00 -0700
+To: Owen Delgado <owen_delgado@example.test>
+Subject: CBP-061-07 source row CBP-061-07-FIN-04
+
+Financial Or Population Support support row 4 for incident-notification clock; retained from the native system so the reviewer can distinguish the exact CBP-061-07 population from similarly named records. The native status is recorded and the recorded metric is $304,464.00.
+
+-----Original Message-----
+From: Nadine Flores <nadine_flores@example.test>
+Sent: 2024-05-24 09:00:00 -0700
+To: Owen Delgado <owen_delgado@example.test>
+Subject: CBP-061-07 source row CBP-061-07-FIN-05
+
+Financial Or Population Support support row 5 for incident-notification clock; retained from the native system so the reviewer can distinguish the exact CBP-061-07 population from similarly named records. The native status is confirmed and the recorded metric is 27%.
+
+-----Original Message-----
+From: Owen Delgado <owen_delgado@example.test>
+Sent: 2024-05-27 09:00:00 -0700
+To: Owen Delgado <owen_delgado@example.test>
+Subject: CBP-061-07 source row CBP-061-07-FIN-06
+
+Financial Or Population Support support row 6 for incident-notification clock; retained from the native system so the reviewer can distinguish the exact CBP-061-07 population from similarly named records. The native status is superseded and the recorded metric is 17%.
+
+-----Original Message-----
+From: Maya Ellison <maya_ellison@example.test>
+Sent: 2024-05-30 09:00:00 -0700
+To: Owen Delgado <owen_delgado@example.test>
+Subject: CBP-061-07 source row CBP-061-07-FIN-07
+
+Financial Or Population Support support row 7 for incident-notification clock; retained from the native system so the reviewer can distinguish the exact CBP-061-07 population from similarly named records. The native status is recorded and the recorded metric is $991,756.00.
+
+-----Original Message-----
+From: Dominic Alvarez <dominic_alvarez@example.test>
+Sent: 2024-06-02 09:00:00 -0700
+To: Owen Delgado <owen_delgado@example.test>
+Subject: CBP-061-07 source row CBP-061-07-FIN-08
+
+Financial Or Population Support support row 8 for incident-notification clock; retained from the native system so the reviewer can distinguish the exact CBP-061-07 population from similarly named records. The native status is pending and the recorded metric is 3%.
+
+CHRONOLOGY
+2025-11-06 | native population opened | Talia Brooks | CB-DOC-061-067
+2025-11-12 | custodian boundary confirmed | Leona Park | CBP-061-07
+2025-11-18 | export created | Willa Novak | CB-DOC-061-067
+2025-11-24 | cross-system identifier checked | Nadine Flores | CBP-061-07
+2025-11-30 | revision retained | Lena Varga | CB-DOC-061-067
+2025-12-06 | matter copy collected | Nora Chen | CBP-061-07
+
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

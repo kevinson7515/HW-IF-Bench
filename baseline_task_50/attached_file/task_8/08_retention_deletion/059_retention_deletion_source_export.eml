@@ -1,0 +1,99 @@
+From: Jonas Feld <jonas_feld@example.test>
+To: Adrian Mensah <adrian_mensah@example.test>
+Date: 2024-12-03 08:30:00 -0700
+Message-ID: <cb-doc-061-059@example.test>
+Subject: CB-PR-3001 — training completion gap source export
+X-Matter-Number: CB-PR-3001
+X-Portfolio-Key: CBP-061-11
+X-Source-System: vendor risk portal
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+The business owner asks whether the training completion gap certification covers 190 records under CB-PR-3001-E378. The counterparty points to the training completion gap population is 216 records under CB-PR-3001-R334. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+
+SOURCE LINEAGE
+vendor risk portal produced native record CB-DOC-061-059 for CB-PR-3001. Jonas Feld owns the source population and Adrian Mensah recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns training completion gap within Arcadia genomic data response audit. A consumer access request exposes inconsistencies among genomic-data notices, deletion jobs, vendors, and overseas research transfers. The record addresses one part of the broader question: Join requester identity, genomic data inventory, vendor copies, deletion jobs, and research transfers.
+
+NATIVE RECORD
+The business owner asks whether the training completion gap certification covers 190 records under CB-PR-3001-E378. The counterparty points to the training completion gap population is 216 records under CB-PR-3001-R334. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+
+RELIANCE LIMITS
+This file supplies correspondence evidence for CBP-061-11. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SOURCE THREAD
+-----Original Message-----
+From: Lena Varga <lena_varga@example.test>
+Sent: 2025-02-12 09:00:00 -0700
+To: Adrian Mensah <adrian_mensah@example.test>
+Subject: CBP-061-11 source row CBP-061-11-COR-01
+
+Correspondence support row 1 for training completion gap; retained from the native system so the reviewer can distinguish the exact CBP-061-11 population from similarly named records. The native status is recorded and the recorded metric is $186,580.00.
+
+-----Original Message-----
+From: Rafael Okafor <rafael_okafor@example.test>
+Sent: 2025-02-15 09:00:00 -0700
+To: Adrian Mensah <adrian_mensah@example.test>
+Subject: CBP-061-11 source row CBP-061-11-COR-02
+
+Correspondence support row 2 for training completion gap; retained from the native system so the reviewer can distinguish the exact CBP-061-11 population from similarly named records. The native status is pending and the recorded metric is 18%.
+
+-----Original Message-----
+From: Priya Raman <priya_raman@example.test>
+Sent: 2025-02-18 09:00:00 -0700
+To: Adrian Mensah <adrian_mensah@example.test>
+Subject: CBP-061-11 source row CBP-061-11-COR-03
+
+Correspondence support row 3 for training completion gap; retained from the native system so the reviewer can distinguish the exact CBP-061-11 population from similarly named records. The native status is pending and the recorded metric is 5%.
+
+-----Original Message-----
+From: Jonas Feld <jonas_feld@example.test>
+Sent: 2025-02-21 09:00:00 -0700
+To: Adrian Mensah <adrian_mensah@example.test>
+Subject: CBP-061-11 source row CBP-061-11-COR-04
+
+Correspondence support row 4 for training completion gap; retained from the native system so the reviewer can distinguish the exact CBP-061-11 population from similarly named records. The native status is recorded and the recorded metric is $656,844.00.
+
+-----Original Message-----
+From: Leona Park <leona_park@example.test>
+Sent: 2025-02-24 09:00:00 -0700
+To: Adrian Mensah <adrian_mensah@example.test>
+Subject: CBP-061-11 source row CBP-061-11-COR-05
+
+Correspondence support row 5 for training completion gap; retained from the native system so the reviewer can distinguish the exact CBP-061-11 population from similarly named records. The native status is confirmed and the recorded metric is 6%.
+
+-----Original Message-----
+From: Adrian Mensah <adrian_mensah@example.test>
+Sent: 2025-02-27 09:00:00 -0700
+To: Adrian Mensah <adrian_mensah@example.test>
+Subject: CBP-061-11 source row CBP-061-11-COR-06
+
+Correspondence support row 6 for training completion gap; retained from the native system so the reviewer can distinguish the exact CBP-061-11 population from similarly named records. The native status is pending and the recorded metric is 13%.
+
+-----Original Message-----
+From: Amara Patel <amara_patel@example.test>
+Sent: 2025-03-02 09:00:00 -0700
+To: Adrian Mensah <adrian_mensah@example.test>
+Subject: CBP-061-11 source row CBP-061-11-COR-07
+
+Correspondence support row 7 for training completion gap; retained from the native system so the reviewer can distinguish the exact CBP-061-11 population from similarly named records. The native status is confirmed and the recorded metric is $188,653.00.
+
+-----Original Message-----
+From: Micah Sullivan <micah_sullivan@example.test>
+Sent: 2025-03-05 09:00:00 -0700
+To: Adrian Mensah <adrian_mensah@example.test>
+Subject: CBP-061-11 source row CBP-061-11-COR-08
+
+Correspondence support row 8 for training completion gap; retained from the native system so the reviewer can distinguish the exact CBP-061-11 population from similarly named records. The native status is recorded and the recorded metric is 15%.
+
+CHRONOLOGY
+2024-10-29 | native population opened | Lena Varga | CB-DOC-061-059
+2024-11-04 | custodian boundary confirmed | Nora Chen | CBP-061-11
+2024-11-10 | export created | Talia Brooks | CB-DOC-061-059
+2024-11-16 | cross-system identifier checked | Leona Park | CBP-061-11
+2024-11-22 | revision retained | Willa Novak | CB-DOC-061-059
+2024-11-28 | matter copy collected | Nadine Flores | CBP-061-11
+
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

@@ -1,0 +1,272 @@
+%PDF-1.4
+% CounselBench deterministic native source
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 2 /Kids [3 0 R 5 0 R] >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 4545 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(COUNSELBENCH SOURCE RECORD) Tj
+T*
+(Record: CB-DOC-061-008) Tj
+T*
+(Matter: CB-PR-3001 - Arcadia genomic data response audit) Tj
+T*
+(Portfolio key: CBP-061-08) Tj
+T*
+(Source system: ServiceNow privacy queue) Tj
+T*
+(Evidence role: identity_crosswalk) Tj
+T*
+(Immutable entity: ENT-061-1007) Tj
+T*
+(Referenced revision: REV-2024.0) Tj
+T*
+(Current revision: REV-2025.1) Tj
+T*
+(Custodian: Priya Raman) Tj
+T*
+(Reviewer: Amara Patel) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(Crosswalk revision REV-2025.1 maps portfolio key CBP-061-08 and legal name Arcadia Genomics, Inc. ?) Tj
+T*
+(Regulator Commitment Overdue record 8 to immutable entity ENT-061-1007. The domain, legal entity, and) Tj
+T*
+(native system key agree; the nearby alias is excluded.) Tj
+T*
+() Tj
+T*
+(SOURCE LINEAGE) Tj
+T*
+(ServiceNow privacy queue produced native record CB-DOC-061-008 for CB-PR-3001. Priya Raman owns the) Tj
+T*
+(source population and Amara Patel recorded the collection review. The export remains separate from later) Tj
+T*
+(legal analysis.) Tj
+T*
+() Tj
+T*
+(BUSINESS CONTEXT) Tj
+T*
+(This record concerns regulator commitment overdue within Arcadia genomic data response audit. A consumer) Tj
+T*
+(access request exposes inconsistencies among genomic-data notices, deletion jobs, vendors, and overseas) Tj
+T*
+(research transfers. The record addresses one part of the broader question: Join requester identity,) Tj
+T*
+(genomic data inventory, vendor copies, deletion jobs, and research transfers.) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(Crosswalk revision REV-2025.1 maps portfolio key CBP-061-08 and legal name Arcadia Genomics, Inc. ?) Tj
+T*
+(Regulator Commitment Overdue record 8 to immutable entity ENT-061-1007. The domain, legal entity, and) Tj
+T*
+(native system key agree; the nearby alias is excluded.) Tj
+T*
+() Tj
+T*
+(RELIANCE LIMITS) Tj
+T*
+(This file supplies identity crosswalk evidence for CBP-061-08. It does not decide legal effect, select) Tj
+T*
+(among candidate responses, resolve another system's entity identity, or establish that its cited revision) Tj
+T*
+(is controlling.) Tj
+T*
+() Tj
+T*
+(NATIVE ROWS) Tj
+T*
+(CBP-061-08-IDE-01 | 2024-09-22 | ENT-061-1007 | REV-2024.0 | Micah Sullivan | confirmed | $810,957.00 |) Tj
+T*
+(Identity Crosswalk support row 1 for regulator commitment overdue; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-08 population from similarly named records.) Tj
+T*
+(CBP-061-08-IDE-02 | 2024-09-25 | ENT-061-1007 | REV-2025.1 | Lena Varga | pending | 3% | Identity) Tj
+T*
+(Crosswalk support row 2 for regulator commitment overdue; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-061-08 population from similarly named records.) Tj
+T*
+(CBP-061-08-IDE-03 | 2024-09-28 | ENT-061-1007 | REV-2025.1 | Rafael Okafor | confirmed | 10% | Identity) Tj
+T*
+(Crosswalk support row 3 for regulator commitment overdue; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-061-08 population from similarly named records.) Tj
+T*
+(CBP-061-08-IDE-04 | 2024-10-01 | ENT-061-1007 | REV-2025.1 | Priya Raman | superseded | $737,223.00 |) Tj
+T*
+(Identity Crosswalk support row 4 for regulator commitment overdue; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-08 population from similarly named records.) Tj
+T*
+(CBP-061-08-IDE-05 | 2024-10-04 | ENT-061-1007 | REV-2025.1 | Jonas Feld | confirmed | 19% | Identity) Tj
+T*
+(Crosswalk support row 5 for regulator commitment overdue; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-061-08 population from similarly named records.) Tj
+T*
+(CBP-061-08-IDE-06 | 2024-10-07 | ENT-061-1007 | REV-2024.0 | Leona Park | superseded | 5% | Identity) Tj
+T*
+(Crosswalk support row 6 for regulator commitment overdue; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-061-08 population from similarly named records.) Tj
+T*
+(CBP-061-08-IDE-07 | 2024-10-10 | ENT-061-1007 | REV-2025.1 | Adrian Mensah | recorded | $604,728.00 |) Tj
+T*
+(Identity Crosswalk support row 7 for regulator commitment overdue; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-08 population from similarly named records.) Tj
+T*
+(CBP-061-08-IDE-08 | 2024-10-13 | ENT-061-2007 | REV-2025.1 | Amara Patel | recorded | 19% | Identity) Tj
+T*
+(Crosswalk support row 8 for regulator commitment overdue; retained from the native system so the reviewer) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4025 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(can distinguish the exact CBP-061-08 population from similarly named records.) Tj
+T*
+(CBP-061-08-IDE-09 | 2024-10-16 | ENT-061-1007 | REV-2025.1 | Micah Sullivan | superseded | 16% | Identity) Tj
+T*
+(Crosswalk support row 9 for regulator commitment overdue; retained from the native system so the reviewer) Tj
+T*
+(can distinguish the exact CBP-061-08 population from similarly named records.) Tj
+T*
+(CBP-061-08-IDE-10 | 2024-10-19 | ENT-061-1007 | REV-2025.1 | Lena Varga | confirmed | $273,917.00 |) Tj
+T*
+(Identity Crosswalk support row 10 for regulator commitment overdue; retained from the native system so) Tj
+T*
+(the reviewer can distinguish the exact CBP-061-08 population from similarly named records.) Tj
+T*
+(CBP-061-08-IDE-11 | 2024-10-22 | ENT-061-1007 | REV-2024.0 | Rafael Okafor | confirmed | 11% | Identity) Tj
+T*
+(Crosswalk support row 11 for regulator commitment overdue; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-08 population from similarly named records.) Tj
+T*
+(CBP-061-08-IDE-12 | 2024-10-25 | ENT-061-1007 | REV-2025.1 | Priya Raman | confirmed | 7% | Identity) Tj
+T*
+(Crosswalk support row 12 for regulator commitment overdue; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-08 population from similarly named records.) Tj
+T*
+(CBP-061-08-IDE-13 | 2024-10-28 | ENT-061-1007 | REV-2025.1 | Jonas Feld | confirmed | $154,953.00 |) Tj
+T*
+(Identity Crosswalk support row 13 for regulator commitment overdue; retained from the native system so) Tj
+T*
+(the reviewer can distinguish the exact CBP-061-08 population from similarly named records.) Tj
+T*
+(CBP-061-08-IDE-14 | 2024-10-31 | ENT-061-1007 | REV-2025.1 | Leona Park | pending | 26% | Identity) Tj
+T*
+(Crosswalk support row 14 for regulator commitment overdue; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-08 population from similarly named records.) Tj
+T*
+(CBP-061-08-IDE-15 | 2024-11-03 | ENT-061-1007 | REV-2025.1 | Adrian Mensah | pending | 23% | Identity) Tj
+T*
+(Crosswalk support row 15 for regulator commitment overdue; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-08 population from similarly named records.) Tj
+T*
+(CBP-061-08-IDE-16 | 2024-11-06 | ENT-061-1007 | REV-2024.0 | Amara Patel | recorded | $823,352.00 |) Tj
+T*
+(Identity Crosswalk support row 16 for regulator commitment overdue; retained from the native system so) Tj
+T*
+(the reviewer can distinguish the exact CBP-061-08 population from similarly named records.) Tj
+T*
+(CBP-061-08-IDE-17 | 2024-11-09 | ENT-061-1007 | REV-2025.1 | Micah Sullivan | recorded | 13% | Identity) Tj
+T*
+(Crosswalk support row 17 for regulator commitment overdue; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-08 population from similarly named records.) Tj
+T*
+(CBP-061-08-IDE-18 | 2024-11-12 | ENT-061-1007 | REV-2025.1 | Lena Varga | confirmed | 14% | Identity) Tj
+T*
+(Crosswalk support row 18 for regulator commitment overdue; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-08 population from similarly named records.) Tj
+T*
+() Tj
+T*
+(CHRONOLOGY) Tj
+T*
+(2026-01-06 | native population opened | Micah Sullivan | CB-DOC-061-008) Tj
+T*
+(2026-01-12 | custodian boundary confirmed | Samuel Kim | CBP-061-08) Tj
+T*
+(2026-01-18 | export created | Dominic Alvarez | CB-DOC-061-008) Tj
+T*
+(2026-01-24 | cross-system identifier checked | Jonas Feld | CBP-061-08) Tj
+T*
+(2026-01-30 | revision retained | Isaac Romero | CB-DOC-061-008) Tj
+T*
+(2026-02-05 | matter copy collected | Theo Laurent | CBP-061-08) Tj
+T*
+() Tj
+T*
+(RELATED NATIVE RECORDS) Tj
+T*
+(CB-DOC-061-019) Tj
+T*
+(CB-DOC-061-037) Tj
+T*
+(CB-DOC-061-055) Tj
+T*
+(CB-DOC-061-079) Tj
+T*
+() Tj
+T*
+(Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are) Tj
+T*
+(fictitious; the record is not legal advice.) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000052 00000 n 
+0000000101 00000 n 
+0000000164 00000 n 
+0000000290 00000 n 
+0000004886 00000 n 
+0000005012 00000 n 
+0000009088 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+9156
+%%EOF

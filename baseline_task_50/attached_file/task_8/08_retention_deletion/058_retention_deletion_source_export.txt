@@ -1,0 +1,59 @@
+ATTORNEY WORK PRODUCT
+
+IDENTITY-VERIFICATION INCONSISTENCY
+RECORD: CB-DOC-061-058
+MATTER: CB-PR-3001
+PORTFOLIO KEY: CBP-061-10
+SOURCE SYSTEM: Vanta control register
+EVIDENCE ROLE: correspondence
+ENTITY KEY: ENT-061-1009
+REFERENCED REVISION: REV-2025.3
+CURRENT REVISION: REV-2025.3
+CUSTODIAN: Talia Brooks
+REVIEWER: Talia Brooks
+
+NATIVE RECORD
+The business owner asks whether the identity-verification inconsistency status is open and unresolved under CB-PR-3001-E798. The counterparty points to open identity-verification inconsistency blocks completion under CB-PR-3001-R266. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+
+SOURCE LINEAGE
+Vanta control register produced native record CB-DOC-061-058 for CB-PR-3001. Talia Brooks owns the source population and Talia Brooks recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns identity-verification inconsistency within Arcadia genomic data response audit. A consumer access request exposes inconsistencies among genomic-data notices, deletion jobs, vendors, and overseas research transfers. The record addresses one part of the broader question: Join requester identity, genomic data inventory, vendor copies, deletion jobs, and research transfers.
+
+NATIVE RECORD
+The business owner asks whether the identity-verification inconsistency status is open and unresolved under CB-PR-3001-E798. The counterparty points to open identity-verification inconsistency blocks completion under CB-PR-3001-R266. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.
+
+RELIANCE LIMITS
+This file supplies correspondence evidence for CBP-061-10. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SCHEDULE 1 — NATIVE ROWS
+CBP-061-10-COR-01 | 2024-05-08 | ENT-061-1009 | REV-2025.3 | Owen Delgado | recorded | $664,856.00 | Correspondence support row 1 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.
+CBP-061-10-COR-02 | 2024-05-11 | ENT-061-1009 | REV-2025.3 | Maya Ellison | superseded | 21% | Correspondence support row 2 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.
+CBP-061-10-COR-03 | 2024-05-14 | ENT-061-1009 | REV-2025.3 | Dominic Alvarez | superseded | 23% | Correspondence support row 3 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.
+CBP-061-10-COR-04 | 2024-05-17 | ENT-061-1009 | REV-2025.3 | Talia Brooks | confirmed | $66,309.00 | Correspondence support row 4 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.
+CBP-061-10-COR-05 | 2024-05-20 | ENT-061-1009 | REV-2025.3 | Caleb Hassan | confirmed | 25% | Correspondence support row 5 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.
+CBP-061-10-COR-06 | 2024-05-23 | ENT-061-1009 | REV-2025.3 | Sofia Bennett | superseded | 3% | Correspondence support row 6 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.
+CBP-061-10-COR-07 | 2024-05-26 | ENT-061-1009 | REV-2025.3 | Theo Laurent | pending | $76,390.00 | Correspondence support row 7 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.
+CBP-061-10-COR-08 | 2024-05-29 | ENT-061-2009 | REV-2025.3 | Nadine Flores | recorded | 10% | Correspondence support row 8 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.
+CBP-061-10-COR-09 | 2024-06-01 | ENT-061-1009 | REV-2025.3 | Owen Delgado | superseded | 3% | Correspondence support row 9 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.
+CBP-061-10-COR-10 | 2024-06-04 | ENT-061-1009 | REV-2025.3 | Maya Ellison | confirmed | $558,121.00 | Correspondence support row 10 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.
+CBP-061-10-COR-11 | 2024-06-07 | ENT-061-1009 | REV-2025.3 | Dominic Alvarez | superseded | 8% | Correspondence support row 11 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.
+CBP-061-10-COR-12 | 2024-06-10 | ENT-061-1009 | REV-2025.3 | Talia Brooks | pending | 16% | Correspondence support row 12 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.
+CBP-061-10-COR-13 | 2024-06-13 | ENT-061-1009 | REV-2025.3 | Caleb Hassan | confirmed | $109,117.00 | Correspondence support row 13 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.
+CBP-061-10-COR-14 | 2024-06-16 | ENT-061-1009 | REV-2025.3 | Sofia Bennett | pending | 11% | Correspondence support row 14 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.
+CBP-061-10-COR-15 | 2024-06-19 | ENT-061-1009 | REV-2025.3 | Theo Laurent | pending | 23% | Correspondence support row 15 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.
+CBP-061-10-COR-16 | 2024-06-22 | ENT-061-1009 | REV-2025.3 | Nadine Flores | pending | $274,598.00 | Correspondence support row 16 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.
+CBP-061-10-COR-17 | 2024-06-25 | ENT-061-1009 | REV-2025.3 | Owen Delgado | superseded | 13% | Correspondence support row 17 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.
+CBP-061-10-COR-18 | 2024-06-28 | ENT-061-1009 | REV-2025.3 | Maya Ellison | confirmed | 16% | Correspondence support row 18 for identity-verification inconsistency; retained from the native system so the reviewer can distinguish the exact CBP-061-10 population from similarly named records.
+
+SCHEDULE 2 — CHRONOLOGY
+2024-03-27 | native population opened | Owen Delgado | CB-DOC-061-058
+2024-04-02 | custodian boundary confirmed | Rafael Okafor | CBP-061-10
+2024-04-08 | export created | Elliot Mercer | CB-DOC-061-058
+2024-04-14 | cross-system identifier checked | Caleb Hassan | CBP-061-10
+2024-04-20 | revision retained | Adrian Mensah | CB-DOC-061-058
+2024-04-26 | matter copy collected | Henry Cho | CBP-061-10
+
+PROVENANCE
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

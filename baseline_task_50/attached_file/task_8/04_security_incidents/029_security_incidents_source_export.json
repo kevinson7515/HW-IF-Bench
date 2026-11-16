@@ -1,0 +1,266 @@
+{
+  "body": "For immutable entity ENT-061-1004.\nthe processing-purpose gap status is open and unresolved under CB-PR-3001-E754. The operating extract cites revision REV-2025.5 and portfolio key CBP-061-05; it does not state a legal disposition.",
+  "chronology": [
+    {
+      "actor": "Amara Patel",
+      "date": "2026-01-29",
+      "event": "native population opened",
+      "reference": "CB-DOC-061-029"
+    },
+    {
+      "actor": "Farah Ibrahim",
+      "date": "2026-02-04",
+      "event": "custodian boundary confirmed",
+      "reference": "CBP-061-05"
+    },
+    {
+      "actor": "Maya Ellison",
+      "date": "2026-02-10",
+      "event": "export created",
+      "reference": "CB-DOC-061-029"
+    },
+    {
+      "actor": "Priya Raman",
+      "date": "2026-02-16",
+      "event": "cross-system identifier checked",
+      "reference": "CBP-061-05"
+    },
+    {
+      "actor": "Mei Whitaker",
+      "date": "2026-02-22",
+      "event": "revision retained",
+      "reference": "CB-DOC-061-029"
+    },
+    {
+      "actor": "Sofia Bennett",
+      "date": "2026-02-28",
+      "event": "matter copy collected",
+      "reference": "CBP-061-05"
+    }
+  ],
+  "client": "Arcadia Genomics, Inc.",
+  "confidentiality": "Confidential legal review",
+  "counterparty": "North Coast Sequencing Network",
+  "current_revision": "REV-2025.5",
+  "custodian": "Rafael Okafor",
+  "evidence_role": "current_operations",
+  "immutable_entity_key": "ENT-061-1004",
+  "matter_number": "CB-PR-3001",
+  "matter_title": "Arcadia genomic data response audit",
+  "native_version": "4.9",
+  "portfolio_key": "CBP-061-05",
+  "provenance": "Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.",
+  "record_date": "2026-03-05",
+  "record_id": "CB-DOC-061-029",
+  "referenced_revision": "REV-2025.5",
+  "related_records": [
+    "CB-DOC-061-040",
+    "CB-DOC-061-058",
+    "CB-DOC-061-076",
+    "CB-DOC-061-004"
+  ],
+  "reviewer": "Micah Sullivan",
+  "rows": [
+    {
+      "actor": "Amara Patel",
+      "effective_date": "2025-05-03",
+      "entity_key": "ENT-061-1004",
+      "line_id": "CBP-061-05-CUR-01",
+      "metric": "$89,339.00",
+      "note": "Current Operations support row 1 for processing-purpose gap; retained from the native system so the reviewer can distinguish the exact CBP-061-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Micah Sullivan",
+      "effective_date": "2025-05-06",
+      "entity_key": "ENT-061-1004",
+      "line_id": "CBP-061-05-CUR-02",
+      "metric": "13%",
+      "note": "Current Operations support row 2 for processing-purpose gap; retained from the native system so the reviewer can distinguish the exact CBP-061-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Lena Varga",
+      "effective_date": "2025-05-09",
+      "entity_key": "ENT-061-1004",
+      "line_id": "CBP-061-05-CUR-03",
+      "metric": "6%",
+      "note": "Current Operations support row 3 for processing-purpose gap; retained from the native system so the reviewer can distinguish the exact CBP-061-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "pending"
+    },
+    {
+      "actor": "Rafael Okafor",
+      "effective_date": "2025-05-12",
+      "entity_key": "ENT-061-1004",
+      "line_id": "CBP-061-05-CUR-04",
+      "metric": "$246,448.00",
+      "note": "Current Operations support row 4 for processing-purpose gap; retained from the native system so the reviewer can distinguish the exact CBP-061-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "recorded"
+    },
+    {
+      "actor": "Priya Raman",
+      "effective_date": "2025-05-15",
+      "entity_key": "ENT-061-1004",
+      "line_id": "CBP-061-05-CUR-05",
+      "metric": "23%",
+      "note": "Current Operations support row 5 for processing-purpose gap; retained from the native system so the reviewer can distinguish the exact CBP-061-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "recorded"
+    },
+    {
+      "actor": "Jonas Feld",
+      "effective_date": "2025-05-18",
+      "entity_key": "ENT-061-1004",
+      "line_id": "CBP-061-05-CUR-06",
+      "metric": "9%",
+      "note": "Current Operations support row 6 for processing-purpose gap; retained from the native system so the reviewer can distinguish the exact CBP-061-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "pending"
+    },
+    {
+      "actor": "Leona Park",
+      "effective_date": "2025-05-21",
+      "entity_key": "ENT-061-1004",
+      "line_id": "CBP-061-05-CUR-07",
+      "metric": "$590,078.00",
+      "note": "Current Operations support row 7 for processing-purpose gap; retained from the native system so the reviewer can distinguish the exact CBP-061-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "pending"
+    },
+    {
+      "actor": "Adrian Mensah",
+      "effective_date": "2025-05-24",
+      "entity_key": "ENT-061-2004",
+      "line_id": "CBP-061-05-CUR-08",
+      "metric": "4%",
+      "note": "Current Operations support row 8 for processing-purpose gap; retained from the native system so the reviewer can distinguish the exact CBP-061-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "recorded"
+    },
+    {
+      "actor": "Amara Patel",
+      "effective_date": "2025-05-27",
+      "entity_key": "ENT-061-1004",
+      "line_id": "CBP-061-05-CUR-09",
+      "metric": "24%",
+      "note": "Current Operations support row 9 for processing-purpose gap; retained from the native system so the reviewer can distinguish the exact CBP-061-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Micah Sullivan",
+      "effective_date": "2025-05-30",
+      "entity_key": "ENT-061-1004",
+      "line_id": "CBP-061-05-CUR-10",
+      "metric": "$808,423.00",
+      "note": "Current Operations support row 10 for processing-purpose gap; retained from the native system so the reviewer can distinguish the exact CBP-061-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Lena Varga",
+      "effective_date": "2025-06-02",
+      "entity_key": "ENT-061-1004",
+      "line_id": "CBP-061-05-CUR-11",
+      "metric": "2%",
+      "note": "Current Operations support row 11 for processing-purpose gap; retained from the native system so the reviewer can distinguish the exact CBP-061-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "pending"
+    },
+    {
+      "actor": "Rafael Okafor",
+      "effective_date": "2025-06-05",
+      "entity_key": "ENT-061-1004",
+      "line_id": "CBP-061-05-CUR-12",
+      "metric": "7%",
+      "note": "Current Operations support row 12 for processing-purpose gap; retained from the native system so the reviewer can distinguish the exact CBP-061-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Priya Raman",
+      "effective_date": "2025-06-08",
+      "entity_key": "ENT-061-1004",
+      "line_id": "CBP-061-05-CUR-13",
+      "metric": "$133,511.00",
+      "note": "Current Operations support row 13 for processing-purpose gap; retained from the native system so the reviewer can distinguish the exact CBP-061-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Jonas Feld",
+      "effective_date": "2025-06-11",
+      "entity_key": "ENT-061-1004",
+      "line_id": "CBP-061-05-CUR-14",
+      "metric": "22%",
+      "note": "Current Operations support row 14 for processing-purpose gap; retained from the native system so the reviewer can distinguish the exact CBP-061-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "superseded"
+    },
+    {
+      "actor": "Leona Park",
+      "effective_date": "2025-06-14",
+      "entity_key": "ENT-061-1004",
+      "line_id": "CBP-061-05-CUR-15",
+      "metric": "21%",
+      "note": "Current Operations support row 15 for processing-purpose gap; retained from the native system so the reviewer can distinguish the exact CBP-061-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "recorded"
+    },
+    {
+      "actor": "Adrian Mensah",
+      "effective_date": "2025-06-17",
+      "entity_key": "ENT-061-1004",
+      "line_id": "CBP-061-05-CUR-16",
+      "metric": "$171,162.00",
+      "note": "Current Operations support row 16 for processing-purpose gap; retained from the native system so the reviewer can distinguish the exact CBP-061-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "pending"
+    },
+    {
+      "actor": "Amara Patel",
+      "effective_date": "2025-06-20",
+      "entity_key": "ENT-061-1004",
+      "line_id": "CBP-061-05-CUR-17",
+      "metric": "6%",
+      "note": "Current Operations support row 17 for processing-purpose gap; retained from the native system so the reviewer can distinguish the exact CBP-061-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "confirmed"
+    },
+    {
+      "actor": "Micah Sullivan",
+      "effective_date": "2025-06-23",
+      "entity_key": "ENT-061-1004",
+      "line_id": "CBP-061-05-CUR-18",
+      "metric": "1%",
+      "note": "Current Operations support row 18 for processing-purpose gap; retained from the native system so the reviewer can distinguish the exact CBP-061-05 population from similarly named records.",
+      "revision": "REV-2025.5",
+      "status": "recorded"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Source lineage",
+      "text": "vendor risk portal produced native record CB-DOC-061-029 for CB-PR-3001. Rafael Okafor owns the source population and Micah Sullivan recorded the collection review. The export remains separate from later legal analysis."
+    },
+    {
+      "heading": "Business context",
+      "text": "This record concerns processing-purpose gap within Arcadia genomic data response audit. A consumer access request exposes inconsistencies among genomic-data notices, deletion jobs, vendors, and overseas research transfers. The record addresses one part of the broader question: Join requester identity, genomic data inventory, vendor copies, deletion jobs, and research transfers."
+    },
+    {
+      "heading": "Native record",
+      "text": "For immutable entity ENT-061-1004.\nthe processing-purpose gap status is open and unresolved under CB-PR-3001-E754. The operating extract cites revision REV-2025.5 and portfolio key CBP-061-05; it does not state a legal disposition."
+    },
+    {
+      "heading": "Reliance limits",
+      "text": "This file supplies current operations evidence for CBP-061-05. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling."
+    }
+  ],
+  "source_path": "/workspace/documents/04_security_incidents/029_security_incidents_source_export.json",
+  "source_system": "vendor risk portal",
+  "subject": "processing-purpose gap"
+}

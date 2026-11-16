@@ -1,0 +1,101 @@
+From: Samuel Kim <samuel_kim@example.test>
+To: Elliot Mercer <elliot_mercer@example.test>
+Date: 2025-09-07 08:30:00 -0700
+Message-ID: <cb-doc-061-027@example.test>
+Subject: CB-PR-3001 — retention schedule conflict source export
+X-Matter-Number: CB-PR-3001
+X-Portfolio-Key: CBP-061-03
+X-Source-System: BigID deletion log
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+For immutable entity ENT-061-1002.
+the retention schedule conflict status is open and unresolved under CB-PR-3001-E567. The operating extract cites revision REV-2025.3 and portfolio key CBP-061-03; it does not state a legal disposition.
+
+SOURCE LINEAGE
+BigID deletion log produced native record CB-DOC-061-027 for CB-PR-3001. Samuel Kim owns the source population and Elliot Mercer recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns retention schedule conflict within Arcadia genomic data response audit. A consumer access request exposes inconsistencies among genomic-data notices, deletion jobs, vendors, and overseas research transfers. The record addresses one part of the broader question: Join requester identity, genomic data inventory, vendor copies, deletion jobs, and research transfers.
+
+NATIVE RECORD
+For immutable entity ENT-061-1002.
+the retention schedule conflict status is open and unresolved under CB-PR-3001-E567. The operating extract cites revision REV-2025.3 and portfolio key CBP-061-03; it does not state a legal disposition.
+
+RELIANCE LIMITS
+This file supplies current operations evidence for CBP-061-03. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SOURCE THREAD
+-----Original Message-----
+From: Willa Novak <willa_novak@example.test>
+Sent: 2025-03-01 09:00:00 -0700
+To: Elliot Mercer <elliot_mercer@example.test>
+Subject: CBP-061-03 source row CBP-061-03-CUR-01
+
+Current Operations support row 1 for retention schedule conflict; retained from the native system so the reviewer can distinguish the exact CBP-061-03 population from similarly named records. The native status is confirmed and the recorded metric is $980,529.00.
+
+-----Original Message-----
+From: Henry Cho <henry_cho@example.test>
+Sent: 2025-03-04 09:00:00 -0700
+To: Elliot Mercer <elliot_mercer@example.test>
+Subject: CBP-061-03 source row CBP-061-03-CUR-02
+
+Current Operations support row 2 for retention schedule conflict; retained from the native system so the reviewer can distinguish the exact CBP-061-03 population from similarly named records. The native status is superseded and the recorded metric is 21%.
+
+-----Original Message-----
+From: Farah Ibrahim <farah_ibrahim@example.test>
+Sent: 2025-03-07 09:00:00 -0700
+To: Elliot Mercer <elliot_mercer@example.test>
+Subject: CBP-061-03 source row CBP-061-03-CUR-03
+
+Current Operations support row 3 for retention schedule conflict; retained from the native system so the reviewer can distinguish the exact CBP-061-03 population from similarly named records. The native status is superseded and the recorded metric is 3%.
+
+-----Original Message-----
+From: Samuel Kim <samuel_kim@example.test>
+Sent: 2025-03-10 09:00:00 -0700
+To: Elliot Mercer <elliot_mercer@example.test>
+Subject: CBP-061-03 source row CBP-061-03-CUR-04
+
+Current Operations support row 4 for retention schedule conflict; retained from the native system so the reviewer can distinguish the exact CBP-061-03 population from similarly named records. The native status is superseded and the recorded metric is $430,627.00.
+
+-----Original Message-----
+From: Nora Chen <nora_chen@example.test>
+Sent: 2025-03-13 09:00:00 -0700
+To: Elliot Mercer <elliot_mercer@example.test>
+Subject: CBP-061-03 source row CBP-061-03-CUR-05
+
+Current Operations support row 5 for retention schedule conflict; retained from the native system so the reviewer can distinguish the exact CBP-061-03 population from similarly named records. The native status is confirmed and the recorded metric is 2%.
+
+-----Original Message-----
+From: Elliot Mercer <elliot_mercer@example.test>
+Sent: 2025-03-16 09:00:00 -0700
+To: Elliot Mercer <elliot_mercer@example.test>
+Subject: CBP-061-03 source row CBP-061-03-CUR-06
+
+Current Operations support row 6 for retention schedule conflict; retained from the native system so the reviewer can distinguish the exact CBP-061-03 population from similarly named records. The native status is superseded and the recorded metric is 17%.
+
+-----Original Message-----
+From: Mei Whitaker <mei_whitaker@example.test>
+Sent: 2025-03-19 09:00:00 -0700
+To: Elliot Mercer <elliot_mercer@example.test>
+Subject: CBP-061-03 source row CBP-061-03-CUR-07
+
+Current Operations support row 7 for retention schedule conflict; retained from the native system so the reviewer can distinguish the exact CBP-061-03 population from similarly named records. The native status is confirmed and the recorded metric is $165,041.00.
+
+-----Original Message-----
+From: Isaac Romero <isaac_romero@example.test>
+Sent: 2025-03-22 09:00:00 -0700
+To: Elliot Mercer <elliot_mercer@example.test>
+Subject: CBP-061-03 source row CBP-061-03-CUR-08
+
+Current Operations support row 8 for retention schedule conflict; retained from the native system so the reviewer can distinguish the exact CBP-061-03 population from similarly named records. The native status is confirmed and the recorded metric is 20%.
+
+CHRONOLOGY
+2025-08-03 | native population opened | Willa Novak | CB-DOC-061-027
+2025-08-09 | custodian boundary confirmed | Nadine Flores | CBP-061-03
+2025-08-15 | export created | Lena Varga | CB-DOC-061-027
+2025-08-21 | cross-system identifier checked | Nora Chen | CBP-061-03
+2025-08-27 | revision retained | Talia Brooks | CB-DOC-061-027
+2025-09-02 | matter copy collected | Leona Park | CBP-061-03
+
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

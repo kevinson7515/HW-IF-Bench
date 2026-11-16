@@ -1,0 +1,99 @@
+From: Theo Laurent <theo_laurent@example.test>
+To: Owen Delgado <owen_delgado@example.test>
+Date: 2026-01-13 08:30:00 -0700
+Message-ID: <cb-doc-061-019@example.test>
+Subject: CB-PR-3001 — incident-notification clock source export
+X-Matter-Number: CB-PR-3001
+X-Portfolio-Key: CBP-061-07
+X-Source-System: OneTrust data map
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+incident-notification clock is due by 2025-09-27 under CB-PR-3001-R184. The referenced and current revision are both REV-2025.7. The matter-level control is: Access, deletion, and transfer duties depend on verified identity, purpose, jurisdiction, and current vendor scope.
+
+SOURCE LINEAGE
+OneTrust data map produced native record CB-DOC-061-019 for CB-PR-3001. Theo Laurent owns the source population and Owen Delgado recorded the collection review. The export remains separate from later legal analysis.
+
+BUSINESS CONTEXT
+This record concerns incident-notification clock within Arcadia genomic data response audit. A consumer access request exposes inconsistencies among genomic-data notices, deletion jobs, vendors, and overseas research transfers. The record addresses one part of the broader question: Join requester identity, genomic data inventory, vendor copies, deletion jobs, and research transfers.
+
+NATIVE RECORD
+incident-notification clock is due by 2025-09-27 under CB-PR-3001-R184. The referenced and current revision are both REV-2025.7. The matter-level control is: Access, deletion, and transfer duties depend on verified identity, purpose, jurisdiction, and current vendor scope.
+
+RELIANCE LIMITS
+This file supplies operative authority evidence for CBP-061-07. It does not decide legal effect, select among candidate responses, resolve another system's entity identity, or establish that its cited revision is controlling.
+
+SOURCE THREAD
+-----Original Message-----
+From: Talia Brooks <talia_brooks@example.test>
+Sent: 2025-05-31 09:00:00 -0700
+To: Owen Delgado <owen_delgado@example.test>
+Subject: CBP-061-07 source row CBP-061-07-OPE-01
+
+Operative Authority support row 1 for incident-notification clock; retained from the native system so the reviewer can distinguish the exact CBP-061-07 population from similarly named records. The native status is pending and the recorded metric is $815,334.00.
+
+-----Original Message-----
+From: Caleb Hassan <caleb_hassan@example.test>
+Sent: 2025-06-03 09:00:00 -0700
+To: Owen Delgado <owen_delgado@example.test>
+Subject: CBP-061-07 source row CBP-061-07-OPE-02
+
+Operative Authority support row 2 for incident-notification clock; retained from the native system so the reviewer can distinguish the exact CBP-061-07 population from similarly named records. The native status is recorded and the recorded metric is 6%.
+
+-----Original Message-----
+From: Sofia Bennett <sofia_bennett@example.test>
+Sent: 2025-06-06 09:00:00 -0700
+To: Owen Delgado <owen_delgado@example.test>
+Subject: CBP-061-07 source row CBP-061-07-OPE-03
+
+Operative Authority support row 3 for incident-notification clock; retained from the native system so the reviewer can distinguish the exact CBP-061-07 population from similarly named records. The native status is confirmed and the recorded metric is 18%.
+
+-----Original Message-----
+From: Theo Laurent <theo_laurent@example.test>
+Sent: 2025-06-09 09:00:00 -0700
+To: Owen Delgado <owen_delgado@example.test>
+Subject: CBP-061-07 source row CBP-061-07-OPE-04
+
+Operative Authority support row 4 for incident-notification clock; retained from the native system so the reviewer can distinguish the exact CBP-061-07 population from similarly named records. The native status is recorded and the recorded metric is $396,016.00.
+
+-----Original Message-----
+From: Nadine Flores <nadine_flores@example.test>
+Sent: 2025-06-12 09:00:00 -0700
+To: Owen Delgado <owen_delgado@example.test>
+Subject: CBP-061-07 source row CBP-061-07-OPE-05
+
+Operative Authority support row 5 for incident-notification clock; retained from the native system so the reviewer can distinguish the exact CBP-061-07 population from similarly named records. The native status is pending and the recorded metric is 26%.
+
+-----Original Message-----
+From: Owen Delgado <owen_delgado@example.test>
+Sent: 2025-06-15 09:00:00 -0700
+To: Owen Delgado <owen_delgado@example.test>
+Subject: CBP-061-07 source row CBP-061-07-OPE-06
+
+Operative Authority support row 6 for incident-notification clock; retained from the native system so the reviewer can distinguish the exact CBP-061-07 population from similarly named records. The native status is recorded and the recorded metric is 22%.
+
+-----Original Message-----
+From: Maya Ellison <maya_ellison@example.test>
+Sent: 2025-06-18 09:00:00 -0700
+To: Owen Delgado <owen_delgado@example.test>
+Subject: CBP-061-07 source row CBP-061-07-OPE-07
+
+Operative Authority support row 7 for incident-notification clock; retained from the native system so the reviewer can distinguish the exact CBP-061-07 population from similarly named records. The native status is superseded and the recorded metric is $400,671.00.
+
+-----Original Message-----
+From: Dominic Alvarez <dominic_alvarez@example.test>
+Sent: 2025-06-21 09:00:00 -0700
+To: Owen Delgado <owen_delgado@example.test>
+Subject: CBP-061-07 source row CBP-061-07-OPE-08
+
+Operative Authority support row 8 for incident-notification clock; retained from the native system so the reviewer can distinguish the exact CBP-061-07 population from similarly named records. The native status is confirmed and the recorded metric is 18%.
+
+CHRONOLOGY
+2025-12-09 | native population opened | Talia Brooks | CB-DOC-061-019
+2025-12-15 | custodian boundary confirmed | Leona Park | CBP-061-07
+2025-12-21 | export created | Willa Novak | CB-DOC-061-019
+2025-12-27 | cross-system identifier checked | Nadine Flores | CBP-061-07
+2026-01-02 | revision retained | Lena Varga | CB-DOC-061-019
+2026-01-08 | matter copy collected | Nora Chen | CBP-061-07
+
+Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.

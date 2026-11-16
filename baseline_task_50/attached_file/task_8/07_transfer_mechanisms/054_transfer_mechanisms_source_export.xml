@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<counsel-source-record schema-version="3.1">
+  <record-id>CB-DOC-061-054</record-id>
+  <matter-number>CB-PR-3001</matter-number>
+  <portfolio-key>CBP-061-06</portfolio-key>
+  <source-system>regulatory response room</source-system>
+  <evidence-role>correspondence</evidence-role>
+  <immutable-entity-key>ENT-061-1005</immutable-entity-key>
+  <referenced-revision>REV-2025.6</referenced-revision>
+  <current-revision>REV-2025.6</current-revision>
+  <native-record>The business owner asks whether the cross-border transfer gap activity occurred in California under CB-PR-3001-E449. The counterparty points to cross-border transfer gap authority is limited to California Privacy Protection Agency under CB-PR-3001-R637. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.</native-record>
+  <analysis>
+    <section heading="Source lineage">regulatory response room produced native record CB-DOC-061-054 for CB-PR-3001. Nora Chen owns the source population and Nora Chen recorded the collection review. The export remains separate from later legal analysis.</section>
+    <section heading="Business context">This record concerns cross-border transfer gap within Arcadia genomic data response audit. A consumer access request exposes inconsistencies among genomic-data notices, deletion jobs, vendors, and overseas research transfers. The record addresses one part of the broader question: Join requester identity, genomic data inventory, vendor copies, deletion jobs, and research transfers.</section>
+    <section heading="Native record">The business owner asks whether the cross-border transfer gap activity occurred in California under CB-PR-3001-E449. The counterparty points to cross-border transfer gap authority is limited to California Privacy Protection Agency under CB-PR-3001-R637. Neither message resolves entity identity, revision priority, or approval authority; the source records must be reconciled.</section>
+    <section heading="Reliance limits">This file supplies correspondence evidence for CBP-061-06. It does not decide legal effect, select among candidate responses, resolve another system&#x27;s entity identity, or establish that its cited revision is controlling.</section>
+  </analysis>
+  <supporting-rows>
+    <row id="CBP-061-06-COR-01" date="2025-05-27" entity="ENT-061-1005" revision="REV-2025.6" actor="Henry Cho" status="confirmed" metric="$638,977.00">Correspondence support row 1 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-COR-02" date="2025-05-30" entity="ENT-061-1005" revision="REV-2025.6" actor="Farah Ibrahim" status="confirmed" metric="11%">Correspondence support row 2 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-COR-03" date="2025-06-02" entity="ENT-061-1005" revision="REV-2025.6" actor="Samuel Kim" status="confirmed" metric="20%">Correspondence support row 3 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-COR-04" date="2025-06-05" entity="ENT-061-1005" revision="REV-2025.6" actor="Nora Chen" status="recorded" metric="$236,024.00">Correspondence support row 4 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-COR-05" date="2025-06-08" entity="ENT-061-1005" revision="REV-2025.6" actor="Elliot Mercer" status="confirmed" metric="4%">Correspondence support row 5 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-COR-06" date="2025-06-11" entity="ENT-061-1005" revision="REV-2025.6" actor="Mei Whitaker" status="superseded" metric="5%">Correspondence support row 6 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-COR-07" date="2025-06-14" entity="ENT-061-1005" revision="REV-2025.6" actor="Isaac Romero" status="pending" metric="$763,206.00">Correspondence support row 7 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-COR-08" date="2025-06-17" entity="ENT-061-2005" revision="REV-2025.6" actor="Willa Novak" status="superseded" metric="16%">Correspondence support row 8 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-COR-09" date="2025-06-20" entity="ENT-061-1005" revision="REV-2025.6" actor="Henry Cho" status="recorded" metric="23%">Correspondence support row 9 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-COR-10" date="2025-06-23" entity="ENT-061-1005" revision="REV-2025.6" actor="Farah Ibrahim" status="recorded" metric="$153,752.00">Correspondence support row 10 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-COR-11" date="2025-06-26" entity="ENT-061-1005" revision="REV-2025.6" actor="Samuel Kim" status="confirmed" metric="16%">Correspondence support row 11 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-COR-12" date="2025-06-29" entity="ENT-061-1005" revision="REV-2025.6" actor="Nora Chen" status="superseded" metric="14%">Correspondence support row 12 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-COR-13" date="2025-07-02" entity="ENT-061-1005" revision="REV-2025.6" actor="Elliot Mercer" status="pending" metric="$120,258.00">Correspondence support row 13 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-COR-14" date="2025-07-05" entity="ENT-061-1005" revision="REV-2025.6" actor="Mei Whitaker" status="confirmed" metric="9%">Correspondence support row 14 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-COR-15" date="2025-07-08" entity="ENT-061-1005" revision="REV-2025.6" actor="Isaac Romero" status="recorded" metric="15%">Correspondence support row 15 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-COR-16" date="2025-07-11" entity="ENT-061-1005" revision="REV-2025.6" actor="Willa Novak" status="superseded" metric="$892,499.00">Correspondence support row 16 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-COR-17" date="2025-07-14" entity="ENT-061-1005" revision="REV-2025.6" actor="Henry Cho" status="recorded" metric="20%">Correspondence support row 17 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+    <row id="CBP-061-06-COR-18" date="2025-07-17" entity="ENT-061-1005" revision="REV-2025.6" actor="Farah Ibrahim" status="superseded" metric="12%">Correspondence support row 18 for cross-border transfer gap; retained from the native system so the reviewer can distinguish the exact CBP-061-06 population from similarly named records.</row>
+  </supporting-rows>
+  <chronology>
+    <event date="2025-09-28" actor="Henry Cho" reference="CB-DOC-061-054">native population opened</event>
+    <event date="2025-10-04" actor="Owen Delgado" reference="CBP-061-06">custodian boundary confirmed</event>
+    <event date="2025-10-10" actor="Rafael Okafor" reference="CB-DOC-061-054">export created</event>
+    <event date="2025-10-16" actor="Elliot Mercer" reference="CBP-061-06">cross-system identifier checked</event>
+    <event date="2025-10-22" actor="Caleb Hassan" reference="CB-DOC-061-054">revision retained</event>
+    <event date="2025-10-28" actor="Adrian Mensah" reference="CBP-061-06">matter copy collected</event>
+  </chronology>
+  <provenance>Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are fictitious; the record is not legal advice.</provenance>
+</counsel-source-record>

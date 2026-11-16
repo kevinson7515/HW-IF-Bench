@@ -1,0 +1,272 @@
+%PDF-1.4
+% CounselBench deterministic native source
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 2 /Kids [3 0 R 5 0 R] >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 4552 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(COUNSELBENCH SOURCE RECORD) Tj
+T*
+(Record: CB-DOC-061-072) Tj
+T*
+(Matter: CB-PR-3001 - Arcadia genomic data response audit) Tj
+T*
+(Portfolio key: CBP-061-12) Tj
+T*
+(Source system: regulatory response room) Tj
+T*
+(Evidence role: financial_or_population_support) Tj
+T*
+(Immutable entity: ENT-061-1011) Tj
+T*
+(Referenced revision: REV-2025.5) Tj
+T*
+(Current revision: REV-2025.5) Tj
+T*
+(Custodian: Farah Ibrahim) Tj
+T*
+(Reviewer: Mei Whitaker) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(The supporting population for CBP-061-12 was exported under CB-PR-3001-E104. The population uses) Tj
+T*
+(immutable entity ENT-061-1011 and records impact-control score 46; this score is an input, not a) Tj
+T*
+(disposition.) Tj
+T*
+() Tj
+T*
+(SOURCE LINEAGE) Tj
+T*
+(regulatory response room produced native record CB-DOC-061-072 for CB-PR-3001. Farah Ibrahim owns the) Tj
+T*
+(source population and Mei Whitaker recorded the collection review. The export remains separate from later) Tj
+T*
+(legal analysis.) Tj
+T*
+() Tj
+T*
+(BUSINESS CONTEXT) Tj
+T*
+(This record concerns processor-contract omission within Arcadia genomic data response audit. A consumer) Tj
+T*
+(access request exposes inconsistencies among genomic-data notices, deletion jobs, vendors, and overseas) Tj
+T*
+(research transfers. The record addresses one part of the broader question: Join requester identity,) Tj
+T*
+(genomic data inventory, vendor copies, deletion jobs, and research transfers.) Tj
+T*
+() Tj
+T*
+(NATIVE RECORD) Tj
+T*
+(The supporting population for CBP-061-12 was exported under CB-PR-3001-E104. The population uses) Tj
+T*
+(immutable entity ENT-061-1011 and records impact-control score 46; this score is an input, not a) Tj
+T*
+(disposition.) Tj
+T*
+() Tj
+T*
+(RELIANCE LIMITS) Tj
+T*
+(This file supplies financial or population support evidence for CBP-061-12. It does not decide legal) Tj
+T*
+(effect, select among candidate responses, resolve another system's entity identity, or establish that its) Tj
+T*
+(cited revision is controlling.) Tj
+T*
+() Tj
+T*
+(NATIVE ROWS) Tj
+T*
+(CBP-061-12-FIN-01 | 2025-07-20 | ENT-061-1011 | REV-2025.5 | Isaac Romero | recorded | $766,104.00 |) Tj
+T*
+(Financial Or Population Support support row 1 for processor-contract omission; retained from the native) Tj
+T*
+(system so the reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-FIN-02 | 2025-07-23 | ENT-061-1011 | REV-2025.5 | Willa Novak | pending | 24% | Financial Or) Tj
+T*
+(Population Support support row 2 for processor-contract omission; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-FIN-03 | 2025-07-26 | ENT-061-1011 | REV-2025.5 | Henry Cho | recorded | 9% | Financial Or) Tj
+T*
+(Population Support support row 3 for processor-contract omission; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-FIN-04 | 2025-07-29 | ENT-061-1011 | REV-2025.5 | Farah Ibrahim | recorded | $409,264.00 |) Tj
+T*
+(Financial Or Population Support support row 4 for processor-contract omission; retained from the native) Tj
+T*
+(system so the reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-FIN-05 | 2025-08-01 | ENT-061-1011 | REV-2025.5 | Samuel Kim | pending | 26% | Financial Or) Tj
+T*
+(Population Support support row 5 for processor-contract omission; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-FIN-06 | 2025-08-04 | ENT-061-1011 | REV-2025.5 | Nora Chen | pending | 22% | Financial Or) Tj
+T*
+(Population Support support row 6 for processor-contract omission; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-FIN-07 | 2025-08-07 | ENT-061-1011 | REV-2025.5 | Elliot Mercer | recorded | $559,304.00 |) Tj
+T*
+(Financial Or Population Support support row 7 for processor-contract omission; retained from the native) Tj
+T*
+(system so the reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-FIN-08 | 2025-08-10 | ENT-061-2011 | REV-2025.5 | Mei Whitaker | confirmed | 5% | Financial Or) Tj
+T*
+(Population Support support row 8 for processor-contract omission; retained from the native system so the) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4155 >>
+stream
+BT
+/F1 7 Tf
+36 756 Td
+9 TL
+(reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-FIN-09 | 2025-08-13 | ENT-061-1011 | REV-2025.5 | Isaac Romero | superseded | 13% | Financial) Tj
+T*
+(Or Population Support support row 9 for processor-contract omission; retained from the native system so) Tj
+T*
+(the reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-FIN-10 | 2025-08-16 | ENT-061-1011 | REV-2025.5 | Willa Novak | superseded | $92,895.00 |) Tj
+T*
+(Financial Or Population Support support row 10 for processor-contract omission; retained from the native) Tj
+T*
+(system so the reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-FIN-11 | 2025-08-19 | ENT-061-1011 | REV-2025.5 | Henry Cho | confirmed | 4% | Financial Or) Tj
+T*
+(Population Support support row 11 for processor-contract omission; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-FIN-12 | 2025-08-22 | ENT-061-1011 | REV-2025.5 | Farah Ibrahim | superseded | 23% | Financial) Tj
+T*
+(Or Population Support support row 12 for processor-contract omission; retained from the native system so) Tj
+T*
+(the reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-FIN-13 | 2025-08-25 | ENT-061-1011 | REV-2025.5 | Samuel Kim | pending | $859,054.00 |) Tj
+T*
+(Financial Or Population Support support row 13 for processor-contract omission; retained from the native) Tj
+T*
+(system so the reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-FIN-14 | 2025-08-28 | ENT-061-1011 | REV-2025.5 | Nora Chen | superseded | 22% | Financial Or) Tj
+T*
+(Population Support support row 14 for processor-contract omission; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-FIN-15 | 2025-08-31 | ENT-061-1011 | REV-2025.5 | Elliot Mercer | pending | 11% | Financial Or) Tj
+T*
+(Population Support support row 15 for processor-contract omission; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-FIN-16 | 2025-09-03 | ENT-061-1011 | REV-2025.5 | Mei Whitaker | superseded | $286,495.00 |) Tj
+T*
+(Financial Or Population Support support row 16 for processor-contract omission; retained from the native) Tj
+T*
+(system so the reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-FIN-17 | 2025-09-06 | ENT-061-1011 | REV-2025.5 | Isaac Romero | recorded | 15% | Financial Or) Tj
+T*
+(Population Support support row 17 for processor-contract omission; retained from the native system so the) Tj
+T*
+(reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+(CBP-061-12-FIN-18 | 2025-09-09 | ENT-061-1011 | REV-2025.5 | Willa Novak | superseded | 17% | Financial) Tj
+T*
+(Or Population Support support row 18 for processor-contract omission; retained from the native system so) Tj
+T*
+(the reviewer can distinguish the exact CBP-061-12 population from similarly named records.) Tj
+T*
+() Tj
+T*
+(CHRONOLOGY) Tj
+T*
+(2025-11-08 | native population opened | Isaac Romero | CB-DOC-061-072) Tj
+T*
+(2025-11-14 | custodian boundary confirmed | Theo Laurent | CBP-061-12) Tj
+T*
+(2025-11-20 | export created | Micah Sullivan | CB-DOC-061-072) Tj
+T*
+(2025-11-26 | cross-system identifier checked | Samuel Kim | CBP-061-12) Tj
+T*
+(2025-12-02 | revision retained | Dominic Alvarez | CB-DOC-061-072) Tj
+T*
+(2025-12-08 | matter copy collected | Jonas Feld | CBP-061-12) Tj
+T*
+() Tj
+T*
+(RELATED NATIVE RECORDS) Tj
+T*
+(CB-DOC-061-083) Tj
+T*
+(CB-DOC-061-005) Tj
+T*
+(CB-DOC-061-023) Tj
+T*
+(CB-DOC-061-047) Tj
+T*
+() Tj
+T*
+(Synthetic CounselBench-100 source record. All people, entities, events, amounts, and addresses are) Tj
+T*
+(fictitious; the record is not legal advice.) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000052 00000 n 
+0000000101 00000 n 
+0000000164 00000 n 
+0000000290 00000 n 
+0000004893 00000 n 
+0000005019 00000 n 
+0000009225 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+9293
+%%EOF
