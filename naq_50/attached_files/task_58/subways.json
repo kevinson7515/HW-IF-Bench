@@ -1,0 +1,2451 @@
+{
+  "shanghai": [
+    {
+      "name": "Line 1",
+      "stations": [
+        {
+          "name": "Xinzhuang",
+          "position": "121.385373,31.111152"
+        },
+        {
+          "name": "Outer Ring Road",
+          "position": "121.393020,31.120899"
+        },
+        {
+          "name": "Lianhua Road",
+          "position": "121.402910,31.130900"
+        },
+        {
+          "name": "Jinjiang Amusement Park",
+          "position": "121.414107,31.142217"
+        },
+        {
+          "name": "Shanghai South Railway Station",
+          "position": "121.430041,31.154579"
+        },
+        {
+          "name": "Caobao Road",
+          "position": "121.433143,31.168344"
+        },
+        {
+          "name": "Shanghai Stadium",
+          "position": "121.437423,31.182813"
+        },
+        {
+          "name": "Xujiahui",
+          "position": "121.436603,31.195514"
+        },
+        {
+          "name": "Hengshan Road",
+          "position": "121.446424,31.204528"
+        },
+        {
+          "name": "Changshu Road",
+          "position": "121.449141,31.213524"
+        },
+        {
+          "name": "South Shaanxi Road",
+          "position": "121.458741,31.215148"
+        },
+        {
+          "name": "Site of the First National Congress of the Communist Party of China · South Huangpi Road",
+          "position": "121.472904,31.223898"
+        },
+        {
+          "name": "People's Square",
+          "position": "121.475108,31.232687"
+        },
+        {
+          "name": "Xinzha Road",
+          "position": "121.468151,31.238373"
+        },
+        {
+          "name": "Hanzhong Road",
+          "position": "121.458699,31.241883"
+        },
+        {
+          "name": "Shanghai Railway Station",
+          "position": "121.457939,31.249632"
+        },
+        {
+          "name": "Zhongshan North Road",
+          "position": "121.459204,31.258891"
+        },
+        {
+          "name": "Yanchang Road",
+          "position": "121.455329,31.271675"
+        },
+        {
+          "name": "Shanghai Circus World",
+          "position": "121.452023,31.279895"
+        },
+        {
+          "name": "Wenshui Road",
+          "position": "121.450251,31.292556"
+        },
+        {
+          "name": "Pengpu Xincun",
+          "position": "121.448642,31.306604"
+        },
+        {
+          "name": "Gongkang Road",
+          "position": "121.447063,31.318936"
+        },
+        {
+          "name": "Tonghe Xincun",
+          "position": "121.441546,31.331130"
+        },
+        {
+          "name": "Hulan Road",
+          "position": "121.437711,31.339703"
+        },
+        {
+          "name": "Gongfu New Village",
+          "position": "121.434063,31.355082"
+        },
+        {
+          "name": "Bao'an Highway",
+          "position": "121.430914,31.369555"
+        },
+        {
+          "name": "West Youyi Road",
+          "position": "121.427953,31.381296"
+        },
+        {
+          "name": "Fujin Road",
+          "position": "121.424661,31.392260"
+        }
+      ]
+    },
+    {
+      "name": "Line 2",
+      "stations": [
+        {
+          "name": "Pudong International Airport",
+          "position": "121.805591,31.150958"
+        },
+        {
+          "name": "Haitian Third Road",
+          "position": "121.796878,31.168459"
+        },
+        {
+          "name": "Far East Avenue",
+          "position": "121.755301,31.199385"
+        },
+        {
+          "name": "Lingkong Road",
+          "position": "121.724095,31.192861"
+        },
+        {
+          "name": "Chuansha",
+          "position": "121.698210,31.186741"
+        },
+        {
+          "name": "East Huaxia Road",
+          "position": "121.680972,31.196575"
+        },
+        {
+          "name": "Chuangxin Middle Road",
+          "position": "121.673713,31.213871"
+        },
+        {
+          "name": "Tangzhen",
+          "position": "121.656269,31.214107"
+        },
+        {
+          "name": "Guanglan Road",
+          "position": "121.621072,31.211050"
+        },
+        {
+          "name": "Jinke Road",
+          "position": "121.601989,31.204213"
+        },
+        {
+          "name": "Zhangjiang Hi-Tech Park",
+          "position": "121.587490,31.201872"
+        },
+        {
+          "name": "Longyang Road",
+          "position": "121.557634,31.203575"
+        },
+        {
+          "name": "Century Park",
+          "position": "121.550909,31.209421"
+        },
+        {
+          "name": "Shanghai Science and Technology Museum",
+          "position": "121.544439,31.218820"
+        },
+        {
+          "name": "Century Avenue",
+          "position": "121.527213,31.228682"
+        },
+        {
+          "name": "Dongchang Road",
+          "position": "121.515556,31.233270"
+        },
+        {
+          "name": "Lujiazui",
+          "position": "121.502129,31.238259"
+        },
+        {
+          "name": "East Nanjing Road",
+          "position": "121.484628,31.238101"
+        },
+        {
+          "name": "People's Square",
+          "position": "121.475108,31.232687"
+        },
+        {
+          "name": "West Nanjing Road",
+          "position": "121.459971,31.229853"
+        },
+        {
+          "name": "Jing'an Temple",
+          "position": "121.446533,31.223231"
+        },
+        {
+          "name": "Jiangsu Road",
+          "position": "121.430642,31.220411"
+        },
+        {
+          "name": "Zhongshan Park",
+          "position": "121.415773,31.217948"
+        },
+        {
+          "name": "Loushanguan Road",
+          "position": "121.404058,31.211158"
+        },
+        {
+          "name": "Weining Road",
+          "position": "121.387285,31.214870"
+        },
+        {
+          "name": "Beixinjing",
+          "position": "121.373998,31.216395"
+        },
+        {
+          "name": "Songhong Road",
+          "position": "121.359536,31.218225"
+        },
+        {
+          "name": "Hongqiao Terminal 2",
+          "position": "121.326300,31.194211"
+        },
+        {
+          "name": "Hongqiao Railway Station",
+          "position": "121.318950,31.194022"
+        },
+        {
+          "name": "Xujing East",
+          "position": "121.299204,31.188367"
+        }
+      ]
+    },
+    {
+      "name": "Line 3",
+      "stations": [
+        {
+          "name": "Jiangyang North Road",
+          "position": "121.439819,31.407858"
+        },
+        {
+          "name": "Tieli Road",
+          "position": "121.461139,31.408120"
+        },
+        {
+          "name": "Youyi Road",
+          "position": "121.475924,31.404016"
+        },
+        {
+          "name": "Baoyang Road",
+          "position": "121.479574,31.395315"
+        },
+        {
+          "name": "Aquatic Products Road",
+          "position": "121.488247,31.381302"
+        },
+        {
+          "name": "Songbin Road",
+          "position": "121.492818,31.370928"
+        },
+        {
+          "name": "Zhanghuabang",
+          "position": "121.498671,31.358016"
+        },
+        {
+          "name": "Songfa Road",
+          "position": "121.500390,31.345135"
+        },
+        {
+          "name": "South Changjiang Road",
+          "position": "121.491482,31.332062"
+        },
+        {
+          "name": "West Yingao Road",
+          "position": "121.484856,31.320005"
+        },
+        {
+          "name": "Jiangwan Town",
+          "position": "121.485064,31.305566"
+        },
+        {
+          "name": "Dabaishu",
+          "position": "121.483216,31.289433"
+        },
+        {
+          "name": "Chifeng Road",
+          "position": "121.482429,31.281247"
+        },
+        {
+          "name": "Hongkou Football Stadium",
+          "position": "121.479154,31.271392"
+        },
+        {
+          "name": "Dongbaoxing Road",
+          "position": "121.480202,31.259886"
+        },
+        {
+          "name": "Baoshan Road",
+          "position": "121.476298,31.251523"
+        },
+        {
+          "name": "Shanghai Railway Station",
+          "position": "121.457939,31.249632"
+        },
+        {
+          "name": "Zhongtan Road",
+          "position": "121.441001,31.254568"
+        },
+        {
+          "name": "Zhenping Road",
+          "position": "121.429779,31.246369"
+        },
+        {
+          "name": "Caoyang Road",
+          "position": "121.417701,31.239302"
+        },
+        {
+          "name": "Jinshajiang Road",
+          "position": "121.413201,31.232147"
+        },
+        {
+          "name": "Zhongshan Park",
+          "position": "121.415773,31.217948"
+        },
+        {
+          "name": "West Yan'an Road",
+          "position": "121.417062,31.209616"
+        },
+        {
+          "name": "Hongqiao Road",
+          "position": "121.420814,31.197524"
+        },
+        {
+          "name": "Yishan Road",
+          "position": "121.427194,31.186717"
+        },
+        {
+          "name": "Caoxi Road",
+          "position": "121.438410,31.176746"
+        },
+        {
+          "name": "Longcao Road",
+          "position": "121.444383,31.169458"
+        },
+        {
+          "name": "Shilong Road",
+          "position": "121.443205,31.157949"
+        },
+        {
+          "name": "Shanghai South Railway Station",
+          "position": "121.430041,31.154579"
+        }
+      ]
+    },
+    {
+      "name": "Line 4",
+      "stations": [
+        {
+          "name": "Yishan Road",
+          "position": "121.427194,31.186717"
+        },
+        {
+          "name": "Hongqiao Road",
+          "position": "121.420814,31.197524"
+        },
+        {
+          "name": "West Yan'an Road",
+          "position": "121.417062,31.209616"
+        },
+        {
+          "name": "Zhongshan Park",
+          "position": "121.415773,31.217948"
+        },
+        {
+          "name": "Jinshajiang Road",
+          "position": "121.413201,31.232147"
+        },
+        {
+          "name": "Caoyang Road",
+          "position": "121.417701,31.239302"
+        },
+        {
+          "name": "Zhenping Road",
+          "position": "121.429779,31.246369"
+        },
+        {
+          "name": "Zhongtan Road",
+          "position": "121.441001,31.254568"
+        },
+        {
+          "name": "Shanghai Railway Station",
+          "position": "121.457939,31.249632"
+        },
+        {
+          "name": "Baoshan Road",
+          "position": "121.476298,31.251523"
+        },
+        {
+          "name": "Hailun Road",
+          "position": "121.488697,31.259303"
+        },
+        {
+          "name": "Liping Road",
+          "position": "121.500696,31.260874"
+        },
+        {
+          "name": "Dalian Road",
+          "position": "121.513088,31.257938"
+        },
+        {
+          "name": "Yangshupu Road",
+          "position": "121.517210,31.251935"
+        },
+        {
+          "name": "Pudong Avenue",
+          "position": "121.519302,31.240308"
+        },
+        {
+          "name": "Century Avenue",
+          "position": "121.527213,31.228682"
+        },
+        {
+          "name": "Pudian Road (Line 4)",
+          "position": "121.532080,31.222285"
+        },
+        {
+          "name": "Lancun Road",
+          "position": "121.527627,31.211672"
+        },
+        {
+          "name": "Tangqiao",
+          "position": "121.518690,31.209762"
+        },
+        {
+          "name": "Nanpu Bridge",
+          "position": "121.499725,31.208504"
+        },
+        {
+          "name": "South Xizang Road",
+          "position": "121.489555,31.201967"
+        },
+        {
+          "name": "Luban Road",
+          "position": "121.475148,31.199221"
+        },
+        {
+          "name": "Damuqiao Road",
+          "position": "121.463278,31.194057"
+        },
+        {
+          "name": "Dong'an Road",
+          "position": "121.454897,31.190819"
+        },
+        {
+          "name": "Shanghai Stadium",
+          "position": "121.443529,31.185605"
+        },
+        {
+          "name": "Shanghai Stadium",
+          "position": "121.437423,31.182813"
+        }
+      ]
+    },
+    {
+      "name": "Line 5",
+      "stations": [
+        {
+          "name": "Minhang Development Zone",
+          "position": "121.369712,31.000627"
+        },
+        {
+          "name": "Wenjing Road",
+          "position": "121.380775,31.003597"
+        },
+        {
+          "name": "Huaning Road",
+          "position": "121.395255,31.007467"
+        },
+        {
+          "name": "Jinping Road",
+          "position": "121.410186,31.011282"
+        },
+        {
+          "name": "Dongchuan Road",
+          "position": "121.419901,31.018197"
+        },
+        {
+          "name": "Jianchuan Road",
+          "position": "121.416582,31.026483"
+        },
+        {
+          "name": "North Bridge",
+          "position": "121.410054,31.045112"
+        },
+        {
+          "name": "Zhuanqiao",
+          "position": "121.401868,31.067013"
+        },
+        {
+          "name": "Yindu Road",
+          "position": "121.390264,31.089345"
+        },
+        {
+          "name": "Chunshen Road",
+          "position": "121.385818,31.098250"
+        },
+        {
+          "name": "Xinzhuang",
+          "position": "121.385373,31.111152"
+        }
+      ]
+    },
+    {
+      "name": "Line 5",
+      "stations": [
+        {
+          "name": "Xinzhuang",
+          "position": "121.385373,31.111152"
+        },
+        {
+          "name": "Chunshen Road",
+          "position": "121.385818,31.098250"
+        },
+        {
+          "name": "Yindu Road",
+          "position": "121.390264,31.089345"
+        },
+        {
+          "name": "Zhuanqiao",
+          "position": "121.401868,31.067013"
+        },
+        {
+          "name": "North Bridge",
+          "position": "121.410054,31.045112"
+        },
+        {
+          "name": "Jianchuan Road",
+          "position": "121.416582,31.026483"
+        },
+        {
+          "name": "Dongchuan Road",
+          "position": "121.419901,31.018197"
+        },
+        {
+          "name": "Jiangchuan Road",
+          "position": "121.423474,31.005428"
+        },
+        {
+          "name": "Xidu",
+          "position": "121.432441,30.989350"
+        },
+        {
+          "name": "Xiaotang",
+          "position": "121.441857,30.965888"
+        },
+        {
+          "name": "Fengpu Avenue",
+          "position": "121.448984,30.942055"
+        },
+        {
+          "name": "Huancheng East Road",
+          "position": "121.463204,30.931168"
+        },
+        {
+          "name": "Wangyuan Road",
+          "position": "121.483580,30.931940"
+        },
+        {
+          "name": "Jinhai Lake",
+          "position": "121.492506,30.928805"
+        },
+        {
+          "name": "Fengxian New City",
+          "position": "121.496290,30.913916"
+        }
+      ]
+    },
+    {
+      "name": "Line 6",
+      "stations": [
+        {
+          "name": "Oriental Sports Center",
+          "position": "121.480304,31.153366"
+        },
+        {
+          "name": "South Lingyan Road",
+          "position": "121.495295,31.148665"
+        },
+        {
+          "name": "Shangnan Road",
+          "position": "121.506447,31.148820"
+        },
+        {
+          "name": "West Huaxia Road",
+          "position": "121.514539,31.149878"
+        },
+        {
+          "name": "Gaoqing Road",
+          "position": "121.515787,31.159907"
+        },
+        {
+          "name": "Dongming Road",
+          "position": "121.510868,31.172646"
+        },
+        {
+          "name": "West Gaoke Road",
+          "position": "121.509845,31.185761"
+        },
+        {
+          "name": "Linyi New Village",
+          "position": "121.516695,31.193202"
+        },
+        {
+          "name": "Shanghai Children's Medical Center",
+          "position": "121.523482,31.203277"
+        },
+        {
+          "name": "Lancun Road",
+          "position": "121.527627,31.211672"
+        },
+        {
+          "name": "Pudian Road (Line 6)",
+          "position": "121.529351,31.220154"
+        },
+        {
+          "name": "Century Avenue",
+          "position": "121.527213,31.228682"
+        },
+        {
+          "name": "Yuanshen Sports Center",
+          "position": "121.534642,31.233004"
+        },
+        {
+          "name": "Minsheng Road",
+          "position": "121.543527,31.235851"
+        },
+        {
+          "name": "Beiyangjing Road",
+          "position": "121.552314,31.239145"
+        },
+        {
+          "name": "Deping Road",
+          "position": "121.564237,31.245400"
+        },
+        {
+          "name": "Yunshan Road",
+          "position": "121.571153,31.250969"
+        },
+        {
+          "name": "Jinqiao Road",
+          "position": "121.581817,31.257084"
+        },
+        {
+          "name": "Boxing Road",
+          "position": "121.586689,31.263520"
+        },
+        {
+          "name": "Wulian Road",
+          "position": "121.587866,31.272025"
+        },
+        {
+          "name": "Jufeng Road",
+          "position": "121.588365,31.280684"
+        },
+        {
+          "name": "Dongjing Road",
+          "position": "121.588736,31.290684"
+        },
+        {
+          "name": "Wuzhou Avenue",
+          "position": "121.589212,31.302569"
+        },
+        {
+          "name": "Zhouhai Road",
+          "position": "121.589396,31.312229"
+        },
+        {
+          "name": "Waigaoqiao Free Trade Zone South",
+          "position": "121.601963,31.321578"
+        },
+        {
+          "name": "Hangjin Road",
+          "position": "121.593974,31.335371"
+        },
+        {
+          "name": "Waigaoqiao Free Trade Zone North",
+          "position": "121.586926,31.347802"
+        },
+        {
+          "name": "Gangcheng Road",
+          "position": "121.575017,31.353223"
+        }
+      ]
+    },
+    {
+      "name": "Line 7",
+      "stations": [
+        {
+          "name": "Huamu Road",
+          "position": "121.562754,31.211212"
+        },
+        {
+          "name": "Longyang Road",
+          "position": "121.557634,31.203575"
+        },
+        {
+          "name": "Fanghua Road",
+          "position": "121.550115,31.193110"
+        },
+        {
+          "name": "Jinxiu Road",
+          "position": "121.540041,31.187592"
+        },
+        {
+          "name": "South Yanggao Road",
+          "position": "121.524539,31.187613"
+        },
+        {
+          "name": "West Gaoke Road",
+          "position": "121.509845,31.185761"
+        },
+        {
+          "name": "Yuntai Road",
+          "position": "121.500439,31.182212"
+        },
+        {
+          "name": "Yaohua Road",
+          "position": "121.494605,31.178513"
+        },
+        {
+          "name": "Changqing Road",
+          "position": "121.487775,31.174452"
+        },
+        {
+          "name": "Houtan",
+          "position": "121.473756,31.171918"
+        },
+        {
+          "name": "Longhua Middle Road",
+          "position": "121.457064,31.184379"
+        },
+        {
+          "name": "Dong'an Road",
+          "position": "121.454897,31.190819"
+        },
+        {
+          "name": "Zhaojiabang Road",
+          "position": "121.450212,31.199436"
+        },
+        {
+          "name": "Changshu Road",
+          "position": "121.449141,31.213524"
+        },
+        {
+          "name": "Jing'an Temple",
+          "position": "121.446533,31.223231"
+        },
+        {
+          "name": "Changping Road",
+          "position": "121.442617,31.233749"
+        },
+        {
+          "name": "Changshou Road",
+          "position": "121.438272,31.240860"
+        },
+        {
+          "name": "Zhenping Road",
+          "position": "121.429779,31.246369"
+        },
+        {
+          "name": "Langao Road",
+          "position": "121.421939,31.256198"
+        },
+        {
+          "name": "Xincun Road",
+          "position": "121.422668,31.263855"
+        },
+        {
+          "name": "Dahua 3rd Road",
+          "position": "121.422949,31.274047"
+        },
+        {
+          "name": "Xingzhi Road",
+          "position": "121.421770,31.284496"
+        },
+        {
+          "name": "Dachang Town",
+          "position": "121.416157,31.293259"
+        },
+        {
+          "name": "Changzhong Road",
+          "position": "121.413458,31.303682"
+        },
+        {
+          "name": "Shangda Road",
+          "position": "121.408686,31.314969"
+        },
+        {
+          "name": "Nanchen Road",
+          "position": "121.398419,31.321740"
+        },
+        {
+          "name": "Shanghai University",
+          "position": "121.388884,31.320586"
+        },
+        {
+          "name": "Qihua Road",
+          "position": "121.373529,31.322388"
+        },
+        {
+          "name": "Gucun Park",
+          "position": "121.373009,31.344594"
+        },
+        {
+          "name": "Liuhang",
+          "position": "121.362376,31.357586"
+        },
+        {
+          "name": "Panguang Road",
+          "position": "121.355845,31.364182"
+        },
+        {
+          "name": "Luonan New Village",
+          "position": "121.357470,31.388831"
+        },
+        {
+          "name": "Meilan Lake",
+          "position": "121.349894,31.401889"
+        }
+      ]
+    },
+    {
+      "name": "Line 8",
+      "stations": [
+        {
+          "name": "Shendu Road",
+          "position": "121.512272,31.061427"
+        },
+        {
+          "name": "Lianhang Road",
+          "position": "121.510594,31.073567"
+        },
+        {
+          "name": "Jiangyue Road",
+          "position": "121.508603,31.084253"
+        },
+        {
+          "name": "Pujiang Town",
+          "position": "121.506272,31.096590"
+        },
+        {
+          "name": "Luheng Road",
+          "position": "121.498260,31.119070"
+        },
+        {
+          "name": "Lingzhao New Village",
+          "position": "121.489663,31.141301"
+        },
+        {
+          "name": "Oriental Sports Center",
+          "position": "121.480304,31.153366"
+        },
+        {
+          "name": "Yangsi",
+          "position": "121.493443,31.161054"
+        },
+        {
+          "name": "Chengshan Road",
+          "position": "121.496220,31.170735"
+        },
+        {
+          "name": "Yaohua Road",
+          "position": "121.494605,31.178513"
+        },
+        {
+          "name": "China Art Museum",
+          "position": "121.493626,31.185242"
+        },
+        {
+          "name": "South Xizang Road",
+          "position": "121.489555,31.201967"
+        },
+        {
+          "name": "Lujiabang Road",
+          "position": "121.486115,31.211789"
+        },
+        {
+          "name": "Laoximen",
+          "position": "121.483793,31.219014"
+        },
+        {
+          "name": "Great World",
+          "position": "121.479182,31.227392"
+        },
+        {
+          "name": "People's Square",
+          "position": "121.475108,31.232687"
+        },
+        {
+          "name": "Qufu Road",
+          "position": "121.471543,31.242307"
+        },
+        {
+          "name": "Zhongxing Road",
+          "position": "121.469026,31.253228"
+        },
+        {
+          "name": "North Tibet Road",
+          "position": "121.468818,31.263453"
+        },
+        {
+          "name": "Hongkou Football Stadium",
+          "position": "121.479154,31.271392"
+        },
+        {
+          "name": "Quyang Road",
+          "position": "121.491138,31.276524"
+        },
+        {
+          "name": "Siping Road",
+          "position": "121.501488,31.274880"
+        },
+        {
+          "name": "Anshan New Village",
+          "position": "121.509685,31.273242"
+        },
+        {
+          "name": "Jiangpu Road",
+          "position": "121.518379,31.274946"
+        },
+        {
+          "name": "Huangxing Road",
+          "position": "121.528401,31.278814"
+        },
+        {
+          "name": "Middle Yanji Road",
+          "position": "121.534941,31.288543"
+        },
+        {
+          "name": "Huangxing Park",
+          "position": "121.533383,31.295389"
+        },
+        {
+          "name": "Xiangyin Road",
+          "position": "121.531974,31.305002"
+        },
+        {
+          "name": "Nenjiang Road",
+          "position": "121.531954,31.314804"
+        },
+        {
+          "name": "Shiguang Road",
+          "position": "121.531933,31.322724"
+        }
+      ]
+    },
+    {
+      "name": "Line 9",
+      "stations": [
+        {
+          "name": "Caolu",
+          "position": "121.683153,31.271297"
+        },
+        {
+          "name": "Minlei Road",
+          "position": "121.668125,31.268335"
+        },
+        {
+          "name": "Gutang Road",
+          "position": "121.656465,31.266074"
+        },
+        {
+          "name": "Jinhai Road",
+          "position": "121.638629,31.263141"
+        },
+        {
+          "name": "Jinji Road",
+          "position": "121.628741,31.264304"
+        },
+        {
+          "name": "Jinqiao",
+          "position": "121.611336,31.260850"
+        },
+        {
+          "name": "Tai'erzhuang Road",
+          "position": "121.597458,31.252825"
+        },
+        {
+          "name": "Lantian Road",
+          "position": "121.577995,31.241028"
+        },
+        {
+          "name": "Fangdian Road",
+          "position": "121.558431,31.231845"
+        },
+        {
+          "name": "Yanggao Middle Road",
+          "position": "121.548664,31.227510"
+        },
+        {
+          "name": "Century Avenue",
+          "position": "121.527213,31.228682"
+        },
+        {
+          "name": "Shangcheng Road",
+          "position": "121.516275,31.230258"
+        },
+        {
+          "name": "Xiaonanmen",
+          "position": "121.498398,31.216866"
+        },
+        {
+          "name": "Lujiabang Road",
+          "position": "121.486115,31.211789"
+        },
+        {
+          "name": "Madang Road",
+          "position": "121.477256,31.209520"
+        },
+        {
+          "name": "Dapuqiao",
+          "position": "121.468681,31.206309"
+        },
+        {
+          "name": "Jiashan Road",
+          "position": "121.460704,31.202820"
+        },
+        {
+          "name": "Zhaojiabang Road",
+          "position": "121.450212,31.199436"
+        },
+        {
+          "name": "Xujiahui",
+          "position": "121.436603,31.195514"
+        },
+        {
+          "name": "Yishan Road",
+          "position": "121.427194,31.186717"
+        },
+        {
+          "name": "Guilin Road",
+          "position": "121.418064,31.174791"
+        },
+        {
+          "name": "Caohejing Development Zone",
+          "position": "121.397769,31.170644"
+        },
+        {
+          "name": "Hechuan Road",
+          "position": "121.384772,31.166542"
+        },
+        {
+          "name": "Xingzhong Road",
+          "position": "121.368903,31.158109"
+        },
+        {
+          "name": "Qibao",
+          "position": "121.349221,31.155287"
+        },
+        {
+          "name": "Zhongchun Road",
+          "position": "121.337700,31.149415"
+        },
+        {
+          "name": "Jiuting",
+          "position": "121.319423,31.137252"
+        },
+        {
+          "name": "Sijing",
+          "position": "121.260247,31.118272"
+        },
+        {
+          "name": "Sheshan",
+          "position": "121.229686,31.104097"
+        },
+        {
+          "name": "Dongjing",
+          "position": "121.230473,31.084492"
+        },
+        {
+          "name": "Songjiang University Town",
+          "position": "121.232577,31.053984"
+        },
+        {
+          "name": "Songjiang New City",
+          "position": "121.230739,31.030295"
+        },
+        {
+          "name": "Songjiang Sports Center",
+          "position": "121.230546,31.016006"
+        },
+        {
+          "name": "Drunken White Pond",
+          "position": "121.229361,31.001125"
+        },
+        {
+          "name": "Songjiang South Station",
+          "position": "121.230884,30.984818"
+        }
+      ]
+    },
+    {
+      "name": "Line 10",
+      "stations": [
+        {
+          "name": "Keelung Road",
+          "position": "121.590411,31.351311"
+        },
+        {
+          "name": "Gangcheng Road",
+          "position": "121.575017,31.353223"
+        },
+        {
+          "name": "Gaoqiao",
+          "position": "121.562971,31.352622"
+        },
+        {
+          "name": "Gaoqiao West",
+          "position": "121.549280,31.351489"
+        },
+        {
+          "name": "Shuangjiang Road",
+          "position": "121.539425,31.353601"
+        },
+        {
+          "name": "Guofan Road",
+          "position": "121.513168,31.339548"
+        },
+        {
+          "name": "Xinjiangwan City",
+          "position": "121.506951,31.328496"
+        },
+        {
+          "name": "East Yingao Road",
+          "position": "121.506797,31.321768"
+        },
+        {
+          "name": "Sanmen Road",
+          "position": "121.508340,31.313214"
+        },
+        {
+          "name": "Jiangwan Stadium",
+          "position": "121.513314,31.304293"
+        },
+        {
+          "name": "Wujiaochang",
+          "position": "121.514632,31.298043"
+        },
+        {
+          "name": "Guoquan Road",
+          "position": "121.510024,31.289276"
+        },
+        {
+          "name": "Tongji University",
+          "position": "121.506357,31.282086"
+        },
+        {
+          "name": "Siping Road",
+          "position": "121.501488,31.274880"
+        },
+        {
+          "name": "Postal and Telecommunications New Village",
+          "position": "121.494247,31.268431"
+        },
+        {
+          "name": "Hailun Road",
+          "position": "121.488697,31.259303"
+        },
+        {
+          "name": "North Sichuan Road",
+          "position": "121.484208,31.252035"
+        },
+        {
+          "name": "Tiantong Road",
+          "position": "121.482321,31.243815"
+        },
+        {
+          "name": "East Nanjing Road",
+          "position": "121.484628,31.238101"
+        },
+        {
+          "name": "Yu Garden",
+          "position": "121.487426,31.228005"
+        },
+        {
+          "name": "Laoximen",
+          "position": "121.483793,31.219014"
+        },
+        {
+          "name": "Site of the First National Congress of the Communist Party of China · Xintiandi",
+          "position": "121.475182,31.216367"
+        },
+        {
+          "name": "South Shaanxi Road",
+          "position": "121.458741,31.215148"
+        },
+        {
+          "name": "Shanghai Library",
+          "position": "121.444363,31.207960"
+        },
+        {
+          "name": "Jiaotong University",
+          "position": "121.435253,31.202213"
+        },
+        {
+          "name": "Hongqiao Road",
+          "position": "121.420814,31.197524"
+        },
+        {
+          "name": "Songyuan Road",
+          "position": "121.412080,31.196540"
+        },
+        {
+          "name": "Yili Road",
+          "position": "121.403899,31.198880"
+        },
+        {
+          "name": "Shuicheng Road",
+          "position": "121.392259,31.199482"
+        },
+        {
+          "name": "Longxi Road",
+          "position": "121.380034,31.194400"
+        },
+        {
+          "name": "Longbai Xincun",
+          "position": "121.370480,31.176882"
+        },
+        {
+          "name": "Wisteria Road",
+          "position": "121.364831,31.169674"
+        },
+        {
+          "name": "Hangzhong Road",
+          "position": "121.355336,31.165417"
+        }
+      ]
+    },
+    {
+      "name": "Line 10",
+      "stations": [
+        {
+          "name": "Keelung Road",
+          "position": "121.590411,31.351311"
+        },
+        {
+          "name": "Gangcheng Road",
+          "position": "121.575017,31.353223"
+        },
+        {
+          "name": "Gaoqiao",
+          "position": "121.562971,31.352622"
+        },
+        {
+          "name": "Gaoqiao West",
+          "position": "121.549280,31.351489"
+        },
+        {
+          "name": "Shuangjiang Road",
+          "position": "121.539425,31.353601"
+        },
+        {
+          "name": "Guofan Road",
+          "position": "121.513168,31.339548"
+        },
+        {
+          "name": "Xinjiangwan City",
+          "position": "121.506951,31.328496"
+        },
+        {
+          "name": "East Yingao Road",
+          "position": "121.506797,31.321768"
+        },
+        {
+          "name": "Sanmen Road",
+          "position": "121.508340,31.313214"
+        },
+        {
+          "name": "Jiangwan Stadium",
+          "position": "121.513314,31.304293"
+        },
+        {
+          "name": "Wujiaochang",
+          "position": "121.514632,31.298043"
+        },
+        {
+          "name": "Guoquan Road",
+          "position": "121.510024,31.289276"
+        },
+        {
+          "name": "Tongji University",
+          "position": "121.506357,31.282086"
+        },
+        {
+          "name": "Siping Road",
+          "position": "121.501488,31.274880"
+        },
+        {
+          "name": "Postal and Telecommunications New Village",
+          "position": "121.494247,31.268431"
+        },
+        {
+          "name": "Hailun Road",
+          "position": "121.488697,31.259303"
+        },
+        {
+          "name": "North Sichuan Road",
+          "position": "121.484208,31.252035"
+        },
+        {
+          "name": "Tiantong Road",
+          "position": "121.482321,31.243815"
+        },
+        {
+          "name": "East Nanjing Road",
+          "position": "121.484628,31.238101"
+        },
+        {
+          "name": "Yu Garden",
+          "position": "121.487426,31.228005"
+        },
+        {
+          "name": "Laoximen",
+          "position": "121.483793,31.219014"
+        },
+        {
+          "name": "Site of the First National Congress of the Communist Party of China · Xintiandi",
+          "position": "121.475182,31.216367"
+        },
+        {
+          "name": "South Shaanxi Road",
+          "position": "121.458741,31.215148"
+        },
+        {
+          "name": "Shanghai Library",
+          "position": "121.444363,31.207960"
+        },
+        {
+          "name": "Jiaotong University",
+          "position": "121.435253,31.202213"
+        },
+        {
+          "name": "Hongqiao Road",
+          "position": "121.420814,31.197524"
+        },
+        {
+          "name": "Songyuan Road",
+          "position": "121.412080,31.196540"
+        },
+        {
+          "name": "Yili Road",
+          "position": "121.403899,31.198880"
+        },
+        {
+          "name": "Shuicheng Road",
+          "position": "121.392259,31.199482"
+        },
+        {
+          "name": "Longxi Road",
+          "position": "121.380034,31.194400"
+        },
+        {
+          "name": "Shanghai Zoo",
+          "position": "121.368137,31.190246"
+        },
+        {
+          "name": "Hongqiao Terminal 1",
+          "position": "121.347371,31.191363"
+        },
+        {
+          "name": "Hongqiao Terminal 2",
+          "position": "121.326300,31.194211"
+        },
+        {
+          "name": "Hongqiao Railway Station",
+          "position": "121.318950,31.194022"
+        }
+      ]
+    },
+    {
+      "name": "Line 11",
+      "stations": [
+        {
+          "name": "Jiading North",
+          "position": "121.237350,31.391549"
+        },
+        {
+          "name": "West Jiading",
+          "position": "121.227855,31.377107"
+        },
+        {
+          "name": "Baiyin Road",
+          "position": "121.245350,31.345359"
+        },
+        {
+          "name": "Jiading New City",
+          "position": "121.254294,31.330062"
+        },
+        {
+          "name": "Malu",
+          "position": "121.276906,31.319675"
+        },
+        {
+          "name": "Chenxiang Road",
+          "position": "121.306787,31.306484"
+        },
+        {
+          "name": "Nanxiang",
+          "position": "121.323141,31.296952"
+        },
+        {
+          "name": "Taopu Xincun",
+          "position": "121.349623,31.281603"
+        },
+        {
+          "name": "Wuwei Road",
+          "position": "121.364678,31.276646"
+        },
+        {
+          "name": "Qilianshan Road",
+          "position": "121.376035,31.271650"
+        },
+        {
+          "name": "Liziyuan",
+          "position": "121.389969,31.269020"
+        },
+        {
+          "name": "Shanghai West Railway Station",
+          "position": "121.400926,31.262693"
+        },
+        {
+          "name": "Zhenru",
+          "position": "121.407219,31.250767"
+        },
+        {
+          "name": "Fengqiao Road",
+          "position": "121.411402,31.241850"
+        },
+        {
+          "name": "Caoyang Road",
+          "position": "121.417701,31.239302"
+        },
+        {
+          "name": "Longde Road",
+          "position": "121.423576,31.230509"
+        },
+        {
+          "name": "Jiangsu Road",
+          "position": "121.430642,31.220411"
+        },
+        {
+          "name": "Jiaotong University",
+          "position": "121.435253,31.202213"
+        },
+        {
+          "name": "Xujiahui",
+          "position": "121.436603,31.195514"
+        },
+        {
+          "name": "Shanghai Swimming Center",
+          "position": "121.441424,31.179123"
+        },
+        {
+          "name": "Longhua",
+          "position": "121.452958,31.172672"
+        },
+        {
+          "name": "Yunjin Road",
+          "position": "121.458519,31.166488"
+        },
+        {
+          "name": "Longyao Road",
+          "position": "121.459702,31.159720"
+        },
+        {
+          "name": "Oriental Sports Center",
+          "position": "121.480304,31.153366"
+        },
+        {
+          "name": "Sanlin",
+          "position": "121.511796,31.143224"
+        },
+        {
+          "name": "Sanlin East",
+          "position": "121.522999,31.146459"
+        },
+        {
+          "name": "Pusan Road",
+          "position": "121.539005,31.150861"
+        },
+        {
+          "name": "Yuqiao",
+          "position": "121.570914,31.158131"
+        },
+        {
+          "name": "Luoshan Road",
+          "position": "121.593152,31.153259"
+        },
+        {
+          "name": "Xiuyan Road",
+          "position": "121.598390,31.138128"
+        },
+        {
+          "name": "Kangxin Highway",
+          "position": "121.617199,31.130439"
+        },
+        {
+          "name": "Disney",
+          "position": "121.667959,31.141263"
+        }
+      ]
+    },
+    {
+      "name": "Line 11",
+      "stations": [
+        {
+          "name": "Disney",
+          "position": "121.667959,31.141263"
+        },
+        {
+          "name": "Kangxin Highway",
+          "position": "121.617199,31.130439"
+        },
+        {
+          "name": "Xiuyan Road",
+          "position": "121.598390,31.138128"
+        },
+        {
+          "name": "Luoshan Road",
+          "position": "121.593152,31.153259"
+        },
+        {
+          "name": "Yuqiao",
+          "position": "121.570914,31.158131"
+        },
+        {
+          "name": "Pusan Road",
+          "position": "121.539005,31.150861"
+        },
+        {
+          "name": "Sanlin East",
+          "position": "121.522999,31.146459"
+        },
+        {
+          "name": "Sanlin",
+          "position": "121.511796,31.143224"
+        },
+        {
+          "name": "Oriental Sports Center",
+          "position": "121.480304,31.153366"
+        },
+        {
+          "name": "Longyao Road",
+          "position": "121.459702,31.159720"
+        },
+        {
+          "name": "Yunjin Road",
+          "position": "121.458519,31.166488"
+        },
+        {
+          "name": "Longhua",
+          "position": "121.452958,31.172672"
+        },
+        {
+          "name": "Shanghai Swimming Center",
+          "position": "121.441424,31.179123"
+        },
+        {
+          "name": "Xujiahui",
+          "position": "121.436603,31.195514"
+        },
+        {
+          "name": "Jiaotong University",
+          "position": "121.435253,31.202213"
+        },
+        {
+          "name": "Jiangsu Road",
+          "position": "121.430642,31.220411"
+        },
+        {
+          "name": "Longde Road",
+          "position": "121.423576,31.230509"
+        },
+        {
+          "name": "Caoyang Road",
+          "position": "121.417701,31.239302"
+        },
+        {
+          "name": "Fengqiao Road",
+          "position": "121.411402,31.241850"
+        },
+        {
+          "name": "Zhenru",
+          "position": "121.407219,31.250767"
+        },
+        {
+          "name": "Shanghai West Railway Station",
+          "position": "121.400926,31.262693"
+        },
+        {
+          "name": "Liziyuan",
+          "position": "121.389969,31.269020"
+        },
+        {
+          "name": "Qilianshan Road",
+          "position": "121.376035,31.271650"
+        },
+        {
+          "name": "Wuwei Road",
+          "position": "121.364678,31.276646"
+        },
+        {
+          "name": "Taopu Xincun",
+          "position": "121.349623,31.281603"
+        },
+        {
+          "name": "Nanxiang",
+          "position": "121.323141,31.296952"
+        },
+        {
+          "name": "Chenxiang Road",
+          "position": "121.306787,31.306484"
+        },
+        {
+          "name": "Malu",
+          "position": "121.276906,31.319675"
+        },
+        {
+          "name": "Jiading New City",
+          "position": "121.254294,31.330062"
+        },
+        {
+          "name": "Shanghai Circuit",
+          "position": "121.226098,31.331898"
+        },
+        {
+          "name": "East Changji Road",
+          "position": "121.200384,31.293620"
+        },
+        {
+          "name": "Shanghai Automobile City",
+          "position": "121.180742,31.285403"
+        },
+        {
+          "name": "Anting",
+          "position": "121.161985,31.288490"
+        },
+        {
+          "name": "Zhaofeng Road",
+          "position": "121.150315,31.289048"
+        },
+        {
+          "name": "Guangming Road",
+          "position": "121.117186,31.296210"
+        },
+        {
+          "name": "Huaqiao",
+          "position": "121.104407,31.298790"
+        }
+      ]
+    },
+    {
+      "name": "Line 12",
+      "stations": [
+        {
+          "name": "Qixin Road",
+          "position": "121.362461,31.131634"
+        },
+        {
+          "name": "Hongxin Road",
+          "position": "121.380349,31.137452"
+        },
+        {
+          "name": "Gudai Road",
+          "position": "121.391850,31.140888"
+        },
+        {
+          "name": "Donglan Road",
+          "position": "121.391919,31.155826"
+        },
+        {
+          "name": "Hongmei Road",
+          "position": "121.397250,31.160350"
+        },
+        {
+          "name": "Hongcao Road",
+          "position": "121.410553,31.164033"
+        },
+        {
+          "name": "Guilin Park",
+          "position": "121.419647,31.166985"
+        },
+        {
+          "name": "Caobao Road",
+          "position": "121.433143,31.168344"
+        },
+        {
+          "name": "Longcao Road",
+          "position": "121.444383,31.169458"
+        },
+        {
+          "name": "Longhua",
+          "position": "121.452958,31.172672"
+        },
+        {
+          "name": "Longhua Middle Road",
+          "position": "121.457064,31.184379"
+        },
+        {
+          "name": "Damuqiao Road",
+          "position": "121.463278,31.194057"
+        },
+        {
+          "name": "Jiashan Road",
+          "position": "121.460704,31.202820"
+        },
+        {
+          "name": "South Shaanxi Road",
+          "position": "121.458741,31.215148"
+        },
+        {
+          "name": "West Nanjing Road",
+          "position": "121.459971,31.229853"
+        },
+        {
+          "name": "Hanzhong Road",
+          "position": "121.458699,31.241883"
+        },
+        {
+          "name": "Qufu Road",
+          "position": "121.471543,31.242307"
+        },
+        {
+          "name": "Tiantong Road",
+          "position": "121.482321,31.243815"
+        },
+        {
+          "name": "International Passenger Transport Center",
+          "position": "121.498158,31.250160"
+        },
+        {
+          "name": "Tilanqiao",
+          "position": "121.506801,31.253518"
+        },
+        {
+          "name": "Dalian Road",
+          "position": "121.513088,31.257938"
+        },
+        {
+          "name": "Jiangpu Park",
+          "position": "121.523697,31.264570"
+        },
+        {
+          "name": "Ningguo Road",
+          "position": "121.532352,31.268574"
+        },
+        {
+          "name": "Longchang Road",
+          "position": "121.544692,31.275213"
+        },
+        {
+          "name": "Aiguo Road",
+          "position": "121.552655,31.279788"
+        },
+        {
+          "name": "Fuxing Island",
+          "position": "121.561315,31.280779"
+        },
+        {
+          "name": "Donglu Road",
+          "position": "121.579124,31.282533"
+        },
+        {
+          "name": "Jufeng Road",
+          "position": "121.588365,31.280684"
+        },
+        {
+          "name": "North Yanggao Road",
+          "position": "121.602960,31.280092"
+        },
+        {
+          "name": "Jinjing Road",
+          "position": "121.615477,31.279823"
+        },
+        {
+          "name": "Shenjiang Road",
+          "position": "121.626863,31.280231"
+        },
+        {
+          "name": "Jinhai Road",
+          "position": "121.638629,31.263141"
+        }
+      ]
+    },
+    {
+      "name": "Line 13",
+      "stations": [
+        {
+          "name": "Jinyun Road",
+          "position": "121.319308,31.240986"
+        },
+        {
+          "name": "West Jinshajiang Road",
+          "position": "121.335156,31.241152"
+        },
+        {
+          "name": "Fengzhuang",
+          "position": "121.355141,31.242553"
+        },
+        {
+          "name": "South Qilianshan Road",
+          "position": "121.367275,31.237625"
+        },
+        {
+          "name": "Zhenbei Road",
+          "position": "121.381948,31.232235"
+        },
+        {
+          "name": "Daduhe Road",
+          "position": "121.394431,31.231752"
+        },
+        {
+          "name": "Jinshajiang Road",
+          "position": "121.413201,31.232147"
+        },
+        {
+          "name": "Longde Road",
+          "position": "121.423576,31.230509"
+        },
+        {
+          "name": "Wuning Road",
+          "position": "121.430504,31.234346"
+        },
+        {
+          "name": "Changshou Road",
+          "position": "121.438272,31.240860"
+        },
+        {
+          "name": "Jiangning Road",
+          "position": "121.444830,31.244282"
+        },
+        {
+          "name": "Hanzhong Road",
+          "position": "121.458699,31.241883"
+        },
+        {
+          "name": "Natural History Museum",
+          "position": "121.462366,31.236451"
+        },
+        {
+          "name": "West Nanjing Road",
+          "position": "121.459971,31.229853"
+        },
+        {
+          "name": "Middle Huaihai Road",
+          "position": "121.464363,31.220056"
+        },
+        {
+          "name": "Site of the First National Congress of the Communist Party of China · Xintiandi",
+          "position": "121.475182,31.216367"
+        },
+        {
+          "name": "Madang Road",
+          "position": "121.477256,31.209520"
+        },
+        {
+          "name": "World Expo Museum",
+          "position": "121.481592,31.197572"
+        },
+        {
+          "name": "Expo Avenue",
+          "position": "121.484313,31.182789"
+        },
+        {
+          "name": "Changqing Road",
+          "position": "121.487775,31.174452"
+        },
+        {
+          "name": "Chengshan Road",
+          "position": "121.496220,31.170735"
+        },
+        {
+          "name": "Dongming Road",
+          "position": "121.510868,31.172646"
+        },
+        {
+          "name": "Huapeng Road",
+          "position": "121.526567,31.176276"
+        },
+        {
+          "name": "Xia'nan Road",
+          "position": "121.540189,31.179295"
+        },
+        {
+          "name": "Beicai",
+          "position": "121.552017,31.180131"
+        },
+        {
+          "name": "Chenchun Road",
+          "position": "121.558194,31.175095"
+        },
+        {
+          "name": "Lianxi Road",
+          "position": "121.566414,31.169110"
+        },
+        {
+          "name": "Huaxia Middle Road",
+          "position": "121.583109,31.175759"
+        },
+        {
+          "name": "Zhongke Road",
+          "position": "121.602465,31.178862"
+        },
+        {
+          "name": "Xuelin Road",
+          "position": "121.614363,31.183476"
+        },
+        {
+          "name": "Zhangjiang Road",
+          "position": "121.629182,31.189130"
+        }
+      ]
+    },
+    {
+      "name": "Line 14",
+      "stations": [
+        {
+          "name": "Fengbang",
+          "position": "121.297006,31.267488"
+        },
+        {
+          "name": "Lexiu Road",
+          "position": "121.314103,31.265363"
+        },
+        {
+          "name": "Lintao Road",
+          "position": "121.330860,31.263059"
+        },
+        {
+          "name": "Jiayi Road",
+          "position": "121.345697,31.259195"
+        },
+        {
+          "name": "Dingbian Road",
+          "position": "121.362396,31.256392"
+        },
+        {
+          "name": "Zhenxin Xincun",
+          "position": "121.371949,31.255566"
+        },
+        {
+          "name": "Zhenguang Road",
+          "position": "121.384162,31.253278"
+        },
+        {
+          "name": "Tongchuan Road",
+          "position": "121.397036,31.250733"
+        },
+        {
+          "name": "Zhenru",
+          "position": "121.407219,31.250767"
+        },
+        {
+          "name": "Zhongning Road",
+          "position": "121.414541,31.245059"
+        },
+        {
+          "name": "Caoyang Road",
+          "position": "121.417701,31.239302"
+        },
+        {
+          "name": "Wuning Road",
+          "position": "121.430504,31.234346"
+        },
+        {
+          "name": "Wuding Road",
+          "position": "121.436157,31.227303"
+        },
+        {
+          "name": "Jing'an Temple",
+          "position": "121.446533,31.223231"
+        },
+        {
+          "name": "Site of the First National Congress of the Communist Party of China · South Huangpi Road",
+          "position": "121.472904,31.223898"
+        },
+        {
+          "name": "Great World",
+          "position": "121.479182,31.227392"
+        },
+        {
+          "name": "Yu Garden",
+          "position": "121.487426,31.228005"
+        },
+        {
+          "name": "Lujiazui",
+          "position": "121.502129,31.238259"
+        },
+        {
+          "name": "Pudong South Road",
+          "position": "121.512412,31.238532"
+        },
+        {
+          "name": "Pudong Avenue",
+          "position": "121.519302,31.240308"
+        },
+        {
+          "name": "Yuanshen Road",
+          "position": "121.531016,31.241318"
+        },
+        {
+          "name": "Changyi Road",
+          "position": "121.540104,31.243940"
+        },
+        {
+          "name": "Xiepu Road",
+          "position": "121.551506,31.250728"
+        },
+        {
+          "name": "Yunshan Road",
+          "position": "121.571153,31.250969"
+        },
+        {
+          "name": "Lantian Road",
+          "position": "121.577995,31.241028"
+        },
+        {
+          "name": "Huangyang Road",
+          "position": "121.591014,31.233998"
+        },
+        {
+          "name": "Yunshun Road",
+          "position": "121.600336,31.237064"
+        },
+        {
+          "name": "Pudong Football Stadium",
+          "position": "121.615430,31.241645"
+        },
+        {
+          "name": "Jinyue Road",
+          "position": "121.629016,31.242092"
+        },
+        {
+          "name": "Guiqiao Road",
+          "position": "121.635087,31.249419"
+        }
+      ]
+    },
+    {
+      "name": "Line 15",
+      "stations": [
+        {
+          "name": "Gucun Park",
+          "position": "121.373009,31.344594"
+        },
+        {
+          "name": "Jinqiu Road",
+          "position": "121.381765,31.320184"
+        },
+        {
+          "name": "Fengxiang Road",
+          "position": "121.380872,31.308218"
+        },
+        {
+          "name": "Nanda Road",
+          "position": "121.380346,31.299263"
+        },
+        {
+          "name": "Qi'an Road",
+          "position": "121.384813,31.291558"
+        },
+        {
+          "name": "Gulang Road",
+          "position": "121.392217,31.284509"
+        },
+        {
+          "name": "East Wuwei Road",
+          "position": "121.392094,31.275647"
+        },
+        {
+          "name": "Shanghai West Railway Station",
+          "position": "121.400926,31.262693"
+        },
+        {
+          "name": "Tongchuan Road",
+          "position": "121.397036,31.250733"
+        },
+        {
+          "name": "North Meiling Road",
+          "position": "121.396997,31.243301"
+        },
+        {
+          "name": "Daduhe Road",
+          "position": "121.394431,31.231752"
+        },
+        {
+          "name": "Changfeng Park",
+          "position": "121.396320,31.225254"
+        },
+        {
+          "name": "Loushanguan Road",
+          "position": "121.404058,31.211158"
+        },
+        {
+          "name": "Ruby Road",
+          "position": "121.398372,31.198863"
+        },
+        {
+          "name": "Yaohong Road",
+          "position": "121.406405,31.191550"
+        },
+        {
+          "name": "Wuzhong Road",
+          "position": "121.413905,31.184345"
+        },
+        {
+          "name": "Guilin Road",
+          "position": "121.418064,31.174791"
+        },
+        {
+          "name": "Guilin Park",
+          "position": "121.419647,31.166985"
+        },
+        {
+          "name": "Shanghai South Railway Station",
+          "position": "121.430041,31.154579"
+        },
+        {
+          "name": "East China University of Science and Technology",
+          "position": "121.428990,31.144257"
+        },
+        {
+          "name": "Luoxiu Road",
+          "position": "121.435806,31.131552"
+        },
+        {
+          "name": "Zhumei Road",
+          "position": "121.437804,31.124364"
+        },
+        {
+          "name": "Huajing West",
+          "position": "121.440138,31.113429"
+        },
+        {
+          "name": "Hongmei South Road",
+          "position": "121.433059,31.103839"
+        },
+        {
+          "name": "Jingxi Road",
+          "position": "121.418760,31.099727"
+        },
+        {
+          "name": "Shujian Road",
+          "position": "121.417897,31.090625"
+        },
+        {
+          "name": "Shuangbai Road",
+          "position": "121.421750,31.083214"
+        },
+        {
+          "name": "Yuanjiang Road",
+          "position": "121.431901,31.062815"
+        },
+        {
+          "name": "Yongde Road",
+          "position": "121.443203,31.039147"
+        },
+        {
+          "name": "Zizhu Hi-Tech Park",
+          "position": "121.451221,31.023190"
+        }
+      ]
+    },
+    {
+      "name": "Line 16",
+      "stations": [
+        {
+          "name": "Longyang Road",
+          "position": "121.557634,31.203575"
+        },
+        {
+          "name": "Huaxia Middle Road",
+          "position": "121.583109,31.175759"
+        },
+        {
+          "name": "Luoshan Road",
+          "position": "121.593152,31.153259"
+        },
+        {
+          "name": "Zhoupu East",
+          "position": "121.606895,31.110038"
+        },
+        {
+          "name": "Hesha Hangcheng",
+          "position": "121.611239,31.077797"
+        },
+        {
+          "name": "Hangtoudong",
+          "position": "121.617494,31.054919"
+        },
+        {
+          "name": "Xinchang",
+          "position": "121.648980,31.045561"
+        },
+        {
+          "name": "Wildlife Park",
+          "position": "121.699218,31.050325"
+        },
+        {
+          "name": "Huinan",
+          "position": "121.761677,31.053828"
+        },
+        {
+          "name": "Huinan East",
+          "position": "121.793800,31.026448"
+        },
+        {
+          "name": "Academy",
+          "position": "121.850520,30.959264"
+        },
+        {
+          "name": "Lingang Avenue",
+          "position": "121.910851,30.923519"
+        },
+        {
+          "name": "Dripping Water Lake",
+          "position": "121.929583,30.907245"
+        }
+      ]
+    },
+    {
+      "name": "Line 17",
+      "stations": [
+        {
+          "name": "Hongqiao Railway Station",
+          "position": "121.318950,31.194022"
+        },
+        {
+          "name": "Zhuguang Road",
+          "position": "121.293040,31.191678"
+        },
+        {
+          "name": "Panlong Road",
+          "position": "121.278645,31.186328"
+        },
+        {
+          "name": "Xuying Road",
+          "position": "121.253976,31.178101"
+        },
+        {
+          "name": "Xujing North City",
+          "position": "121.241668,31.175518"
+        },
+        {
+          "name": "Middle Jiasong Road",
+          "position": "121.223916,31.164099"
+        },
+        {
+          "name": "Zhaoxiang",
+          "position": "121.192279,31.161247"
+        },
+        {
+          "name": "Huijin Road",
+          "position": "121.151665,31.161221"
+        },
+        {
+          "name": "Qingpu New City",
+          "position": "121.125670,31.158925"
+        },
+        {
+          "name": "Caoying Road",
+          "position": "121.096889,31.160467"
+        },
+        {
+          "name": "Dianshan Lake Avenue",
+          "position": "121.082134,31.134460"
+        },
+        {
+          "name": "Zhujiajiao",
+          "position": "121.048989,31.100594"
+        },
+        {
+          "name": "Oriental Green Boat",
+          "position": "121.019534,31.098544"
+        }
+      ]
+    },
+    {
+      "name": "Line 18",
+      "stations": [
+        {
+          "name": "South Changjiang Road",
+          "position": "121.491482,31.332062"
+        },
+        {
+          "name": "Yingao Road",
+          "position": "121.495560,31.321705"
+        },
+        {
+          "name": "Shanghai University of Finance and Economics",
+          "position": "121.496332,31.307672"
+        },
+        {
+          "name": "Fudan University",
+          "position": "121.499529,31.296349"
+        },
+        {
+          "name": "Guoquan Road",
+          "position": "121.510024,31.289276"
+        },
+        {
+          "name": "Fushun Road",
+          "position": "121.515793,31.283664"
+        },
+        {
+          "name": "Jiangpu Road",
+          "position": "121.518379,31.274946"
+        },
+        {
+          "name": "Jiangpu Park",
+          "position": "121.523697,31.264570"
+        },
+        {
+          "name": "Pingliang Road",
+          "position": "121.526701,31.259038"
+        },
+        {
+          "name": "Danyang Road",
+          "position": "121.531160,31.253815"
+        },
+        {
+          "name": "Changyi Road",
+          "position": "121.540104,31.243940"
+        },
+        {
+          "name": "Minsheng Road",
+          "position": "121.543527,31.235851"
+        },
+        {
+          "name": "Yanggao Middle Road",
+          "position": "121.548664,31.227510"
+        },
+        {
+          "name": "Yingchun Road",
+          "position": "121.550998,31.221002"
+        },
+        {
+          "name": "Longyang Road",
+          "position": "121.557634,31.203575"
+        },
+        {
+          "name": "Fangxin Road",
+          "position": "121.559226,31.191158"
+        },
+        {
+          "name": "North Middle Road",
+          "position": "121.561355,31.182762"
+        },
+        {
+          "name": "Lianxi Road",
+          "position": "121.566414,31.169110"
+        },
+        {
+          "name": "Yuqiao",
+          "position": "121.570914,31.158131"
+        },
+        {
+          "name": "Kangqiao",
+          "position": "121.567306,31.134239"
+        },
+        {
+          "name": "Zhoupu",
+          "position": "121.567613,31.114129"
+        },
+        {
+          "name": "Fanrong Road",
+          "position": "121.570547,31.102554"
+        },
+        {
+          "name": "Shenmei Road",
+          "position": "121.580589,31.091115"
+        },
+        {
+          "name": "Hetao Road",
+          "position": "121.585960,31.071860"
+        },
+        {
+          "name": "Xiasha",
+          "position": "121.588988,31.054396"
+        },
+        {
+          "name": "Hangtou",
+          "position": "121.596083,31.037305"
+        }
+      ]
+    },
+    {
+      "name": "Maglev",
+      "stations": [
+        {
+          "name": "Pudong International Airport",
+          "position": "121.805591,31.150958"
+        },
+        {
+          "name": "Longyang Road",
+          "position": "121.557634,31.203575"
+        }
+      ]
+    },
+    {
+      "name": "Pujiang Line",
+      "stations": [
+        {
+          "name": "Shendu Road",
+          "position": "121.512272,31.061427"
+        },
+        {
+          "name": "Sanlu Highway",
+          "position": "121.527389,31.056108"
+        },
+        {
+          "name": "Minrui Road",
+          "position": "121.530323,31.047956"
+        },
+        {
+          "name": "Puhang Road",
+          "position": "121.530591,31.040993"
+        },
+        {
+          "name": "Dongcheng 1st Road",
+          "position": "121.532093,31.030390"
+        },
+        {
+          "name": "Huizhen Road",
+          "position": "121.524558,31.025245"
+        }
+      ]
+    }
+  ]
+}

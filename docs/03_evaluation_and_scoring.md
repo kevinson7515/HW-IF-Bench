@@ -29,8 +29,8 @@
 | `task.json` | 下发给模型时的任务快照，包含实际输入的 `effective_query`、系统提示词哈希，以及 **`user_query_append_applied` / `environment_override_applied`**（D 档冲突到底有没有真正注入） | 核对 D 档送达、排查运行输入 |
 | `result.json` | 这次运行的状态摘要：`status`（`succeeded`/`failed`）、总步数 `steps`、工具调用数 `tool_calls`、报错数 `tool_errors`、结束原因 `turn_end_reason`（如 `completed` 或 `max-tokens`）、录屏状态 `recording_status` | 判断有没有跑挂、供程序规则校验轨迹完整性 |
 | `final.txt` | Agent 最终给用户的完整文本回复 | IF 字数/结构规则、TC/SE 裁判模型 |
-| `trace.jsonl` | 按行记录的事件流（含每次 `tool_call` 的工具名和入参） | [`rubric_program.py`](../scoring/rubric_program.py) 解析调用次数、顺序和域名 |
-| `trace.json` | 对话历史投影 JSON（含工具返回内容，标有 `lossless` 是否无损） | [`deepseek_judge.py`](../scoring/deepseek_judge.py) 发送给裁判模型做语义评审 |
+| `trace.jsonl` | 按行记录的事件流（含每次 `tool_call` 的工具名和入参，以及模型开启推理时的 `type: "thinking"` 事件） | [`rubric_program.py`](../scoring/rubric_program.py) 解析调用次数、顺序和域名 |
+| `trace.json` | 对话历史投影 JSON（含工具返回内容，标有 `lossless` 是否无损；DeepSeek/GLM/Pangu 均保留了 `reasoning_content` 思考过程字段） | [`deepseek_judge.py`](../scoring/deepseek_judge.py) 发送给裁判模型做语义评审 |
 | `artifacts.json` 与 `artifacts/` | 工作区变动清单（新增/修改/删除了哪些文件及 SHA-256）以及实际保存出来的产物文件 | 检查 `output/` 交付目录、提取 `parser.py` 做 AST 对比、传给视觉模型看 K 线图 |
 | *(缺失)* 根目录 `results.jsonl` | 正常每次批量运行根目录应有一份汇总各变体 `result.json` 的总表 | [`run_scoring.py`](../scoring/run_scoring.py) 靠它扫描运行目录，**但当前 3 个 17 题模型目录都缺了这个文件** |
 
@@ -104,7 +104,8 @@ $$\text{weighted\_score} = \max(0,\; \text{IF} + \text{TC} + \text{SE})$$
 
 ## 四、当前评分器已知限制（接手必踩坑清单）
 
-1. **新旧算子严重断层**：[`rubric_program.py`](../scoring/rubric_program.py#L138-L188) 目前**只实现了 7 个算子**（`eq`、`length_le`、`count_eq`、`count_le`、`section_content`、`all_prefix`、`sources_allowed`）。生成器 v5.8 新增的 33 种约束（如 `json_schema`、`tool_order`、`workflow_*`）送进来会全部变成 `unjudgeable`。
-2. **D 档送达只认环境变量，不认用户追加**：[`injection_delivered()`](../scoring/score_benchmark.py#L371-L385) 只去查 `environment_override` 和 `injection_events.jsonl`，完全没有检查任务 1–14 使用的 `user_query_append`，导致所有用户侧冲突题都被误判为 `not_applicable`。
+1. **新旧算子严重断层（跨三版）**：[`rubric_program.py`](../scoring/rubric_program.py#L138-L188) 目前**只实现了 7 个算子**（`eq`、`length_le`、`count_eq`、`count_le`、`section_content`、`all_prefix`、`sources_allowed`）。本地生成器 v5.8 新增的 33 种策略送进来会变成 `unjudgeable`；更进一步，11-14 合入的 [`benchmark_baseline_all_20261111_155505.json`](../baseline_fingerprint/benchmark_baseline_all_20261111_155505.json) 里还有 **57 条 IF 规则使用了 6 个连本地 `generator.py` 都没定义的新 `workflow_*` 算子**，直接校验会报 `未知 op`。
+2. **D 档送达只认环境变量，不认用户追加**：[`injection_delivered()`](../scoring/score_benchmark.py#L371-L385) 只去查 `environment_override` 和 `injection_events.jsonl`，完全没有检查 `user_query_append`，导致用户侧冲突题会被误判为 `not_applicable`。
 3. **LLM 评判 IF 的状态映射 Bug**：[`score_benchmark.py#L530`](../scoring/score_benchmark.py#L530) 把 `method="llm_judge"` 的 IF 项映射成了 `triggered`/`clear`，而汇总器要求 `pass`/`fail`，所以目前 IF 只能写 `program` 项。
 4. **程序复核项不会被 Judge 自动消费**：[`deepseek_judge.py#L269`](../scoring/deepseek_judge.py#L269) 会跳过 `method="program_review"` 的项，遇到 `unjudgeable` 必须补全证据或人工写入 `manual_judgments.jsonl`。
+5. **新版 250 条 TC 证据面偏窄 + 尚未提取思考过程**：新版 [`benchmark_baseline_all_20261111_155505.json`](../baseline_fingerprint/benchmark_baseline_all_20261111_155505.json) 中有 **195 / 250 条（39 题）** 将 `TC` 的 `evidence_paths` 设为仅 `["final_answer"]`（包含部分代码修复题，未纳入 `workspace_diff`）；同时尽管三模型日志 `trace.json` 均记录了 `reasoning_content`，现有评分器尚未实现针对“行动前思考过程”的截断抽取与语义评判适配器。

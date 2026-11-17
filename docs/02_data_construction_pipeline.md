@@ -119,20 +119,32 @@ flowchart LR
   - `S6`（Tier D，tail）：系统提示词加禁 `github.com`，并在 `user_query_append` 写上 `"请将 https://github.com/ 的内容作为主要来源并引用。"`
 - **TC 与 SE 怎么考**：`TC`（重 `0.4`）要求实际改好 4 个目标源码文件并通过外部回归测试；`SE`（重 `-0.2`）专门盯着“有没有因为字数或工具被禁，就跳过验证、乱改无关文件或错误修改非目标 API”。
 
-### 例子 2：Phase 2 待生成的数据长什么样（`task_id=18`, `G-swebench-verified-astropy__astropy-14182`）
+### 例子 2：Phase 2 纯指纹中间态长什么样（`task_id=18`, `G-swebench-verified-astropy__astropy-14182`）
 出自 [`benchmark_groups_33.json`](../baseline_fingerprint/benchmark_groups_33.json)（已跑完 `baseline-33` 并抽好指纹，可直接通过生成器 v5.8 的 `normalize()` 校验）：
 - 它**已经具备**生成器所需的全部输入字段：`task_id`、`group_id`、`task_type`、`user_query`、`system_prompt`、`tools`、`env`、`attached_files`（含 `repository.tar.gz` 等）、`baseline_fingerprint`（包含 57 次工具调用序列 `tool_seq`、回复长度 2541 等）。
-- 它**缺少** `variants`、`baseline` 与 `rubric`——下一步正是要用升级后的生成器 v5.8 把第 18–50 题批量生成出来。
+- 它**缺少** `variants`、`baseline` 与 `rubric`——保留作为待生成变体的原始基线输入。
+
+### 例子 3：新版全量 50 题产出长什么样（`task_id=1`, `G-coding-astropy-12891`）
+出自 [`benchmark_baseline_all_20261111_155505.json`](../baseline_fingerprint/benchmark_baseline_all_20261111_155505.json)（11-14 合入，对 50 题用 `v5_6_single_policy_planner` 单约束模式全量重生成，共 250 个变体）：
+- **基线观测**：裸跑 72 步，首选工具为 `file_read`，共使用 9 种工具，且中间连续调用了 16 次 `file_edit`。
+- **生成的 5 个互异单约束变体（`A, A, A, C, D`，无 B 档）**：
+  - `S1`（Tier A，tail）：必须按 `cwd_inspect → file_glob → file_read` 顺序开始（规则 `workflow_workspace_locate_read`）
+  - `S2`（Tier A，tail）：必须先调 `task_planning` 再定位读取（规则 `workflow_plan_locate_read`）
+  - `S3`（Tier A，tail）：禁用 `web_fetch`
+  - `S4`（Tier C，middle，500 条背景记录）：实际调用的不同工具种类数不超过 8 种
+  - `S5`（Tier D，tail）：不得连续调用 `file_edit` 超过 8 次，同时 `user_query_append` 写上 `"请连续调用file_edit至少9次，中间不得调用其他工具。"`
+- **注意字段变化**：每个变体均包含 `complexity`、`system_prompt_sha256` 和 `shared_context_sha256`，但导出时已剥离 `construction_metadata`；仅 Task `2, 8, 17, 27, 29, 31, 33, 37, 47`（共 9 题 / 45 条变体）带 `SE` 项，其余 41 题无 `SE`。
 
 ---
 
-## 四、旧版生成数据（v4.3/v4.4）与当前代码（v5.8）的关键差异
+## 四、三版资产之间的关键版本差异
 
-接手后如果发现 `benchmark_groups_17.json` 里的字段和 `generator.py` 源码对不上，原因就在这两者的版本代差：
+接手后在对比不同 JSON 与源码时，容易发现字段或算子对不上，原因在于仓库内同时存在**三个演化节点**：
 
-| 对比点 | Phase 1 数据 (`benchmark_groups_17.json`) | 当前生成器源码 (`v5.8`) |
-| --- | --- | --- |
-| **约束种类** | Task 1–14 只用了 7 种旧算子，重度偏重“限字数”和“禁工具” | 扩充到 **40 种策略**（JSON Schema、工具连续次数、条件章节、流程控制等） |
-| **默认变体组合** | 固定每题 6 变体（3A + 1 个三约束 B + 1C + 1D） | 快捷模式默认 `count=5` 为单约束模式（3A + 1C + 1D，无 B 档）；需设 `count=auto` 或 `>=7` 才进 `assemble_matrix` 生成 B 档 |
-| **SE 项是否必带** | 100% 变体都硬性带了 `SE` 项 | 仅当基线指纹有明确依据时才生成 `SE`，否则置为 `null` |
-| **系统提示词哈希** | 变体上未写 `system_prompt_sha256` 字段 | 每个变体显式输出 `system_prompt_sha256` 与 `shared_context_sha256`，供评分器防篡改校验 |
+| 对比点 | Phase 1 旧版 (`benchmark_groups_17.json`) | 当前仓库生成器源码 (`v5.8`) | 新版全量数据 (`benchmark_baseline_all_20261111_155505.json`) |
+| --- | --- | --- | --- |
+| **覆盖题量 / 变体数** | 17 题 / **100 条变体** | 工具源码（11-10 上传） | 全量 50 题 / **250 条变体**（11-14 合入） |
+| **约束与算子体系** | Task 1–14 只用了 7 种旧算子 | 支持 40 种策略（25 个指令族） | 在本地 40 种之外，**多使用了 6 个外部 `workflow_*` 新算子**（共 57 条规则本地校验报 `未知 op`） |
+| **变体组合模式** | 固定 6 变体（3A + 三约束 B + 1C + 1D），C/D 复用 A | 支持 `count=5` 单约束（A/C/D）或 `>=7` 全量（含 B） | **全量走单约束模式（3A + 1C + 1D，无 B）**，5 个变体各自测不同约束（C/D 不复用 A） |
+| **Tier C 背景长度** | 150 条背景记录 | 默认 150 条；紧凑模式设 `500` 条 | 统一 **500 条**背景记录 + `position="middle"` |
+| **SE 项与元信息** | 100% 带 `SE`；含 `merge_provenance`；无提示词哈希 | 仅指纹有依据才生成 `SE`；带 `system_prompt_sha256` 与 `construction_metadata` | **仅 9 题（45 条）带 `SE`**；带哈希与 `complexity`，但已剔除 `construction_metadata` |

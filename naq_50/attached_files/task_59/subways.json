@@ -1,0 +1,1578 @@
+{
+  "chengdu": [
+    {
+      "name": "Line 1",
+      "stations": [
+        {
+          "name": "Wugensong",
+          "position": "104.081369,30.502041"
+        },
+        {
+          "name": "Guangdu",
+          "position": "104.075713,30.510752"
+        },
+        {
+          "name": "Sihe",
+          "position": "104.070125,30.516133"
+        },
+        {
+          "name": "Huafu Avenue",
+          "position": "104.069836,30.525746"
+        },
+        {
+          "name": "Tianfu Fifth Street",
+          "position": "104.069510,30.537107"
+        },
+        {
+          "name": "Tianfu Third Street",
+          "position": "104.069204,30.546203"
+        },
+        {
+          "name": "Century City",
+          "position": "104.068930,30.554870"
+        },
+        {
+          "name": "Jincheng Square",
+          "position": "104.066528,30.567722"
+        },
+        {
+          "name": "Incubation Park",
+          "position": "104.064313,30.575873"
+        },
+        {
+          "name": "Financial City",
+          "position": "104.064147,30.582579"
+        },
+        {
+          "name": "Gaoxin",
+          "position": "104.063847,30.594368"
+        },
+        {
+          "name": "South Railway Station",
+          "position": "104.067393,30.605459"
+        },
+        {
+          "name": "Tongzilin",
+          "position": "104.067115,30.615310"
+        },
+        {
+          "name": "Nijiaqiao",
+          "position": "104.066885,30.624773"
+        },
+        {
+          "name": "Provincial Gymnasium",
+          "position": "104.066606,30.633361"
+        },
+        {
+          "name": "Huaxi Dam",
+          "position": "104.066279,30.642821"
+        },
+        {
+          "name": "Jinjiang Hotel",
+          "position": "104.066053,30.650046"
+        },
+        {
+          "name": "Tianfu Square",
+          "position": "104.065751,30.657453"
+        },
+        {
+          "name": "Luomashi",
+          "position": "104.065617,30.666514"
+        },
+        {
+          "name": "Manjushri Temple",
+          "position": "104.068036,30.672535"
+        },
+        {
+          "name": "North Renmin Road",
+          "position": "104.073056,30.684833"
+        },
+        {
+          "name": "North Railway Station",
+          "position": "104.074056,30.695517"
+        },
+        {
+          "name": "Shengxian Lake",
+          "position": "104.083474,30.704625"
+        },
+        {
+          "name": "Weijianian",
+          "position": "104.086860,30.717644"
+        }
+      ]
+    },
+    {
+      "name": "Line 1",
+      "stations": [
+        {
+          "name": "Science City",
+          "position": "104.072328,30.391243"
+        },
+        {
+          "name": "Xinglong Lake",
+          "position": "104.076412,30.405196"
+        },
+        {
+          "name": "Guangzhou Road",
+          "position": "104.077269,30.419021"
+        },
+        {
+          "name": "West Expo City",
+          "position": "104.074399,30.424349"
+        },
+        {
+          "name": "Tianfu Park",
+          "position": "104.077748,30.432976"
+        },
+        {
+          "name": "Wuhan Road",
+          "position": "104.072910,30.441619"
+        },
+        {
+          "name": "Luhu",
+          "position": "104.073293,30.454527"
+        },
+        {
+          "name": "Hongshi Park",
+          "position": "104.073007,30.464257"
+        },
+        {
+          "name": "Guangfu",
+          "position": "104.069325,30.478693"
+        },
+        {
+          "name": "Haichang Road",
+          "position": "104.071583,30.492778"
+        },
+        {
+          "name": "Huayang",
+          "position": "104.070521,30.503167"
+        },
+        {
+          "name": "Sihe",
+          "position": "104.070125,30.516133"
+        },
+        {
+          "name": "Huafu Avenue",
+          "position": "104.069836,30.525746"
+        },
+        {
+          "name": "Tianfu Fifth Street",
+          "position": "104.069510,30.537107"
+        },
+        {
+          "name": "Tianfu Third Street",
+          "position": "104.069204,30.546203"
+        },
+        {
+          "name": "Century City",
+          "position": "104.068930,30.554870"
+        },
+        {
+          "name": "Jincheng Square",
+          "position": "104.066528,30.567722"
+        },
+        {
+          "name": "Incubation Park",
+          "position": "104.064313,30.575873"
+        },
+        {
+          "name": "Financial City",
+          "position": "104.064147,30.582579"
+        },
+        {
+          "name": "Gaoxin",
+          "position": "104.063847,30.594368"
+        },
+        {
+          "name": "South Railway Station",
+          "position": "104.067393,30.605459"
+        },
+        {
+          "name": "Tongzilin",
+          "position": "104.067115,30.615310"
+        },
+        {
+          "name": "Nijiaqiao",
+          "position": "104.066885,30.624773"
+        },
+        {
+          "name": "Provincial Gymnasium",
+          "position": "104.066606,30.633361"
+        },
+        {
+          "name": "Huaxi Dam",
+          "position": "104.066279,30.642821"
+        },
+        {
+          "name": "Jinjiang Hotel",
+          "position": "104.066053,30.650046"
+        },
+        {
+          "name": "Tianfu Square",
+          "position": "104.065751,30.657453"
+        },
+        {
+          "name": "Luomashi",
+          "position": "104.065617,30.666514"
+        },
+        {
+          "name": "Manjushri Temple",
+          "position": "104.068036,30.672535"
+        },
+        {
+          "name": "North Renmin Road",
+          "position": "104.073056,30.684833"
+        },
+        {
+          "name": "North Railway Station",
+          "position": "104.074056,30.695517"
+        },
+        {
+          "name": "Shengxian Lake",
+          "position": "104.083474,30.704625"
+        },
+        {
+          "name": "Weijianian",
+          "position": "104.086860,30.717644"
+        }
+      ]
+    },
+    {
+      "name": "Line 2",
+      "stations": [
+        {
+          "name": "Xipu",
+          "position": "103.970071,30.757860"
+        },
+        {
+          "name": "Tianhe Road",
+          "position": "103.976163,30.745883"
+        },
+        {
+          "name": "Baicao Road",
+          "position": "103.979327,30.733062"
+        },
+        {
+          "name": "Jinzhou Road",
+          "position": "103.996175,30.721638"
+        },
+        {
+          "name": "Jinke North Road",
+          "position": "104.006635,30.720762"
+        },
+        {
+          "name": "Yingbin Avenue",
+          "position": "104.013528,30.713168"
+        },
+        {
+          "name": "Chadianzi Bus Station",
+          "position": "104.013692,30.705986"
+        },
+        {
+          "name": "Yangxi Interchange",
+          "position": "104.012655,30.693913"
+        },
+        {
+          "name": "Yipintianxia",
+          "position": "104.019630,30.688942"
+        },
+        {
+          "name": "Shuhan Road East",
+          "position": "104.029048,30.682868"
+        },
+        {
+          "name": "Baiguolin",
+          "position": "104.033278,30.673851"
+        },
+        {
+          "name": "University of Traditional Chinese Medicine · Provincial Hospital",
+          "position": "104.040612,30.666106"
+        },
+        {
+          "name": "Tonghuimen",
+          "position": "104.048523,30.662088"
+        },
+        {
+          "name": "People's Park",
+          "position": "104.056779,30.659324"
+        },
+        {
+          "name": "Tianfu Square",
+          "position": "104.065751,30.657453"
+        },
+        {
+          "name": "Chunxi Road",
+          "position": "104.080019,30.653389"
+        },
+        {
+          "name": "Dongmen Bridge",
+          "position": "104.087308,30.648192"
+        },
+        {
+          "name": "Niuwangmiao",
+          "position": "104.094539,30.645023"
+        },
+        {
+          "name": "Niushikou",
+          "position": "104.107662,30.637912"
+        },
+        {
+          "name": "Dongda Road",
+          "position": "104.112897,30.633167"
+        },
+        {
+          "name": "Tazishan Park",
+          "position": "104.122922,30.629465"
+        },
+        {
+          "name": "Chengdu East Railway Station",
+          "position": "104.139950,30.629329"
+        },
+        {
+          "name": "Chengdu-Chongqing Interchange",
+          "position": "104.147432,30.624822"
+        },
+        {
+          "name": "Huiwangling",
+          "position": "104.152086,30.612075"
+        },
+        {
+          "name": "Honghe",
+          "position": "104.157510,30.605015"
+        },
+        {
+          "name": "Chengdu Administrative College",
+          "position": "104.170954,30.596975"
+        },
+        {
+          "name": "Damianpu",
+          "position": "104.201298,30.592400"
+        },
+        {
+          "name": "Lianshanpo",
+          "position": "104.212757,30.587580"
+        },
+        {
+          "name": "Jiepai",
+          "position": "104.225134,30.582802"
+        },
+        {
+          "name": "Study Room",
+          "position": "104.242134,30.575626"
+        },
+        {
+          "name": "Longping Road",
+          "position": "104.258988,30.572923"
+        },
+        {
+          "name": "Longquanyi",
+          "position": "104.267966,30.560111"
+        }
+      ]
+    },
+    {
+      "name": "Line 3",
+      "stations": [
+        {
+          "name": "Chengdu Medical College",
+          "position": "104.194681,30.816912"
+        },
+        {
+          "name": "China University of Petroleum",
+          "position": "104.186600,30.818753"
+        },
+        {
+          "name": "Bell Tower",
+          "position": "104.175313,30.820962"
+        },
+        {
+          "name": "Machao West Road",
+          "position": "104.164715,30.813145"
+        },
+        {
+          "name": "Tuanjie New District",
+          "position": "104.158768,30.804386"
+        },
+        {
+          "name": "Jinshui River",
+          "position": "104.153310,30.797452"
+        },
+        {
+          "name": "Sanhechang",
+          "position": "104.138911,30.784689"
+        },
+        {
+          "name": "Jinhuasi East Road",
+          "position": "104.125448,30.770408"
+        },
+        {
+          "name": "Botanical Garden",
+          "position": "104.121300,30.763356"
+        },
+        {
+          "name": "Military Region General Hospital",
+          "position": "104.114167,30.744748"
+        },
+        {
+          "name": "Panda Avenue",
+          "position": "104.108002,30.725447"
+        },
+        {
+          "name": "Zoo",
+          "position": "104.103142,30.713648"
+        },
+        {
+          "name": "Zhaojuesi South Road",
+          "position": "104.096821,30.702922"
+        },
+        {
+          "name": "Simaqiao",
+          "position": "104.093329,30.695502"
+        },
+        {
+          "name": "Lijiatuo",
+          "position": "104.094528,30.689393"
+        },
+        {
+          "name": "Qianfeng Road",
+          "position": "104.092124,30.679037"
+        },
+        {
+          "name": "Hongxing Bridge",
+          "position": "104.090526,30.671208"
+        },
+        {
+          "name": "Second Municipal Hospital",
+          "position": "104.083909,30.660814"
+        },
+        {
+          "name": "Chunxi Road",
+          "position": "104.080019,30.653389"
+        },
+        {
+          "name": "Xinnanmen",
+          "position": "104.075161,30.644361"
+        },
+        {
+          "name": "Mozigiao",
+          "position": "104.075933,30.637421"
+        },
+        {
+          "name": "Provincial Gymnasium",
+          "position": "104.066606,30.633361"
+        },
+        {
+          "name": "Yiguanmiao",
+          "position": "104.052144,30.634486"
+        },
+        {
+          "name": "Gaoshengqiao",
+          "position": "104.042545,30.640044"
+        },
+        {
+          "name": "Hongpailou",
+          "position": "104.029878,30.634704"
+        },
+        {
+          "name": "Taipingyuan",
+          "position": "104.021580,30.625381"
+        },
+        {
+          "name": "Chuanzang Overpass",
+          "position": "104.006465,30.622935"
+        },
+        {
+          "name": "Wuhou Interchange",
+          "position": "103.993420,30.626960"
+        },
+        {
+          "name": "South Wuqing Road",
+          "position": "103.985080,30.623124"
+        },
+        {
+          "name": "Shuangfeng Bridge",
+          "position": "103.969203,30.615958"
+        },
+        {
+          "name": "Longqiao Road",
+          "position": "103.944148,30.603934"
+        },
+        {
+          "name": "Hangdu Street",
+          "position": "103.936874,30.591323"
+        },
+        {
+          "name": "Yingchun Bridge",
+          "position": "103.934920,30.580647"
+        },
+        {
+          "name": "Dongsheng",
+          "position": "103.925316,30.571218"
+        },
+        {
+          "name": "Shuangliu Square",
+          "position": "103.920196,30.564269"
+        },
+        {
+          "name": "Sanliba",
+          "position": "103.914567,30.553562"
+        },
+        {
+          "name": "Shuangliu West Station",
+          "position": "103.917258,30.543286"
+        }
+      ]
+    },
+    {
+      "name": "Line 4",
+      "stations": [
+        {
+          "name": "Xihe",
+          "position": "104.220298,30.647276"
+        },
+        {
+          "name": "Mingshuwangling",
+          "position": "104.196346,30.648178"
+        },
+        {
+          "name": "Chengdu University",
+          "position": "104.181182,30.646689"
+        },
+        {
+          "name": "Shiling",
+          "position": "104.172438,30.645829"
+        },
+        {
+          "name": "Lailong",
+          "position": "104.164475,30.646859"
+        },
+        {
+          "name": "Huai Shu Dian",
+          "position": "104.139309,30.648877"
+        },
+        {
+          "name": "Wannianchang",
+          "position": "104.119188,30.644231"
+        },
+        {
+          "name": "Shuangqiao Road",
+          "position": "104.113278,30.646975"
+        },
+        {
+          "name": "Yushuang Road",
+          "position": "104.099315,30.653452"
+        },
+        {
+          "name": "Second Municipal Hospital",
+          "position": "104.083909,30.660814"
+        },
+        {
+          "name": "Taisheng South Road",
+          "position": "104.076578,30.664767"
+        },
+        {
+          "name": "Luomashi",
+          "position": "104.065617,30.666514"
+        },
+        {
+          "name": "Kuanzhai Alley",
+          "position": "104.050679,30.665381"
+        },
+        {
+          "name": "University of Traditional Chinese Medicine · Provincial Hospital",
+          "position": "104.040612,30.666106"
+        },
+        {
+          "name": "North Caotang Road",
+          "position": "104.028185,30.669095"
+        },
+        {
+          "name": "Southwestern University of Finance and Economics",
+          "position": "104.020118,30.670471"
+        },
+        {
+          "name": "Cultural Palace",
+          "position": "104.009413,30.672258"
+        },
+        {
+          "name": "Qingjiang West Road",
+          "position": "103.998588,30.676605"
+        },
+        {
+          "name": "Chengdu West Railway Station",
+          "position": "103.976595,30.683429"
+        },
+        {
+          "name": "Zhongba",
+          "position": "103.964110,30.673492"
+        },
+        {
+          "name": "Caiqiao",
+          "position": "103.945088,30.669474"
+        },
+        {
+          "name": "Intangible Cultural Heritage Expo Park",
+          "position": "103.922478,30.674086"
+        },
+        {
+          "name": "Machangba",
+          "position": "103.913802,30.677424"
+        },
+        {
+          "name": "Phoenix Street",
+          "position": "103.889513,30.676944"
+        },
+        {
+          "name": "Yongquan",
+          "position": "103.873069,30.678405"
+        },
+        {
+          "name": "Guanghua Park",
+          "position": "103.860554,30.684316"
+        },
+        {
+          "name": "Nanxun Avenue",
+          "position": "103.851779,30.689571"
+        },
+        {
+          "name": "Fengxi River",
+          "position": "103.843043,30.686109"
+        },
+        {
+          "name": "Fengxi River",
+          "position": "103.843043,30.686109"
+        },
+        {
+          "name": "Willow River",
+          "position": "103.831101,30.680905"
+        },
+        {
+          "name": "Wansheng",
+          "position": "103.818887,30.675357"
+        }
+      ]
+    },
+    {
+      "name": "Line 5",
+      "stations": [
+        {
+          "name": "Huagui Road",
+          "position": "104.098314,30.825126"
+        },
+        {
+          "name": "Baishuichang",
+          "position": "104.094232,30.815507"
+        },
+        {
+          "name": "Liaojiawan",
+          "position": "104.090959,30.808360"
+        },
+        {
+          "name": "North Trade City",
+          "position": "104.088961,30.791089"
+        },
+        {
+          "name": "Xingfu Bridge",
+          "position": "104.088262,30.776951"
+        },
+        {
+          "name": "Jiudaoyan",
+          "position": "104.082896,30.771588"
+        },
+        {
+          "name": "Dujianian",
+          "position": "104.075258,30.771585"
+        },
+        {
+          "name": "Dafeng",
+          "position": "104.065109,30.771615"
+        },
+        {
+          "name": "Stone Rhino Park",
+          "position": "104.059768,30.760279"
+        },
+        {
+          "name": "Imperial Garden",
+          "position": "104.059721,30.752331"
+        },
+        {
+          "name": "Lujiaqiao",
+          "position": "104.059091,30.742274"
+        },
+        {
+          "name": "Quanshui Road",
+          "position": "104.058375,30.730369"
+        },
+        {
+          "name": "Dongzikou",
+          "position": "104.058471,30.721527"
+        },
+        {
+          "name": "Funing Road",
+          "position": "104.059827,30.714537"
+        },
+        {
+          "name": "Wukuaishi",
+          "position": "104.064554,30.707379"
+        },
+        {
+          "name": "Saiyuntai",
+          "position": "104.066503,30.700600"
+        },
+        {
+          "name": "North Station West Second Road",
+          "position": "104.066153,30.693759"
+        },
+        {
+          "name": "Northwest Bridge",
+          "position": "104.058153,30.685632"
+        },
+        {
+          "name": "Huapai Fang",
+          "position": "104.047840,30.683479"
+        },
+        {
+          "name": "Fuqin",
+          "position": "104.042105,30.677314"
+        },
+        {
+          "name": "University of Traditional Chinese Medicine · Provincial Hospital",
+          "position": "104.040612,30.666106"
+        },
+        {
+          "name": "Green Goat Palace",
+          "position": "104.040773,30.660007"
+        },
+        {
+          "name": "Provincial Orthopedic Hospital",
+          "position": "104.040973,30.651835"
+        },
+        {
+          "name": "Gaoshengqiao",
+          "position": "104.042545,30.640044"
+        },
+        {
+          "name": "Science Park",
+          "position": "104.037829,30.628044"
+        },
+        {
+          "name": "Jiuxing Avenue",
+          "position": "104.039868,30.620681"
+        },
+        {
+          "name": "Shenxianshu",
+          "position": "104.048098,30.610057"
+        },
+        {
+          "name": "Shiyang Overpass",
+          "position": "104.050842,30.595183"
+        },
+        {
+          "name": "City First Hospital",
+          "position": "104.050548,30.589302"
+        },
+        {
+          "name": "Jiaozi Avenue",
+          "position": "104.050210,30.581854"
+        },
+        {
+          "name": "Jincheng Avenue",
+          "position": "104.050468,30.574165"
+        },
+        {
+          "name": "Jincheng Lake",
+          "position": "104.046135,30.563758"
+        },
+        {
+          "name": "Dayuan",
+          "position": "104.046226,30.549826"
+        },
+        {
+          "name": "Minle",
+          "position": "104.046521,30.540348"
+        },
+        {
+          "name": "Qilong",
+          "position": "104.044347,30.525565"
+        },
+        {
+          "name": "Police Academy",
+          "position": "104.039691,30.512303"
+        },
+        {
+          "name": "Erjiang Temple",
+          "position": "104.035727,30.499615"
+        },
+        {
+          "name": "Nanhu Interchange",
+          "position": "104.033106,30.488471"
+        },
+        {
+          "name": "Yixin Lake",
+          "position": "104.026786,30.471185"
+        },
+        {
+          "name": "Longma Road",
+          "position": "104.019840,30.457463"
+        },
+        {
+          "name": "Huilong",
+          "position": "104.011886,30.444594"
+        }
+      ]
+    },
+    {
+      "name": "Line 6",
+      "stations": [
+        {
+          "name": "Wangcong Temple",
+          "position": "103.878059,30.807224"
+        },
+        {
+          "name": "Heping Street",
+          "position": "103.887279,30.800421"
+        },
+        {
+          "name": "Pitong",
+          "position": "103.894570,30.796057"
+        },
+        {
+          "name": "Shuxin Avenue",
+          "position": "103.903524,30.790999"
+        },
+        {
+          "name": "Mengzi",
+          "position": "103.914420,30.784593"
+        },
+        {
+          "name": "Shangjin Road",
+          "position": "103.923420,30.777337"
+        },
+        {
+          "name": "Honggao Road",
+          "position": "103.937108,30.769421"
+        },
+        {
+          "name": "Tianyu Road",
+          "position": "103.954520,30.754129"
+        },
+        {
+          "name": "Xipu",
+          "position": "103.970071,30.757860"
+        },
+        {
+          "name": "Xingye North Street",
+          "position": "103.983315,30.758700"
+        },
+        {
+          "name": "Zitonggong",
+          "position": "103.993321,30.747926"
+        },
+        {
+          "name": "Houjia Bridge",
+          "position": "104.004671,30.737026"
+        },
+        {
+          "name": "Xingsheng",
+          "position": "104.021489,30.730787"
+        },
+        {
+          "name": "Qinggang",
+          "position": "104.025926,30.725551"
+        },
+        {
+          "name": "Xihua Avenue",
+          "position": "104.031483,30.718427"
+        },
+        {
+          "name": "Jinfu",
+          "position": "104.036925,30.711419"
+        },
+        {
+          "name": "Galaxy",
+          "position": "104.044112,30.702312"
+        },
+        {
+          "name": "Southwest Jiaotong University",
+          "position": "104.049327,30.695066"
+        },
+        {
+          "name": "Shawan",
+          "position": "104.051085,30.689200"
+        },
+        {
+          "name": "Northwest Bridge",
+          "position": "104.058153,30.685632"
+        },
+        {
+          "name": "North Renmin Road",
+          "position": "104.073056,30.684833"
+        },
+        {
+          "name": "Liangjia Lane",
+          "position": "104.083337,30.682348"
+        },
+        {
+          "name": "Qianfeng Road",
+          "position": "104.092124,30.679037"
+        },
+        {
+          "name": "Jianshe North Road",
+          "position": "104.098845,30.671021"
+        },
+        {
+          "name": "Xinhong Road",
+          "position": "104.102366,30.662072"
+        },
+        {
+          "name": "Yushuang Road",
+          "position": "104.099315,30.653452"
+        },
+        {
+          "name": "Niuwangmiao",
+          "position": "104.094539,30.645023"
+        },
+        {
+          "name": "Shunjiang Road",
+          "position": "104.093005,30.635579"
+        },
+        {
+          "name": "Sanguantang",
+          "position": "104.094465,30.628385"
+        },
+        {
+          "name": "Dongguang",
+          "position": "104.098493,30.619577"
+        },
+        {
+          "name": "Liulichang",
+          "position": "104.098928,30.607634"
+        },
+        {
+          "name": "Liusan Road",
+          "position": "104.098172,30.600351"
+        },
+        {
+          "name": "Jinshi Road",
+          "position": "104.089166,30.590285"
+        },
+        {
+          "name": "Financial City East",
+          "position": "104.084201,30.579744"
+        },
+        {
+          "name": "Zhonghe",
+          "position": "104.096073,30.558558"
+        },
+        {
+          "name": "Zhangjiasi",
+          "position": "104.098380,30.550135"
+        },
+        {
+          "name": "Luxiao",
+          "position": "104.098365,30.537797"
+        },
+        {
+          "name": "Guandong",
+          "position": "104.098372,30.530920"
+        },
+        {
+          "name": "Xintong Avenue",
+          "position": "104.098444,30.521927"
+        },
+        {
+          "name": "Xinchuan Road",
+          "position": "104.100502,30.515663"
+        },
+        {
+          "name": "Longdengshan",
+          "position": "104.101212,30.509023"
+        },
+        {
+          "name": "Pucaotang",
+          "position": "104.098450,30.501634"
+        },
+        {
+          "name": "Wan'an",
+          "position": "104.099451,30.494865"
+        },
+        {
+          "name": "Lushan Avenue",
+          "position": "104.103418,30.483027"
+        },
+        {
+          "name": "Shenyang Road",
+          "position": "104.101504,30.467349"
+        },
+        {
+          "name": "Qingdao Road",
+          "position": "104.101962,30.458181"
+        },
+        {
+          "name": "Changgongyan",
+          "position": "104.093889,30.448314"
+        },
+        {
+          "name": "Hangzhou Road",
+          "position": "104.089327,30.438890"
+        },
+        {
+          "name": "Tianfu Business District",
+          "position": "104.086259,30.430018"
+        },
+        {
+          "name": "West Expo City",
+          "position": "104.074399,30.424349"
+        },
+        {
+          "name": "Qinhuang Temple",
+          "position": "104.061844,30.424489"
+        },
+        {
+          "name": "Pine Forest",
+          "position": "104.046579,30.425825"
+        },
+        {
+          "name": "Lujiao",
+          "position": "104.037716,30.431577"
+        },
+        {
+          "name": "Fishing Mouth",
+          "position": "104.032538,30.436419"
+        },
+        {
+          "name": "Huilong",
+          "position": "104.011886,30.444594"
+        },
+        {
+          "name": "Lanjia Gou",
+          "position": "103.996613,30.443288"
+        }
+      ]
+    },
+    {
+      "name": "Line 7",
+      "stations": [
+        {
+          "name": "North Railway Station",
+          "position": "104.074056,30.695517"
+        },
+        {
+          "name": "North Station West Second Road",
+          "position": "104.066153,30.693759"
+        },
+        {
+          "name": "Jiulidi",
+          "position": "104.057119,30.694640"
+        },
+        {
+          "name": "Southwest Jiaotong University",
+          "position": "104.049327,30.695066"
+        },
+        {
+          "name": "Huazhaobi",
+          "position": "104.040831,30.696626"
+        },
+        {
+          "name": "Chadianzi",
+          "position": "104.030835,30.696229"
+        },
+        {
+          "name": "Yipintianxia",
+          "position": "104.019630,30.688942"
+        },
+        {
+          "name": "Jinsha Museum",
+          "position": "104.012520,30.677436"
+        },
+        {
+          "name": "Cultural Palace",
+          "position": "104.009413,30.672258"
+        },
+        {
+          "name": "Dongpo Road",
+          "position": "104.007924,30.660867"
+        },
+        {
+          "name": "Longzhao Weir",
+          "position": "104.008496,30.651345"
+        },
+        {
+          "name": "Wuhou Avenue",
+          "position": "104.012928,30.637011"
+        },
+        {
+          "name": "Taipingyuan",
+          "position": "104.021580,30.625381"
+        },
+        {
+          "name": "Gaopeng Avenue",
+          "position": "104.034900,30.617521"
+        },
+        {
+          "name": "Shenxianshu",
+          "position": "104.048098,30.610057"
+        },
+        {
+          "name": "South Railway Station",
+          "position": "104.067393,30.605459"
+        },
+        {
+          "name": "Sanwayao",
+          "position": "104.077460,30.604107"
+        },
+        {
+          "name": "Liulichang",
+          "position": "104.098928,30.607634"
+        },
+        {
+          "name": "Sichuan Normal University",
+          "position": "104.116054,30.609368"
+        },
+        {
+          "name": "Lion Hill",
+          "position": "104.124311,30.615942"
+        },
+        {
+          "name": "Daguan",
+          "position": "104.133057,30.621601"
+        },
+        {
+          "name": "Chengdu East Railway Station",
+          "position": "104.139950,30.629329"
+        },
+        {
+          "name": "Yinghui Road",
+          "position": "104.139649,30.638288"
+        },
+        {
+          "name": "Huai Shu Dian",
+          "position": "104.139309,30.648877"
+        },
+        {
+          "name": "Shuangdian Road",
+          "position": "104.136956,30.657581"
+        },
+        {
+          "name": "Cuijiadian",
+          "position": "104.136427,30.665420"
+        },
+        {
+          "name": "University of Technology",
+          "position": "104.137900,30.673375"
+        },
+        {
+          "name": "Erxianqiao",
+          "position": "104.126360,30.680880"
+        },
+        {
+          "name": "Balizhuang",
+          "position": "104.118056,30.687128"
+        },
+        {
+          "name": "Fuqing Road",
+          "position": "104.107227,30.694472"
+        },
+        {
+          "name": "Simaqiao",
+          "position": "104.093329,30.695502"
+        }
+      ]
+    },
+    {
+      "name": "Line 8",
+      "stations": [
+        {
+          "name": "Shilidian",
+          "position": "104.144194,30.679527"
+        },
+        {
+          "name": "University of Technology",
+          "position": "104.137900,30.673375"
+        },
+        {
+          "name": "East Suburb Memory",
+          "position": "104.129064,30.668561"
+        },
+        {
+          "name": "Shanbanqiao",
+          "position": "104.119292,30.664170"
+        },
+        {
+          "name": "Wannian Road",
+          "position": "104.114948,30.654810"
+        },
+        {
+          "name": "Shuangqiao Road",
+          "position": "104.113278,30.646975"
+        },
+        {
+          "name": "Dongda Road",
+          "position": "104.112897,30.633167"
+        },
+        {
+          "name": "Jingju Temple",
+          "position": "104.104410,30.622617"
+        },
+        {
+          "name": "Dongguang",
+          "position": "104.098493,30.619577"
+        },
+        {
+          "name": "East Lake Park",
+          "position": "104.088291,30.619992"
+        },
+        {
+          "name": "Sichuan University Wangjiang Campus",
+          "position": "104.075629,30.625187"
+        },
+        {
+          "name": "Nijiaqiao",
+          "position": "104.066885,30.624773"
+        },
+        {
+          "name": "Fangcao Street",
+          "position": "104.052352,30.626041"
+        },
+        {
+          "name": "Yongfeng",
+          "position": "104.046902,30.628165"
+        },
+        {
+          "name": "Jiuxing Avenue",
+          "position": "104.039868,30.620681"
+        },
+        {
+          "name": "Gaopeng Avenue",
+          "position": "104.034900,30.617521"
+        },
+        {
+          "name": "Yinjialin",
+          "position": "104.034350,30.605928"
+        },
+        {
+          "name": "Qing'an",
+          "position": "104.033988,30.598394"
+        },
+        {
+          "name": "Shiyang",
+          "position": "104.031122,30.585472"
+        },
+        {
+          "name": "Sanyuan",
+          "position": "104.026702,30.581493"
+        },
+        {
+          "name": "Shunfeng",
+          "position": "104.010964,30.577149"
+        },
+        {
+          "name": "Zhujiang Road",
+          "position": "104.008139,30.566270"
+        },
+        {
+          "name": "Sichuan University Jiang'an Campus",
+          "position": "104.007095,30.555238"
+        },
+        {
+          "name": "Wenxing",
+          "position": "103.990564,30.550592"
+        },
+        {
+          "name": "Lotus",
+          "position": "103.979376,30.546250"
+        }
+      ]
+    },
+    {
+      "name": "Line 9",
+      "stations": [
+        {
+          "name": "Huangtianba",
+          "position": "103.971492,30.697950"
+        },
+        {
+          "name": "Chengdu West Railway Station",
+          "position": "103.976595,30.683429"
+        },
+        {
+          "name": "Peifeng",
+          "position": "103.977194,30.660111"
+        },
+        {
+          "name": "Jitou Bridge",
+          "position": "103.978131,30.646026"
+        },
+        {
+          "name": "South Wuqing Road",
+          "position": "103.985080,30.623124"
+        },
+        {
+          "name": "Cuqiao",
+          "position": "103.989923,30.607670"
+        },
+        {
+          "name": "Huaxing",
+          "position": "104.001114,30.598405"
+        },
+        {
+          "name": "Taiping Temple",
+          "position": "104.012147,30.591331"
+        },
+        {
+          "name": "Sanyuan",
+          "position": "104.026702,30.581493"
+        },
+        {
+          "name": "Jincheng Avenue",
+          "position": "104.050468,30.574165"
+        },
+        {
+          "name": "Incubation Park",
+          "position": "104.064313,30.575873"
+        },
+        {
+          "name": "Heart Island",
+          "position": "104.072500,30.575720"
+        },
+        {
+          "name": "Financial City East",
+          "position": "104.084201,30.579744"
+        }
+      ]
+    },
+    {
+      "name": "Line 10",
+      "stations": [
+        {
+          "name": "Taipingyuan",
+          "position": "104.021580,30.625381"
+        },
+        {
+          "name": "Cujin",
+          "position": "104.008245,30.611182"
+        },
+        {
+          "name": "Huaxing",
+          "position": "104.001114,30.598405"
+        },
+        {
+          "name": "Jinhua",
+          "position": "103.970064,30.591577"
+        },
+        {
+          "name": "Shuangliu Airport Terminal 1",
+          "position": "103.959257,30.578543"
+        },
+        {
+          "name": "Shuangliu Airport Terminal 2",
+          "position": "103.955607,30.569892"
+        },
+        {
+          "name": "Shuangliu West Station",
+          "position": "103.917258,30.543286"
+        },
+        {
+          "name": "Yingtian Temple",
+          "position": "103.904680,30.535723"
+        },
+        {
+          "name": "Huangshui",
+          "position": "103.891339,30.518980"
+        },
+        {
+          "name": "Huayuan",
+          "position": "103.880912,30.485344"
+        },
+        {
+          "name": "Xinjin Station",
+          "position": "103.873243,30.462959"
+        },
+        {
+          "name": "Huaqiao",
+          "position": "103.857265,30.441677"
+        },
+        {
+          "name": "Wujin",
+          "position": "103.813341,30.423662"
+        },
+        {
+          "name": "Rulin Road",
+          "position": "103.803093,30.416325"
+        },
+        {
+          "name": "Liujianian",
+          "position": "103.791370,30.415220"
+        },
+        {
+          "name": "Xinping",
+          "position": "103.781522,30.408331"
+        }
+      ]
+    },
+    {
+      "name": "Line 17",
+      "stations": [
+        {
+          "name": "Jiujiang North",
+          "position": "103.921485,30.634527"
+        },
+        {
+          "name": "Baifo Bridge",
+          "position": "103.963309,30.640993"
+        },
+        {
+          "name": "Jitou Bridge",
+          "position": "103.978131,30.646026"
+        }
+      ]
+    },
+    {
+      "name": "Line 18",
+      "stations": [
+        {
+          "name": "South Railway Station",
+          "position": "104.067393,30.605459"
+        },
+        {
+          "name": "Incubation Park",
+          "position": "104.064313,30.575873"
+        },
+        {
+          "name": "Jincheng Plaza East",
+          "position": "104.069417,30.568417"
+        },
+        {
+          "name": "Century City",
+          "position": "104.068930,30.554870"
+        },
+        {
+          "name": "Haichang Road",
+          "position": "104.071583,30.492778"
+        },
+        {
+          "name": "West Expo City",
+          "position": "104.074399,30.424349"
+        },
+        {
+          "name": "Xinglong",
+          "position": "104.102652,30.409471"
+        },
+        {
+          "name": "Tianfu Station",
+          "position": "104.151016,30.390254"
+        },
+        {
+          "name": "Sancha",
+          "position": "104.317235,30.311344"
+        },
+        {
+          "name": "Futian",
+          "position": "104.387506,30.278160"
+        },
+        {
+          "name": "Tianfu Airport Terminal 1 and 2",
+          "position": "104.444132,30.310980"
+        },
+        {
+          "name": "Tianfu Airport North",
+          "position": "104.455045,30.334410"
+        }
+      ]
+    },
+    {
+      "name": "Line 19",
+      "stations": [
+        {
+          "name": "Tianfu Airport North",
+          "position": "104.455045,30.334410"
+        },
+        {
+          "name": "Tianfu Airport Terminal 1 and 2",
+          "position": "104.444132,30.310980"
+        },
+        {
+          "name": "Futian",
+          "position": "104.387506,30.278160"
+        },
+        {
+          "name": "Sancha",
+          "position": "104.317235,30.311344"
+        },
+        {
+          "name": "Tianfu Station",
+          "position": "104.151016,30.390254"
+        },
+        {
+          "name": "Lanjiadian",
+          "position": "104.109259,30.417619"
+        },
+        {
+          "name": "Tianfu Business District",
+          "position": "104.086259,30.430018"
+        },
+        {
+          "name": "Honglian",
+          "position": "104.061855,30.433124"
+        },
+        {
+          "name": "Zhengxing Bay",
+          "position": "104.042013,30.451930"
+        },
+        {
+          "name": "Yixin Lake",
+          "position": "104.026786,30.471185"
+        },
+        {
+          "name": "Muhua Road",
+          "position": "104.011305,30.484677"
+        },
+        {
+          "name": "Wenjiashan",
+          "position": "104.009308,30.497706"
+        },
+        {
+          "name": "Longgang",
+          "position": "103.973912,30.535518"
+        },
+        {
+          "name": "Shuangliu Airport Terminal 2 East",
+          "position": "103.957462,30.569205"
+        },
+        {
+          "name": "Longqiao Road",
+          "position": "103.944148,30.603934"
+        },
+        {
+          "name": "Jiujiang North",
+          "position": "103.921485,30.634527"
+        },
+        {
+          "name": "Mingguang",
+          "position": "103.868440,30.658432"
+        },
+        {
+          "name": "Hot Spring Avenue",
+          "position": "103.855175,30.672593"
+        },
+        {
+          "name": "Fengxi River",
+          "position": "103.843043,30.686109"
+        },
+        {
+          "name": "City Fifth Hospital",
+          "position": "103.829423,30.698739"
+        },
+        {
+          "name": "Huangshi",
+          "position": "103.813977,30.721646"
+        },
+        {
+          "name": "Venus",
+          "position": "103.794066,30.756182"
+        }
+      ]
+    }
+  ]
+}

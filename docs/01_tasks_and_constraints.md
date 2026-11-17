@@ -8,9 +8,12 @@
 
 ## 一、任务数据的来源与类别划分
 
-全量 50 道原始任务保存在 [`baseline_fingerprint/user_query_50.jsonl`](../baseline_fingerprint/user_query_50.jsonl)（`id` 从 1 到 50），按推进批次分为两部分：
-- **Phase 1（第 1–17 题）**：[`baseline_fingerprint/benchmark_groups_17.json`](../baseline_fingerprint/benchmark_groups_17.json)——已生成 100 个变体并跑过 3 个模型。
-- **Phase 2（第 18–50 题）**：[`baseline_fingerprint/benchmark_groups_33.json`](../baseline_fingerprint/benchmark_groups_33.json)——已跑完基线并提取了指纹，等待生成变体。
+全量 50 道原始任务保存在 [`baseline_fingerprint/user_query_50.jsonl`](../baseline_fingerprint/user_query_50.jsonl)（`id` 从 1 到 50），目前在目录中对应三份数据文件：
+- **Phase 1 旧版已测集（第 1–17 题）**：[`baseline_fingerprint/benchmark_groups_17.json`](../baseline_fingerprint/benchmark_groups_17.json)——旧版生成器产出的 100 个变体，已跑过 3 个模型。
+- **Phase 2 纯指纹中间态（第 18–50 题）**：[`baseline_fingerprint/benchmark_groups_33.json`](../baseline_fingerprint/benchmark_groups_33.json)——已跑完基线并提取了指纹，无变体。
+- **新版全量重生成集（第 1–50 题）**：[`baseline_fingerprint/benchmark_baseline_all_20261111_155505.json`](../baseline_fingerprint/benchmark_baseline_all_20261111_155505.json)（11-14 合入）——对全部 50 题用单约束模式重新生成了 **250 个变体**（含前 17 题的重生成；其中 `t15–t17` 的 `group_id` 分别规范化为 `G-marketing-kline-000`、`G-research-query-000`、`G-coding-parser-000`）。
+
+*(注：11-16 起 [`data/`](../data/) 目录已开始引入 `ChinaTravel`、`AssistantBench`、`deepsearchqa` 等开源日常搜索基准，用于后续 V2 扩充。)*
 
 ### 1.1 五大任务领域与来源溯源
 
@@ -45,7 +48,7 @@ HW-IF-Bench 采用 **反默认（Anti-Default）** 思路来生成约束：
 
 ## 三、约束的类别划分：已生成数据 vs 最新版生成器
 
-> **接手必知的一个关键事实**：已有的 17 组评测数据（[`benchmark_groups_17.json`](../baseline_fingerprint/benchmark_groups_17.json)）是用**旧版生成器（v4.3 / v4.4）和早期原型**造出来的；而代码库里的 [`benchmark-group-generator/`](../benchmark-group-generator/) 是后来刚升级好的 **v5.8 版本**。两者覆盖的约束丰富度差距很大。
+> **接手必知的版本关系**：旧版 17 组（[`benchmark_groups_17.json`](../baseline_fingerprint/benchmark_groups_17.json)）由 **v4.3 / v4.4** 与早期原型产出；仓库里的 [`benchmark-group-generator/`](../benchmark-group-generator/) 为 **v5.8**；而 11-14 合入的新版全量 250 条（[`benchmark_baseline_all_20261111_155505.json`](../baseline_fingerprint/benchmark_baseline_all_20261111_155505.json)）则是**外部比本地 v5.8 更新一版的生成器**用单约束模式产出的（多出了 6 个本地代码尚未合入的 `workflow_*` 算子）。
 
 ### 3.1 Phase 1 实际数据里实际用到的约束（偏少且集中）
 
@@ -88,11 +91,22 @@ v5.8（清单在 [`policy_catalog.json`](../benchmark-group-generator/policy_cat
   - 仅依赖 `trace.calls[0]` 的 2 种：`workflow_catalog_first`（先查目录工具）、`workflow_plan_first`（先调 `task_planning`）；
   - 依赖有序运行事件流 `trace.events` 的 4 种：`workflow_plan_progress`（先发复选框计划，每 N 次调用更新 `[进度]` 和 `关键信息`）、`workflow_readonly_probe`（任何写操作前必须有成功的只读探查）、`workflow_tool_discovery`（先查工具目录并口头说明选用理由）、`workflow_approval_gate`（任何写入前必须列出目标文件并等待真实用户确认）。
 
+### 3.3 新版全量 250 条数据（`benchmark_baseline_all_20261111_155505.json`）的约束分布
+
+新版全量数据虽然同样覆盖 50 道基础题，但约束构成与旧版 `groups_17` 发生显著转向——从“限字数/禁域名”全面转向 **Agent 工具执行过程与预算控制**：
+- **高频指令族**（250 条变体中）：`process-staging`（49）、`resource-budget`（47）、`tool-sequencing`（42）、`tool-policy`（35）、`artifact-form`（25）、`layout-control`（13）、`response-contract`（11）；而旧版占大头的 `source-policy` 降为 3 条、`scope-limit` 为 0 条。
+- **6 个外部新增 `workflow_*` 算子**：全量数据中有 **57 条 IF 规则**使用了本仓库尚未合入的流程顺序算子（`workflow_locate_read_run` 22 条、`workflow_workspace_locate_read` 19 条、`workflow_workspace_read` 5 条、`workflow_plan_locate_read` 4 条、`workflow_search_fetch` 4 条、`workflow_locate_read` 3 条）。
+- **思考过程约束现状**：当前全量数据仍主要约束**输出产物**和**外部工具执行过程**，针对模型内部/前置**思考过程内容（`reasoning_content`）**的约束仍为空白。
+
 ---
 
 ## 四、四档压力梯度（Tier A / B / C / D）
 
-围绕同一道任务，生成器默认派生 **5–6 个变体（`S1`–`S6`）**，通过 `tier` 字段区分压力级别：
+围绕同一道任务，生成器默认派生 **5–6 个变体（`S1`–`S6`）**，通过 `tier` 字段标注注入场景。
+
+> **⚠️ 区分旧版“同约束控制变量”与新版“单约束紧凑模式”的关键差异**：
+> - 在 **Phase 1 旧版 `groups_17`** 中，`B / C / D` 变体普遍复用 `A` 变体的同一条核心约束（记录在 `source_variant_ids` 中，49/49 个 B/C/D 变体均有复用），用于控制变量对比“同一约束在不同压力下的掉分”。
+> - 在 **新版全量 250 条（`assemble_compact_matrix`）** 中，每组固定生成 `('A', 'A', 'A', 'C', 'D')` 5 个变体（**无 Tier B**），且 **C/D 变体与 A 变体选用 5 条互不相同的独立约束（复用率为 0，`source_variant_ids` 全空）**。同时生成器源码也将 `complexity.difficulty` 显式标为 `requires_pilot_not_assumed_harder`——因此在新版数据中，**`Tier` 应理解为“注入条件标签（常规 / 500 条长上下文中置 / 直接用户冲突）”，而不是先验的约束难度递进等级**。
 
 | 档位 (`tier`) | 名字 | 具体做法 | 想测模型什么能力 |
 | --- | --- | --- | --- |

@@ -20,7 +20,7 @@
 | **Task（原始任务）** | 一道最原始的用户考题，不包含任何额外约束 | [`user_query_50.jsonl`](../baseline_fingerprint/user_query_50.jsonl) 中的每一行（共 50 题） |
 | **Harness（执行框架）** | 负责把题目发给大模型、替模型执行读写文件/网页搜索/Python沙箱等工具调用、并把过程录下来的运行环境 | [`deepseek-harness/`](../deepseek-harness/)（本仓库中为空引用，运行时配置在 [`dsh-config/`](../dsh-config/)） |
 | **Baseline Fingerprint（基线指纹）** | 先让基准模型（`deepseek-v4-pro`）**不加任何额外约束**跑一遍原始任务，记录它“默认习惯怎么做”（用了哪些工具、查了哪些网站、回复多长等） | [`baseline-17/`](../baseline_fingerprint/dsh-runs/baseline-17/)、[`baseline-33/`](../baseline_fingerprint/dsh-runs/baseline-33/) 及抽取出的 `baseline_fingerprint` 字段 |
-| **Variant（变体 / S1~S6）** | 围绕同一道原始任务，基于基线指纹故意加上**反着它默认习惯来的约束**，派生出的不同考题版本（分 A/B/C/D 四档压力） | [`benchmark_groups_17.json`](../baseline_fingerprint/benchmark_groups_17.json) 中每组下的 `variants` 列表 |
+| **Variant（变体 / S1~S6）** | 围绕同一道原始任务，基于基线指纹故意加上**反着它默认习惯来的约束**，派生出的不同考题版本 | 旧版 [`benchmark_groups_17.json`](../baseline_fingerprint/benchmark_groups_17.json)（100 变体）及新版全量 [`benchmark_baseline_all_20261111_155505.json`](../baseline_fingerprint/benchmark_baseline_all_20261111_155505.json)（250 变体）中每组下的 `variants` 列表 |
 | **Rubric（评分细则）** | 挂在每个变体下面的“阅卷标准列表”，写明哪些项用代码自动判（IF）、哪些项用裁判模型判（TC / SE），以及每项占多少分 | 每个变体里的 `rubric` 数组 |
 | **Generator & Scoring** | 两套核心工具：**生成器**负责把“原始任务 + 基线指纹”变成“带变体和 Rubric 的评测集”；**评分器**负责读取模型跑完的轨迹打分 | [`benchmark-group-generator/`](../benchmark-group-generator/) 和 [`scoring/`](../scoring/) |
 
@@ -36,14 +36,16 @@ HW-IF-Bench/
 ├── baseline_fingerprint/            # 全部数据资产与模型运行结果
 │   ├── user_query_50.jsonl          # 全量 50 道原始任务清单（id 1~50）
 │   ├── attached_files/              # task_1 ~ task_50 各自附带的源码仓库、PDF 财报、法律卷宗、客服环境包
-│   ├── benchmark_groups_17.json     # Phase 1：第 1~17 题（已生成 100 个变体和 Rubric）
-│   ├── benchmark_groups_33.json     # Phase 2：第 18~50 题（只有基线指纹，尚未生成变体）
+│   ├── benchmark_groups_17.json     # Phase 1 旧版：第 1~17 题（已生成 100 个变体并跑过 3 模型）
+│   ├── benchmark_groups_33.json     # Phase 2 中间态：第 18~50 题（只有基线指纹，无变体）
+│   ├── benchmark_baseline_all_20261111_155505.json  # [11-11/14 合入] 全量 50 题重生成版（共 250 条单约束变体，暂未实测）
 │   └── dsh-runs/                    # 运行产物总目录
 │       ├── baseline-17/             # 第 1 批无约束基线运行记录
 │       ├── baseline-33/             # 第 2 批无约束基线运行记录
 │       ├── benchmark-deepseek-17/   # deepseek-v4-pro 跑前 17 题（100 变体）的结果
 │       ├── benchmark-glm-17/        # glm-5.3 跑前 17 题（100 变体）的结果
 │       └── benchmark-pangu92b-17/   # pangu92b_wandr 跑前 17 题（100 变体）的结果
+├── data/                            # [11-16 新增] 外部日常搜索候选数据源拉取目录（ChinaTravel / AssistantBench / deepsearchqa）
 ├── benchmark-group-generator/       # [最新版 v5.8] 评测变体生成器（102 项单元测试通过）
 │   ├── quick_run.py                 # 一键批处理入口（支持 --check 校验、断点续跑）
 │   ├── generator.py                 # 生成、审查、组装的核心流程代码
@@ -64,14 +66,16 @@ HW-IF-Bench/
 
 ## 3. 项目推进时间线与现状速览
 
-整个项目由前任同学分批搭建，目前正处于 **“Phase 1 跑完推理 + 工具链刚完成大升级 + 两端尚未接上、Phase 2 待生成”** 的交接节点：
+整个项目由前任同学分批搭建，源码在 **11-10** 后未再更新，但 **11-14** 合入了一份全量重生成的 250 变体数据，目前处于 **“新旧数据并存、工具链代码与新数据存在代差、且正在规划 V2 日常搜索扩库”** 的阶段：
 
 | 阶段 | 时间 | 做了什么 | 现在卡在哪 / 需要注意什么 |
 | --- | --- | --- | --- |
 | **Phase 0（早期原型）** | 10 月中旬前 | 手工构建了 3 道原型题（`G-kline-001`、`G-search-001`、`G-code-001`） | 后来被并入 `benchmark_groups_17.json` 的第 15~17 题；它们的评分规则是旧版专属代码，很多指标目前无法自动打分 |
 | **Phase 1（17 题构建与测试）** | 10-18 ~ 11-03 | 跑通第 1 批基线 → 用旧版生成器（v4.3/v4.4）生成第 1~14 题，合并成 **17 组共 100 个变体** → 跑了 DeepSeek、Pangu92b、GLM 三个模型 | **推理文件都在，但正式评分（TC/SE）从未跑过**；而且排查发现三模型的 **D 档冲突测试全部没有生效** |
-| **Phase 2（扩充到 50 题）** | 11-06 | 扩充至 50 题，跑完了第 18~50 题的基线运行（`baseline-33`），并抽取出 [`benchmark_groups_33.json`](../baseline_fingerprint/benchmark_groups_33.json) | **只有基线指纹，还没有生成变体和 Rubric** |
-| **工具链重构升级** | 11-10 | 上传了重写升级后的 **v5.8 生成器**（40 种约束）和独立 **评分器 `scoring/`** | **新工具链还没在真实数据上联调**：`scoring/` 只实现了 7 种旧算子，接不住 v5.8 生成的新约束；且历史数据缺汇总清单 `results.jsonl` |
+| **Phase 2（扩充到 50 题）** | 11-06 | 扩充至 50 题，跑完了第 18~50 题的基线运行（`baseline-33`），并抽取出 [`benchmark_groups_33.json`](../baseline_fingerprint/benchmark_groups_33.json) | 纯指纹中间态，已被后续全量重生成版覆盖 |
+| **工具链上传（仓库代码最新版）** | 11-10 | 上传了 **v5.8 生成器**（40 种约束）和独立 **评分器 `scoring/`**（11-10 后仓库源码未再改动） | **新工具链还没在真实数据上联调**：`scoring/` 只实现了 7 种旧算子，接不住 v5.8 新约束；且历史 17 题目录缺 `results.jsonl` |
+| **全量重生成版合入** | 11-11 / 11-14 | 外部用更新版生成器将全部 50 题重新生成为 [`benchmark_baseline_all_20261111_155505.json`](../baseline_fingerprint/benchmark_baseline_all_20261111_155505.json)（**250 条单约束变体**，不含 Tier B） | **尚未实测**；且里面用了 **6 个本地 `generator.py` 尚未合入的新 `workflow_*` 算子**（共 57/250 条本地校验报 `未知 op`） |
+| **V2 扩库调研** | 11-16 | 新建 [`data/`](../data/) 目录开始拉取 `ChinaTravel`、`AssistantBench`、`deepsearchqa`，准备扩充日常搜索题与“思考过程约束” | 处于数据源下载与分类设计阶段 |
 
 ---
 

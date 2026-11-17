@@ -1,0 +1,25 @@
+# Document 18
+Source URL: https://www.corporatedefensedisputes.com/2016/04/no-general-jurisdiction-over-out-of-state-firms-registering-to-do-business-in-delaware/
+
+---
+title: menu
+author: The Proskauer Blog Network View All Proskauer Blogs
+date: 2016-04-19
+---
+The Delaware Supreme Court ruled yesterday that out-of-state corporations no longer would be subject to general personal jurisdiction in Delaware merely because they had registered to do business in Delaware. In making that ruling, the Court overruled prior state precedent, under which foreign corporations were deemed to have consented to jurisdiction in Delaware when they registered to do business within the state.
+
+In Genuine Parts Company v. Cepec, the plaintiffs were residents of Georgia who commenced litigation in Delaware against a Georgia corporation with its principal place of business in Georgia, claiming that defendant was responsible for injuries that one of the plaintiffs suffered after being exposed to asbestos during his employment at a warehouse in Florida owned by the defendant. The defendant also owned stores in Delaware, although fewer than 1% of its employees worked in Delaware and fewer than 1% of its stores were located in the state.
+
+Because it did business in Delaware, however minimal, the defendant had registered to do business in the state pursuant to 8 Del C. § 371 and had designated an agent for service of process in Delaware as required by 8 Del C. § 376. The Superior Court upheld jurisdiction over the defendant, relying on a Delaware Supreme Court decision from 1988, holding that foreign corporations consented to jurisdiction in Delaware for all purposes by registering to do business in the state and designating an agent for the service of process.
+
+In Genuine Parts, however, the Delaware Supreme Court overruled its prior precedent, and reversed the decision of the Superior Court. The Court held that jurisdiction could be asserted over foreign corporations only under the Delaware long-arm statute, 10 Del C. § 3104, which generally requires the claims to arise from the defendant's contacts with the state. The claims here did not arise from the defendant's contacts with Delaware, the plaintiff had not asserted long-arm jurisdiction, and the claims against the defendant were dismissed. The Court also adopted a narrow reading of by 8 Del C. § 376, ruling that the agent for service of process designated under that statute provided a mechanism for service only if jurisdiction under the long-arm statute otherwise existed.
+
+The Delaware Court's ruling relied extensively on the United States Supreme Court's decision in Daimlar AG v. Bauman, 134 S. Ct. 746 (2014), which held that, under the United States Constitution, a foreign corporation may be subjected to a court's general jurisdiction based on the contacts of an in-state subsidiary only where its contacts are "so continuous and systematic as to render [it] essentially at home" in that forum. Absent exceptional circumstances, the Supreme Court stated that a corporation is "at home" and thus subject to general jurisdiction only in a state that is the company's place of incorporation or its principal place of business.
+
+The Daimler Court, however, did not rule on the jurisdictional effect of a foreign corporation's registration to do business in the forum state, the question that was at issue in Genuine Parts. Nevertheless, applying the rationale of Daimler, the Delaware Court found it appropriate to narrow the scope of the Court's jurisdiction, which it found would lead to more "intuitively sensible" results.
+
+The Delaware Supreme Court also found that its decision served the public interest, stating that the ability of foreign corporations to operate effectively throughout the nation without fear that they would be subject to all-purpose jurisdiction in every place where they do business "is critical to our nation's economic vitality and ability to create jobs." The Court noted that Delaware is the home of the majority of the United States' largest corporations, and therefore "has a strong interest in avoiding overreaching in this sensitive area." In particular, the Court expressed concern that if many other states were to exercise general jurisdiction over Delaware corporations the result would be "inefficient and reduce legal certainty for businesses."
+
+The Court acknowledged, however, that there is a split among the post-Daimler decisions, and a number of courts have held that registration to do business remains a constitutionally valid basis for general jurisdiction. According to the Court, a majority of federal courts considering this issue after the Supreme Court's Daimler decision have come to the same conclusion as the Delaware court's holding in Genuine Parts.
+
+One Justice dissented from the majority opinion, preferring to wait for a definitive ruling from the United States Supreme Court before rejecting prior Delaware precedent.
