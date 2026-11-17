@@ -13,16 +13,17 @@
 | **Phase 1a（旧版）** | `1`–`14` | 14 | 完成 (`baseline-17`) | **已完成**（84 变体，旧版 v4.3/v4.4） | **已完成 3 模型**（各 84 变体） | **尚未正式出分** |
 | **Phase 1b（原型）** | `15`–`17` | 3 | 完成（早期原型） | **已完成**（16 变体，旧版 `exec`） | **已完成 3 模型**（各 16 变体） | **尚未正式出分** |
 | **Phase 2（纯指纹态）** | `18`–`50` | 33 | 完成 (`baseline-33`) | 纯指纹中间态（[`benchmark_groups_33.json`](../baseline_fingerprint/benchmark_groups_33.json)） | 未运行 | 未运行 |
-| **全量重生成版（11-14 合入）** | `1`–`50` | **50** | **50/50 完成** | **已完成单约束版**（[`benchmark_baseline_all_20261111_155505.json`](../baseline_fingerprint/benchmark_baseline_all_20261111_155505.json)，**250 变体**） | **尚未运行** | 未运行 |
-| **V2 扩库调研（11-16 新增）** | 待新增 | 预期 +50 | 未开始 | [`data/`](../data/) 已开始下载 `ChinaTravel` / `AssistantBench` / `deepsearchqa` | — | — |
+| **全量重生成版（两版 250 变体）** | `1`–`50` | **50** | **50/50 完成** | **已完成单约束版**（`1111` 版 [`benchmark_baseline_all_20261111_155505.json`](../baseline_fingerprint/benchmark_baseline_all_20261111_155505.json) 与 `1110` 版 [`baseline_task_50/`](../baseline_task_50/)，各 **250 变体**） | **尚未运行** | 未运行 |
+| **V2 扩库（`naq_50/`）** | `51`–`100` | 已构建 **25/50** | 待跑基线 | `id 51–75`（ChinaTravel 9 + BrowseComp-Plus 8 + DeepSearchQA 8）已就绪；`76–100` 留待合作者补齐 | 未运行 | 已配真值表 `tc_ground_truth_50.jsonl` |
 
-### 1.2 两套代码库的离线测试状态
+### 1.2 三套核心代码库的最新状态
 
-在 Python 3.11 下实测，生成器与评分器各自的离线单元测试全部通过（两套代码自 **2026-11-10** 上传后未再更新）：
-- [`benchmark-group-generator/`](../benchmark-group-generator/)（v5.8）：**102 项测试全过**。
+在 Python 3.11 下实测，生成器与评分器各自的离线单元测试全部通过：
+- [`benchmark-group-generator/`](../benchmark-group-generator/)（**已同步至修订版 v5.10**，46 种策略）：**107 项测试全过**；且对 [`benchmark_baseline_all_20261111_155505.json`](../baseline_fingerprint/benchmark_baseline_all_20261111_155505.json) 与 `20261110` 版各 **250 条 IF 规则校验均为 0 报错**。
 - [`scoring/`](../scoring/)：**21 项测试全过**，[`scoring/results/`](../scoring/results) 目前仅含 1 条合成 demo。
+- [`deepseek-harness/`](../deepseek-harness/)：**已上传完整定制源码**（包含 `run.sh`、四模型入口、工具补丁、`scripts/run-benchmark.py` 及 `evaluation_only/` 外围配合体系）。
 
-> **重要提醒**：`11-14` 合入的 `benchmark_baseline_all_20261111_155505.json` 是在外部用**比本仓库 v5.8 更新的生成器**产出的，因此**目前本仓库代码不仅尚未和旧 100 变体联调，也暂时校验不通过新 250 变体里的 57 条 `workflow_*` 规则**。
+> **重要提醒**：虽然生成器 `v5.10` 与 250 变体数据已经对齐，但 **`deepseek-harness/scripts/run-benchmark.py` 当前默认禁用了系统提示词覆盖与冲突注入**，且 `scoring/` 仍只实现了 7 种旧算子——两端代码修通前仍不能直接跑通新版端到端评测。
 
 ---
 
@@ -68,10 +69,9 @@
    - 核对全量 50 题发现，`group["tools"]` 100% 等于 `set(baseline_fingerprint["tool_seq"])`。导致第 37/39/43/45/47 题的 `tools` 里**只写了 `["file_read"]` 1 个工具**。
    - 这会直接卡死 v5.8 生成器：单工具任务无法生成禁用工具、限制工具总数、规定先后顺序或先查目录等策略；同时模型在真实运行中其实还能调用其他未列出的工具（例如 GLM 在 `t12` 仅声明了搜索工具的情况下，实际写出了 `output/` 文件）。
 
-3. **[高] 三端代码与数据版本脱节（本地代码落后于新版 250 条数据）**
-   - **评分器落后于生成器**：[`scoring/rubric_program.py`](../scoring/rubric_program.py#L138-L188) 只实现了 Phase 1 用到的 **7 个算子**，接不住 v5.8 的 40 种策略。
-   - **本地生成器又落后于 11-14 新数据**：用当前仓库的 `generator.py` 校验 `benchmark_baseline_all_20261111_155505.json` 全部 250 条 IF 规则，有 **57 条报 `未知 op`**（`workflow_locate_read_run`、`workflow_workspace_locate_read`、`workflow_workspace_read`、`workflow_plan_locate_read`、`workflow_search_fetch`、`workflow_locate_read` 这 6 个算子尚未同步进本地代码）。
-   - **工具名别名表滞后**：`TOOL_ALIASES` 缺了 Phase 2/新版数据中的 `sandbox_prepare`、`file_export`、`shell_exec`、`list_mcp_resources` 等映射。
+3. **[高] 评分器与生成器版本脱节（生成器已对齐数据，评分器仍滞后）**
+   - 随着 **v5.10** 同步完成，[`benchmark-group-generator/`](../benchmark-group-generator/)（46 种策略）现已 **100% 兼容** 两份 250 变体数据（250/250 条校验通过）；但 [`scoring/rubric_program.py`](../scoring/rubric_program.py#L138-L188) 仍然只实现了 Phase 1 用到的 **7 个旧算子**，其余 39 种新策略送进来会变成 `unjudgeable`。
+   - 工具名映射表 `TOOL_ALIASES` 滞后：缺了 `sandbox_prepare`、`file_export`、`shell_exec`、`list_mcp_resources` 等映射。
 
 4. **[高] Phase 1 旧版约束偏科，且部分规则“过严”导致失真**
    - Phase 1（1–14 题）近三成 IF 规则都在卡字符长度，把长篇综述（`t14` 限 1200 字）、97 份法律尽调（`t6` 限 1200 字）和纯数值问答（`t9` 强迫写文件到 `output/`）硬套限制，容易出现“所有模型一起轻微超字数”或逼出无效压缩。
@@ -84,27 +84,28 @@
 6. **[中] 早期原型 3 题（`t15–t17`）一半以上指标无法自动判分**
    - `G-kline-001`（K 线网格/红绿颜色/走势时段）和 `G-code-001`（空输入是否实际执行通过、是否只跑了内联副本）有 **8/14 项非 D 档 IF** 在 `score_benchmark.py` 中硬编码返回 `unavailable`，只能进人工/复核队列。
 
-7. **[中] `deepseek-harness` 源码不在当前仓库**
-   - [`deepseek-harness/`](../deepseek-harness/) 目前是个空目录，涉及修改 D 档注入逻辑或给 Pangu92b 加工具死循环熔断时，需要向团队拉取真实的 Harness 代码库。
+7. **[严重] `deepseek-harness` 新版源码主动禁用了变体提示词与冲突注入（且 `baseline_task_50/` 存在附件目录名拼写错位）**
+   - 审阅最新同步的 [`deepseek-harness/scripts/run-benchmark.py`](../deepseek-harness/scripts/run-benchmark.py#L546-L553) 与 [`benchmark.README.zh.md`](../deepseek-harness/scripts/benchmark.README.zh.md#L42-L44) 发现：**当前版本的批跑器不创建也不加载 `prompt.patch.json`（强制写死 `variant_system_prompt_applied: false`），同时把 `user_query_append_applied` 和 `environment_override_applied` 硬编码为 `False`**。虽然它补齐了工作区 SHA-256 还原与 `results.jsonl` 生成，但直接拿它跑任何变体集只会重复执行无约束基线！
+   - 此外，实测执行 `python3 baseline_task_50/prepare_task.py --verify` 会直接报错 `FileNotFoundError`：因为该目录下实际存放附件的目录名为单数 [`attached_file/`](../baseline_task_50/attached_file/)，而 `user_query_50.jsonl` 与 `prepare_task.py` 校验的均是复数 `attached_files/`。
 
 8. **[高] 新版 250 条全量数据（`benchmark_baseline_all_20261111_155505.json`）存在 4 项结构局限**
    - **无 Tier B 且 C/D 控制变量失效**：全部 50 组统一走 `('A', 'A', 'A', 'C', 'D')` 单约束模式，且 `C/D` 均选用与 `A` 不同的新约束（复用率为 `0`），无法按旧版思路直接对比同一约束在长上下文/冲突下的性能衰减。
-   - **SE 覆盖极少**：50 题中仅 9 题（45/250 条变体）带 `SE` 项，其余 41 题无副作用评估。
-   - **部分编程题 TC 证据面偏窄**：195/250 条变体的 `TC` 仅要求 `["final_answer"]` 作为 `evidence_paths`，部分代码修改题未纳入 `workspace_diff`。
-   - **缺乏“思考过程约束”与日常搜索任务**：50 题均偏高门槛专业场景，且所有 IF 仅检验产出或外部工具顺序，尚未覆盖“行动前先做指定分析”的思考过程约束（虽然 `trace.json` 已保留了 `reasoning_content`）。
+   - **SE 覆盖偏少且版本不一**：`20261111` 版仅 9 题（45/250 条）带 `SE` 项，而较早一天的 `20261110` 版则是 50 题均带 `SE`（50/250 条）。
+   - **部分编程题 TC 证据面偏窄**：`20261111` 版有 195/250 条变体的 `TC` 仅要求 `["final_answer"]` 作为 `evidence_paths`，部分代码修改题未纳入 `workspace_diff`（后续应结合 [`baseline_task_50/evaluation_only/`](../baseline_task_50/evaluation_only/) 里的 SWE-bench / τ²-bench 真实单测补齐）。
+   - **缺乏“思考过程约束”与日常搜索任务**：老 50 题均偏高门槛专业场景，且 IF 仅检验产出或外部工具顺序（`trace.json` 已记录 `reasoning_content`，尚未被消费）。
 
 ---
 
 ## 四、接手后的核心任务优先级（P0 → P2）
 
-### P0（本周可立即做）：先把 Phase 1 三模型完整分数算齐，并补齐代码代差
-1. **生成 Phase 1 缺失的 `results.jsonl` 并修复 D 档送达检查**：汇总 `benchmark-{deepseek,glm,pangu92b}-17/*/*/result.json`，在 `score_benchmark.py` 补上 `user_query_append_applied` 判定，跑通 `run_scoring.py` 完成旧版 100 变体的 **IF + TC + SE** 全量三维评分。
-2. **向外部同步最新版生成器代码（解决 57 条报错）**：拉取产出 `benchmark_baseline_all_20261111_155505.json` 的对应版本 `dsl.py` / `generator.py`（包含 6 个新 `workflow_*` 算子），同步到本仓库的 `benchmark-group-generator/` 与 `scoring/rubric_program.py`，同时补全 `TOOL_ALIASES`。
+### P0（本周立即阻塞项）：打通评分器与 Harness 注入开关
+1. **修复并跑通 Phase 1 三模型完整评分**：补全旧版 `benchmark-{deepseek,glm,pangu92b}-17` 缺失的 `results.jsonl`，在 `score_benchmark.py` 补上 `user_query_append_applied` 判定，跑通 `run_scoring.py` 输出旧版 100 变体的 **IF + TC + SE** 全量三维评分。
+2. **修复 `deepseek-harness/scripts/run-benchmark.py` 的提示词与冲突注入**：恢复对 `effective_system_prompt`（生成并加载 `prompt.patch.json`，置 `variant_system_prompt_applied: true`）以及 `user_query_append` / `environment_override` 的真实下发（并在 `task.json` 如实记录 `*_applied: true`）。
+3. **打通 `scoring/` 对 v5.10 的 46 种策略支持**：让 [`scoring/rubric_program.py`](../scoring/rubric_program.py) 直接桥接或同步 [`benchmark-group-generator/`](../benchmark-group-generator/) v5.10 的 `evaluate_rule()` 实现，并补全 `TOOL_ALIASES`；顺手修复 [`baseline_task_50/`](../baseline_task_50/) 下 `attached_file` → `attached_files` 目录命名以跑通 `prepare_task.py --verify`。
 
-### P1（中期核心）：决定新版 250 条数据用法，并启动 V2 扩库
-3. **小规模 Pilot 试跑新版 250 条（5–10 题）**：算子对齐后，抽样测试 `benchmark_baseline_all_20261111_155505.json`（重点验证编程题仅靠 `final_answer` 评 TC 是否失真，以及 D 档 `user_query_append` 注入在 Harness 中是否已修复）。
-4. **补充“日常搜索型 Task”与“思考过程约束”**：基于 [`data/`](../data/) 已拉取的 `ChinaTravel`、`AssistantBench`、`deepsearchqa` 等开源真实搜索基准，按统一应用场景扩充新任务，并在评分器中新增从 `trace.json`（`reasoning_content`）提取“首轮动作前思考文本”的适配器，形成完整 V2 评测体系。
+### P1（中期核心）：Pilot 验证新版 250 条，并合齐 V2 `naq_50/` 50 题
+4. **小规模 Pilot 试跑新版 250 条（5–10 题）**：在修复注入开关后的 Harness 上抽样试测 `benchmark_baseline_all_20261111_155505.json`，并引入 `baseline_task_50/evaluation_only/` 验证第 18–31 题 SWE-bench / τ²-bench 的真实 `TC` 完成度。
+5. **完成 V2 `naq_50/` 剩余 25 题并上线“思考过程约束”**：配合合作者补齐 `naq_50/` 的 `id 76–100`（消费对比、医疗健康、社会民生）并跑通这 50 条的基线；同步在 `scoring/` 与生成器中新增从 `trace.json`（`reasoning_content`）提取“首轮工具前思考片段”的适配器与思考类约束模板。
 
-### P2（补全闭环）：修复执行侧 Harness 并完成全量横向评测
-5. **拉取并修复 `deepseek-harness` 仓库**：排查为何此前 `user_query_append_applied` / `environment_override_applied` 均为 `false`，修好 D 档注入与回执日志 `injection_events.jsonl`，同时为高错误循环增加步数熔断。
-6. **全量模型重跑**：补跑修复后的 Tier D、跑通尚未测试的 `openPangu-v21-pro`（[`pangu.patch.yml`](../dsh-config/pangu.patch.yml)），完成最终多模型全量榜单评测。
+### P2（补全闭环）：全量多模型横向评测
+6. **全量模型跑测与对比**：使用修复后的 Harness 跑通修复版 Tier D、补齐未测的 `openPangu-v21-pro`（[`pangu.patch.yml`](../dsh-config/pangu.patch.yml)），以及最终 **“老 50 专业题 + 新 50 日常搜索题”** 完整榜单评测。

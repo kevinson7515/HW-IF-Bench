@@ -13,7 +13,7 @@
 - **Phase 2 纯指纹中间态（第 18–50 题）**：[`baseline_fingerprint/benchmark_groups_33.json`](../baseline_fingerprint/benchmark_groups_33.json)——已跑完基线并提取了指纹，无变体。
 - **新版全量重生成集（第 1–50 题）**：[`baseline_fingerprint/benchmark_baseline_all_20261111_155505.json`](../baseline_fingerprint/benchmark_baseline_all_20261111_155505.json)（11-14 合入）——对全部 50 题用单约束模式重新生成了 **250 个变体**（含前 17 题的重生成；其中 `t15–t17` 的 `group_id` 分别规范化为 `G-marketing-kline-000`、`G-research-query-000`、`G-coding-parser-000`）。
 
-*(注：11-16 起 [`data/`](../data/) 目录已开始引入 `ChinaTravel`、`AssistantBench`、`deepsearchqa` 等开源日常搜索基准，用于后续 V2 扩充。)*
+*(注：V2 扩库已启动，[`naq_50/`](../naq_50/) 中现已构建好前 **25 条**日常/真实搜索型任务 `id: 51–75`——包含出行规划 9 题、教育求学与职场 8 题、文娱体育与文化生活 8 题；另有 [`baseline_task_50/evaluation_only/`](../baseline_task_50/evaluation_only/) 补充保存了第 18–31 题 SWE-bench 与 τ²-bench 的官方评测真值。)*
 
 ### 1.1 五大任务领域与来源溯源
 
@@ -48,7 +48,7 @@ HW-IF-Bench 采用 **反默认（Anti-Default）** 思路来生成约束：
 
 ## 三、约束的类别划分：已生成数据 vs 最新版生成器
 
-> **接手必知的版本关系**：旧版 17 组（[`benchmark_groups_17.json`](../baseline_fingerprint/benchmark_groups_17.json)）由 **v4.3 / v4.4** 与早期原型产出；仓库里的 [`benchmark-group-generator/`](../benchmark-group-generator/) 为 **v5.8**；而 11-14 合入的新版全量 250 条（[`benchmark_baseline_all_20261111_155505.json`](../baseline_fingerprint/benchmark_baseline_all_20261111_155505.json)）则是**外部比本地 v5.8 更新一版的生成器**用单约束模式产出的（多出了 6 个本地代码尚未合入的 `workflow_*` 算子）。
+> **接手必知的版本关系**：旧版 17 组（[`benchmark_groups_17.json`](../baseline_fingerprint/benchmark_groups_17.json)）由 **v4.3 / v4.4** 与早期原型产出；而目前仓库内的 [`benchmark-group-generator/`](../benchmark-group-generator/) **已同步升级到修订版 v5.10（46 种策略、25 个指令族，参见 [`指令种类说明.md`](../benchmark-group-generator/指令种类说明.md)）**，与 [`benchmark_baseline_all_20261111_155505.json`](../baseline_fingerprint/benchmark_baseline_all_20261111_155505.json) 及 `20261110` 版实现完全对齐。
 
 ### 3.1 Phase 1 实际数据里实际用到的约束（偏少且集中）
 
@@ -60,9 +60,9 @@ HW-IF-Bench 采用 **反默认（Anti-Default）** 思路来生成约束：
   5. **必含章节**（8 次，`section_content`）：要求最终回答必须有指定二级标题且内容不为空（如 `## 政策依据`、`## Reliance limits`）。
 - **第 15–17 题（16 个变体，`earlier_3` 原型题）**：带有专项约束，如 K 线去掉背景网格、K 线改用绿涨红跌、搜索禁止用百家号、同一网页最多抓取 2 次、只改目标函数不能改 `__main__` 示例入口、网页/代码注释里的间接提示词注入防御。
 
-### 3.2 最新版生成器 v5.8 支持的 40 种约束策略（按功能分组）
+### 3.2 最新版生成器 v5.10 支持的 46 种约束策略（按功能分组）
 
-v5.8（清单在 [`policy_catalog.json`](../benchmark-group-generator/policy_catalog.json)）把可自动校验的约束扩充到了 **40 种策略（`kind`），归属 25 个指令族（`family`）**。按实际作用可分为 5 大类：
+v5.10（清单在 [`policy_catalog.json`](../benchmark-group-generator/policy_catalog.json) 与 [`指令种类说明.md`](../benchmark-group-generator/指令种类说明.md)）把可自动校验的约束扩充到了 **46 种策略（`kind`），归属 25 个指令族（`family`）**。按实际作用可分为 5 大类：
 
 #### ① 控制“最终回答怎么写”（14 种，只检查 `final_answer` 文本）
 - **篇幅与排版**：`answer_length`（总字符上限）、`paragraph_range`（空行分段块数范围）、`no_markdown_table`（禁 Markdown 表格）、`no_lists`（禁项目符号/编号列表）、`no_code_fences`（禁三反引号代码围栏）
@@ -84,19 +84,20 @@ v5.8（清单在 [`policy_catalog.json`](../benchmark-group-generator/policy_cat
 - `artifact_count`：实际交付的文件数量必须在 `[min, max]` 范围内。
 - `artifact_extensions`：至少交付 1 个文件，且扩展名必须在白名单内（如 `[".md", ".csv"]`）。
 
-#### ⑤ 高阶能力与多步工作流约束（11 种，**依赖运行平台提供额外采集适配器**）
+#### ⑤ 高阶能力与多步工作流约束（17 种，部分依赖运行平台提供额外采集适配器）
 - **早期专用扩展**（4 种，需 `capabilities` + `metrics.*` 适配器）：`chart_no_grid`（渲染图无网格）、`chart_colors`（K 线绿涨红跌）、`first_round_readonly`（第一轮只读探查，第二轮才能写）、`modify_via_python`（必须通过 Python 沙箱桥接改文件，禁止 `file_edit`）。
 - **引用溯源**（1 种）：`evidence_refs`（答复里必须用 `[证据:调用ID]` 引用至少 N 个成功工具调用，需运行时模型可见调用 ID）。
-- **v5.4 流程策略**（6 种，见 [`workflow_policies.py`](../benchmark-group-generator/workflow_policies.py)）：
-  - 仅依赖 `trace.calls[0]` 的 2 种：`workflow_catalog_first`（先查目录工具）、`workflow_plan_first`（先调 `task_planning`）；
+- **v5.10 流程策略**（12 种，见 [`workflow_policies.py`](../benchmark-group-generator/workflow_policies.py)）：
+  - 仅依赖 `trace.calls[0]` 首位工具的 2 种：`workflow_catalog_first`（先查目录工具）、`workflow_plan_first`（先调 `task_planning`）；
+  - **v5.10 新增多阶段工具流（6 种，只需常规 `trace.calls` 有序工具名即可自证，无需额外适配器）**：`workflow_locate_read`（先定位再读文件）、`workflow_workspace_read`（先查工作区再读文件）、`workflow_search_fetch`（先搜索再抓取网页）、`workflow_locate_read_run`（定位 → 读取 → 执行/验证）、`workflow_workspace_locate_read`（环境检查 → 定位 → 读取）、`workflow_plan_locate_read`（任务规划 → 定位 → 读取）；
   - 依赖有序运行事件流 `trace.events` 的 4 种：`workflow_plan_progress`（先发复选框计划，每 N 次调用更新 `[进度]` 和 `关键信息`）、`workflow_readonly_probe`（任何写操作前必须有成功的只读探查）、`workflow_tool_discovery`（先查工具目录并口头说明选用理由）、`workflow_approval_gate`（任何写入前必须列出目标文件并等待真实用户确认）。
 
 ### 3.3 新版全量 250 条数据（`benchmark_baseline_all_20261111_155505.json`）的约束分布
 
 新版全量数据虽然同样覆盖 50 道基础题，但约束构成与旧版 `groups_17` 发生显著转向——从“限字数/禁域名”全面转向 **Agent 工具执行过程与预算控制**：
 - **高频指令族**（250 条变体中）：`process-staging`（49）、`resource-budget`（47）、`tool-sequencing`（42）、`tool-policy`（35）、`artifact-form`（25）、`layout-control`（13）、`response-contract`（11）；而旧版占大头的 `source-policy` 降为 3 条、`scope-limit` 为 0 条。
-- **6 个外部新增 `workflow_*` 算子**：全量数据中有 **57 条 IF 规则**使用了本仓库尚未合入的流程顺序算子（`workflow_locate_read_run` 22 条、`workflow_workspace_locate_read` 19 条、`workflow_workspace_read` 5 条、`workflow_plan_locate_read` 4 条、`workflow_search_fetch` 4 条、`workflow_locate_read` 3 条）。
-- **思考过程约束现状**：当前全量数据仍主要约束**输出产物**和**外部工具执行过程**，针对模型内部/前置**思考过程内容（`reasoning_content`）**的约束仍为空白。
+- **全量校验已对齐**：用同步后的 `v5.10` [`generator.py`](../benchmark-group-generator/generator.py) 实测校验 [`benchmark_baseline_all_20261111_155505.json`](../baseline_fingerprint/benchmark_baseline_all_20261111_155505.json) 与 [`benchmark_baseline_all_20261110_215942.json`](../baseline_task_50/benchmark_baseline_all_20261110_215942.json) 中的全部 **250 条 IF 规则**，均为 **0 报错通过**。
+- **思考过程约束现状**：当前 46 种策略与全量 250 条数据仍主要约束**输出产物**和**外部工具执行过程**，针对模型内部/前置**思考过程内容（`reasoning_content`）**的约束仍为空白。
 
 ---
 

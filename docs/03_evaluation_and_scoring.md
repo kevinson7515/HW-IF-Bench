@@ -18,7 +18,10 @@
 | [`pangu92b.patch.yml`](../dsh-config/pangu92b.patch.yml) | `pangu92b_wandr` | 262K / 32K（含压缩配置） | 已跑 `benchmark-pangu92b-17`（100 变体） |
 | [`pangu.patch.yml`](../dsh-config/pangu.patch.yml) | `openPangu-v21-pro` | 524K / 32K（声明纯文本+视觉工具引导） | **仅配置了文件，尚未开跑** |
 
-> **注意**：本仓库里的 [`deepseek-harness/`](../deepseek-harness/) 目前是一个空的 Git submodule 指针（`d743267`），实际执行脚本不在此目录中。
+> **注意（11-17 审阅新同步的 [`deepseek-harness/`](../deepseek-harness/) 源码发现）**：
+> - `deepseek-harness/` 现已合入完整自定义批处理框架：包含 Slurm 入口 [`run.sh`](../deepseek-harness/run.sh) / `run_{deepseek,glm,pangu,pangu92b}.sh`、工具补丁 [`batch-tools.patch.yml`](../deepseek-harness/batch-tools.patch.yml)（Serper 检索、E2B MCP、Pangu 视觉桥接）、工作区字节级保护与恢复脚本 [`scripts/run-benchmark.py`](../deepseek-harness/scripts/run-benchmark.py) 以及可选 Qwen 模拟用户 [`scripts/dsh_simulated_user.py`](../deepseek-harness/scripts/dsh_simulated_user.py)。
+> - **⚠️ 最核心阻塞项**：当前这版 [`run-benchmark.py`](../deepseek-harness/scripts/run-benchmark.py#L546-L553) 与 [`benchmark.README.zh.md`](../deepseek-harness/scripts/benchmark.README.zh.md#L42-L44) **刻意禁用了系统提示词覆盖与冲突注入**：它虽然会把 `effective_system_prompt` 存成 `variant_system_prompt.txt`，但**不生成也不加载 `prompt.patch.json`**（标记 `variant_system_prompt_applied: false`），同时在 `load_cases()` 中将 `user_query_append_applied` 和 `environment_override_applied` 写死为 `False`。如果不恢复注入逻辑就直接拿这版脚本开跑，所有 S1–S5 变体实际上都在重复跑同一份无约束基线！
+> - 另外，[`deepseek-harness/user_query_70.jsonl`](../deepseek-harness/user_query_70.jsonl)（由 `run_70.sh` 调用）是一套独立于本项目 `user_query_50.jsonl` 的 Harness 端测试集，注意勿混淆。
 
 ### 1.2 每次跑完一个变体，磁盘上会留下什么文件？
 
@@ -32,7 +35,7 @@
 | `trace.jsonl` | 按行记录的事件流（含每次 `tool_call` 的工具名和入参，以及模型开启推理时的 `type: "thinking"` 事件） | [`rubric_program.py`](../scoring/rubric_program.py) 解析调用次数、顺序和域名 |
 | `trace.json` | 对话历史投影 JSON（含工具返回内容，标有 `lossless` 是否无损；DeepSeek/GLM/Pangu 均保留了 `reasoning_content` 思考过程字段） | [`deepseek_judge.py`](../scoring/deepseek_judge.py) 发送给裁判模型做语义评审 |
 | `artifacts.json` 与 `artifacts/` | 工作区变动清单（新增/修改/删除了哪些文件及 SHA-256）以及实际保存出来的产物文件 | 检查 `output/` 交付目录、提取 `parser.py` 做 AST 对比、传给视觉模型看 K 线图 |
-| *(缺失)* 根目录 `results.jsonl` | 正常每次批量运行根目录应有一份汇总各变体 `result.json` 的总表 | [`run_scoring.py`](../scoring/run_scoring.py) 靠它扫描运行目录，**但当前 3 个 17 题模型目录都缺了这个文件** |
+| *(历史缺失 / 新版已有)* 根目录 `results.jsonl` | 批量运行根目录汇总各变体 `result.json` 的总表（供 [`run_scoring.py`](../scoring/run_scoring.py) 扫描） | **Phase 1 旧 3 个目录均缺此文件**；新版 [`run-benchmark.py`](../deepseek-harness/scripts/run-benchmark.py) 已会自动生成 `results.jsonl` 与 `summary.json` |
 
 ---
 
@@ -51,7 +54,7 @@
 
 ### 2.2 第二维：TC（任务完成度，权重 0.4，LLM Judge 判定）
 
-- **怎么判**：由 [`deepseek_judge.py`](../scoring/deepseek_judge.py) 把题面、最终回复 `final.txt`、轨迹 `trace.json` 和文本/图片产物打包发给裁判模型（或通过 `--judgments` 导入人工裁决）。
+- **怎么判**：由 [`deepseek_judge.py`](../scoring/deepseek_judge.py) 把题面、最终回复 `final.txt`、轨迹 `trace.json` 和文本/图片产物打包发给裁判模型（或通过 `--judgments` 导入人工裁决）。此外，第 18–31 题的官方客观测试依据已放在 [`baseline_task_50/evaluation_only/`](../baseline_task_50/evaluation_only/)（SWE-bench 补丁单测与 τ²-bench 业务断言），第 51–75 题 V2 扩库真值放在 [`naq_50/tc_ground_truth_50.jsonl`](../naq_50/tc_ground_truth_50.jsonl)。
 - **四档结论**：
   - `FULL` → 得全部分（乘以 `1.0`，即 `0.4`）
   - `PARTIAL` → 得一半分（乘以 `0.5`，即 `0.2`）
@@ -104,8 +107,8 @@ $$\text{weighted\_score} = \max(0,\; \text{IF} + \text{TC} + \text{SE})$$
 
 ## 四、当前评分器已知限制（接手必踩坑清单）
 
-1. **新旧算子严重断层（跨三版）**：[`rubric_program.py`](../scoring/rubric_program.py#L138-L188) 目前**只实现了 7 个算子**（`eq`、`length_le`、`count_eq`、`count_le`、`section_content`、`all_prefix`、`sources_allowed`）。本地生成器 v5.8 新增的 33 种策略送进来会变成 `unjudgeable`；更进一步，11-14 合入的 [`benchmark_baseline_all_20261111_155505.json`](../baseline_fingerprint/benchmark_baseline_all_20261111_155505.json) 里还有 **57 条 IF 规则使用了 6 个连本地 `generator.py` 都没定义的新 `workflow_*` 算子**，直接校验会报 `未知 op`。
-2. **D 档送达只认环境变量，不认用户追加**：[`injection_delivered()`](../scoring/score_benchmark.py#L371-L385) 只去查 `environment_override` 和 `injection_events.jsonl`，完全没有检查 `user_query_append`，导致用户侧冲突题会被误判为 `not_applicable`。
+1. **评分器与生成器之间仍有 39 种算子断层**：[`scoring/rubric_program.py`](../scoring/rubric_program.py#L138-L188) 目前**只实现了 7 个基础算子**（`eq`、`length_le`、`count_eq`、`count_le`、`section_content`、`all_prefix`、`sources_allowed`）。目前 [`benchmark-group-generator/`](../benchmark-group-generator/) 已升级至 **v5.10（46 种策略）** 且已完整验证 [`benchmark_baseline_all_20261111_155505.json`](../baseline_fingerprint/benchmark_baseline_all_20261111_155505.json) 与 `20261110` 版全部 250 条 IF 规则（0 报错），但把新规则送进现有 `scoring/` 时仍会变成 `unjudgeable`，需要让 `scoring/` 直接桥接或同步 v5.10 的 `evaluate_rule()` 逻辑。
+2. **D 档送达只认环境变量，不认用户追加**：[`injection_delivered()`](../scoring/score_benchmark.py#L371-L385) 只去查 `environment_override` 和 `injection_events.jsonl`，完全没有检查 `user_query_append`，导致用户侧冲突题会被误判为 `not_applicable`；同时执行器 [`run-benchmark.py`](../deepseek-harness/scripts/run-benchmark.py#L146-L147) 目前也并未注入 `user_query_append`。
 3. **LLM 评判 IF 的状态映射 Bug**：[`score_benchmark.py#L530`](../scoring/score_benchmark.py#L530) 把 `method="llm_judge"` 的 IF 项映射成了 `triggered`/`clear`，而汇总器要求 `pass`/`fail`，所以目前 IF 只能写 `program` 项。
 4. **程序复核项不会被 Judge 自动消费**：[`deepseek_judge.py#L269`](../scoring/deepseek_judge.py#L269) 会跳过 `method="program_review"` 的项，遇到 `unjudgeable` 必须补全证据或人工写入 `manual_judgments.jsonl`。
 5. **新版 250 条 TC 证据面偏窄 + 尚未提取思考过程**：新版 [`benchmark_baseline_all_20261111_155505.json`](../baseline_fingerprint/benchmark_baseline_all_20261111_155505.json) 中有 **195 / 250 条（39 题）** 将 `TC` 的 `evidence_paths` 设为仅 `["final_answer"]`（包含部分代码修复题，未纳入 `workspace_diff`）；同时尽管三模型日志 `trace.json` 均记录了 `reasoning_content`，现有评分器尚未实现针对“行动前思考过程”的截断抽取与语义评判适配器。

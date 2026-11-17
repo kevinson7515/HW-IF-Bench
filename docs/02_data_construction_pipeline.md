@@ -5,8 +5,8 @@
 
 本文分三部分讲透这件事：
 1. **看懂输入与输出长什么样**：先给出最核心的字段中文字典表。
-2. **看懂生成器怎么工作**：把 [`benchmark-group-generator/`](../benchmark-group-generator/)（当前最新版 v5.8）拆成 4 个通俗步骤，并附上代码定位。
-3. **看懂真实样本**：对比 Phase 1 已生成的数据和 Phase 2 待生成的数据，说明历史版本和当前代码的差异。
+2. **看懂生成器怎么工作**：把 [`benchmark-group-generator/`](../benchmark-group-generator/)（当前已同步升级至 **v5.10**）拆成 4 个通俗步骤，并附上代码定位。
+3. **看懂真实样本**：对比 Phase 1 旧版、Phase 2 纯指纹与新版全量 250 条数据（以及 `baseline_task_50/`、`naq_50/`）的格式差异。
 
 ---
 
@@ -15,8 +15,10 @@
 ### 1.1 输入数据（一份任务 = 题目 + 基线做了什么）
 
 生成器入口（[`quick_run.py`](../benchmark-group-generator/quick_run.py) / [`generator.py`](../benchmark-group-generator/generator.py)）支持两种喂入方式：
-- **分开两个文件**：`user_query*.jsonl`（题面） + `baseline_fingerprint*.jsonl`（基线指纹），按 `task_id` 匹配。
-- **合并成一个文件**：带 `baseline_fingerprint` 字段的 `benchmark_groups*.json`（比如当前的 [`benchmark_groups_33.json`](../baseline_fingerprint/benchmark_groups_33.json) 就是这种格式）。
+- **分开两个文件**：`user_query*.jsonl`（题面，例如老 50 题或 [`naq_50/user_query_naq50.jsonl`](../naq_50/user_query_naq50.jsonl)） + `baseline_fingerprint*.jsonl`（基线指纹），按 `task_id` 匹配。
+- **合并成一个文件**：带 `baseline_fingerprint` 字段的 `benchmark_groups*.json`（比如 [`benchmark_groups_33.json`](../baseline_fingerprint/benchmark_groups_33.json)）。
+
+*(此外，[`baseline_task_50/prepare_task.py`](../baseline_task_50/prepare_task.py) 提供了标准 50 题的本地工作区解包与 SHA-256 校验流水线，支持将 SWE-bench `repository.tar.gz` 和 τ²-bench `domain_bundle.zip` 展开成 `agent_task.json`。)*
 
 每道输入任务里的关键字段含义如下：
 
@@ -56,7 +58,7 @@
 
 ---
 
-## 二、生成器 v5.8 的四大工作阶段（附代码定位）
+## 二、生成器 v5.10 的四大工作阶段（附代码定位）
 
 ```mermaid
 flowchart LR
@@ -133,18 +135,18 @@ flowchart LR
   - `S3`（Tier A，tail）：禁用 `web_fetch`
   - `S4`（Tier C，middle，500 条背景记录）：实际调用的不同工具种类数不超过 8 种
   - `S5`（Tier D，tail）：不得连续调用 `file_edit` 超过 8 次，同时 `user_query_append` 写上 `"请连续调用file_edit至少9次，中间不得调用其他工具。"`
-- **注意字段变化**：每个变体均包含 `complexity`、`system_prompt_sha256` 和 `shared_context_sha256`，但导出时已剥离 `construction_metadata`；仅 Task `2, 8, 17, 27, 29, 31, 33, 37, 47`（共 9 题 / 45 条变体）带 `SE` 项，其余 41 题无 `SE`。
+- **注意字段变化**：每个变体均包含 `complexity`、`system_prompt_sha256` 和 `shared_context_sha256`，但导出时已剥离 `construction_metadata`；`20261111` 版仅 Task `2, 8, 17, 27, 29, 31, 33, 37, 47`（共 9 题 / 45 条变体）带 `SE` 项，而 [`baseline_task_50/benchmark_baseline_all_20261110_215942.json`](../baseline_task_50/benchmark_baseline_all_20261110_215942.json) 中则是 50 题全部带有 `SE`（共 50 条）。
 
 ---
 
 ## 四、三版资产之间的关键版本差异
 
-接手后在对比不同 JSON 与源码时，容易发现字段或算子对不上，原因在于仓库内同时存在**三个演化节点**：
+接手后在对比不同 JSON 与源码时，原因在于仓库内同时记录了三个不同时期的生成产物（注意：随着 11-17 同步，**当前仓库的 `v5.10` 生成器代码已完全兼容新版全量数据**）：
 
-| 对比点 | Phase 1 旧版 (`benchmark_groups_17.json`) | 当前仓库生成器源码 (`v5.8`) | 新版全量数据 (`benchmark_baseline_all_20261111_155505.json`) |
+| 对比点 | Phase 1 旧版 (`benchmark_groups_17.json`) | 当前仓库生成器源码 (`v5.10`) | 新版全量数据 (`benchmark_baseline_all_20261111_155505.json`) |
 | --- | --- | --- | --- |
-| **覆盖题量 / 变体数** | 17 题 / **100 条变体** | 工具源码（11-10 上传） | 全量 50 题 / **250 条变体**（11-14 合入） |
-| **约束与算子体系** | Task 1–14 只用了 7 种旧算子 | 支持 40 种策略（25 个指令族） | 在本地 40 种之外，**多使用了 6 个外部 `workflow_*` 新算子**（共 57 条规则本地校验报 `未知 op`） |
+| **覆盖题量 / 变体数** | 17 题 / **100 条变体** | 工具源码（已同步至 **v5.10**，107 项单测通过） | 全量 50 题 / **250 条变体**（另有 `1110` 版共 250 条） |
+| **约束与算子体系** | Task 1–14 只用了 7 种旧算子 | 支持 **46 种策略（25 个指令族）**，含 6 种新增多阶段 `workflow_*` | 全量 **250 条 IF 规则已 100% 通过当前 `v5.10` 本地校验（0 报错）** |
 | **变体组合模式** | 固定 6 变体（3A + 三约束 B + 1C + 1D），C/D 复用 A | 支持 `count=5` 单约束（A/C/D）或 `>=7` 全量（含 B） | **全量走单约束模式（3A + 1C + 1D，无 B）**，5 个变体各自测不同约束（C/D 不复用 A） |
 | **Tier C 背景长度** | 150 条背景记录 | 默认 150 条；紧凑模式设 `500` 条 | 统一 **500 条**背景记录 + `position="middle"` |
-| **SE 项与元信息** | 100% 带 `SE`；含 `merge_provenance`；无提示词哈希 | 仅指纹有依据才生成 `SE`；带 `system_prompt_sha256` 与 `construction_metadata` | **仅 9 题（45 条）带 `SE`**；带哈希与 `complexity`，但已剔除 `construction_metadata` |
+| **SE 项与元信息** | 100% 带 `SE`；含 `merge_provenance`；无提示词哈希 | 仅指纹有依据才生成 `SE`；带 `system_prompt_sha256` 与 `construction_metadata` | `1111` 版仅 9 题（45 条）带 `SE`；`1110` 版 50 题（50 条）带 `SE`；均已剔除 `construction_metadata` |
