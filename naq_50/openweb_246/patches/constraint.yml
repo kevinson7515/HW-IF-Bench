@@ -1,0 +1,3 @@
+- id: system-prompt
+  config:
+    personaSuffix: !!js process.env.DSH_NESTED_CONSTRAINT

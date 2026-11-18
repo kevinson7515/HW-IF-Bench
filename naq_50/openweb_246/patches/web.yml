@@ -1,0 +1,22 @@
+- id: web
+  config:
+    searchProvider: serper
+    imageSearchProvider: serper
+    fetchProvider: http
+
+- id: web-search-deepseek
+  disabled: true
+
+- id: tool-web
+  config:
+    search: true
+    fetch: true
+    imageSearch: false
+    searchTimeoutMs: 60000
+
+- insert:
+    - id: web-search-serper
+      name: '@deepseek-ai/dsh-web-search-serper'
+      config:
+        baseURL: !!js process.env.SERPER_BASE_URL
+        authMode: !!js process.env.SERPER_AUTH_MODE
