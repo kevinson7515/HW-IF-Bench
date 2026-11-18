@@ -9,7 +9,7 @@ English | [中文](README.zh.md)
 
 ## Summary
 
-Use this package when a deployment searches through a Serper-compatible gateway instead of DeepSeek search. It registers text and image providers for the existing `web_search` tool and the optional `image_search` tool. Their result limits, timeouts, presentation, and session logging remain owned by `dsh-tool-web`. A missing API key makes both providers unavailable.
+Use this package when a deployment searches through a Serper-compatible gateway instead of DeepSeek search. It registers a provider for `web_search` and adds a provider for `image_search` when the web service supports image registration. Their result limits, timeouts, presentation, and session logging remain owned by `dsh-tool-web`. A missing API key makes both providers unavailable.
 
 ## Table of Contents
 
@@ -67,7 +67,7 @@ The [configuration catalog](../../../docs/config-catalog.md#deepseek-aidsh-web-s
 <details>
 <summary>Implementation internals — click to expand</summary>
 
-The provider validates the gateway origin when mounted and registers both capabilities with `ctx.web`. Text search accepts only an `organic` array and keeps HTTP(S) source links with optional titles and snippets. Image search accepts only an `images` array and keeps HTTP(S) image, thumbnail, and source-page URLs. `src/index.ts` owns configuration; `src/request.ts` owns shared HTTP behavior; `src/provider.ts` and `src/image-provider.ts` map the respective results.
+The provider validates the gateway origin when mounted and registers available capabilities with `ctx.web`. Text search accepts only an `organic` array and keeps HTTP(S) source links with optional titles and snippets. Image search accepts only an `images` array and keeps HTTP(S) image, thumbnail, and source-page URLs. `src/index.ts` owns configuration; `src/request.ts` owns shared HTTP behavior; `src/provider.ts` and `src/image-provider.ts` map the respective results.
 
 </details>
 

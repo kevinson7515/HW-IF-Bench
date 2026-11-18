@@ -137,6 +137,13 @@ describe('Serper provider', () => {
     await expect(ctx.web.search({ query: 'ships' })).rejects.toThrow(expect.objectContaining({ code: 'WEB_PROVIDER_CONFIGURED_MISSING' }))
   })
 
+  it('registers text search on a runtime without the image search API', () => {
+    const registerSearchProvider = vi.fn()
+    const ctx = { web: { registerSearchProvider } } as unknown as Context
+    serperPlugin.apply(ctx, options)
+    expect(registerSearchProvider).toHaveBeenCalledExactlyOnceWith(expect.objectContaining({ id: 'serper' }))
+  })
+
   it('registers both search capabilities through the plugin fiber', async () => {
     vi.stubGlobal('fetch', vi.fn(async (url: string) => jsonResponse(url.endsWith('/images') ? { images: [] } : { organic: [] })))
     const ctx = new Context()

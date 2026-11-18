@@ -90,7 +90,9 @@ python3 assess.py ./runs/openweb --reference /path/to/DSQA-full.csv --judge
 | `run.py` | `--profile` 选 DSH profile，`--dsh` 选可执行文件，`--workers` 控制并发，`--timeout` 以秒计，`--seed` 固定调度。生成 `schedule.json` 和 `policies.json`。实际运行还生成 `attempt_index.jsonl`、`run_summary.json` 及各会话工作目录。 |
 | `assess.py` | 接收已完成的运行目录。默认执行轨迹评分，`--judge` 打开答案评分并要求 `--reference`，`--workers` 控制评分并发。生成或更新 `assessment.jsonl` 和 `assessment_summary.json`。只传 `--reference` 可校验参考快照及题面。 |
 
-运行环境为 Linux、Python 3.9+、GNU `timeout` 和 DSH。DSH profile 需加载 headless 工具并能解析 `@deepseek-ai/dsh-web-search-serper`。参考 CSV 取自 `common.py` 指定的 DeepSearchQA 版本。 [固定版本 CSV](https://huggingface.co/datasets/google/deepsearchqa/resolve/b2623f8653065c2672de6d941fc5434cd652376c/DSQA-full.csv)
+运行环境为 Linux、Python 3.9+、GNU `timeout` 和 DSH。DSH profile 需加载 headless 工具并安装仓库内的 Serper 插件。该插件在 DSH `0.2.2-rc.1` 上注册文字搜索，在支持图片注册的版本上同时注册图片搜索。本 pipeline 通过网页配置启用文字搜索和抓取。 [Serper 插件源码](../../deepseek-harness/packages/web/web-search-serper/) · [DSH 插件安装说明](../../deepseek-harness/docs/user/develop/basic/publish.zh.md)
+
+参考 CSV 取自 `common.py` 指定的 DeepSearchQA 版本。 [固定版本 CSV](https://huggingface.co/datasets/google/deepsearchqa/resolve/b2623f8653065c2672de6d941fc5434cd652376c/DSQA-full.csv)
 
 | 配置 | 环境变量 |
 | --- | --- |

@@ -42,7 +42,7 @@ export const Config: z<Config> = z.object({
   language: z.string(),
 })
 
-/** Register Serper for both text and image searches on the shared web service. */
+/** Register text search and add image search when the web service supports it. */
 export function apply(ctx: Context, config: Config): void {
   const options = {
     apiKey: config.apiKey ?? launchEnvironmentOf(ctx).get('SERPER_API_KEY')?.value ?? '',
@@ -52,5 +52,5 @@ export function apply(ctx: Context, config: Config): void {
     ...config.language === undefined ? {} : { language: config.language },
   }
   ctx.web.registerSearchProvider(new SerperSearchProvider(options))
-  ctx.web.registerImageSearchProvider(new SerperImageSearchProvider(options))
+  ctx.web.registerImageSearchProvider?.(new SerperImageSearchProvider(options))
 }

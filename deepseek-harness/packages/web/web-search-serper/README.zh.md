@@ -9,7 +9,7 @@ kind: "package-reference"
 
 ## 概述
 
-部署需要通过 Serper 兼容网关而非 DeepSeek 搜索时，可以使用此包。它为现有 `web_search` 和可选的 `image_search` 工具注册文本与图像提供方。结果上限、超时、呈现方式和会话记录仍由 `dsh-tool-web` 负责。缺少 API 密钥时，两种提供方均不可用。
+部署需要通过 Serper 兼容网关而非 DeepSeek 搜索时，可以使用此包。它为 `web_search` 注册文本提供方，并在网页服务支持图像注册时为 `image_search` 注册图像提供方。结果上限、超时、呈现方式和会话记录仍由 `dsh-tool-web` 负责。缺少 API 密钥时，两种提供方均不可用。
 
 ## 目录
 
@@ -67,7 +67,7 @@ kind: "package-reference"
 <details>
 <summary>实现内部细节——点击展开</summary>
 
-提供方挂载时校验网关源地址，并把两种能力注册到 `ctx.web`。文本搜索仅接受 `organic` 数组，保留带可选标题与摘要的 HTTP(S) 来源链接。图像搜索仅接受 `images` 数组，保留 HTTP(S) 图像、缩略图与来源页面 URL。`src/index.ts` 负责配置，`src/request.ts` 负责共用 HTTP 行为，`src/provider.ts` 与 `src/image-provider.ts` 分别映射结果。
+提供方挂载时校验网关源地址，并把可用能力注册到 `ctx.web`。文本搜索仅接受 `organic` 数组，保留带可选标题与摘要的 HTTP(S) 来源链接。图像搜索仅接受 `images` 数组，保留 HTTP(S) 图像、缩略图与来源页面 URL。`src/index.ts` 负责配置，`src/request.ts` 负责共用 HTTP 行为，`src/provider.ts` 与 `src/image-provider.ts` 分别映射结果。
 
 </details>
 
