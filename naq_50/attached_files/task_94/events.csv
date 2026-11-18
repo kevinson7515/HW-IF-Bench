@@ -1,0 +1,7 @@
+event_id,city,month,attendees,venue
+E1,Austin,March,1200,Central Hall
+E2,Austin,March,800,Riverside Pavilion
+E3,Austin,April,2400,Central Hall
+E4,Portland,March,600,Civic Center
+E5,Portland,March,950,Meadow Grounds
+E6,Portland,May,1400,Civic Center

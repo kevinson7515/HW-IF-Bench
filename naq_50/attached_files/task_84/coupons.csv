@@ -1,0 +1,4 @@
+coupon_code,discount_percent,min_spend_usd
+SAVE10,10,100.00
+SAVE20,20,200.00
+SAVE30,30,300.00

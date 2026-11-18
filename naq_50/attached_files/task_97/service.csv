@@ -1,0 +1,5 @@
+route,limited_service
+R1,no
+R2,yes
+R3,no
+R4,no
