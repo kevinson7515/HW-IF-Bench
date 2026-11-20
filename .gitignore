@@ -1,4 +1,6 @@
 .secrets/
 data/
+scripts/
+dsh-runs/
 __pycache__/
 *.py[cod]

@@ -116,12 +116,17 @@ export DSH_BENCHMARK_JOURNAL="$LOCK_ROOT/deepseek-harness-$repo_lock_id.benchmar
 export DSH_BENCHMARK_LOCK_FILE="$LOCK_ROOT/deepseek-harness-$repo_lock_id.lock"
 [[ ! -e "$DSH_BENCHMARK_JOURNAL" ]] || die "a benchmark workspace needs recovery; see $DSH_BENCHMARK_JOURNAL before starting another job"
 
-proxy_url="${DSH_HTTP_PROXY:-http://174.0.250.13:3128}"
-export http_proxy="$proxy_url"
-export https_proxy="$proxy_url"
-export HTTP_PROXY="$proxy_url"
-export HTTPS_PROXY="$proxy_url"
-export NODE_USE_ENV_PROXY="${NODE_USE_ENV_PROXY:-1}"
+proxy_url="${DSH_HTTP_PROXY-http://174.0.250.13:3128}"
+if [[ -n "$proxy_url" ]]; then
+  export http_proxy="$proxy_url"
+  export https_proxy="$proxy_url"
+  export HTTP_PROXY="$proxy_url"
+  export HTTPS_PROXY="$proxy_url"
+  export NODE_USE_ENV_PROXY="${NODE_USE_ENV_PROXY:-1}"
+else
+  unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY E2B_PROXY || true
+  export NODE_USE_ENV_PROXY=0
+fi
 
 load_secret() {
   local variable_name="$1"
@@ -305,7 +310,8 @@ fi
 
 export SERPER_BASE_URL="${SERPER_BASE_URL:-https://yibuapi.com}"
 export SERPER_AUTH_MODE="${SERPER_AUTH_MODE:-auto}"
-export E2B_PROXY="${E2B_PROXY:-$proxy_url}"
+e2b_proxy="${E2B_PROXY-$proxy_url}"
+export E2B_PROXY="${e2b_proxy}"
 export DSH_E2B_PROJECTS_FILE="${DSH_E2B_PROJECTS_FILE:-$REPO_ROOT/scripts/config/e2b-projects.json}"
 [[ -r "$DSH_E2B_PROJECTS_FILE" ]] || die "E2B project configuration is not readable: $DSH_E2B_PROJECTS_FILE"
 

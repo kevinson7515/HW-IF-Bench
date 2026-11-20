@@ -1,5 +1,0 @@
-route,from,to,fare_usd,duration_min
-R1,North Station,Central,2.50,25
-R2,North Station,Central,3.00,15
-R3,North Station,Central,1.75,40
-R4,East Side,Central,2.00,20
