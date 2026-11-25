@@ -1,0 +1,545 @@
+# HW-IF-Bench Workflow Seed Library (v1.0)
+# Declarative seed catalog covering:
+#   - Primitive I:   Variable-length Stage Chains (chain, L in {2, 3, 4, 5}, first_occurrence_order)
+#   - Primitive II:  Universal Precondition Invariants (invariant, forall calls/turns)
+#   - Primitive III: Cadence, Parallelism & Resource Gates (cadence)
+#   - Primitive IV:  Conditional Branches & Milestones (conditional)
+#   - Thinking:      Pure Cognitive Control seeds (thinking)
+#   - Artifact:      Universal Output & Deliverable Contract seeds (artifact)
+#   - Inhibition:    Shortcut Inhibition seeds (inhibition)
+
+schema_version: "1.0"
+
+stages:
+  PLAN:
+    order: 1
+    default_tools: [task_planning]
+    zh_label: "显式规划"
+  ENV:
+    order: 2
+    default_tools: [cwd_inspect, sandbox_prepare, mcp_resource_list]
+    zh_label: "环境探查"
+  DISCOVER:
+    order: 3
+    web_tools: [web_search]
+    local_tools: [file_glob, file_search]
+    zh_label: "检索定位"
+  CONSUME:
+    order: 4
+    web_tools: [web_fetch]
+    local_tools: [file_read]
+    zh_label: "内容读取"
+  COMPUTE:
+    order: 5
+    default_tools: [python_exec]
+    code_tools: [python_exec, file_edit]
+    zh_label: "沙箱计算/验证"
+  DELIVER:
+    order: 6
+    default_tools: [file_write, file_export]
+    code_tools: [file_edit, file_write, file_export]
+    zh_label: "结构化落盘交付"
+
+# Global quota targets for Tier A Process/Workflow slots (S1 + S2_workflow ~= 156/588 on 98 tasks)
+quota_targets:
+  primitive_share:
+    chain: 0.45
+    invariant: 0.20
+    cadence: 0.23
+    conditional: 0.12
+  chain_length_share:
+    2: 0.20
+    3: 0.35
+    4: 0.30
+    5: 0.15
+  tool_family_share:
+    local: 0.38
+    web: 0.30
+    compute: 0.22
+    agnostic: 0.10
+  max_single_seed_share: 0.10
+
+seeds:
+  # =========================================================================
+  # PRIMITIVE I: Variable-Length Stage Chains (16 seeds, L in {2, 3, 4, 5})
+  # Verifier semantics: first_occurrence_order (calls[0] in S1, all present,
+  # first_idx(S1) < first_idx(S2) < ... < first_idx(Sk))
+  # =========================================================================
+
+  # --- L = 2 (4 seeds) ---
+  - seed_id: CHAIN_L2_PLAN_DISCOVER
+    slot_pool: [S1]
+    axis: process_gating
+    primitive_type: chain
+    length_L: 2
+    abstract_stages: [PLAN, DISCOVER]
+    verifier_mode: first_occurrence_order
+    escalation_targets:
+      - CHAIN_L3_PLAN_DISCOVER_CONSUME
+      - CHAIN_L4_PLAN_DISCOVER_CONSUME_DELIVER
+      - CAD_PERIODIC_PLAN_UPDATE
+    conflict_tags: [first_tool_locked, requires_planning, uses_discover]
+    instr_types: [process-planning, process-staging]
+
+  - seed_id: CHAIN_L2_DISCOVER_CONSUME
+    slot_pool: [S1]
+    axis: process_gating
+    primitive_type: chain
+    length_L: 2
+    abstract_stages: [DISCOVER, CONSUME]
+    verifier_mode: first_occurrence_order
+    escalation_targets:
+      - INV_SOURCE_BEFORE_FETCH
+      - INV_LOCATE_BEFORE_READ
+      - CHAIN_L3_PLAN_DISCOVER_CONSUME
+      - CHAIN_L4_PLAN_DISCOVER_CONSUME_DELIVER
+    conflict_tags: [first_tool_locked, uses_discover, uses_consume]
+    instr_types: [process-staging]
+
+  - seed_id: CHAIN_L2_ENV_CONSUME
+    slot_pool: [S1]
+    axis: process_gating
+    primitive_type: chain
+    length_L: 2
+    abstract_stages: [ENV, CONSUME]
+    verifier_mode: first_occurrence_order
+    requires_local_or_compute: true
+    escalation_targets:
+      - CHAIN_L3_ENV_DISCOVER_CONSUME
+      - CHAIN_L4_PLAN_ENV_DISCOVER_CONSUME
+    conflict_tags: [first_tool_locked, uses_env, uses_consume]
+    instr_types: [process-staging]
+
+  - seed_id: CHAIN_L2_CONSUME_COMPUTE
+    slot_pool: [S1]
+    axis: process_gating
+    primitive_type: chain
+    length_L: 2
+    abstract_stages: [CONSUME, COMPUTE]
+    verifier_mode: first_occurrence_order
+    requires_computation: true
+    escalation_targets:
+      - CHAIN_L3_DISCOVER_CONSUME_COMPUTE
+      - CHAIN_L4_PLAN_DISCOVER_CONSUME_COMPUTE
+    conflict_tags: [first_tool_locked, uses_consume, uses_compute]
+    instr_types: [process-staging]
+
+  # --- L = 3 (5 seeds) ---
+  - seed_id: CHAIN_L3_PLAN_DISCOVER_CONSUME
+    slot_pool: [S1]
+    axis: process_gating
+    primitive_type: chain
+    length_L: 3
+    abstract_stages: [PLAN, DISCOVER, CONSUME]
+    verifier_mode: first_occurrence_order
+    escalation_targets:
+      - CHAIN_L4_PLAN_DISCOVER_CONSUME_DELIVER
+      - CHAIN_L4_PLAN_DISCOVER_CONSUME_COMPUTE
+      - CAD_PERIODIC_PLAN_UPDATE
+    conflict_tags: [first_tool_locked, requires_planning, uses_discover, uses_consume]
+    instr_types: [process-planning, process-staging]
+
+  - seed_id: CHAIN_L3_ENV_DISCOVER_CONSUME
+    slot_pool: [S1]
+    axis: process_gating
+    primitive_type: chain
+    length_L: 3
+    abstract_stages: [ENV, DISCOVER, CONSUME]
+    verifier_mode: first_occurrence_order
+    requires_local_or_compute: true
+    escalation_targets:
+      - CHAIN_L4_PLAN_ENV_DISCOVER_CONSUME
+      - CHAIN_L5_PLAN_ENV_DISCOVER_CONSUME_COMPUTE
+    conflict_tags: [first_tool_locked, uses_env, uses_discover, uses_consume]
+    instr_types: [process-staging]
+
+  - seed_id: CHAIN_L3_DISCOVER_CONSUME_COMPUTE
+    slot_pool: [S1]
+    axis: process_gating
+    primitive_type: chain
+    length_L: 3
+    abstract_stages: [DISCOVER, CONSUME, COMPUTE]
+    verifier_mode: first_occurrence_order
+    requires_computation: true
+    escalation_targets:
+      - CHAIN_L4_PLAN_DISCOVER_CONSUME_COMPUTE
+      - CHAIN_L4_DISCOVER_CONSUME_COMPUTE_DELIVER
+    conflict_tags: [first_tool_locked, uses_discover, uses_consume, uses_compute]
+    instr_types: [process-staging]
+
+  - seed_id: CHAIN_L3_DISCOVER_CONSUME_DELIVER
+    slot_pool: [S1]
+    axis: process_gating
+    primitive_type: chain
+    length_L: 3
+    abstract_stages: [DISCOVER, CONSUME, DELIVER]
+    verifier_mode: first_occurrence_order
+    escalation_targets:
+      - CHAIN_L4_PLAN_DISCOVER_CONSUME_DELIVER
+      - CHAIN_L5_PLAN_DISCOVER_CONSUME_COMPUTE_DELIVER
+    conflict_tags: [first_tool_locked, uses_discover, uses_consume, requires_deliver]
+    instr_types: [process-staging, artifact-deliverable]
+
+  - seed_id: CHAIN_L3_PLAN_CONSUME_DELIVER
+    slot_pool: [S1]
+    axis: process_gating
+    primitive_type: chain
+    length_L: 3
+    abstract_stages: [PLAN, CONSUME, DELIVER]
+    verifier_mode: first_occurrence_order
+    escalation_targets:
+      - CHAIN_L4_PLAN_DISCOVER_CONSUME_DELIVER
+      - CHAIN_L5_PLAN_DISCOVER_CONSUME_COMPUTE_DELIVER
+    conflict_tags: [first_tool_locked, requires_planning, uses_consume, requires_deliver]
+    instr_types: [process-planning, artifact-deliverable]
+
+  # --- L = 4 (4 seeds) ---
+  - seed_id: CHAIN_L4_PLAN_ENV_DISCOVER_CONSUME
+    slot_pool: [S1]
+    axis: process_gating
+    primitive_type: chain
+    length_L: 4
+    abstract_stages: [PLAN, ENV, DISCOVER, CONSUME]
+    verifier_mode: first_occurrence_order
+    requires_local_or_compute: true
+    escalation_targets:
+      - CHAIN_L5_PLAN_ENV_DISCOVER_CONSUME_COMPUTE
+    conflict_tags: [first_tool_locked, requires_planning, uses_env, uses_discover, uses_consume]
+    instr_types: [process-planning, process-staging]
+
+  - seed_id: CHAIN_L4_PLAN_DISCOVER_CONSUME_COMPUTE
+    slot_pool: [S1]
+    axis: process_gating
+    primitive_type: chain
+    length_L: 4
+    abstract_stages: [PLAN, DISCOVER, CONSUME, COMPUTE]
+    verifier_mode: first_occurrence_order
+    requires_computation: true
+    escalation_targets:
+      - CHAIN_L5_PLAN_DISCOVER_CONSUME_COMPUTE_DELIVER
+    conflict_tags: [first_tool_locked, requires_planning, uses_discover, uses_consume, uses_compute]
+    instr_types: [process-planning, process-staging]
+
+  - seed_id: CHAIN_L4_PLAN_DISCOVER_CONSUME_DELIVER
+    slot_pool: [S1]
+    axis: process_gating
+    primitive_type: chain
+    length_L: 4
+    abstract_stages: [PLAN, DISCOVER, CONSUME, DELIVER]
+    verifier_mode: first_occurrence_order
+    escalation_targets:
+      - CHAIN_L5_PLAN_DISCOVER_CONSUME_COMPUTE_DELIVER
+      - INV_SOURCE_BEFORE_FETCH
+    conflict_tags: [first_tool_locked, requires_planning, uses_discover, uses_consume, requires_deliver]
+    instr_types: [process-planning, process-staging, artifact-deliverable]
+
+  - seed_id: CHAIN_L4_DISCOVER_CONSUME_COMPUTE_DELIVER
+    slot_pool: [S1]
+    axis: process_gating
+    primitive_type: chain
+    length_L: 4
+    abstract_stages: [DISCOVER, CONSUME, COMPUTE, DELIVER]
+    verifier_mode: first_occurrence_order
+    requires_computation: true
+    escalation_targets:
+      - CHAIN_L5_PLAN_DISCOVER_CONSUME_COMPUTE_DELIVER
+    conflict_tags: [first_tool_locked, uses_discover, uses_consume, uses_compute, requires_deliver]
+    instr_types: [process-staging, artifact-deliverable]
+
+  # --- L = 5 (3 seeds, Tier A long-horizon ladder) ---
+  - seed_id: CHAIN_L5_PLAN_ENV_DISCOVER_CONSUME_COMPUTE
+    slot_pool: [S1]
+    axis: process_gating
+    primitive_type: chain
+    length_L: 5
+    abstract_stages: [PLAN, ENV, DISCOVER, CONSUME, COMPUTE]
+    verifier_mode: first_occurrence_order
+    requires_local_or_compute: true
+    requires_computation: true
+    escalation_targets: []
+    conflict_tags: [first_tool_locked, requires_planning, uses_env, uses_discover, uses_consume, uses_compute]
+    instr_types: [process-planning, process-staging]
+
+  - seed_id: CHAIN_L5_PLAN_DISCOVER_CONSUME_COMPUTE_DELIVER
+    slot_pool: [S1]
+    axis: process_gating
+    primitive_type: chain
+    length_L: 5
+    abstract_stages: [PLAN, DISCOVER, CONSUME, COMPUTE, DELIVER]
+    verifier_mode: first_occurrence_order
+    requires_computation: true
+    escalation_targets: []
+    conflict_tags: [first_tool_locked, requires_planning, uses_discover, uses_consume, uses_compute, requires_deliver]
+    instr_types: [process-planning, process-staging, artifact-deliverable]
+
+  - seed_id: CHAIN_L5_ENV_DISCOVER_CONSUME_COMPUTE_DELIVER
+    slot_pool: [S1]
+    axis: process_gating
+    primitive_type: chain
+    length_L: 5
+    abstract_stages: [ENV, DISCOVER, CONSUME, COMPUTE, DELIVER]
+    verifier_mode: first_occurrence_order
+    requires_local_or_compute: true
+    requires_computation: true
+    escalation_targets: []
+    conflict_tags: [first_tool_locked, uses_env, uses_discover, uses_consume, uses_compute, requires_deliver]
+    instr_types: [process-staging, artifact-deliverable]
+
+  # =========================================================================
+  # PRIMITIVE II: Universal Precondition Invariants (4 seeds, forall calls)
+  # =========================================================================
+  - seed_id: INV_SOURCE_BEFORE_FETCH
+    slot_pool: [S1]
+    axis: process_gating
+    primitive_type: invariant
+    length_L: null
+    requires_web: true
+    conflict_tags: [uses_discover, uses_consume, web_only]
+    instr_types: [process-discovery, source-policy]
+
+  - seed_id: INV_LOCATE_BEFORE_READ
+    slot_pool: [S1]
+    axis: process_gating
+    primitive_type: invariant
+    length_L: null
+    requires_local_files: true
+    conflict_tags: [uses_discover, uses_consume, local_only]
+    instr_types: [process-staging]
+
+  - seed_id: INV_READONLY_BEFORE_WRITE
+    slot_pool: [S1]
+    axis: process_gating
+    primitive_type: invariant
+    length_L: null
+    conflict_tags: [uses_consume, requires_deliver]
+    instr_types: [process-staging]
+
+  - seed_id: INV_STEP_THINKING_REQUIRED
+    slot_pool: [S1, S2]
+    axis: cognitive_control
+    primitive_type: invariant
+    length_L: null
+    tool_family_override: agnostic
+    conflict_tags: [thinking_step_min]
+    instr_types: [thinking-discipline, process-gating]
+
+  # =========================================================================
+  # PRIMITIVE III: Cadence, Parallelism & Resource Gates (6 seeds)
+  # =========================================================================
+  - seed_id: CAD_MAX_PARALLEL_1
+    slot_pool: [S2]
+    axis: pacing_and_budgeting
+    primitive_type: cadence
+    length_L: null
+    tool_family_override: agnostic
+    conflict_tags: [parallel_pacing]
+    instr_types: [execution-pacing]
+
+  - seed_id: CAD_PERIODIC_PLAN_UPDATE
+    slot_pool: [S2]
+    axis: pacing_and_budgeting
+    primitive_type: cadence
+    length_L: null
+    tool_family_override: agnostic
+    conflict_tags: [first_tool_locked, requires_planning, periodic_plan]
+    instr_types: [process-planning, execution-pacing]
+
+  - seed_id: CAD_TOOL_REPEAT_LIMIT
+    slot_pool: [S2]
+    axis: pacing_and_budgeting
+    primitive_type: cadence
+    length_L: null
+    conflict_tags: [repeat_pacing]
+    instr_types: [execution-pacing, tool-budget]
+
+  - seed_id: CAD_ERROR_RETRY_CAP
+    slot_pool: [S2]
+    axis: pacing_and_budgeting
+    primitive_type: cadence
+    length_L: null
+    requires_web_or_error: true
+    conflict_tags: [error_retry]
+    instr_types: [execution-pacing, error-handling]
+
+  - seed_id: CAD_TOOL_BUDGET_TIGHT
+    slot_pool: [S2]
+    axis: pacing_and_budgeting
+    primitive_type: cadence
+    length_L: null
+    conflict_tags: [tool_budget]
+    instr_types: [tool-budget]
+
+  - seed_id: CAD_THINKING_PACING
+    slot_pool: [S2]
+    axis: cognitive_control
+    primitive_type: cadence
+    length_L: null
+    tool_family_override: agnostic
+    conflict_tags: [thinking_budget]
+    instr_types: [thinking-budget]
+
+  # =========================================================================
+  # PRIMITIVE IV: Conditional Branches & Milestones (4 seeds)
+  # =========================================================================
+  - seed_id: COND_MIN_SOURCES_BEFORE_DELIVER
+    slot_pool: [S2]
+    axis: process_gating
+    primitive_type: conditional
+    length_L: null
+    conflict_tags: [uses_consume, requires_deliver]
+    instr_types: [process-staging, artifact-deliverable]
+
+  - seed_id: COND_ERROR_BRANCH_PROTOCOL
+    slot_pool: [S2]
+    axis: process_gating
+    primitive_type: conditional
+    length_L: null
+    requires_web_or_error: true
+    conflict_tags: [conditional_heading, thinking_error_marker]
+    instr_types: [process-branching, artifact-structure]
+
+  - seed_id: COND_PRE_FINAL_SELF_CHECK
+    slot_pool: [S2]
+    axis: cognitive_control
+    primitive_type: conditional
+    length_L: null
+    tool_family_override: agnostic
+    conflict_tags: [thinking_final_marker]
+    instr_types: [thinking-discipline, process-verification]
+
+  - seed_id: COND_COMPUTE_VERIFY_REQUIRED
+    slot_pool: [S2]
+    axis: process_gating
+    primitive_type: conditional
+    length_L: null
+    requires_computation: true
+    conflict_tags: [uses_compute]
+    instr_types: [process-verification]
+
+  # =========================================================================
+  # COGNITIVE CONTROL (Pure Thinking Seeds for S2 rotation & Tier B)
+  # =========================================================================
+  - seed_id: THINK_LANGUAGE
+    slot_pool: [S2_THINK]
+    axis: cognitive_control
+    primitive_type: thinking
+    length_L: null
+    tool_family_override: agnostic
+    conflict_tags: [thinking_lang]
+    instr_types: [thinking-language]
+
+  - seed_id: THINK_BUDGET_TOTAL
+    slot_pool: [S2_THINK]
+    axis: cognitive_control
+    primitive_type: thinking
+    length_L: null
+    tool_family_override: agnostic
+    conflict_tags: [thinking_budget]
+    instr_types: [thinking-budget]
+
+  - seed_id: THINK_BUDGET_PER_STEP
+    slot_pool: [S2_THINK]
+    axis: cognitive_control
+    primitive_type: thinking
+    length_L: null
+    tool_family_override: agnostic
+    conflict_tags: [thinking_budget]
+    instr_types: [thinking-budget]
+
+  - seed_id: THINK_PLAN_BEFORE_ACT
+    slot_pool: [S2_THINK]
+    axis: cognitive_control
+    primitive_type: thinking
+    length_L: null
+    tool_family_override: agnostic
+    conflict_tags: [thinking_plan_marker]
+    instr_types: [thinking-discipline]
+
+  # =========================================================================
+  # SHORTCUT INHIBITION (For S2 rotation / Tier B)
+  # =========================================================================
+  - seed_id: INH_SOURCE_BLACKLIST
+    slot_pool: [S2]
+    axis: shortcut_inhibition
+    primitive_type: cadence
+    length_L: null
+    requires_web: true
+    conflict_tags: [source_blacklist]
+    instr_types: [source-policy]
+
+  # =========================================================================
+  # ARTIFACT & DELIVERABLE CONTRACTS (For S3 independent & Tier B)
+  # =========================================================================
+  - seed_id: ART_NO_MARKDOWN_TABLE
+    slot_pool: [S3]
+    axis: output_contract
+    primitive_type: artifact
+    length_L: null
+    conflict_tags: [format_no_table]
+    instr_types: [artifact-form]
+
+  - seed_id: ART_NO_LISTS
+    slot_pool: [S3]
+    axis: output_contract
+    primitive_type: artifact
+    length_L: null
+    conflict_tags: [format_no_lists]
+    instr_types: [artifact-form]
+
+  - seed_id: ART_NO_PREAMBLE
+    slot_pool: [S3]
+    axis: output_contract
+    primitive_type: artifact
+    length_L: null
+    conflict_tags: [format_opening]
+    instr_types: [artifact-form]
+
+  - seed_id: ART_NO_EMOJI
+    slot_pool: [S3]
+    axis: output_contract
+    primitive_type: artifact
+    length_L: null
+    conflict_tags: [format_no_emoji]
+    instr_types: [artifact-form]
+
+  - seed_id: ART_ANSWER_LENGTH
+    slot_pool: [S3]
+    axis: output_contract
+    primitive_type: artifact
+    length_L: null
+    conflict_tags: [format_length]
+    instr_types: [artifact-form]
+
+  - seed_id: ART_HEADINGS
+    slot_pool: [S3]
+    axis: output_contract
+    primitive_type: artifact
+    length_L: null
+    conflict_tags: [format_structure, conditional_heading]
+    instr_types: [artifact-structure]
+
+  - seed_id: ART_JSON_SCHEMA
+    slot_pool: [S3]
+    axis: output_contract
+    primitive_type: artifact
+    length_L: null
+    conflict_tags: [format_structure, format_json, format_opening, format_no_table, format_no_lists, conditional_heading]
+    instr_types: [artifact-structure]
+
+  - seed_id: ART_STRUCTURED_FILE_DELIVER
+    slot_pool: [S3]
+    axis: output_contract
+    primitive_type: artifact
+    length_L: null
+    conflict_tags: [requires_deliver]
+    instr_types: [artifact-deliverable]
+
+  - seed_id: ART_CITATION_RANGE
+    slot_pool: [S3]
+    axis: output_contract
+    primitive_type: artifact
+    length_L: null
+    requires_web: true
+    conflict_tags: [format_citation]
+    instr_types: [artifact-evidence]
+

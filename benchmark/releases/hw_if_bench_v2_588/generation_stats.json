@@ -1,0 +1,128 @@
+{
+  "tasks_count": 98,
+  "total_variants": 588,
+  "cold_start_tasks": 0,
+  "freebies_filtered_by_baseline_replay": 475,
+  "escalation_boosted_candidates": 158,
+  "anti_default_verified_variants": 588,
+  "anti_default_verified_rate": 1.0,
+  "process_workflow_variant_share": 0.6497,
+  "broad_process_plus_thinking_share": 0.75,
+  "tier_counts": {
+    "A": 294,
+    "B": 98,
+    "C": 98,
+    "D": 98
+  },
+  "tier_a_primitive_counts": {
+    "chain": 70,
+    "thinking": 40,
+    "artifact": 98,
+    "invariant": 28,
+    "cadence": 38,
+    "conditional": 20
+  },
+  "split_tier_a_primitive_counts": {
+    "V1_old50": {
+      "chain": 37,
+      "thinking": 20,
+      "artifact": 50,
+      "invariant": 13,
+      "cadence": 21,
+      "conditional": 9
+    },
+    "V2_naq48": {
+      "chain": 33,
+      "thinking": 20,
+      "artifact": 48,
+      "invariant": 15,
+      "cadence": 17,
+      "conditional": 11
+    }
+  },
+  "tier_a_chain_length_counts": {
+    "2": 16,
+    "3": 24,
+    "4": 20,
+    "5": 10
+  },
+  "tier_a_process_tool_family_counts": {
+    "compute": 35,
+    "agnostic": 29,
+    "local": 49,
+    "web": 43
+  },
+  "tier_a_seed_counts": {
+    "ART_NO_EMOJI": 12,
+    "ART_NO_LISTS": 11,
+    "ART_JSON_SCHEMA": 11,
+    "ART_HEADINGS": 11,
+    "ART_NO_MARKDOWN_TABLE": 11,
+    "ART_CITATION_RANGE": 11,
+    "ART_NO_PREAMBLE": 11,
+    "THINK_LANGUAGE": 10,
+    "THINK_BUDGET_TOTAL": 10,
+    "ART_STRUCTURED_FILE_DELIVER": 10,
+    "ART_ANSWER_LENGTH": 10,
+    "THINK_PLAN_BEFORE_ACT": 10,
+    "THINK_BUDGET_PER_STEP": 10,
+    "INV_STEP_THINKING_REQUIRED": 9,
+    "INV_READONLY_BEFORE_WRITE": 7,
+    "INV_LOCATE_BEFORE_READ": 7,
+    "CAD_TOOL_REPEAT_LIMIT": 6,
+    "CHAIN_L4_PLAN_ENV_DISCOVER_CONSUME": 6,
+    "CAD_TOOL_BUDGET_TIGHT": 6,
+    "COND_MIN_SOURCES_BEFORE_DELIVER": 6,
+    "CAD_ERROR_RETRY_CAP": 6,
+    "CHAIN_L3_PLAN_DISCOVER_CONSUME": 6,
+    "CHAIN_L3_ENV_DISCOVER_CONSUME": 5,
+    "CHAIN_L4_PLAN_DISCOVER_CONSUME_COMPUTE": 5,
+    "CHAIN_L4_PLAN_DISCOVER_CONSUME_DELIVER": 5,
+    "INH_SOURCE_BLACKLIST": 5,
+    "CAD_MAX_PARALLEL_1": 5,
+    "CAD_THINKING_PACING": 5,
+    "COND_PRE_FINAL_SELF_CHECK": 5,
+    "CAD_PERIODIC_PLAN_UPDATE": 5,
+    "CHAIN_L3_DISCOVER_CONSUME_DELIVER": 5,
+    "INV_SOURCE_BEFORE_FETCH": 5,
+    "COND_ERROR_BRANCH_PROTOCOL": 5,
+    "CHAIN_L3_DISCOVER_CONSUME_COMPUTE": 4,
+    "CHAIN_L2_CONSUME_COMPUTE": 4,
+    "CHAIN_L2_ENV_CONSUME": 4,
+    "COND_COMPUTE_VERIFY_REQUIRED": 4,
+    "CHAIN_L2_PLAN_DISCOVER": 4,
+    "CHAIN_L5_PLAN_ENV_DISCOVER_CONSUME_COMPUTE": 4,
+    "CHAIN_L3_PLAN_CONSUME_DELIVER": 4,
+    "CHAIN_L2_DISCOVER_CONSUME": 4,
+    "CHAIN_L4_DISCOVER_CONSUME_COMPUTE_DELIVER": 4,
+    "CHAIN_L5_PLAN_DISCOVER_CONSUME_COMPUTE_DELIVER": 3,
+    "CHAIN_L5_ENV_DISCOVER_CONSUME_COMPUTE_DELIVER": 3
+  },
+  "max_single_seed_count_tier_a": [
+    "ART_NO_EMOJI",
+    12
+  ],
+  "all_variants_axis_counts": {
+    "process_gating": 294,
+    "cognitive_control": 142,
+    "output_contract": 245,
+    "pacing_and_budgeting": 73,
+    "shortcut_inhibition": 12
+  },
+  "llm_stats": {
+    "calls": 86,
+    "cache_hits": 116,
+    "errors": 0,
+    "paraphrase_guard_fallbacks": 0
+  },
+  "llm_audit_warnings": 0,
+  "audit_auto_replacements": [
+    {
+      "group_id": "G-culture-deepsearchqa-003",
+      "variant_id": "S3",
+      "replaced_seed": "ART_ANSWER_LENGTH",
+      "new_seed": "ART_NO_EMOJI",
+      "reason": "700-character cap conflicts with the explicit exhaustive-list requirement."
+    }
+  ]
+}

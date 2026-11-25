@@ -1,6 +1,8 @@
 .secrets/
 data/
-scripts/
-dsh-runs/
+scripts/env.local.sh
+/dsh-runs/
 __pycache__/
 *.py[cod]
+deepseek-harness/attached_files/task_*/
+archive/legacy_datasets/baseline_fingerprint/dsh-runs/

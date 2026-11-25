@@ -115,7 +115,8 @@ def load_cases(source: Path, root: Path) -> list[dict[str, Any]]:
                 raise ValueError(f"{group_id}: attachment must be a nonempty path")
             candidate = Path(item)
             if not candidate.is_absolute():
-                candidate = source.parent / candidate
+                rel_to_source = source.parent / candidate
+                candidate = rel_to_source if rel_to_source.exists() else (root / candidate)
             attachment = candidate.resolve(strict=True)
             if not attachment.is_file() or not attachment.is_relative_to(root):
                 raise ValueError(f"{group_id}: attachment must be a regular file inside the repository: {item}")
@@ -490,13 +491,16 @@ class Runner:
             except ProcessLookupError:
                 pass
 
-    def execute(self, command: list[str], query: str, trace: Path, errors: Path) -> int:
+    def execute(self, command: list[str], query: str, trace: Path, errors: Path) -> tuple[int, bool]:
         grace = positive_env("DSH_BENCHMARK_STOP_GRACE_SECONDS", 20)
+        case_timeout = int(os.environ.get("DSH_BENCHMARK_CASE_TIMEOUT_SECONDS", "900"))
+        timed_out = False
         environment = {**os.environ, "DSH_E2B_TASK_FILE": str(trace.parent / "task.json")}
         with trace.open("wb") as stdout, errors.open("wb") as stderr:
             self.process = subprocess.Popen(command, cwd=self.root, env=environment, stdin=subprocess.PIPE,
                                             stdout=stdout, stderr=stderr, start_new_session=True)
             deadline: float | None = None
+            timeout_at: float | None = (time.monotonic() + case_timeout) if case_timeout > 0 else None
             try:
                 if os.name == "posix" and self.journal.exists():
                     pending = json.loads(self.journal.read_text(encoding="utf-8"))
@@ -511,11 +515,16 @@ class Runner:
                         break
                     except subprocess.TimeoutExpired:
                         incoming = None
-                        if self.interrupted is not None:
-                            deadline = deadline or time.monotonic() + grace
-                            if time.monotonic() >= deadline:
+                        now_mono = time.monotonic()
+                        if timeout_at is not None and not timed_out and now_mono >= timeout_at:
+                            timed_out = True
+                            self.terminate(signal.SIGTERM)
+                            deadline = now_mono + grace
+                        if self.interrupted is not None or timed_out:
+                            deadline = deadline or now_mono + grace
+                            if now_mono >= deadline:
                                 self.terminate(getattr(signal, "SIGKILL", signal.SIGTERM))
-                return self.process.returncode
+                return self.process.returncode, timed_out
             finally:
                 if self.process.poll() is None:
                     self.terminate(getattr(signal, "SIGKILL", signal.SIGTERM))
@@ -525,12 +534,41 @@ class Runner:
                     stream.flush()
                     os.fsync(stream.fileno())
 
+    @staticmethod
+    def _build_persona_suffix(case: dict[str, Any]) -> str | None:
+        variant = case.get("variant_metadata") or {}
+        instruction = (variant.get("instruction") or "").strip()
+        if not instruction:
+            return None
+        long_context = bool(variant.get("long_context"))
+        if long_context:
+            n_rec = int(variant.get("context_records") or 500)
+            filler = " ".join(f"Background record {i:04d} describes an archived neutral label." for i in range(n_rec))
+            cut = len(filler) // 2
+            boundary = filler.find(" ", cut)
+            cut = boundary if boundary >= 0 else len(filler)
+            suffix = filler[:cut] + "\n\n补充约束：" + instruction + "\n\n" + filler[cut:]
+        else:
+            suffix = "补充约束：" + instruction
+        # Defensively avoid strict {{variable}} interpolation errors in @deepseek-ai/dsh-system-prompt
+        return suffix.replace("{{", "{ {").replace("}}", "} }")
+
     def run_case(self, case: dict[str, Any]) -> dict[str, Any]:
         task_dir = self.records / case["group_id"] / case["variant_id"]
+        if task_dir.exists():
+            shutil.rmtree(task_dir)
         task_dir.mkdir(mode=0o700, parents=True, exist_ok=False)
         if not self.workspace.matches(self.workspace.scan()):
             raise ValueError("workspace differs from the saved baseline before the next variant")
+        apply_prompt = os.environ.get("DSH_APPLY_VARIANT_PROMPT", "1") == "1"
+        apply_uqa = os.environ.get("DSH_APPLY_USER_QUERY_APPEND", "1") == "1"
+        variant_meta = case.get("variant_metadata") or {}
+        uqa_text = (variant_meta.get("user_query_append") or "").strip()
+        uqa_applied = False
         query = case["user_query"]
+        if apply_uqa and uqa_text:
+            query += "\n\n" + uqa_text
+            uqa_applied = True
         if case["resolved_attached_files"]:
             query += "\n\nAttached files are available at the following paths. Read them as needed:\n" + "\n".join(
                 f"- {path}" for path in case["resolved_attached_files"])
@@ -543,34 +581,54 @@ class Runner:
             copy_verified(source, destination, expected)
             inputs.append({"source": source_text, "copy": str(destination), **expected})
         write_json(task_dir / "inputs" / "manifest.json", inputs)
-        write_json(task_dir / "task.json", {**case, "variant_system_prompt_applied": False,
+        prompt_patches: list[Path] = []
+        prompt_applied = False
+        suffix = self._build_persona_suffix(case) if apply_prompt else None
+        if suffix:
+            prompt_patch_file = task_dir / "variant_prompt.patch.yml"
+            patch_yaml = (
+                "- id: system-prompt\n"
+                "  config:\n"
+                f"    personaSuffix: {json.dumps(suffix, ensure_ascii=False)}\n"
+            )
+            write_text(prompt_patch_file, patch_yaml)
+            prompt_patches.append(prompt_patch_file)
+            prompt_applied = True
+        write_json(task_dir / "task.json", {**case, "variant_system_prompt_applied": prompt_applied,
+                                          "user_query_append_applied": uqa_applied,
                                           "effective_query": query, "provider": os.environ.get("DSH_MODEL_PROVIDER"), "started_at": now()})
         prompt_file = task_dir / "variant_system_prompt.txt"
         write_text(prompt_file, case["effective_system_prompt"])
         command = self.launcher + ["--profile", "headless"]
-        for patch in self.patches + simulated_user_patch(self.root, task_dir):
+        for patch in self.patches + prompt_patches + simulated_user_patch(self.root, task_dir):
             command.extend(("--patch", str(patch)))
         command.extend(("--json", "-"))
         started_at, started = now(), time.monotonic()
         write_json(self.journal, {"root": str(self.root), "records": str(self.records), "active_case": str(task_dir),
                                   "lock_file": os.environ.get("DSH_BENCHMARK_LOCK_FILE")})
         trace, diagnostics = task_dir / "trace.jsonl", task_dir / "diagnostics.log"
-        print(f"[benchmark] {case['group_id']}/{case['variant_id']}: starting", flush=True)
-        code = self.execute(command, query, trace, diagnostics)
+        print(f"[benchmark] {case['group_id']}/{case['variant_id']}: starting (sys_prompt={prompt_applied}, uqa={uqa_applied})", flush=True)
+        code, timed_out = self.execute(command, query, trace, diagnostics)
         executed = time.monotonic()
-        info, projection = read_trace(trace, None, query)
+        info, projection = read_trace(trace, case["effective_system_prompt"] if prompt_applied else None, query)
         write_json(task_dir / "trace.json", projection)
         write_text(task_dir / "final.txt", info["final_text"])
         archive_session(self.home, task_dir, info["session_id"])
         after = self.workspace.scan()
         self.workspace.archive(task_dir, after)
         recorded = time.monotonic()
+        status = (
+            "interrupted" if self.interrupted is not None
+            else ("timeout" if timed_out else ("succeeded" if code == 0 and info["final_event_seen"] and not info["parse_errors"] else "failed"))
+        )
         result = {
             "group_id": case["group_id"], "variant_id": case["variant_id"], "task_id": case["task_id"],
             "provider": os.environ.get("DSH_MODEL_PROVIDER"),
             "simulated_user_enabled": os.environ.get("DSH_SIM_USER", "0") == "1",
-            "variant_system_prompt_applied": False,
-            "status": "interrupted" if self.interrupted is not None else ("succeeded" if code == 0 and info["final_event_seen"] and not info["parse_errors"] else "failed"),
+            "variant_system_prompt_applied": prompt_applied,
+            "user_query_append_applied": uqa_applied,
+            "timed_out": timed_out,
+            "status": status,
             "exit_code": code, "started_at": started_at, "finished_at": now(),
             "duration_seconds": round(time.monotonic() - started, 3),
             "execution_duration_seconds": round(executed - started, 3),
@@ -663,6 +721,9 @@ def main() -> int:
             if missing:
                 raise ValueError(f"{variable} contains unknown identifiers: {sorted(missing)}")
             cases = [case for case in cases if case[field] in wanted]
+    if os.environ.get("DSH_BENCHMARK_LIMIT"):
+        limit = positive_env("DSH_BENCHMARK_LIMIT", len(cases))
+        cases = cases[:limit]
     if not cases:
         raise ValueError("benchmark selection is empty")
     records = Path(os.environ["DSH_BATCH_OUTPUT_DIR"]).resolve(strict=True)
@@ -672,31 +733,52 @@ def main() -> int:
         raise ValueError("benchmark records, DSH_HOME, and recovery journal must be outside the repository")
     if journal.exists():
         raise ValueError(f"pending workspace recovery: {journal}")
-    if (records / "plan.json").exists():
-        raise ValueError("benchmark output already exists; use a new DSH_BATCH_ID")
+    resume_mode = os.environ.get("DSH_BENCHMARK_RESUME", "0") == "1"
+    already_succeeded: set[tuple[str, str]] = set()
+    resuming_existing = resume_mode and (records / "plan.json").exists()
+    if (records / "plan.json").exists() and not resume_mode:
+        raise ValueError("benchmark output already exists; use a new DSH_BATCH_ID or set DSH_BENCHMARK_RESUME=1")
+    if resuming_existing and (records / "results.jsonl").is_file():
+        for line in (records / "results.jsonl").read_text(encoding="utf-8").splitlines():
+            if not line.strip():
+                continue
+            row = json.loads(line)
+            if row.get("status") == "succeeded":
+                already_succeeded.add((str(row["group_id"]), str(row["variant_id"])))
+        print(f"[benchmark] resume mode: {len(already_succeeded)} variants already succeeded and will be skipped", flush=True)
     patches = [Path(os.environ[name]).resolve(strict=True) for name in ("DSH_BATCH_PATCH_FILE", "DSH_BATCH_TOOLS_PATCH_FILE")]
     runner = Runner(root, records, home, journal, patches)
     signal.signal(signal.SIGTERM, runner.stop)
     signal.signal(signal.SIGINT, runner.stop)
-    write_json(records / "plan.json", {"root": str(root), "home": str(home), "provider": os.environ["DSH_MODEL_PROVIDER"], "input": str(source),
-                                       "simulated_user_enabled": os.environ.get("DSH_SIM_USER", "0") == "1",
-                                       "variant_system_prompt_applied": False,
-                                       "input_sha256": digest(source), "journal": str(journal),
-                                       "lock_file": os.environ["DSH_BENCHMARK_LOCK_FILE"],
-                                       "selected": [f"{case['group_id']}/{case['variant_id']}" for case in cases],
-                                       "patches": [{"path": str(path), "sha256": digest(path)} for path in patches]})
-    copy_verified(source, records / "benchmark_groups.json", {"size": source.stat().st_size, "sha256": digest(source)})
-    print(f"[benchmark] saving workspace baseline for {len(cases)} variants", flush=True)
-    runner.workspace.snapshot()
-    print(f"[benchmark] baseline saved ({len(runner.workspace.entries)} entries)", flush=True)
+    if not resuming_existing:
+        write_json(records / "plan.json", {"root": str(root), "home": str(home), "provider": os.environ["DSH_MODEL_PROVIDER"], "input": str(source),
+                                           "simulated_user_enabled": os.environ.get("DSH_SIM_USER", "0") == "1",
+                                           "variant_system_prompt_applied": os.environ.get("DSH_APPLY_VARIANT_PROMPT", "1") == "1",
+                                           "user_query_append_applied": os.environ.get("DSH_APPLY_USER_QUERY_APPEND", "1") == "1",
+                                           "input_sha256": digest(source), "journal": str(journal),
+                                           "lock_file": os.environ["DSH_BENCHMARK_LOCK_FILE"],
+                                           "selected": [f"{case['group_id']}/{case['variant_id']}" for case in cases],
+                                           "patches": [{"path": str(path), "sha256": digest(path)} for path in patches]})
+        copy_verified(source, records / "benchmark_groups.json", {"size": source.stat().st_size, "sha256": digest(source)})
+        print(f"[benchmark] saving workspace baseline for {len(cases)} variants", flush=True)
+        runner.workspace.snapshot()
+        print(f"[benchmark] baseline saved ({len(runner.workspace.entries)} entries)", flush=True)
+    else:
+        runner.workspace.load()
+        print(f"[benchmark] loaded saved workspace baseline ({len(runner.workspace.entries)} entries)", flush=True)
     results = []
     attempted = 0
+    skipped = 0
     fatal: str | None = None
+    open_mode = "a" if resuming_existing else "x"
     try:
-        with (records / "results.jsonl").open("x", encoding="utf-8", newline="\n") as stream:
+        with (records / "results.jsonl").open(open_mode, encoding="utf-8", newline="\n") as stream:
             for case in cases:
                 if runner.interrupted is not None:
                     break
+                if (case["group_id"], case["variant_id"]) in already_succeeded:
+                    skipped += 1
+                    continue
                 attempted += 1
                 try:
                     result = runner.run_case(case)
@@ -726,10 +808,10 @@ def main() -> int:
     finally:
         failed = sum(result["status"] != "succeeded" for result in results)
         summary = {"status": "interrupted" if runner.interrupted else ("failed" if failed or fatal else "succeeded"),
-                   "total": len(cases), "executed": attempted,
+                   "total": len(cases), "executed": attempted, "skipped": skipped,
                    "recorded_and_restored": sum(result["workspace_restore_status"] == "complete" for result in results),
                    "succeeded": len(results) - failed, "failed": failed,
-                   "not_run": len(cases) - attempted, "fatal": fatal, "signal": runner.interrupted, "finished_at": now()}
+                   "not_run": len(cases) - attempted - skipped, "fatal": fatal, "signal": runner.interrupted, "finished_at": now()}
         write_json(records / "summary.json", summary)
         print(f"[benchmark] summary: {json.dumps(summary, ensure_ascii=False)}", flush=True)
     return 128 + runner.interrupted if runner.interrupted else (1 if failed or fatal else 0)
